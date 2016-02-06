@@ -3,10 +3,10 @@
 #
 
 # Name of your site (displayed in the header)
-name: textt{ar}
+name: Abu A4
 
 # Short bio or description (displayed in the header)
-description: Arabic, linguistics, and TeX in various combinations.
+description: Arabic, linguistics, and TeX, in various combinations.
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 # avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
@@ -18,10 +18,10 @@ description: Arabic, linguistics, and TeX in various combinations.
 # Includes an icon in the footer for each username you enter
 footer-links:
   # dribbble:
-  # email:
+  email: andreasmhallberg@gmail.com
   # facebook:
   # flickr:
-  github: barryclark/jekyll-now
+  github: andreasmhallberg
   # instagram:
   # linkedin:
   # pinterest:
