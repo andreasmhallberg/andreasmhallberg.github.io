@@ -3,7 +3,11 @@
 #
 
 # Name of your site (displayed in the header)
+<<<<<<< HEAD
 name: Uppercase Alif
+=======
+name: Abu A4
+>>>>>>> a0f311b41d4e98242528595a8c56e959dc568cbe
 
 # Short bio or description (displayed in the header)
 description: Arabic, linguistics, and TeX in various combinations.
@@ -18,10 +22,10 @@ description: Arabic, linguistics, and TeX in various combinations.
 # Includes an icon in the footer for each username you enter
 footer-links:
   # dribbble:
-  # email:
+  email: andreasmhallberg@gmail.com
   # facebook:
   # flickr:
-  github: barryclark/jekyll-now
+  github: andreasmhallberg
   # instagram:
   # linkedin:
   # pinterest:
