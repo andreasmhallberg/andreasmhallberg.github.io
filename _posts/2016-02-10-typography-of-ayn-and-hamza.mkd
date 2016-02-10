@@ -33,7 +33,7 @@ Before we start we need the following in the preamble:
 ``` tex
 \usepackage{ifthen}
 \usepackage{fontspec}
-\setmainfont{Minion Pro} % or other font with a superscript c
+\setmainfont{Minion Pro}
 \usepackage{rotating}
 \usepackage{etoolbox}
 ```
