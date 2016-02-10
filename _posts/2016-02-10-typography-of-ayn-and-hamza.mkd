@@ -8,6 +8,7 @@ tags:
 - transcription
 ---
 
+{% raw %}
 # The typography of ʿ and ʾ and a LaTeX way of rendering them from scratch
 In this post I describe typographical problems introduced by the characters ʿ and&nbsp;ʾ used in transcription of Arabic and I present a font independent (well, largely) method of rendering them in LaTeX with the XeTeX engine. The code used for this is explained in some detail. In the end of this text the complete code is provided for readers uninterested in technicalities.
 
@@ -288,3 +289,5 @@ The code below can be added to the preamble without any further modifications to
 [^2]: I say 'I', it was with a lot of help from [TeX.SX](http://tex.stackexchange.com/). References will be provided below.
 [^3]: Another option is to mirror it. This would have the benefit of keeping the rounded end of the pen store in the upper part, keeping the design of the glyph. By rotating it we are basically reversing the troke, which is not not esthetically optimal. However, by rotating rather than mirroring it we make sure that it keeps its exact slant in the italic. Mirroring it makes it lean to left rather then the right, which of course will not do.
 [^4]: Partial sucess: <http://tex.stackexchange.com/questions/176335/alignment-of-arabic-transcriptions-%CA%BE-and-%CA%BF>
+
+{% endraw %}

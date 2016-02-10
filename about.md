@@ -4,12 +4,10 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I am a PhD candidate in Arabic linguistics at Lund University in Sweden. In this blog I write about Arabic, LaTeX, and other stuff that interests me. Some of it very narrow. Posts well be in English, Swedish and Arabic, depending on topic.
 
-### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[andreasmartenhallberg@gmail.com](andreasmartenhallberg@gmail.com)
