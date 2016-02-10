@@ -1,0 +1,180 @@
+\documentclass{article}
+
+\title{Kerning}
+
+\usepackage{array}
+\usepackage{ifthen}
+\usepackage{fontspec}
+% \usepackage{polyglossia}
+% \setmainlanguage{englis}
+\usepackage{etoolbox}
+\setmainfont{Minion Pro}
+
+
+\makeatletter
+% Dot below
+\let\d\relax
+\DeclareRobustCommand{\d}[1]
+   {\hmode@bgroup
+    \o@lign{\relax#1\crcr\hidewidth\ltx@sh@ft{-1ex}.\hidewidth}\egroup}
+\makeatother
+
+\makeatletter
+\newcommand*{\IfItElse}{%
+ \ifx\f@shape\my@test@it
+   \expandafter\@firstoftwo
+ \else
+   \expandafter\@secondoftwo
+ \fi
+}
+\newcommand*{\my@test@it}{it}
+\makeatother
+
+\catcode`ʾ=\active
+\catcode`ʿ=\active
+\defʿ{\ayn}
+\defʾ{\hamza}
+
+
+\robustify{ʿ}
+\robustify{ʾ}
+
+% Step 1
+% \newcommand\ayn{%
+% 	    \textsuperscript{c}%
+% 	{}}
+
+% \newcommand\hamza{%
+% 		\textsuperscript{\rotatebox[origin=c]{180}{c}}%
+% 	}
+
+% Step 2
+ % \newcommand\ayn{%
+	% \IfItElse{\kern.02em}{}%
+	    % \textsuperscript{c}%
+	% \IfItElse{\kern-.1em}{}%
+	% }
+
+% \newcommand\hamza{%
+	% \IfItElse{\kern.02em}{}%
+		% \textsuperscript{\rotatebox[origin=c]{180}{c}}%
+	% \IfItElse{\kern-.1em}{}%
+	% }
+
+
+% Step 3
+ \newcommand\ayn{%
+	^^^^feff%
+	\IfItElse{\kern.02em}{}%
+	    \textsuperscript{c}%
+	\IfItElse{\kern-.1em}{}%
+	^^^^feff%
+	}
+
+\newcommand\hamza{%
+	^^^^feff%
+	\IfItElse{\kern.02em}{}%
+		\textsuperscript{\rotatebox[origin=c]{180}{c}}%
+	\IfItElse{\kern-.1em}{}%
+	^^^^feff%
+	}
+
+
+\XeTeXinterchartokenstate=1
+
+\newXeTeXintercharclass\punct
+\XeTeXcharclass `\.=\punct
+\XeTeXcharclass `\,=\punct
+
+
+\newXeTeXintercharclass\capA
+\XeTeXcharclass `\A=\capA
+\XeTeXcharclass `\Ā=\capA
+
+\newXeTeXintercharclass\hyph
+\XeTeXcharclass `\-=\hyph
+
+
+\newXeTeXintercharclass\aynhamza
+\XeTeXcharclass "FEFF=\aynhamza % hamza and ayn
+
+\XeTeXinterchartoks \aynhamza \capA ={\kern -.1em} % ʿ/ʾ then A
+\XeTeXinterchartoks \capA \aynhamza ={\kern -.05em} %  A then ʿ/ʾ 
+
+\XeTeXinterchartoks \aynhamza \punct ={\kern -.15em} % ʿ/ʾ then ,/.
+
+\XeTeXinterchartoks \hyph \aynhamza ={\kern -.05em} % - then ʿ/ʾ 
+\XeTeXinterchartoks \aynhamza  \hyph={\kern -.05em} % ʿ/ʾ then - 
+
+
+% Step 4. (Keep 3 uncommented)
+
+
+
+
+
+\begin{document}
+\noindent
+\begin{tabular}{lll}
+muʿallim                   & fāʾida                   & ʿāʾila \\
+\bfseries muʿallim         & \bfseries fāʾida         & \bfseries ʿāʾila \\
+\itshape muʿallim          & \itshape fāʾida          & \itshape ʿāʾila \\
+\itshape\bfseries muʿallim & \itshape\bfseries fāʾida & \itshape\bfseries ʿāʾila \\
+\end{tabular}
+
+\vspace{2cm}
+
+\noindent
+\begin{tabular}{ll>{\itshape}l}
+ʿAbd al-Qādir & ʿAbd al-Qādir \\
+al-ʿilm       & al-ʿilm \\
+farʿ.         & farʿ. \\
+\end{tabular}
+
+\vspace{2cm}
+
+\noindent
+\begin{tabular}{l>{\itshape}l}
+ word          & word \\
+ word          & word \\
+ ʿilm          & ʿilm \\
+ word          & word \\
+ word          & word \\
+ word          & word \\
+\end{tabular}
+
+\vspace{2cm}
+
+\noindent
+\begin{tabular}{@{}llll}
+\itshape ʾana &\itshape ʿanjadd& \itshape ʿam & \itshape a\d{h}ki?\\
+I& seriously& \textsc{prog} & \textsc{1s}.speak\\
+\end{tabular}\\[\smallskipamount]
+`I'm speaking seriously.'
+
+
+\newcommand*{\la}{\hspace*{-.15em}ʿ}
+\newcommand*{\lh}{\hspace*{-.15em}ʾ}
+
+
+\clearpage
+\noindent
+\begin{tabular}{l>{\itshape}l}
+ word          & word \\
+ word          & word \\
+ \la{}ilm          & \la{}ilm \\
+ word          & word \\
+ word          & word \\
+ word          & word \\
+\end{tabular}
+
+\vspace{1cm}
+
+\noindent
+\begin{tabular}{@{}llll}
+\itshape \la{}ana &\itshape \la{}anjadd& \itshape \la{}am & \itshape a\d{h}ki?\\
+I& seriously& \textsc{prog} & \textsc{1s}.speak\\
+\end{tabular}\\[\smallskipamount]
+`I'm speaking seriously.'
+
+\end{document}
