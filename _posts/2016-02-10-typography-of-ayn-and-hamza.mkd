@@ -12,22 +12,22 @@ tags:
 In this post I describe typographical problems introduced by the characters ʿ and&nbsp;ʾ used in transcription of Arabic and I present a font independent (well, largely) method of rendering them in LaTeX with the XeTeX engine. The code used for this is explained in some detail. In the end of this text the complete code is provided for readers uninterested in technicalities.
 
 # Introduction
-Linguistic literature often use transcriptions of various kinds to represent features and sound that are not covered in any straightforward way by the Latin alphabet. In Arabic there are a number of sounds that have no representations in the Latin alphabet, and various systems have been devices to expand the Latin alphabet in order to accurately represent. Most of the extra characters in these systems are modifications of Latin letters. To represent the hissing sound of the Arabic letter&nbdsp;ح, for example, linguists often often use the letter *h* with a dot below:&nbsp;*ḥ*. Other fricatives sounds are often written with a line below a letter. To write the sound represented in the Arabic alphabet with&nbdsp;ذ, linguists use&nbsp;*d* with a line below:&nbdsp;*ḏ*. (This is pronounced with a tone, as *th* in *the*, and note the toneless *th* in *birth*.) These modified characters are from a typographical point of view largely unproblematic. The dot below is usually the same size and shape as the full stop of the font. The line below a letter often takes the same form of the macron&nbdsp;(¯). These modified characters are thus very simple to design with elements from the font, and since the modifications are vertical they do not interact with neighboring letters. The letters ʿ and&nbsp;ʾ are, typographically, completely different. 
+Linguistic literature often use transcriptions of various kinds to represent features and sound that are not covered in any straightforward way by the Latin alphabet. In Arabic there are a number of sounds that have no representations in the Latin alphabet, and various systems have been devices to expand the Latin alphabet in order to accurately represent. Most of the extra characters in these systems are modifications of Latin letters. To represent the hissing sound of the Arabic letter&nbsp;ح, for example, linguists often often use the letter *h* with a dot below:&nbsp;*ḥ*. Other fricatives sounds are often written with a line below a letter. To write the sound represented in the Arabic alphabet with&nbsp;ذ, linguists use&nbsp;*d* with a line below:&nbsp;*ḏ*. (This is pronounced with a tone, as *th* in *the*, and note the toneless *th* in *birth*.) These modified characters are from a typographical point of view largely unproblematic. The dot below is usually the same size and shape as the full stop of the font. The line below a letter often takes the same form of the macron&nbsp;(¯). These modified characters are thus very simple to design with elements from the font, and since the modifications are vertical they do not interact with neighboring letters. The letters ʿ and&nbsp;ʾ are, typographically, completely different. 
 
 ## The problem
-The Arabic letters (and sounds) *hamza*&nbdsp;(ء) and *ʿayn*&nbdsp;(ع) are transcribed as small, raised half circles, ʾ and&nbdsp;ʿ respectively (U+02BE and U+02BF). These characters are not modifications of letters but completely now characters added to the alphabet. As such they often interact with neighboring letters in ways that type designers have not accounted for and it is accordingly not uncommon to see very poor renderings of these characters. The introduction to the popular *al-Kitaab* series of Arabic text books[^1] provides an example of how things may go wrong:
+The Arabic letters (and sounds) *hamza*&nbsp;(ء) and *ʿayn*&nbsp;(ع) are transcribed as small, raised half circles, ʾ and&nbsp;ʿ respectively (U+02BE and U+02BF). These characters are not modifications of letters but completely now characters added to the alphabet. As such they often interact with neighboring letters in ways that type designers have not accounted for and it is accordingly not uncommon to see very poor renderings of these characters. The introduction to the popular *al-Kitaab* series of Arabic text books[^1] provides an example of how things may go wrong:
 
-![ʿ in *al-Kitaab*](2016-02-10/alkitaab.png) 
+![ʿ in *al-Kitaab*](/2016-02-10/alkitaab.png) 
 
-These characters typically receive little attention by type designers, which is of course understandable seeing to their very specialized use. This is particularly noticeable when it comes to kerning (spacing between letters), as in the example above. With these character being visually very light and often taking too much horizontal space they often split the word in two, not being able to fill up the space they occupy. In the examples below, this is particularly noticeable in Times New Roman. Gentium Plus, a free font designed to cover multiple languages, nicely solves the problem by making the symbol larger than in most other typefaces. Latin Modern Roman (which builds on Computer Modern that Knuth designed for TeX) is another free alternative with a vast range weights and glyphs for a large number of languages. It's&nbdsp;ʿ is in fact a superscript&nbdsp;*c*. 
+These characters typically receive little attention by type designers, which is of course understandable seeing to their very specialized use. This is particularly noticeable when it comes to kerning (spacing between letters), as in the example above. With these character being visually very light and often taking too much horizontal space they often split the word in two, not being able to fill up the space they occupy. In the examples below, this is particularly noticeable in Times New Roman. Gentium Plus, a free font designed to cover multiple languages, nicely solves the problem by making the symbol larger than in most other typefaces. Latin Modern Roman (which builds on Computer Modern that Knuth designed for TeX) is another free alternative with a vast range weights and glyphs for a large number of languages. It's&nbsp;ʿ is in fact a superscript&nbsp;*c*. 
 
-![ʿ in various fonts](2016-02-10/infonts.png)
+![ʿ in various fonts](/2016-02-10/infonts.png)
 
-The problem I faced when writing my thesis was that I wanted to use Minion Pro, which does not have these characters its set of glyphs. Hence the space in the last example above. I wanted to create this character with the superscript&nbdsp;*c*, as in Latin Modern. I like this design because it gives the characters more of a visual status as proper letter, as they are in Arabic. A nice thing with the superscript font is also that it exploits the work done by the type designer to make this smaller letter optically balanced with the other characters. Taking a regular small&nbdsp;*c* and shrink it down would make it too thin and light. The superscript, as also small caps, is not simply smaller, it as also fatter to give it more wight.
+The problem I faced when writing my thesis was that I wanted to use Minion Pro, which does not have these characters its set of glyphs. Hence the space in the last example above. I wanted to create this character with the superscript&nbsp;*c*, as in Latin Modern. I like this design because it gives the characters more of a visual status as proper letter, as they are in Arabic. A nice thing with the superscript font is also that it exploits the work done by the type designer to make this smaller letter optically balanced with the other characters. Taking a regular small&nbsp;*c* and shrink it down would make it too thin and light. The superscript, as also small caps, is not simply smaller, it as also fatter to give it more wight.
 
-Writing in LaTeX, I could do this by in effect creating a new character, so that when in the source code the is a&nbdsp;`ʿ`, this is printed in the text with the character the superscript *c*. To make the&nbdsp;ʾ (*hamza*), this&nbdsp;*c* should be rotated 180 degrees so that the opening faces the left. 
+Writing in LaTeX, I could do this by in effect creating a new character, so that when in the source code the is a&nbsp;`ʿ`, this is printed in the text with the character the superscript *c*. To make the&nbsp;ʾ (*hamza*), this&nbsp;*c* should be rotated 180 degrees so that the opening faces the left. 
 
-The approach below has been adjusted for Adobe's Minion Pro, but it can in be used with any font that has a superscript&nbdsp;c, perhaps with some tweaking in kerning values. This method requires the document to be compiled with the XeTeX engine. 
+The approach below has been adjusted for Adobe's Minion Pro, but it can in be used with any font that has a superscript&nbsp;c, perhaps with some tweaking in kerning values. This method requires the document to be compiled with the XeTeX engine. 
 
 Before we start we need the following in the preamble:
 
@@ -40,7 +40,7 @@ Before we start we need the following in the preamble:
 ```
 
 ## 1: Making the characters
-First we need the actual characters bound to commands which we call `\ayn` and `\hamza`. The&nbdsp;ʿ is simply this superscript&nbdsp;*c*. To make the&nbdsp;ʾ we rotate the character 180 degrees around its center.[^3] Finally we bind these to the input characters `ʿ` and&nbdsp;`ʾ` by changing the catcode (category code) of these characters to active, basically making them one letter commands, and defining them as `\ayn` and `\hamza`.  
+First we need the actual characters bound to commands which we call `\ayn` and `\hamza`. The&nbsp;ʿ is simply this superscript&nbsp;*c*. To make the&nbsp;ʾ we rotate the character 180 degrees around its center.[^3] Finally we bind these to the input characters `ʿ` and&nbsp;`ʾ` by changing the catcode (category code) of these characters to active, basically making them one letter commands, and defining them as `\ayn` and `\hamza`.  
 
 ``` tex
 \newcommand\hamza{\textsuperscript{%
@@ -57,13 +57,13 @@ First we need the actual characters bound to commands which we call `\ayn` and `
 \defʾ\hamza
 ```
 
-![output1](output1.png)
+![output1](/2016-02-10/output1.png)
 
 
 The characters look nice, but as you can see the kerning in the italic is pretty bad. We need to fix this. 
 
 ## 2: Kerning
-This space after the&nbdsp;ʿ in the italic is too large and it sits a bit to tight on the preceding letter. In linguistic literature, transcriptions are by convention in italics, so this will usually be the form ʾ and&nbdsp;ʿ shows up in. The kerning in the upright roman is OK for now.
+This space after the&nbsp;ʿ in the italic is too large and it sits a bit to tight on the preceding letter. In linguistic literature, transcriptions are by convention in italics, so this will usually be the form ʾ and&nbsp;ʿ shows up in. The kerning in the upright roman is OK for now.
 
 We need to have different kerning on the upright and the italic and so need to make the kerning italic sensitive. One way to make a command to test for italicness is the following:
 
@@ -80,7 +80,7 @@ We need to have different kerning on the upright and the italic and so need to m
 \makeatother
 ```
 
-We add this to the preamble somewhere. This gives the command `\IfItElse` that takes two arguments. The first states what happens if the text is italic, the second what happens if it is not. By changing the commands of the new characters by placing this before and after, with different kernings in the two arguments, we can add or remove space before and after these characters in these two conditions. With the new commands below a small space of 0.02&nbdsp;em (two hundreds of an width of a capital&nbdsp;M) is added before the letter, but only it is in italic, and the space after the letter is reduced by 0.1&nbdsp;em., but only in italic. (It always surprises me how very small differences in spacing are clearly noticeable.) 
+We add this to the preamble somewhere. This gives the command `\IfItElse` that takes two arguments. The first states what happens if the text is italic, the second what happens if it is not. By changing the commands of the new characters by placing this before and after, with different kernings in the two arguments, we can add or remove space before and after these characters in these two conditions. With the new commands below a small space of 0.02&nbsp;em (two hundreds of an width of a capital&nbsp;M) is added before the letter, but only it is in italic, and the space after the letter is reduced by 0.1&nbsp;em., but only in italic. (It always surprises me how very small differences in spacing are clearly noticeable.) 
 
 ``` tex
 \newcommand\ayn{%
@@ -98,17 +98,17 @@ We add this to the preamble somewhere. This gives the command `\IfItElse` that t
 
 And this is the output:
 
-![output2](2016-02-10/output2.png)
+![output2](/2016-02-10/output2.png)
 
 This is much better. We could stop here. But we won't. The tricky thing with kerning is that it needs to be different for different character combinations. Look at this example, produced with the command above:
 
-![output3](2016-02-10/output3.png)
+![output3](/2016-02-10/output3.png)
 
-Each line here shows&nbdsp;ʿ in combinations with characters that give odd spacing. In the firs word the diagonal side of&nbdsp;A leaves to much space. In the second the space after the hyphen below the&nbdsp;ʿ makes the word seem disjointed. Since the Arabic definite article *al* is usually written with a hyphen, this combination is very frequent. In the last word the space below the&nbdsp;ʿ makes the punctuation mark seem much too lonely.
+Each line here shows&nbsp;ʿ in combinations with characters that give odd spacing. In the firs word the diagonal side of&nbsp;A leaves to much space. In the second the space after the hyphen below the&nbsp;ʿ makes the word seem disjointed. Since the Arabic definite article *al* is usually written with a hyphen, this combination is very frequent. In the last word the space below the&nbsp;ʿ makes the punctuation mark seem much too lonely.
 
 In XeTeX, we can fix this with `interchartoks`. With these we can specify groups of characters (and each group may contain only one character) and have a command automatically inserted between specific character groups whenever they are in direct succession. This can be exploited for kerning of specific character combinations.
 
-First we need to turn this feature on with `\XeTeXinterchartokenstate=1`. We then declare the three different groups we need with `\newXeTeXintercharclass` and assign characters to each group with `\XeTeXcharclass`. (Note that&nbdsp;`Ā` are included in the same group as`A`, and&nbdsp;`,` as the same group as&nbdsp;`.` since these give rise to the same problem and need the same kerning.) 
+First we need to turn this feature on with `\XeTeXinterchartokenstate=1`. We then declare the three different groups we need with `\newXeTeXintercharclass` and assign characters to each group with `\XeTeXcharclass`. (Note that&nbsp;`Ā` are included in the same group as`A`, and&nbsp;`,` as the same group as&nbsp;`.` since these give rise to the same problem and need the same kerning.) 
 
 ``` tex
 \XeTeXinterchartokenstate=1
@@ -130,7 +130,7 @@ First we need to turn this feature on with `\XeTeXinterchartokenstate=1`. We the
 \XeTeXcharclass "FEFF=\aynhamza % hamza and ayn
 ```
 
-The last class here is where things get tricky. We now need to assign a character class to our newly created ʿ and&nbdsp;ʾ. The problem is that XeTeX will not see  ʿ and&nbdsp;ʾ but the&nbdsp;*c* in the underlaying code that renders them. And we do not want this kerning also to apply to the cA combination. So we cant assign&nbdsp;*c* to this class. One of the wizards at TEX.SE came up with [this solution](http://tex.stackexchange.com/questions/180409/xetex-kerning-with-newunicodechar): we include in the commands generating our new characters a Unicode character that takes no space and that is unused. Enter U+FEFF, aka *zero width no-break space*. We put this at the beginning and the end of the character commands, with a somewhat odd annotation: 
+The last class here is where things get tricky. We now need to assign a character class to our newly created ʿ and&nbsp;ʾ. The problem is that XeTeX will not see  ʿ and&nbsp;ʾ but the&nbsp;*c* in the underlaying code that renders them. And we do not want this kerning also to apply to the cA combination. So we cant assign&nbsp;*c* to this class. One of the wizards at TEX.SE came up with [this solution](http://tex.stackexchange.com/questions/180409/xetex-kerning-with-newunicodechar): we include in the commands generating our new characters a Unicode character that takes no space and that is unused. Enter U+FEFF, aka *zero width no-break space*. We put this at the beginning and the end of the character commands, with a somewhat odd annotation: 
 
 ``` tex
  \newcommand\ayn{%
@@ -150,13 +150,13 @@ The last class here is where things get tricky. We now need to assign a characte
 	}
 ```
 
-Now what LaTeX (really XeTeX) will see when when it comes across a&nbdsp;ʿ in the input file is something like 
+Now what LaTeX (really XeTeX) will see when when it comes across a&nbsp;ʿ in the input file is something like 
 
 ```
 [U+FEFF]c[U+FEFF]
 ```
 
-We can then assign FEFF to a XeTeX character class to represent ʿ and&nbdsp;ʾ, as is done in the last `\XeTeXcharclass` in the declarations above.
+We can then assign FEFF to a XeTeX character class to represent ʿ and&nbsp;ʾ, as is done in the last `\XeTeXcharclass` in the declarations above.
 
 We now declare kerning commands to be inserted between these combinations of character classes. Note that you need to be explicit about the ordering of character classes and that different orderings may have different results.
 
@@ -172,22 +172,22 @@ We now declare kerning commands to be inserted between these combinations of cha
 
 Now the output looks like this:
 
-![output4](2016-02-10/output4.png)
+![output4](/2016-02-10/output4.png)
 
-Much better. Just applying these kernings will improve the text considerably. There are however many more combinations of ʿ and&nbdsp;ʾ with other characters that would need costume kerning. You can add kerning as they show up.
+Much better. Just applying these kernings will improve the text considerably. There are however many more combinations of ʿ and&nbsp;ʾ with other characters that would need costume kerning. You can add kerning as they show up.
 
 ## 3: Alignment in tabular environments 
-One further typographical problem with ʿ and&nbdsp;ʾ is that they look odd when they are the first letter in word appearing in a list or a similarly  aligned environment. The space beneath the word initial ʿ and&nbdsp;ʾ makes the word look indented. This problem is likely to appear in any list of Arabic words or names: 
+One further typographical problem with ʿ and&nbsp;ʾ is that they look odd when they are the first letter in word appearing in a list or a similarly  aligned environment. The space beneath the word initial ʿ and&nbsp;ʾ makes the word look indented. This problem is likely to appear in any list of Arabic words or names: 
 
-![output5](2016-02-10/output5.png)
+![output5](/2016-02-10/output5.png)
 
 In linguistic literature this also often shows up in glossed examples since the transcription is aligned with the translation:
 
-![output6](2016-02-10/output6.png)
+![output6](/2016-02-10/output6.png)
 
 This may by matter of taste, but it really annoys me, especially with *ʾana*s alignent to I. Articles in linguistics will often have dozens uf such examples, so it really builds up quickly.
 
-What we want here is the ʿ and&nbdsp;ʾ to protrude slightly to the left to get a better optically alignment. Any automatic solution to this would be tricky.[^4] What I've done in these cases is simply to write custom command instead of ʿ and&nbdsp;ʾ. These command names are best kept short since you might have to write them a lot of tomes and to make the legibility of the source code suffer as little as possible. We can define `\la` (left *ʿayn*) and `\lh` (left *hamza*) to use in these situations:
+What we want here is the ʿ and&nbsp;ʾ to protrude slightly to the left to get a better optically alignment. Any automatic solution to this would be tricky.[^4] What I've done in these cases is simply to write custom command instead of ʿ and&nbsp;ʾ. These command names are best kept short since you might have to write them a lot of tomes and to make the legibility of the source code suffer as little as possible. We can define `\la` (left *ʿayn*) and `\lh` (left *hamza*) to use in these situations:
 
 ``` tex
 \newcommand*{\la}{\hspace*{-.2em}ʿ}
@@ -196,7 +196,7 @@ What we want here is the ʿ and&nbdsp;ʾ to protrude slightly to the left to get
 
 These prints the appropriate character but with a small negative space of 0.2&nbsp;preceding them, pulling them slightly to the left. And we get something much prettier:
 
-![output7](2016-02-10/output7.png)
+![output7](/2016-02-10/output7.png)
 
 
 ## Conclusion
