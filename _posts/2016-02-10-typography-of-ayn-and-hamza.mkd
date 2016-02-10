@@ -3,7 +3,7 @@ layout: post
 title: The typography of ʿ and ʾ and a LaTeX method for rendering them from scratch
 permalink: /typographyofaynandhamza/
 language: en
-tags: [typography, transcription]
+tags: typography,transcription
 ---
 
 
