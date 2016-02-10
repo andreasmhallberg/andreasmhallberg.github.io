@@ -9,7 +9,6 @@ tags:
 ---
 
 {% raw %}
-# The typography of ʿ and ʾ and a LaTeX way of rendering them from scratch
 In this post I describe typographical problems introduced by the characters ʿ and&nbsp;ʾ used in transcription of Arabic and I present a font independent (well, largely) method of rendering them in LaTeX with the XeTeX engine. The code used for this is explained in some detail. In the end of this text the complete code is provided for readers uninterested in technicalities.
 
 # Introduction
