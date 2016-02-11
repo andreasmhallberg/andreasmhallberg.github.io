@@ -1,3 +1,9 @@
+---
+layout: post
+title: Attempts at Arabic smilies
+permalink: /attemptsatarabicsmilies/
+---
+
 # Attempts at Arabic smilies
 
 &#x202b;
