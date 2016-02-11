@@ -4,8 +4,6 @@ title: Attempts at Arabic smilies
 permalink: /attemptsatarabicsmilies/
 ---
 
-# Attempts at Arabic smilies
-
 &#x202b;
 ْـ ْ
 
@@ -17,7 +15,5 @@ permalink: /attemptsatarabicsmilies/
 
 &#x202b;
 ه  ه  
-\ \ د  
-لـــا  
-
-
+&nbsp;د  
+لــــا  
