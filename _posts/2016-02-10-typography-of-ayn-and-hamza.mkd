@@ -11,7 +11,7 @@ tags:
 {% raw %}
 In this post I describe typographical problems introduced by the characters ʿ and&nbsp;ʾ used in transcription of Arabic and I present a font independent (well, largely) method of rendering them in LaTeX with the XeTeX engine. The code used for this is explained in some detail. In the end of this text the complete code is provided for readers uninterested in technicalities.
 
-# Introduction
+## Introduction
 Linguistic literature often use transcriptions of various kinds to represent features and sound that are not covered in any straightforward way by the Latin alphabet. In Arabic there are a number of sounds that have no representations in the Latin alphabet, and various systems have been devices to expand the Latin alphabet in order to accurately represent. Most of the extra characters in these systems are modifications of Latin letters. To represent the hissing sound of the Arabic letter&nbsp;ح, for example, linguists often often use the letter *h* with a dot below:&nbsp;*ḥ*. Other fricatives sounds are often written with a line below a letter. To write the sound represented in the Arabic alphabet with&nbsp;ذ, linguists use&nbsp;*d* with a line below:&nbsp;*ḏ*. (This is pronounced with a tone, as *th* in *the*, and note the toneless *th* in *birth*.) These modified characters are from a typographical point of view largely unproblematic. The dot below is usually the same size and shape as the full stop of the font. The line below a letter often takes the same form of the macron&nbsp;(¯). These modified characters are thus very simple to design with elements from the font, and since the modifications are vertical they do not interact with neighboring letters. The letters ʿ and&nbsp;ʾ are, typographically, completely different. 
 
 ## The problem
@@ -39,7 +39,7 @@ Before we start we need the following in the preamble:
 \usepackage{etoolbox}
 ```
 
-## 1: Making the characters
+## Making the characters
 First we need the actual characters bound to commands which we call `\ayn` and `\hamza`. The&nbsp;ʿ is simply this superscript&nbsp;*c*. To make the&nbsp;ʾ we rotate the character 180 degrees around its center.[^3] Finally we bind these to the input characters `ʿ` and&nbsp;`ʾ` by changing the catcode (category code) of these characters to active, basically making them one letter commands, and defining them as `\ayn` and `\hamza`.  
 
 ``` tex
@@ -62,7 +62,7 @@ First we need the actual characters bound to commands which we call `\ayn` and `
 
 The characters look nice, but as you can see the kerning in the italic is pretty bad. We need to fix this. 
 
-## 2: Kerning
+## Kerning
 This space after the&nbsp;ʿ in the italic is too large and it sits a bit to tight on the preceding letter. In linguistic literature, transcriptions are by convention in italics, so this will usually be the form ʾ and&nbsp;ʿ shows up in. The kerning in the upright roman is OK for now.
 
 We need to have different kerning on the upright and the italic and so need to make the kerning italic sensitive. One way to make a command to test for italicness is the following:
@@ -176,7 +176,7 @@ Now the output looks like this:
 
 Much better. Just applying these kernings will improve the text considerably. There are however many more combinations of ʿ and&nbsp;ʾ with other characters that would need costume kerning. You can add kerning as they show up.
 
-## 3: Alignment in tabular environments 
+## Alignment in tabular environments 
 One further typographical problem with ʿ and&nbsp;ʾ is that they look odd when they are the first letter in word appearing in a list or a similarly  aligned environment. The space beneath the word initial ʿ and&nbsp;ʾ makes the word look indented. This problem is likely to appear in any list of Arabic words or names: 
 
 ![output5](/images/output5.png)
