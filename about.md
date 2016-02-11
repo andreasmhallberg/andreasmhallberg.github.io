@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I am a PhD candidate in Arabic linguistics at Lund University in Sweden. In this blog I write about Arabic, LaTeX, and other stuff that interests me. Some of it very narrow. Posts well be in English, Swedish and Arabic, depending on topic.
+I am a PhD candidate in Arabic linguistics at Lund University in Sweden. In this blog I write about Arabic, LaTeX, and other stuff that interests me. Some of it may be very narrow and specialized, so be warned. Posts well be posted in English, Swedish and Arabic, depending on topic.
 
 
 
