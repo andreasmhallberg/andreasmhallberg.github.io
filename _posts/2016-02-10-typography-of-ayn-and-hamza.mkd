@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The typography of ʿ and ʾ and a LaTeX method for rendering them from scratch
+title: The typography of ʿ and ʾ and a LaTeX method to render them from scratch
 permalink: /typographyofaynandhamza/
 language: en
 tags:
