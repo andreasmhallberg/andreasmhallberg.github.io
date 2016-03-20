@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Typing in Swedish with American keyboard layout in Vim 
+title: Typing Swedish with American keyboard layout in Vim 
 permalink: /swewithuskblayout/
 language: en
 tags:
