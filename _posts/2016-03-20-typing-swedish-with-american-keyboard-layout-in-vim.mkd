@@ -20,12 +20,12 @@ Now, every now and again I need to write something in Swedish. The common way of
 
 A solution to this problem in Vim, where I do almost all kinds of typing anyways, is to configure a pseudo-Swedish keyboard layout that only adds the `å`, `ä`, and `ö` without moving other characters around. However, adding these keys to the American layout according to their normal position on the Swedish keyboard masks some characters by now occupying their positions on the keyboard making them no longer accessible. More specifically:
 
-`å`  |  covers | `[`
-`Å`  |  covers | `{`
-`ä`  |  covers | `'`
-`Ä`  |  covers | `"`
-`ö`  |  covers | `;`
-`Ö`  |  covers | `:`
+`å` masks `[`
+`Å` masks `{`
+`ä` masks `'`
+`Ä` masks `"`
+`ö` masks `;`
+`Ö` masks `:`
 
 Mapping these covered characters to other physical keys on the keyboard is not a good solution if your are often switching between layouts, since it messes up all your muscle memory. Moving them would also mask other characters and just move the problem around. Instead, I opted to have the masked characters remain and have them accessed with double key presses, so that pressing `åå` produces `[`, `ÅÅ` produces `{`, etc. Luckily, in Swedish you never type double å, ä, or ö, so these double key sequences are a "free space" on the keyboard. (In fact, typing the previous sentence was the only time I have ever had to type any of these letters twice.) This solution is a much smaller adaptation of the American layout than remapping them to other keys and a lot easier than having everything mover around whenever you are switching between the two layouts.
 
