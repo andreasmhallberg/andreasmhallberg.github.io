@@ -1,4 +1,28 @@
-# Lughat ad-dad
+---
+layout: post
+title: Language idelogy on Al&nbsp;Jazera: *Taṭ al-mahjar - Luġat aḍ-ḍād*
+permalink: /typographyofaynandhamza/
+language: en
+tags:
+- typography
+- transcription
+- LaTeX
+---
+
+
+# Language idelogy on Al&nbsp;Jazera: *Taṭ al-mahjar - Luġat aḍ-ḍād*
+
+December 4 2014 Al~Jazeera showed the documentary [*Lisān aḍ-ḍād yajmiʿunā*](http://www.aljazeera.net/programs/infocus/2013/12/4/لسان-الضاد-يجمعنا) [The language of ḍād unites us] as part of the *Taḥt al-mahjar* series of documentaries produced inhouse by Al~Jazeera. The program is interesting in that it so clearly illustrate the Arabic language ideology in action, covering virtually all its aspects, being in effect and inventory of commonly held concerns about the current state of Arabic. The documentary presents a gloomy and sad picture of the state of Arabic as a language that is surrounded and threatened both of outside and inside forces, some of which have, allegedly, an direct agenda to marginalize the Arabic language. Many of these concerns, although not all, are ill founded or based on highly dubious ideas about what languages are, how they change, and what "good" language is.
+
+This post post consists a fairly thorough list of the content of the views presented in this documentary, illustrated with quotes. The list presents the material in the order it is dealt with in the documentary with sectioning added here. Time references to the documentary are given in parenthesis. These are hyperlinked to the appropriate section of the documentary on YouTube. 
+
+There are some comments to be made before listing the content of the documentary. First, the views presented in the documentary are taken to be the views of Al~Jazeera. It is produced by them and no 
+
+Harresande men inte ovanliga i arabisk offentlig diskurs (ref till min avhandling) 
+om sprak. Ocksa privat uttryckta asiker.
+
+
+
 
 ## Intro
 - Inleds med faktarutor mot bakgrund av ungdomar som sjunger en sång om arabisk enhet
@@ -6,7 +30,7 @@
     - På 65% av Jordanska hemsidor används aammiyya eller arabizi.
     - Ca 40% av butiksskyltarna i Kairo är på engelska.
     - Mer än 300 miljoner människor pratar arabiska.
-    - (02:18)I 26 länder är arabaiska ett huvudspråk.
+    - (02:18) I 26 länder är arabaiska ett huvudspråk.
 
 ## Engelska som hot
 - (02:50) Muḥammad al-Ḥammādī: Engelsa är globaliseringens och teknologisns språk i Hela världen. 
@@ -18,6 +42,7 @@
     - Ny teknolgi
     - Globaliserad ekonomi
     - Sättet barn uppfostras
+
 ## Torrt
 - (05:07) Problem att barn upplever arabiska som torrt och tråkigt och stelt (medan engelska upplevs som spännande. Lärare fastlåsta i undervisningsmaterial som ofta är tråkig. Pedagogok i engelska mer utvecklad än i arabiska. Språkligt material ofta ålderdomligt (poesi).
 
@@ -27,7 +52,7 @@
 - (08:20) Språket kan uttrycka allt i alla moderna vetenskaper. Problemet är att talarna inte utvecklar sig själva. Arabisk vetenskap är eftersatt.
 
 - (09:15):
->العيب مش كله على اللغة. العيب على المتحدثين باللغة.
+> العيب مش كله على اللغة. العيب على المتحدثين باللغة.
 
 ## Akademierna 
 (09:25)
@@ -40,13 +65,13 @@
 
 ## Barnprogram på SA
 (12:30) 
-- Iftah ya samsam
+- *Iftaḥ yā simsim*
 - Barnprogram lyckades dra barnen till Arabiska. Prisas. 
 - (13:40) Idag är barnprogram på dialekt.
 
 ## Dialekter
 (14:00)
-- (14:25) Dr. Aḥmad al-Xaṭīb: Dialekten är "wasila tadawuliyya" som vi använder för att prata med varandra med. 
+- (14:25) Dr. Aḥmad al-Xaṭīb: Dialekten är *wasīla tadāwuliyya* som vi använder för att prata med varandra med. 
 > أين الخطر؟ أين الخطر؟ الخطر أن نضع العامية موضع الفصحى, في العلم وفي الفن في كتابة التراث. اللحجات لا قواعدة لها. البيت, المنزل, أي شيء, أي مؤسسة, إذا لم تكن لها أعمدة تكوم عليعا فعلى أي شيء تكوم. لاك قيامة لها. اللحجات على هذه الصورة.
 - (15:00) Dr. Samir Kibrīt: 
 > العاميى ليس لها مستقبل.

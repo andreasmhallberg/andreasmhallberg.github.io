@@ -8,7 +8,7 @@ tags:
 ---
 
 {% raw %}
-In this post I describe a method for typing Swedish in Vim using the American keyboard layout with minimal changes to the latter. 
+In this post I describe a method for typing Swedish in Vim using the American keyboard layout with minimal changes. 
 
 When writing some sort of computer code, the American keyboard layout is more convenient than the Swedish one that most swedes are used to. This is because most of the meta characters, `\` and `{`, for instance, are more readily available. These are direct key presses on the American layout whereas they require combinations with the ALT-key in the Swedish layout. For writing LaTeX this makes things a lot easier since you need these particular characters for code incorporated in the prose text. Since most of the things I write are in English I don't need the `å`, `ä`, and `ö` most of the time and usually keep to the American layout.
 
