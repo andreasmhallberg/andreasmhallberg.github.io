@@ -16,13 +16,13 @@ One of the things we are usually not aware of when reading is that the eye moves
 
 This is illustrated in the video below. It shows my eye-movements, that is, where I am looking, in real time when I read a pdf with an article in my field that I hadn't read before. Each line in the video is a saccade and each circle a fixation. (The data has been cleaned from noise and some other effects. More on this below.) The particular equipment used to record this data is not the most accurate and the text on the screen is very small, so the recorded movements are a bit off. It is for example difficult to see exactly which line I am reading at any given time. But you can clearly see the stepwise motions of reading. Notice also how I move down to read the footnotes, and then also for some reason check out the page header before moving on.
 
-<iframe width="400" height="700" src="/images/2016-03-31-eye-movements-in-reading/article.small.mp4" frameborder="0" allowfullscreed> </iframe>
+<iframe width="400" height="600" src="/images/2016-03-31-eye-movements-in-reading/article.small.mp4" frameborder="0" allowfullscreen> </iframe>
 
 The video below shows me slowly and carefully reading a line of Arabic text. As you can see I read this sentence fairly slowly. This data was recorded with larger text and with equipment giving much more accurate data. The eye-tracker used here records the position of the eye once every millisecond and was recorded with my chin and forehead resting on a stand to ovoid unwanted head movement. The green circle in the video shows how my eye moves.[^1] 
 
 [^1]: Only one eye is normally recorded in eye-tracking studied since the two eyes move more or less in parallel anyway.
 
-<iframe width="300" height="200" src="/images/2016-03-31-eye-movements-in-reading/etvideoraw.mp4" frameborder="0" allowfullscreed> </iframe>
+<iframe width="300" height="200" src="/images/2016-03-31-eye-movements-in-reading/etvideoraw.mp4" frameborder="0" allowfullscreen> </iframe>
 
 Even if I am reading very slowly it is a bit difficult to follow. So instead we can draw all the recorded eye-positions (1000 per second) on the line of text. In the image below they are shown as blue dots.   
 
