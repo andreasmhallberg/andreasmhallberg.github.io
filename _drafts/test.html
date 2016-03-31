@@ -14,10 +14,10 @@
 <td align="left">layout: post</td>
 </tr>
 <tr class="even">
-<td align="left">title: Typing Swedish with American keyboard layout in Vim</td>
+<td align="left">title: Eye-movements in reading: a teaser</td>
 </tr>
 <tr class="odd">
-<td align="left">permalink: /swewithusakblayout/</td>
+<td align="left">permalink: /eye-movements-in-reading/</td>
 </tr>
 <tr class="even">
 <td align="left">language: en</td>
@@ -26,89 +26,35 @@
 <td align="left">tags:</td>
 </tr>
 <tr class="even">
-<td align="left">- Vim</td>
+<td align="left">- eye-tracking</td>
+</tr>
+<tr class="odd">
+<td align="left">- reading</td>
 </tr>
 </tbody>
 </table>
-<h2 id="using-the-american-keyboard-layout">Using the American keyboard layout</h2>
-<p>When writing some sort of computer code, the American keyboard layout is more convenient than the Swedish one I had learned to use since most of the meta characters, <code>\</code> and <code>{</code>, for instance, is more readily available. These are direct key presses on the American layout whereas they require combinations with the ALT-key in the Swedish layout. For writing LaTeX this makes things a lot easier since you need these particular characters also for declarations incorporated in the prose text. Since most of the things I wrote at the time were in English anyways and I didn't need the <code>å</code>, <code>ä</code>, and <code>ö</code> made accessible the Swedish layout, I used the American layout more or less permanently.</p>
-<div class="figure">
-<img src="/images/kblayoutusa.png" alt="American keyboard layout" /><p class="caption">American keyboard layout</p>
-</div>
-<div class="figure">
-<img src="/images/kblayoutswe.png" alt="Swedish keyboard layout" /><p class="caption">Swedish keyboard layout</p>
-</div>
-<h2 id="switches-to-bad-swedish-layout">Switches to (bad) Swedish layout</h2>
-<p>Now, every now and again I need to write something in Swedish. The common way of doing this - and the way I did it for a while - was to use the keyboard layout switching of the operating system. This can be set to switch between the two layouts above and it can be mapped to some easily accessed key combination. I have it set to COMMAND-SPACE. This is quite convenient, especially since it works in most applications. The problem with this is that the Swedish keyboard layout not only adds the three Swedish characters relative to the American layout, it also moves a whole bunch characters around, including <code>?</code>, <code>:</code>, <code>;</code>, <code>-</code>, <code>&quot;</code>, <code>&amp;</code>, <code>*</code>, <code>\</code>, <code>/</code>, <code>`</code>, and all three pairs of brackets (<code>[</code>, <code>(</code>, <code>{</code>). So if you are used to the position of the positioning of these characters in the American layout, things get very confusing, even when writing normal prose.</p>
-<h2 id="swedish-in-vim">Swedish in Vim</h2>
-<p>A solution in Vim to this problem is to configure a pseudo-Swedish keyboard layout that only adds the <code>å</code>, <code>ä</code>, and <code>ö</code> without moving other characters around. Adding these keyes according to their normal mappings in the Swedish layout to the American layout covers some characters however. More specifically:</p>
-<p><code>å</code> | covers | <code>[</code> <code>Å</code> | covers | <code>{</code> <code>ä</code> | covers | <code>'</code> <code>Ä</code> | covers | <code>&quot;</code> <code>ö</code> | covers | <code>;</code> <code>Ö</code> | covers | <code>:</code></p>
-<p>Mapping these covered characters to other physical keys on the keyboard is utterly annoying if your are often switching between layouts. Instead, I opted to have the covered keys with double key presses, so that pressing <code>åå</code> produces <code>[</code>, <code>ÅÅ</code> produces <code>{</code>, etc. Luckily, in Swedish you never type. This, I believe, is a much smaller adaptation of the American layout, that remapping them to other keyes and a lot easier to get used to.</p>
-<p>Switching from the American layout, which is superior if programming is involved due to non-alphabetical characters being more accessible, to a layout including Swedish characters thus requires a minimal layout change, and no relearning of key position, and no relearning of key positions.</p>
-<p>This setup is accomplished by having the code below in the <code>.vimrc</code>. This code maps the pseudo-Swedish layout described above to <code>\s</code> (or whatever you have the leader key set to). <code>\e</code> switches back to American layout, basically by re- and undoing the Swedish mappings. The switches also changes the language of the spell checker according to the language you are writing in. Note that the code below also remaps the <code>r</code> operation to work as expected with the appropriate keys.<sup><a href="#fn1" class="footnoteRef" id="fnref1">1</a></sup></p>
-<pre class="vim"><code>&quot; Switch to Swedish
-function! SweType()
-  set spelllang=sv
-  inoremap ; ö
-  nnoremap r; rö
-  inoremap ;; ;
-  nnoremap r;; r;
-  inoremap : Ö
-  nnoremap r: rÖ
-  inoremap :: :
-  nnoremap r:: r:
-  inoremap [ å
-  nnoremap r[ rå
-  inoremap { Å
-  nnoremap r{ rÅ
-  inoremap &#39; ä
-  nnoremap r&#39; rä
-  inoremap &#39;&#39; &#39;
-  nnoremap r&#39;&#39; r&#39;
-  inoremap &quot; Ä
-  nnoremap r&quot; rÄ
-  inoremap &quot;&quot; &quot;
-  nnoremap r&quot;&quot; r&quot;
-  inoremap [[ [
-  nnoremap r[[ r[
-  inoremap {{ {
-  nnoremap r{{ r{
-endfunction
-nmap &lt;Leader&gt;s :&lt;C-U&gt;call SweType()&lt;CR&gt;
+<p>I am currently involved in an eye tracking study investigating some aspects of reading in Arabic. Eye tracking is a research method in which a persons eyes movements are recorded while he or she does some sore sort of task. By analyzing the eye movement it is possible to see exactly were that person is looking at a certain point in time and based on this data to draw conclusions about mental activities during that task. One of the areas where eye tracking technology has had a major impact is research on reading. For adult, proficient readers, reading is a highly automatic activity, to the degree that we are not aware exactly of what we are doing when we read. You sometimes get the feeling that words are beamed straight into your brain without even passing the eye. Only occasionally do we have to stop to decipher the odd word or backtrack to reread some portion of the text. Eye tracking offers an interesting way to do very precise measurements of what it is we are doing when we read, how the eyes move, whereto, and how quickly, and, by extension, to show with great detail how we process text.</p>
+<p>Most modern eye tracking equipment works by filming they eye whilst shining infrared light on it. It records the position of the pupil and the of the reflection of the infrared light in the eye and from that information the computer calculates the angle of the eye-ball at any given time. From this information it is possible to tell what point the person is looking at at a surface in front of them, typically a computer screen.</p>
+<p>One of the things we are usually not aware of when reading is that the eye moves in jerky, stepwise motions. We typically have the sensation when we read of the eye moving smoothly across the line of text, but in fact it moves in a series very quick movements and then then stops for a little while to take in information. During the movements, called <em>saccades</em>, we are in effect blind since the eye moves so quickly that we cannot perceive anything. The movement only serves to let us move the eye to another part of the text where we make the next brief stop, called <em>fixation</em>, during which the eye takes in information before the eye jumps to another location in the text. The brain then smoothens out these pieces of information so that we experience it as a smooth motion.</p>
+<p>This is illustrated in the video below. It shows my eye-movements, that is, where I am looking, in real time when I read a pdf with an article in my field that I hadn't read before. Each line in the video is a saccade and each circle a fixation. (The data has been cleaned from noise and some other effects. More on this below.) The particular equipment used to record this data is not the most accurate and the text on the screen is very small, so the recorded movements are a bit off. It is for example difficult to see exactly which line I am reading at any given time. But you can clearly see the stepwise motions of reading. Notice also how I move down to read the footnotes, and then also for some reason check out the page header before moving on.</p>
+<iframe width="400" height="600" src="../images/2016-03-31-eye-movements-in-reading/article.small.mp4" frameborder="0" allowfullscreed> </iframe>
 
-&quot; Switch to English
-function! EngType()
-  set spelllang=en_us
-  inoremap ; ;
-  unmap r;
-  iunmap ;;
-  unmap r;;
-  inoremap : :
-  unmap r:
-  iunmap ::
-  unmap r::
-  inoremap [ [
-  unmap r[
-  iunmap [[
-  unmap r[[
-  inoremap { {
-  unmap r{
-  iunmap {{
-  unmap r{{
-  inoremap &#39; &#39;
-  unmap r&#39;
-  iunmap &#39;&#39;
-  unmap r&#39;&#39;
-  inoremap &quot; &quot;
-  unmap r&quot;
-  iunmap &quot;&quot;
-  unmap r&quot;&quot;
-endfunction
-nmap &lt;Leader&gt;e :&lt;C-U&gt;call EngType()&lt;CR&gt;</code></pre>
+<p>The video below shows me slowly and carefully reading a line of Arabic text. As you can see I read this sentence fairly slowly. This data was recorded with larger text and with equipment giving much more accurate data. The eye-tracker used here records the position of the eye once every millisecond and was recorded with my chin and forehead resting on a stand to ovoid unwanted head movement. The green circle in the video shows how my eye moves.<sup><a href="#fn1" class="footnoteRef" id="fnref1">1</a></sup></p>
+<iframe width="400" height="200" src="../images/2016-03-31-eye-movements-in-reading/etvideoraw.mp4" frameborder="0" allowfullscreed> </iframe>
+
+<p>Even if I am reading very slowly it is a bit difficult to follow. So instead we can draw all the recorded eye-positions (1000 per second) on the line of text. In the image below they are shown as blue dots.</p>
+<div class="figure">
+<img src="../images/2016-03-31-eye-movements-in-reading/et.raw.png" alt="Raw eye-movement on a line of Arabic text" /><p class="caption">Raw eye-movement on a line of Arabic text</p>
+</div>
+<p>You can see the clusters of blue dots on each word, with a squiggly line between each cluster. Each cluster is a fixation, were I keep my eye more or less steady for a short period of time, and the lines between them are saccades. The strange long downward movement from the last, leftmost word in the sentence is me closing my eye. As the eyelid moves down it covers part of the pupil so that the eye-tracker only sees the lower part of it and calculates its center to be further down, thus recording a downward movement of the eye.</p>
+<p>Now, we know that the eye moves in saccades (quick motions during which we are blind) and fixations (periods of relative stillness between saccades). So we can say that all recorded positions where the eye does not move much, clusters of blue in the image above, are fixations, and that quick movements are cascades. We then get something that can be illustrated as in the image below.</p>
+<p><img src="../images/2016-03-31-eye-movements-in-reading/et.fixations.png" alt="Fixations and saccades on a line of Arabic text" />.</p>
+<p>The orange lines in this image represent saccades. The light blue circles represent fixations with numbers indicating the duration of these fixations in milliseconds. You can see, for example, that longer words, such as the second and the third word from the right, there are long fixations of more than half a second. On the two instances of the short word <em>fī</em> 'in' (fifth and tenth from the right) the fixations are much shorter. When you read normally, these kinds of small function words are normally completely skipped and are not fixated at all. We process them in our peripheral vision when fixating other words. Notice in the video above of me fairly quickly reading an article how there are only so many fixations (circles in the video) on each line, much fewer than the number of words on each line. Many words are skipped.</p>
+<p>Thus, with moder eye-tracking methods you can get a very precise description of how the eyes move when reading a certain text. Do this on a number of people and you can see exactly what words are difficult, where people have to backtrack to reread, or how reading as an actual physical activity differs between different kinds of reader, different kinds of texts, or between languages with different writing systems.</p>
 <div class="footnotes">
 <hr />
 <ol>
-<li id="fn1"><p><a href="http://vi.stackexchange.com/questions/5517/imap-and-the-r-operation"><code class="url">http://vi.stackexchange.com/questions/5517/imap-and-the-r-operation</code></a><a href="#fnref1">↩</a></p></li>
+<li id="fn1"><p>Only one eye is normally recorded in eye-tracking studied since two eyes move more or less in parallel anyway.<a href="#fnref1">↩</a></p></li>
 </ol>
 </div>
 </body>

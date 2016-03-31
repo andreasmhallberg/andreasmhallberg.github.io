@@ -4,6 +4,7 @@ title: The typography of ʿ and ʾ and a method to render them from scratch in L
 permalink: /typographyofaynandhamza/
 language: en
 tags:
+- Arabic
 - typography
 - transcription
 - LaTeX
