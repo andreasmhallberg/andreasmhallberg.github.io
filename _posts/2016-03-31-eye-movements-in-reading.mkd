@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Eye-movements in reading: a teaser'
-permalink: /eye-movements-in-reading/
+permalink: /eye-movements-in-reading-teaser/
 language: en
 tags:
 - eye-tracking
