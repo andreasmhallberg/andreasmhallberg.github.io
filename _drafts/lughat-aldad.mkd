@@ -10,7 +10,7 @@ tags:
 ---
 
 
-# Language idelogy on Al&nbsp;Jazera: *Taṭ al-mahjar - Luġat aḍ-ḍād*
+# Language idelogy on Al&nbsp;Jazera: *Taḥt al-mahjar - Luġat aḍ-ḍād*
 
 December 4 2014 Al~Jazeera showed the documentary [*Lisān aḍ-ḍād yajmiʿunā*](http://www.aljazeera.net/programs/infocus/2013/12/4/لسان-الضاد-يجمعنا) [The language of ḍād unites us] as part of the *Taḥt al-mahjar* series of documentaries produced inhouse by Al~Jazeera. The program is interesting in that it so clearly illustrate the Arabic language ideology in action, covering virtually all its aspects, being in effect and inventory of commonly held concerns about the current state of Arabic. I do not claim to make any new observation about Arabic language ideology, or about standard language ideology at large, only to offer an empirical example of how such ideologies are expressed in practice.
 
@@ -23,16 +23,15 @@ The views are presented by speakers appearing either as experts---academic schol
 ## The sorry state of Arabic
 The documentary is introduced with lines of texts giving facts illustrating the sorry state of the Arabic language set in contrast to its status as a global language (01:32): 
 
->    - Det finns 22 universitet i Emiraten. Endast i ett undervisas det på arabiska.
 >    - There are 22 universities in the AUE, only in one is Arabic taught.
->    - 65% of Jordanian homepages uses either dialectal Arabic or Arabizi.
+>    - 65% of Jordanian homepages use either dialectal Arabic or Arabizi .
 >    - Ca. 40% of shop signs in  Cairo are in English.
 >    - More than 300 milion persons speak Arabic.
->    - Arabic is an oficial language in 26 countries.
+>    - Arabic is an official language in 26 countries.
 
 The domination of English in modern globalization and technology is said to be a major reason for the weakness and marginalization of Arabic (02:50). 
 > &rlm;فبالتالي هذا كله تسحب من رصيدك انت كلغة أم.
-- Dr. Aḥmad al-Xaṭīb, after establishing the fact of the weakness of Arabic (&rlm;ضعف اللعة العربية&rlm;), lists several more reasons for this (04:15):
+- Dr. Aḥmad al-Xaṭīb, after establishing the fact of the weakness (&rlm;ضعف&rlm;) of Arabic, lists several more reasons for this weakness (04:15):
     - other foreign languages
     - the dialects
     - media
@@ -40,7 +39,7 @@ The domination of English in modern globalization and technology is said to be a
     - the globalized economy
     - the way children are raised
 
-Another problem is the experience of school children of Arabic as a dry, boring, and lifeless language. It is taught old textual material, often poetry, to which children cannot relate. Often teachers cannot use other material since the curriculum is es strictly regulated. This is put in contrast with English teaching in which a more modern pedagogy and more engaging teaching materials are used (05:07).
+Another problem is the experience of school children of Arabic as a dry, boring, and lifeless language. It is taught through old textual material, often poetry, to which children cannot relate. Often teachers are not allowed use other material since the curriculum is strictly regulated. This is put in contrast with English teaching in which a more modern pedagogy and more engaging teaching materials are used (05:07).
 
 A recurring theme in the documentary is the separation from the Arabic language from its speakers. This makes it possible lay the blame of the weakness of Arabic on the speakers. This is first done in a connection with the ability of Arabic to adapt to modern society and technology (07:59). The Arabic language, it is said, can express everything related to all modern technologies. The problem is not in the language but in the fact that the Arabs are underdeveloped, especially in the sciences (08:20). Thus:
 
@@ -80,4 +79,56 @@ X agrees: messages written not only in the dialects, but also with Latin charact
 - (20:40) Intervju med förälder som skickar sina barn till en engelsk skola.
 - (20:00) Folk talar om engelskspråkiga skolor mot bakgrund av sorglig musik.
 - (20:30) Dominerar högre utbildning.
-- (27:00) Ungdomar som presenterar sig och talar om sig själva på engelska.
+- (27:00) Tonåringar som presenterar sig och talar om sig själva på engelska.
+- (27:55) Mamma i Dubay beklagar sig över att hon inte har uppmuntrat sin son att prata arabisk.
+- (29:50) Föräldrar pratar med sina barn på engelska och är stolta över att de pratar engelska.
+- (29:30) Skolor som undervisar på engelska lägger också större vikt vid västernländsk historia och litteratur.
+- (30:00) Deras lojalitet är inte vid den arabiska kulturen och nationen utan vid en främmnade, utländsk kultur.
+- (30:40) Araber som pratar engelska förlorar sin identitet.
+- (30:20) "Språket är kulturens behållare". Exempel med Oxford Dictionary: Palestine = "the origanl land of jews." 
+
+> بعلى الدارس باللغة اإنجليزية أن تأدخذ لهذا المفهوم
+
+> He whose studies are in English will receive this concept.
+
+- (32:10)
+> اللغة هي التي تحدد الصورة الذهنية والصورة الذهنية هي التي ْْتبني XXX التفكير. كونٌ. اللغة تباعه استُعرت فهو غدى إيسان مستعمرة. دماغه أُحتُل.
+
+> The language is what defines the mental image and the mental image XXX thaught. His language has been colonized, and therefore he is a colonized human being.
+
+- (32:30) Exempel med Palestina. Den som tar sitt språk från väst pratar om murern, som om det bara handlade om muren, medan det egentligen handlar förtryck och ockupation. 
+
+- (33:00) Den som får sin kultur och sin bildning från ett annat språk kommer att bygga sin identitet utifrån den kulturen. Han kommer att förlora sin *ʿurūba*.
+
+- (33:30) Klassskillnad mellan dem som går i språkskola och dem som går i vanlig offentlig skola. Dessa känner sig underlägsna.
+- (33:50) Känslan av vikten av att kunna ett främmande språk är överdriven. Kommer ur arabernas känsla av underlägsenhet mot Väst.
+
+- (34:20) Känsla av att vara besegrad gör att araber söker ta till sig allt de kan från kulturen av den som har besegrat dem. Ser sin egen kultur som efterbliven.
+
+- (35:35) Vi försöker bygga en ny renässans mha utländska språk och västerländsk kultur, genom använda det i applicerade vetenskaper och science. Men detta har misslyckats. Glappet i vetenskap mellan arabvärlden och väst är fortfarande stor. 
+
+- (36:35) En ny *nahḍa* kräver en ny generation som talar arabiska -- modersmålet i landet där de lever.
+
+- (37:45) Jämförelsen med herbreiska i Israel. Återupplivade ett språk som idag fyller alla samhällsfunktion. I arabiska säga man att Arabiska inte är lämpat för det moderna samhället. De lyckades bygga ett samhälle och en identitet kring detta språk medan araber har misslyckats.
+
+- (39:10) Araberna är den enda nationen i världen där man överger sitt eget språk när man lär sig ett nytt.
+
+- (39:30) Framgångsrika länder har bevarat sitt språk. Sydkorea. Liknande utgångspunkt som arabländer. 
+
+
+## Slutpoänger
+
+Musiken blir lugnt hoppfull.
+
+- (41:25) Den stora uppgiften den kommande tiden är att befästa vår tro (*imān*) på vårt språk, så att vi är stolta över det och glada över att tala det. Sedan gör det inget om vi pratar andra språk.
+
+- (42:00) Att prata ockuperarens språk är att ge upp sin existens (*wujūd*) identitet (*huwuyya*) (*kaynūna*).
+
+- (43:15) Antyder att arabiska riskerar att dö ut.
+
+- (43:50)
+> نسيان اللغة معناها نيسيان التتاريخ معناها نسيان التراث. وهذا أمر تعمل عليه الدول الأجنبية ليلا نهارا, كيف تمحوا ذاكرتنا القديمة من أجل إلحاقنا لغربها الاقتصاضي المستفل لثرواتنا ولطاقاتنا.
+
+Detta är vad som har hänt i Irak. De stal och exporterade det kulturella och intelektuella arvet. Alla bibliotek och museum plundrades och exporterade.
+
+- (44:50) Det är inte första gången det arabiska språket möter en sådan här utmaning. Efter den muslimska expansionen mötte den kulturellt överlägsna språk, men kom ut starkare än innan.

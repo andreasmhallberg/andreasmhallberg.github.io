@@ -1,0 +1,105 @@
+---
+layout: post
+title: Language ideology on Al&nbsp;Jazera: *Taṭ al-mahjar - Luġat aḍ-ḍād*
+permalink: /typographyofaynandhamza/
+language: en
+tags:
+- typography
+- transcription
+- LaTeX
+---
+
+
+# Language idelogy on Al&nbsp;Jazera: *Taḥt al-mahjar - Luġat aḍ-ḍād*
+
+December 4 2014 Al~Jazeera showed the documentary [*Lisān aḍ-ḍād yajmiʿunā*](http://www.aljazeera.net/programs/infocus/2013/12/4/لسان-الضاد-يجمعنا) [The language of ḍād unites us] as part of the *Taḥt al-mahjar* series of documentaries produced inhouse by Al~Jazeera. The program is interesting in that it so clearly illustrate the Arabic language ideology in action, covering virtually all its aspects, being in effect and inventory of commonly held concerns about the current state of Arabic. I do not claim to make any new observation about Arabic language ideology, or about standard language ideology at large, only to offer an empirical example of how such ideologies are expressed in practice.
+
+The documentary presents a gloomy and sad picture of the state of Arabic as a language that is surrounded and threatened both of outside and inside forces, some of which have, allegedly, an direct agenda to marginalize the Arabic language. Many of these concerns, although not all, are ill founded or based on highly dubious ideas about what languages are, how they change, and what "good" language is.
+
+The views are presented by speakers appearing either as experts---academic scholars, teachers, and other intellectuals---or as ``ordinary people'' sharing their experiences with Arabic. These views are taken to be the views of Al~Jazeera. It is produced by the channel and no opposing views critical to the dominant discourse are aired. Even statements that are highly dubious, uttered from scholars of languge---for example that the dialects have no grammar or that a speaker who mixes Arabic with other languages is himself ``misshapen'' (*mušawwah*)---are left uncommented.
+
+This post consists a fairly thorough list of the content of the views presented in this documentary, illustrated with quotes. Time references to the documentary are given in parenthesis. These are hyperlinked to the appropriate section of the documentary on YouTube. The content of the documentary as presented here does not strictly follow the order in which it is presented in the documentary itself but is arranged according to some main themes.  These main themes are what is presented as the two threats to the Arabic language: foreign languages, particularly English, and the Arabic dialects.
+
+## The sorry state of Arabic
+The underlining assumption throughout the documentary is that Arabic is under severe, and possibly an existential threat. The documentary is introduced with lines of texts giving facts illustrating the sorry state of the Arabic language set in contrast to its status as a global language (01:32):
+
+>    - There are 22 universities in the AUE, only in one is Arabic taught.
+>    - 65% of Jordanian homepages use either dialectal Arabic or Arabizi .
+>    - Ca. 40% of shop signs in  Cairo are in English.
+>    - More than 300 milion persons speak Arabic.
+>    - Arabic is an official language in 26 countries.
+
+
+## English 
+The first major threat to Arabic and one of the causes of its weakness in is the dominance of English, primarily in connection with modern technology (02:50, 07:59). New technologies and devices come with their English names and terminologies which are taken up by Arabic speakers 
+
+Severe critique is levels against the language academies in this regard. Their coining of new words come too late, after a loan word for the new phenomena has been firmly established, and their new coinage is thus ignored (09:25). This is contrasted against the Golden Era of the Abbasid Empire when the Arabic language was in the front lines of science.[^1] The strength of this era is said to be in that foreign sciences were translated into Arabic (11:12) and taught and studied in Arabic rather than in their original languages (11:50). Syria, where the science are taught in Arabic in universities, is held up as an example of how this is possible also in modern times, despite the global dominance of English in the global scientific community (12:20).
+
+This is first done in a connection with the ability of Arabic to adapt to modern society and technology. The Arabic language, it is said, can express everything related to all modern technologies. The problem is not in the language but in the fact that the Arabs are underdeveloped, especially in the sciences (08:20). Thus:
+
+> The fault lies not with the language. The fault lies with the speakers of the language.
+> العيب مش كله على اللغة. العيب على المتحدثين باللغة (09:15).
+
+The marginalization of Arabic through the introduction of English comes also through the adaption of its alphabet. The Latin alphabet is often used to write Arabic in instant messages on mobile phones, in the so called "Arabizi" (17:20). Although it started as a necessity---in the early mobile phones there were no Arabic characters--its consequences are portrayed as nothing short of catastrophic. al-Xatībī explaines that the Arabic language has been misshapen (*al-luga al-ʿarabiyya šuwwihat*) by the use of foreign words and a foreign form of writing. This has wide reaching moral implications: 
+
+    > This means that the person in front of you must also be misshapen. He is by necessity misshapen. Because he is not able to speak [proper] Arabic and he does not master the English language.  
+    > فبالتالي لا بد أن يكون الأنسان الذي أمامك أيضا مشوه. لا بد أن يكون مشوه. فلا هو قادر أن يتكلم العربية ولا هو قادر أن يتقن اللغة الإندليزية.
+
+X agrees: messages written not only in the dialects (which is bad enough, see below), but also with Latin characters --- "Catastrophy! (*Kāriṯa!*) This is what the enemy has been waiting for" (18:20). In fact, it is claimed that the encroachment of foreign languages, and also the Arabic dialects, on domains transitionally reserved for Standard Arabic is part of a policy of Arab governments to ensure the dominance of the West by dividing the Arab world (16:25). One way in which they do this is through modern communication technologies. Dr. Aḥmad al-Xaṭīb explains that in Arabic, text message on the mobile phone can only be 70 characters long but twice as long in other languages and that the system was designed this way in order to encourage people to use languages other than Arabic (16:50).
+
+The potentially catastrophic consequences of this conspiracy are more poignantly formulated at the end of the documentary. It is implied that the Arabic language is in the process of being extinct (43:15).
+ 
+> نسيان اللغة معناها نيسيان التتاريخ معناها نسيان التراث. وهذا أمر تعمل عليه الدول الأجنبية ليلا نهارا, كيف تمحوا ذاكرتنا القديمة من أجل إلحاقنا لغربها الاقتصاضي المستفل لثرواتنا ولطاقاتنا.
+
+> Forgetting the language means forgetting history, it means forgetting the heritage. And foreign countries are working towards this aim day and night, how they can erase our memory in order to pursue their own economic interests, exploiting our wealth and our energy (43:50).   
+
+This is what happened in Iraq when the American invasion force stole and exported the material cultural and intellectual heritage of libraries and museums. The same thing is now happening with the abstract heritage of language.
+
+Another problem is the experience of school children of Arabic as a dry, boring, and lifeless language. It is taught through old textual material, often poetry, to which children cannot relate. Often teachers are not allowed use other material since the curriculum is strictly regulated. This is put in contrast with English teaching in which a more modern pedagogy and more engaging teaching materials are used (05:07).
+
+
+- (34:20) Känsla av att vara besegrad gör att araber söker ta till sig allt de kan från kulturen av den som har besegrat dem. Ser sin egen kultur som efterbliven.
+
+- (35:35) Vi försöker bygga en ny renässans mha utländska språk och västerländsk kultur, genom använda det i applicerade vetenskaper och science. Men detta har misslyckats. Glappet i vetenskap mellan arabvärlden och väst är fortfarande stor. 
+
+- (36:35) En ny *nahḍa* kräver en ny generation som talar arabiska -- modersmålet i landet där de lever.
+
+- (37:45) Jämförelsen med herbreiska i Israel. Återupplivade ett språk som idag fyller alla samhällsfunktion. I arabiska säga man att Arabiska inte är lämpat för det moderna samhället. De lyckades bygga ett samhälle och en identitet kring detta språk medan araber har misslyckats.
+
+- (39:10) Araberna är den enda nationen i världen där man överger sitt eget språk när man lär sig ett nytt.
+
+- (39:30) Framgångsrika länder har bevarat sitt språk. Sydkorea. Liknande utgångspunkt som arabländer. 
+
+
+The second way English is encroaching on Arabic is in its growing role in education that is shaping the cultural identity of Arab youth. Arabs, especially in the upper strata of society, are more keen on having their children learn English or some other foreign language than they are to teach them Arabic (21:20). This idea of the importance of foreign languages is however exaggerated and originates from the feeling of inferiority toward the West (33:50). A number of Arab teenagers who receive their education in English and use it in their everyday lives are interviewed and their parents explain their choice to send their children to a "language school" (20:50, 27:55). 
+
+The experts' comments on the phenomenon are damning. The danger lies in that this foreign language takes control of the thought of Arabs who speak it in a colonization of the mind:
+
+- (32:10)
+> اللغة هي التي تحدد الصورة الذهنية والصورة الذهنية هي التي ْْتبني XXX التفكير. كونٌ. اللغة تباعه استُعرت فهو غدى إيسان مستعمرة. دماغه أُحتُل.
+
+> The language is what defines the mental image, and the mental image is what defines the structure of thought. When his language is colonized then he is a colonized human being. His brain is under occupation. 
+
+This creates loyalties amongst Arabs to a foreign culture (30:00) and they loose their identity (30:40). They loose their "arabness" (*ʿurūba, 33:00). Language schools tend to focus more on the history and literature of foreign countries and less on that of Arabic (29:30) and students learn to think in concepts of that foreign culture. This is exemplified with the portrayal of the struggle of the Palestinians. One of the experts states that under the entry "Palestine" in the Oxford Dictionary it says "the origanl land of Jews", accordingly:  
+
+> بعلى الدارس باللغة اإنجليزية أن تأدخذ لهذا المفهوم
+
+> he whose studies are in English will receive this concept.
+
+Another commentator explains that the person whose language and concepts are from the West talk only about Palestine as if the issue was only the wall and not decades of oppression and occupation (32:30).
+
+
+## The vernaculars
+The other main threat to Arabic is the dialects (*al-ʿāmmiyyāt*). While it is stated that the dialects do have a place in Arab societies as a means of everyday communication (*wasīla tadāwuliyya*, 14:25) the threat lies in encroaching domains that were previously reserved for Standard Arabic (*fuṣḥā*, 15:07). One such domain are childrens' television programs. It used to be the case that these were dubbed in Standard Arabic, and this served to make Standard Arabic attractive to children. The program *Iftaḥ yā simsim* was especially important in this regard (12:30). Today, however, children's programs are dubbed in the dialect (13:40).
+
+It not made clear why the Arabic dialects constitute such a danger, it is simply taken for granted that it is an inferior, incomplete, and faulty language:
+
+> Where is the danger? Where is the danger? The danger is that we put the dialect in the place of Standard Arabic, in the sciences, in culture, in writing about the heritage. And the dialects have no foundation. A house, a home, anything, if it does not have pillars on which to rest, then what is it? It has no stability (*qiāama*).   
+
+> أين الخطر؟ أين الخطر؟ الخطر أن نضع العامية موضع الفصحى, في العلم وفي الفن في كتابة التراث. اللحجات لا قواعدة لها. البيت, المنزل, أي شيء, أي مؤسسة, إذا لم تكن لها أعمدة تكوم عليعا فعلى أي شيء تكوم. لا قيامة لها. اللحجات على هذه الصورة.
+
+Indeed, it is simply stated, whithout explanation, that "the dialects have no future" (*al-ʿāmiyya laysa lahā mustaqbal*, 15:00). 
+
+The growing use of the dialects, again, are said to be connected to Western policis of conquer and divide. The orientalists have propagated for the use of the dialects since they noticed the revival of the Arabic language and culture in the second half of the 19th century (20:15).
+
+[^1]:  **Labov golden era**.
