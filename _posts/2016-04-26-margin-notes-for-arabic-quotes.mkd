@@ -73,8 +73,10 @@ Lastly, the width of the text block in a margin note is generally to narrow for 
 
 In summary, Arabic quotes in the margin and the translation in the running text: pretty and practical.
 
+***
+
 [^1]: Suleiman, Y., 1996. "The Simplification of Arabic Grammar and the Problematic Nature of the Sources." *Journal of Semitic Studies,* 41(1), pp.99–119.
-[^2]: The `\null' in the last line is necessary to avoid LaTeX misinterpreting instances where the translated text begins with square brackets to signal that some word has been added for the sake of translation.
+[^2]: The `\null` in the last line is necessary to avoid LaTeX misinterpreting instances where the translated text begins with square brackets to signal that some word has been added for the sake of translation.
 [^3]: Bringhurst, R., 2012. *The Elements of Typographic Style*, Seattle: Hartley&nbsp;&&nbsp;Marks.
 
 {% endraw %}
