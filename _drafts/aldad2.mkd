@@ -6,7 +6,6 @@ language: en
 tags:
 - typography
 - transcription
-- LaTeX
 ---
 
 
