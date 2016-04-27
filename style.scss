@@ -110,6 +110,11 @@ img {
   max-width: 100%;
 }
 
+table { 
+    border-spacing: 10px;
+    border-collapse: separate;
+}
+
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;
