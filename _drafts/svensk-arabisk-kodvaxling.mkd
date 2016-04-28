@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Svensk-arabisk kodväxling: exempel"
+title: Exempel på svensk-arabisk kodväxling
 permalink: /svensk-arabisk-kodvaxling/
 language: sv
 tags:
@@ -8,18 +8,37 @@ tags:
 - linguisitics
 ---
 
-Angånde bäst väg att ta.
+Det följande är en lista intressanta exempel på svenska-arabisk kodväxling som jag registrerat i min omgivning. Exemplen är inte representativa för kodväxlingen i stort utan är bara sådana jag reagerat på som lustiga eller intressanta. Listan kommer utvidgas i takt med att ny data tillkommer. 
 
-*ana* | *bi-l-*annars | *bāxuḏ* | *al-bāṣ* | *raqm* | *xamsa*
-jag | PRERP-DEF-annars | 1s.tar | DEF-buss | nummer | fem
+I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de svenska elementen i normal upprätt text. Se nedan för en lista på förkortningar.
 
+---- 
+
+Amani, angånde alternativa resvägar.
+
+*ana* | *bi-l*-annars | *bāxuḏ* | *al-bāṣ* | *raqm* | *xamsa*
+jag | PRE-BES-annars | 1s.tar | BES-buss | nummer | fem
+|=
 *Annars tar jag buss nummer fem.*
 
-***
+---- 
 
-2016-04-21 På  balkongen, angående en murgröna.
+*2016-04-21* Amani, på  balkongen, angående en murgröna.
 
 | *Xallī-ha* | *t*få | sol | *šway* | grann
 låt-den | 3fs.få | sol | lite | grann
-
+|=
 *Låt den få lite sol.*
+
+---- 
+
+Förkortningar:
+
+| 1   | första person
+| 2   | andra person
+| 3   | tredje person
+| BES | bestämd artikel
+| DUA | dualis
+| m   | maskulin
+| f   | feminin
+| PRE | preposition

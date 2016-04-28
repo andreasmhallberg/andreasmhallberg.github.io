@@ -2,7 +2,7 @@
 layout: post
 title: Margin notes for Arabic quotes in LaTeX
 permalink: /margin-notes-for-arabic-quotes/
-language: en
+language: English
 tags:
 - typography
 - Arabic

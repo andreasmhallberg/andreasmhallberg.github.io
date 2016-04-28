@@ -2,7 +2,7 @@
 layout: post
 title: Typing Swedish characters with American keyboard layout in Vim 
 permalink: /swewithuskblayout/
-language: en
+language: English
 tags:
 - Vim
 ---

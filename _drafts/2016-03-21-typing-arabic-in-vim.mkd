@@ -1,11 +1,13 @@
 ---
 layout: post
 title: Typing Arabic in Vim 
-permalink: /typingarabicinvim/
-language: en
+permalink: /typing-arabic-in-vim/
+language: English
 tags:
 - Vim
 - Arabic
 ---
 
-Everyone who has attempted to write something in Arabic knows that more often than not is a nuisance. Computers seem not to understand the very basics of right-to-left scripts. 
+Everyone who has attempted to write something in Arabic knows that more often than not is a nuisance. Computers seem not to have a very poor understanding of the very basics of right-to-left writing systems. 
+
+

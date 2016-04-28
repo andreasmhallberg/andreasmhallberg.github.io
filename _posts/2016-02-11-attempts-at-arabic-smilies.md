@@ -2,6 +2,7 @@
 layout: post
 title: Attempts at Arabic smilies
 permalink: /attemptsatarabicsmilies/
+language: Arabic
 ---
 
 &#x202b;
