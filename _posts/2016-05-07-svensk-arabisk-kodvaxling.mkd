@@ -18,10 +18,10 @@ I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de s
 
     A., angående alternativa resvägar.
 
-    > *ana* | *bi-l*-annars | *bāxuḏ* | *al-bāṣ* | *raqm* | *xamsa*
-    > jag | PRE-BES-annars | 1s.tar | BES-buss | nummer | fem
-    > 
-    > | *Annars tar jag buss nummer fem.* |
+    *ana* | *bi-l*-annars | *bāxuḏ* | *al-bāṣ* | *raqm* | *xamsa*
+    jag | PRE-BES-annars | 1s.tar | BES-buss | nummer | fem
+    
+    | *Annars tar jag buss nummer fem.* |
 
 
 - *2016-04-21* 
