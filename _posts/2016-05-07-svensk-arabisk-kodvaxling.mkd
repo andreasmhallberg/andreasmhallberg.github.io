@@ -14,59 +14,59 @@ I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de s
 
 ---- 
 
-*Datum bortglömt* 
+- *Datum bortglömt* 
 
-A., angående alternativa resvägar.
+    A., angående alternativa resvägar.
 
-> *ana* | *bi-l*-annars | *bāxuḏ* | *al-bāṣ* | *raqm* | *xamsa*
-> jag | PRE-BES-annars | 1s.tar | BES-buss | nummer | fem
+    *ana* | *bi-l*-annars | *bāxuḏ* | *al-bāṣ* | *raqm* | *xamsa*
+    jag | PRE-BES-annars | 1s.tar | BES-buss | nummer | fem
 
-> | *Annars tar jag buss nummer fem.* |
-
-
-*2016-04-21* 
-
-A., angående en murgröna på balkongen.
-
-| *Xallī-ha* | *t*få | sol | *šway* | grann
-låt-den | 3fs.få | sol | lite | grann
-
-| *Låt den få lite sol.* |
+    | *Annars tar jag buss nummer fem.* |
 
 
-*2016-04-29* 
+- *2016-04-21* 
 
-A., angående svårigheter med polisyrket.
-<a name="polis"></a>
+    A., angående en murgröna på balkongen.
 
-| *fī* | *ktīr* | *min-hum* | *ʿam* | *y*hopp*u* | av |
-| finns | många | av-dom | PROG | m.hoppa.pl | av |
+    | *Xallī-ha* | *t*få | sol | *šway* | grann
+    låt-den | 3fs.få | sol | lite | grann
 
-| *Det är många av dem som hoppar av.* |
-
-
-*20016-04-30* 
-
-J. angående en person vänner har hyrt en lägenhet av.
-
-*ʿam* | *yaʿmil-l-u* | renovera | *u-biddu* | *yabīʿ-u*
-PROG | 3ms.gör-PREP-den | renovera | och-vill.2ms | 3ms.sälja-den
-
-| *Han håller på att renovera den och ska sälja den.* |
-
-Den här specifika talaren använder väldigt ofta i arabiska kontexter "dummy"-verbet *ʿamal* 'göra' följt av ett svenskt infinitiv som en konstruktion för varbildning. I exemplet ovan *yaʿmal renovera*. Med den här strategin skulle till exempel frasen  *b-thoppu av* i exemplet ovan kunna formuleras *b-yaʿmalu hoppa av*.
+    | *Låt den få lite sol.* |
 
 
-*2016-05-05* 
+- *2016-04-29* 
 
-A.
+    A., angående svårigheter med polisyrket.
+    <a name="polis"></a>
 
-*ʿind-u* | *ktīr* | *irāda* | *innu* | *yaʿmal* | saker | och | ting
-hos-honom | mycket | vilja | att | 3MS.göra | saker | och | ting
+    | *fī* | *ktīr* | *min-hum* | *ʿam* | *y*hopp*u* | av |
+    | finns | många | av-dom | PROG | m.hoppa.pl | av |
 
-| *Han vill verkligen göra saker och ting.* |
+    | *Det är många av dem som hoppar av.* |
 
-När man lär sig ett nytt språk når man fasen där man börjar bli flytande genom att utveckla en repertoar av favoritfraser som ofta överanvänds. För A. var *saker och ting* en sådan fras. Hon är nu helt flytande i svenska och frasen hänger fortfarande kvar även när hon pratar arabiska, antagligen också för att det inte finns någon bra arabisk fras som fyller samma funktion.
+
+- *20016-04-30* 
+
+    J. angående en person vänner har hyrt en lägenhet av.
+
+    *ʿam* | *yaʿmil-l-u* | renovera | *u-biddu* | *yabīʿ-u*
+    PROG | 3ms.gör-PREP-den | renovera | och-vill.2ms | 3ms.sälja-den
+
+    | *Han håller på att renovera den och ska sälja den.* |
+
+    Den här specifika talaren använder väldigt ofta i arabiska kontexter "dummy"-verbet *ʿamal* 'göra' följt av ett svenskt infinitiv som en konstruktion för varbildning. I exemplet ovan *yaʿmal renovera*. Med den här strategin skulle till exempel frasen  *b-thoppu av* i exemplet ovan kunna formuleras *b-yaʿmalu hoppa av*.
+
+
+- *2016-05-05* 
+
+    A.
+
+    *ʿind-u* | *ktīr* | *irāda* | *innu* | *yaʿmal* | saker | och | ting
+    hos-honom | mycket | vilja | att | 3MS.göra | saker | och | ting
+
+    | *Han vill verkligen göra saker och ting.* |
+
+    När man lär sig ett nytt språk når man fasen där man börjar bli flytande genom att utveckla en repertoar av favoritfraser som ofta överanvänds. För A. var *saker och ting* en sådan fras. Hon är nu helt flytande i svenska och frasen hänger fortfarande kvar även när hon pratar arabiska, antagligen också för att det inte finns någon bra arabisk fras som fyller samma funktion.
 
 ---
 
