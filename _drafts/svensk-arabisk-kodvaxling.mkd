@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Exempel på svensk-arabisk kodväxling
-permalink: /svensk-arabisk-kodvaxling/
+permalink: /exemperl-pa-svensk-arabisk-kodvaxling/
 language: sv
 tags:
-- arabic
+- Arabic
 - linguisitics
 ---
 
@@ -23,12 +23,33 @@ jag | PRE-BES-annars | 1s.tar | BES-buss | nummer | fem
 
 ---- 
 
-*2016-04-21* Amani, på  balkongen, angående en murgröna.
+*2016-04-21* Amani, angående en murgröna på balkongen.
 
 | *Xallī-ha* | *t*få | sol | *šway* | grann
 låt-den | 3fs.få | sol | lite | grann
 |=
 *Låt den få lite sol.*
+
+---
+
+*2016-04-29* Amani, angående svårigheter med polisyrket.
+<a name="polis"></a>
+
+| *fī* | *ktīr* | *min-hum* | *ʿam* | *b-t*hopp*u* | av |
+| finns | många | av-dom | PROG | IND-fs.hoppa.pl | av |
+|=
+*Det är många av dem som hoppar av.*
+
+---
+
+*20016-04-30* J. angående en person vänner har hyrt en lägenhet av.
+
+*ʿam* | *yaʿmil-l-u* | renovera | *u-biddu* | *yabīʿ-u*
+PROG | 3ms.gör-PREP-den | renovera | och-vill.2ms | 3ms.sälja-den
+|=
+*Han håller på att renovera den och ska sälja den.*
+
+Den här specifika talaren använder väldigt ofta i arabiska kontexter "dummy"-verbet *ʿamal* 'göra' följt av ett svenskt infinitiv för som en konstruktion för varbildning. I exemplet ovan *yaʿmal renovera*. Med den här strategin skulle till exempel frasen  *b-t*hoppu  av* i [ett exempel ovan](#polis) kunna formuleras *b-yaʿmalu hoppa av*.
 
 ---- 
 
@@ -41,4 +62,7 @@ Förkortningar:
 | DUA | dualis
 | m   | maskulin
 | f   | feminin
+| pl | plural
 | PRE | preposition
+| PROG | progressiv aspekt
+| s | singular
