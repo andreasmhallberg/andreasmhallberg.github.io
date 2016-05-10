@@ -2,11 +2,13 @@
 layout: post
 title: Exempel på svensk-arabisk kodväxling
 permalink: /exempel-pa-svensk-arabisk-kodvaxling/
-language: sv
+language: Swedish
 tags:
 - Arabic
 - linguisitics
 ---
+
+[//]: # (All hyphens in glosses no breaking (U+2011): s/-/‑/g)
 
 Det följande är en lista intressanta exempel på svenska-arabisk kodväxling som jag registrerat i min omgivning. Exemplen är inte representativa för kodväxlingen i stort utan är bara sådana jag reagerat på som lustiga eller intressanta. Listan kommer utvidgas i takt med att ny data tillkommer. 
 
@@ -18,8 +20,8 @@ I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de s
 
     A., angående alternativa resvägar.
 
-    *ana* | *bi-l*-annars | *bāxuḏ* | *al-bāṣ* | *raqm* | *xamsa*
-    jag | PRE-BES-annars | 1s.tar | BES-buss | nummer | fem
+    *ana* | *bi‑l*‑annars | *bāxuḏ* | *al‑bāṣ* | *raqm* | *xamsa*
+    jag | PRE‑BES‑annars | 1S.tar | BES‑buss | nummer | fem
     
     | *Annars tar jag buss nummer fem.* |
 
@@ -28,8 +30,8 @@ I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de s
 
     A., angående en murgröna på balkongen.
 
-    | *Xallī-ha* | *t*få | sol | *šway* | grann
-    låt-den | 3fs.få | sol | lite | grann
+    | *Xallī‑ha* | *t*få | sol | *šway* | grann
+    låt‑den | 3FS.få | sol | lite | grann
 
     | *Låt den få lite sol.* |
 
@@ -39,8 +41,8 @@ I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de s
     A., angående svårigheter med polisyrket.
     <a name="polis"></a>
 
-    | *fī* | *ktīr* | *min-hum* | *ʿam* | *y*hopp*u* | av |
-    | finns | många | av-dom | PROG | m.hoppa.pl | av |
+    | *fī* | *ktīr* | *min‑hum* | *ʿam* | *y*hopp*u* | av |
+    | finns | många | av‑dom | PROG | M.hoppa.PL | av |
 
     | *Det är många av dem som hoppar av.* |
 
@@ -49,8 +51,8 @@ I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de s
 
     J. angående en person vänner har hyrt en lägenhet av.
 
-    *ʿam* | *yaʿmil-l-u* | renovera | *u-biddu* | *yabīʿ-u*
-    PROG | 3ms.gör-PREP-den | renovera | och-vill.2ms | 3ms.sälja-den
+    *ʿam* | *yaʿmil‑l‑u* | renovera | *u‑biddu* | *yabīʿ‑u*
+    PROG | 3MS.gör‑PREP‑den | renovera | och‑vill.2MS | 3MS.sälja‑den
 
     | *Han håller på att renovera den och ska sälja den.* |
 
@@ -61,8 +63,8 @@ I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de s
 
     A.
 
-    *ʿind-u* | *ktīr* | *afkār* | *innu* | *yaʿmal* | saker | och | ting
-    hos-honom | mycket | tankar | att | 3MS.göra | saker | och | ting
+    *ʿind‑u* | *ktīr* | *afkār* | *innu* | *yaʿmal* | saker | och | ting
+    hos‑honom | mycket | tankar | att | 3MS.göra | saker | och | ting
 
     | *Han har mycket tankar om att göra saker och ting.* |
 
@@ -72,14 +74,14 @@ I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de s
 
 Förkortningar:
 
-| 1   | första person
-| 2   | andra person
-| 3   | tredje person
-| BES | bestämd artikel
-| DUA | dualis
-| m   | maskulin
-| f   | feminin
-| pl | plural
-| PRE | preposition
+| 1    | första person
+| 2    | andra person
+| 3    | tredje person
+| BES  | bestämd artikel
+| DUA  | dualis
+| M    | maskulin
+| F    | feminin
+| PL   | plural
+| PRE  | preposition
 | PROG | progressiv aspekt
-| s | singular
+| S    | singular
