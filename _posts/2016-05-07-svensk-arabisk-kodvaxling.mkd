@@ -18,10 +18,10 @@ I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de s
 
 - *2010* Ung kvinna till väninna på Foodland, nära Värnhemstorget i Malmö.
 
-    *naštari* | godis*iyāt*
+    *naštari* | godis*iyāt*?
     1PL.köper | godis.PL
 
-    | *Ska vi köpa godis? |
+    | *Ska vi köpa godis?* |
 
 - *Inge datum.* A., angående alternativa resvägar.
 
@@ -47,7 +47,7 @@ I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de s
     | *Det är många av dem som hoppar av.* |
 
 
-- *20016-04-30* J. angående en person vänner har hyrt en lägenhet av.
+- *20016-04-30* J. angående en bekants lägenhet.
 
     *ʿam* | *yaʿmil‑l‑u* | renovera | *u‑biddu* | *yabīʿ‑u*
     PROG | 3MS.gör‑PREP‑den | renovera | och‑vill.2MS | 3MS.sälja‑den
