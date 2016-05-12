@@ -8,7 +8,7 @@ tags:
 - linguisitics
 ---
 
-[//]: # (All hyphens in glosses no breaking (U+2011): s/-/‑/g)
+[//]: # (All hyphens in glosses no breaking U+2011: s/-/‑/g)
 
 Det följande är en lista intressanta exempel på svenska-arabisk kodväxling som jag registrerat i min omgivning. Exemplen är inte representativa för kodväxlingen i stort utan är bara sådana jag reagerat på som lustiga eller intressanta. Listan kommer utvidgas i takt med att ny data tillkommer. 
 
@@ -16,19 +16,21 @@ I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de s
 
 ---- 
 
-- *Datum bortglömt* 
+- *2010* Ung kvinna till väninna på Foodland, nära Värnhemstorget i Malmö.
 
-    A., angående alternativa resvägar.
+    *naštari* | godis*iyāt*
+    1PL.köper | godis.PL
+
+    | *Ska vi köpa godis? |
+
+- *Inge datum.* A., angående alternativa resvägar.
 
     *ana* | *bi‑l*‑annars | *bāxuḏ* | *al‑bāṣ* | *raqm* | *xamsa*
     jag | PRE‑BES‑annars | 1S.tar | BES‑buss | nummer | fem
     
     | *Annars tar jag buss nummer fem.* |
 
-
-- *2016-04-21* 
-
-    A., angående en murgröna på balkongen.
+- *2016-04-21* A., angående en murgröna på balkongen.
 
     | *Xallī‑ha* | *t*få | sol | *šway* | grann
     låt‑den | 3FS.få | sol | lite | grann
@@ -36,9 +38,7 @@ I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de s
     | *Låt den få lite sol.* |
 
 
-- *2016-04-29* 
-
-    A., angående svårigheter med polisyrket.
+- *2016-04-29* A., angående svårigheter med polisyrket.
     <a name="polis"></a>
 
     | *fī* | *ktīr* | *min‑hum* | *ʿam* | *y*hopp*u* | av |
@@ -47,9 +47,7 @@ I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de s
     | *Det är många av dem som hoppar av.* |
 
 
-- *20016-04-30* 
-
-    J. angående en person vänner har hyrt en lägenhet av.
+- *20016-04-30* J. angående en person vänner har hyrt en lägenhet av.
 
     *ʿam* | *yaʿmil‑l‑u* | renovera | *u‑biddu* | *yabīʿ‑u*
     PROG | 3MS.gör‑PREP‑den | renovera | och‑vill.2MS | 3MS.sälja‑den
@@ -59,14 +57,12 @@ I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de s
     Den här specifika talaren använder väldigt ofta i arabiska kontexter "dummy"-verbet *ʿamal* 'göra' följt av ett svenskt infinitiv som en konstruktion för varbildning. I exemplet ovan *yaʿmal renovera*. Med den här strategin skulle till exempel frasen  *b-thoppu av* i exemplet ovan kunna formuleras *b-yaʿmalu hoppa av*.
 
 
-- *2016-05-05* 
-
-    A.
+- *2016-05-05* A.
 
     *ʿind‑u* | *ktīr* | *afkār* | *innu* | *yaʿmal* | saker | och | ting
-    hos‑honom | mycket | tankar | att | 3MS.göra | saker | och | ting
+    hos‑honom | mycket | tankar | att | 3MS.gör | saker | och | ting
 
-    | *Han har mycket tankar om att göra saker och ting.* |
+    | *Han har mågna tankar om att göra saker och ting.* |
 
     När man lär sig ett nytt språk når man fasen där man börjar bli flytande genom att utveckla en repertoar av favoritfraser som ofta överanvänds. För A. var *saker och ting* en sådan fras. Hon är nu helt flytande i svenska och frasen hänger fortfarande kvar även när hon pratar arabiska, antagligen också för att det inte finns någon bra arabisk fras som fyller samma funktion.
 
