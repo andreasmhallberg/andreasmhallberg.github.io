@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Reading notes on GitHub
+title: Reading-notes on GitHub
 permalink: /Reading-notes-on-github/
 language: English
 tags:
