@@ -1,0 +1,10 @@
+---
+layout: post
+title: Timeline of Arab grammarians
+permalink: /timeline-of-arab-grammarisans/
+language: English
+---
+
+Below is a graphical timeline of Arab grammarians in the classical era. Enjoy.
+
+![Timeline of Arab grammararians](/images/timeline-of-arab-grammarians.pdf)
