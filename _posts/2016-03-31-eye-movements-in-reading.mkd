@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Eye-movements in reading: a teaser'
+title: 'EN: Eye-movements in reading: a teaser'
 permalink: /eye-movements-in-reading-teaser/
 language: English
 tags:

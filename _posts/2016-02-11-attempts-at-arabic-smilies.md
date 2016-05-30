@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Attempts at Arabic smilies
+title: EN: Attempts at Arabic smilies
 permalink: /attemptsatarabicsmilies/
 language: Arabic
 ---
