@@ -293,7 +293,7 @@ The code below can be added to the preamble without any further modifications th
 
 [^1]: Brustad, K., Al-Batal, M. & al-Tunsi, A., 2011. *al-Kitaab fī Taʿallum al-ʿArabiyya: A Textbook for Beginning Arabic,* Washington, D.C.: Georgetown University Press.
 [^2]: I say 'I', it was with a lot of help from [TeX.SX](http://tex.stackexchange.com/). References will be provided below.
-[^3]: Another option is to mirror it. This would have the benefit of keeping the rounded end of the pen store in the upper part, keeping the design of the glyph. By rotating it we are basically reversing the troke, which is not not esthetically optimal. However, by rotating rather than mirroring it we make sure that it keeps its exact slant in the italic. Mirroring it makes it lean to left rather then the right, which of course will not do.
+[^3]: Another option is to mirror it. This would have the benefit of keeping the rounded end of the pen stroke in the upper part, keeping the design of the glyph. By rotating it we are basically reversing the troke, which is not not esthetically optimal. However, by rotating rather than mirroring it we make sure that it keeps its exact slant in the italic. Mirroring it makes it lean to left rather then the right, which of course will not do.
 [^4]: Partial sucess: <http://tex.stackexchange.com/questions/176335/alignment-of-arabic-transcriptions-%CA%BE-and-%CA%BF>
 
 {% endraw %}
