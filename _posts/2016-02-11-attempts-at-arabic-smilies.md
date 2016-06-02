@@ -6,9 +6,9 @@ language: Arabic
 ---
 
 &#x202b;
-ْـ     ْلـْـْـا    د:
+ْـ ْ&emsp; لـْـْـا&emsp; د:&emsp;
 
 &#x202b;
 ه  ه  
-&nbsp;د  
+&ensp;د  
 لــــا  
