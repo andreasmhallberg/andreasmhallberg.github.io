@@ -281,11 +281,10 @@ nav {
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   background-color: $lightGray;
-  text-align: center;
 }
 
-footer {
-  padding: 20px 0;
+.footnotes {
+  font-size: 10px 
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
