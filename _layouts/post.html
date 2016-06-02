@@ -6,7 +6,19 @@ layout: default
   <h1>{{ page.title }}</h1>
 
   <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
+
+      {% if page.language == 'English' %}
+        Written on {{ page.date | date: "%B %e, %Y" }}
+      {% endif %}
+
+      {% if page.language == 'Swedish' %
+        Skriven {{ page.date | date: "%d/%m, %Y" }}
+      {% endif %}
+
+      {% if page.language == 'Swedish' %
+        مكتوب {{ page.date | date: "%Y/%m/%d" }}
+      {% endif %}
+
   </div>
 
   <div class="entry">
