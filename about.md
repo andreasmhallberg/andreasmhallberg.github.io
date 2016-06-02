@@ -6,7 +6,7 @@ permalink: /about/
 
 I have a PhD in Semitic languages from Lund University in Sweden. My research focus is Arabic linguistics, more specifically how the grammar of Modern Standard Arabic in its various forms and how it deviates from traditional grammatical descriptions.
 
-In this blog I write about Arabic, LaTeX, and related stuff that interests me. It is a place for me to write in an informal way on research related matters. Posts well be in English, Swedish or Arabic, depending on topic.
+In this blog I write about Arabic, LaTeX, and related stuff that interests me. It is a place for me to write in an informal way about my research related matters. Posts well be in English, Swedish or Arabic, depending on topic.
  
 ***
 
