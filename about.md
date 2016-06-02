@@ -16,4 +16,4 @@ I den här bloggen skriver jag om arabiska, LaTeX och andra relaterade grejer so
 
 ***
 
-E-mail: (andreas.hallberg@mellost.lu.se)
+E-mail: [andreas.hallberg@mellost.lu.se](mailto:andreas.hallberg@mellost.lu.se)
