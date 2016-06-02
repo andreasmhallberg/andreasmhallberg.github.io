@@ -71,7 +71,7 @@ I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de s
     *iḏa* | *minʾūl* | såhär
     om | 1PL.säger | såhär
 
-    | *Om vi säger såhär: ... |
+    | *Om vi säger såhär: ...* |
 
     Direktöversättningen till (syrisk) Arabiska av det svenska uttrycket *om vi säge såhär* för att presentera ett förslag eller en hypotetisk situation, *iḏa minʾūl hākaḏa/hēk*, är idiomatiskt inkorrekt. Kodväxlar man till svenska mitt i uttrycket följer den svenska idiomatiska regler och blir därmed acceptabel.
 
