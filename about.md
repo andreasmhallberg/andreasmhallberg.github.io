@@ -13,3 +13,7 @@ In this blog I write about Arabic, LaTeX, and related stuff that interests me. I
 Jag har en doktorsexamen i semitiska språk från Lund universitet. Mitt forskningsfokus är arabisk lingvistik, mer specifikt hur språket så som det används i praktiken skiljer sig från hur grammatiken traditionellt beskrivs.
 
 I den här bloggen skriver jag om arabiska, LaTeX och andra relaterade grejer som intresserar mig. Det är en plats jag använder för att på ett informell sätt skriva om forskningsrelaterade saker. Inläggen kommer att skrivas på engelska, svenska eller arabiska beroende på ämne.
+
+***
+
+E-mail: (andreas.hallberg@mellost.lu.se)
