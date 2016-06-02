@@ -6,9 +6,12 @@ language: Arabic
 ---
 
 &#x202b;
-ْـ ْ&emsp; لـْـْـا&emsp; د:&emsp;
+ْـ ْ
+&emsp;
+لـْـْـا
+&emsp; د:
 
 &#x202b;
-ه  ه  
+&enso;ه  ه  
 &ensp;د  
 لــــا  
