@@ -2,7 +2,7 @@
 layout: post
 title: Attempts at Arabic smilies
 permalink: /attemptsatarabicsmilies/
-language: Arabic
+language: English
 ---
 
 &#x202b;
@@ -12,6 +12,6 @@ language: Arabic
 &emsp; د:
 
 &#x202b;
-&enso;ه  ه  
+ه  ه  
 &ensp;د  
 لــــا  
