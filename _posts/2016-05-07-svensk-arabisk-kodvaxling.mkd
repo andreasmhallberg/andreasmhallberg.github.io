@@ -16,21 +16,21 @@ I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de s
 
 ---- 
 
-- *2010* Ung kvinna till väninna på Foodland, nära Värnhemstorget i Malmö.
+- *2010* --- Ung kvinna till väninna på Foodland, nära Värnhemstorget i Malmö.
 
     *naštari* | godis*iyāt*?
     1PL.köper | godis.PL
 
     | Ska vi köpa godis? |
 
-- *Inge datum.* A., angående alternativa resvägar.
+- *Inge datum* --- A., angående alternativa resvägar.
 
     *ana* | *bi‑l*‑annars | *bāxuḏ* | *al‑bāṣ* | *raqm* | *xamsa*
     jag | PRE‑BES‑annars | 1S.tar | BES‑buss | nummer | fem
     
     | Annars tar jag buss nummer fem. |
 
-- *2016-04-21* A., angående en murgröna på balkongen.
+- *2016-04-21* --- A., angående en murgröna på balkongen.
 
     | *Xallī‑ha* | *t*få | sol | *šway* | grann
     låt‑den | 3FS.få | sol | lite | grann
@@ -38,7 +38,7 @@ I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de s
     | Låt den få lite sol. |
 
 
-- *2016-04-29* A., angående svårigheter med polisyrket.
+- *2016-04-29* --- A., angående svårigheter med polisyrket.
     <a name="polis"></a>
 
     | *fī* | *ktīr* | *min‑hum* | *ʿam* | *y*hopp*u* | av |
@@ -47,7 +47,7 @@ I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de s
     | Det är många av dem som hoppar av. |
 
 
-- *20016-04-30* J. angående en bekants lägenhet.
+- *20016-04-30* --- J. angående en bekants lägenhet.
 
     *ʿam* | *yaʿmil‑l‑u* | renovera | *u‑biddu* | *yabīʿ‑u*
     PROG | 3MS.gör‑PREP‑den | renovera | och‑vill.2MS | 3MS.sälja‑den
@@ -57,7 +57,7 @@ I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de s
     Den här specifika talaren använder väldigt ofta i arabiska kontexter "dummy"-verbet *ʿamal* 'göra' följt av ett svenskt infinitiv för att konsturera verb. I exemplet ovan *yaʿmal renovera*. Med den här strategin skulle till exempel frasen  *b-thoppu av* i exemplet ovan kunna formuleras *b-yaʿmalu hoppa av*.
 
 
-- *2016-05-05* A.
+- *2016-05-05* --- A.
 
     *ʿind‑u* | *ktīr* | *afkār* | *innu* | *yaʿmal* | saker | och | ting
     hos‑honom | mycket | tankar | att | 3MS.gör | saker | och | ting
@@ -66,14 +66,14 @@ I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de s
 
     När man lär sig ett nytt språk når man förr eller senare en fas där man börjar bli flytande genom att utveckla en repertoar av fraser som ofta överanvänds. För talaren i det här exemplet var *saker och ting* en sådan fras. Hen är nu helt flytande i svenska och frasen hänger fortfarande kvar även när hen pratar arabiska, antagligen också för att det inte finns någon bra arabisk fras som fyller samma funktion.
 
-- *2016-05-29* A.
+- *2016-05-29* --- A.
 
     *iḏa* | *minʾūl* | såhär
     om | 1PL.säger | såhär
 
     | Om vi säger såhär: ... |
 
-    Direktöversättningen till (syrisk) Arabiska av det svenska uttrycket *om vi säger såhär* för att presentera ett förslag eller en hypotetisk situation, *iḏa minʾūl hākaḏa/hēk*, är idiomatiskt inkorrekt. (Möjligen kan man säga *iḏa minʾūl innu ...*) Kodväxlar man till svenska mitt i uttrycket följer det svenska idiomatiska regler och blir därmed acceptabelt. Detta tycks vara vad som har hänt här.
+    Direktöversättningen till (syrisk) Arabiska av det svenska uttrycket *om vi säger såhär* för att presentera ett förslag eller en hypotetisk situation, *iḏa minʾūl hākaḏa/hēk*, är idiomatiskt inkorrekt. (Möjligen kan man säga *iḏa minʾūl innu ...* 'Om vi säga att ...') Kodväxlar man till svenska mitt i uttrycket följer det svenska idiomatiska regler och blir därmed acceptabelt. Detta tycks vara vad som har hänt här.
 
 ---
 
