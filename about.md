@@ -6,13 +6,13 @@ permalink: /about/
 
 I recently got my doctorate in Semitic languages at Lund University in Sweden. My dissertation, *Case Endings in Spoken Standard Arabic* can be downloaded [here](https://lup.lub.lu.se/search/ws/files/3772169/8852155.pdf). For a free printed copy, please contact me at the e-mail address below.
 
-In this blog I write about Arabic, LaTeX, and related stuff that interests me. It is a place for me to write in an informal way about my research related matters. Posts will be written in English, Swedish, or Arabic, depending on topic.
+In this blog I write about Arabic, LaTeX, and related stuff that interests me. It is a place for me to write in an informal way about research related matters. Posts will be written in English, Swedish, or Arabic, depending on topic.
  
 ***
 
-Jag disputerade nyligen i semitiska språk vid Lund universitet. Min avhandling, *Case Endings in Spoken Standard Arabic*, kan man laddas ner [härifrån](https://lup.lub.lu.se/search/ws/files/3772169/8852155.pdf). Kontakta mig för på e-mail adressen nedan för ett gratis tryckt exemplar.
+Jag disputerade nyligen i semitiska språk vid Lund universitet. Min avhandling, *Case Endings in Spoken Standard Arabic*, kan man laddas ner [här](https://lup.lub.lu.se/search/ws/files/3772169/8852155.pdf). Kontakta mig för på e-mailadressen nedan är intresserad av ett gratis tryckt exemplar.
 
-I den här bloggen skriver jag om arabiska, LaTeX och andra relaterade grejer som intresserar mig. Det är en plats jag använder för att på ett informell sätt skriva om forskningsrelaterade saker. Inläggen kommer att skrivas på engelska, svenska eller arabiska beroende på ämne.
+I den här bloggen skriver jag om arabiska, LaTeX och andra relaterade grejer som intresserar mig. Det är en plats jag använder för att på ett informellt sätt skriva om forskningsrelaterade saker. Inläggen kommer att skrivas på engelska, svenska eller arabiska beroende på ämne.
 
 ***
 
