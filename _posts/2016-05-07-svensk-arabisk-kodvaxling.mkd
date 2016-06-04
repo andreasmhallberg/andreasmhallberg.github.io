@@ -21,21 +21,21 @@ I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de s
     *naštari* | godis*iyāt*?
     1PL.köper | godis.PL
 
-    | *Ska vi köpa godis?* |
+    | Ska vi köpa godis? |
 
 - *Inge datum.* A., angående alternativa resvägar.
 
     *ana* | *bi‑l*‑annars | *bāxuḏ* | *al‑bāṣ* | *raqm* | *xamsa*
     jag | PRE‑BES‑annars | 1S.tar | BES‑buss | nummer | fem
     
-    | *Annars tar jag buss nummer fem.* |
+    | Annars tar jag buss nummer fem. |
 
 - *2016-04-21* A., angående en murgröna på balkongen.
 
     | *Xallī‑ha* | *t*få | sol | *šway* | grann
     låt‑den | 3FS.få | sol | lite | grann
 
-    | *Låt den få lite sol.* |
+    | Låt den få lite sol. |
 
 
 - *2016-04-29* A., angående svårigheter med polisyrket.
@@ -44,7 +44,7 @@ I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de s
     | *fī* | *ktīr* | *min‑hum* | *ʿam* | *y*hopp*u* | av |
     | finns | många | av‑dom | PROG | M.hoppa.PL | av |
 
-    | *Det är många av dem som hoppar av.* |
+    | Det är många av dem som hoppar av. |
 
 
 - *20016-04-30* J. angående en bekants lägenhet.
@@ -52,7 +52,7 @@ I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de s
     *ʿam* | *yaʿmil‑l‑u* | renovera | *u‑biddu* | *yabīʿ‑u*
     PROG | 3MS.gör‑PREP‑den | renovera | och‑vill.2MS | 3MS.sälja‑den
 
-    | *Han håller på att renovera den och ska sälja den.* |
+    | Han håller på att renovera den och ska sälja den. |
 
     Den här specifika talaren använder väldigt ofta i arabiska kontexter "dummy"-verbet *ʿamal* 'göra' följt av ett svenskt infinitiv som en konstruktion för varbildning. I exemplet ovan *yaʿmal renovera*. Med den här strategin skulle till exempel frasen  *b-thoppu av* i exemplet ovan kunna formuleras *b-yaʿmalu hoppa av*.
 
@@ -62,7 +62,7 @@ I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de s
     *ʿind‑u* | *ktīr* | *afkār* | *innu* | *yaʿmal* | saker | och | ting
     hos‑honom | mycket | tankar | att | 3MS.gör | saker | och | ting
 
-    | *Han har mågna tankar om att göra saker och ting.* |
+    | Han har mågna tankar om att göra saker och ting. |
 
     När man lär sig ett nytt språk når man fasen där man börjar bli flytande genom att utveckla en repertoar av favoritfraser som ofta överanvänds. För A. var *saker och ting* en sådan fras. Hon är nu helt flytande i svenska och frasen hänger fortfarande kvar även när hon pratar arabiska, antagligen också för att det inte finns någon bra arabisk fras som fyller samma funktion.
 
@@ -71,7 +71,7 @@ I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de s
     *iḏa* | *minʾūl* | såhär
     om | 1PL.säger | såhär
 
-    | *Om vi säger såhär: ...* |
+    | Om vi säger såhär: ... |
 
     Direktöversättningen till (syrisk) Arabiska av det svenska uttrycket *om vi säge såhär* för att presentera ett förslag eller en hypotetisk situation, *iḏa minʾūl hākaḏa/hēk*, är idiomatiskt inkorrekt. Kodväxlar man till svenska mitt i uttrycket följer den svenska idiomatiska regler och blir därmed acceptabel.
 
