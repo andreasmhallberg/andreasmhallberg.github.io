@@ -10,9 +10,9 @@ tags:
 
 [//]: # (All hyphens in glosses no breaking U+2011: s/-/‑/g)
 
-Det följande är en lista intressanta exempel på svenska-arabisk kodväxling som jag registrerat i min omgivning. Exemplen är inte representativa för kodväxlingen i stort utan är bara sådana jag reagerat på som lustiga eller intressanta. Listan kommer utvidgas i takt med att ny data tillkommer. 
+Det följande är intressanta och/eller lustiga exempel på svenska-arabisk kodväxling som jag noterat i min omgivning. Exemplen är inte representativa för kodväxlingen i stort utan är bara sådant jag reagerat på. Listan utvidgas kontinuerligt i och med att ny data tillkommer.
 
-I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de svenska elementen i normal upprätt text. Se nedan för en lista på förkortningar.
+I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de svenska elementen i upprätt text. Se längst ner på sidan för en lista på förkortningar.
 
 ---- 
 
@@ -54,7 +54,7 @@ I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de s
 
     | Han håller på att renovera den och ska sälja den. |
 
-    Den här specifika talaren använder väldigt ofta i arabiska kontexter "dummy"-verbet *ʿamal* 'göra' följt av ett svenskt infinitiv som en konstruktion för varbildning. I exemplet ovan *yaʿmal renovera*. Med den här strategin skulle till exempel frasen  *b-thoppu av* i exemplet ovan kunna formuleras *b-yaʿmalu hoppa av*.
+    Den här specifika talaren använder väldigt ofta i arabiska kontexter "dummy"-verbet *ʿamal* 'göra' följt av ett svenskt infinitiv för att konsturera verb. I exemplet ovan *yaʿmal renovera*. Med den här strategin skulle till exempel frasen  *b-thoppu av* i exemplet ovan kunna formuleras *b-yaʿmalu hoppa av*.
 
 
 - *2016-05-05* A.
@@ -64,7 +64,7 @@ I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de s
 
     | Han har mågna tankar om att göra saker och ting. |
 
-    När man lär sig ett nytt språk når man fasen där man börjar bli flytande genom att utveckla en repertoar av favoritfraser som ofta överanvänds. För A. var *saker och ting* en sådan fras. Hon är nu helt flytande i svenska och frasen hänger fortfarande kvar även när hon pratar arabiska, antagligen också för att det inte finns någon bra arabisk fras som fyller samma funktion.
+    När man lär sig ett nytt språk når man förr eller senare en fas där man börjar bli flytande genom att utveckla en repertoar av fraser som ofta överanvänds. För talaren i det här exemplet var *saker och ting* en sådan fras. Hen är nu helt flytande i svenska och frasen hänger fortfarande kvar även när hen pratar arabiska, antagligen också för att det inte finns någon bra arabisk fras som fyller samma funktion.
 
 - *2016-05-29* A.
 
@@ -73,7 +73,7 @@ I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de s
 
     | Om vi säger såhär: ... |
 
-    Direktöversättningen till (syrisk) Arabiska av det svenska uttrycket *om vi säge såhär* för att presentera ett förslag eller en hypotetisk situation, *iḏa minʾūl hākaḏa/hēk*, är idiomatiskt inkorrekt. Kodväxlar man till svenska mitt i uttrycket följer den svenska idiomatiska regler och blir därmed acceptabel.
+    Direktöversättningen till (syrisk) Arabiska av det svenska uttrycket *om vi säger såhär* för att presentera ett förslag eller en hypotetisk situation, *iḏa minʾūl hākaḏa/hēk*, är idiomatiskt inkorrekt. (Möjligen kan man säga *iḏa minʾūl innu ...*) Kodväxlar man till svenska mitt i uttrycket följer det svenska idiomatiska regler och blir därmed acceptabelt. Detta tycks vara vad som har hänt här.
 
 ---
 
