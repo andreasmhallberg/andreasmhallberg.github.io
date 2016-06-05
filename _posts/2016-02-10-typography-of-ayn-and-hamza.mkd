@@ -5,9 +5,8 @@ permalink: /typographyofaynandhamza/
 language: English
 tags:
 - Arabic
-- typography
-- transcription
 - LaTeX
+- typography
 ---
 
 {% raw %}

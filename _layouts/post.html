@@ -8,15 +8,15 @@ layout: default
   <div class="date">
 
       {% if page.language == 'English' %}
-        Written on {{ page.date | date: "%B %e, %Y" }}
+        Written on {{ page.date | date: "%B %e, %Y" }}.
       {% endif %}
 
       {% if page.language == 'Swedish' %}
-        Skriven {{ page.date | date: "%Y-%m-%d" }}
+        Skriven {{ page.date | date: "%Y-%m-%d" }}.
       {% endif %}
 
       {% if page.language == 'Arabic' %}
-        مكتوب {{ page.date | date: "%Y/%m/%d" }}
+        &#x202b;مكتوب {{ page.date | date: "%Y/%m/%d" }}.
       {% endif %}
 
   </div>
