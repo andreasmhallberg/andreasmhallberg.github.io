@@ -10,7 +10,7 @@ In this blog I write about Arabic, LaTeX, and related stuff that interests me. I
  
 ***
 
-Jag disputerade nyligen i semitiska språk vid Lund universitet. Min avhandling, *Case Endings in Spoken Standard Arabic*, kan man laddas ner [här](https://lup.lub.lu.se/search/ws/files/3772169/8852155.pdf). Kontakta mig för på e-mailadressen nedan är intresserad av ett gratis tryckt exemplar.
+Jag disputerade nyligen i semitiska språk vid Lund universitet. Min avhandling, *Case Endings in Spoken Standard Arabic*, kan man laddas ner [här](https://lup.lub.lu.se/search/ws/files/3772169/8852155.pdf). Kontakta mig på e-mailadressen nedan om du är intresserad av ett tryckt och bundet exemplar.
 
 I den här bloggen skriver jag om arabiska, LaTeX och andra relaterade grejer som intresserar mig. Det är en plats jag använder för att på ett informellt sätt skriva om forskningsrelaterade saker. Inläggen kommer att skrivas på engelska, svenska eller arabiska beroende på ämne.
 
