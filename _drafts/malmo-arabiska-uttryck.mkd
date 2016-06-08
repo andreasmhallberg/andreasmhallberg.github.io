@@ -1,0 +1,29 @@
+---
+layout: post
+title: Malmö-arabisk lexikal innovation
+languge: Swedish
+tags:
+- Arabic
+---
+
+Det följande är en lista på arabiska namn på platser och institutioner, gångbara bland den arabisktalande befolkningen i Malmö. Namnen är sådana att de inte är direkta översättningar av den svenska benämningen utan har uppstått som en innovation bland arabisktalande personer.  
+
+- *akšūn* أكشون 'second-hand affär'
+
+    Historiskt en reanalysering av namnet på Auktion, en second-affär som tidigare fanns i Malmö, till att vetyda second-hand affär över lag.
+
+- *ḥadīqat al-baṭṭ* حديقة البط 'Pildamsparken ('Ankparken')
+
+- *maktab al-ʿamal* مكتب العمل 'Arbetsförmedlingen' ('Arbetskontoret')
+
+    Detta är öven benämningen som Arbetsförmedlingen själv använder i sina arabiska informationsblad, antagligen efter det att det etablerades bland den arabisktalande befolkningen.
+
+- *sūq al-xuḍra* سوق الخضرة 'Möllevångstorget' ('Grönsaksmarknaden')
+
+- *šaṭṭ al-ʿarab* شط العرب 'Sibbarp' ('Arabstranden')
+
+- *šāriʿ al-jamʿiyyāt* شارع الجمعيات 'Norra Grängesbergsgatan' ('Föreningsgatan')
+
+- *al-skatt* السكات 'Skatteverket'
+
+    Notera att detta inte syftar till skatt (som det man betalar till staten) utan är en förortning av Skatteverket. *l*:et i den bestämda artikeln assimileras inte till solbokstaven *s* i *skat*. Kanske kommer detta ske om ordet fortlever och med tiden integreras i arabisk fonologi.

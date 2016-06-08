@@ -1,0 +1,22 @@
+---
+layout: post
+title: Timeline of Arabic grammarians
+permalink: /timeline-of-arab-grammarians/
+language: English
+tags:
+- Arabic
+- LaTeX
+---
+
+Sometimes when reading about the classical Arabic grammarians if find it difficult to visualize the actual timespan between grammarians and their works. Years are of course always mentioned in the literatures but it is often still hard to get a feel how big a chunk there is between. 
+
+To get a better sense of the stages of development of Arabic grammar I have made a graphical *Timeline of Arabic grammarians and their major works*. It is based on *The Arabic Linguistic tradition* by Bohas et al. (2006) and lists all grammarians mentioned in this book. The time periods is also from this book. 
+
+For those interested, the LaTeX source code can be found [here](https://github.com/andreasmhallberg/alt-timeline/blob/master/alt-timeline.tex).
+
+I plan on doing a version in Arabic when I have the time and feel like it.
+
+
+Enjoy.
+
+![alt-timeline](/images/alt-timelinte.pdf)
