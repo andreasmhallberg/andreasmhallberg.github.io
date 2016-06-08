@@ -16,4 +16,4 @@ For those interested, the LaTeX source code can be found [here](https://github.c
 
 Enjoy.
 
-![alt-timeline](/images/alt-timelinte.pdf)
+![alt-timeline](/images/alt-timeline.pdf)
