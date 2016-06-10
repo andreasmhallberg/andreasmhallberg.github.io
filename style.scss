@@ -274,6 +274,11 @@ nav {
     text-transform: uppercase;
     font-size: 15px;
   }
+
+.right{
+     text-align: right;
+ }
+
 }
 
 .wrapper-footer {
@@ -288,10 +293,6 @@ nav {
 .footnotes {
   border-top: 1px solid #ddd;
   font-size: 12px;
-}
-
-.right{
-     text-align: right;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
