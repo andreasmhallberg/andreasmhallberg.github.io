@@ -288,7 +288,6 @@ The code below can be added to the preamble without any further modifications th
 \newcommand*{\lh}{\hspace*{-.15em}ʾ}
 ```
 
----
 
 [^1]: Brustad, K., Al-Batal, M. & al-Tunsi, A., 2011. *al-Kitaab fī Taʿallum al-ʿArabiyya: A Textbook for Beginning Arabic,* Washington, D.C.: Georgetown University Press.
 [^2]: I say 'I', it was with a lot of help from [TeX.SX](http://tex.stackexchange.com/). References will be provided below.
