@@ -16,4 +16,4 @@ To get a better sense of the stages of development of Arabic grammar I have made
 
 For those interested, the LaTeX source code can be found [here](https://github.com/andreasmhallberg/alt-timeline/blob/master/alt-timeline.tex). 
 
-I plan on doing an Arabic version when I feel like it and have the time.
+I plan on also making an Arabic version of this timeline at some point.
