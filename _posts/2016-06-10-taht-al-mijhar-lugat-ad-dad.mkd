@@ -39,7 +39,8 @@ The first main threat to Arabic is the dialects (*al-ʿāmmiyyāt*). While it is
 
 It is not made clear why the Arabic dialects constitute such a danger. It is simply taken for granted that it is an inferior, incomplete, and faulty language. Dr al-Xaṭīb of the University of Petra explains:
 
-> &rlm; أين الخطر؟ أين الخطر؟ الخطر أن نضع العامية موضع الفصحى, في العلم وفي الفن في كتابة التراث. اللحجات لا قواعدة لها. البيت، المنزل، أي شيء، أي مؤسسة، إذا لم تكن لها أعمدة تقوم عليعا فعلى أي شيء تقوم. لا قيامة لها. اللحجات على هذه الصورة. &lrm;{: .right}
+> &rlm; أين الخطر؟ أين الخطر؟ الخطر أن نضع العامية موضع الفصحى, في العلم وفي الفن في كتابة التراث. اللحجات لا قواعدة لها. البيت، المنزل، أي شيء، أي مؤسسة، إذا لم تكن لها أعمدة تقوم عليعا فعلى أي شيء تقوم. لا قيامة لها. اللحجات على هذه الصورة.
+&lrm;{: .right}
 
 > Wherein lies the danger? Wherein lies the danger? The danger lies in that we put the dialect in the place of Standard Arabic, in the sciences, in culture, in writing about the heritage. And the dialects have no foundation. A house, a home, anything, if it does not have pillars on which to rest, then what is it? It has no stability (*qiāma*). Like this are the dialects. ([14:30](https://www.youtube.com/watch?v=PVqBOrzxEwc&t=14m30s))
 
@@ -47,8 +48,8 @@ Indeed, it is simply stated that "the dialects have no future" (*al-ʿāmiyya la
 
 The growing use of the dialects are said to be connected to Western polices of conquer and divide. The orientalists started their call for the use of the dialects when they noticed the revival of the Arabic language and culture:
 
->&rlm; فعندما وجدوا ٕأننا اآلن قد عكفنا على نھضتنا الحدیثة ورفعنا شعار ٕإحیاء كل ما ھو قیم في التراث، واللغة العربیة كانت یعني نصب ٔاعینھم، بدٔأت في نھایة القرن التاسع عشر---لیس غریباً---دعوات العامیات.
-&lrm;{: .right}
+>&#x202b; فعندما وجدوا ٕأننا اآلن قد عكفنا على نھضتنا الحدیثة ورفعنا شعار ٕإحیاء كل ما ھو قیم في التراث، واللغة العربیة كانت یعني نصب ٔاعینھم،
+بدٔأت في نھایة القرن التاسع عشر---لیس غریباً---دعوات العامیات.
 
 > So when they found that we now had started our modern renascence and voiced the motto of reviving all that which is valuable in the heritage---and specifically the Arabic language---they started at the end of the 19th century to propagate the use of the dialects ([20:15](https://www.youtube.com/watch?v=PVqBOrzxEwc&t=20m15s)).
 
@@ -57,8 +58,7 @@ The second major threat to Arabic and one of the causes of its weakness in is th
 
 The problem, it is said, lies not in the Arabic language itself. The Arabic language can express everything related to all modern technologies:
 
->&rlm; العيب مش كله على اللغة. العيب على المتحدثين باللغة.
-&lrm;{: .right}
+>&#x202b; العيب مش كله على اللغة. العيب على المتحدثين باللغة.
 
 > The fault lies not with the language. The fault lies with the speakers of the language ([09:15](https://www.youtube.com/watch?v=PVqBOrzxEwc&t=09m15s)).
 
@@ -66,8 +66,7 @@ The Arab countries are underdeveloped, especially in the sciences, and are there
 
 The marginalization of Arabic through the introduction of English comes also through the adaption of the Latin alphabet, which is often used to write Arabic in instant messages on mobile phones, in the so called "Arabizi" ([17:20](https://www.youtube.com/watch?v=PVqBOrzxEwc&t=17m20s)). Although it, according to one commentator, started as a necessity---in the first mobile phones there were no Arabic characters---its consequences are portrayed as nothing short of catastrophic. Dr. al-Xatīb explains that the Arabic language has been disfigured (*al-luga al-ʿarabiyya šuwwihat*) by the use of foreign words and a foreign form of writing. This has wide-reaching moral implications: 
 
->&rlm; فبالتالي لا بد أن يكون الأنسان الذي أمامك أيضا مشوه. لا بد أن يكون مشوه. فلا هو قادر أن يتكلم العربية ولا هو قادر أن يطقن اللغة الإنجليزية.
-&lrm;{: .right}
+>&#x202b; فبالتالي لا بد أن يكون الأنسان الذي أمامك أيضا مشوه. لا بد أن يكون مشوه. فلا هو قادر أن يتكلم العربية ولا هو قادر أن يطقن اللغة الإنجليزية.
 
 > This means that the person in front of you must also be disfigures. He must also be disfigured. Because he is not able to speak [proper] Arabic and he does not master the English language.  
 
@@ -79,8 +78,7 @@ Arabs, especially in the upper strata of society, are more keen on having their 
 
 The experts' comments on this are damning. Language schools tend to focus more on the history and literature of foreign countries and less on that of Arabic ([29:30](https://www.youtube.com/watch?v=PVqBOrzxEwc&t=29m30s)) and students learn to think in concepts of that foreign culture. This is exemplified with the portrayal of the struggle of the Palestinians. One of the experts states that under the entry "Palestine" in the Oxford Dictionary it says "the original land of Jews". Accordingly,  
 
->&rlm; فعلى الدارس باللغة اإنجليزية أن يأدخذ بهذا المفهوم
-&lrm;{: .right}
+>&#x202b; فعلى الدارس باللغة اإنجليزية أن يأدخذ بهذا المفهوم
 
 > He who studies in English will receive this concept ([31:40](https://www.youtube.com/watch?v=PVqBOrzxEwc&t=31m40s)).
 
@@ -88,8 +86,7 @@ Another commentator explains that the person whose language and concepts are fro
 
 Thus, the foreign language takes control of the thought of the Arabs who speak it in a colonization of the mind:
 
->&rlm; اللغة هي التي تحدد الصورة الذهنية والصورة الذهنية هي التي ْْتبني طريقة التفكير. كون اللغة تباعته استُعرت فهو غدى إيسان مستعمرة. دماغه أُحتُل.
-&lrm;{: .right}
+>&#x202b; اللغة هي التي تحدد الصورة الذهنية والصورة الذهنية هي التي ْْتبني طريقة التفكير. كون اللغة تباعته استُعرت فهو غدى إيسان مستعمرة. دماغه أُحتُل.
 
 > The language is what defines the mental image, and the mental image is what defines the structure of thought. If his language is colonized, then he is a colonized human being. His brain is under occupation ([32:10](https://www.youtube.com/watch?v=PVqBOrzxEwc&t=32m10s)).
 
@@ -102,16 +99,14 @@ The Arabic situation is compared with the situation of Hebrew in Israel, a langu
 ## Conclusion
 The potentially catastrophic consequences of all this are poignantly formulated at the end of the documentary. The Arabic language is in fact facing an immediate and acute threat of being extinct ([43:15](https://www.youtube.com/watch?v=PVqBOrzxEwc&t=43m15s)). Not only the language is at stake: people who live under occupation (the assumption seems to be that all Arab countries are occupied) face the risk of cultural extinction: 
 
->&rlm; أن تتحدث بلغة المحتل هو أن تتخلى عن وجودك، هو أن تتخلى عن هويتك، وأن تتخلى عن كينونتك. يعني هذه قضية معروفة. ففي الاحتلالات في الدنيا إما أن تتمسك في لغتك فتضمن وجودك وإما أن تتنازل عن لغتك فتنتهي.
-&lrm;{: .right}
+>&#x202b; أن تتحدث بلغة المحتل هو أن تتخلى عن وجودك، هو أن تتخلى عن هويتك، وأن تتخلى عن كينونتك. يعني هذه قضية معروفة. ففي الاحتلالات في الدنيا إما أن تتمسك في لغتك فتضمن وجودك وإما أن تتنازل عن لغتك فتنتهي.
 
 > To speak the language of the occupier is to let go of your presence, it is to let go of your identity, and to let go of your existence. This is a known fact. You either hold on to your language and ensure your identity, or you let go of your language and cease to exist ([42:00](https://www.youtube.com/watch?v=PVqBOrzxEwc&t=42m00s)).  
 
 
 The American invasion force in Iraq stole and exported the material cultural and intellectual heritage of libraries and museums. The same thing is now happening with the abstract heritage of language:
  
->&rlm; نسيان اللغة معناها نيسيان التتاريخ معناها نسيان التراث. وهذا أمر تعمل عليه الدول الأجنبية لي نهارا, كيف تمحوا ذاكرتنا القديمة من أجل إلحاقنا بركبها الاقتصاضي المستغل لثرواتنا ولطاقاتنا.
-&lrm;{: .right}
+>&#x202b; نسيان اللغة معناها نيسيان التتاريخ معناها نسيان التراث. وهذا أمر تعمل عليه الدول الأجنبية لي نهارا, كيف تمحوا ذاكرتنا القديمة من أجل إلحاقنا بركبها الاقتصاضي المستغل لثرواتنا ولطاقاتنا.
 
 > Forgetting the language means forgetting history, it means forgetting the heritage. And foreign countries are working towards this aim day and night, how they can erase our memory in order to recruit us to their economic retinue, exploiting our wealth and our energy ([43:50](https://www.youtube.com/watch?v=PVqBOrzxEwc&t=43m50s)).
 
