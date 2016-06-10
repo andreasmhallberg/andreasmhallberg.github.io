@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Language ideology on AlJazera: Taḥt al-mijhar---Lisān aḍ-ḍād'
+title: 'Language ideology on AlJazera: Taḥt al-mijhar---Lisān aḍ-ḍād yajmaʿunā'
 permalink: /taht-al-mijhar-lisan-ad-dad/
 language: English
 tags:
@@ -14,9 +14,6 @@ Many of the concerns discussed in the program, though not all, are---from the po
 In writing the following, it has been tempting to comment on statements such as those above. I have tried not to, however, and try instead only relate and summarize what is stated in the documentary and let the statements speak for themselves, limiting my own comments to this introductory section and to the end of the post. Suffice it to say at this point that it is interesting to note how neatly the ideas propagated in the program fits with descriptions of the standard language ideology in English speaking countries.[^1] One recognizes in this documentary for example the sharp moral judgments on uses of language, pseudo-rational arguments for the superiority of the standard variety, and intolerance of variation described in the English literature.
 
 In the following, time references to the documentary are given in parentheses. These are hyper-linked to the appropriate section of the documentary on AlJazeera's channel on YouTube. The content as presented here largely follows the structure of the program. A complete transcript of the program, produced and published by AlJazeera, can be found [here](http://www.aljazeera.net/File/Get/4223314e-6f10-4d77-b485-cdea4305c3ac).
-
-[//]: # (sed timestamps to links)
-[//]: # (%s/\v(\d\d):(\d\d)/\[\(\1:\2\)\]\(https:\/\/www\.youtube\.com\/watch\?v=PVqBOrzxEwc&t=#\1m#\2s\)/g)
 
 ## The sorry state of Arabic
 The documentary presents a sad and pessimistic picture of the state of Arabic, underlined throughout the program with gloomy music playing in the background. Arabic is described as a language struggling for survival, surrounded by threats from all sides. Some of these threats are, allegedly, the  agenda of foreign powers to marginalize the Arabic language. Other, and more serious dangers are described as originating from moral flaws of the Arabs themselves.
