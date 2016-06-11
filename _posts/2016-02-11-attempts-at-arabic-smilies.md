@@ -8,7 +8,7 @@ tags:
 ---
 
 &#x202b;
-&emsp;ْ ـَدـْ
+&emsp; ـَدـْ
 &emsp; ـْـْـ
 &emsp; لـْـْـا
 &emsp; د:
