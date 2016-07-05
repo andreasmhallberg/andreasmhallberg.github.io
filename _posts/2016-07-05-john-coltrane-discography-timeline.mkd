@@ -1,0 +1,37 @@
+---
+layout: post
+title: Timeline of the John Coltrane discography
+permalink: /timeline-of-the-john-coltrane-discography/
+language: English
+tags:
+- LaTeX
+- Tikz
+---
+
+
+[![thumbnail](/images/coltrane-timeline.thumbnail.png)](/images/coltrane-timeline.pdf)
+
+Writing the [Timeline of Arabic grammarians](/timeline-of-arab-grammarians/) got me so excited that continued to write a timeline of something completely different, this time about something that means a lot to me personally: the music of John Coltrane. The timeline is limited to albums with Coltrane as band leader. It is intended to make it possible to position the Coltrane album you are currently listening to or interested in in the bigger picture of Coltrane's musical career and development and to see how it relates to his other albums. My impetus to write the timeline---apart from really enjoying working with Tik*z* code---was to get a better sense af what parts of Coltrane's music I have a feel for and what parts I am unfamiliar with. The timeline also gives a visual overview of some other aspects of Coltrane's recording career, such as what labels he was signed to and when, release lag, and what musicians he worked with and when.
+
+A pdf with the timeline can be viewed/downloaded [here](/images/coltran-timeline.pdf).
+
+The LaTeX source code can be found [here](https://github.com/andreasmhallberg/Coltrane-doscography-timeline/blob/master/coltrane-timeline.tex). 
+
+## Comments
+The timeline builds on data from the nicely tabulated [Coltrane discography on Wikipedia](https://en.wikipedia.org/wiki/John_Coltrane_discography). I have limited the timeline to albums that features Coltrane as band leader, mainly for practical purposes. Including his other appearances would roughly double the number of albums and would make the timeline in its current format very crowded. Even with only the band leader albums I had to use a very small print to fit everything in a A4-paper without to large horizontal dislocations of albums with respect to their position on the timeline (but see the to-do list below).
+
+I am particularity pleased with how I got the albums to automatically snap in place where they would overlap graphically. Every album is added to the timeline with a function with eight arguments, specifying recording dates, sidemen, etc. There is one optional argument that takes a length specification and that adjusts the horizontal shift, a system inherited from the Arabic grammar timeline. This time around, the optional argument can also be `adj` which adjusts the horizontal position of the entry by snapping it to the previous entry. This way, if several entries cluster and overlap, I can shift the first of them to the left and then specify that the each of following snap into to one another in a row.
+
+A tricky part of this timeline was how to have the dates line up on the time axis. To calculate the number of days between dates given in human-readable year-month-date format is not trivial. The solution turned out to be to transform all date data to Julian day, the number of days since January 1, 4713~BC. For example, John Coltrane was born September\ 23, 1926, which is Julian day 2\ 424\ 782, that is, roughly two and half million days after January 1, 4713~BC. With this date format time becomes nicely linear, proportional, and plottable.
+
+
+
+## To-do
+
+- Tidy up code
+- Show track listing when mouse hoovers over album. Use the `hyperref` package for this.
+- Include albums with Coltrane as non-leader and extend the timeline. To fit it all in either:
+    - extend the timeline to two landscape A4-papers.
+    - include non-leader albums on a separate level on top of leader albums (semi-transparent?).
+- Add horizontal braces above designating periods (sheets of sound, modal, free, other?). Consult biographies (Porter, Nisenson).
+- Boldface albums generally considered to be Coltrane's best/most influential. (Not sure how to go about choosing these.)

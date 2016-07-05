@@ -6,6 +6,7 @@ language: English
 tags:
 - Arabic
 - LaTeX
+- Tikz
 ---
 
 [![thumbnail](/images/alt-timeline.thumbnail.png)](/images/alt-timeline.pdf)
