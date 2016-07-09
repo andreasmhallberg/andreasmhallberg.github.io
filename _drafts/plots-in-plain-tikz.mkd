@@ -1,0 +1,99 @@
+---
+layout: post
+title: Plots in plain Ti*k*z
+permalink: //
+language: English
+tags:
+- LaTeX
+- Tikz
+- typography
+---
+
+The quality of plots and graphs in academic publications is often very poor. Typically a plot generated in some program is simply pasted into the document with fonts and general graphical feel that does not natch that of the rest of the document. If you are the kind of person that is bothered by this, you may find this post interesting. Here I describe the method I use to generate the plots in my [thesis](), sich as the one in page&nbsp; :
+
+![]()
+
+This plot was written in Ti*k*z, a dialect of TeX and its derivatives specialized in describing technical graphics. Here I will show a way of using it in the LaTeX. Briefly, what I did was to set up a coordinate system that matches the structure of the data, write the axes, define functions for plotting data as points or lines, and than add the data in the form of these functions. Since the coordinate system is defined to the structure of the data, plotting the data becomes really easy.
+
+Some words on pgfplots, a popular higher level language for plotting based on pgf. Basically, I don't use. I never got into it, partly because I liked the direct control that plain Ti*k*z provides, and partly because I just didn't want to learn how to navigate the pgfplots documentation. A lot of people like pgfplots, and it's probably faster once you learn it probably, but it might be tricky to get some finer detail exactly the way you want them.
+
+The design of these plots aim to get a high ink-to-information ratio, as defined by Edward Tufte. That is, every use of ink in this should convey some puce information. They are not as radical as Tufte's designs, I have retained some non-information carrying ink for aesthetic effect, particularly the axis lines, which I feel are needed to visually delimit the plotting area. Still these plots are fairly sparse with little graphical redundancy.   
+
+First we specify some lengths in the preamble. These are to be the same in all plots to give coherent feel. These values are a matter of taste and can be changed at any later time. They can also be overridden locally of course.
+
+``` tex
+
+\usepackage{tikz}
+\uspackage{calc}
+
+% lengths for tikz plots
+\AtBeginDocument{
+\newlength\plotheight % Height of plotting area
+\setlength\plotheight{.2\textheight}
+\newlength\plotwidth % Width of plotting area
+\setlength\plotwidth{.7\textwidth}
+\newlength\axissep % Space between plotting area and axis
+\setlength\axissep{\parindent}
+\newlength\tickl % Length of minor ticks
+\setlength\tickl{2mm}
+\newlength\ltickl % Length of major ticks
+\setlength\ltickl{3mm} 
+\newlength\ylabsep % space between plotting area and y-label 
+\setlength\ylabsep{\axissep+\tickl+1.5em}
+\newlength\xlabsep % space between plotting area and x-label
+\setlength\xlabsep{\axissep+\tickl+1.5em}
+}
+```
+
+In the preamble we also define a new environment to for these plots.
+
+``` tex
+\newnvironment{myplot}{%
+\begin{tikzpicture}[
+    y=\plotheight/(\maxy-\miny)
+    , x=\plotwidth/(\maxx-\minx)]
+
+    \useasboundingbox 
+        (\minx,\miny) ++ 
+        (-\axissep,-\axissep-\tickl-\xlabsep)
+        rectangle (\maxx,\maxy);
+
+    % y-axis
+    \draw (\minx-\axissep,\miny) -- (\minx-\axissep,\maxy);
+    % y-label
+    \path  (\minx-\ylabsep, {(\miny+\maxy)/2}) node[align=center,
+    rotate=90 ,anchor=south] {\ylab};
+
+    % x-axis
+    \draw (\minx,\miny) ++ (0,-\axissep) -- ++ (\maxx,0);
+
+    % x-label
+    \path ({(\minx+\maxx)/2},\miny) ++ (0, -\xlabsep)
+    node[anchor=north] {\xlab};
+
+\end{tikzpicture}
+```
+
+
+```
+
+
+Then before each plot we specify some variables for that particular plot, namely the minimum and maximum of the *x*-axis and *y*-axis (can be negative values) and their labels, typically the independent and the dependent variable.  
+
+``` tex
+\def\maxy{100}%
+\def\miny{0}%
+\def\maxx{3}%
+\def\minx{0}%
+\def\xlab{Definiteness}%
+\def\ylab{Case marking (\%)}%
+```
+
+On the line directly following this we start the `tikzpicture` environment where we do the actual drawing. Here we utilize the max and min values define above to get a coordinate system that matches the actual data so that we can draw it directly using actual data values as coordinate numbers. One unit in the y-axis equals `\plotheight` (defined in the preamble as describe above) defined by the span of the y-axis (max value - min value.) Since in this example we want to plot percentages in the span of 0--100, one step is one hundredth of the total plot height, which in turn is one fifth of the hight of the text block on the page. Thus, when can feed in percentage data directly as a y-coordinate and it will be plotted accordingly. This example of 0--100 is of course very simple, but is works just as well if we had a span of, say, 36--285. 
+
+The same thing is done for the x-axis. In this example, the x-axis has non-numerical data of four levels, 0--3. (You could make it 1--4, but I find it easier to count as a computer here and start with~0, making the bottom left as origo.)
+
+
+
+
+
