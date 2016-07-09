@@ -7,12 +7,14 @@ layout: default
 
   <div class="date">
 
+{% assign tags = page.tags %}
+
       {% if page.language == 'English' %}
-        Written on {{ page.date | date: "%B %e, %Y" }}. Tags: {{page.tags | split=","}}
+        Written on {{ page.date | date: "%B %e, %Y" }}. Tags: {% for tag in tags %} -{{tag}}{% endfor %} 
       {% endif %}
 
       {% if page.language == 'Swedish' %}
-        Skriven {{ page.date | date: "%Y-%m-%d" }}. Taggar: {{page.tags | split=","}}
+        Skriven {{ page.date | date: "%Y-%m-%d" }}. Taggar: {% for tag in tags %} -{{tag}}{% endfor %}
       {% endif %}
 
       {% if page.language == 'Arabic' %}
