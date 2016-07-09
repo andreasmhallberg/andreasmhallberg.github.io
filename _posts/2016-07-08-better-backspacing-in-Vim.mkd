@@ -1,0 +1,30 @@
+---
+layout: post
+title: Better backspacing in Vim
+permalink: /better-backspacing-in-vim/
+language: English
+tags:
+- Vim
+---
+ 
+In this post I describe my favorite and also my most drastic key mapping in Vim: `jj` to remove the word you are/were just typing without leaving insert mode, providing a ore efficient and better located backspace alternative.
+
+When writing in Vim, you never need the to use the mouse and you never need to use the cursor keys. All typing, editing, and file navigation is done with you fingers on the home-row (left index finger on F, right index finger on J). This makes for very quick and comfortable text editing, also over several files, ones you get used to it.
+
+Now, one thing that stops the Vim writing flow is when you misstype a word and need to retype it. The usual way retype a wrongly spelled word is to lift your right hand to reach the backspace key in the top left and hit it repeatedly until the miss-spelled word is erased and then type it again. This can get vary annoying. It dislocates your right hand from the home row where it belongs and the repeated keypresses on backspace only operates on one character at a time.
+
+A more efficient way is to have one easily accessible key combination remove the entire word without leaving insert mode so that you can just type it again. With the mapping below in your `.vimrc` this is done by hitting `j` key twice.
+
+``` vim
+inoremap jj <Esc>vbc
+```
+
+This mapping is primarily intended for prose writing and it obviously would not work if you often write in some language *jj* is a common letter combination. (I dont't know whether there is such a language.) In Swedish and English, the languages I write in, it the `jj` combination is extremely infrequent. In Arabic, the other language I sometimes use, this key combination produces تت, which is a fairly common, so the mapping has to be disabled when I am writing Arabic.
+
+Some Vim users have `jj` mapped to ESC. An alternative could then be to have the word erase mapped to `hh`, which is also very infrequent in English. 
+
+Just making this mapping available does not mean that one starts using it. A thing such as backspace is very deeply engraved in the muscle memory and is not easy to shake off. To break the habit of using the backspace key, you may want to add the following in your `.vimrc` to simply disable. I think it is still useful to have it to remove single letters, so this only removes stops backspace from working when you hit it twice or more. This has the added advantage that you force yourself to use the `x` and `s` operations instead of backspace.
+
+``` vim
+imap <BS> <NOP><NOP>
+```
