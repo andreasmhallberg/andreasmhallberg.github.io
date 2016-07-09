@@ -1,0 +1,26 @@
+---
+layout: post
+title: No more backspace smashing in Vim
+permalink: /exempel-pa-svensk-arabisk-kodvaxling/
+language: English
+tags:
+- Vim
+---
+
+When writing text in Vim, you never need the to you the mouse and you never need to use the cursor keys. All typing, editing, and file navigation is done with you fingers on the home-row (left index finger on F, right index finger in J). This makes for very quick and comfortable text editing ,possibly over several files, ones you get used to it. 
+
+Now, one thing that stops the Vim writing flow is when you misstype a word and need to retype it. The usual way of doing this is to lift your right hand to reach the backspace key in the top left and smack it repeatedly till the miss-spelled word is erased and then retype it. This can get vary annoying. It dislocates your right hand from the home row where it should be and the repeated keypresses on backspace is a slow.
+
+Enter `jj`. The mapping below added to your `.vimrc` allows you to hit the `j` key twice with your right index finger to erase the word your in and just retype it.
+
+``` vim
+inoremap jj <Esc>vbc
+```
+
+This mapping is primarily intended for prose writing, not for coding, and it obviously would not work if you often write in some language *jj* is a common letter combination. In Swedish and English, the languages I mostly write in, it is extremely infrequent. In Arabic, the other language I sometimes use, this key combination produces تت, which is a fairly common combination, so the mapping sometimes get in the way.
+
+If you already have `jj` mapped to ESC, you can have the word eraser mapping to `,,`, for instance.
+
+Just making this mapping available of course 
+
+Some Vim users use
