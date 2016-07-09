@@ -7,11 +7,7 @@ tags:
 - Vim
 ---
  
-In this post I describe my favorite and also my most drastic key mapping in Vim: `jj` to remove the word you are/were just typing without leaving insert mode, providing a ore efficient and better located backspace alternative.
-
-When writing in Vim, you never need the to use the mouse and you never need to use the cursor keys. All typing, editing, and file navigation is done with you fingers on the home-row (left index finger on F, right index finger on J). This makes for very quick and comfortable text editing, also over several files, ones you get used to it.
-
-Now, one thing that stops the Vim writing flow is when you misstype a word and need to retype it. The usual way retype a wrongly spelled word is to lift your right hand to reach the backspace key in the top left and hit it repeatedly until the miss-spelled word is erased and then type it again. This can get vary annoying. It dislocates your right hand from the home row where it belongs and the repeated keypresses on backspace only operates on one character at a time.
+When writing in Vim, you never need the to use the mouse and you never need to use the cursor keys. All typing, editing, and file navigation is done with you fingers on the home-row (left index finger on F, right index finger on J). This makes for very quick and comfortable text editing, also over several files, ones you get used to it. But one thing that stops the Vim writing flow is when you misstype a word and need to retype it. The usual way to do this is to lift your right hand to reach for the backspace key in the top right and smash it repeatedly until the wrongly spelled word is erased, and then type it again. This is very annoying. It dislocates your right hand from the home row where it belongs and the repeated keypresses on backspace only operates on one character at a time.
 
 A more efficient way is to have one easily accessible key combination remove the entire word without leaving insert mode so that you can just type it again. With the mapping below in your `.vimrc` this is done by hitting `j` key twice.
 
@@ -28,3 +24,5 @@ Just making this mapping available does not mean that one starts using it. A thi
 ``` vim
 imap <BS> <NOP><NOP>
 ```
+
+I have had these mappings for a couple of months now and its great. Once you notice you misspelled something and you see the squiggly red line pop up you justt do `jj` without moving your hand and type the word again. The only backside is that whenever you are doing things outside of Vim you risk ending up with *jj*s all over the place. 
