@@ -8,11 +8,11 @@ layout: default
   <div class="date">
 
       {% if page.language == 'English' %}
-        Written on {{ page.date | date: "%B %e, %Y" }}.
+        Written on {{ page.date | date: "%B %e, %Y" }}. Tags: {{page.tags | split=","}}
       {% endif %}
 
       {% if page.language == 'Swedish' %}
-        Skriven {{ page.date | date: "%Y-%m-%d" }}.
+        Skriven {{ page.date | date: "%Y-%m-%d" }}. Taggar: {{page.tags | split=","}}
       {% endif %}
 
       {% if page.language == 'Arabic' %}
