@@ -10,11 +10,11 @@ layout: default
 {% assign tags = page.tags %}
 
       {% if page.language == 'English' %}
-        Written on {{ page.date | date: "%B %e, %Y" }}. Tags: {% for tag in tags %} -{{tag}}{% endfor %} 
+        Written on {{ page.date | date: "%B %e, %Y" }}.<br>Tags: {% for tag in tags %} -{{tag}}{% endfor %} 
       {% endif %}
 
       {% if page.language == 'Swedish' %}
-        Skriven {{ page.date | date: "%Y-%m-%d" }}. Taggar: {% for tag in tags %} -{{tag}}{% endfor %}
+        Skriven {{ page.date | date: "%Y-%m-%d" }}.<br>Taggar: {% for tag in tags %} -{{tag}}{% endfor %}
       {% endif %}
 
       {% if page.language == 'Arabic' %}
