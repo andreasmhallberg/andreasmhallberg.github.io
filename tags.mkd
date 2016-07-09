@@ -23,10 +23,10 @@ title: Tags
 </div>
 
 
-{% for tag in site.tags | sort %}
+{% for tag in site.tags%}
   <h2 class='tag-header' id="{{ tag[0] }}-ref">{{ tag[0] }}</h2>
   <ul>
-    {% assign pages_list = tag[1] %}
+    {% assign pages_list = tag[1]  | sort %}
 
     {% for node in pages_list %}
       {% if node.title != null %}
