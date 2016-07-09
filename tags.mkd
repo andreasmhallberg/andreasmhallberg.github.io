@@ -15,8 +15,7 @@ title: Tags
   {% else %}
     {% for tag in tags_list %}
       <a href="/tags#{{ tag[0] }}-ref" class='list-group-item'>
-        {{ tag[0] }} <span class='badge'>{{ tag[1].size }}</span>
-      </a>
+        {{ tag[0] }} </a> (<span class='badge'>{{ tag[1].size }}</span>) 
     {% endfor %}
   {% endif %}
 
