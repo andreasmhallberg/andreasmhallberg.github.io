@@ -34,7 +34,7 @@ title: Tags
           {% if page.url == node.url %}
           <li class="active"><a href="{{node.url}}" class="active">{{node.title}}</a> <i>{node.date}</i> </li>
           {% else %}
-          <li><a href="{{node.url}}">{{node.title}}</a> <i>{{node.date}}</i> </li>
+          <li><a href="{{node.url}}">{{node.title}}</a> <i>{{node.date | date: '%y-%m-%d'}}</i> </li>
           {% endif %}
         {% endif %}
       {% endif %}
