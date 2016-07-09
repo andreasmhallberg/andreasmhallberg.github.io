@@ -5,7 +5,7 @@ permalink: /exempel-pa-svensk-arabisk-kodvaxling/
 language: Swedish
 tags:
 - Arabic
-- linguisitics
+- linguistics
 ---
 
 [//]: # (All hyphens in glosses no breaking U+2011: s/-/‑/g)
