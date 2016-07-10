@@ -35,9 +35,9 @@ title: Tags
           <li>
             <a href="{{node.url}}">{{node.title}} </a>
             <a class="date">
-                {% if node.lenth == 'long' %} L
-                {% elsif node.lenth == 'short' %} S
-                {% elsif node.lenth == 'medium' %} M
+                {% if node.length == 'long' %} L
+                {% elsif node.length == 'short' %} S
+                {% elsif node.length == 'medium' %} M
                 {% endif %}
               {{node.date | date: '%y-%m-%d'}}
             </a>
