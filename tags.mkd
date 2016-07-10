@@ -32,7 +32,15 @@ title: Tags
       {% if node.title != null %}
         {% if group == null or group == node.group %}
         
-          <li><a href="{{node.url}}">{{node.title}}</a> <a class="date">{{node.date | date: '%y-%m-%d'}}</a> </li>
+          <li>
+            <a href="{{node.url}}">{{node.title}} </a>
+            <a class="date">
+              {% if node.lenth == 'long' %} L
+              {% elsif node.lenth == 'short' %} S
+              {% elsif node.lenth == 'medium' %} M
+              {{node.date | date: '%y-%m-%d'}}
+            </a>
+          </li>
 
         {% endif %}
       {% endif %}
