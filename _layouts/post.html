@@ -10,15 +10,35 @@ layout: default
 {% assign tags = page.tags %}
 
       {% if page.language == 'English' %}
-        Written {{ page.date | date: "%B %e, %Y" }}.<br>Tags: {% for tag in tags %} -{{tag}}{% endfor %} 
+        Written {{ page.date | date: "%B %e, %Y" }}<br>
+        Tags: {% for tag in tags %} -{{tag}}{% endfor %}<br>
+        Length: {{ page.length }}
       {% endif %}
 
       {% if page.language == 'Swedish' %}
-        Skriven {{ page.date | date: "%Y-%m-%d" }}.<br>Taggar: {% for tag in tags %} -{{tag}}{% endfor %}
+        Skriven {{ page.date | date: "%Y-%m-%d" }}<br>
+        Taggar: {% for tag in tags %} -{{tag}}{% endfor %}<br>
+        Längd:
+          {% if page.length == 'long' %}
+            lång
+          {% elseif page.length == 'short' %} 
+            kort
+          {% elseif page.length == 'medium' %}
+            medium
+          {% endif %}
       {% endif %}
 
+
       {% if page.language == 'Arabic' %}
-        &#x202b;مكتوب {{ page.date | date: "%Y/%m/%d" }}.
+        &#x202b;مكتوب {{ page.date | date: "%Y/%m/%d" }}.<br>
+        &#x202b;طول: 
+          {% if page.length == 'long' %}
+        &#x202b;طويل 
+          {% elseif page.length == 'short' %} 
+        &#x202b;قصير 
+          {% elseif page.length == 'medium' %}
+        &#x202b;وصط 
+          {% endif %}
       {% endif %}
 
   </div>
