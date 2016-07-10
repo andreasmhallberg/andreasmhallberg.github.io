@@ -31,7 +31,9 @@ title: Tags
     {% for node in pages_list %}
       {% if node.title != null %}
         {% if group == null or group == node.group %}
+        
           <li><a href="{{node.url}}">{{node.title}}</a> <a class="date">{{node.date | date: '%y-%m-%d'}}</a> </li>
+
         {% endif %}
       {% endif %}
     {% endfor %}
