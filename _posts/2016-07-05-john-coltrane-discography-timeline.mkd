@@ -15,7 +15,7 @@ I really enjoyed writing and designing the [Timeline of Arabic grammarians](/tim
 
 A pdf with the timeline can be viewed/downloaded [here](/images/coltran-timeline.pdf). The source code for the document can be found [here](https://github.com/andreasmhallberg/Coltrane-doscography-timeline/blob/master/coltrane-timeline.tex). 
 
-[![thumbnail](/images/coltrane-timeline.thumbnail.png)]](/images/coltrane-timeline.pdf)
+[![thumbnail](/images/coltrane-timeline.thumbnail.png)](/images/coltrane-timeline.pdf){: .center-image }
 
 ## Comments
 The timeline builds on data from the nicely tabulated [Coltrane discography on Wikipedia](https://en.wikipedia.org/wiki/John_Coltrane_discography). I have limited the timeline to albums that feature Coltrane as band leader, mainly for practical reasons. Including his other appearances would roughly double the number of albums and would make the timeline in its current format very crowded. Even with only the band leader albums I had to use a very small print to fit everything in a A4-paper without to large horizontal dislocations of albums with respect to their positions on the timeline (but see the to-do list below).
