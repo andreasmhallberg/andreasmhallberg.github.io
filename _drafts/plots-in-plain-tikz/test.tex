@@ -1,0 +1,91 @@
+\documentclass{article}
+\usepackage{tikz}
+\usepackage{calc}
+\usepackage{kantlipsum}
+
+% lengths for tikz plots
+\newlength\plotheight % Height of plotting area
+\setlength\plotheight{.2\textheight}
+\newlength\plotwidth % Width of plotting area
+\setlength\plotwidth{.7\textwidth}
+\newlength\axissep % Space between plotting area and axis
+\setlength\axissep{1em}
+\newlength\tickl % Length of minor ticks
+\setlength\tickl{2mm}
+\newlength\ltickl % Length of major ticks
+\setlength\ltickl{3mm} 
+\newlength\ylabsep % space between plotting area and y-label 
+\setlength\ylabsep{\axissep+\tickl+1.5em}
+\newlength\xlabsep % space between plotting area and x-label
+\setlength\xlabsep{\axissep+\tickl+1.5em}
+
+\begin{document}
+
+\kant[1]
+
+\begin{figure}
+\center
+\def\maxy{100}%
+\def\miny{0}%
+\def\maxx{3}%
+\def\minx{0}%
+\def\xlab{Definiteness}%
+\def\ylab{Case marking (\%)}%
+\begin{tikzpicture}[
+    y=\plotheight/(\maxy-\miny)
+    , x=\plotwidth/(\maxx-\minx)]
+
+    \useasboundingbox 
+        (-\axissep,-\axissep-\tickl-\xlabsep)
+        rectangle  (\maxx,\maxy);
+
+% y-axis
+\draw (\minx-\axissep,\miny) -- (\minx-\axissep,\maxy);
+% y-ticks
+\foreach \x in {0,25,...,\maxy} 
+    {\draw (\minx,\x) ++ (-\axissep,0) -- ++ (-\tickl,0)
+% y-ticklabels    
+	    node[anchor=east] {\x};}
+% y-label
+    \path  (\minx-\ylabsep, {(\miny+\maxy)/2}) node[align=center, rotate=90 ,anchor=south] {\ylab};
+
+% x-axis
+\draw (\minx,\miny) ++ (0,-\axissep) -- ++ (\maxx,0);
+
+% x-ticks
+\foreach \x/\y in { 0, 1, 2, 3 }
+    \draw (\x, \miny) ++ (0,-\axissep) -- ++ (0, -\tickl);
+% x-ticklabels
+      \node at (0,-\axissep-\tickl) [align=center,anchor=north ] {Definite\\article};
+      \node at (1,-\axissep-\tickl) [anchor=north] {\textsc{cs-n/c}\vphantom{I}}; % \vphantom to align
+      \node at (2,-\axissep-\tickl) [anchor=north] {Indefinite};
+      \node at (3,-\axissep-\tickl) [align=center,anchor=north ] {Enclitic\\pronoun};
+
+% x-label
+    \path ({(\minx+\maxx)/2},\miny) ++ (0, -\xlabsep-\baselineskip)
+    node[anchor=north] {\xlab};
+
+% \newcommand\plotdata[4]{
+%   \draw[fill=black] (0,#1) circle [radius=1pt];
+%   \draw[fill=black] (1,#2) circle [radius=1pt];
+%   \draw[fill=black] (2,#3) circle [radius=1pt];
+%   \draw[fill=black] (3,#4) circle [radius=1pt];
+% }
+
+\newcommand\plotdata[4]{
+  \draw (0,#1) -- (1,#2) -- (2,#3) -- (3,#4);
+}
+
+\plotdata{10.800}{70.000}{70.149}{99.999}
+\plotdata{2.967}{15.277}{24.902}{97.826}
+\plotdata{0.809}{19.718}{30.496}{93.750}
+\plotdata{4.072}{12.121}{12.413}{56.249}
+\plotdata{0.684}{4.081}{13.872}{47.999}
+
+\end{tikzpicture}
+\caption{Predicted case marking by types of definiteness}
+\end{figure}
+
+\kant[2]
+
+\end{document}

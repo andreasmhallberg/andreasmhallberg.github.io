@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Plots in plain Ti*k*z
+title: Writing plots in plain Ti*k*z
 permalink: /plots-in-plain-tikz/
 language: English
 length: long
@@ -12,23 +12,24 @@ tags:
 
 # Introduction
 
-The quality of plots and graphs in academic publications is often very poor. Typically, a plot generated in some program is simply pasted into the document with fonts and general graphical feel that does not natch that of the rest of the document. If you are the kind of person that is bothered by this, you may find this post interesting. Here I describe the method I used to generate the plots in my [thesis](), such as the one in page&nbsp; :
+The quality of plots and graphs in academic publications is often very poor. Typically, a plot generated in some program is simply pasted into the document with fonts and general graphical feel that does not natch that of the rest of the document. If you are the kind of person that is bothered by this sort of thing, you may find this post interesting. Here I describe the method I used to generate the plots in my [thesis](https://lup.lub.lu.se/search/publication/8524489), such as the one in page&nbsp; :
 
-![Plot from diss](postdate/definitenessplotpage.pdf)
+![Plot from diss](/{{ date | date: '%y-%m-%d}}/definitenessplotpage.pdf)
 
-This plot was written in Ti*k*z, a dialect of TeX and its derivatives specialized in describing technical graphics. Here I will show a way of using it in the LaTeX. Briefly, what I did was to set up a coordinate system that matches the structure of the data, write the axes, define functions for plotting data as points or lines, and then add the data in the form of these functions. Since the coordinate system is defined to the structure of the data, plotting the data becomes really easy.
+This plot was written in [Ti*k*z](), a dialect of LaTeX (as well of other TeX-based languages) specialized in describing and producing technical graphics. A good short introduction to Ti*k*z can be found [here](). Here I will show a way of using it in the LaTeX. Below I describe how is to set up a coordinate system that matches the structure of the data, write the axes, define functions for plotting data as points or lines, and how to add the data in the form of these functions. Since the coordinate system is defined to the structure of the data, plotting the data becomes really easy.
 
-Some words on pgfplots, a popular higher level language for plotting based on pgf. Basically, I don't use. I never got into it, partly because I liked the direct control that plain Ti*k*z provides, and partly because I just didn't want to learn how to navigate the pgfplots documentation. A lot of people like pgfplots, and it's probably faster once you learn it probably, but it might be tricky to get some finer detail exactly the way you want them.
+The design of these plots aim to get a high ink-to-information ratio, as defined by Edward Tufte in his *The Visual Display of Quantitative Information.* That is, every use of ink in this should convey some piece information. If it does not, if it is merely decoration, it should be removed. These plots are not as radical as some of Tufte's designs. I have for example retained the axis lines, which I feel are needed to visually delimit the plotting area since I have no grid or such. Still, these plots are fairly sparse, with little graphical redundancy.   
 
-The design of these plots aim to get a high ink-to-information ratio, as defined by Edward Tufte. That is, every use of ink in this should convey some puce information. They are not as radical as Tufte's designs, I have retained some non-information carrying ink for aesthetic effect, particularly the axis lines, which I feel are needed to visually delimit the plotting area. Still, these plots are fairly sparse with little graphical redundancy.   
+Some words on [`pgfplots`](). `pgfplots` is a popular higher level language for plotting based on Ti*k*z/pgf. I don't use. I never got into it, partly because I liked the direct control that plain Ti*k*z provides, and partly because I just didn't want to learn how to navigate the `pgfplots` documentation. A lot of people like `pgfplots`, and it's probably faster once you learn it properly, but it might be tricky to get some finer detail exactly the way you want them. Also, if you have learned the basics of Ti*k*z setting up your own system for plot writing is not very difficult, as I hope to demonstrate in this post. 
 
 ## Setup
 
-First we specify some lengths in the preamble. These are to be the same in all plots to give coherent feel. These values are a matter of taste and can be changed at any later time. They can also be overridden locally of course.
+First we specify some lengths in the preamble. These are to be the same in all plots to give coherent feel. Note fore example that every plot be the same size relative to the page layout: one fifth of the height of the text block and a little more than two thirds of its width. By specifying them this way, they conveniently scale to different page sizes. These values are a matter of taste and can be changed at any point. They can also be overridden locally for a specific plot.
 
 ``` tex
 \usepackage{tikz}
 \usepackage{calc}
+\usepackage{kantlipsum} % for placeholder text
 
 % lengths for tikz plots
 \newlength\plotdataheight % Height of plotting area
@@ -47,7 +48,7 @@ First we specify some lengths in the preamble. These are to be the same in all p
 \setlength\xlabsep{\axissep+\tickl+1.5em}
 ```
 
-The basic framework for each plot is as follows. Before each plot we specify some variables for that particular plot, namely the minimum and maximum of the *x*-axis and *y*-axis (can be negative values) and their labels, typically the independent and the dependent variable. 
+The basic framework for each plot is as follows. Before each plot we specify some variables for that particular plot, namely the minimum and maximum of the x-axis and y-axis (can be negative values) and their labels, typically the independent and the dependent variable. 
 
 ``` tex
 \def\maxy{100}%
@@ -58,14 +59,14 @@ The basic framework for each plot is as follows. Before each plot we specify som
 \def\ylab{Case marking (\%)}%
 ```
 
-On the line directly following this we start the `tikzpicture` environment where we do the actual drawing. Here we utilize the max and min values define above to get a coordinate system that matches the actual data so that we can draw it directly using actual data values as coordinate numbers. One unit in the y-axis equals `\plotheight` (defined in the preamble as describe above) defined by the span of the y-axis (max value - min value.) Since in this example we want to plot percentages in the span of 0--100, one step is one hundredth of the total plot height, which in turn is one fifth of the height of the text block on the page. Thus, when can feed in percentage data directly as a y-coordinate and it will be plotted accordingly. This example of 0--100 is of course very simple, but is works just as well if we had a span of, say, 36--285. 
+On the line directly following this we start the `tikzpicture` environment where we do the actual drawing. Here we utilize the max and min values define above to get a coordinate system that matches the actual data so that we can draw it directly using actual data values as coordinate numbers. One unit in the y-axis equals `\plotheight` (defined in the preamble as describe above) defined by the span of the y-axis (max value - min value). These values are usually known or easily retrievable. Since in this example we want to plot percentages in the span of 0--100, one unit on the y-axis is one hundredth of the total plot height, which in turn is one fifth of the height of the text block on the page. Thus, when can feed in percentage data directly as a y-coordinate and it will be plotted accordingly. This example of 0--100 is of course very simple, but is works just as well if we had a span of, say, 36--285. 
 
-The same thing is done for the x-axis. In this example, the x-axis has non-numerical data of four levels, 0--3. (You could make it 1--4, but I find it easier to count as a computer here and start with~0, making the bottom left as origo.)
+The same thing is done for the x-axis. In this example, the x-axis has non-numerical data of four levels, 0--3. The 
 
 The `\useasboundingbox` delimits the box that TeX identifies for alignment and such. With this command the plot is centered on the area encloses in the axes, ignoring the label and the numbers for the y-axis, making the plot optically rather than logically centered. The two images below illustrate the difference. The one to the left is logically centered, and the one to the right is optically centered using the boundingbox.
 
 
-![logical alignment](postdate/woboundingbox.pdf)![optical alignment](postdate/withboundingbox.pdf)
+![logical alignment](/{{ date | date: '%y-%m-%d}}/woboundingbox.pdf)![optical alignment](/{{ date | date: '%y-%m-%d}}/withboundingbox.pdf)
 
 The next set of commands draws the x and y-axes, ticks, labels for ticks, and labels for the axes. Using the lengths define in the preamble. Thus, the axes are `\axissep` (1em) away from the plotting area, making the plot less cramp and giving some space to data points at the edge of the plotting area. This is a matter of taste. You could for example set this length to zero with `\setlength\axissep{0pt}` to have the axes slap-bang next to the plotting area, which is quite common. I find this visually stressful.
 
@@ -112,7 +113,7 @@ Note also that for tick labels on the x-axis, they are anchored to the north (to
 
 Now we have the following, and we want to fill this in with data:
 
-![empty axis]()
+![empty axis](/{{ date | date: '%y-%m-%d' }}/emptyaxes.png)
 
 ## Entering data
 
@@ -146,7 +147,7 @@ We comment out the column headers, they are not data, and with some simple subst
 
 We insert this at the bottom of our `tikzpicture`. Now all we need to do is to define the `\plotdata` command so that all this actually does something. The beauty of this approach is that now we have all the structure we need we can use of the resources of Ti*k*z to turn them into nice-looking graphics. I will give two examples of how to do this, first with dots as a scatter plot and then with lines as a line plot.
 
-First dots. In Ti*k*z, coordinates are specified as `(x,y)`. The command definition below takes the first argument as the y-coordinate and places it on x=0, the second argument as y-coordinate on x=1, etc. Since we specified each x and y unit to reflect our data, it will plot just right.
+First dots. In Ti*k*z, coordinates are specified as `(<x>,<y>)`. The command definition below takes the first argument as the y-coordinate on x=0, the second argument as y-coordinate on x=1, etc. Since we specified each x and y units in the plot to reflect the properties of the data, it will come out just right.
 
 ``` tex
 \newcommand\plotdata[4]{
@@ -159,7 +160,7 @@ First dots. In Ti*k*z, coordinates are specified as `(x,y)`. The command definit
 
 This gives the following:
 
-![Scatter plot](postdate/dots.png)
+![Scatter plot](/{{ date | date: '%y-%m-%d}}/dots.png)
 
 Now lines. Here we want to connect these same four coordinates with a line.
 
@@ -171,35 +172,14 @@ Now lines. Here we want to connect these same four coordinates with a line.
 
 This gives instead the following, which is what  we want in this case:
 
-![Line plot](postdate/lines.png)
+![Line plot](/{{ date | date: '%y-%m-%d}}/lines.png)
 
 And there you have the basic idea.
 
 What I have done here is to try to demonstrate the basic idea. It is very easy to expand on it. With 
 
-There are many ways in which you can make this more reusable and reproducible. The two most obvious ways is a)&nbsp;to make a costume LaTeX environment of the containing the takzpicture environment and the command to draw the axis commands, and b)&nbsp;to have R or some other program generate data in the LaTeX command form and write this to a file that is then `\input`ed into the tikzpicure.
+There are many ways in which you can make this more reusable and reproducible. The two most obvious ways are a)&nbsp;to make a costume LaTeX environment of the containing the takzpicture environment and the command to draw the axis commands, and b)&nbsp;to have R or some other program generate data in the LaTeX command form and write this to a file that is then `\input`ed into the `tikzpicure`.
 
-## Complete code
-
-``` tex
-%\plotdata[<y-shif>]{<speaker>}{<1st x-coord>}{<1nd y-coord>}{<2st x-coord>}{<2nd y-coord>}
-\newcommand\plotdata[6][0pt]{
-    \draw[draw=black!30, thin] 
-	(0, #3) -- 
-	(1, #4) -- 
-	(2, #5) -- 
-	(3, #6) ++ 
-	(\axissep, 0) 
-    node  [inner sep=0pt, anchor=west, yshift=#1, font=\tiny] {\scalebox{.7}{\textlab{#2}}}
-    ;}
-
-
-\plotdata{10.800}{70.000}{70.149}{99.999}
-\plotdata{2.967}{15.277}{24.902}{97.826}
-\plotdata{0.809}{19.718}{30.496}{93.750}
-\plotdata{4.072}{12.121}{12.413}{56.249}
-\plotdata{0.684}{4.081}{13.872}{47.999}
-```
 ## Complete example
 
 ``` tex
@@ -225,6 +205,7 @@ There are many ways in which you can make this more reusable and reproducible. T
 
 \begin{document}
 
+\kant[1]
 
 \begin{figure}
 \center
@@ -287,6 +268,9 @@ There are many ways in which you can make this more reusable and reproducible. T
 
 \end{tikzpicture}
 \end{figure}
+\caption{Predicted case marking by types of definiteness}
+
+\kant[2]
 
 \end{document}
 ```

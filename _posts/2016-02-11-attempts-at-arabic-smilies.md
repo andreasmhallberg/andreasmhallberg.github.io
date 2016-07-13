@@ -5,7 +5,7 @@ permalink: /attemptsatarabicsmilies/
 language: English
 length: short
 tags:
-- Arabic
+- arabic
 ---
 
 &#x202b;
