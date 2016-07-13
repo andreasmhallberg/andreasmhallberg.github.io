@@ -15,7 +15,7 @@ I really enjoyed writing and designing the [Timeline of Arabic grammarians](/tim
 
 A pdf with the timeline can be viewed/downloaded [here](/images/coltran-timeline.pdf). The source code for the document can be found [here](https://github.com/andreasmhallberg/Coltrane-doscography-timeline/blob/master/coltrane-timeline.tex). 
 
-<p align='center'>
+<p align="center">
 [![thumbnail](/images/coltrane-timeline.thumbnail.png)](/images/coltrane-timeline.pdf)
 </p>
 
