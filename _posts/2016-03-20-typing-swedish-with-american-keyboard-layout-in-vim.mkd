@@ -5,7 +5,7 @@ permalink: /swewithuskblayout/
 language: English
 length: medium
 tags: 
-- Vim
+- vim
 ---
 
 {% raw %}

@@ -5,8 +5,8 @@ permalink: /typographyofaynandhamza/
 language: English
 length: long
 tags:
-- Arabic
-- LaTeX
+- arabic
+- latex
 - typography
 ---
 

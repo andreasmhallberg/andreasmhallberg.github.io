@@ -5,8 +5,8 @@ permalink: /timeline-of-the-john-coltrane-discography/
 language: English
 length: medium
 tags:
-- LaTeX
-- Tikz
+- latex
+- tikz
 ---
 
 

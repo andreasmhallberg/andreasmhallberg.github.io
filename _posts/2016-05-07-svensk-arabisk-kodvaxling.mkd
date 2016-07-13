@@ -5,7 +5,7 @@ permalink: /exempel-pa-svensk-arabisk-kodvaxling/
 language: Swedish
 length: medium
 tags:
-- Arabic
+- arabic
 - linguistics
 ---
 

@@ -6,8 +6,8 @@ language: English
 length: medium
 tags:
 - typography
-- Arabic
-- LaTeX
+- arabic
+- latex
 ---
 
 {% raw %}

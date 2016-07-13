@@ -5,7 +5,7 @@ permalink: /Reading-notes-on-github/
 language: English
 length: short
 tags:
-- Arabic
+- arabic
 - linguistics
 ---
 

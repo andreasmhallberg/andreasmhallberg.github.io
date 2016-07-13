@@ -5,7 +5,7 @@ permalink: /better-backspacing-in-vim/
 language: English
 length: medium
 tags:
-- Vim
+- vim
 ---
  
 When writing in Vim, you never need the to use the mouse and you never need to use the cursor keys. All typing, editing, and file navigation is done with you fingers on the home-row (left index finger on F, right index finger on J). This makes for very quick and comfortable text editing, also over several files, ones you get used to it. But one thing that stops the Vim writing flow is when you misstype a word and need to retype it. The usual way to do this is to lift your right hand to reach for the backspace key in the top right and smash it repeatedly until the wrongly spelled word is erased, and then type it again. This is very annoying. It dislocates your right hand from the home row where it belongs and the repeated keypresses on backspace only operates on one character at a time.

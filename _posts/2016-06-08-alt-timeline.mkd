@@ -5,9 +5,9 @@ permalink: /timeline-of-arab-grammarians/
 language: English
 length: short
 tags:
-- Arabic
-- LaTeX
-- Tikz
+- arabic
+- latex
+- tikz
 ---
 
 
