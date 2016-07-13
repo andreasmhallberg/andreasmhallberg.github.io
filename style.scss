@@ -120,6 +120,13 @@ table {
   max-width: none;
 }
 
+// Use with {: .center-image}. Supported in kramdown.
+.center-image
+{
+    margin: 0 auto;
+    display: block;
+}
+
 .date {
   font-style: italic;
   color: $gray;
