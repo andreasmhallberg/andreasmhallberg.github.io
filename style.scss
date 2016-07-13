@@ -123,8 +123,8 @@ table {
 // Use with {: .center-image}. Supported in kramdown.
 .center-image
 {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    display: block;
 }
 
 .date {
