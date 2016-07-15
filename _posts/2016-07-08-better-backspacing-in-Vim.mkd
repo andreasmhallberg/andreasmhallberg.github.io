@@ -16,7 +16,7 @@ A more efficient way is to have one easily accessible key combination remove the
 inoremap jj <Esc>vbc
 ```
 
-This mapping is primarily intended for prose writing and it obviously would not work if you write in some language *jj* is a common letter combination. In Swedish and English, the languages I most often write in, the *jj* combination is extremely infrequent. Of course, when it does show up (for example in writing this post) you can still type it, you just have to press `j`, wait a second, and then type `j` again.  In Arabic, the other language I sometimes use, this key combination produces تت, which is a fairly common, so the mapping has to be disabled when using this language.
+This mapping is primarily intended for prose writing and it obviously would not work if you write in some language *jj* is a common letter combination. In Swedish and English, the languages I most often write in, the *jj* combination is extremely infrequent. Of course, when it does show up (for example in writing this post) you can still type it, you just have to press `j`, wait a second, and then type `j` again.  In Arabic, the other language I sometimes use, this key combination produces تت, which is a fairly common character combination, so the mapping has to be disabled when using this language.
 
 Some Vim users have `jj` mapped to ESC. An alternative could then be to have the word erase mapped to `hh`, a letter combination that is also very infrequent in English but easily accessible with your right index finger. 
 
