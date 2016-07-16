@@ -24,16 +24,18 @@
         <header class="masthead clearfix">
 
          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+
+          <div class="site-info">
+            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+            <p class="site-description">{{ site.description }}</p>
+          </div>
+
           <nav>
             <a href="{{ site.baseurl }}/">Blog</a><br>
             <a href="{{ site.baseurl }}/tags">Tags</a><br>
             <a href="{{ site.baseurl }}/about">About</a><br>
           </nav>
 
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
         </header>
       </div>
     </div>
