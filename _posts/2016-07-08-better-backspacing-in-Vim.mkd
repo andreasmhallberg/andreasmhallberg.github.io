@@ -23,7 +23,7 @@ Some Vim users have `jj` mapped to ESC. An alternative could then be to have the
 Just making this mapping available does not mean that one starts using it. The backspace reflex is very deeply engraved in the muscle memory and is not easy to shake off. To break the habit of using the backspace key, you may want to add the mapping below to your `.vimrc` to disable repeated backspace presses. I think it is still useful to have it available to remove a single letter.
 
 ``` vim
-imap <BS> <NOP><NOP>
+inoremap <BS> <NOP><NOP>
 ```
 
 I have had these mappings for a couple of months now and it works great. Once you notice you misspelled something and you see the squiggly red line pop up you just do `jj` with your index finger without moving your hand and then directly type the word again without switching modes and without loosing your home-row typing flow. The only drawback is that whenever you are doing things outside of Vim you risk ending up with stray *jj* spread around the text.
