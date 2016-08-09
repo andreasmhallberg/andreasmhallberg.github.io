@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Writing plots in plain Ti*k*z
+title: 'Writing plots in plain Ti*k*z'
 permalink: /plots-in-plain-tikz/
 language: English
 length: long
@@ -9,8 +9,6 @@ tags:
 - Tikz
 - typography
 ---
-
-## Introduction
 
 The quality of plots and graphs in academic publications is often poor. Typically, a plot is generated in some program and is simply pasted into the final document with fonts and a graphical characteristics that do not match the rest of the document. Here I describe a fairly easy and straight forward way of writing simple plots in Ti*k*z in LaTeX documents. It allows for fine control of the output and an easy way to make us global document settings also inside the plots. This description is meant only to give the basic framework of how to rite plots this way, a proof of concept if you will. There are many ways to improve it and streamline the code. It is the method I used to generate the plots in my [thesis](https://lup.lub.lu.se/search/publication/8524489), such as the one in page&nbsp;:
 
@@ -140,7 +138,7 @@ definite.article,cs.nc,indefinite,enclitic.pronoun
 0.684,4.081,13.872,47.999
 ```
 
-We remove the column headers, they are not data, and then with some simple substitutions in our favorite text editor we can turn this the into a set of LaTeX commands, arbitrarily named `\plotdata`.[^1] In this example, the command was four four arguments  since there are fore levels in the independent variable.
+We remove the column headers, they are not data, and then with some simple substitutions in our favorite text editor we can turn this the into a set of LaTeX commands, arbitrarily named `\plotdata`.[^1] In this example, the command was four arguments  since there are fore levels in the independent variable.
 
 [^1]: In Vim, for example, we can visually select the csv data and do this `:s/^/\\plotdata{/g`, this `:s/,/}{/g`, and this `:s/$/}/g`, and there you have it. If you are doing your statistics in\ *R* I find it more convenient to write a script that transform the data into LaTeX commands directly.
 
