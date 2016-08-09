@@ -121,7 +121,7 @@ Note also that the tick labels on the x-axis are anchored to the north (top) of 
 
 Now we have the following, which is to be filled with data.
 
-![empty axis](/_posts/{{ date | date: '%Y-%m-%d' }}/emptyaxes.png)
+![empty axis](/images/2016-08-09/emptyaxes.png)
 
 ## Entering data
 
