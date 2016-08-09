@@ -5,8 +5,8 @@ permalink: /plots-in-plain-tikz/
 language: English
 length: long
 tags:
-- LaTeX
-- Tikz
+- laTeX
+- tikz
 - typography
 ---
 
