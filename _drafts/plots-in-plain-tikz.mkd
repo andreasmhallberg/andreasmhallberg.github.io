@@ -111,7 +111,7 @@ We utilize the max and min values defined above to get a coordinate system that 
 
 The `\useasboundingbox` delimits the box that TeX identifies for alignment purposes. With this command the plot is centered on the area encloses by the axes lines, ignoring the label and the numbers for the y-axis. This makes the plot optically centered on the plot rather than logically centered as a complete graphical object with labels and all. The two images below illustrate the difference. The image on the left is logically centered, and the one to the right is optically centered using the boundingbox. The red box shows the area that TeX is centering. 
 
-![logical alignment](/_posts/{{ date | date: '%y-%m-%d}}/woboundingbox.pdf)![optical alignment](/_posts/{{ date | date: '%y-%m-%d}}/withboundingbox.pdf)
+![logical alignment](/_posts/{{ date | date: '%y-%m-%d'}}/woboundingbox.pdf)![optical alignment](/_posts/{{ date | date: '%y-%m-%d'}}/withboundingbox.pdf)
 
 The difference is subtle in this example, but if you have labels sticking out the sides, as in the page from the dissertation shown above, the effect is more noticeable. This page also shows the second effect of the boundingbox, namely that the caption becomes aligned with the y-axis, rather than with the y-axis label on the far left  
 
