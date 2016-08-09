@@ -12,7 +12,7 @@ tags:
 
 The quality of plots and graphs in academic publications is often poor. Typically, a plot is generated in some program and is simply pasted into the final document with fonts and a graphical characteristics that do not match the rest of the document. Here I describe a fairly easy and straight forward way of writing simple plots in Ti*k*z in LaTeX documents. It allows for fine control of the output and an easy way to make us global document settings also inside the plots. This description is meant only to give the basic framework of how to rite plots this way, a proof of concept if you will. There are many ways to improve it and streamline the code. It is the method I used to generate the plots in my [thesis](https://lup.lub.lu.se/search/publication/8524489), such as the one in page&nbsp;:
 
-![Plot from diss](/_posts/{{ date | date: '%y-%m-%d'}}/definitenessplotpage.pdf)
+![Plot from diss](/_posts/{{ date | date: '%Y-%m-%d'}}/definitenessplotpage.pdf)
 
 Ti*k*z is an extension of LaTeX (as well of other TeX-derived languages) specialized in describing and producing technical graphics. (For a good short introduction to Ti*k*z check out [A very minimal introduction to Ti*k*Z](http://cremeronline.com/LaTeX/minimaltikz.pdf).) Below I describe how to 
 
@@ -109,7 +109,7 @@ We utilize the max and min values defined above to get a coordinate system that 
 
 The `\useasboundingbox` delimits the box that TeX identifies for alignment purposes. With this command the plot is centered on the area encloses by the axes lines, ignoring the label and the numbers for the y-axis. This makes the plot optically centered on the plot rather than logically centered as a complete graphical object with labels and all. The two images below illustrate the difference. The image on the left is logically centered, and the one to the right is optically centered using the boundingbox. The red box shows the area that TeX is centering. 
 
-![logical alignment](/_posts/{{ date | date: '%y-%m-%d'}}/woboundingbox.pdf)![optical alignment](/_posts/{{ date | date: '%y-%m-%d'}}/withboundingbox.pdf)
+![logical alignment](/_posts/{{ date | date: '%Y-%m-%d'}}/woboundingbox.pdf)![optical alignment](/_posts/{{ date | date: '%Y-%m-%d'}}/withboundingbox.pdf)
 
 The difference is subtle in this example, but if you have labels sticking out the sides, as in the page from the dissertation shown above, the effect is more noticeable. This page also shows the second effect of the boundingbox, namely that the caption becomes aligned with the y-axis, rather than with the y-axis label on the far left  
 
@@ -121,7 +121,7 @@ Note also that the tick labels on the x-axis are anchored to the north (top) of 
 
 Now we have the following, which is to be filled with data.
 
-![empty axis](/_posts/{{ date | date: '%y-%m-%d' }}/emptyaxes.png)
+![empty axis](/_posts/{{ date | date: '%Y-%m-%d' }}/emptyaxes.png)
 
 ## Entering data
 
@@ -165,7 +165,7 @@ First dots. In Ti*k*z, coordinates are specified as `(<x>,<y>)`. The command def
 
 This gives the following:
 
-![Scatter plot](/_posts/{{ date | date: '%y-%m-%d'}}/dots.png)
+![Scatter plot](/_posts/{{ date | date: '%Y-%m-%d'}}/dots.png)
 
 Now lines. Here we want to connect these same four coordinates with a line.
 
@@ -177,7 +177,7 @@ Now lines. Here we want to connect these same four coordinates with a line.
 
 This gives the following, which is what we want in this example:
 
-![Line plot](/_posts/{{ date | date: '%y-%m-%d'}}/lines.png)
+![Line plot](/_posts/{{ date | date: '%Y-%m-%d'}}/lines.png)
 
 And there you have the basic idea.
 
