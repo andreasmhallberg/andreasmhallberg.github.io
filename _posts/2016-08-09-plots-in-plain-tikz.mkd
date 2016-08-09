@@ -111,7 +111,7 @@ The `\useasboundingbox` delimits the box that TeX identifies for alignment purpo
 
 ![logical alignment](/images/2016-08-09/woboundingbox.png)![optical alignment](/images/2016-08-09/withboundingbox.png)
 
-The difference is subtle in this example, but if you have labels sticking out the sides, as in the page from the dissertation shown above, the effect is more noticeable. This page also shows the second effect of the boundingbox, namely that the caption becomes aligned with the y-axis, rather than with the y-axis label on the far left  
+The difference is subtle in this example, but if you have labels sticking out the sides, as in the page from the dissertation shown above, the effect is more noticeable. This page also shows the second effect of the boundingbox, namely that the caption becomes aligned with the y-axis of flush left, rather than with the y-axis label on the far left  
 
 The next set of commands draws the x and y-axes, ticks, labels for ticks, and labels for the axes using the lengths defined in the preamble. Thus, the axes are `\axissep` (1em) away from the plotting area, making the plot less cramped and giving some space for data points at the very edge of the area. This is a matter of taste. You could for example set this length to zero with `\setlength\axissep{0pt}` to have the axes lines exactly on the edge of the plotting area, which is quite common. I find that the plotting area needs some extra room to breath and prefer to give it this extra space.
 
