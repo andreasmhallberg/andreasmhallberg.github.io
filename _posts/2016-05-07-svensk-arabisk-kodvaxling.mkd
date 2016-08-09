@@ -75,6 +75,15 @@ I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de s
 
     Direktöversättningen till (syrisk) Arabiska av det svenska uttrycket *om vi säger såhär* för att presentera ett förslag eller en hypotetisk situation, *iḏa minʾūl hākaḏa/hēk*, är idiomatiskt inkorrekt. (Möjligen kan man säga *iḏa minʾūl innu ...* 'Om vi säga att ...') Kodväxlar man till svenska mitt i uttrycket följer det svenska idiomatiska regler och blir därmed acceptabelt. Detta tycks vara vad som har hänt här.
 
+- *2016-08-03* --- Jag.
+
+Jag trodde inte jag var kapabel till avancerad intersentential kodväxling, så hör jag mig kläcka ur mig den här meningen om hur vi best bör planera rutten i ett köpcentrum. Meningen övergår till arabiska efter *och* som här är en *complementizer* till verbet *gå* och inte en konjunktion i vanlig bemärkelse. Det svenska objektspronominet *-den*  suffigeras till verbet enligt arabisk syntax.
+
+    vi | går | och | *n‑baddil‑*den| *awwal* | *ši*
+    vi | går | och | 1PL‑byter‑den | första | sak
+
+    | Vi går och byter den först. |
+
 ---
 
 Förkortningar:
