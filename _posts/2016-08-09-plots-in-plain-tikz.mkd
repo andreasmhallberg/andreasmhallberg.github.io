@@ -19,7 +19,7 @@ Ti*k*z is an extension of LaTeX (as well of other TeX-derived languages) special
 1. set up a coordinate system that matches the structure of the data
 2. draw the axes
 2. define functions for plotting data as points or lines 
-3. add the data in the form fitting these functions
+3. add the data in the form of these functions
 
 A self complete self-contained example can be found at the end of this post.
 
