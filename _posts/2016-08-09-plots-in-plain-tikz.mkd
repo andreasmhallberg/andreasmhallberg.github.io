@@ -10,7 +10,7 @@ tags:
 - typography
 ---
 
-The quality of plots and graphs in academic publications is often poor. Typically, a plot is generated in some program and is simply pasted into the final document with fonts and a graphical characteristics that do not match the rest of the document. Here I describe a fairly easy and straight forward way of writing simple plots in Ti*k*z in LaTeX documents. It allows for fine control of the output and an easy way to make us global document settings also inside the plots. This description is meant only to give the basic framework of how to rite plots this way, a proof of concept if you will. There are many ways to improve it and streamline the code. It is the method I used to generate the plots in my [thesis](https://lup.lub.lu.se/search/publication/8524489), such as the one in page&nbsp;:
+The quality of plots and graphs in academic publications is often poor. Typically, a plot is generated in some program and is simply pasted into the final document with fonts and a graphical characteristics that do not match the rest of the document. Here I describe a fairly easy and straight forward way of writing simple plots in Ti*k*z in LaTeX documents. It allows for fine control of the output and an easy way to make us global document settings also inside the plots. This description is meant only to give the basic framework of how to rite plots this way, a proof of concept if you will. There are many ways to improve it and streamline the code. It is the method I used to generate the plots in my [thesis](https://lup.lub.lu.se/search/publication/8524489), such as the one in page&nbsp;210:
 
 ![Plot from diss](/images/2016-08-09/definitenessplotpage.png)
 
@@ -111,7 +111,7 @@ The `\useasboundingbox` delimits the box that TeX identifies for alignment purpo
 
 ![logical alignment](/images/2016-08-09/woboundingbox.png)![optical alignment](/images/2016-08-09/withboundingbox.png)
 
-The difference is subtle in this example, but if you have labels sticking out the sides, as in the page from the dissertation shown above, the effect is more noticeable. This page also shows the second effect of the boundingbox, namely that the caption becomes aligned with the y-axis of flush left, rather than with the y-axis label on the far left  
+The difference is subtle in this example, but if you have labels sticking out the sides, as in the page from the dissertation shown above, the effect is more noticeable. This page also shows the second effect of the boundingbox, namely that the caption becomes aligned with the y-axis of flush left, rather than with the y-axis label on the far left.  
 
 The next set of commands draws the x and y-axes, ticks, labels for ticks, and labels for the axes using the lengths defined in the preamble. Thus, the axes are `\axissep` (1em) away from the plotting area, making the plot less cramped and giving some space for data points at the very edge of the area. This is a matter of taste. You could for example set this length to zero with `\setlength\axissep{0pt}` to have the axes lines exactly on the edge of the plotting area, which is quite common. I find that the plotting area needs some extra room to breath and prefer to give it this extra space.
 
