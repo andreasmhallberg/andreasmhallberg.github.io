@@ -84,6 +84,14 @@ I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de s
 
     | Vi går och byter den först. |
 
+- *2016-08-08* --- A. om en kaktus i vardagsrummet.
+
+    *hay* | *ʿam* | *t*växa | *mū* | *maʿʾūl*
+    den.här | PROG | 3fs.växer | inte | vettig
+
+    | Den här växer jättesnabbt. |
+
+
 ---
 
 Förkortningar:
