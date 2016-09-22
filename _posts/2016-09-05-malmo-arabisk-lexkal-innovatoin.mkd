@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Malmö-arabisk lexikal innovation
-languge: Swedish
+language: Swedish
 tags:
     - arabic
     - linguistics
