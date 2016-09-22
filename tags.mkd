@@ -43,6 +43,10 @@ S: short post, M: medium length post, L: long post
                 {% elsif node.length == 'medium' %} M,
                 {% endif %}
               {{node.date | date: '%y-%m-%d'}}
+              {{% if node.language == 'Swedish' %}}
+                (Swedish)
+              {{% endif %}}
+
             </a>
           </li>
 
