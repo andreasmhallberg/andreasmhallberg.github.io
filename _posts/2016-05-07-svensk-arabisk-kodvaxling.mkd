@@ -23,7 +23,7 @@ I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de s
 
     | Ska vi köpa godis? |
 
-- *Inge datum* --- A., angående alternativa resvägar.
+- *Inget datum* --- A., angående alternativa resvägar.
 
     *ana* | *bi‑l*‑annars | *bāxuḏ* | *al‑bāṣ* | *raqm* | *xamsa*
     jag | PRE‑BES‑annars | 1S.tar | BES‑buss | nummer | fem
