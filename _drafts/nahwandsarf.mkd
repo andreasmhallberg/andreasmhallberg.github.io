@@ -1,0 +1,27 @@
+---
+layout: post
+title: naḥw and ṣarf
+permalink: /attemptsatarabicsmilies/
+language: English
+length: short
+tags:
+- arabic
+- linguistics
+---
+
+For a linguistic trained in modern linguistics and grammar of the Latin-Greek tradition, the study of the Arabic linguistic tradition is fascinating. Not the least because you have to throw out and replace many of the concepts and categories that are ingrained in your thought. It's in someways like learning to understand and view the systematicity of language anew. Two of those concepts that you have to do away with and replace in order to fully understand the Arabic tradition, and that are at the core of our understanding of language is structured, is the concept-pair of syntax and morphology.
+
+In the Arabic tradition, the two terms that correspond to this structural level of language structure are *naḥw* (sort-of-syntax) and *ṣarf* (sort-of-morphology). I've never been quite able to wrap my head around what exactly is included by these to terms until very recently. I've been reading a preprint of Frank Woigelt's very informative *Einfüring in die arabische Grammatiktradition* and it does a very good job of explaining these two terms and why they are in this for a Western linguist very awkward way. The description is covered in many different parts of the book since it relates to many different parts of grammar (essentially all of it). What follows is a list that maps out what parts of the Arabic grammar that each of these to terms cover. This list is only meant to provide an overview of what these to terms cover. For explanations of why, see Woigelt's *Einfürung* once it appears. 
+
+Note how poorly they fit with the duality of the Western understanding of syntax and morphology. Case and mood, both in their morphological and syntactic aspects (their forms and their functions) are included in *naḥw*.  
+
+- *Naḥw*
+    - case and case endings 
+    - mood and mood endings 
+    - person endings on verbs
+
+- *Ṣarf*
+    - number
+    - dimunitive
+    - person prefices on verbs
+    - stemforms (I--X)

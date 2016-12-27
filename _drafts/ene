@@ -1,0 +1,44 @@
+Hej Maria,
+
+Några kommentarer till datahanteringsplanen 
+
+Insamling/produktion av data
+============================
+
+- "Transkriberade texter införs i databas och taggas för de syntaktiska studier som ska genomföras. (förslag på bättre formuleringar Andreas!)" 
+Frågan är var syntaktisk annotering ska komma in. Den kan se mycket annorlunda ut beroende på vad det är som studeras. För icke-lingvistiska studier fyller den inget syfte och skulle bara vara ivägen. 
+
+"Parallellt med de grundläggande transkriptionerna sparas en eller flera versioner som berikats med den syntaktiska annotering som ska användas för planerade lingvistiska studier."
+
+- Sista meningen: Istället för att nämna Audacity: standardprogrammet för fonetisk analys är PRAAT. Se http://www.fon.hum.uva.nl/praat/ (en vacker 90-talshemsida.)
+
+
+Dokumentation och metadata
+==========================
+
+- Första stycket: "För varje inspelning dokumenteras uppgifter om informantens ålder, kön, utbildningsnivå, härkomst och tid i Sverige." Lägg till: "samt information om intervjun och intervjutillfället såsom plats, datum, övriga närvarande och intervjuns längd."  
+
+- Kanske bör tilläggas en kort list på instruktionsdokument över olika steg i datainsamlingen. Dessa instruktioner kan fylla den dubbla funktionen av att vara manualer för medarbetare och samtidigt utgöra medatada som dokumentation över hur datan tillkommit.
+
+    - Instruktioner till intervjuare
+    - Instruktioner till transkriptörer
+    - Instruktioner till översättare
+
+
+Hantering av data under projektet
+=================================
+
+Ta bort anmärknginen om långtidsförvaring i Excelark. Eftersom detta är ett binärt fileformat bundet till propriär programvara är det otillförlitligt för längre dataförvaring. Långtidsförvaring bör ske i något form av ren text. (.txt, .csv, .xml, etc.)
+
+
+Tillgängliggörande av data
+==========================
+
+"En karenstid på fem år tillämpas före publicering av databaser. Under denna tid har de forskare som ingår i projektet möjlighet att ostört arbeta vidare med materialet och publicera ytterligare rapporter baserat på detta. Detta arbete innebär, utöver de forskningsresultat som åstadkoms, implicit också en kvalitetskontroll av databasen före publicering."
+
+Detta kan också göras explicit.
+
+"Under karenstiden utses en ansvarig till vilka fel i materialet rapporteras. Ansvarige bokför felen och korrigerar dem i databasen inför publicering. På det här sätt kan också återkommande fel och felkällor identifieras och mer systematiskt korrigeras."
+
+
+
