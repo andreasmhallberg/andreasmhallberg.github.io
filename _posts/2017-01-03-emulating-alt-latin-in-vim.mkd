@@ -10,9 +10,11 @@ length: short
 ---
 
 {% raw %}
-[![Alt-Latin keyboard layout](http://mamluk.uchicago.edu/keyboards/alt-latin-arabic-color.pdf)](http://mamluk.uchicago.edu/keyboards/)
-
 I'm used to the Alt-Latin keyboard layout to quickly type Arabic transcription. The Alt-Latin is an extension of the US QUARTY layout that uses combinations of the ALT and SHIFT keys to add diacritics such as in *ḥ* and&nbsp;*ā,* as well as the characters *ʿ* and&nbsp;*ʾ*. A nice graphical presentation of this layout and instructions of how to install it on Windows and Mac can be found [here](http://mamluk.uchicago.edu/keyboards/). 
+
+
+[![Alt-Latin keyboard layout](http://mamluk.uchicago.edu/keyboards/alt-latinKBD-medoc-72.jpg)](http://mamluk.uchicago.edu/keyboards/)
+
 
 Below is block code I have in my [`.vimrc`](https://github.com/andreasmhallberg/dotfiles/blob/master/.vimrc)
 to emulate the Alt-Latin layout in Vim. I have only mapped characters that are needed for the transcription system used in [Encyclopedia of Arabic Language and Linguistics](http://referenceworks.brillonline.com/browse/encyclopedia-of-arabic-language-and-linguistics). The code also includes mappings for `r`&nbsp;operations.
