@@ -10,7 +10,7 @@ length: short
 ---
 
 {% raw %}
-[![Alt-Latin keyboard layout](http://mamluk.uchicago.edu/keyboards/alt-latin-arabic-color.pdf)](http://mamluk.uchicago.edu/keyboards/)
+[![Alt-Latin keyboard layout](http://mamluk.uchicago.edu/keyboards/)](http://mamluk.uchicago.edu/keyboards/alt-latin-arabic-color.pdf)]
 
 I'm used to the Alt-Latin keyboard layout to quickly type Arabic transcription. The Alt-Latin is an extension of the US QUARTY layout that uses combinations of the ALT and SHIFT keys to add diacritics such as in *ḥ* and&nbsp;*ā,* as well as the characters *ʿ* and&nbsp;*ʾ*. A nice graphical presentation of this layout and instructions of how to install it on Windows and Mac can be found [here](http://mamluk.uchicago.edu/keyboards/). 
 
