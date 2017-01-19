@@ -16,7 +16,7 @@ Listan kommer eventuellt utökas då ny data tillkommer.
 
 - *akšūn* أكشون second-hand affär
 
-    Ordet är antagligen en reanalysering av *Auktion*, namnet på en second-affär som tidigare fanns i Malmö. Det arabiska ordet har kommit att betyda 'second-hand' affär över lag.
+    Ordet är antagligen en reanalysering av *Auktion*, namnet på en second-affär som tidigare fanns i Malmö. Det arabiska ordet har kommit att betyda 'second-hand affär' över lag.
 
 - *ḥadīqat al-baṭṭ* حديقة البط ('Ankparken') Pildamsparken 
 
@@ -32,4 +32,4 @@ Listan kommer eventuellt utökas då ny data tillkommer.
 
 - *al-skatt* السكات 'Skatteverket'
 
-    Syftar inte till skatt som sådant utan till Skatteverket som institution. *l*:et i den bestämda artikeln assimileras inte till solbokstaven&nbsp;*s* i *skat* som förväntat. Kanske kommer detta ske om ordet fortlever och med tiden integreras i arabisk fonologi, så som har hänt med en del talares uttal av *ad-dāgis*.
+    Syftar inte till skatt som sådant utan till Skatteverket som institution. För 'skatt'(pengar man betalar till staten) används vanligen ordet *ḍarība*. *l*:et i den bestämda artikeln assimileras inte till solbokstaven&nbsp;*s* i *skat* som förväntat. Kanske kommer detta ske om ordet fortlever och med tiden integreras i arabisk fonologi, så som har hänt med en del talares uttal av *ad-dāgis*.
