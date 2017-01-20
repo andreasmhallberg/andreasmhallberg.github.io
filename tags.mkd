@@ -23,9 +23,7 @@ title: Tags
 </div>
 
 <p class="date">
-S: short post\
-M: medium length post\
-L: long post\
+S: short post, M: medium length post, L: long post
 </p> 
 
 {% for tag in site.tags | sort %}
