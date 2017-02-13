@@ -10,7 +10,7 @@ tags:
 - tikz
 ---
 
-[![thumbnail](/images/alt-timeline.thumbnail.png)](https://github.com/andreasmhallberg/alt-timeline/blob/master/alt-timeline.pdf)
+![thumbnail](/images/alt-timeline.thumbnail.png)
 
 Sometimes when reading about the classical Arabic grammarians I find it difficult to visualize the actual timespan between different authors. Years are of course always mentioned in the literature but it is often still hard to get a feel for how big a chunk of time there is between a series of events. 
 
