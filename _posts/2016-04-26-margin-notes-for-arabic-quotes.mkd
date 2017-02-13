@@ -38,7 +38,8 @@ Now, for a minimal example we also need to set up a font for Arabic script. This
 ``` tex
 \setmainlanguage{english}
 \setotherlanguage{arabic}
-\newfontfamily\arabicfont[Script=Arabic,Scale=MatchUppercase}]{Amiri}
+\newfontfamily\arabicfont
+    [Script=Arabic,Scale=MatchUppercase}]{Amiri}
 ```
 
 The command I used to print original Arabic in the margin is defined in the preamble as follows (with some annotation):[^2]
@@ -63,7 +64,9 @@ The command I used to print original Arabic in the margin is defined in the prea
 Whenever in the text you want to quote an Arabic source inline you can then do the following to get the Arabic source text in the margin: 
 
 ``` tex
-Text text text text text text \araquote{translated qoute (Author 1999)}{النص العري الأصلي} text text text.
+Text text text text text text
+text \araquote{translated qoute
+(Author 1999)}{النص العري الأصلي} text text text.
 ```
 
 The method is not completely automatic since if the margin note is at the bottom of the page it will extend down below the text block, and this must be fixed manually. It is almost guaranteed to happen if you have Arabic quotes in a footnote, as I have in the example from my dissertation above. To fix this the command has an optional argument that takes a length expression that adjusts the vertical position of the margin note. The best way to use this optional argument is when the text is finished and compiled. Then you go through the document to see if there are Arabic margin notes that extends below the text block, count how many lines it extends below, and add a negative dimension with `\baselineskip` accordingly. So if a margin note extends two lines below the text block, you add `[-2\baselineskip]` between `\araquote` and the two arguments in curly brackets. This pushes the margin note upwards two lines to have the bottom line of the margin note aligned with the bottom line of the main text block.
