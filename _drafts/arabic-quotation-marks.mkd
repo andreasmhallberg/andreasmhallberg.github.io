@@ -1,0 +1,13 @@
+---
+layout: post
+title: Arabic quotation marks
+permalink: /arabic-quotation-marks/
+language: English
+length: medium
+tags:
+- arabic
+- typography
+---
+
+- scan from Utopia. Konsekvent talstreck och ".
+- parentes som citattecken.

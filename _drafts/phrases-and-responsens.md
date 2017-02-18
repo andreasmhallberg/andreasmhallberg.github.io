@@ -22,43 +22,51 @@ The phrases below are given in EALL transliteration as pronounced in Syrian Arab
 
 ## Greetings
 
-### Formal greeting
-
-
-| | |
-|:-|:-|
-| *as-salāmu ʿalaykum* | *wa-ʿalaykum salām [wa-raḥmat allāh wa-barakātuh]*  |
-| Peace be upon you. | And upon you peace [and God's greace and his blesings]. |
-
-The pronoun *-kum* (3mpl) is invariable in this phrase and its response. The extension of the reply in brackets is recommended in a *ḥadiṯ*.
-
-- Informal greeting.
+### General greeting
 
 | | |
 |:-|:-|
-| *marḥaban* | *ahlan/marḥabatēn* |
-| Hello | Hi/Two *marḥabans* | 
+| *as-salāmu ʿalaykum* | *wa-ʿalaykum salām [wa-raḥmatu allāhi wa-barakātuh]*  |
+| Peace be upon you. | And upon you peace [and God's greace and his blessings]. |
 
-## Greeting - before noon
+Religious connotations. The pronoun *-kum* (3mpl) is invariable the phrase and in its response. The optional extension of the reply in brackets is recommended in a *ḥadiṯ*.
+
+| | |
+|:-|:-|
+| *marḥaban* | *ahlan/marḥabatēn*/*mīt marḥaba* |
+| Hello | Hi/Two *marḥaba*s/a hunderd *marḥaba*s | 
+
+| | |
+|:-|:-|
+| *salām* | *???* |
+| Hello | | 
+
+Very informal greeting between persons of equal social status.
+
+### Greeting before noon
 
 | | |
 |:-|:-|
 | *ṣabāḥ al-xēr* | *ṣabāḥ an-nūr/al-full*|
-| Morning of goodness | Morning of light/rose |
+| Morning of good  | Morning of light/rose |
 
-## Greeting - after noon
+*Xēr* does not easily lend itself to translation. The standard Arabic-English lexicon (Wehr) gives "good thing, blessing; wealth, property; --- good, benefit, interest, advantage; welfare; charity."
+
+### Greeting after noon
 
 | | |
 |:-|:-|
 | *masāʾ al-xēr* | *masāʾ an-nūr*|
-| Eavening of goodness | Eavenign of light |
+| Eavening of good | Evening of light |
 
-## Welcoming. Also general filler of pauses in polite conversation
+### Welcoming
 
 | | |
 |:-|:-|
 | *ahlan wa-sahlan* | *ahlan fīk* |
-| On flat ground and as family | On falt ground for you as well |
+| On flat ground and as family | On falt ground to you |
+
+Also general filler in pauses in polite conversation.
  
 ### When being introduced to someone
 
@@ -69,14 +77,17 @@ The pronoun *-kum* (3mpl) is invariable in this phrase and its response. The ext
 
 ## Parting
 
-### General good bye
+### General good byes
 
 | | |
 |:-|:-|
 | *maʿa salāma* | *allāh maʿak* |
-| With peace. | May God be with you. | 
+| With peace | May God be with you | 
 
-### Before parting and saying goodbye (Syria)
+| | |
+|:-|:-|
+| *ilā liqā* | *allāh maʿak* |
+| until [our nex] meeting | May God be with you | 
 
 | | |
 |:-|:-|
@@ -90,28 +101,21 @@ The pronoun *-kum* (3mpl) is invariable in this phrase and its response. The ext
 | *tuṣbiḥ ʿalā xēr* | *wa-inta bi-xēr/min ahl al-xēr* |
 | Wake up in good health | And you are well/of the good people |
 
-## Phrases for specific occasions
-
-### To someone has recently cut their hair,shaved, or had a shower or bath
-
-| | |
-|:-|:-|
-| *naʿīman* | *allāh yanʿam ʿalek/ʿaleki* |
-| Gracefully. | May God bestow grace upon you. |
+## Phrases for special occasions
 
 ### To someone in grief (at funeral (*ʿazā*))
 
 | | |
 |:-|:-|
-| *al-ʿiwaḍ bi-salāmtak* | *allah yusallimak* |
-| May you be compensated with health | May God give you health |
+| *al-ʿiwāḍ bi-salāmtak* | *allah yusallimak* |
+| May the compensation be in your health | May God give you health |
 
 or
 
 | | |
 |:-|:-|
 | *al-ʿumr illak* | *tʿīš* |
-| May the life  | May you live |
+| The lifetime to you  | May you live |
 
 ### To newlyweds (at wedding)
 
@@ -120,16 +124,38 @@ or
 | *mbārak mā ʿamiltu* | *allah yubārik fīk* |
 | Blessed that which you have done | May God bless you |
 
+### To someone departing on a journey
+
+| | |
+|:-|:-|
+| *trūḥ u-tarjaʾ bi-s-salāma* | *allah yusallimak* |
+| Leave and return in peace | May God preserve you |
+
 ### To someone returning from a journey
 
 | | |
 |:-|:-|
-| *al-ḥamdu li-llāh ʿala s-salāma* | *allah yusallimak* |
-| God be praised for your wellbeing | May God preserve you |
+| *al-ḥamdu li-llāh ʿala s-salāma* | *???* |
+| God be praised for your wellbeing |  |
+
+
+### Parting from someone you have met for the first time
+
+| | |
+|:-|:-|
+| *furṣa saʿīda* | *u-ana asʿad* |
+| Happy occasion | And I am happier |
 
 ## Phrases for not so special occasions
 
-### To someone who has performed their prayer (*ṣalāt*)
+### To someone who has recently cut their hair, shaved, or have had a shower or bath
+
+| | |
+|:-|:-|
+| *naʿīman* | *allah yinʿam ʿalek* |
+| Gracefully. | May God bestow grace upon you. |
+
+### To someone who has performed the prayer (*ṣalāt*)
 
 | | |
 |:-|:-|
@@ -147,19 +173,26 @@ or
 
 | | |
 |:-|:-|
-| *sallim ʿala X* | *allah yusallimak/byūṣal* |
-| Greet X | May God preserve you/It will arrive |
+| *sallim ʿala X* | *allah yusallimak/byūṣal/ṣār ʿindu* |
+| Greet X | May God preserve you/It will arrive/It is with him |
 
-### Guest after finishing food 
+### Guest after finishing meal
 
 | | |
 |:-|:-|
-| *dāyiman* | *ṣaḥḥa* |
+| *dāyima* | *ṣaḥḥa* |
 | Always | [I wish you] Health |
 
-*Dāyiman* as a wish for the host always to have food.
+*Dāyima* as a wish for the host always to have food.
 
-### To someone who is eating/drinking
+or
+
+| | |
+|:-|:-|
+| *inšalla bi-l-afrāḥ* | *???* |
+| God willing on the wedding |  |
+
+### To someone who is eating, drinking or sneezing
 
 | | |
 |:-|:-|
@@ -173,7 +206,7 @@ or
 | *mabrūk* | *allāh yubārik fīk* |
 | Blessed | May God bless you |
 
-### To someone returning from the toilet
+### To someone returning from the restroom
 
 | | |
 |:-|:-|
@@ -182,10 +215,9 @@ or
 
 I was told about this phrase but have never actually heard it in use. People seem to be aware of it, however, since I have used it jokingly with some measure of success. The pronoun is invariable.
 
-### To someone sneezing
+### To someone who is sick or injured
 
 | | |
 |:-|:-|
-| | *ʾufītum* |
-|  |  |
-
+| *salamtak* | *allah yusallimak* |
+| Your health | May God bring bring you health |

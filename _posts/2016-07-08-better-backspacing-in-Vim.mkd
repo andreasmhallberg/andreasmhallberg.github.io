@@ -13,7 +13,7 @@ When writing in Vim, you never need the to use the mouse and you never need to u
 A more efficient way is to have one easily accessible key combination remove the word you're in. With the mapping below in your `.vimrc` this is done by hitting `j` key twice with your index finger without leaving insert mode.
 
 ``` vim
-inoremap jj <Esc>vbc
+inoremap jj <Esc>ciW
 ```
 
 This mapping is primarily intended for prose writing and it obviously would not work if you write in some language *jj* is a common letter combination. In Swedish and English, the languages I most often write in, the *jj* combination is extremely infrequent. Of course, when it does show up (for example in writing this post) you can still type it, you just have to press `j`, wait a second, and then type `j` again.  In Arabic, the other language I sometimes use, this key combination produces تت, which is a fairly common character combination, so the mapping has to be disabled when using this language.
