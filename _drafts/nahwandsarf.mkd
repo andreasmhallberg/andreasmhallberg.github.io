@@ -18,7 +18,7 @@ Note how poorly they fit with the duality of the Western understanding of syntax
 - *Naḥw*
     - case and case endings 
     - mood and mood endings 
-    - person endings on verbs
+    - person suffices on verbs
 
 - *Ṣarf*
     - number
