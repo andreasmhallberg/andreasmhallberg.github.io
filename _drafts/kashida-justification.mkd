@@ -178,6 +178,6 @@ The way it has been applied here comes with a few caveats:
 
 [^microtype]: There is also a third method; to stretch or squeeze letters by a measure that is too small to be noticeable on individual letters, but with an accumulated effect that provides a variability used for justifying the text. See the documentation for the [`mycrotype` package](https://www.ctan.org/pkg/microtype?lang=en) for a discussion and implementation in LaTeX.
 
-[^utoipa]: أحمد خالد توفيق، ٢٠١٤. *يوتوبيا*، دير ميريت، القاهرة. 
+[^utopia]: أحمد خالد توفيق، ٢٠١٤. *يوتوبيا*، دير ميريت، القاهرة. 
 
 {% endraw %}
