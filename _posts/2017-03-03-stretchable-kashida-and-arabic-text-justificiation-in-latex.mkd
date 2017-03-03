@@ -35,11 +35,9 @@ Have a look at the page below. It contains the same three paragraphs, taken at r
 
 Now compare this with the following page. Here the same text is set with the same font, font size and columns, but with a stretchable kashida at every letter connection. Note the total lack of white blobs. The stretchable kashida nicely fills every line, producing an even surface.
 
-**NOTE:** When viewed on screen, the inserted stretchable kashida may appear choppy in certain resolutions. This is because it has not been adapted for screen display in various resolutions, as has the rest of the font. Zoom in on the pdf-image and you will see that the choppiness disappears. It will not be an issue when the text is printed.
-
 ![Example text with stretchable kashida.](/images/2017-03-03/kashida.png)
 
-In manuals of Arabic calligraphy there are rules about where in what words, where in a word, and between what characters kashidas may be inserted [Benatia&nbsp;et&nbsp;al. 2006](https://www.tug.org/tugboat/tb27-2/tb87benatia.pdf). These rules are completely disregarded here. I do not believe they are particularity relevant for the modern simplified text fonts. 
+The images above are png's.Here you can see pdf's of the document [with stretchable kashida](/documents/kashida.pdf) and [without stretchable kashida](/documents/no-kashida.pdf). Note that when viewing the pdf's on screen, the inserted stretchable kashida may appear choppy in certain resolutions. This is because it has not been adapted for screen display in various resolutions, as has the rest of the font. It will not be an issue when the text is printed.
 
 ## Application
 
@@ -120,6 +118,9 @@ Then we declare the combinations of character classes between which we want to i
 ```
 
 This means that the presence of a vowel sign&nbsp;( َ ِ ُ, etc), *shadda*&nbsp;( ّ), *sukūn*&nbsp;( ْ), or other similar symbol negates the stretchable kashida at that position. This is because the sequence of characters is then **[vowel&nbsp;sign]---letter,* and not one of the sequences listed above. You can see this in the word شنّت, the first word in the test paragraph in the examples above. This may not be a bad thing. To me, vowel or other sign and then kashida (&nbsp;شــنّــت&nbsp;) looks odd, wheres the same word without the sign looks much more acceptable (&nbsp;شــنــت&nbsp;). With this implementation of the stretchable kashida, the first would not appear, only the second.
+
+In manuals of Arabic calligraphy there are rules about where in what words, where in a word, and between what characters kashidas may be inserted [Benatia&nbsp;et&nbsp;al. 2006](https://www.tug.org/tugboat/tb27-2/tb87benatia.pdf). These rules are disregarded here. I do not believe that they are particularity relevant for the modern simplified text fonts. 
+
 
 
 ### Kashida thickness
