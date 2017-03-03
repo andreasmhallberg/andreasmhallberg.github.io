@@ -22,22 +22,22 @@ There are two problems with this. Firstly, any line can only be lengthened by a 
 
 Se for example the excerpt below from the novel *Yūtūbiyā* by Aḥmad Xālid Tawfīq.[^utopia]. Kashidas have been added to the last couple of words at the end of most lines to fill them up to the left margin. This makes for an unattractive and uneven page.
 
-![Page 12 from *Yūtūbiyā*, where kashidas are used in words at the end of the line to fill it.](images/2017-02-28/utopia.pdf)
+![Page 12 from *Yūtūbiyā*, where kashidas are used in words at the end of the line to fill it.](images/2017-02-28/utopia.png)
 
 ## Solution - the stretchable kashida
 
 One solution to this is to use a stretchable kashida that is placed between all connecting characters. It just so happens that TeX provides to do this fairly easily and reliably. If no stretching is needed to justify the text it gets a width of zero mending that it does not appear at all. If some filling is needed to fill the line (which in practice will virtually always be the case), then all these stretchable kashidas are stretched with an equal amount to fill the line. There is thus no fixed or even default width of this kashida, it will be as long or short as it needs be, and all stretchable kashidas on the same line will be of the same width.
 
-Have a look at the page below. It contains the same three paragraphs, taken at random from an Arabic news site, typeset three times, first in three columns, then in four, and then in five columns. The more columns, and thus the narrower the columns, the more difficult it is fore the typesetting engine to find a good way of distributing words on the lines to avoid big white spaces between words. In the last part with five columns, the text looks really bad, with large white blobs scattered all over surface of the text.  
+Have a look at the page below. It contains the same three paragraphs, taken at random from an Arabic news site, typeset three times, first in three columns, then in four, and then in five columns. The more columns, and thus the narrower the columns, the more difficult it is fore the typesetting engine to find a good way of distributing words on the lines to avoid big white spaces between words. In the last part with five columns, the text looks really bad, with large white blobs scattered all over surface of the text. 
 
-![Example text without stretchable kashida.](images/2017-02-28/no-kashida.pdf)
+![Example text without stretchable kashida.](images/2017-02-28/no-kashida.png)
 
 
 Now compare this with the following page. Here the same text is set with the same font, font size and columns, but with a stretchable kashida at every letter connection. Note the total lack of white blobs. The stretchable kashida nicely fills every line, producing an even surface.
 
 **NOTE:** When viewed on screen, the inserted stretchable kashida may appear choppy in certain resolutions. This is because it has not been adapted for screen display in various resolutions, as has the rest of the font. Zoom in on the pdf-image and you will see that the choppiness disappears. It will not be an issue when the text is printed.
 
-![Example text with stretchable kashida.](images/2017-02-28/kashida.pdf)
+![Example text with stretchable kashida.](images/2017-02-28/kashida.png)
 
 In manuals of Arabic calligraphy there are rules about where in what words, where in a word, and between what characters kashidas may be inserted [Benatia%nbsp;et%nbsp;al. 2006](https://www.tug.org/tugboat/tb27-2/tb87benatia.pdf). These rules are completely disregarded here. I do not believe they are particularity relevant for the modern simplified text fonts. 
 
