@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Stretchable kashida justification in LaTeX
-permalink: /stretchale-kashida-justification/
+title: Stretchable kashida and Arabic text justificatoin in LaTeX
+permalink: /stretchale-kashida/
 language: English
 length: long
 tags:
@@ -10,8 +10,7 @@ tags:
 - typography
 ---
 
-
-This post describes how to make stretchable pseudo-*kashidas* and how to automatically apply it to justify Arabic text typeset with LaTeX and the XeTeX engine. The method utilizes the `\XeTeXcharclass` function in XeTeX to insert a stretchable rule between connecting characters. The thickness of this rule defined to match the thickness of the *kashida* character\ (ـ) in the chosen typeface. 
+This post describes how to make stretchable pseudo-*kashidas* to lengthen words (كلمة طويـــــــلة) and how to automatically insert these at letter connections in order to justify Arabic texts, that is, to to make it have even right and left margins. The problem, solution, and the result is first presented in a non-technical way. Hereafter the implementation in LaTeX is then discussed in some detail.
 
 ## Introduction
 
@@ -36,13 +35,15 @@ Have a look at the page below. It contains the same three paragraphs, taken at r
 
 Now compare this with the following page. Here the same text is set with the same font, font size and columns, but with a stretchable kashida at every letter connection. Note the total lack of white blobs. The stretchable kashida nicely fills every line, producing an even surface.
 
-**NOTE:** When viewed on screen, the inserted stretchable kashida may appear choppy in certain resolutions. This is because it has not been adapted for screen display in various resolutions, as has the rest of the font. Zoom in on the pdf-image and you will see that the choppiness disappears. It will also not be an issue when printed.
+**NOTE:** When viewed on screen, the inserted stretchable kashida may appear choppy in certain resolutions. This is because it has not been adapted for screen display in various resolutions, as has the rest of the font. Zoom in on the pdf-image and you will see that the choppiness disappears. It will not be an issue when the text is printed.
 
 ![Example text with stretchable kashida.](images/2017-02-28/kashida.pdf)
 
+In manuals of Arabic calligraphy there are rules about where in what words, where in a word, and between what characters kashidas may be inserted [Benatia\ et\ al. 2006](https://www.tug.org/tugboat/tb27-2/tb87benatia.pdf). These rules are completely disregarded here. I do not believe they are particularity relevant for the modern simplified text fonts. 
+
 ## Application
 
-The rest of this post is step wise an explanation of the LaTeX code that achieves this result. A complete self-contained example (used to produce the documents above) can be found in [this GitHub repo](https://github.com/andreasmhallberg/kashida-justification).
+The rest of this post is step wise an explanation of the LaTeX code that achieves this result. A complete self-contained example (used to produce the documents above) can be found [here](https://github.com/andreasmhallberg/kashida-justification).
 
 First we load the packages that we need and setup the Arabic font. Lateef is a free and open source font available [here](https://www.sil.org/resources/software_fonts/lateef).  
 
@@ -109,20 +110,21 @@ Then we activate the `XeTeXinterchartoks` feature, declare the different classes
 Then we declare the combinations of character classes between which we want to insert the command for the stretchable kashida (which we have yet to define). The order is significant. Note that all possible combination of characters classes where you want stretchable kashida must be added to the list.
 
 ``` tex
- \XeTeXinterchartoks \confb \confb = {\kashida{}}
- \XeTeXinterchartoks \lam \lam     = {\kashida{}}
- \XeTeXinterchartoks \confb \alif  = {\kashida{}}
- \XeTeXinterchartoks \confb \lam   = {\kashida{}}
- \XeTeXinterchartoks \lam \confb   = {\kashida{}}
- \XeTeXinterchartoks \lam \conb    = {\kashida{}}
- \XeTeXinterchartoks \confb \conb  = {\kashida{}}
+\XeTeXinterchartoks \confb \confb = {\kashida{}}
+\XeTeXinterchartoks \confb \conb  = {\kashida{}}
+\XeTeXinterchartoks \confb \alif  = {\kashida{}}
+\XeTeXinterchartoks \confb \lam   = {\kashida{}}
+\XeTeXinterchartoks \lam   \lam   = {\kashida{}}
+\XeTeXinterchartoks \lam   \confb = {\kashida{}}
+\XeTeXinterchartoks \lam   \conb  = {\kashida{}}
 ```
 
-### Measuring the kashida
-
-The following snippet uses functions form the `calc` package to measures the thickness of the kashida in the loaded font. It masers the top of the kashida from the baseline and stores this value in `\kashidaheight`. It also measure how far it extends below the baseline and stores the value in `\kashidadepth`. (None of the fonts I have tested this on have a kashida that extends below the baseline, so this measure will normally be `0 pts`.)
+This means that the presence of a vowel sign\ ( َ ِ ُ, etc), *shadda*\ ( ّ), *sukūn*\ ( ْ), or other similar symbol negates the stretchable kashida at that position. This is because the sequence of characters is then **[vowel\ sign]---letter,* and not one of the sequences listed above. You can see this in the word شنّت, the first word in the test paragraph in the examples above. This may not be a bad thing. To me, vowel or other sign and then kashida (\ شــنّــت\ ) looks odd, wheres the same word without the sign looks much more acceptable (\ شــنــت\ ). With this implementation of the stretchable kashida, the first would not appear, only the second.
 
 
+### Kashida thickness
+
+The following snippet uses functions form the [`calc`](https://www.ctan.org/pkg/microtype?lang=en) package to measure the thickness of the kashida in the loaded font. It masers the top of the kashida from the baseline and stores this value in `\kashidaheight`. It also measure how far it extends below the baseline and stores the value in `\kashidadepth`. (None of the fonts I have tested this on have a kashida that extends below the baseline, so this measure will normally be `0 pts`.)
 
 ``` tex
 \newlength\kashidaheight
@@ -131,16 +133,16 @@ The following snippet uses functions form the `calc` package to measures the thi
 \setlength\kashidadepth{\depthof{\textarabic{ـ}}}
 ```
 
-This means that this method does not work for typefaces in which the letter connection is raised above the baseline, as in Geeza Pro that is included in OSX. Or rather, the code will work, but it will not be pretty. (Fixing this would not be too difficult, but it would require some extra tweaking.) The method presented here will work fine with most simple *nasx* typefaces, however, such as 
+This means that this method does not give good results for typefaces in which the letter connection is raised above the baseline. This is the case Geeza Pro typeface that is included in OSX. (This could be fixed provided there is a reliable way of measuring how much the letter connections, and by extension the kashida character of the font, is raised above the baseline.) The method presented here will work fine with most simple *nasx* typefaces, however, such as 
 [Lateef](https://www.sil.org/resources/software_fonts/lateef), 
 [Scheherazadw](http://software.sil.org/scheherazade/),
 and [Simplified Arabic](https://www.microsoft.com/typography/fonts/family.aspx?FID=261) (distributed with MS Word), as well as with any mono-spaced Arabic font. 
 
-Note also that these measurements will change any time the font size changes, so that the above command should be run again after any font size command such `\large`. 
+Note also that these measurements will change any time the font size changes, so that the above command should be run again after any command that changes the fontsize. Alternatively, and preferebly, these commands could be redifined to run   `\setlength\kashidaheight{\heightof{\textarabic{ـ}}}` and  `\setlength\kashidadepth{\depthof{\textarabic{ـ}}}`.
 
 ### Defining the kashida command
 
-With the measurements of the kashida now stored, we can use this when it now comes to define the actual stretchable kashida that is to go between all connecting characters.
+With the measurements of the kashida now stored, we can use them to define the actual stretchable kashida that is to go between all connecting characters.
 
 ``` tex
 \newcommand\kashida[1]{\char"200D
@@ -150,26 +152,28 @@ With the measurements of the kashida now stored, we can use this when it now com
   \nobreak\char"200D}
 ```
 
-This is essentially a leader, such as the row of dots that fill the line  between a chapter title and the page number in a table of contents, but in the form of a solid line of kashida-thickness.
+This produces a leader, similar to the row of dots that fills the line  between a chapter title and the page number in a table of contents, for example, but it is here in the form of a solid line of kashida-thickness.
 
-Note that the command begins and ends with `\char"200D`. This inserts the Unicode character `ZERO WIDTH JOINDER` which is very useful when working with Arabic. As its name suggest, it takes no space and only instructs surrounding letters to connect with it. Without it the text engine would see the command `\nobreak` when it comes to this command, and not a letter with which it can connect the previous one. `\nobreak` instructs LaTeX not to have any line breaks here.
+Note that the command begins and ends with `\char"200D`. This inserts the Unicode character `ZERO WIDTH JOINER`, a character that is very useful when typing in Arabic. As its name suggest, it takes no space and only instructs surrounding letters to connect with it, and thus with oneanother. Without it the typesetting engine would see the command `\nobreak` when it comes to this command, and not a letter with which the previous letter can connect, making it take the unconnecting form. The command `\nobreak` instructs LaTeX not to have any line breaks here.
 
 The heart of the command is `\leaders` which is a stretchable element, here declared in plain TeX. It takes two parameters:
 
 a) what it is that is to be repeated or stretched, here a horizontal rule (`\hrule`) with the height stored in `\kashidaheight` and the depth stored in `\kashidadepth`
-b) the stretchability ('glue' in TeX-terminology), here it is set to be able to stretch from 0 to 100\ pts.
+b) the stretchability (or 'glue' in TeX-terminology), here set to be able to stretch from 0 to 100\ pts.
 
-It is important that the stretchability is set to limited dimension such as 100\ pts and not to infinite stretchability with `fill`, because this will mess up the last line of the paragraph that does not have to be filled. 
+It is important that the glue is set to limited dimension such as 100\ pts and not to infinite glue with `fill`, because this will mess up the last line of the paragraph that does not have to be filled. 
+
 
 ## Conclusion
-And that's it. Adding the above code to the preamble automatically applies the stretchable kashida as in the multicolumn examples above.
 
-The way this has been applied here comes with a few caveats:
+And that's it. Adding the above code to the preamble automatically applies the stretchable kashida, as in the multicolumn examples above.
 
-- Only works with typefaces where letters are connected at the baseline.
-- If the typeface have ligatures other than *lam-alif* and that you wish to retain, they must be added to the classes and patters of `XeTeXinterchartoks`.
-- In its current version, vowel signs negate the stretchable kashida.
+The way it has been applied here comes with a few caveats:
 
+- It only works with typefaces where letters are connected at the baseline and where the connection is not cruvilinear.
+- If the typeface have ligatures other than *lam-alif* that you wish to retain, they must be added to the classes and patters of `XeTeXinterchartoks`.
+- Vowel signs and similar negate the stretchable kashida.
+- Your may not be able to resist the urge to hang your beautiful Arabic text columns on your office wall. 
 
-[^microtype]: There is also a third method; to strewth or letters by a small percentage so that it is not perceptible on individual letters, but with an accumulative effect that provides variability that is used for justifying the text. See the documentation for the [`mycrotype` package](https://www.ctan.org/pkg/microtype?lang=en) for a discussion and implementation in LaTeX.
+[^microtype]: There is also a third method; to stretch or squeeze letters by a measure that is too small to be noticeable on individual letters, but with an accumulated effect that provides a variability used for justifying the text. See the documentation for the [`mycrotype` package](https://www.ctan.org/pkg/microtype?lang=en) for a discussion and implementation in LaTeX.
 [^utopa]: أحمد خالد توفيق، ٢٠١٤. *يوتوبيا*، دير ميريت، القاهرة. 
