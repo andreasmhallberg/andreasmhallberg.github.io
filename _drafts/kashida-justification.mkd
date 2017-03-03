@@ -20,7 +20,7 @@ What Arabic has, though, that the Latin script lacks, is the ability stretch out
 
 There are two problems with this. Firstly, any line can only be lengthened by a multiple of the width of the kashida in the typeface. For example, if the kashida is 5&nbsp;pts wide, the line could be lengthened by 5&nbsp;pts by adding a kashida somewhere, or by 10&nbsp;pts by adding two. But it could not be lengthened by 7&nbsp;pts. Secondly, the lengthening can only be applied point wise certain words on the line and cannot be distributed evenly across the line, making for an uneven appearance of the words in line.
 
-Se for example the excerpt below from the novel *Yūtūbiyā* by Aḥmad Xālid Tawfīq.[^utopia]. Kashidas have been added to the last couple of words at the end of most lines to fill them up to the left margin. This makes for an unattractive and uneven page.
+Se for example the excerpt below from the novel *Yūtūbiyā* by Aḥmad Xālid Tawfīq.[^utopia] Kashidas have been added to the last couple of words at the end of most lines to fill them up to the left margin. This makes for an unattractive and uneven page.
 
 ![Page 12 from Yūtūbiyā, where kashidas are used in words at the end of the line to fill it.](/images/2017-03-03/utopia.png)
 
@@ -177,6 +177,7 @@ The way it has been applied here comes with a few caveats:
 - Your may not be able to resist the urge to hang your beautiful Arabic text columns on your office wall. 
 
 [^microtype]: There is also a third method; to stretch or squeeze letters by a measure that is too small to be noticeable on individual letters, but with an accumulated effect that provides a variability used for justifying the text. See the documentation for the [`mycrotype` package](https://www.ctan.org/pkg/microtype?lang=en) for a discussion and implementation in LaTeX.
-[^utopa]: أحمد خالد توفيق، ٢٠١٤. *يوتوبيا*، دير ميريت، القاهرة. 
+
+[^utoipa]: أحمد خالد توفيق، ٢٠١٤. *يوتوبيا*، دير ميريت، القاهرة. 
 
 {% endraw %}
