@@ -22,7 +22,7 @@ There are two problems with this. Firstly, any line can only be lengthened by a 
 
 Se for example the excerpt below from the novel *Yūtūbiyā* by Aḥmad Xālid Tawfīq.[^utopia]. Kashidas have been added to the last couple of words at the end of most lines to fill them up to the left margin. This makes for an unattractive and uneven page.
 
-![Page 12 from *Yūtūbiyā*, where kashidas are used in words at the end of the line to fill it.](/images/2017-03-03/utopia.png)
+![Page 12 from Yūtūbiyā, where kashidas are used in words at the end of the line to fill it.](/images/2017-03-03/utopia.png)
 
 ## Solution - the stretchable kashida
 
