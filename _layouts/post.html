@@ -10,13 +10,15 @@ layout: default
 {% assign tags = page.tags %}
 
       {% if page.language == 'English' %}
-        {{ page.date | date: "%B %e, %Y" }}<br>
+        Posted: {{ page.date | date: "%B %e, %Y" }}<br>
+        Last modified: {{ page.last_modified_at | date: "%B %e, %Y" }}<br>
         Tags: {% for tag in tags %} -{{tag}}{% endfor %}<br>
         Length: {{ page.length }}
       {% endif %}
 
       {% if page.language == 'Swedish' %}
-        {{ page.date | date: "%Y-%m-%d" }}<br>
+        Publicerad: {{ page.date | date: "%Y-%m-%d" }}<br>
+        Senast ändrad: {{ page.last_modified_at | date: "%Y-%m-%d" }}<br>
         Taggar: {% for tag in tags %} -{{tag}}{% endfor %}<br>
         Längd:
           {% if page.length == 'long' %}
