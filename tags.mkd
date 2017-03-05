@@ -15,7 +15,7 @@ permalink: /tags/
   {% else %}
     {% for tag in tags_list %}
       <a href="/tags#{{ tag[0] }}-ref" class='list-group-item'>
-        {{ tag[0] }}&nbsp;{{ tag[1].size }})</a>, 
+        {{ tag[0] }}</a>&nbsp;({{ tag[1].size }}), 
     {% endfor %}
   {% endif %}
 
