@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Tags
+permalink: /tags/
 ---
 
 <div class='list-group'>
@@ -9,8 +10,7 @@ title: Tags
   {% if tags_list.first[0] == null %}
     {% for tag in tags_list | downcase %}
       <a href="/tags#{{ tag }}-ref" class='list-group-item'>
-        {{ tag }}&nbsp;({{ site.tags[tag].size }}),
-      </a>
+        {{ tag }}&ensp;({{ site.tags[tag].size }})</a>,
     {% endfor %}
   {% else %}
     {% for tag in tags_list %}
