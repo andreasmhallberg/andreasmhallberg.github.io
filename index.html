@@ -12,7 +12,14 @@ layout: default
         {{ post.excerpt }}
       </div>
 
+      {% if post.language == 'English' %}
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      {% endif %}
+
+      {% if post.language == 'Swedish' %}
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Läs mer</a>
+      {% endif %}
+
     </article>
   {% endfor %}
 </div>

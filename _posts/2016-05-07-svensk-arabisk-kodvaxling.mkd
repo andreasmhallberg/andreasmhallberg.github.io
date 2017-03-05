@@ -77,12 +77,12 @@ I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de s
 
 - *2016-08-03* --- Jag.
 
-    Jag trodde inte jag var kapabel till avancerad intersentential kodväxling, så hör jag mig kläcka ur mig den här meningen om hur vi bäst bör planera rutten i ett köpcentrum. Meningen övergår till arabiska efter *och* som här är en *complementizer* till verbet *gå* och inte en konjunktion i vanlig bemärkelse. Det svenska objektspronominet *-den*  suffigeras till verbet enligt arabisk syntax.
-
     vi | går | och | *n‑baddil‑*den| *awwal* | *ši*
     vi | går | och | 1PL‑byter‑den | första | sak
 
     | Vi går och byter den först. |
+
+    Jag trodde inte jag var kapabel till avancerad intersentential kodväxling, så hör jag mig kläcka ur mig den här meningen om hur vi bäst bör planera rutten i ett köpcentrum. Meningen övergår till arabiska efter *och* (som här är en *complementizer* till verbet *gå* och inte en konjunktion). Det svenska objektspronominet *-den* är  suffigerat till verbet i enlighet med arabisk syntax.
 
 - *2016-08-08* --- A. om en kaktus i vardagsrummet.
 
