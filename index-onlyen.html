@@ -7,13 +7,9 @@ permalink: /only-en/
 
 <div class="posts">
   {% for post in site.posts %}
-    <article class="post">
-
-
-      {% if post.language == 'Swedish' %}
-      {% endif %}
 
       {% if post.language == 'English' %}
+    <article class="post">
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
       <div class="entry">
@@ -23,6 +19,7 @@ permalink: /only-en/
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
 
     </article>
+    {% else %}
     {% endif %}
   {% endfor %}
 </div>
