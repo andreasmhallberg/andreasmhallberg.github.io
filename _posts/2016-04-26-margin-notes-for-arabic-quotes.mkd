@@ -73,11 +73,11 @@ The method is not completely automatic since if the margin note is at the bottom
 
 Lastly, the width of the text block in a margin note is generally to narrow for the text to be justified. I chose to have all the margin notes set flush right also on recto pages. In principle I would like to do like Bringhurst in his *The Elements of Typographic Style*,[^3] where margin notes are flush right on left hand pages and flush left on right hand pages. This gives a nice balanced cohesion to the page spread and makes the margin notes always look nicely tucked in next to the text. For Arabic script, flush left text often looks very bad. The reason is that many word-final letter forms in Arabic have long leftward swashes, such as ـب ـف&nbsp;ـق and others. This often gives the left edge of the text block a ragged look even in a flush left environment. What is even worse is that the right hand side often looks strange with the many word initial *alif*s. These *alif*s have a strong vertical character that looks odd when not aligned. In the example below you get the feeling that the text wants to be aligned to the right. Hence the choice to have all margin notes flush right.
 
-**Edit 2017-03-03** Had I known then what I know now, I would have used [the stretchable kashida](/stretchable-kashida/) to justify the margin notes.
-
 ![Flush left narrow Arabic text block.](/images/2016-04-26-margin-notes-for-arabic-quotes/arabicflushleft.png)
 
 In summary, Arabic quotes in the margin and the translation in the running text: pretty and practical.
+
+[**Edit 2017-03-03** Had I known then what I know now, I would have used [the stretchable kashida](/stretchable-kashida/) to justify the margin notes.]
 
 [^1]: Suleiman, Y., 1996. "The Simplification of Arabic Grammar and the Problematic Nature of the Sources." *Journal of Semitic Studies,* 41(1), pp.99–119.
 [^2]: The `\null` in the last line is necessary to avoid LaTeX misinterpreting instances where the translated text begins with square brackets to signal that some word has been added for the sake of translation.
