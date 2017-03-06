@@ -37,7 +37,7 @@ Now compare this with the following page. Here the same text is set with the sam
 
 ![Example text with stretchable kashida.](/images/2017-03-03/kashida.png)
 
-The images above are png's and in limited resolution. Follow these links for pdf's of the example documents above [with stretchable kashida](/documents/kashida.pdf) and [without stretchable kashida](/documents/no-kashida.pdf) to see them in better resolution. Note that when viewing these pdf's on screen, the inserted stretchable kashida may appear choppy in certain resolutions. This is because it has not been adapted for screen display in various resolutions as has the rest of the font. This problem is specific to on-screen display and will not be an issue when the text is printed.
+The images above are PNGs and in limited resolution. Follow these links for PDFs of the example documents above [with stretchable kashida](/documents/kashida.pdf) and [without stretchable kashida](/documents/no-kashida.pdf) to see them in better resolution. Note that when viewing these PDFs on screen, the inserted stretchable kashida may appear choppy in certain resolutions. This is because it has not been adapted for screen display in various resolutions as has the rest of the font. This problem is specific to on-screen display and will not be an issue when the text is printed.
 
 ## Application
 
