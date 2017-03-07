@@ -164,8 +164,8 @@ Note that the command begins and ends with `\char"200D`. This inserts the Unicod
 
 The heart of the command is `\leaders` which is a stretchable element, here declared in plain TeX. It takes two parameters:
 
-a. what it is that is to be repeated or stretched, here a horizontal rule (`\hrule`) with the height stored in `\kashidaheight` and the depth stored in `\kashidadepth`  
-b. the stretchability (or 'glue' in TeX-terminology), here set to be able to stretch from 0 to 100&nbsp;pts.
+1. what it is that is to be repeated or stretched, here a horizontal rule (`\hrule`) with the height stored in `\kashidaheight` and the depth stored in `\kashidadepth`
+2. the stretchability (or 'glue' in TeX-terminology), here set to be able to stretch from 0 to 100&nbsp;pts.
 
 It is important that the glue is set to limited dimension such as 100&nbsp;pts and not to infinite glue with `fill`, because this will mess up the last line of the paragraph that does not have to be filled. 
 
