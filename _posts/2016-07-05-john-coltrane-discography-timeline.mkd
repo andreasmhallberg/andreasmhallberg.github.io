@@ -14,7 +14,7 @@ tags:
 
 I really enjoyed writing and designing the [Timeline of Arabic grammarians](/timeline-of-arab-grammarians/) and it gave me the idea to write this particular timeline of something completely different. It is intended to make it possible to position the Coltrane album you are currently listening to or interested in (we all have one, hight?) in the bigger picture of Coltrane's musical career and development and to see how it relates to his other albums. The timeline also gives an overview of some other aspects of Coltrane's recording career, such as what labels he was signed to and when, release lag, and what musicians he worked with during which periods. My own impetus to write the timeline---apart from really enjoying working with Ti*k*z code and being a Coltrane fan---was to get a better sense of what parts of Coltrane's music I have a general feel for and what parts I am unfamiliar with.
 
-A pdf with the timeline can be viewed/downloaded [here](https://github.com/andreasmhallberg/Coltrane-doscography-timeline/blob/master/coltrane-timeline.pdf). The source code for the document can be found [here](https://github.com/andreasmhallberg/Coltrane-doscography-timeline/blob/master/coltrane-timeline.tex). 
+A pdf with the timeline can be viewed/downloaded [here](https://github.com/andreasmhallberg/Coltrane-doscography-timeline/blob/master/coltrane-timeline.pdf). The source code for the document can be found [here](https://github.com/andreasmhallberg/Coltrane-doscography-timeline/blob/master/coltrane-timeline.tex). It is intended to be printed on paper in the A3-format.
 
 
 ## Comments

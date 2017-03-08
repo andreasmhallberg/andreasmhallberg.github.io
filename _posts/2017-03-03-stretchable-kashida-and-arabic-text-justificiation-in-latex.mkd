@@ -119,7 +119,7 @@ Then we declare the combinations of character classes between which we want to i
 
 This means that the presence of a vowel sign&nbsp;( َ ِ ُ etc), *shadda*&nbsp;( ّ&nbsp;), *sukūn*&nbsp;( ْ&nbsp;), or other similar symbols negate the stretchable kashida at that position. This is because the sequence of characters is then *[vowel&nbsp;sign]---letter,* and not one of the sequences listed above, so it will not trigger the `\kashida` command. You can see this in the word شنّت, the first word in the test paragraph in the examples above. This may not be a bad thing. To me, vowel or other sign and then kashida (&nbsp;شــنّــت&nbsp;) looks odd, and it is avoided here.
 
-Also, in manuals of Arabic calligraphy there are rules about where in what words, where in a word, and between what characters kashidas may be inserted [Benatia&nbsp;et&nbsp;al. 2006](https://www.tug.org/tugboat/tb27-2/tb87benatia.pdf). These rules are disregarded here. I do not believe that they are particularity relevant for the modern simplified text fonts. 
+Also, in manuals of Arabic calligraphy there are rules about where in what words, where in a word, and between what characters kashidas may be inserted ([Benatia&nbsp;et&nbsp;al. 2006](https://www.tug.org/tugboat/tb27-2/tb87benatia.pdf)). These rules are disregarded here. I do not believe that they are particularity relevant for the modern simplified text fonts. 
 
 
 
