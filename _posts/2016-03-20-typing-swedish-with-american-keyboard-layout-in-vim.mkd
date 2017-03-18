@@ -73,5 +73,5 @@ loadkeymap
 ::	:
 ```
 
- Ever since a started using these settings, and after a week or so of learning it, typing Swedish in Vim is much less of a pain. No more finger gymnastics such as Alt+Shift+7 to get a simple backslash, even if the double key presses to get the "underlying" masked character is a bit difficult to get use to.
+Ever since a started using these settings, and after a week or so of learning it, typing Swedish in Vim is much less of a pain. No more finger gymnastics such as Alt+Shift+7 to get a simple backslash. The double key presses to get the "underlying" masked character is however a bit difficult to get use to.
 {% endraw %}
