@@ -30,7 +30,7 @@ A solution to this problem in Vim, where I do almost all kinds of typing anyways
 
 Mapping these masked characters to other positions keys on the keyboard is not a good solution if your are often switching between layouts, since it messes up your muscle memory. Moving them would also mask other characters and just move the problem around. Instead, I opted to have the masked characters remain and have them accessed with double key presses, so that pressing `åå` produces `[`, `ÅÅ` produces `{`, etc. Luckily, in Swedish you never type double å, ä, or&nbsp;ö, so these double key sequences are a "free space" on the keyboard. (In fact, when typing the previous sentence was the first time this has ever been a problem.) This solution is a much smaller adaptation of the American layout than having everything move around whenever you are switching between the two layouts. I call this mapping swe-us.
 
-[**EDIT 2017-03-18: Changed the way the application below to use and external `keymap` file rather than mappings in the `.vimrc`.**]
+[**EDIT 2017-03-18: Previously this post described how to implement this with a series of mappings in the `.vimrc`. The method described below with an external `keymap` file is much more convenient.**]
 
 I have applied this layout in Vim by having the code below in the [my `.vimrc`](https://github.com/andreasmhallberg/dotfiles/blob/master/.vimrc) (slightly modified here to make it self contained and more easily copyable).
 
@@ -53,7 +53,7 @@ nnoremap <Leader>s :<C-U>call EngType()<CR>
 
 What this does is to define keymappings `\s` and&nbsp;`\e` (provided you have kept the default leader&nbsp;`\`) to switch between typing Swedish and English. `\s`&nbsp;switches to the swe-us keymap (see below) and sets the spellchecking to Swedish. `\e`&nbsp;undoes this to switch back to English typing.
 
-The swe-us keyboard layout  is defined in the file `swe-us_utf-8.vim` which goes in `~/.vim/keymap/`. This file is quite small since only a few keys are modified from the default US layout. It applies all the changes to the US layout discussed above. This is the entire file:
+The swe-us keyboard layout  is defined in the file `swe-us_utf-8.vim` which goes in `~/.vim/keymap/`. This only changes mappings in insert mode, leaving all your normal mode stuff untouched, and it interacts with `r` and&nbsp;`x` operations and the like. The file is quite small since only a few keys are modified from the default US layout. It applies all the changes to the US layout discussed above. This is the entire file:
 
 ``` vim
 let b:keymap_name = "swe-us"
