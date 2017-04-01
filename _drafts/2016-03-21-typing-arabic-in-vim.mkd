@@ -4,10 +4,8 @@ title: Typing Arabic in Vim
 permalink: /typing-arabic-in-vim/
 language: English
 tags:
-- Vim
-- Arabic
+- vim
+- arabic
 ---
 
 Everyone who has attempted to write something in Arabic knows that more often than not is a nuisance. Computers oftentimes seem not to have a very good understanding of the very basics of right-to-left writing systems. Much of this confusion
-
-
