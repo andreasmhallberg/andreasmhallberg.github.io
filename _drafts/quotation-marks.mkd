@@ -7,7 +7,7 @@ tags:
 ---
 
 
-For the Western observer, the use of quotation marks in modern Arabic text may seem rather strange and inconsistent. The use of some typographical changed as they were inherited form the European into the Arabic printing traditions and authors and editors seem to be less obsessed with the exact consistency of their use than are their Latin script colleges. 
+For the Western observer, the use of quotation marks in modern Arabic text may seem rather strange and inconsistent. The use of some typographical changed as they were inherited form the European into the Arabic printing traditions and authors and editors seem to be less obsessed with the exact consistency of their use than are their Latin script colleges.
 
 # Non-Arabic names
 
@@ -17,7 +17,7 @@ For the Western observer, the use of quotation marks in modern Arabic text may s
 
 The most common way to mark direct speech in Arabic novels is with the *kašīda* ـ\ . It is easily accessible on the most common Arabic keyboard layouts by pressing 'SHIFT-ت/j'. This is similar in appearance to the *em dash* used in dialogue in modern texts using the Latin script: 
 
-> -- Is this an em dash? he asked.  
+> -- Is this an em-dash? he asked.  
 > -- Indeed it is, she replied.
 
 The *kašīda* is quite different in appearance, however, in that it is heavier (thicker) and drawn on the baseline, not raised above it as is the *em-dash*:
