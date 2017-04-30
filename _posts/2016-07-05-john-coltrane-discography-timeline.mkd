@@ -12,9 +12,9 @@ tags:
 
 ![thumbnail](/images/coltrane-timeline.thumbnail.png)
 
-I really enjoyed writing and designing the [Timeline of Arabic grammarians](/timeline-of-arab-grammarians/) and it gave me the idea to write this particular timeline of something completely different. It is intended to make it possible to position the Coltrane album you are currently listening to or interested in (we all have one, hight?) in the bigger picture of Coltrane's musical career and development and to see how it relates to his other albums. The timeline also gives an overview of some other aspects of Coltrane's recording career, such as what labels he was signed to and when, release lag, and what musicians he worked with during which periods. My own impetus to write the timeline---apart from really enjoying working with Ti*k*z code and being a Coltrane fan---was to get a better sense of what parts of Coltrane's music I have a general feel for and what parts I am unfamiliar with.
+I really enjoyed writing and designing the [Timeline of Arabic grammarians](/timeline-of-arab-grammarians/) and it gave me the idea to write this particular timeline of something completely different. It is intended to make it possible to position the Coltrane album you are currently listening to or interested in in the bigger picture of Coltrane's musical career and development. The timeline also gives an overview of some other aspects of Coltrane's recording career, such as what labels he was signed to and when, release lag, and what musicians he worked with during which periods. My own impetus to write the timeline---apart from really enjoying working with Ti*k*z code and being a Coltrane fan---was to get a better sense of what parts of Coltrane's music I have a general feel for and what parts I am unfamiliar with.
 
-A pdf with the timeline can be viewed/downloaded [here](https://github.com/andreasmhallberg/Coltrane-doscography-timeline/blob/master/coltrane-timeline.pdf). The source code for the document can be found [here](https://github.com/andreasmhallberg/Coltrane-doscography-timeline/blob/master/coltrane-timeline.tex). It is intended to be printed on paper in the A3-format.
+A pdf with the timeline can be viewed/downloaded [here](https://github.com/andreasmhallberg/Coltrane-doscography-timeline/blob/master/coltrane-timeline.pdf). The source code for the document can be found [here](https://github.com/andreasmhallberg/Coltrane-doscography-timeline/blob/master/coltrane-timeline.tex). It is intended to be printed on A3-paper.
 
 
 ## Comments
@@ -22,7 +22,7 @@ The timeline builds on data from the nicely tabulated [Coltrane discography on W
 
 I am particularity pleased with how I got the albums to semi-automatically snap in place where there would be graphical overlap. In the source code, every album is added to the timeline with a function with eight arguments, specifying recording dates, sidemen, etc. There is one optional argument that takes a length specification and that adjusts the horizontal shift, a system inherited from the Arabic grammar timeline I did previously. This time around, the optional argument can also be `adj`, which adjusts the horizontal position of the entry by snapping it to the previous entry. This way, if several entries cluster and overlap, I can shift the first of them to the left by giving a negative length in its optional argument and then specify for each of following entries in the cluster that they snap into to one another in a row.
 
-A tricky part of this timeline was to have the dates line up on the time axis. To calculate the number of days between dates given in a human-readable year-month-day format is not trivial. The solution turned out to be to transform all date data to Julian day, the number of days since, by convention, January 1, 4713&nbsp;BC. For example, the date at the tima of writing, July 7, 2016, is Julian day 2,457,942, that is, roughly two and half million days after January&nbsp; 1, 4713&nbsp;BC. With this date format time becomes nicely linear, proportional, and plottable.
+A tricky part of this timeline was to have the dates line up on the time axis. To calculate the number of days between dates given in a human-readable year-month-day format is not trivial. The solution turned out to be to transform all date data to Julian day, the number of days since, by convention, January&nbsp;1, 4713&nbsp;BC. For example, the date at the time of writing, July&nbsp;7, 2016, is Julian day 2,457,942, that is, roughly two and half million days after January&nbsp;1, 4713&nbsp;BC. With this date format time becomes nicely linear, proportional, and plottable.
 
 
 
@@ -33,5 +33,5 @@ A tricky part of this timeline was to have the dates line up on the time axis. T
 - Include albums with Coltrane as non-leader and extend the timeline. To fit it all in either:
     - extend the timeline to two landscape A3-papers.
     - include non-leader albums on a separate level on top of leader albums (semi-transparent?).
-- Add horizontal braces above designating periods (sheets of sound, modal, free (other?)). Consult biographies (Porter, Nisenson).
+- Add horizontal braces above designating periods (early, sheets of sound, modal, free (other?)). Consult biographies (Porter, Nisenson).
 - Boldface for albums generally considered to be Coltrane's most influential. (Not sure how to choose these. Consult biographies.)
