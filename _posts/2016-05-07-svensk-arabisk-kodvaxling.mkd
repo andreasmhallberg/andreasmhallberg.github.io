@@ -10,7 +10,7 @@ tags:
 ---
 
 [//]: # (All hyphens in glosses no breaking U+2011: s/-/‑/g)
-Det följande är intressanta och/eller lustiga exempel på svenska-arabisk kodväxling som jag noterat i min omgivning. Exemplen är inte representativa för kodväxlingen i stort utan är bara sådant jag reagerat på. Listan utvidgas kontinuerligt i och med att ny data tillkommer.
+Det följande är intressanta och/eller lustiga exempel på spontan svenska-arabisk kodväxling som jag noterat i min omgivning. Listan utvidgas kontinuerligt i och med att ny data tillkommer.
 
 I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de svenska elementen i upprätt text. Se längst ner på sidan för en lista på förkortningar.
 
@@ -84,7 +84,7 @@ I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de s
 
     Jag trodde inte jag var kapabel till avancerad intersentential kodväxling, så hör jag mig kläcka ur mig den här meningen om hur vi bäst bör planera rutten i ett köpcentrum. Meningen övergår till arabiska efter *och* (som här är en *complementizer* till verbet *gå* och inte en konjunktion). Det svenska objektspronominet *-den* är  suffigerat till verbet i enlighet med arabisk syntax.
 
-- *2016-08-08* --- A. om en kaktus i vardagsrummet.
+- *2016-08-08* --- A., om en kaktus i vardagsrummet.
 
     *hay* | *ʿam* | *t*växa | *mū* | *maʿʾūl*
     den.här | PROG | 3FS.växer | inte | vettig
@@ -99,7 +99,7 @@ I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de s
 
     | Jag --- jag måste sticka snart.  |
 
-På arabiska kan man mycket mer fritt än i svenska topikalisera, dvs. placera ett ord i början av meningen för att ange dess ämne. Det topikaliserade ordet är inte syntaktiskt bundet till satsen. Här topikaliserar talaren meningen med *ana* 'jag' och växlar sedan till svenska med en sats som inleds med "jag", så att pronomenet jag yttras två gånger efter varandra, först som en arabisk topikalisering och sedan som ett svenskt pronominalt subjekt. Utan kodväxlingen mellan de två "jagen" hade meningen varit ogrammatisk både på svenska och arabiska (*\*Jag---jag måste sticka snart*, *\*ana---ana baʿd šway lāzim rūḥ*).
+    På arabiska kan man mycket mer fritt än i svenska topikalisera, dvs. placera ett ord i början av meningen för att ange dess ämne. Det topikaliserade ordet är inte syntaktiskt bundet till satsen. Här topikaliserar talaren meningen med *ana* 'jag' och växlar sedan till svenska med en sats som inleds med "jag", så att pronomenet jag yttras två gånger efter varandra, först som en arabisk topikalisering och sedan som ett svenskt pronominalt subjekt. Utan kodväxlingen mellan de två "jagen" hade meningen varit ogrammatisk både på svenska och arabiska (*\*Jag---jag måste sticka snart*, *\*ana---ana baʿd šway lāzim rūḥ*).
 
 ---
 
