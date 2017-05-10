@@ -92,7 +92,7 @@ I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de s
     | Den här växer jättesnabbt. |
 
 
-- *2017* --- A.
+- *2017-04-26* --- A.
 
     *ana* | jag | måste | sticka | snart
     jag   | jag | måste | sticka | snart
