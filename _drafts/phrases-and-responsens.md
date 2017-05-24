@@ -1,9 +1,9 @@
 ---
 layout: post
-title: List of Syrian Arabic politeness formulae and responses
+title: List of Syrian Arabic politeness formulae
 permalink: /syrian-arabic-politeness-formulae/
 language: English
-length: medium
+length: long
 tags:
 - arabic
 ---
@@ -146,7 +146,7 @@ Said before the actual goodbay to signal the end of the conversation.
 |                                        |                         |
 | :-                                     | :-                      |
 | العواض بسلامتك                          | الله يسلمك              |
-| *al-ʿiwāḍ bi-salāmtak*                 | *aḷḷa yusallimak*      |
+| *al-ʿiwāḍ bi-salāmtak*                 | *aḷḷa yisallimak*      |
 | May the compensation be in your health | May God give you health |
 
 |                     |              |
@@ -172,6 +172,15 @@ Said before the actual goodbay to signal the end of the conversation.
 | God be praised for your wellbeing | May God preserve you |
 
 ## Phrases for not so special occasions
+
+### Thanks 
+
+|                               |                      |
+| :-                            | :-                   |
+| يسلم إيديك                    | الله يسلمك           |
+| *yislam īdēk*                 | **aḷḷa yisallimak**  |
+| May [God] preserve your hands | May God preserve you |
+
 
 ### To someone who has cut their hair, shaved, or have had a shower or bath
 
@@ -222,6 +231,14 @@ Said before the actual goodbay to signal the end of the conversation.
 | Health/Two healths | On your heart |
 
 Also used to decline drink or food offered to you.
+
+### To someone who is working or exerting themselves 
+
+|                         |                |
+| :-                      | :-             |
+| الله يعطيك العافية      | الله يعافيك    |
+| *aḷḷa yaʿṭīk al-ʿāfiya* | *aḷḷa yiʿāfīk* |
+| May God give you vigor      | May God invogorate you  |
 
 ### To someone who has acquired and item (through gift or purchase)
 
