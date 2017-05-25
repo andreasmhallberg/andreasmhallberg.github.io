@@ -8,10 +8,6 @@ tags:
 - arabic
 ---
 
-    Root-echo responses in Syrian Arabic politeness formulas. CA Ferguson - Linguistic studies in memory of Richard Slade Harrell, 1967 [Finns i Göteborg]
-
-    Root-Echo Responses in Egyptian Arabic Politeness Formulae. Devin Stweart. Understanding Arabic [UB ÖSF]
-
 ## Introduction
 Arabic, in its various dialects, has highly developed systems of polite phrases for different situations and many of these phrases have a specific response. Knowing these phrases, in what situations they are used, and how to properly respond to them, is an important part of communicative competence in Arabic.[^impoliteness] For those of us who have learned Arabic as a second language, the number of these phrases is remarkable. They are tricky to learn for a non-native speaker since there is often only one suitable response, and it has to be automatic and instantaneous. For native speakers, of course, this is simply part of language and it isn't given much thought. When, for example, someone says *naʿīman* to you after you have had a shower you just automatically reply *aḷḷa yinʿam ʿaleyk*.
 
@@ -27,7 +23,7 @@ One of the first people I got to know during my stay in Damascus always ended ou
 
 The anecdote above illustrate one one of the probably hundred or so phrases and responses that are in common use. Keeping track of all of them can be a daunting task for the language learner. A trick I figured out was that the response *aḷḷa yixallīk* 'May God keep you safe' is an acceptable response in most situations, even if there is another response that is more common. (This response is also the one appropriate response to [one specific phrase](#haschildren) where it echoes the root of its main word.)
 
-Most of the formulaic responses include a repetition of the root of the main word in the phrase that it is a response to, producing a wordplay, which, of course, has caught the attention of linguists (Stewart 1996, Ferguson 1997).
+Many formulaic responses include a repetition of the root of the main word in the phrase that it is a response to, producing a wordplay. This means that often the same response work for several different phrases that all include words with the same root. For example, to all of the phrases [*yislam īdēk*](#thanks) 'thanks', [*sallim ʿala X*](#passagreeting) 'give my regard to&nbsp;X', and [*trūḥ u-tarjaʿ bi-salāma*](#departing) 'may you leave and return in peace', the appropriate response is *aḷḷa yisallimak* 'May God preserve you'. (See Ferguson 1997 for further discussion.)
 
 ## The list
 
@@ -40,7 +36,7 @@ Forward slash\ (/) indicates alternative responses. Parentheses indicate optiona
 
 ## Greetings
 
-### General greetings
+#### General greetings
 
 |                      |                                                         |
 | :-                   | :-                                                      |
@@ -52,11 +48,11 @@ Islamic greeting signalling high degree of formality or allegiance to Islam. The
 
 |           |                                           |
 | :-        | :-                                        |
-| مرحبا     | أهلاً/مرحبتين/مية مرحباش/يا هلا              |
+| مرحبا     | أهلاً/مرحبتين/مية مرحبا/يا هلا              |
 | *marḥaba* | *ahlan/marḥabatēn*/*mīt marḥaba*/hi       |
 | Hello     | Hi/Two *marḥaba*s/a hunderd *marḥaba*s/hi |
 
-### Greeting before noon
+#### Greeting before noon
 
 |                    |                                  |
 | :-                 | :-                               |
@@ -66,7 +62,7 @@ Islamic greeting signalling high degree of formality or allegiance to Islam. The
 
 *Xēr* does not easily lend itself to translation. Wehr, the standard Arabic-English lexicon, translates it as "good thing, blessing; wealth, property; --- good, benefit, interest, advantage; welfare; charity."
 
-### Greeting after noon
+#### Greeting after noon
 
 |                    |                  |
 | :-                 | :-               |
@@ -74,9 +70,9 @@ Islamic greeting signalling high degree of formality or allegiance to Islam. The
 | *masāʾ al-xēr*     | *masāʾ an-nūr*   |
 | Evening of fortune | Evening of light |
 
-### Welcoming
+#### Welcoming
 
-| أهلا وسهلا        | أهلاٌ فيك/أهلين               |
+| أهلا وسهلا        | أهلاً فيك/أهلين               |
 | :-              | :-                          |
 | *ahla wa-sahla* | *ahlan fīk*/*ahlēn*         |
 | Welcome         | Welcome to you/Two welcomes |
@@ -90,7 +86,7 @@ Also general filler in pauses in polite conversation.
 | *nawwartu*           | *bi-wujūdkum*    |
 | You have enlightened | In your presence |
 
-### When being introduced to someone
+#### When being introduced to someone
 
 |                |                            |
 | :-             | :-                         |
@@ -98,9 +94,9 @@ Also general filler in pauses in polite conversation.
 | *tašarrafna*   | *yazīdak aš-šaraf*         |
 | We are honored | May he increase your honor |
 
-## Parting
+### Parting
 
-### General good-byes
+#### General good-byes
 
 |               |                     |
 | :-            | :-                  |
@@ -111,12 +107,12 @@ Also general filler in pauses in polite conversation.
 |                        |                                               |
 | :-                     | :-                                            |
 | بيك شي؟                | (ما بدي إلا) سلامتك                             |
-| *biddak ši?*           | *salāmtak*                                    |
-| Do you want something? | (I don't want anything except) your wellbeing |
+| *biddak ši?*           | *(.ā biddī illa) salāmtak*                                    |
+| Do you want something? | (I don't want anything but) your wellbeing |
 
 Said before the actual goodbay to signal the end of the conversation.
 
-### Parting before sleep
+#### Parting before sleep
 
 |                    |                                                             |
 | :-                 | :-                                                          |
@@ -124,7 +120,7 @@ Said before the actual goodbay to signal the end of the conversation.
 | *tuṣbiḥ ʿala xēr*  | *w-inta bi-xēr/min ahlu/min ahl il-xēr*                     |
 | Wake up in fortune | And you are well/of the its people/of the people of fortune |
 
-### Parting from someone you have met for the first time
+#### Parting from someone you have met for the first time
 
 |                |                  |
 | :-             | :-               |
@@ -132,9 +128,9 @@ Said before the actual goodbay to signal the end of the conversation.
 | *furṣa saʿīda* | *u-ana asʿad*    |
 | Happy occasion | And I am happier |
 
-## Phrases for special occasions
+### Phrases for special occasions
 
-### Good wishes on annual holiday
+#### Good wishes on annual holiday
 
 |                  |                    |
 | :-               | :-                 |
@@ -149,18 +145,13 @@ Said before the actual goodbay to signal the end of the conversation.
 | May you be well all year | And may you be well |
 
 
-### To someone in grief (at funeral (*ʿaza*))
-|                  |                    |
-| :-               | :-                 |
-| عيد مبارك        | الله يبارك فيك     |
-| *ʿīd mubārak*    | *aḷḷa yibārik fīk* |
-| Blessed vestival | May God bless you  |
+#### To someone in grief (at funeral (*ʿaza*))
 
 |                                        |                         |
 | :-                                     | :-                      |
 | العواض بسلامتك                          | الله يسلمك              |
 | *al-ʿiwāḍ bi-salāmtak*                 | *aḷḷa yisallimak*      |
-| May the compensation be in your health | May God give you health |
+| May the compensation be in your health | May God preserve you |
 
 |                     |              |
 | :-                  | :-           |
@@ -168,15 +159,15 @@ Said before the actual goodbay to signal the end of the conversation.
 | *al-ʿumr illak*     | *tʿīš*       |
 | The lifetime to you | May you live |
 
-### To someone departing on a journey
+#### To someone departing on a journey {#departing}
 
 |                             |                      |
 | :-                          | :-                   |
 | تروح وترجع بسلامة            | الله يسلمك           |
-| *trūḥ u-tarjaʾ bi-s-salāma* | *aḷḷah yisallimak*   |
+| *trūḥ u-tarjaʾ bi-salāma* | *aḷḷah yisallimak*   |
 | Leave and return in peace   | May God preserve you |
 
-### To someone returning from a journey
+#### To someone returning from a journey
 
 |                                   |                      |
 | :-                                | :-                   |
@@ -184,9 +175,9 @@ Said before the actual goodbay to signal the end of the conversation.
 | *al-ḥamdu li-llāh ʿala s-salāma*  | *aḷḷa yisallimak*    |
 | God be praised for your wellbeing | May God preserve you |
 
-## Phrases for not so special occasions
+### Phrases for not so special occasions
 
-### Thanks 
+#### Thanks {#thanks} 
 
 |                               |                      |
 | :-                            | :-                   |
@@ -195,7 +186,7 @@ Said before the actual goodbay to signal the end of the conversation.
 | May [God] preserve your hands | May God preserve you |
 
 
-### To someone who has cut their hair, shaved, or have had a shower or bath
+#### To someone who has cut their hair, shaved, or have had a shower or bath
 
 |            |                                |
 | :-         | :-                             |
@@ -203,15 +194,15 @@ Said before the actual goodbay to signal the end of the conversation.
 | *naʿīman*  | *aḷḷa yinʿam ʿalēk*           |
 | Gracefully | May God bestow grace upon you. |
 
-### To someone who has performed the prayer (*ṣalāt*)
+#### To someone who has performed the prayer (*ṣalāt*)
 
 |                 |                      |
 | :-              | :-                   |
 | تقبل الله       | مني ومنك             |
-| *taqabbal alla* | *minni u-minnak*     |
+| *taqabbal aḷḷa* | *minni u-minnak*     |
 | May God accept  | From me and from you |
 
-### Asking someone to be patient/calm down
+#### Asking someone to be patient/calm down
 
 |                      |                              |
 | :-                   | :-                           |
@@ -219,15 +210,15 @@ Said before the actual goodbay to signal the end of the conversation.
 | *ṣalli ʿa-n-nabi*    | *aḷḷa yiṣalli ʿa-n-nabi*    |
 | Pray for the Prophet | May God pray for the Prophet |
 
-### Asking someone to pass a greeting
+#### Asking someone to pass a greeting {#passagreeting}
 
 |                  |                                                    |
 | :-               | :-                                                 |
-| سلّم على X        | الله يسلّمك/بيوصل/سار عنده                          |
+| سلّم على فلان      | الله يسلّمك/بيوصل/سار عنده                          |
 | *sallim ʿala X*  | *aḷḷa yisallimak/byūṣal/ṣār ʿindu*                 |
 | Give my regars X | May God preserve you/It will arrive/It is with him |
 
-### To host after finishing meal
+#### To host after finishing meal
 
 |                              |                     |
 | :-                           | :-                  |
@@ -235,7 +226,7 @@ Said before the actual goodbay to signal the end of the conversation.
 | *dāyima*                     | *ṣaḥḥa*             |
 | [May you] always [have food] | [I wish you] Health |
 
-### To someone who is eating, drinking or sneezing
+#### To someone who is or will be eating or drinking
 
 |                    |               |
 | :-                 | :-            |
@@ -243,17 +234,17 @@ Said before the actual goodbay to signal the end of the conversation.
 | *ṣaḥḥa/ṣaḥḥatēn*   | *ʿala ʾalbak* |
 | Health/Two healths | On your heart |
 
-Also used to decline drink or food offered to you.
+*ṣaḥḥa* is also used to politely decline drink or food offered to you.
 
-### To someone who is working or exerting themselves 
+#### To someone who is working or exerting themselves 
 
-|                         |                |
-| :-                      | :-             |
-| الله يعطيك العافية      | الله يعافيك    |
-| *aḷḷa yaʿṭīk al-ʿāfiya* | *aḷḷa yiʿāfīk* |
-| May God give you vigor      | May God invogorate you  |
+|                         |                        |
+| :-                      | :-                     |
+| الله يعطيك العافية      | الله يعافيك            |
+| *aḷḷa yaʿṭīk al-ʿāfiya* | *aḷḷa yiʿāfīk*         |
+| May God give you vigor  | May God invogorate you |
 
-### To someone who has acquired and item (through gift or purchase)
+#### To someone who has acquired and item (through gift or purchase)
 
 |          |                    |
 | :-       | :-                 |
@@ -261,15 +252,15 @@ Also used to decline drink or food offered to you.
 | *mabrūk* | *aḷḷa yibārik fīk* |
 | Blessed  | May God bless you  |
 
-### On hearing of the addressee's ill health
+#### On hearing of the addressee's ill health
 
 |             |                                |
 | :-          | :-                             |
 | سلامتك       | الله يسلمك                     |
 | *salamtak*  | *aḷḷa yisallimak*              |
-| Your health | May God bring you health |
+| Your health | May God preserve you |
 
-### On hearing that the addressee has children {#haschildren}
+#### On hearing that the addressee has children {#haschildren}
 
 |                               |                       |
 | :-                            | :-                    |
@@ -279,7 +270,7 @@ Also used to decline drink or food offered to you.
 
 
 ## References
-Ferguson, Charles A. 1997. “Root-echo responses in Syrian Arabic politeness formulas.” In *Structuralist Studies in Arabic Linguistics: Charles A. Ferguson’s Papers, 1954-1994,* edited by R. Kirk Belnap and Niloofar Haeri, 198–205. Leiden, Netherlands: Brill.
+Ferguson, Charles A. 1997 [1967]. “Root-echo responses in Syrian Arabic politeness formulas.” In *Structuralist Studies in Arabic Linguistics: Charles A. Ferguson’s Papers, 1954-1994,* edited by R. Kirk Belnap and Niloofar Haeri, 198–205. Leiden, Netherlands: Brill.
 
 Stewart, Devin J., 1996. “Root echo-responses in Egyptian Arabic politeness formulae.” In *Understanding Arabic: Essays in Contemporary Arabic Linguistics in Honor of El-Said Badawi,* edited by Alaa Elgibali, 157–80. Cairo: American University in Cairo Press. 
 
