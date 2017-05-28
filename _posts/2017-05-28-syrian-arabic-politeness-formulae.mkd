@@ -1,20 +1,21 @@
 ---
 layout: post
-title: A List of Syrian Arabic politeness formulae
+title: A list of Syrian Arabic politeness formulae
 permalink: /syrian-arabic-politeness-formulae/
 language: English
+lang: en
 length: long
 tags:
 - arabic
+- linguistics
 ---
 
 - TOC
 {:toc}
 
 ## Introduction
-In the different dialects of Arabic there are highly developed systems of polite phrases to be used in various situations.[^impoliteness] Many of these phrases have one specific appropriate response. Knowing these phrases, in what situations they are used, and how to properly respond to them, is an important part of Arabic communicative competence. For native speakers this is simply part of language and it isn't given much thought. When, for example, someone says *naʿīman* to you after you have had a shower you just automatically reply *aḷḷa yinʿam ʿaleyk*. For the non-native speaker like myself, recognizing and learning these phrases can be challenging. I hope this post may be of some help.
+In the different dialects of Arabic there are highly developed systems of polite phrases to be uttered in various situations. Many of these phrases have one specific appropriate response. Knowing these phrases, in what situations they are used, and how to properly respond to them, is an important part of Arabic communicative competence. For native speakers this is simply part of language and it isn't given much thought. When, for example, someone says *naʿīman* to you after you have had a shower you just automatically reply *aḷḷa yinʿam ʿaleyk*. For the non-native speaker like myself, recognizing and learning these phrases can be challenging. I hope this post may be of some help.
 
-[^impoliteness]: There are also fixed *impolite* responses to common phrases. For a fascinating and entertaining description of such responses in Egyptian Arabic, see Stewart (1997).
 
 Not giving the proper response to a politeness phrase can often lead to awkward social situations or is simply rude. As one scholar explains, these formulaic responses 
 
@@ -26,13 +27,17 @@ A short anecdote may serve to illustrate this. One of the first people I got to 
 
 This formula (*--&nbsp;biddak ši? --&nbsp;salāmtak*) is only one of the couple of dozens or so phrases and responses that are in common use. Keeping track of all of them can be a daunting task for the language learner. A trick I figured out was that the response *aḷḷa yixallīk* 'May God keep you safe' is an acceptable response in most situations, even if there is another response that is more suited for that situation (Cf.&nbsp;Stewart 1996:162).
 
-Many formulaic responses include a repetition of the root of the main word in the phrase that it is a response to, producing a wordplay. This means that often the same response is used for several different initial phrases that all include words with the same root. For example, to all of the phrases [*yislam īdēk*](#thanks) 'thanks', [*sallim ʿala&nbsp; X*](#passagreeting) 'give my regard to&nbsp;X', and [*trūḥ u-tarjaʿ bi-salāma*](#departing) 'may you leave and return in peace', all including a word on the root *SLM*, the appropriate response is *aḷḷa yisallimak* 'May God preserve you'. (See Ferguson 1997 and Stewart 1996 for further discussion.)
+Many formulaic responses include a repetition of the root of the main word in the phrase that it is a response to, producing a wordplay.[^impoliteness] This means that often the same response is used for several different initial phrases that all include words with the same root. For example, to all of the phrases [*yislam īdēk*](#thanks) 'thanks', [*sallim ʿala&nbsp; X*](#passagreeting) 'give my regard to&nbsp;X', and [*trūḥ u-tarjaʿ bi-salāma*](#departing) 'may you leave and return in peace', all including a word on the root *SLM*, the appropriate response is *aḷḷa yisallimak* 'May God preserve you'. (See Ferguson 1997 and Stewart 1996 for further discussion.)
+
+[^impoliteness]: There are also formulaic *impolite* responses to common phrases that work in this way. For a fascinating and entertaining description of such responses in Egyptian Arabic, see Stewart (1997).
 
 ## The list
 
-The following list includes 28&nbsp;politeness formulae as used by speakers from the Damascus area. I have only included phrases that I have heard in use, and the list thus has a bias to situations where a non-Arab male may find himself. The list is though by no means complete, but I do believe it includes the most common phrases. Native speaker informants were consulted in a few cases where I was not certain of the form of the formula.
+The following list includes politeness formulae as used by speakers from the Damascus area. The phrases or sorted under headings indicated the situation in which the initiator phrase is used. I have only included phrases that I have heard in use, and the list thus has a bias to situations where a non-Arab male may find himself. The list is though by no means complete, but I do believe it includes the most common phrases. Native speaker informants were consulted in a few cases where I was not certain of the form of the formula.
 
-The phrases are given in Arabic script and then in EALL transcription (Reichmut 2006) as pronounced in Damascene Arabic. The translations provided are fairly literal. Many of the expressions have no or only partial equivalent in English anyways, and the humorous effect of literal translation was sometimes hard to resist. Each phrase is followed by its appropriate response. Note that the Arabic text is the wrong way around relative to the reading direction, with the initial phrase to the left and its response to the right. Some are followed by brief comments.
+The phrases are given in Arabic script and then in EALL transcription (Reichmut 2006) as pronounced in Damascene Arabic. The translations provided are fairly literal. Many of the expressions have no or only partial equivalents in English anyways, and the humorous effects of literal translation was sometimes hard to resist. Each phrase is followed by its appropriate response.
+
+Note that the Arabic text is the wrong way around relative to the reading direction, with the initial phrase to the left and its response to the right. Some are followed by brief comments.
 
 Forward slash indicates alternative responses.
 
@@ -40,7 +45,7 @@ Parentheses indicate optional extensions to responses.
 
 Square brackets indicate clarifications in the translation.
 
-## Greetings
+### Meeting
 
 #### General greetings
 
@@ -57,6 +62,14 @@ Islamic greeting signalling high degree of formality or allegiance to Islam. The
 | مرحبا     | أهلاً / مرحبتين / مية مرحبا / يا هلا                  |
 | *marḥaba* | *ahlan / marḥabatēn* / *mīt marḥaba* / hi          |
 | Hello     | Hello / Two *marḥaba*s / a hunderd *marḥaba*s / hi |
+
+#### To someone who just woke up
+
+|                          |                         |
+| :-                       | :-                      |
+| صح النوم                 | صح بدنك                 |
+| *ṣaḥḥ al-nōm*            | *ṣaḥḥ badanak*          |
+| May the sleep be healing | May your body be healed |
 
 #### Greeting before noon
 
@@ -78,14 +91,14 @@ Islamic greeting signalling high degree of formality or allegiance to Islam. The
 
 #### Welcoming
 
-| أهلا وسهلا        | أهلاً فيك/أهلين               |
+| أهلا وسهلا        | أهلاً فيك / أهلين             |
 | :-              | :-                          |
-| *ahla wa-sahla* | *ahlan fīk* / *ahlēn*         |
+| *ahla wa-sahla* | *ahlan fīk* / *ahlēn*       |
 | Welcome         | Welcome to you/Two welcomes |
 
-Also general filler in pauses in polite conversation.
+Also general filler in silences in the conversation.
 
-| XXXX                    |                    |
+|                         |                    |
 | :-                      | :-                 |
 | نوّرتو                   | بوجودكم            |
 | *nawwartu*              | *bi-wujūdkum*      |
@@ -109,10 +122,10 @@ Also general filler in pauses in polite conversation.
 | *maʿa salāma* | *aḷḷa maʿak*        |
 | With peace    | May God be with you |
 
-|                        |                                               |
-| :-                     | :-                                            |
-| بدك شي؟                | (ما بدي إلا) سلامتك                             |
-| *biddak ši?*           | *(mā biddi illa) salāmtak*                                    |
+|                        |                                            |
+| :-                     | :-                                         |
+| بدك شي؟                | (ما بدي إلا) سلامتك                          |
+| *biddak ši?*           | *(mā biddi illa) salāmtak*                 |
 | Do you want something? | (I don't want anything but) your wellbeing |
 
 Said before the actual good bay to signal the end of the conversation.
@@ -132,6 +145,7 @@ Said before the actual good bay to signal the end of the conversation.
 | فرصة سعيدة     | وأنا أسعد        |
 | *furṣa saʿīda* | *u-ʾana asʿad*    |
 | Happy occasion | And I am happier |
+
 
 ### Phrases for special occasions
 
@@ -182,12 +196,12 @@ Said before the actual good bay to signal the end of the conversation.
 
 ### Phrases for not so special occasions
 
-#### Thanks {#thanks} 
+#### Thanking 
 
 |                               |                      |
 | :-                            | :-                   |
 | يسلم إيديك                    | الله يسلمك           |
-| *yislam īdēk*                 | *aḷḷa yisallimak*  |
+| *yislam īdēk*                 | *aḷḷa yisallimak*    |
 | May [God] preserve your hands | May God preserve you |
 
 
@@ -196,7 +210,7 @@ Said before the actual good bay to signal the end of the conversation.
 |            |                                |
 | :-         | :-                             |
 | نعيماً      | الله ينعم عليك                 |
-| *naʿīman*  | *aḷḷa yinʿam ʿalēk*           |
+| *naʿīman*  | *aḷḷa yinʿam ʿalēk*            |
 | Gracefully | May God bestow grace upon you. |
 
 #### To someone who has performed the prayer (*ṣalāt*)
@@ -233,8 +247,8 @@ Said before the actual good bay to signal the end of the conversation.
 
 #### To someone who is or will be eating or drinking
 
-|                    |               |
-| :-                 | :-            |
+|                      |               |
+| :-                   | :-            |
 | صحة / صحتين          | على قلبك      |
 | *ṣaḥḥa / ṣaḥḥatēn*   | *ʿala ʾalbak* |
 | Health / Two healths | On your heart |
@@ -259,13 +273,13 @@ Said before the actual good bay to signal the end of the conversation.
 
 #### On hearing of the addressee's ill health
 
-|             |                                |
-| :-          | :-                             |
-| سلامتك       | الله يسلمك                     |
-| *salamtak*  | *aḷḷa yisallimak*              |
+|             |                      |
+| :-          | :-                   |
+| سلامتك       | الله يسلمك           |
+| *salamtak*  | *aḷḷa yisallimak*    |
 | Your health | May God preserve you |
 
-#### On hearing that the addressee has children {#haschildren}
+#### On hearing that the addressee has children
 
 |                               |                       |
 | :-                            | :-                    |
