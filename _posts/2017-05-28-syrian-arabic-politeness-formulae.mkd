@@ -31,7 +31,7 @@ Many formulaic responses include a repetition of the root of the main word in th
 
 [^impoliteness]: There are also formulaic *impolite* responses to common phrases that work in this way. For a fascinating and entertaining description of such responses in Egyptian Arabic, see Stewart (1997).
 
-## The list
+---
 
 The following list includes politeness formulae as used by speakers from the Damascus area. The phrases or sorted under headings indicated the situation in which the initiator phrase is used. I have only included phrases that I have heard in use, and the list thus has a bias to situations where a non-Arab male may find himself. The list is though by no means complete, but I do believe it includes the most common phrases. Native speaker informants were consulted in a few cases where I was not certain of the form of the formula.
 
@@ -45,9 +45,9 @@ Parentheses indicate optional extensions to responses.
 
 Square brackets indicate clarifications in the translation.
 
-### Meeting
+## Meeting
 
-#### General greetings
+### General greetings
 
 |                      |                                                         |
 | :-                   | :-                                                      |
@@ -63,7 +63,7 @@ Islamic greeting signalling high degree of formality or allegiance to Islam. The
 | *marḥaba* | *ahlan / marḥabatēn* / *mīt marḥaba* / hi          |
 | Hello     | Hello / Two *marḥaba*s / a hunderd *marḥaba*s / hi |
 
-#### To someone who just woke up
+### To someone who just woke up
 
 |                          |                         |
 | :-                       | :-                      |
@@ -71,7 +71,7 @@ Islamic greeting signalling high degree of formality or allegiance to Islam. The
 | *ṣaḥḥ al-nōm*            | *ṣaḥḥ badanak*          |
 | May the sleep be healing | May your body be healed |
 
-#### Greeting before noon
+### Greeting before noon
 
 |                    |                                  |
 | :-                 | :-                               |
@@ -81,7 +81,7 @@ Islamic greeting signalling high degree of formality or allegiance to Islam. The
 
 *Xēr* does not easily lend itself to translation. Wehr, the standard Arabic-English lexicon, translates it as "good thing, blessing; wealth, property; --- good, benefit, interest, advantage; welfare; charity."
 
-#### Greeting after noon
+### Greeting after noon
 
 |                    |                  |
 | :-                 | :-               |
@@ -89,7 +89,7 @@ Islamic greeting signalling high degree of formality or allegiance to Islam. The
 | *masāʾ al-xēr*     | *masāʾ an-nūr*   |
 | Evening of fortune | Evening of light |
 
-#### Welcoming
+### Welcoming
 
 | أهلا وسهلا        | أهلاً فيك / أهلين             |
 | :-              | :-                          |
@@ -104,7 +104,7 @@ Also general filler in silences in the conversation.
 | *nawwartu*              | *bi-wujūdkum*      |
 | You have enlightened us | With your presence |
 
-#### When being introduced to someone
+### When being introduced to someone
 
 |                |                            |
 | :-             | :-                         |
@@ -112,9 +112,9 @@ Also general filler in silences in the conversation.
 | *tašarrafna*   | *yazīdak aš-šaraf*         |
 | We are honored | May he increase your honor |
 
-### Parting
+## Parting
 
-#### General good bye
+### General good bye
 
 |               |                     |
 | :-            | :-                  |
@@ -130,7 +130,7 @@ Also general filler in silences in the conversation.
 
 Said before the actual good bay to signal the end of the conversation.
 
-#### Parting before sleep
+### Parting before sleep
 
 |                    |                                                                 |
 | :-                 | :-                                                              |
@@ -138,7 +138,7 @@ Said before the actual good bay to signal the end of the conversation.
 | *tuṣbiḥ ʿala xēr*  | *w-inta bi-xēr / min ahlu / min ahl il-xēr*                     |
 | Wake up in fortune | And you are well / of the its people / of the people of fortune |
 
-#### Parting from someone you have met for the first time
+### Parting from someone you have met for the first time
 
 |                |                  |
 | :-             | :-               |
@@ -147,9 +147,9 @@ Said before the actual good bay to signal the end of the conversation.
 | Happy occasion | And I am happier |
 
 
-### Special occasions
+## Special occasions
 
-#### Good wishes on annual holiday
+### Good wishes on annual holiday
 
 |                  |                    |
 | :-               | :-                 |
@@ -164,7 +164,7 @@ Said before the actual good bay to signal the end of the conversation.
 | May you be well all year | And may you be well |
 
 
-#### To someone in grief (at funeral (*ʿaza*))
+### To someone in grief (at funeral (*ʿaza*))
 
 |                                         |                      |
 | :-                                      | :-                   |
@@ -178,7 +178,7 @@ Said before the actual good bay to signal the end of the conversation.
 | *al-ʿumr illak*     | *tʿīš*       |
 | The lifetime to you | May you live |
 
-#### To someone departing on a journey {#departing}
+### To someone departing on a journey {#departing}
 
 |                           |                      |
 | :-                        | :-                   |
@@ -186,7 +186,7 @@ Said before the actual good bay to signal the end of the conversation.
 | *trūḥ u-tarjaʾ bi-salāma* | *aḷḷah yisallimak*   |
 | Leave and return in peace | May God preserve you |
 
-#### To someone returning from a journey
+### To someone returning from a journey
 
 |                                   |                      |
 | :-                                | :-                   |
@@ -194,9 +194,9 @@ Said before the actual good bay to signal the end of the conversation.
 | *al-ḥamdu li-llāh ʿala s-salāma*  | *aḷḷa yisallimak*    |
 | God be praised for your wellbeing | May God preserve you |
 
-### Not so special occasions
+## Not so special occasions
 
-#### Thanking 
+### Thanking 
 
 |                               |                      |
 | :-                            | :-                   |
@@ -205,7 +205,7 @@ Said before the actual good bay to signal the end of the conversation.
 | May [God] preserve your hands | May God preserve you |
 
 
-#### To someone who has cut their hair, shaved, or have had a shower or bath
+### To someone who has cut their hair, shaved, or have had a shower or bath
 
 |            |                                |
 | :-         | :-                             |
@@ -213,7 +213,7 @@ Said before the actual good bay to signal the end of the conversation.
 | *naʿīman*  | *aḷḷa yinʿam ʿalēk*            |
 | Gracefully | May God bestow grace upon you. |
 
-#### To someone who has performed the prayer (*ṣalāt*)
+### To someone who has performed the prayer (*ṣalāt*)
 
 |                 |                      |
 | :-              | :-                   |
@@ -221,7 +221,7 @@ Said before the actual good bay to signal the end of the conversation.
 | *taqabbal aḷḷa* | *minni u-minnak*     |
 | May God accept  | From me and from you |
 
-#### Asking someone to be patient or to calm down
+### Asking someone to be patient or to calm down
 
 |                      |                              |
 | :-                   | :-                           |
@@ -229,7 +229,7 @@ Said before the actual good bay to signal the end of the conversation.
 | *ṣalli ʿa-n-nabi*    | *aḷḷa yiṣalli ʿa-n-nabi*    |
 | Pray for the Prophet | May God pray for the Prophet |
 
-#### Asking someone to pass a greeting {#passagreeting}
+### Asking someone to pass a greeting {#passagreeting}
 
 |                  |                                                    |
 | :-               | :-                                                 |
@@ -237,7 +237,7 @@ Said before the actual good bay to signal the end of the conversation.
 | *sallim ʿala X*  | *aḷḷa yisallimak / byūṣal / ṣār ʿindu*                 |
 | Give my regars X | May God preserve you / It will arrive / He got it |
 
-#### To host after finishing meal
+### To host after finishing meal
 
 |                              |                     |
 | :-                           | :-                  |
@@ -245,7 +245,7 @@ Said before the actual good bay to signal the end of the conversation.
 | *dāyima*                     | *ṣaḥḥa*             |
 | [May you] always [have food] | [I wish you] Health |
 
-#### To someone who is or will be eating or drinking
+### To someone who is or will be eating or drinking
 
 |                      |               |
 | :-                   | :-            |
@@ -255,7 +255,7 @@ Said before the actual good bay to signal the end of the conversation.
 
 *ṣaḥḥa* is also used to politely decline drink or food offered to you.
 
-#### To someone who is working or exerting themselves 
+### To someone who is working or exerting themselves 
 
 |                         |                        |
 | :-                      | :-                     |
@@ -263,7 +263,7 @@ Said before the actual good bay to signal the end of the conversation.
 | *aḷḷa yaʿṭīk al-ʿāfiya* | *aḷḷa yiʿāfīk*         |
 | May God give you vigor  | May God invogorate you |
 
-#### To someone who has acquired and item (as a gift or through purchase)
+### To someone who has acquired and item (as a gift or through purchase)
 
 |          |                    |
 | :-       | :-                 |
@@ -271,7 +271,7 @@ Said before the actual good bay to signal the end of the conversation.
 | *mabrūk* | *aḷḷa yibārik fīk* |
 | Blessed  | May God bless you  |
 
-#### On hearing of the addressee's ill health
+### On hearing of the addressee's ill health
 
 |             |                      |
 | :-          | :-                   |
@@ -279,7 +279,7 @@ Said before the actual good bay to signal the end of the conversation.
 | *salamtak*  | *aḷḷa yisallimak*    |
 | Your health | May God preserve you |
 
-#### On hearing that the addressee has children
+### On hearing that the addressee has children
 
 |                               |                       |
 | :-                            | :-                    |
