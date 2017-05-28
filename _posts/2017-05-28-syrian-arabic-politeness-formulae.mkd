@@ -295,4 +295,4 @@ Reichmuth, Philipp. 2006. "Transcription." In *Encyclopedia of Arabic Language a
 
 Stewart, Devin&nbsp;J., 1996. "Root echo-responses in Egyptian Arabic politeness formulae." In *Understanding Arabic: Essays in Contemporary Arabic Linguistics in Honor of El-Said Badawi,* edited by Alaa Elgibali, 157–80. Cairo: American University in Cairo Press. 
 
----, 1997. "Impoliteness formulae: the cognate curse in Egyptian Arabic." *Journal of Semitic Studies,* 42(2), 327–360.
+--- 1997. "Impoliteness formulae: the cognate curse in Egyptian Arabic." *Journal of Semitic Studies,* 42(2), 327–360.
