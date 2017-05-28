@@ -110,8 +110,8 @@ Förkortningar:
 | 3    | tredje person
 | BES  | bestämd artikel
 | DUA  | dualis
-| M    | maskulin
 | F    | feminin
+| M    | maskulin
 | PL   | plural
 | PRE  | preposition
 | PROG | progressiv aspekt
