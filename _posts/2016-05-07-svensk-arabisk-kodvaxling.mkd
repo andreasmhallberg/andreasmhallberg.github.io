@@ -50,7 +50,7 @@ I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de s
 - *20016-04-30* --- J. angående en bekants lägenhet.
 
     *ʿam* | *yaʿmil‑l‑u* | renovera | *u‑biddu* | *yabīʿ‑u*
-    PROG | 3MS.gör‑PREP‑den | renovera | och‑vill.2MS | 3MS.sälja‑den
+    PROG | 3MS.gör‑PREP‑den | renovera | och‑vill.3MS | 3MS.sälja‑den
 
     | Han håller på att renovera den och ska sälja den. |
 
