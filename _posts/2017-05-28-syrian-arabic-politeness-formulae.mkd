@@ -27,7 +27,7 @@ A short anecdote may serve to illustrate this. One of the first people I got to 
 
 This formula (*--&nbsp;biddak ši? --&nbsp;salāmtak*) is only one of the couple of dozens or so phrases and responses that are in common use. Keeping track of all of them can be a daunting task for the language learner. A trick I figured out was that the response *aḷḷa yixallīk* 'May God keep you safe' is an acceptable response in most situations, even if there is another response that is more suited for that situation (Cf.&nbsp;Stewart 1996:162).
 
-Many formulaic responses include a repetition of the root of the main word in the phrase that it is a response to, producing a wordplay.[^impoliteness] This means that often the same response is used for several different initial phrases that all include words with the same root. For example, to all of the phrases [*yislam īdēk*](#thanks) 'thanks', [*sallim ʿala&nbsp; X*](#passagreeting) 'give my regard to&nbsp;X', and [*trūḥ u-tarjaʿ bi-salāma*](#departing) 'may you leave and return in peace', all including a word on the root *SLM*, the appropriate response is *aḷḷa yisallimak* 'May God preserve you'. (See Ferguson 1997 and Stewart 1996 for further discussion.)
+Many formulaic responses include a repetition of the root of the main word in the phrase that it is a response to, producing a wordplay.[^impoliteness] This means that often the same response is used for several different initial phrases that all include words with the same root. For example, to all of the phrases [*yislam īdēk*](#thanking) 'thanks', [*sallim ʿala&nbsp; X*](#passagreeting) 'give my regard to&nbsp;X', and [*trūḥ u-tarjaʿ bi-salāma*](#departing) 'may you leave and return in peace', all including a word on the root *SLM*, the appropriate response is *aḷḷa yisallimak* 'May God preserve you'. (See Ferguson 1997 and Stewart 1996 for further discussion.)
 
 [^impoliteness]: There are also formulaic *impolite* responses to common phrases that work in this way. For a fascinating and entertaining description of such responses in Egyptian Arabic, see Stewart (1997).
 
@@ -45,7 +45,7 @@ Parentheses indicate optional extensions to responses.
 
 Square brackets indicate clarifications in the translation.
 
-## Meeting
+## Greetings
 
 ### General greetings
 
@@ -102,7 +102,7 @@ Also general filler in silences in the conversation.
 | :-                      | :-                 |
 | نوّرتو                   | بوجودكم            |
 | *nawwartu*              | *bi-wujūdkum*      |
-| You have enlightened us | With your presence |
+| You have enlightened | With your presence |
 
 ### When being introduced to someone
 
@@ -196,13 +196,13 @@ Said before the actual good bay to signal the end of the conversation.
 
 ## Not so special occasions
 
-### Thanking 
+### Thanking #{thanking} 
 
 |                               |                      |
 | :-                            | :-                   |
-| يسلم إيديك                    | الله يسلمك           |
-| *yislam īdēk*                 | *aḷḷa yisallimak*    |
-| May [God] preserve your hands | May God preserve you |
+| يسلم إيديك                    | الله يسلمك / وإيديك          |
+| *yislam īdēk*                 | *aḷḷa yisallimak / wa-īdēk*    |
+| May [God] preserve your hands | May God preserve you / And your hands |
 
 
 ### To someone who has cut their hair, shaved, or have had a shower or bath
@@ -295,4 +295,4 @@ Reichmuth, Philipp. 2006. "Transcription." In *Encyclopedia of Arabic Language a
 
 Stewart, Devin&nbsp;J., 1996. "Root echo-responses in Egyptian Arabic politeness formulae." In *Understanding Arabic: Essays in Contemporary Arabic Linguistics in Honor of El-Said Badawi,* edited by Alaa Elgibali, 157–80. Cairo: American University in Cairo Press. 
 
---- 1997. "Impoliteness formulae: the cognate curse in Egyptian Arabic." *Journal of Semitic Studies,* 42(2), 327–360.
+--------- 1997. "Impoliteness formulae: the cognate curse in Egyptian Arabic." *Journal of Semitic Studies,* 42(2), 327–360.
