@@ -27,7 +27,7 @@ A short anecdote may serve to illustrate this. One of the first people I got to 
 
 This formula (*--&nbsp;biddak ši? --&nbsp;salāmtak*) is only one of the couple of dozens or so phrases and responses that are in common use. Keeping track of all of them can be a daunting task for the language learner. A trick I figured out was that the response *aḷḷa yixallīk* 'May God keep you safe' is an acceptable response in most situations, even if there is another response that is more suited for that situation (cf.&nbsp;Stewart 1996:162).
 
-Many formulaic responses include a repetition of the root of the main word in the phrase that it is a response to, producing a wordplay.[^impoliteness] This means that often the same response is used for several different initial phrases that all include words with the same root. For example, to all of the phrases [*yislam īdēk*](#thanking) 'thanks', [*sallim ʿala&nbsp; X*](#passagreeting) 'give my regard to&nbsp;X', and [*trūḥ u-tarjaʿ bi-salāma*](#departing) 'may you leave and return in peace', all including a word on the root *SLM*, the appropriate response is *aḷḷa yisallimak* 'May God preserve you'. (See Ferguson 1997 and Stewart 1996 for further discussion.)
+Many formulaic responses include a repetition of the root of the main word in the phrase that it is a response to, producing a wordplay.[^impoliteness] This means that often the same response is used for several different initial phrases that all include words with the same root. For example, to all of the phrases [*yislam īdēk*](#thanking) 'thanks', [*sallim ʿala&nbsp; X*](#passagreeting) 'give my regard to&nbsp;X', and [*trūḥ u-tarjaʿ bi-salāma*](#departing) 'may you leave and return in peace', all including a word with the root *SLM*, the appropriate response is *aḷḷa yisallimak* 'May God preserve you'. (See Ferguson 1997 and Stewart 1996 for further discussion.)
 
 [^impoliteness]: There are also formulaic *impolite* responses to common phrases that work in this way. For a fascinating and entertaining description of such responses in Egyptian Arabic, see Stewart (1997).
 
@@ -68,7 +68,7 @@ Islamic greeting signalling high degree of formality or allegiance to Islam. The
 |                          |                         |
 | :-                       | :-                      |
 | صح النوم                 | صح بدنك                 |
-| *ṣaḥḥ al-nōm*            | *ṣaḥḥ badanak*          |
+| *ṣaḥḥ an-nōm*            | *ṣaḥḥ badanak*          |
 | May the sleep be healing | May your body be healed |
 
 ### Greeting before noon
