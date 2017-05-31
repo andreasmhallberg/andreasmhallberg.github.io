@@ -196,7 +196,7 @@ Said before the actual good bay to signal the end of the conversation.
 
 ## Not so special occasions
 
-### Thanking #{thanking} 
+### Thanking {#thanking} 
 
 |                               |                      |
 | :-                            | :-                   |
