@@ -287,6 +287,7 @@ Said before the actual good bay to signal the end of the conversation.
 | *aḷḷa yixallī-lak iyyāhum*    | *aḷḷa yixallīk*       |
 | May God preserve them for you | May God keep you safe |
 
+***
 
 ## References
 Ferguson, Charles&nbsp;A. 1997 [1967]. "Root-echo responses in Syrian Arabic politeness formulas." In *Structuralist Studies in Arabic Linguistics: Charles A. Ferguson’s Papers, 1954-1994,* edited by R. Kirk Belnap and Niloofar Haeri, 198–205. Leiden, Netherlands: Brill.
