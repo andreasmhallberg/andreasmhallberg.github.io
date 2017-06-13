@@ -24,4 +24,4 @@ Note how poorly they fit with the duality of the Western understanding of syntax
     - number
     - dimunitive
     - person prefices on verbs
-    - stemforms (I--X)
+    - verb derivation (stemforms I--X)

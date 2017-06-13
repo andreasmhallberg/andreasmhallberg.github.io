@@ -9,7 +9,7 @@ tags:
 ---
 
 ## Introduction
-In [a previous post](/_posts/) I wrote a summary of a documentary broadcast on AlJazeera about the Arabic language and the allegedly existential threats it faces. This post is a summary of an episode of AlJazeeras program *aš-Šarīʿa wa-l-ḥayāt [Law and life]* in  religious scholars are invited to discuss various topics. More often than not, the invited scholar is Yūsuf al-Qaraḍāwī, who is something of an "inhouse shaykh" at AlJazeera. al-Qaraḍāwī is one of the most influential contemporary Muslim scholars, partly due to his regular appearances on Aljazeera.
+In [a previous post](/_posts/) I wrote a summary of a documentary broadcast on AlJazeera about the Arabic language and the allegedly existential threats facing it. This post is a summary of an episode of AlJazeeras program *aš-Šarīʿa wa-l-ḥayāt [Law and life]* in  religious scholars are invited to discuss various topics. More often than not, the invited scholar is Yūsuf al-Qaraḍāwī, who is something of an "inhouse shaykh" at AlJazeera. al-Qaraḍāwī is one of the most influential contemporary Muslim scholars, partly due to his regular appearances on Aljazeera.
 
 On March 24 2009, in an episode entitled *al-luġa al-ʿarabiyya wa-taḥaddiyāt al-yawm [The Arabic language and the challenges of today]*, al-Qaraḍawī gave his views on the threats facing the Arabic language. His concerns are very similar to those expressed in the documentary summarized in the previous post, only here presented from the perspective of a Muslim scholar.
 
@@ -53,9 +53,9 @@ Those who inflect the accusative as nominative, and the nominative as accusative
 ## The threat of foreign languages 
 The hosts ask al-Q. what is happening to the Arab national identity (*al-huwiyya l-qawmiyya l-ʿarabiyya*), seeing to the problems that faces Standard Arabic (35:24). According to al-Q. the main problem is that subjects in higher education are thought in English. For example in Qatar (the home country of AlJazeera) all branches of higher education, except for the Islamic sciences, are thought in English, as is the case also in many private schools in primary education. 
 
-## 
+## al-Q.'s *fuṣḥā*
 
-Late in the  program, after a comment by the host that a lot of people see the difficult grammar of Standard Arabic as being the problem, al-Q. explains how he learned Arabic (39:35). He himself thought grammar (*naḥw*) at al-Azhar, and he says that he "processed it completely in the first year of primary school" (*haḍamtuhu haḍman tamman munḏu as-sanati l-ūlā l-ʾibtidāʾiyya*) (39:45) and did not find it as difficult as people say. He studied it in a commentary on the classical grammar *al-Ājurrūmiyya*.
+Towards the end of the  program, after a comment by the host that a lot of people see the difficult grammar of Standard Arabic as being the problem, al-Q. explains how he learned Arabic (39:35). He himself thought grammar (*naḥw*) at al-Azhar, and he says that he "digested (*haḍamtuhu*) it completely in the first year of primary school" (39:45) and did not find it as difficult as people say. He studied it in a commentary on the classical grammar *al-Ājurrūmiyya*.
 
 - al-Q.: "I master the grammar perfectly" (39:45).
 
