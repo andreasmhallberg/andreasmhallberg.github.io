@@ -1,0 +1,47 @@
+---
+layout: post
+title: 'Typing Arabic in Vim: keeping it sexy' 
+permalink: /typing-arabic-in-vim/
+language: English
+lang: en
+tags:
+- vim
+- arabic
+---
+
+- intro
+- linear, not wysywyg
+- keybindings
+- keymapfile
+
+I often write documents with mixed Latin and Arabic script. This can be challenging due to the mixing of LTR (left-to-right) and RTL (right-to-left) script. Since my shift to exclusively working in plain text formats and Vim, this has become a lot easier. In this post I explain how. (I will refrain from rants about how frustrating it can be to edit mixed direction text in common WYSYWYG word processors, like Word or OpenOffice. I trust that the reader has their own experiences with this and is in no need of persuasion of the unsatisfactory nature of these such software.)
+
+# Directionlaity and display
+
+Vim lacks the capability of visually reordering specific letters according to the reading direction of that particular alphabet. All characters are displayed in a logical order, either LTR or RTL, as in the image below. 
+
+
+!(RTL display)[ltr.jpg]
+
+!(LTR display)[rtl.jpg]
+
+[//]: # (
+> from left to right  
+> Hello!  
+> من السيار إلى اليمين
+> مرحبا
+)
+
+In the first case, Latin text will be displayed correctly and Arabic text reversed, in the second case Latin text will be displayed reversed but and Arabic text correctly.
+
+You switch between the two ways of displaying text with `:set rightleft` and `:set norightleft`. I have this mapped to `<leader>a` to quickly switch back and forth. This mapping also switches to Arabic keyboard, as explained below. Thus, writing mixed Latin/Arabic documents becomes a process of quickly reorienting the entire text between the two modes exemplified above.
+
+The drawback of this method is that it is a bit disorienting. It is more difficult to navigate the using its visual properties on the screen since it changes so radically. The gains, as compared to WYSIWYG word processors, are however tremendous. Editing, marking, copying, and moving around in the Arabic text becomes completely painless. You can edit an change stuff as easily as you would any Latin-character text.
+
+# Keymap
+
+Vim also comes with its keyboard layout for Arabic. You switch to it with `:set keymap=arabic`. This is done independently of the writing/display direction discussed above. 
+
+If you only type some isolated Arabic words here and there, it easiest only to change the keymapping without changing the text direction. The Arabic words will look strange on the screen, ordered from left to right and connected as such. But they are still readable (), and for a few isolated words this is not too big of a deal. A have written a lot of Arabic like this.
+
+

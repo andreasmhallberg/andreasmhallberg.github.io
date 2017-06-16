@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Typing Arabic in Vim 
+title: 'Typing Arabic in Vim: keeping it sexy' 
 permalink: /typing-arabic-in-vim/
 language: English
 lang: en
@@ -9,4 +9,37 @@ tags:
 - arabic
 ---
 
-Everyone who has attempted to write something in Arabic knows that more often than not is a nuisance. Computers oftentimes seem not to have a very good understanding of the very basics of right-to-left writing systems.
+- intro
+- linear, not wysywyg
+- keybindings
+- keymapfile
+
+I often write documents with mixed Latin and Arabic script. This can be challenging due to the mixing of LTR (left-to-right) and RTL (right-to-left) script. Since my shift to exclusively working in plain text formats and Vim, this has become a lot easier. In this post I explain how.
+
+When using WYSIWYG text processors (Word, OpenOffice, etc.), typing documents with mixed RTL (right-to-left) and LTR (left-to right) scripts, such as the Arabic and Latin script, can often be a pain. Punctuation marks end up at the wrong end of the line, letters and words are not highlighted as expected when you want to copy or delete something. Just getting parenthesis to turn the right way in can cost you a good 15\ minutes. and after finally having fixed everything they way you want it to look, it is all tossed around again when your college (or worse, professor) opens the document on their computer.
+
+Most of these problems a result of WYSIWYG word processors such as Word or OpenOffice not showing you what is actually going in the text and trying to order the letters the way it thinks you want them.
+
+When you mix RTL and LTR text in one text file, the are of course stored digitally as one linear line of characters, regardless reading direction. If I type the two words 
+
+> `hello مرحبا`
+
+only in the first word will typically appear on the screen in the order i type them. In the second word, which is in Arabic and thus LTR, the letters will start stacking up to the left, thus inverting the order in which the letters are displayed. The Arabic characters carry information that marks them as LTR and  the software recognizes them as such and displays them ordered in this way on the screen. The visual order of the letters in the Arabic word is thus different from their actual order in which they are encoded in the file, which is they way you typed them, namely
+
+> `hello[space]``م``ر``ح``ب``ا`
+
+This is of course nice in that it shows the text as it is intended to be read. Try to highlight them with the mouse, add a comma after the Arabic word, a parenthesis, and you are likely to run into trouble.
+
+The reason is that the decision the software makes of how to display the characters may be different from how you want them, and it does not show you how these decisions were made, making it difficult for you to predict and to change them. This is especially true of punctuation marks. These carry no intrinsic information on whether they are LTR or RTL but adapt to surrounding characters or the directional setting of the paragraph. In a mixed direction environment this could be messy. 
+
+Vim lacks the capability of visually reordering specific letters according to the reading direction of that particular alphabet. All characters are displayed in a logical order of the keystrokes, either
+
+> from left to right
+
+or
+
+> tfel ot thgir morf
+
+In the first case, Latin text will be displayed correctly and Arabic text reversed, in the second case Latin text will be displayed reversed but and Arabic text correctly. In other words. In other words, you will see the text the way the computer sees it, a linear string of characters, and computers only care about order, not direction.
+
+
