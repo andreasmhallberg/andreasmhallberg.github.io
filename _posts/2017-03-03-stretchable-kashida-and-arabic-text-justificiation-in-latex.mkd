@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Stretchable kashida and Arabic text justificatoin in LaTeX
+title: Stretchable kashida and Arabic text justification in LaTeX
 permalink: /stretchable-kashida/
 language: English
 length: long
