@@ -61,7 +61,6 @@ q	<char-0x0636>	" (1590)	- DAD
 w	<char-0x0635>	" (1589)	- SAD
 e	<char-0x062b>	" (1579)	- THEH
 r	<char-0x0642>	" (1602)	- QAF
-[...]
 ```
 
 I am used to having the letter *dhaal*&nbsp;(ذ) on the §-key on the top right of the keyboard, a setup common on PCs, but in Vim's Arabic layout it is on the \`-key next to the left shift. To change this I copied the original Arabic keymap file (I&nbsp;use MacVim so this file is locate in `/Applications/MacVim.app/Contents/Resources/vim/runtime/keymap/arabic_utf-8.vim`) to `~/.vim/keymap/` and changed its name to `arabic-pc_utf-8.vim`. The file name is arbitrary, accept that it must end with `_utf-8.vim`. In the new file change the input key that produces the letter *dhāl* from `\`` to `§` (line&nbsp;54). I can now call this new modified keyboard layout with `:set keymap=arabic-pc` (the firs part of the file name of the new layout). You could also change the original file, but this method is better since you can store it separately and make it more easy accessible for different Vim installations. My slightly modified Arabic keymap file can for instance be found [here](https://github.com/andreasmhallberg/dotfiles).

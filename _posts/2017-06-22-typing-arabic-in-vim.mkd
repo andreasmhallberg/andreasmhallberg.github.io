@@ -12,7 +12,7 @@ tags:
 
 ## Introduction
 
-![LTR display in Vim](typing-arabic-in-vim/rtl.tiff)
+![LTR display in Vim](typing-arabic-in-vim/rtl.pdf)
 
 [//]: # ( > from left to right )  
 [//]: # ( > Hello! )  
@@ -33,7 +33,7 @@ Now, what WYSIWYG word processors do is that when they come across characters in
 
 Enter Vim. Vim lacks the capability of visually reordering specific letters according to the reading direction of that particular alphabet. All characters are displayed in a logical order, either LTR or RTL, as in the image in the image below introduction to this post. In the left hand with RTL display the text in English is be displayed correctly and Arabic text reversed. In the right hand image, the text in English is be displayed reversed and Arabic text is displayed correctly.
 
-![RTL display](/images/2017-06-22/ltr.tiff)&nbsp;![LTR display](/images/2017-06-22/rtl.tiff)
+![RTL display](/images/2017-06-22/ltr.pdf)&nbsp;![LTR display](/images/2017-06-22/rtl.pdf)
 
 You switch between these two ways of displaying a text with `:set rightleft` for RTL `:set norightleft` for LTR. I have this mapped to `\a` to quickly switch back and forth. (This mapping also switches to Arabic keyboard layout, as explained below.) Thus, writing documents with mixed Latin/Arabic script becomes a process of quickly reorienting the entire text back and forth between the two modes exemplified above whenever you want to switch between editing or typing a word or section of the text in Arabic or Latin script. The idea is that all characters, regerdless of how they are to appear in the final document, are displayed in their logical, rather than their proper visual order. The reordering of the characters as appropriate for final display is postponed to when the document is compiled or converted to its final form, be it in a pdf using LaTeX, a .doc file using Pandoc, or the rendering if a HTML file in a browser (as in the text you are now reading).
 
@@ -45,7 +45,7 @@ Vim also comes with its keyboard layout for Arabic (see `:h mbyte-keymap`). You 
 
 The Arabic keyboard layout and the directionlity are thus set independently of one another. If you change the `keymap` option  without changing the `rightleft` option, you insert Arabic characters, but they are displayed LTR, as in the image below. I have found that if you only type a few isolated Arabic words here and there in an otherwise English or otherwhise LTR text, this is the most convenient way to do it. The Arabic words will look strange on the screen with letters ordered from left to right and connected according to this order, but they are still more or less readable, and for a few isolated words this is not too big of a deal. They will look beautiful when the target document is compiled. It is well worth this inconvenience to avoid the hassle of editing text with mixed directionality.
 
-![Arabic words in a LTR text.](/images/2017-06-22/arabic-in-ltr.tif)
+![Arabic words in a LTR text.](/images/2017-06-22/arabic-in-ltr.pdf)
 
 The common word for 'hello' in Arabic is مرحبا.
 This word can be used in both formal and informal
