@@ -12,7 +12,7 @@ tags:
 
 ## Introduction
 
-![LTR display in Vim](typing-arabic-in-vim/rtl.pdf)
+![LTR display in Vim](/images/2017-06-22/rtl.pdf)
 
 [//]: # ( > from left to right )  
 [//]: # ( > Hello! )  
@@ -47,10 +47,12 @@ The Arabic keyboard layout and the directionlity are thus set independently of o
 
 ![Arabic words in a LTR text.](/images/2017-06-22/arabic-in-ltr.pdf)
 
+[//]: # (
 The common word for 'hello' in Arabic is مرحبا.
 This word can be used in both formal and informal
 contexts. A less formal greeting is سلام, and a
 more formal greeting is السلام عليكم.
+)
 
 Another advantage with Vim's keyboard layouts is that they are very easy to modify. Each keyboard layout is specified in a file that consists of two columns, the first containing the input key and the second the output character. The example below is an excerpt from the Arabic keyboard layout with the Arabic output characters specified as Unicode characters.
 
