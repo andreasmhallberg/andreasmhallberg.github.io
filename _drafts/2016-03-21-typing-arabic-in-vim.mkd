@@ -28,7 +28,9 @@ only in the first word will typically appear on the screen in the order i type t
 
 > `hello[space]``م``ر``ح``ب``ا`
 
-This is of course nice in that it shows the text as it is intended to be read. Try to highlight them with the mouse, add a comma after the Arabic word, a parenthesis, and you are likely to run into trouble.
+This is of course nice in that it shows the text as it is intended to be read. Try to highlight a portion of a text with mixed directionality (or even with only LTR) with the mouse, add a at a direction switch, enclose a single LTR word in parenthesis, and you are likely to run into trouble.
+
+This is of course nice in that it shows the text as it is intended to be read. Try to highlight a portion of a text with mixed directionality (or even with only LTR) with the mouse, add a at a direction switch, enclose a single LTR word in parenthesis, and you are likely to run into trouble.
 
 The reason is that the decision the software makes of how to display the characters may be different from how you want them, and it does not show you how these decisions were made, making it difficult for you to predict and to change them. This is especially true of punctuation marks. These carry no intrinsic information on whether they are LTR or RTL but adapt to surrounding characters or the directional setting of the paragraph. In a mixed direction environment this could be messy. 
 
