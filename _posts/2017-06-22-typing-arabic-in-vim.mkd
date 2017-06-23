@@ -10,11 +10,7 @@ tags:
 - arabic
 ---
 
-<p align="center">
-
 ![LTR display in Vim](/images/2017-06-22/rtl.png)
-
-</p>
 
 ## Introduction
 
