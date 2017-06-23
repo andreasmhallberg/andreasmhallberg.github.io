@@ -41,18 +41,16 @@ The drawback of this method of changing the entire text back and forth between L
 
 ## Keymap
 
-Vim also comes with its own keyboard layout for Arabic (see `:h mbyte-keymap`). You switch to it with `:set keymap=arabic`. Using Vim's internal settings for keyboard layout is preferable to using the system for keyboard layouts in the OS. Of you use the OS keyboard switch, normal mode commands no longer work since the keys that are input to Vim are now different, meaning that all of Vim's core functionality is lost. Vim's internal keymap switching only applies to insert mode and search mode while normal mode is unaffected, meaning that everything works intuitively.
+Vim also comes with its own Arabc keyboard (see `:h mbyte-keymap`). You switch to it with `:set keymap=arabic`. It is preferable to use Vim's internal settings for keyboard layout rather tan the system for keyboard layouts in the OS. Of you change the keyboard layout in the OS, commands in normal mode no longer work since the keys that are input to Vim are now different. Thus most of Vim's core functionality is lost. Vim's internal keyboard switching only applies to insert and search modes while normal mode is unaffected, meaning that everything works as normal, and you don't have to change the keyboard layout every time you enter or exit insert mode.
 
-The Arabic keyboard layout and the directionlity are thus set independently of one another. If you change the `keymap` option  without changing the `rightleft` option, you insert Arabic characters, but they are displayed LTR, as in the image below. I have found that if you only type a few isolated Arabic words here and there in an otherwise English or otherwhise LTR text, this is the most convenient way to do it. The Arabic words will look strange on the screen with letters ordered from left to right and connected according to this order, but they are still more or less readable, and for a few isolated words this is not too big of a deal. They will look beautiful when the target document is compiled. It is well worth this inconvenience to avoid the hassle of editing text with mixed directionality.
+The keyboard layout and the text direction are thus set independently of one another. If you change the `keymap` option  without changing the `rightleft` option, you will insert Arabic characters that are displayed LTR, as in the image below. I have found that if you only type a few isolated Arabic words here and there in an otherwise LTR text, this is the most convenient way to do it. The Arabic words will look strange on the screen, with letters ordered from left to right and connected according to this backwards order, but they are still more or less readable, and for a few isolated words this is not too big of a deal. It is well worth this inconvenience to avoid the hassle of editing text with mixed directionality. They Arabic words all align correctly when the final document is compiled.
 
 ![Arabic words in a LTR text.](/images/2017-06-22/arabic-in-ltr.png)
 
-[//]: # (
-The common word for 'hello' in Arabic is مرحبا.
-This word can be used in both formal and informal
-contexts. A less formal greeting is سلام, and a
-more formal greeting is السلام عليكم.
-)
+[//]: # ( The common word for 'hello' in Arabic is مرحبا. )
+[//]: # ( This word can be used in both formal and informal )
+[//]: # ( contexts. A less formal greeting is سلام, and a )
+[//]: # ( more formal greeting is السلام عليكم. )
 
 Another advantage with Vim's keyboard layouts is that they are very easy to modify. Each keyboard layout is specified in a file that consists of two columns, the first containing the input key and the second the output character. The example below is an excerpt from the Arabic keyboard layout with the Arabic output characters specified as Unicode characters.
 
