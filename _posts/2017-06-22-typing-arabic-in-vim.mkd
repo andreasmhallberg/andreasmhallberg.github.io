@@ -52,7 +52,7 @@ The keyboard layout and the text direction are thus set independently of one ano
 [//]: # ( contexts. A less formal greeting is سلام, and a )
 [//]: # ( more formal greeting is السلام عليكم. )
 
-Another advantage with Vim's keyboard layouts is that they are very easy to modify. Each keyboard layout is specified in a file that consists of two columns, the first containing the input key and the second the output character. The example below is an excerpt from the Arabic keyboard layout with the Arabic output characters specified as Unicode characters.
+Another advantage of Vim's keyboard layouts is that they are very easy to modify. Each keyboard layout is specified in a file that consists of two columns, the first containing the input key and the second the output character. The example below is an excerpt from the Arabic keyboard layout with the output characters given as Unicode character codes.
 
 ``` vim
 loadkeymap
@@ -63,12 +63,12 @@ r	<char-0x0642>	" (1602)	- QAF
 [...]
 ```
 
-I am used to having the letter *dhaal*&nbsp;(ذ) on the §-key on the top right of the keyboard, a setup common on PCs, but in Vim's Arabic layout it is on the \`-key next to the left shift. To change this I copied the original Arabic keymap file (I&nbsp;use MacVim so this file is locate in `/Applications/MacVim.app/Contents/Resources/vim/runtime/keymap/arabic_utf-8.vim`) to `~/.vim/keymap/` and changed its name to `arabic-pc_utf-8.vim`. The file name is arbitrary, accept that it must end with `_utf-8.vim`. In the new file change the input key that produces the letter *dhāl* from `\`` to `§` (line&nbsp;54). I can now call this new modified keyboard layout with `:set keymap=arabic-pc` (the firs part of the file name of the new layout). You could also change the original file, but this method is better since you can store it separately and make it more easy accessible for different Vim installations. My slightly modified Arabic keymap file can for instance be found [here](https://github.com/andreasmhallberg/dotfiles).
+This is very useful. I am for example used from PC-standards to having the letter *dhaal*&nbsp;(ذ) on the §-key at the top left of the keyboard, but in Vim's Arabic layout it is on the \`-key next to the left shift. To change this I copied the original Arabic keymap file (I&nbsp;use MacVim so this file is locate in `/Applications/MacVim.app/Contents/Resources/vim/runtime/keymap/arabic_utf-8.vim`) to `~/.vim/keymap/` and changed its name to `arabic-pc_utf-8.vim` differentiate it from the original. The file name is arbitrary accept that it must end with `_utf-8.vim`. In this new file I changed the input key that produces the letter *dhāl* from `` ` `` to `§` (line&nbsp;54). I can now call this new modified keyboard layout with `:set keymap=arabic-pc` (the firs part of its file name). You could also change the original file, but this method is better since you can store the new file separately and make it more easy accessible for different Vim installations. My slightly modified Arabic keymap file can for instance be found [here](https://github.com/andreasmhallberg/dotfiles).
 
 
 ## Wrap-up: Language switching command
 
-If you are often switching back and forth between English (or some other language that uses Latin script) and Arabic, it is a good idea to map function that changes to RTL directionality and the Arabic keyboard layout, and then back. I have this set to `\a` for Arabic and `\e` for English using the code below (adapted from [my vimrc](https://github.com/andreasmhallberg/dotfiles/blob/master/.vimrc)).
+If you find yourself often having to switch back and forth between English (or some other language that uses Latin script) and Arabic, it is a good idea to map a function that switches to RTL directionality and the Arabic keyboard layout and back again. I have this set to `\a` for Arabic and `\e` for English using the code below (adapted from [my vimrc](https://github.com/andreasmhallberg/dotfiles/blob/master/.vimrc)).
 
 ``` vim
 " Switch to English - mapping
@@ -89,3 +89,8 @@ function! AraType()
     set rightleft
 endfunction
 ```
+
+Alternatively, and much simpler, you can use `:set arabic` to change to RTL and the default Arabic keyboard layout (see `:h arabic`).
+
+Happy typing!
+
