@@ -10,6 +10,7 @@ tags:
 - arabic
 ---
 
+![RTL display in Vim](/images/2017-06-22/rtl.png)
 
 ## Introduction
 I often write documents, such as exams and lecture notes, that contain both Latin and Arabic script, often on the same line of text. This can be challenging due to the complications of mixing of LTR (left-to-right) and RTL (right-to-left) scripts. These seems like an easy problem to solve for software developers, and it is, only not in software with graphical WYSIWYG interfaces, such as Word or OpenOffice. (I'm sure everyone who has tried writing mixed direction text in such softwares share my frustration with them, and I will therefore refrain from rants.) Since my shift to exclusively producing and editing text in plain text formats (.txt, .mkd, .tex, etc.) with the editor Vim, writing texts with mixed directionlity has become a lot easier. In this post I will attempt explain how. 
@@ -37,11 +38,6 @@ Vim also comes with its own Arabc keyboard (see `:h mbyte-keymap`). You switch t
 The keyboard layout and the text direction are thus set independently of one another. If you change the `keymap` option  without changing the `rightleft` option, you will insert Arabic characters that are displayed LTR, as in the image below. I have found that if you only type a few isolated Arabic words here and there in an otherwise LTR text, this is the most convenient way to do it. The Arabic words will look strange on the screen, with letters ordered from left to right and connected according to this backwards order, but they are still more or less readable, and for a few isolated words this is not too big of a deal. It is well worth this inconvenience to avoid the hassle of editing text with mixed directionality. They Arabic words all align correctly when the final document is compiled.
 
 ![Arabic words in a LTR text.](/images/2017-06-22/arabic-in-ltr.png)
-
-[//]: # ( The common word for 'hello' in Arabic is مرحبا. )
-[//]: # ( This word can be used in both formal and informal )
-[//]: # ( contexts. A less formal greeting is سلام, and a )
-[//]: # ( more formal greeting is السلام عليكم. )
 
 Another advantage of Vim's keyboard layouts is that they are very easy to modify. Each keyboard layout is specified in a file that consists of two columns, the first containing the input key and the second the output character. The example below is an excerpt from the Arabic keyboard layout with the output characters given as Unicode character codes.
 
