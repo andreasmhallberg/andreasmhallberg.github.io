@@ -23,7 +23,6 @@ I often write documents, such as exams and lecture notes, that contain both Lati
 
 When typing and editing on the computer, switching from Latin to Arabic script at the most basic level involves changing two things: a)&nbsp;the direction in which characters appear, and b)&nbsp;the keyboard layout that is used to insert characters in the text. In Vim, each of these two changes is done idependently with the options `rightleft` for directionality and `keymap` for the keyboard layout.
 
-
 ## Directionality and display
 
 It is important to understand that when text is stored electronically is is represented by series of characters, including spaces and line breaks, order one after another in a long list. Think of this as the order they are typed. Arabic characters come with encoded information that they are to be displayed LTR, but it doesn't effect the order in which they are stored in file. Thus, if i type `hello` the letters are stored in that particular order, and it can be displayed as LTR (`hello`) or as RTL (`olleh`) with the characters in the same logical order, only the direction in which they are displayed has changed. If i type the letters `م``ر``ح``ب``ا`, they can be displayed as RTL (`ابحرم`) or as LTR (`مرحبا`) with the characters in same order but with different direction of display. For Arabic, the latter is appropriate.
