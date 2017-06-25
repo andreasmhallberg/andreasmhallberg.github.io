@@ -12,13 +12,13 @@ tags:
 
 ![LTR display in Vim](/images/2017-06-22/rtl.png)
 
-## Introduction
 
 [//]: # ( > from left to right )  
 [//]: # ( > Hello! )  
 [//]: # ( > من اليسار إلى اليمين )
 [//]: # ( > مرحبا! )
 
+## Introduction
 
 I often write documents, such as exams and lecture notes, that contain both Latin and Arabic script, often on the same line of text. This can be challenging due to the complications of mixing of LTR (left-to-right) and RTL (right-to-left) scripts. These seems like an easy problem to solve for software developers, and it is, only not in software with graphical WYSIWYG interfaces, such as Word or OpenOffice. (I'm sure everyone who has tried writing mixed direction text in such softwares share my frustration with them, and I will therefore refrain from rants.) Since my shift to exclusively producing and editing text in plain text formats (.txt, .mkd, .tex, etc.) with the editor Vim, writing texts with mixed directionlity has become a lot easier. In this post I will attempt explain how. 
 
