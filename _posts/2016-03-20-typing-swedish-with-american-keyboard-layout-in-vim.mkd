@@ -8,9 +8,9 @@ tags:
 - vim
 ---
 
-{% raw %}
 In this post I describe a method for extending the standard US keyboard layout type to Swedish characters in Vim. This is done with minimal changes to the layout and without moving characters around.
 
+{% raw %}
 When writing some sort of computer code, the American keyboard layout is more convenient than the Swedish layout that most Swedes are used to. This is because many of the non-alphabetical characters, `\` and&nbsp;`{`, for instance, are more readily available. These are direct key presses on the American layout whereas they require combinations with the ALT-key in the Swedish layout. When writing LaTeX documents, for example, this makes things a lot easier since you need these characters for code incorporated in the text. Since most of the things I write are in English I don't need the `å`, `ä`, and&nbsp;`ö` most of the time and thus us the US layout.
 
 Now, every now and again I need to write something in Swedish. The standard way of doing this, and the way I used to do it before my romance with Vim, was to use the keyboard layout switching feature of the operating system. This can be set to switch between two or more keyboard layouts, for example the American and Swedish layouts (shown below). The switch can be mapped to some easily accessed key combination. I have it set to COMMAND+SPACE on my Mac. This is quite convenient when typing in a lot of different applications. The problem with this is that the Swedish keyboard layout not only adds the three Swedish characters (relative to the American layout), it also moves a bunch characters around, including `?`,  `:`, `;`, `-`, `"`, `&`, `*`, `\`, `/`,&nbsp;`` ` ``, and all four pairs of delimiters (`<`, `[`, `(`, and&nbsp;`{`). So if you are used to the positioning of these characters in the American layout, as I am, things get very confusing, even when writing normal prose.
