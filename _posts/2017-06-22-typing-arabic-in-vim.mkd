@@ -8,7 +8,6 @@ length: long
 tags:
 - vim
 - arabic
-excerpt: <p><a href="{{ site.baseurl }}{{ post.url }} "><img src="/images/2017-06-22/rtl.png" alt="RTL display in Vim" /></a></p>
 ---
 
 ![RTL display in Vim](/images/2017-06-22/rtl.png)
