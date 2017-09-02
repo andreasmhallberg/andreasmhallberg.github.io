@@ -8,6 +8,7 @@ length: long
 tags:
 - vim
 - arabic
+excerpt: [![RTL display in Vim](/images/2017-06-22/rtl.png)]({{ site.baseurl }}{{ post.url }})
 ---
 
 ![RTL display in Vim](/images/2017-06-22/rtl.png)

@@ -17,7 +17,7 @@ layout: default
       {% endif %}
 
       <div class="entry">
-        {{ post.excerpt }}
+        {{ post.excerpt | markdownify }}
       </div>
 
       {% if post.language == 'English' %}
