@@ -15,13 +15,45 @@ In the Arabic tradition, the two terms that correspond to this structural level 
 
 Note how poorly they fit with the duality of the Western understanding of syntax and morphology. Case and mood, both in their morphological and syntactic aspects (their forms and their functions) are included in *naḥw*.  
 
-- *Naḥw*
-    - case and case endings 
-    - mood and mood endings 
-    - person suffices on verbs
+--------------------------------------------------------------------
+              Nouns                   Verbs
+------------- ----------------------- ------------------------------
+NAḤW          - case governance       - mood governance
+              - case endings          - mood endings 
+                                      - person suffices
+                                      - gender suffices
+                                      - number suffuces
 
-- *Ṣarf*
-    - number
-    - dimunitive
-    - person prefices on verbs
-    - verb derivation (stemforms I--X)
+ṢARF         - number                 - person prefices
+             - gender                 - gender prefices
+             - derivation             - derivation (stemforms I--X)
+                 - dimunitive
+                 - place noun 
+                 - verbal noun
+                 - participle
+---------------------------------------------------------------------
+
+- NAḤW
+    - nouns
+        - case governance
+        - case endings 
+    - verbs
+        - mood governanve
+        - mood endings 
+        - person suffices
+        - gender suffices
+        - number suffuces
+
+- ṢARF
+    - nouns
+        - number
+        - gender
+        - derivation
+            - dimunitive
+            - place nouns
+            - verbal noun
+            - participle
+    - verbs
+        - person prefices
+        - gender prefices
+        - derivation (stemforms I--X)
