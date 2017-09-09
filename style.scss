@@ -75,9 +75,6 @@ a {
   &:hover, &:active {
     color: $blue;
   }
-  .read-more {
-    text-transform: uppercase;
-    font-size: 15px;
 }
 
 ul, ol {
@@ -116,6 +113,12 @@ img {
 table { 
     border-spacing: 10px;
     border-collapse: separate;
+}
+
+
+.read-more {
+    text-transform: uppercase;
+    font-size: 15px;
 }
 
 // Fixes images in popup boxes from Google Translate
