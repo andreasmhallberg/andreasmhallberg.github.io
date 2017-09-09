@@ -2,7 +2,7 @@
 layout: page
 title: Publications
 permalink: /publications/
-publish: true
+publish: false
 pubyears:
     - 2017
     - 2016
