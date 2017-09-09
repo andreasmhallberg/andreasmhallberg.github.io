@@ -75,6 +75,9 @@ a {
   &:hover, &:active {
     color: $blue;
   }
+  .read-more {
+    text-transform: uppercase;
+    font-size: 15px;
 }
 
 ul, ol {
