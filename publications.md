@@ -4,17 +4,25 @@ title: Publications
 permalink: /publications/
 ---
 
-## Publications
+<h2>Publications</h2>
 
-- 2017.&nbsp;"Några egenheter i arabisk standardspråksideologi" In *Vetenskapssocieteten i Lund. Årsbok 2017.* Ed. Henrik Rahm. 39--48. Lund: Vetenskapssocieteten i Lund.  
-<span class="read-more">
-[Download](http://andreasmhallberg.github.io/documents/cv-attatchments/article-2017-nagraegenheter.pdf)
-</span>
+<ul>
+{% for publication in site.data.publications %}
 
-- 2016.&nbsp;*Case Endings in Spoken Standard Arabic*. Dissertation. Lund: Lund University.  
-<span class="read-more">
-[Download](http://lup.lub.lu.se/search/ws/files/3772169/8852155.pdf)
-</span>
+<li>{{ publication.title }}</li>
+
+{% endfor %}
+</ul>
+
+[//]: # ( - 2017.&nbsp;"Några egenheter i arabisk standardspråksideologi" In *Vetenskapssocieteten i Lund. Årsbok 2017.* Ed. Henrik Rahm. 39--48. Lund: Vetenskapssocieteten i Lund. )  
+[//]: # ( <span class="read-more"> )
+[//]: # ( [Download](http://andreasmhallberg.github.io/documents/cv-attatchments/article-2017-nagraegenheter.pdf) )
+[//]: # ( </span> )
+
+[//]: # ( - 2016.&nbsp;*Case Endings in Spoken Standard Arabic*. Dissertation. Lund: Lund University. )  
+[//]: # ( <span class="read-more"> )
+[//]: # ( [Download](http://lup.lub.lu.se/search/ws/files/3772169/8852155.pdf) )
+[//]: # ( </span> )
 
 ## Teaching documents
 
