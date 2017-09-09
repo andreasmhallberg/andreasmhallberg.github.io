@@ -14,13 +14,13 @@ permalink: /publications/
 {{ publication.title }}<br>
 {{publication.ref}}<br>
 {% if publication.pdf %} 
-  <a href="{{ publication.pdf }} class="read-more"">Download</a>
+  <a href="{{ publication.pdf }}" class="read-more">Download</a>
 {% endif %}
 {% if publication.link %} 
-  <a href="{{ publication.link }} class="read-more"">Link</a>
+  <a href="{{ publication.link }}" class="read-more">Link</a>
 {% endif %}
 {% if publication.blogpost %} 
-  <a href="{{ publication.blogpost }} class="read-more"">Blog post</a>
+  <a href="{{ publication.blogpost }}" class="read-more">Blog post</a>
 {% endif %}
 </li>
 
