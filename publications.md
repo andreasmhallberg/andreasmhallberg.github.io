@@ -8,7 +8,7 @@ publish: true
 
 {% for year in site.data.publications.year | reversed %}
 
-  <h2>year</h2>
+  <h2>{{ year }}</h2>
 
   {% assign publication_list = year[1] %}
   {% for publication in publication_list %}
