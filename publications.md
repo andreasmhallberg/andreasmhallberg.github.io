@@ -6,14 +6,12 @@ publish: true
 pubyears:
     - 2017
     - 2016
-
 ---
 
 
-{% for pubyear in pubyears %}
+{% for pubyear in page.pubyears %}
 
   <h2>{{ pubyear }}</h2>
-
 
   {% for publication in site.data.publications | where: "year","pubyear" %}
 
@@ -27,6 +25,7 @@ pubyears:
     {% if publication.link %} 
       <a href="{{ publication.link }}" class="read-more">Link</a>
     {% endif %}
+
   {% endfor %}
 {% endfor %}
 
