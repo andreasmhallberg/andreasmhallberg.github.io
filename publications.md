@@ -9,7 +9,20 @@ permalink: /publications/
 <ul>
 {% for publication in site.data.publications %}
 
-<li>{{ publication.title }}</li>
+<li>
+{{ publication.year }}. 
+{{ publication.title }}<br>
+{{publication.ref}}<br>
+{% if publication.pdf %} 
+  <a href="{{ publication.pdf }} class="read-more"">Download</a>
+{% endif %}
+{% if publication.link %} 
+  <a href="{{ publication.link }} class="read-more"">Link</a>
+{% endif %}
+{% if publication.blogpost %} 
+  <a href="{{ publication.blogpost }} class="read-more"">Blog post</a>
+{% endif %}
+</li>
 
 {% endfor %}
 </ul>
