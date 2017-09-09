@@ -25,9 +25,7 @@ permalink: /publications/
 </span>
 
 - Timeline of Arab grammarians and their major works  
-<span class="read-more">
-[Download](https://github.com/andreasmhallberg/alt-timeline/raw/master/alt-timeline.pdf) |
-[Blog post](http://andreasmhallberg.github.io/timeline-of-arab-grammarians/)
-</span>
+[Download](https://github.com/andreasmhallberg/alt-timeline/raw/master/alt-timeline.pdf){:.read-more} |
+[Blog post](http://andreasmhallberg.github.io/timeline-of-arab-grammarians/){:.read-more}
 
 
