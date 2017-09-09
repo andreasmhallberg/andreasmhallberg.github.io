@@ -13,7 +13,7 @@ layout: default
         Posted: {{ page.date | date: "%B %e, %Y" }}<br>
         Tags: {% for tag in tags %} -{{tag}}{% endfor %}<br>
         Length: {{ page.length }}<br>
-        {% if page.modified %}Last modified: {{ page.modified | date: "%B %e, %Y" }}  
+        {% if page.modified %}Last modified: {{ page.modified | date: "%B %e, %Y" }}  {% endif %}
       {% endif %}
 
       {% if page.language == 'Swedish' %}
