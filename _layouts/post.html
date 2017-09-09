@@ -10,11 +10,13 @@ layout: default
 {% assign tags = page.tags %}
 
       {% if page.language == 'English' %}
+
       |||
       |:-|:-|
-      | Posted: | {{ page.date | date: "%B %e, %Y" }}|
-      | Tags: | {% for tag in tags %} -{{tag}}{% endfor %}|
-      | Length: | {{ page.length }}|
+      | Posted: | {{ page.date | date: "%B %e, %Y" }} |
+      | Tags: | {% for tag in tags %} -{{tag}}{% endfor %} |
+      | Length: | {{ page.length }} |
+
       {% endif %}
 
       {% if page.language == 'Swedish' %}
