@@ -6,24 +6,28 @@ permalink: /publications/
 
 ## Publications
 
-- 2017.&nbsp;"Några egenheter i arabisk standardspråksideologi" In *Vetenskapssocieteten i Lund. Årsbok 2017.* Ed. Henrik Rahm. 39--48. Lund: Vetenskapssocieteten i Lund. 
+- 2017.&nbsp;"Några egenheter i arabisk standardspråksideologi" In *Vetenskapssocieteten i Lund. Årsbok 2017.* Ed. Henrik Rahm. 39--48. Lund: Vetenskapssocieteten i Lund.  
+<span class="read-more">
+[Download](http://andreasmhallberg.github.io/documents/cv-attatchments/article-2017-nagraegenheter.pdf)
+</span>
 
-    [Download](http://andreasmhallberg.github.io/documents/cv-attatchments/article-2017-nagraegenheter.pdf)
-
-- 2016.&nbsp;*Case Endings in Spoken Standard Arabic*. Dissertation. Lund: Lund University. 
-
-    [Download](http://lup.lub.lu.se/search/ws/files/3772169/8852155.pdf)
+- 2016.&nbsp;*Case Endings in Spoken Standard Arabic*. Dissertation. Lund: Lund University.  
+<span class="read-more">
+[Download](http://lup.lub.lu.se/search/ws/files/3772169/8852155.pdf)
+</span>
 
 ## Teaching documents
 
-- Det standardarabiska konsonantinventariet 
+- Det standardarabiska konsonantinventariet  
+<span class="read-more">
+[Dowload](https://github.com/andreasmhallberg/sa-konsonantinventariet/raw/master/sa-konsonantinventariet.pdf) |
+[Blog post](http://andreasmhallberg.github.io/det-arabiska-konsonantinventariet/)
+</span>
 
-    [Dowload](https://github.com/andreasmhallberg/sa-konsonantinventariet/raw/master/sa-konsonantinventariet.pdf) |
-[Blogpost](http://andreasmhallberg.github.io/det-arabiska-konsonantinventariet/)
-
-- Timeline of Arab grammarians and their major works
-
-    [Download](https://github.com/andreasmhallberg/alt-timeline/raw/master/alt-timeline.pdf) |
-[Blogpost](http://andreasmhallberg.github.io/timeline-of-arab-grammarians/)
+- Timeline of Arab grammarians and their major works  
+<span class="read-more">
+[Download](https://github.com/andreasmhallberg/alt-timeline/raw/master/alt-timeline.pdf) |
+[Blog post](http://andreasmhallberg.github.io/timeline-of-arab-grammarians/)
+</span>
 
 
