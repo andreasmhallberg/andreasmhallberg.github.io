@@ -10,13 +10,10 @@ layout: default
 {% assign tags = page.tags %}
 
       {% if page.language == 'English' %}
-
-      |||
-      |:-|:-|
-      | Posted: | {{ page.date | date: "%B %e, %Y" }} |
-      | Tags: | {% for tag in tags %} -{{tag}}{% endfor %} |
-      | Length: | {{ page.length }} |
-
+        Posted: {{ page.date | date: "%B %e, %Y" }}<br>
+        Tags: {% for tag in tags %} -{{tag}}{% endfor %}<br>
+        Length: {{ page.length }}<br>
+        {% if page.modified %}Last modified: {{ page.modified | date: "%B %e, %Y" }}  
       {% endif %}
 
       {% if page.language == 'Swedish' %}
@@ -51,6 +48,4 @@ layout: default
     {{ content }}
   </div>
 
-
-  {% include disqus.html %}
 </article>
