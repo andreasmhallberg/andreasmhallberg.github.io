@@ -8,14 +8,17 @@ tags:
 - arabic
 - latex
 - tikz
+document: https://github.com/andreasmhallberg/alt-timeline/raw/master/alt-timeline.pdf
+documenttitle: Timeline of Arab grammarians and their major works
+thumbnail: /images/alt-timeline.thumbnail.png
 ---
 
-![thumbnail](/images/alt-timeline.thumbnail.png)
+![thumbnail]({{ page.thumbnail }})
 
 Sometimes when reading about the classical Arabic grammarians I find it difficult to visualize the actual timespan between different authors. Years are of course always mentioned in the literature but it is often still hard to get a feel for how big a chunk of time there is between a series of events. 
 
 
-To get a better sense of the stages of development of Arabic grammar I have made a graphical *Timeline of Arab grammarians and their major works*. It is based on *The Arabic Linguistic Tradition* by Bohas et al. (2006) and lists all grammarians mentioned in their book and uses their division into periods. A pdf with the timeline can be viewed/downloaded [here](https://github.com/andreasmhallberg/alt-timeline/raw/master/alt-timeline.pdf).
+To get a better sense of the stages of development of Arabic grammar I have made a graphical *Timeline of Arab grammarians and their major works*. It is based on *The Arabic Linguistic Tradition* by Bohas et al. (2006) and lists all grammarians mentioned in their book and uses their division into periods. A pdf with the timeline can be viewed/downloaded [here]({{ page.document }}).
 
 The LaTeX source code can be found [here](https://github.com/andreasmhallberg/alt-timeline/blob/master/alt-timeline.tex). I plan on also making an Arabic version of this timeline at some point.
 

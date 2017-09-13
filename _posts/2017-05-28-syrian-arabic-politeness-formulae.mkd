@@ -33,7 +33,7 @@ Many formulaic responses include a repetition of the root of the main word in th
 
 ---
 
-The following list includes politeness formulae as used by speakers from the Damascus area. The phrases or sorted under headings indicated the situation in which the initiator phrase is used. I have only included phrases that I have heard in use, and the list thus has a bias to situations where a non-Arab male may find himself. The list is though by no means complete, but I do believe it includes the most common phrases. Native speaker informants were consulted in a few cases where I was not certain of the form of the formula.
+The following list includes politeness formulae as used by speakers from the Damascus area. The phrases or sorted under headings indicating the situation in which the initiator phrase is used. I have only included phrases that I have heard in use, and the list thus has a bias to situations where a non-Arab male may find himself. The list is thus by no means complete, but I do believe it includes the most common phrases. Native speaker informants were consulted in a few cases where I was not certain of the form of the formula.
 
 The phrases are given in Arabic script and then in EALL transcription (Reichmut 2006) as pronounced in Damascene Arabic. The translations provided are fairly literal. Many of the expressions have no or only partial equivalents in English anyways, and the humorous effects of literal translation was sometimes hard to resist. Each phrase is followed by its appropriate response.
 
@@ -55,7 +55,7 @@ Square brackets indicate clarifications in the translation.
 | *as-salāmu ʿalaykum* | *wa-ʿalaykum salām (wa-raḥmatu allāhi wa-barakātuh)*    |
 | Peace be upon you    | And upon you peace (and God's greace and his blessings) |
 
-Islamic greeting signalling high degree of formality or allegiance to Islam. The pronoun *-kum* (3mpl) is invariable in the phrase and in its response.
+Islamic greeting signalling high degree of formality or allegiance to Islam. The pronoun *-kum* (2mpl) is invariable in the phrase and in its response.
 
 |           |                                                    |
 | :-        | :-                                                 |
@@ -76,8 +76,8 @@ Islamic greeting signalling high degree of formality or allegiance to Islam. The
 |                    |                                  |
 | :-                 | :-                               |
 | صباح الخير         | صباح النور                       |
-| *ṣabāḥ al-xēr*     | *ṣabāḥ an-nūr/ṣabāḥ al-full*     |
-| Morning of fortune | Morning of light/Morning of rose |
+| *ṣabāḥ al-xēr*     | *ṣabāḥ an-nūr / ṣabāḥ al-full*     |
+| Morning of fortune | Morning of light / Morning of rose |
 
 *Xēr* does not easily lend itself to translation. Wehr, the standard Arabic-English lexicon, translates it as "good thing, blessing; wealth, property; --- good, benefit, interest, advantage; welfare; charity."
 
@@ -94,7 +94,7 @@ Islamic greeting signalling high degree of formality or allegiance to Islam. The
 | أهلا وسهلا        | أهلاً فيك / أهلين             |
 | :-              | :-                          |
 | *ahla wa-sahla* | *ahlan fīk* / *ahlēn*       |
-| Welcome         | Welcome to you/Two welcomes |
+| Welcome         | Welcome to you / Two welcomes |
 
 Also general filler in silences in the conversation.
 
