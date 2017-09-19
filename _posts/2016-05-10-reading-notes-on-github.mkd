@@ -3,6 +3,7 @@ layout: post
 title: Reading-notes on GitHub
 permalink: /Reading-notes-on-github/
 language: English
+lang: en
 length: short
 tags:
 - arabic

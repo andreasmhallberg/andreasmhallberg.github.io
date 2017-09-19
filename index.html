@@ -10,7 +10,7 @@ layout: default
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
-      {% if post.language == 'Swedish' %}
+      {% if post.lang == 'sv' %}
           <div class="date">
               (Swedish)
           </div>
@@ -20,11 +20,11 @@ layout: default
         {{ post.excerpt }}
       </div>
 
-      {% if post.language == 'English' %}
+      {% if post.lan == 'en' %}
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
       {% endif %}
 
-      {% if post.language == 'Swedish' %}
+      {% if post.lang == 'sv' %}
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Läs mer</a>
       {% endif %}
 

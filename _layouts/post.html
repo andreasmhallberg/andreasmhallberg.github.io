@@ -9,14 +9,14 @@ layout: default
 
 {% assign tags = page.tags %}
 
-      {% if page.language == 'English' %}
+      {% if page.lang == 'en' %}
         {{ page.date | date: "%B %e, %Y" }}<br>
         {% if page.modified %}Last modified: {{ page.modified | date: "%B %e, %Y" }}  {% endif %}
         Tags: {% for tag in tags %} -{{tag}}{% endfor %}<br>
         Length: {{ page.length }}<br>
       {% endif %}
 
-      {% if page.language == 'Swedish' %}
+      {% if page.lang == 'sv' %}
         {{ page.date | date: "%Y-%m-%d" }}<br>
         Taggar: {% for tag in tags %} -{{tag}}{% endfor %}<br>
         Längd:
@@ -30,7 +30,7 @@ layout: default
       {% endif %}
 
 
-      {% if page.language == 'Arabic' %}
+      {% if page.lang == 'ar' %}
         {{ page.date | date: "%Y/%m/%d" }}
         &#x202b;طول: 
           {% if page.length == 'long' %}

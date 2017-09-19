@@ -3,6 +3,7 @@ layout: post
 title: Timeline of the John Coltrane discography
 permalink: /timeline-of-the-john-coltrane-discography/
 language: English
+lang: en
 length: medium
 tags:
 - latex
