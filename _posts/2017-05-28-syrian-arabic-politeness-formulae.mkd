@@ -115,7 +115,7 @@ Also general filler in silences in the conversation.
 
 ## Parting
 
-### General good bye
+### General goodbye
 
 |               |                     |
 | :-            | :-                  |
