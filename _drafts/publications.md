@@ -8,63 +8,88 @@ pubyears:
 excerpt: ''
 ---
 
-
 {% for pubyear in page.pubyears %}
-<span class="date">{{ pubyear }}</span>
+<h2 style="float: right;">{{ pubyear }}</h2>
 {% for publication in site.data.publications  %}
 
 {% if publication.year == pubyear %}
-
 <b>{{ publication.title }}</b>
-<span class="date">{{ publication.type }}</span><br>
+&emsp;<span class="date">({{ publication.type }})</span><br>
 {{ publication.ref}}
-{% if publication.abstract %}
-<details style="margin-top: -.7em">
-  <summary class="publink">abstract
-  {% if publication.pdf or publication.link %} | {% endif %}
-  {% if publication.pdf %} 
-  <a href="{{ publication.pdf }}">pdf</a>
-  {% if publication.link %} | {% endif %}
-  {% endif %}
-  {% if publication.link %} 
-  <a href="{{ publication.link }}">link</a>
-  {% endif %}
-  </summary>
-  <p class="date">{{ publication.abstract }}</p>
-</details>
-{% else %}
-{% if publication.pdf %} 
-<span class="publink">
-  <a href="{{ publication.pdf }}">pdf</a>
-  {% if publication.link%} | {% endif %}
-</span>
-{% endif %}
+<details style="margin-top: -.7em; margin-left: 1em">
+<summary>
+<!-- abstract --> {% if publication.abstract %}
+ <a>abstract</a>
+ {% else %}
+ <span style="color: $gray"> abstract </span>
+{% endif %} |
+<!-- pdf -->
+{% if publication.pdf %}
+ <a href="{{ publication.pdf }}">pdf</a>
+  {% else %} 
+  <span style="color: $gray">pdf</span>
+{% endif %} |
+<!-- link -->
 {% if publication.link %}
-  <a class="publink" href="{{ publication.link }}">link</a>
+ <a href="{{ publication.link }}">link</a>
+ {% else %}
+ <span style="color: $gray">link</span>
 {% endif %}
+</summary>
+{% if publication.abstract %}
+  <span class="date">{{ publication.abstract }}</span>
 {% endif %}
+</details>
+
+
+
 {% endif %}
 {% endfor %}
 {% endfor %}
+
 
 
 # Other documents 
 
-
 {% for docpost in site.posts | reversed %}
-{% if docpost.document %}
+{% if docpost.document %} 
 
-
-<a href="{{ docpost.document }}"><img style="height: 3em; float: right;" src="{{ docpost.thumbnail }}"></a>
+<a href="{{ docpost.document }}"><img style="height: 3em; width: 3em; float: right; " src="{{ docpost.thumbnail }}"></a>
 {% if docpost.documenttitle %}
   {{ docpost.documenttitle }}
   {% else %}
   {{ docpost.title }}
 {% endif %}<br>
-<span class="publink">[download]({{ docpost.document }}) | [Blog post]({{ site.url }}{{ docpost.url }})</span>
+<span class="publink">[pdf]({{ docpost.document }}) | [Blog post]({{ site.url }}{{ docpost.url }})</span>
 
 
 
 {% endif %}
 {% endfor %}
 
+
+<!--
+
+<table style="width: 100%" >
+{% for docpost in site.posts | reversed %}
+{% if docpost.document %} 
+<tr style="margin-left: 0px">
+<td>
+{% if docpost.documenttitle %}
+  {{ docpost.documenttitle }}
+  {% else %}
+  {{ docpost.title }}
+{% endif %}<br>
+<span class="publink"><a href="{{ docpost.document }}">pdf</a> | <a href="{{ site.url }}{{ docpost.url }}">Blog post</a></span>
+</td>
+<td style="width: 3em; vertical-align: bottom;">
+<a href="{{ docpost.document }}"><img style="height: 3em;" src="{{ docpost.thumbnail }}"></a>
+</td>
+</tr>
+{% endif %}
+{% endfor %}
+</table>
+
+
+
+-->
