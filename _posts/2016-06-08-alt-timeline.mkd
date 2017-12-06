@@ -14,7 +14,7 @@ documenttitle: Timeline of Arab grammarians and their major works
 thumbnail: /images/alt-timeline.thumbnail.png
 ---
 
-![thumbnail]({{ page.thumbnail }})
+[![thumbnail]({{ page.thumbnail }})]({{ page.document }})
 
 Sometimes when reading about the classical Arabic grammarians I find it difficult to visualize the actual timespan between different authors. Years are of course always mentioned in the literature but it is often still hard to get a feel for how big a chunk of time there is between a series of events.
 
