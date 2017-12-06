@@ -6,7 +6,7 @@ permalink: /arabic-letters-and-vowel-markers/
 lang: en
 length: short
 tags:
-- arabic
+    - arabic
 document: /documents/arabic-letters.tex.pdf
 documenttitle: Arabic letters and vowel markers
 thumbnail: /images/arabic-letters.thumbnail.png
