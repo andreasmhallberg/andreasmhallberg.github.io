@@ -9,6 +9,7 @@ tags:
 - latex
 - arabic
 - linguistics
+- tafl
 document: https://github.com/andreasmhallberg/sa-konsonantinventariet/raw/master/sa-konsonantinventariet.pdf
 documenttitle: Det standardarabiska konsonantinventariet
 thumbnail: /images/sainventarie-thumbnail.png
