@@ -12,9 +12,12 @@ tags:
 document: https://github.com/andreasmhallberg/alt-timeline/raw/master/alt-timeline.pdf
 documenttitle: Timeline of Arab grammarians and their major works
 thumbnail: /images/alt-timeline.thumbnail.png
+excerpt: <a href="http://andreasmhallberg.github.io/timeline-of-arab-grammarians/"><img width="30%" src="/images/alt-timeline.thumbnail.png" alt="Thumbnail"></a>
 ---
 
 [![thumbnail]({{ page.thumbnail }})]({{ page.document }})
+
+*Edit 2017-18-12: A version of this timeline in German has subsequently been published in* Einführung in die arabische Grammatiktradition *by Frank Weigelt (Harrowitz, 2017).*
 
 Sometimes when reading about the classical Arabic grammarians I find it difficult to visualize the actual timespan between different authors. Years are of course always mentioned in the literature but it is often still hard to get a feel for how big a chunk of time there is between a series of events.
 
@@ -23,3 +26,4 @@ To get a better sense of the stages of development of Arabic grammar I have made
 The LaTeX source code can be found [here](https://github.com/andreasmhallberg/alt-timeline/blob/master/alt-timeline.tex). I plan on also making an Arabic version of this timeline at some point.
 
 Thanks to Geroges Bohas for his comments, suggestions and corrections.
+
