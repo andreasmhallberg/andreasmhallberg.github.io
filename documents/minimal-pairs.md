@@ -26,17 +26,16 @@ papersize: a4
 | :-:         | -:      | :-               | :-                                             | -:      | :-        | :-                                    |
 | **`ع/ء`**   | `أَمَل`   | *\llap{ʾ}amal*   | \es{hope}{hopp},  \es{pr. name}{egennamn} (f.) | `عَمَل`   | *ʿamal*   | \es{work}{arbete}                     |
 | **ʾ/ʿ**     | `سُؤال`  | *suʾaal*         | \es{question}{fråga}                           | `سُعال`  | *suʿaal*  | \es{cough}{hosta}                     |
-|             | `سَأَل`   | *saʾal*          | \es{(he) asked}{(han) frågade}                 | `سَعَل`   | *saʿal*   | \es{(he) coughed}{(han) hostade}      |
 |             | `أَيْن`   | *ʾayn*           | \es{where?}{var?}                              | `عَيْن`   | *ʿayn*    | \es{eye}{öga}                         |
 |             |         |                  |                                                |         |           |                                       |
 | **ø`ء/`**   | `ما`    | *maa*            | \es{what?}{vad?}                               | `ماء`   | *maaʾ*    | \es{water}{vatten}                    |
 | **ø/ʾ**     | `فاس`   | *faas*           | Fez                                            | `فَأْس`   | *faʾs*    | \es{axe}{yxa}                         |
 |             |         |                  |                                                |         |           |                                       |
 | **`غ/ر`**   | `وَرْد`   | *ward*           | \es{rose}{ros}                                 | `وَغْد`   | *waghd*   | \es{scoundrel}{skitstövel}            |
-| **r/gh**    | `ضَغْط`   | *DaghT*          | \es{pressure, stress}{press, tryck}            | `ضَرْط`   | *DarT*    | \es{fart}{prutt}                      |
+| **r/gh**    | `ضَرْط`   | *DarT*           | \es{fart}{prutt}                               | `ضَغْط`   | *DaghT*   | \es{pressure, stress}{press, tryck}
 |             |         |                  |                                                |         |           |                                       |
 | **`ه/ح`**   | `حال`   | *Haal*           | situation                                      | `هال`   | *haal*    | \es{cardamom}{kardemumma}             |
-| **H/h**     | `حَمْزة`  | *Hamza*          | *hamza* (\es{letter}{boksav})                  | `هَمْزة`  | *hamza*   | \es{pr. name}{egennamn} (m.)          |
+| **H/h**     | `حَمْزة`  | *Hamza*          | \es{pr. name}{egennamn} (m.)                  | `هَمْزة`  | *hamza*   | *hamza* (\es{letter}{boksav})          |
 |             |         |                  |                                                |         |           |                                       |
 | **`خ/ح`**   | `حال`   | *Haal*           | situation                                      | `خال`   | *khaal*   | \es{uncle}{morbror}                   |
 | **H/kh**    | `حَدّ`    | *Hadd*           | \es{sharp}{vass}                               | `خَدّ`    | *khadd*   | \es{cheek}{kind}                      |
@@ -51,7 +50,7 @@ papersize: a4
 |             |         |                  |                                                |         |           |                                       |
 | **`ص/س`**   | `سُورة`  | *suura*          | \es{chapter (Quran)}{kapitel (Koranen)}        | `صُورة`  | *Suura*   | \es{pucture}{bild}                    |
 | **s/S**     | `سَيْف`   | *sayf*           | \es{sword}{svärd}                              | `صَيْف`   | *Sayf*    | \es{summer}{sommar}                   |
-|             | `السِّين` | *as-siin*        | the *siin* (\es{letter}{bokstav})              | `الصِّين` | *aS-Siin* | \es{China}{Kina}                      |
+|             | `السِّين` | *as-siin*        | \es{the *siin* (letter)}{*siin* (bokstav)}              | `الصِّين` | *aS-Siin* | \es{China}{Kina}                      |
 |             |         |                  |                                                |         |           |                                       |
 | **`ض/د`**   | `دَرْب`   | *darb*           | \es{path}{stig}                                | `ضَرْب`   | *Darb*    | \es{strike}{slag}                     |
 | **d/D**     | `قُرُود`  | *quruud*         | \es{monkeys}{apor}                             | `قُرُوض`  | *quruuD*  | \es{loans}{lån (pl.)}                 |
