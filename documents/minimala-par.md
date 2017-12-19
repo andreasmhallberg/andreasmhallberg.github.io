@@ -11,7 +11,7 @@ header-includes:
     - \AtBeginDocument{\Large}
     - \newif\ifeng
     - \engfalse
-    - \engtrue
+ #  - \engtrue
     - \newcommand\es[2]{\ifeng#1\else#2\fi}
 geometry:
     - hmargin=2cm
@@ -22,41 +22,42 @@ papersize: a4
 
 \vspace{-2cm}{\small\textit{\today}}\par\bigskip
 
-|             |         |           |                                         |         |           |                                       |
-| :-:         | -:      | :-        | :-                                      | -:      | :-        | :-                                    |
-| **`ع/ء`**   | `أَمَل`   | *ʾamal*   | \es{hope}{hopp}, pers. name f.          | `عَمَل`   | *ʿamal*   | \es{work}{arbete}                     |
-| **ʾ/ʿ**     | `سُؤال`  | *suʾaal*  | \es{question}{fråga}                    | `سُعال`  | *suʿaal*  | \es{cough}{hosta}                     |
-|             | `سَأَل`   | *saʾal*   | \es{(he) asked}{(han) frågade}          | `سَعَل`   | *saʿal*   | \es{(he) coughed}{(han) hostade}      |
-|             | `أَيْن`   | *ʾayn*    | \es{where?}{var?}                       | `عَيْن`   | *ʿayn*    | \es{eye}{öga}                         |
-|             |         |           |                                         |         |           |                                       |
-| **ø`ء/`**   | `ما`    | *maa*     | \es{what?}{vad?}                        | `ماء`   | *maaʾ*    | \es{water}{vatten}                    |
-| **ø/ʾ**     | `فاس`   | *faas*    | Fez                                     | `فَأْس`   | *faʾs*    | \es{axe}{yxa}                         |
-|             |         |           |                                         |         |           |                                       |
-| **`غ/ر`**   | `وَرْد`   | *ward*    | \es{rose}{ros}                          | `وَغْد`   | *waghd*   | \es{scoundrel}{skitstövel}            |
-| **r/gh**    | `ضَغْط`   | *DaghT*   | \es{pressure, stress}{press, tryck}     | `ضَرْط`   | *DaghT*   | \es{fart}{prutt}                      |
-|             |         |           |                                         |         |           |                                       |
-| **`ه/ح`**   | `حال`   | *Haal*    | situation                               | `هال`   | *haal*    | \es{cardamom}{kardemumma}             |
-| **H/h**     | `حَمْزة`  | *Hamza*   | *hamza* (\es{letter}{boksav})           | `هَمْزة`  | *hamza*   | pers. name m.                         |
-|             |         |           |                                         |         |           |                                       |
-| **`خ/ح`**   | `حال`   | *Haal*    | situation                               | `خال`   | *khaal*   | \es{uncle}{morbror}                   |
-| **H/kh**    | `حَدّ`    | *Hadd*    | \es{sharp}{vass}                        | `خَدّ`    | *khadd*   | \es{cheek}{kind}                      |
-|             | `حَوْلَ`   | *Hawla*   | \es{around}{runtom}                     | `خَوْلة`  | *khawla*  | pers. name f.                         |
-|             | `حَلّ`    | *Hall*    | \es{solution}{lösning}                  | `خَلّ`    | *khall*   | \es{vinager}{vinäger}                 |
-|             |         |           |                                         |         |           |                                       |
-| **`ق/ك`**   | `كَلْب`   | *kalb*    | \es{dog}{hund}                          | `قَـلْب`  | *qalb*    | \es{heart}{hjärta}                    |
-| **k/q**     | `حَكّ`    | *Hakk*    | \es{itch}{klåda}                        | `حَقّ`    | *Haqq*    | \es{right, truth}{rättighet, sanning} |
-|             |         |           |                                         |         |           |                                       |
-| **``ز/س``** | `سِرّ`    | *sirr*    | \es{secret}{hemlighet}                  | `زِرّ`    | *zirr*    | \es{button}{knapp}                    |
-| **s/z**     | `سَمِير`  | *samiir*  | pers. name m.                           | `زَمِير`  | *zamiir*  | \es{honk}{tut}                        |
-|             |         |           |                                         |         |           |                                       |
-| **`ص/س`**   | `سُورة`  | *suura*   | \es{chapter (Quran)}{kapitel (Koranen)} | `صُورة`  | *Suura*   | \es{pucture}{bild}                    |
-| **s/S**     | `سَيْف`   | *sayf*    | \es{sword}{svärd}                       | `صَيْف`   | *Sayf*    | \es{summer}{sommar}                   |
-|             | `السِّين` | *as-siin* | the *siin* (\es{letter}{bokstav})       | `الصِّين` | *aS-Siin* | \es{China}{Kina}                      |
-|             |         |           |                                         |         |           |                                       |
-| **`ض/د`**   | `دَرْب`   | *darb*    | \es{path}{stig}                         | `ضَرْب`   | *Darb*    | \es{strike}{slag}                     |
-| **d/D**     | `قُرُود`  | *quruud*  | \es{monkeys}{apor}                      | `قُرُوض`  | *quruuD*  | \es{loans}{lån (pl.)}                 |
-|             | `فادِي`  | *faadii*  | pers. name m.                           | `فاضِي`  | *faaDii*  | \es{empty}{tom}                       |
-|             | `أَعْداء` | *ʾaʿdaaʾ* | \es{enemies}{fiender}                   | `أَعْضاء` | *ʾaʿDaaʾ* | \es{members}{medlemmar}               |
-|             |         |           |                                         |         |           |                                       |
-| **`ط/ت`**   | `تَيّار`  | *tayyaar* | \es{stream}{ström, fors}                | `طَيّار`  | *Tayyaar* | pilot                                 |
-| **t/T**     | `تِين`   | *tiin*    | \es{fig}{fikon}                         | `طِين`   | *Tiin*    | \es{clay}{lera}                       |
+|             |         |                  |                                                |         |           |                                       |
+| :-:         | -:      | :-               | :-                                             | -:      | :-        | :-                                    |
+| **`ع/ء`**   | `أَمَل`   | *\llap{ʾ}amal*   | \es{hope}{hopp},  \es{pr. name}{egennamn} (f.) | `عَمَل`   | *ʿamal*   | \es{work}{arbete}                     |
+| **ʾ/ʿ**     | `سُؤال`  | *suʾaal*         | \es{question}{fråga}                           | `سُعال`  | *suʿaal*  | \es{cough}{hosta}                     |
+|             | `سَأَل`   | *saʾal*          | \es{(he) asked}{(han) frågade}                 | `سَعَل`   | *saʿal*   | \es{(he) coughed}{(han) hostade}      |
+|             | `أَيْن`   | *ʾayn*           | \es{where?}{var?}                              | `عَيْن`   | *ʿayn*    | \es{eye}{öga}                         |
+|             |         |                  |                                                |         |           |                                       |
+| **ø`ء/`**   | `ما`    | *maa*            | \es{what?}{vad?}                               | `ماء`   | *maaʾ*    | \es{water}{vatten}                    |
+| **ø/ʾ**     | `فاس`   | *faas*           | Fez                                            | `فَأْس`   | *faʾs*    | \es{axe}{yxa}                         |
+|             |         |                  |                                                |         |           |                                       |
+| **`غ/ر`**   | `وَرْد`   | *ward*           | \es{rose}{ros}                                 | `وَغْد`   | *waghd*   | \es{scoundrel}{skitstövel}            |
+| **r/gh**    | `ضَغْط`   | *DaghT*          | \es{pressure, stress}{press, tryck}            | `ضَرْط`   | *DarT*    | \es{fart}{prutt}                      |
+|             |         |                  |                                                |         |           |                                       |
+| **`ه/ح`**   | `حال`   | *Haal*           | situation                                      | `هال`   | *haal*    | \es{cardamom}{kardemumma}             |
+| **H/h**     | `حَمْزة`  | *Hamza*          | *hamza* (\es{letter}{boksav})                  | `هَمْزة`  | *hamza*   | \es{pr. name}{egennamn} (m.)          |
+|             |         |                  |                                                |         |           |                                       |
+| **`خ/ح`**   | `حال`   | *Haal*           | situation                                      | `خال`   | *khaal*   | \es{uncle}{morbror}                   |
+| **H/kh**    | `حَدّ`    | *Hadd*           | \es{sharp}{vass}                               | `خَدّ`    | *khadd*   | \es{cheek}{kind}                      |
+|             | `حَوْلَ`   | *Hawla*          | \es{around}{runtom}                            | `خَوْلة`  | *khawla*  | \es{pr. name}{egennamn} (f.)          |
+|             | `حَلّ`    | *Hall*           | \es{solution}{lösning}                         | `خَلّ`    | *khall*   | \es{vinager}{vinäger}                 |
+|             |         |                  |                                                |         |           |                                       |
+| **`ق/ك`**   | `كَلْب`   | *kalb*           | \es{dog}{hund}                                 | `قَـلْب`  | *qalb*    | \es{heart}{hjärta}                    |
+| **k/q**     | `حَكّ`    | *Hakk*           | \es{itch}{klåda}                               | `حَقّ`    | *Haqq*    | \es{right, truth}{rättighet, sanning} |
+|             |         |                  |                                                |         |           |                                       |
+| **``ز/س``** | `سِرّ`    | *sirr*           | \es{secret}{hemlighet}                         | `زِرّ`    | *zirr*    | \es{button}{knapp}                    |
+| **s/z**     | `سَمِير`  | *samiir*         | \es{pr. name}{egennamn} (m.)                   | `زَمِير`  | *zamiir*  | \es{honk}{tut}                        |
+|             |         |                  |                                                |         |           |                                       |
+| **`ص/س`**   | `سُورة`  | *suura*          | \es{chapter (Quran)}{kapitel (Koranen)}        | `صُورة`  | *Suura*   | \es{pucture}{bild}                    |
+| **s/S**     | `سَيْف`   | *sayf*           | \es{sword}{svärd}                              | `صَيْف`   | *Sayf*    | \es{summer}{sommar}                   |
+|             | `السِّين` | *as-siin*        | the *siin* (\es{letter}{bokstav})              | `الصِّين` | *aS-Siin* | \es{China}{Kina}                      |
+|             |         |                  |                                                |         |           |                                       |
+| **`ض/د`**   | `دَرْب`   | *darb*           | \es{path}{stig}                                | `ضَرْب`   | *Darb*    | \es{strike}{slag}                     |
+| **d/D**     | `قُرُود`  | *quruud*         | \es{monkeys}{apor}                             | `قُرُوض`  | *quruuD*  | \es{loans}{lån (pl.)}                 |
+|             | `فادِي`  | *faadii*         | \es{pr. name}{egennamn} (m.)                   | `فاضِي`  | *faaDii*  | \es{empty}{tom}                       |
+|             | `أَعْداء` | *\llap{ʾ}aʿdaaʾ* | \es{enemies}{fiender}                          | `أَعْضاء` | *ʾaʿDaaʾ* | \es{members}{medlemmar}               |
+|             | `فَرْد`   | *fard*           | \es{individual}{individ}                       | `فَرْض`   | *farD*    | \es{assumption}{andtagande}           |
+|             |         |                  |                                                |         |           |                                       |
+| **`ط/ت`**   | `تَيّار`  | *tayyaar*        | \es{stream}{ström, fors}                       | `طَيّار`  | *Tayyaar* | pilot                                 |
+| **t/T**     | `تِين`   | *tiin*           | \es{fig}{fikon}                                | `طِين`   | *Tiin*    | \es{clay}{lera}                       |

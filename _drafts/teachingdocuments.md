@@ -7,7 +7,10 @@ excerpt: ''
 {% for docpost in site.posts | reversed %}
 {% if docpost.document %} 
 
-<a href="{{ docpost.document }}"><img style="height: 3em; width: 3em; float: right; " src="{{ docpost.thumbnail }}"></a>
+
+{% if docpost.thumbnail %}
+<a href="{{ docpost.document }}"><img style="height: 3em; width: 3em; float: left; margin-right: 30px" src="{{ docpost.thumbnail }}"></a>
+{%  endif %}
 {% if docpost.documenttitle %}
   {{ docpost.documenttitle }}
   {% else %}
