@@ -5,7 +5,6 @@ permalink: /documents/
 pubyears:
     - 2017
     - 2016
-excerpt: ''
 ---
 
 <br/>
