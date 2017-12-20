@@ -55,6 +55,8 @@ excerpt: ''
 
 ## Teaching documents
 
+These documents are subject to continuous tinkering. The latest version can always be found here. 
+
 {% for docpost in site.posts | reversed %}
 {% if docpost.document %} 
 
