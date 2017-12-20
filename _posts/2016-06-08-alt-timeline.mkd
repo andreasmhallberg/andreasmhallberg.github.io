@@ -6,9 +6,9 @@ language: English
 lang: en
 length: short
 tags:
-- arabic
-- latex
-- tikz
+    - arabic
+    - latex
+    - tikz
 document: https://github.com/andreasmhallberg/alt-timeline/raw/master/alt-timeline.pdf
 documenttitle: Timeline of Arab grammarians and their major works
 thumbnail: /images/alt-timeline.thumbnail.png
@@ -17,10 +17,7 @@ excerpt: <a href="http://andreasmhallberg.github.io/timeline-of-arab-grammarians
 
 [![thumbnail]({{ page.thumbnail }})]({{ page.document }})
 
-\*\*\*  
-*Edit 2017-18-12: A version of this timeline in German has subsequently been published in* Einführung in die arabische Grammatiktradition *by Frank Weigelt (Harrowitz, 2017).*
-\*\*\*  
-
+**[Edit 2017-18-12: A version of this timeline in German has subsequently been published in *Einführung in die arabische Grammatiktradition* by Frank Weigelt (Harrowitz, 2017).]**  
 
 Sometimes when reading about the classical Arabic grammarians I find it difficult to visualize the actual timespan between different authors. Years are of course always mentioned in the literature but it is often still hard to get a feel for how big a chunk of time there is between a series of events.
 
