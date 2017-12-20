@@ -11,7 +11,7 @@ header-includes:
     - \AtBeginDocument{\Large}
     - \newif\ifeng
     - \engfalse
- #  - \engtrue
+    - \engtrue
     - \newcommand\es[2]{\ifeng#1\else#2\fi}
 geometry:
     - hmargin=2cm
@@ -28,8 +28,8 @@ papersize: a4
 | **ʾ/ʿ**     | `سُؤال`  | *suʾaal*         | \es{question}{fråga}                           | `سُعال`  | *suʿaal*  | \es{cough}{hosta}                     |
 |             | `أَيْن`   | *ʾayn*           | \es{where?}{var?}                              | `عَيْن`   | *ʿayn*    | \es{eye}{öga}                         |
 |             |         |                  |                                                |         |           |                                       |
-| **ø`ء/`**   | `ما`    | *maa*            | \es{what?}{vad?}                               | `ماء`   | *maaʾ*    | \es{water}{vatten}                    |
-| **ø/ʾ**     | `فاس`   | *faas*           | Fez                                            | `فَأْس`   | *faʾs*    | \es{axe}{yxa}                         |
+| **ø`ء/`**   | `فاس`   | *faas*           | Fez                                            | `فَأْس`   | *faʾs*    | \es{axe}{yxa}                         |
+| **ø/ʾ**     | `ما`    | *maa*            | \es{what?}{vad?}                               | `ماء`   | *maaʾ*    | \es{water}{vatten}                    |
 |             |         |                  |                                                |         |           |                                       |
 | **`غ/ر`**   | `وَرْد`   | *ward*           | \es{rose}{ros}                                 | `وَغْد`   | *waghd*   | \es{scoundrel}{skitstövel}            |
 | **r/gh**    | `ضَرْط`   | *DarT*           | \es{fart}{prutt}                               | `ضَغْط`   | *DaghT*   | \es{pressure, stress}{press, tryck}
