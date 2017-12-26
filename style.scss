@@ -107,7 +107,9 @@ strong, b {
 }
 
 img {
-  max-width: 100%;
+  max-width: 50%;
+  margin: auto;
+  display: block;
 }
 
 table { 
@@ -129,7 +131,6 @@ table {
   max-width: none;
 }
 
-// Use with {: .center-image}. Supported in kramdown.
 .center-image
 {
     margin: 0 auto;
