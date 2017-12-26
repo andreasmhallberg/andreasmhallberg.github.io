@@ -236,9 +236,9 @@ table {
 
 nav {
   float: right;
+  margin-top: 23px;
   font-family: $helveticaNeue;
   font-size: 18px;
-  text-align: right;
 
   @include mobile {
     float: none;
@@ -248,7 +248,7 @@ nav {
   }
 
   a {
-    margin-left: 10px;
+    margin-left: 20px;
     color: $darkGray;
     text-align: right;
     font-weight: 300;
