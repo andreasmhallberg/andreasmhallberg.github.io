@@ -16,12 +16,6 @@
     <!-- dont fire google analytics when run locally -->
     <!-- https://michaelsoolee.com/google-analytics-jekyll/ -->
 
-    {% if jekyll.environment == 'production' %}
-        {% include analytics.html %}
-    {% endif %}
-
-    {% include analyticsevent.js%}
-
     {% seo %}
 
   </head>
