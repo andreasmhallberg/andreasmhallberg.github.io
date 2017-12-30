@@ -15,13 +15,14 @@ layout: default
               (Swedish)
           </div>
       {% endif %}
-
+      <p>
       <div class="entry">
         {% if post.thumbnail %}
-        <img style="float: right; max-width: 40%; margin-left: 10px; margin-bottom: 10px;" src="{{ post.thumbnail }}">
+        <img style="float: right; max-width: 40%; max-height: 300px; margin-left: 15px; margin-bottom: 10px;" src="{{ post.thumbnail }}">
         {% endif %}
         {{ post.excerpt }}
       </div>
+      </p>
 
       {% if post.lang == 'en' %}
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
