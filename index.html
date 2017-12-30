@@ -17,6 +17,9 @@ layout: default
       {% endif %}
 
       <div class="entry">
+        {% if post.thumbnail %}
+        <img style="float: right; max-width: 40%; margin-left: 10px; margin-bottom: 10px;" src="{{ post.thumbnail }}">
+        {% endif %}
         {{ post.excerpt }}
       </div>
 
