@@ -9,6 +9,9 @@ tags:
 - typography
 - arabic
 - latex
+updates:
+    - date: 2017-03-03
+      contents: Had I when I wrote this post known what I know now, I would have used [the stretchable kashida](/stretchable-kashida/) to justify the margin notes, rather than having them ragged right.
 ---
 
 This posts describes a way of showing quoted Arabic text in the margin in non-Arabic environments and how this can be achieved in LaTeX. For sentence length quotes this has several advantages over the traditional method of transcribing the Arabic text.
@@ -77,8 +80,6 @@ Lastly, the width of the text block in a margin note is generally to narrow for 
 ![Flush left narrow Arabic text block.](/images/2016-04-26-margin-notes-for-arabic-quotes/arabicflushleft.png)
 
 In summary, Arabic quotes in the margin and the translation in the running text: pretty and practical.
-
-[**Edit 2017-03-03** Had I known then what I know now, I would have used [the stretchable kashida](/stretchable-kashida/) to justify the margin notes.]
 
 [^1]: Suleiman, Y., 1996. "The Simplification of Arabic Grammar and the Problematic Nature of the Sources." *Journal of Semitic Studies,* 41(1), pp.99–119.
 [^2]: The `\null` in the last line is necessary to avoid LaTeX misinterpreting instances where the translated text begins with square brackets to signal that some word has been added for the sake of translation.

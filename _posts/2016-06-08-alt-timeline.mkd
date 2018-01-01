@@ -13,6 +13,9 @@ document: https://github.com/andreasmhallberg/alt-timeline/raw/master/alt-timeli
 documenttitle: Timeline of Arab grammarians and their major works
 thumbnail: /images/alt-timeline.thumbnail.png
 # excerpt: <a href="http://andreasmhallberg.github.io/timeline-of-arab-grammarians/"><img width="30%" src="/images/alt-timeline.thumbnail.png" alt="Thumbnail"></a>
+updates: 
+    - date: 2017-12-08
+      contents: A version of this timeline in German has subsequently been published in *Einführung in die arabische Grammatiktradition* by Frank Weigelt (Harrowitz, 2017).  
 ---
 
 
@@ -26,4 +29,3 @@ The LaTeX source code can be found [here](https://github.com/andreasmhallberg/al
 Thanks to Geroges Bohas for his comments, suggestions and corrections.
 
 
-**[Edit 2017-18-12: A version of this timeline in German has subsequently been published in *Einführung in die arabische Grammatiktradition* by Frank Weigelt (Harrowitz, 2017).]**  

@@ -7,42 +7,52 @@ layout: default
 
   <div class="date">
 
-{% assign tags = page.tags %}
+    {% assign tags = page.tags %}
 
-      {% if page.lang == 'en' %}
-        {{ page.date | date: "%B %e, %Y" }}<br>
-        {% if page.modified %}Last modified: {{ page.modified | date: "%B %e, %Y" }}  {% endif %}
-        Tags: {% for tag in tags %} -{{tag}}{% endfor %}<br>
-        Length: {{ page.length }}<br>
-      {% endif %}
+    {% if page.lang == 'en' %}
+    {{ page.date | date: "%B %e, %Y" }}<br>
+    {% if page.modified %}Last modified: {{ page.modified | date: "%B %e, %Y" }}  {% endif %}
+    Tags: {% for tag in tags %} -{{tag}}{% endfor %}<br>
+    Length: {{ page.length }}<br>
+    {% endif %}
 
-      {% if page.lang == 'sv' %}
-        {{ page.date | date: "%Y-%m-%d" }}<br>
-        Taggar: {% for tag in tags %} -{{tag}}{% endfor %}<br>
-        Längd:
-          {% if page.length == 'long' %}
-            lång
-          {% elsif page.length == 'short' %} 
-            kort
-          {% elsif page.length == 'medium' %}
-            medium
-          {% endif %}
-      {% endif %}
+    {% if page.lang == 'sv' %}
+    {{ page.date | date: "%Y-%m-%d" }}<br>
+    Taggar: {% for tag in tags %} -{{tag}}{% endfor %}<br>
+    Längd:
+    {% if page.length == 'long' %}
+    lång
+    {% elsif page.length == 'short' %} 
+    kort
+    {% elsif page.length == 'medium' %}
+    medium
+    {% endif %}
+    {% endif %}
 
 
-      {% if page.lang == 'ar' %}
-        {{ page.date | date: "%Y/%m/%d" }}
-        &#x202b;طول: 
-          {% if page.length == 'long' %}
-        &#x202b;طويل 
-          {% elsif page.length == 'short' %} 
-        &#x202b;قصير 
-          {% elsif page.length == 'medium' %}
-        &#x202b;وصط 
-          {% endif %}
-      {% endif %}
+    {% if page.lang == 'ar' %}
+    {{ page.date | date: "%Y/%m/%d" }}
+    &#x202b;طول: 
+    {% if page.length == 'long' %}
+    &#x202b;طويل 
+    {% elsif page.length == 'short' %} 
+    &#x202b;قصير 
+    {% elsif page.length == 'medium' %}
+    &#x202b;وصط 
+    {% endif %}
+    {% endif %}
 
   </div>
+
+{% if page.updates %}
+  <p>
+  <div class="update">
+    {% for update in page.updates %}
+        Update {{ update.date }} &mdash; {{ update.contents | markdownify | remove: '<p>' | remove: '</p>'}}<br>
+    {% endfor %}
+  </div>
+  </p>
+{% endif %}
 
   <div class="entry">
     {{ content }}

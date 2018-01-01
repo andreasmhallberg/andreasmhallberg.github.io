@@ -7,6 +7,9 @@ lang: en
 length: medium
 tags: 
 - vim
+updates: 
+    - date: 2017-03-18
+      contents: An earlier version of this post described how to implement this new keypoard layout with a series of mappings in the `.vimrc`. The method described below with an external `keymap` file is much more convenient.
 ---
 
 In this post I describe a method for extending the standard US keyboard layout to type Swedish characters in Vim. This is done with minimal changes to the layout and without moving characters around.
@@ -31,7 +34,6 @@ A solution to this problem in Vim, where I do almost all kinds of typing anyways
 
 Mapping these masked characters to other positions keys on the keyboard is not a good solution if your are often switching between layouts, since it messes up your muscle memory. Moving them would also mask other characters and just move the problem around. Instead, I opted to have the masked characters remain and have them accessed with double key presses, so that pressing `åå` produces `[`, `ÅÅ` produces `{`, etc. Luckily, in Swedish you never type double å, ä, or&nbsp;ö, so these double key sequences are a "free space" on the keyboard. (In fact, typing the previous sentence was the first time this has ever been a problem.) This solution is a much smaller adaptation of the American layout than having everything move around whenever you are switching between the two layouts. I call this mapping swe-us.
 
-[**EDIT 2017-03-18: Previously this post described how to implement this with a series of mappings in the `.vimrc`. The method described below with an external `keymap` file is much more convenient.**]
 
 I have applied this layout in Vim by having the code below in the [my `.vimrc`](https://github.com/andreasmhallberg/dotfiles/blob/master/.vimrc) (slightly modified here to make it self-contained and more easily copyable).
 
