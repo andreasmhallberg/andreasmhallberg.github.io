@@ -55,8 +55,8 @@ The YAML headers have the following attributes ():
 
     List of updates to the post post publication. Has two subitems:
 
-        - `date` Date of the update in `yyyy-mm-dd` format.
-        - `contents` Text to be displayed. Written in markdown.
+    - `date` Date of the update in `yyyy-mm-dd` format.
+    - `contents` Text to be displayed. Written in markdown.
 
 ### Example
 
