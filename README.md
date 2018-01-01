@@ -27,31 +27,31 @@ The YAML headers have the following attributes ():
 
     Extension of http address to this post. If not explicitly made will be generated from date by Jekyll. Must be enclosed in `/`.
 
-- `lang`*
+- \*`lang`
 
     `en` or `sv`. Displayed in the listing on index page and tags page. 
 
-- `length`*
+- \*`length`
 
     `short`, `medium`, or `long`. Displayed top of post and on tags page. 
 
-- `tags`
+- \*`tags`
 
     List. Lower case ASCII. See tags page for list.
 
-- `document`
+- \*`document`
 
     If the post presents a document, this variable is used to give the http address to that document. Used to generate list of teaching documents under Docs page.
 
-- `documenttitle`
+- \*`documenttitle`
 
     The title of the document presented in the post. Used in listing on Docs page. 
 
-- `thumbnail`
+- \*`thumbnail`
 
     Address to image to be displayed in index page with except. For posts with `document` this is image is of the first page of the document in `png` and is displayed next to the list item in the Docs page.
 
-- `updates`
+- \*`updates`
 
     List of updates to the post post publication. Has two subitems:
 
