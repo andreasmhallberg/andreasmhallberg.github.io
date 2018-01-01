@@ -25,11 +25,40 @@ The YAML headers have the following attributes ():
 
     Extension of http address to this post. If not explicitly made will be generated from date by Jekyll. Must be enclosed in `/`.
 
-- `lang: en/sv`
+- `lang`*
 
-### Examole
+    `en` or `sv`. Displayed in the listing on index page and tags page. 
 
-``` yaml
+- `length`*
+
+    `short`, `medium`, or `long`. Displayed top of post and on tags page. 
+
+- `tags`
+
+    List. Lower case ASCII. See tags page for list.
+
+- `document`
+
+    If the post presents a document, this variable is used to give the http address to that document. Used to generate list of teaching documents under Docs page.
+
+- `documenttitle`
+
+    The title of the document presented in the post. Used in listing on Docs page. 
+
+- `thumbnail`
+
+    Address to image to be displayed in index page with except. For posts with `document` this is image is of the first page of the document in `png` and is displayed next to the list item in the Docs page.
+
+- `updates`
+
+    List of updates to the post post publication. Has two subitems:
+
+        - `date` Date of the update in `yyyy-mm-dd` format.
+        - `contents` Text to be displayed. Written in markdown.
+
+### Example
+
+``` yml
 layout: post
 title: Timeline of Arab grammarians
 permalink: /timeline-of-arab-grammarians/
