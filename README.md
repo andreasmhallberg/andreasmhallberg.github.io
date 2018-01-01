@@ -37,7 +37,16 @@ The YAML headers have the following attributes ():
 
 - \*`tags`
 
-    List. Lower case ASCII. See tags page for list.
+    List. Lower case ASCII. See tags page for list. At the time of writing the following tags are used:
+
+    - arabic
+    - latex
+    - linguistics
+    - tafl
+    - tikz
+    - transcription
+    - typography
+    - vim
 
 - \*`document`
 
@@ -78,3 +87,11 @@ updates:
     - date: 2017-12-08
       contents: A version of this timeline in German has subsequently been published in *Einführung in die arabische Grammatiktradition* by Frank Weigelt (Harrowitz, 2017).  
 ```
+
+# Assets
+
+## Images
+
+## Documents
+
+## Data
