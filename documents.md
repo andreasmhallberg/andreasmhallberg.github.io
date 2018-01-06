@@ -18,7 +18,7 @@ pubyears:
 {% if publication.year == pubyear %}
 <b>{{ publication.title }}</b>
 &emsp;<span class="date">{{ publication.type }}</span><br>
-{{ publication.ref}}
+{{ publication.ref | markdownify }}
 <details style="margin-top: -.7em; margin-left: 1em">
 <summary>
 <!-- abstract --> {% if publication.abstract %}
@@ -40,7 +40,7 @@ pubyears:
 {% endif %}
 </summary>
 {% if publication.abstract %}
-  <span class="date">{{ publication.abstract }}</span>
+  <span class="date">{{ publication.abstract | markdownify }}</span>
 {% endif %}
 </details>
 
