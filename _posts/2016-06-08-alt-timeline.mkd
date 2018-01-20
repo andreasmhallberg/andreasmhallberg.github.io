@@ -15,7 +15,7 @@ thumbnail: /images/alt-timeline.thumbnail.png
 # excerpt: <a href="http://andreasmhallberg.github.io/timeline-of-arab-grammarians/"><img width="30%" src="/images/alt-timeline.thumbnail.png" alt="Thumbnail"></a>
 updates: 
     - date: 2017-12-08
-      contents: A version of this timeline in German has subsequently been published in *Einführung in die arabische Grammatiktradition* by Frank Weigelt (Harrowitz, 2017).  
+      contents: A German version of this timeline has been published in *Einführung in die arabische Grammatiktradition* by Frank Weigelt (Harrowitz, 2017).  
 ---
 
 
