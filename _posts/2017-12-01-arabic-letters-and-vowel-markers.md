@@ -8,7 +8,7 @@ length: short
 tags:
     - arabic
     - tafl
-document: /documents/arabic-letters.tex.pdf
+document: /documents/arabic-letters-and-vowel-markers.tex.pdf
 documenttitle: Arabic letters and vowel markers
 thumbnail: /images/arabic-letters.thumbnail.png
 # excerpt: <a href="http://andreasmhallberg.github.io/arabic-letters-and-vowel-markers/"><img width="30%" src="/images/arabic-letters.thumbnail.png" alt="Thumbnail"></a>

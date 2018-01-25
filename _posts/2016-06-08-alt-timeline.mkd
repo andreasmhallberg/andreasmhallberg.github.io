@@ -27,5 +27,3 @@ Sometimes when reading about the classical Arabic grammarians I find it difficul
 The LaTeX source code can be found [here](https://github.com/andreasmhallberg/alt-timeline/blob/master/alt-timeline.tex). I plan on also making an Arabic version of this timeline at some point.
 
 Thanks to Georges Bohas for his comments, suggestions and corrections.
-
-

@@ -1,0 +1,132 @@
+\documentclass{article}
+\usepackage{tikz}
+\usetikzlibrary{backgrounds}
+\usepackage[a4paper,landscape, hmargin=1cm, vmargin=2cm ]{geometry}
+\usepackage{xcolor}
+\usepackage{newunicodechar}
+\usepackage{calc}
+\usepackage{booktabs}
+\usepackage{threeparttable}
+\usepackage{array}
+\usepackage{\string ~/mylatexstuff/ccbyandreas}
+\usepackage{polyglossia}
+\setmainlanguage{english}
+\setotherlanguage{arabic}
+\newfontfamily\arabicfont[Script=Arabic, Scale=1.8]
+% {Scheherazade}
+{Lateef}
+% {DejaVu Sans Mono}
+% {Amiri}
+\setmainfont{Source Sans Pro}
+
+\setlength\parindent{0pt}
+\pagestyle{empty}
+
+\catcode`\_=\active
+
+\let\root\undefined
+\def_{\root}
+
+% \newcommand\root{\raisebox{-.2ex}{\tikz \draw [color=white, fill=black!15](0,-.2ex) circle (.7ex);}}
+\newcommand\root{\raisebox{-.2ex}{%
+      \tikz\draw [color=gray, fill=black!15](0,-.2ex) rectangle (1.2ex,1.4ex);%
+}}
+
+
+\let\d\undefined
+\let\k\undefined
+\let\s\undefined
+\let\sf\undefined
+\let\do\undefined
+
+\renewcommand\arraystretch{2}
+
+
+\newcommand{\n}{_}% none
+\newcommand{\f}{_َ}% fatha
+\newcommand{\d}{_ُ}% damma
+\newcommand{\k}{_ِ}% kasra
+\newcommand{\sf}{_َّ}% shadda fatha
+\newcommand{\sd}{_ُّ}% shadda damma
+\newcommand{\sk}{_ِّ}% shadda kasra
+\newcommand{\s}{_ْ}% sukuun
+\newcommand{\sh}{_ّ}% sshadda
+
+\newcommand{\dou}{\underline{\root\root}}
+
+\begin{document}
+
+
+\center
+\large
+
+
+% title
+{\huge Arabic verb forms I--X}
+
+\smallskip
+{\footnotesize\itshape \today}
+
+\vfill
+
+\newcolumntype{A}{>{\begin{Arabic}}r<{\end{Arabic}}}
+
+\begin{threeparttable}
+
+
+\begin{Arabic}
+  \begin{tabular}{lcccccccccc}
+
+                                     & \textenglish{I}              & \textenglish{II} & \textenglish{III}               & \textenglish{IV} & \textenglish{V} & \textenglish{VI} & \textenglish{VII} & \textenglish{VIII} & \textenglish{(IX)} & \textenglish{X} \\
+\midrule
+\textenglish{Past}                   & \f\f\f /\f\k\f /\f\d\f       & \f \sf \f        & \n ـا\f \                      & أَ\s \f \f        & تَـ\f\sf\f       & تَـ\n ـا\f\f      & اِنْـ\f\f\f         & اِ\s ـتَـ\f\f        & اِ\s\f\sf           & اِسْتَـ\s \f \f \\
+\textenglish{Present}                & يَـ\s\d\n /يَـ\s\f\n /يَـ\s\k\n & يُـ\f \sk \n      & يُـ\n ـا\k \n                    & يُـ\s \k \n       & يَتَـ\f\sf\n      & يَتَـ\n ـا\f\n     & يَنْـ\f\k\n         & يَـ\s ـتَـ\k\n       & يَـ\s\f\sh          & يَسْتَـ\s \k \n \\
+\textenglish{\textit{maSdar}}        & \textenglish{Irregular*}     & تَـ\s \k ـيـ\n    & مُـ\n ـا\f \n ـة\textenglish{**} & إِ\s \n ـا\n      & تَـ\f\sd\n       & تَـ\n ـا\d\n      & اِنْـ\k\n ـا\n      & اِ\s ـتِـ\n ـا\n     & اِ\s\k\n ـا\n       & اِسْتِـ\s \n ـا\n \\
+\textenglish{Active~part.}           & \n ـا\k \n                   & مُـ\f \sk \n      & مُـ\n ـا\k \n                    & مُـ\s \k \n       & مُتَـ\f\sk\n      & مُتَـ\n ـا\k\n     & مُنْـ\f\k\n         & مُـ\s ـتَـ\k\n       & مُـ\s\f\sh          & مُسْتَـ\s \k \n \\
+% \textenglish{Passive~part.}        & مَـ\s \d و\n                  & مُـ\f \sf \n      & مُـ\n ـا\f \n                    & مُـ\s \f \n       & مُتَـ\f\sf\n      & مُتَـ\n ـا\f\n     & مُنْـ\f\f\n         & مُـ\s ـتَـ\f\n       &                    & مُسْتَـ\s \f \n \\
+\midrule
+
+   \end{tabular}
+\end{Arabic}
+
+
+  \begin{tablenotes}
+    \footnotesize
+    \item[*] Common forms include \quad \textarabic{\k\n ـا\n ـة} ,\quad \textarabic{\f\s\n} {} and  {} \textarabic{\d\d ـو\n} . 
+    \item[**] For verbs denoting conflict alternatively\quad \textarabic{\k\n ـا\n} .
+  \end{tablenotes}
+\end{threeparttable}
+
+   
+
+
+
+\vfill
+
+
+\begin{threeparttable}
+  \begin{tabular}{lcccccccccc}
+
+                    & I                    & II                     & III                   & IV                 & V                        & VI                   & VII                & VIII               & (IX)                                       & X\\
+\midrule
+{Past}              & \itshape  _a_a/u/i_a & \itshape  _a\dou a_a   & \itshape  _aa_a_      & \itshape  ʾa__a _a & \itshape  ta_a\dou a_a   & \itshape  ta_aa_a_a  & \itshape  in_a_a_a & \itshape  i_ta_a_a & \itshape  i__a\dou a                       & \itshape  ista__a_a \\
+{Present}           & \itshape  ya__a/u/i_ & \itshape  yu_a\dou i_  & \itshape  yu_aa_i_    & \itshape  yu__i_   & \itshape  yata_a\dou a_  & \itshape  yata_aa_a_ & \itshape  yan_a_i_ & \itshape  ya_ta_i_ & \itshape  ya__a\dou                        & \itshape  yasta__i_\\
+\textit{maSdar}     & Irregular*           & \itshape  ta__ii_      & \itshape  mu_aa_a_a** & \itshape  ʾi__aa_  & \itshape  ta_a\dou u_    & \itshape  ta_aa_u_   & \itshape  in_i_aa_ & \itshape  i_ta_aa_ & \itshape  i__i\underline{_}aa\underline{_} & \itshape  isti__aa_\\
+{Active part.}      & \itshape  _aa_i_     & \itshape  mu_a\dou i _ & \itshape  mu_aa_i_    & \itshape  mu__i_   & \itshape  muta_a\dou i _ & \itshape  muta_aa_i_ & \itshape  mun_a_i_ & \itshape  mu_ta_i_ & \itshape  mu__a\dou                        & \itshape  musta__i_\\
+% {Passive part.}   & \itshape  ma__uu_    & \itshape  mu_a\dou a _ & \itshape  mu_aa\dou _ & \itshape  mu__a_   & \itshape  muta_a_a _     & \itshape  muta_aa_a_ & \itshape  mun_a_a_ & \itshape  mu_ta_a_ & \itshape                                   & \itshape  musta__a_\\
+
+\midrule
+  \end{tabular}
+
+  \begin{tablenotes}
+    \footnotesize
+  \item[] \dou{} signifies a doubled letter.\\[\medskipamount]
+
+    \item[*] Common forms include \quad \textit{_i_aa_a} ,\quad \textit{_a__} {} and  {} \textit{_u_uu_} . 
+    \item[**] For verbs denoting conflict, alternatively\quad \textit{_i_aa_} .
+  \end{tablenotes}
+\end{threeparttable}
+
+\vfill\null
+
+\end{document}
