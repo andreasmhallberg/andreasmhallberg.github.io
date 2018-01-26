@@ -26,7 +26,7 @@ A positive side effect of this form of presentation is that it students can phys
 
 The document gives the entire table twice: in Arabic script and in *Al-Kitaab*/Ryding (2005) type transcription. Most likely the table with the Arabic script is best suited for students at the level where this table is introduced. The transcription is provided for students who might find the linear order of vowels in the Latin script more revealing of the verb forms. 
 
-The fonts used are the free-to-use *Source Sans Pro* and *Lateef*. *Source Sans* comes in several different weights (thicknesses) which comes in handy when you want to match it with a specific Arabic typeface. I generally prefer the *Light* and *ExtaLight* weights but the *Regular* is used here to match the Arabic *Lateef* which is a typical *naskh* print typeface and thus quite heavy.
+The fonts used are the free-to-use Source Sans Pro and Lateef. Source Sans comes in several different weights (thicknesses) which comes in handy when you want to match it with a specific Arabic typeface. I generally prefer the Light and ExtaLight weights but the Regular is used here to match the Arabic Lateef which is a typical *naskh* print typeface and thus quite heavy.
 
 
 
