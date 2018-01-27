@@ -14,7 +14,7 @@ documenttitle: Word counts and aya counts of suras in the Quran
 thumbnail: /images/quran-wc-thumbnail.png
 updates:
     - date: 2017-12-31
-      contents: New design. Title now in the bottom right. Hope you like negative space.
+      contents: New design. Title now in the bottom right.
 ---
 
 Another uncalled-for graph. I recently helped a student getting word counts for *suras* (chapters) in the Quran by running a script on the Quran in plain text downloaded from [tanzil.net](http://tanzil.net). I then had this nice little data file and felt I had to do something with it. The result is [the document below]({{ page.document }}), which is a graphical representation of the number of words and *ayas* (verses) in each sura in the Quran. It is intended to be printed on A3-paper. For A4-paper you will need a printer with high resolution since the text will be very small.
