@@ -6,7 +6,6 @@ length: short
 permalink: /minimal-pairs/
 tags:
     - tafl
-    - arabic
 document: /documents/minimal-pairs-en.md.pdf
 thumbnail: /images/minimala-par.thumbnail.png
 # excerpt: <a href="http://andreasmhallberg.github.io/minimal-pairs/"><img width="30%" src="/images/minimala-par.thumbnail.png" alt="Thumbnail"></a>

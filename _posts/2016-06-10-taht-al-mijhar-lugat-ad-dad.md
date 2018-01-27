@@ -6,7 +6,6 @@ language: English
 lang: en
 length: long
 tags:
-- arabic
 - linguistics
 ---
 

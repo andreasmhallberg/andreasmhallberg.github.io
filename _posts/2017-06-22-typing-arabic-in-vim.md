@@ -7,7 +7,6 @@ lang: en
 length: long
 tags:
 - vim
-- arabic
 thumbnail: /images/2017-06-22/rtl.png
 ---
 

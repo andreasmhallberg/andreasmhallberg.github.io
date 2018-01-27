@@ -6,7 +6,6 @@ language: English
 lang: en
 length: short
 tags:
-    - arabic
     - latex
     - tikz
 document: https://github.com/andreasmhallberg/alt-timeline/raw/master/alt-timeline.pdf

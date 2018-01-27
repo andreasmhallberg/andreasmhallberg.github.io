@@ -7,7 +7,6 @@ lang: en
 length: medium
 tags:
 - typography
-- arabic
 - latex
 updates:
     - date: 2017-03-03

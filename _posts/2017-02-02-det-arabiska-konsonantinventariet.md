@@ -7,7 +7,6 @@ lang: sv
 length: short
 tags:
 - latex
-- arabic
 - linguistics
 - tafl
 document: https://github.com/andreasmhallberg/sa-konsonantinventariet/raw/master/sa-konsonantinventariet.pdf

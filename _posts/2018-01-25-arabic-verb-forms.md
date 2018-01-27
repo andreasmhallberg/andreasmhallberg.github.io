@@ -6,7 +6,6 @@ lang: en
 length: short
 tags: 
 - latex
-- arabic
 - linguistics
 - tafl
 document: /documents/verb-forms/verb-forms.tex.pdf

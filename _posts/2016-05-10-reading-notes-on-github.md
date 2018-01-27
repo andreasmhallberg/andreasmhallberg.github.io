@@ -5,7 +5,6 @@ permalink: /reading-notes-on-github/
 lang: en
 length: short
 tags:
-- arabic
 - linguistics
 updates:
     - date: 2018-01-12

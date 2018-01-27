@@ -6,7 +6,6 @@ language: English
 lang: en
 length: medium
 tags:
-- arabic
 - linguistics
 - tikz
 document: /documents/quran-wc.tex.pdf

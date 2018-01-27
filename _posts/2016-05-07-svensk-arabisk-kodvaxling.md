@@ -6,7 +6,6 @@ language: Swedish
 lang: sv
 length: medium
 tags:
-- arabic
 - linguistics
 ---
 

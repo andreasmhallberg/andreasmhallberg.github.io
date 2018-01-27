@@ -4,8 +4,6 @@ title: Attempts at Arabic smilies
 permalink: /attemptsatarabicsmilies/
 language: English
 length: short
-tags:
-- arabic
 ---
 
 &#x202b;

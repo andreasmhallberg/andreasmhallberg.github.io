@@ -7,7 +7,6 @@ lang: en
 lang: en
 length: long
 tags:
-- arabic
 - linguistics
 ---
 
