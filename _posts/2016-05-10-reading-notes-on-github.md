@@ -6,9 +6,6 @@ lang: en
 length: short
 tags:
 - linguistics
-updates:
-    - date: 2018-01-12
-      contents: The repo currently contains&nbsp;252 notes.
 ---
 
 <!-- Nr. of notes: git ls-files | grep "\.md$" | wc -l -->
