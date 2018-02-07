@@ -10,7 +10,7 @@ tags:
 - latex
 updates:
     - date: 2017-03-03
-      contents: Had I when I wrote this post known what I know now, I would have used [the stretchable kashida](/stretchable-kashida/) to justify the margin notes, rather than having them ragged right.
+      contents: Had I when I wrote this post known what I know now, I would have used [the stretchable kashida](/stretchable-kashida/) to justify the margin notes, rather than having them flush right.
 thumbnail: /images/2016-04-26-margin-notes-for-arabic-quotes/case.p24.png
 ---
 
