@@ -14,7 +14,7 @@ updates:
 thumbnail: /images/2016-04-26-margin-notes-for-arabic-quotes/case.p24.png
 ---
 
-{% raw %}
+
 This posts describes a way of showing quoted Arabic text in the margin in non-Arabic environments and how this can be achieved in LaTeX. For sentence length quotes this has several advantages over the traditional method of transcribing the Arabic text. Often when one wants to quote an Arabic source in a non-Arabic text, the quote is translated with the original text transcribed. Transcribing the quote makes sense if a single word or short expression is quoted, since also the reader who is not very familiar with Arabic can read it and learn or recognize it. For longer quotes, transcription serves no real purpose. The reader who is not very familiar with Arabic will not be able to read it and for the reader who is familiar with Arabic it would be easier to read it in the original Arabic script. I find that to read a longer stretch of Arabic text in transcription I often have to read it aloud to understand it since I am not familiar with the visual shape of the transcribed words. Furthermore, when the text is transcribed this necessarily means adding vowels that are not there in the original text, thus adding information to the text that was not there in the source. It is then not possible to tell which of these vowels, if any, were there in the original text. It is in other words not an exact quote. Many quotes inserted this way also make for a cumbersome read, as illustrated in the following extract from an academic article[^1].
 
 ![Article with lengthy Arabic transliteration](/images/2016-04-26-margin-notes-for-arabic-quotes/suleymantransarabic.png)
@@ -27,6 +27,8 @@ In [my dissertation](https://lup.lub.lu.se/search/publication/8524489) I have se
 
 
 The rest of this post is a description of how this can be achieved in LaTeX. First, this method uses the following packages that must be called in the preamble:
+
+{% raw %}
 
 ``` tex
 \usepackage{polyglossia}
