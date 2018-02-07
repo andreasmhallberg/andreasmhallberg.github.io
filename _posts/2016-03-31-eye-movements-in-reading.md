@@ -3,7 +3,6 @@ layout: post
 title: 'Eye-movements in reading: a teaser'
 permalink: /eye-movements-in-reading-teaser/
 length: long
-language: English
 lang: en
 tags:
 - linguistics
