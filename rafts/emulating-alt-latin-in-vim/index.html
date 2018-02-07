@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Emulating Alt-Latin keyboard layout for Arabic transcription in Vim – Uppercase Alif – Andreas Hallberg's notes on Arabic linguistics, Vim and LaTeX.</title>
+        <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="I’m used to the Alt-Latin keyboard layout to quickly type Arabic transcription. The Alt-Latin is an extension of the US QUARTY layout that uses combinations of the ALT and SHIFT keys to add diacritics such as in ḥ and ā, as well as the characters ʿ and ʾ. A nice graphical presentation of this layout and instructions of how to install it on Windows and Mac can be found here. The image below is from that site.
+
+" />
+    <meta property="og:description" content="I’m used to the Alt-Latin keyboard layout to quickly type Arabic transcription. The Alt-Latin is an extension of the US QUARTY layout that uses combinations of the ALT and SHIFT keys to add diacritics such as in ḥ and ā, as well as the characters ʿ and ʾ. A nice graphical presentation of this layout and instructions of how to install it on Windows and Mac can be found here. The image below is from that site.
+
+" />
+    
+    <meta name="author" content="Uppercase Alif" />
+
+    
+    <meta property="og:title" content="Emulating Alt-Latin keyboard layout for Arabic transcription in Vim" />
+    <meta property="twitter:title" content="Emulating Alt-Latin keyboard layout for Arabic transcription in Vim" />
+    
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" type="image/x-icon" href="/logo/favicon.png"> 
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="Uppercase Alif - Andreas Hallberg's notes on Arabic linguistics, Vim and LaTeX." href="/feed.xml" />
+
+    
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-77917262-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+
+    <!-- Begin Jekyll SEO tag v2.4.0 -->
+<title>Emulating Alt-Latin keyboard layout for Arabic transcription in Vim | Uppercase Alif</title>
+<meta name="generator" content="Jekyll v3.7.2" />
+<meta property="og:title" content="Emulating Alt-Latin keyboard layout for Arabic transcription in Vim" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="I’m used to the Alt-Latin keyboard layout to quickly type Arabic transcription. The Alt-Latin is an extension of the US QUARTY layout that uses combinations of the ALT and SHIFT keys to add diacritics such as in ḥ and ā, as well as the characters ʿ and ʾ. A nice graphical presentation of this layout and instructions of how to install it on Windows and Mac can be found here. The image below is from that site." />
+<meta property="og:description" content="I’m used to the Alt-Latin keyboard layout to quickly type Arabic transcription. The Alt-Latin is an extension of the US QUARTY layout that uses combinations of the ALT and SHIFT keys to add diacritics such as in ḥ and ā, as well as the characters ʿ and ʾ. A nice graphical presentation of this layout and instructions of how to install it on Windows and Mac can be found here. The image below is from that site." />
+<link rel="canonical" href="http://localhost:4000/emulating-alt-latin-in-vim/" />
+<meta property="og:url" content="http://localhost:4000/emulating-alt-latin-in-vim/" />
+<meta property="og:site_name" content="Uppercase Alif" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2017-01-03T00:00:00+01:00" />
+<script type="application/ld+json">
+{"description":"I’m used to the Alt-Latin keyboard layout to quickly type Arabic transcription. The Alt-Latin is an extension of the US QUARTY layout that uses combinations of the ALT and SHIFT keys to add diacritics such as in ḥ and ā, as well as the characters ʿ and ʾ. A nice graphical presentation of this layout and instructions of how to install it on Windows and Mac can be found here. The image below is from that site.","@type":"BlogPosting","headline":"Emulating Alt-Latin keyboard layout for Arabic transcription in Vim","dateModified":"2017-01-03T00:00:00+01:00","datePublished":"2017-01-03T00:00:00+01:00","url":"http://localhost:4000/emulating-alt-latin-in-vim/","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/emulating-alt-latin-in-vim/"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+
+         <a href="/" class="site-avatar"><img src="http://andreasmhallberg.github.io/logo/logo2.png" /></a>
+
+          <div class="site-info">
+            <h1 class="site-name"><a href="/">Uppercase Alif</a></h1>
+            <p class="site-description">Andreas Hallberg's notes on Arabic linguistics, Vim and LaTeX.</p>
+          </div>
+
+          <nav>
+            <a href="/">Blog</a>
+            <a href="/tags">Tags</a>
+            <a href="/documents">Docs</a>
+            <a href="/about">About</a>
+          </nav>
+
+        </header>
+      </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+      <article class="post">
+  <h1>Emulating Alt-Latin keyboard layout for Arabic transcription in Vim:</br><i></i></h1>
+
+  <div class="date">
+
+    
+
+    
+    January  3, 2017<br>
+    
+    Tags:  -transcription -vim<br>
+    Length: short<br>
+    
+
+    
+
+
+    
+
+  </div>
+
+
+
+  <div class="entry">
+    <p>I’m used to the Alt-Latin keyboard layout to quickly type Arabic transcription. The Alt-Latin is an extension of the US QUARTY layout that uses combinations of the ALT and SHIFT keys to add diacritics such as in <em>ḥ</em> and <em>ā,</em> as well as the characters <em>ʿ</em> and <em>ʾ</em>. A nice graphical presentation of this layout and instructions of how to install it on Windows and Mac can be found <a href="http://mamluk.uchicago.edu/keyboards/">here</a>. The image below is from that site.</p>
+
+<p><a href="http://mamluk.uchicago.edu/keyboards/"><img src="http://mamluk.uchicago.edu/keyboards/alt-latinKBD-medoc-72.jpg" alt="Alt-Latin keyboard layout" /></a></p>
+
+<p>Below is block code I have in my <a href="https://github.com/andreasmhallberg/dotfiles/blob/master/.vimrc"><code class="highlighter-rouge">.vimrc</code></a>
+to emulate the Alt-Latin layout in Vim. I have only mapped characters that are needed for the transcription system used in <a href="http://referenceworks.brillonline.com/browse/encyclopedia-of-arabic-language-and-linguistics">Encyclopedia of Arabic Language and Linguistics</a>. The code also includes mappings for <code class="highlighter-rouge">r</code> operations.</p>
+
+<p>It may tricky to use the <code class="highlighter-rouge">r</code> operation with the transcription. After typing <code class="highlighter-rouge">r</code> to replace a single character you only have one second (with the default settings) to type the right key combination for the transcription character. If this is a problem you can change the default 1000 ms timer to some other value, e.g. <code class="highlighter-rouge">:set timeoutlen=2000</code>.</p>
+
+<div class="language-vim highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">" Arabic transcription (simulates Alt-Latin keyboard layout)</span>
+inoremap <span class="p">&lt;</span>M<span class="p">-</span><span class="k">a</span><span class="p">&gt;</span><span class="k">a</span> ā
+inoremap <span class="p">&lt;</span>M<span class="p">-</span><span class="k">a</span><span class="p">&gt;</span>A Ā
+inoremap <span class="p">&lt;</span>M<span class="p">-</span><span class="k">a</span><span class="p">&gt;</span><span class="k">i</span> ī
+inoremap <span class="p">&lt;</span>M<span class="p">-</span><span class="k">a</span><span class="p">&gt;</span>I Ī
+inoremap <span class="p">&lt;</span>M<span class="p">-</span><span class="k">a</span><span class="p">&gt;</span><span class="k">u</span> ū
+inoremap <span class="p">&lt;</span>M<span class="p">-</span><span class="k">a</span><span class="p">&gt;</span>U Ū
+inoremap <span class="p">&lt;</span>M<span class="p">-</span><span class="k">a</span><span class="p">&gt;</span>ō ō
+inoremap <span class="p">&lt;</span>M<span class="p">-</span><span class="k">a</span><span class="p">&gt;</span>Ō Ō 
+inoremap <span class="p">&lt;</span>M<span class="p">-</span><span class="k">a</span><span class="p">&gt;</span><span class="k">e</span> ē
+inoremap <span class="p">&lt;</span>M<span class="p">-</span><span class="k">a</span><span class="p">&gt;</span>E Ē
+inoremap <span class="p">&lt;</span>M<span class="p">-</span><span class="k">p</span><span class="p">&gt;</span> ʿ
+inoremap <span class="p">&lt;</span>M<span class="p">-</span>P<span class="p">&gt;</span> ʾ
+inoremap <span class="p">&lt;</span>M<span class="p">-.&gt;</span><span class="k">d</span> ḍ
+inoremap <span class="p">&lt;</span>M<span class="p">-.&gt;</span>D Ḍ
+inoremap <span class="p">&lt;</span>M<span class="p">-.&gt;</span>s ṣ
+inoremap <span class="p">&lt;</span>M<span class="p">-.&gt;</span>S Ṣ
+inoremap <span class="p">&lt;</span>M<span class="p">-.&gt;</span><span class="k">t</span> ṭ
+inoremap <span class="p">&lt;</span>M<span class="p">-.&gt;</span>T Ṭ
+inoremap <span class="p">&lt;</span>M<span class="p">-.&gt;</span>z ẓ
+inoremap <span class="p">&lt;</span>M<span class="p">-.&gt;</span>Z Ẓ
+inoremap <span class="p">&lt;</span>M<span class="p">-.&gt;</span><span class="k">h</span> ḥ
+inoremap <span class="p">&lt;</span>M<span class="p">-.&gt;</span>H Ḥ
+inoremap <span class="p">&lt;</span>M<span class="p">-</span><span class="k">w</span><span class="p">&gt;</span><span class="k">g</span> ġ
+inoremap <span class="p">&lt;</span>M<span class="p">-</span><span class="k">w</span><span class="p">&gt;</span>G Ġ
+inoremap <span class="p">&lt;</span>M<span class="p">-</span><span class="k">x</span><span class="p">&gt;</span><span class="k">d</span> ḏ
+inoremap <span class="p">&lt;</span>M<span class="p">-</span><span class="k">x</span><span class="p">&gt;</span>D Ḏ
+inoremap <span class="p">&lt;</span>M<span class="p">-</span><span class="k">x</span><span class="p">&gt;</span><span class="k">t</span> ṯ
+inoremap <span class="p">&lt;</span>M<span class="p">-</span><span class="k">x</span><span class="p">&gt;</span>T Ṯ
+inoremap <span class="p">&lt;</span>M<span class="p">-</span><span class="k">v</span><span class="p">&gt;</span>s š
+inoremap <span class="p">&lt;</span>M<span class="p">-</span><span class="k">v</span><span class="p">&gt;</span>S Š
+
+<span class="c">" r operations</span>
+nmap <span class="k">r</span><span class="p">&lt;</span>M<span class="p">-</span><span class="k">a</span><span class="p">&gt;</span><span class="k">a</span> rā
+nmap <span class="k">r</span><span class="p">&lt;</span>M<span class="p">-</span><span class="k">a</span><span class="p">&gt;</span>A rĀ
+nmap <span class="k">r</span><span class="p">&lt;</span>M<span class="p">-</span><span class="k">a</span><span class="p">&gt;</span><span class="k">i</span> rī
+nmap <span class="k">r</span><span class="p">&lt;</span>M<span class="p">-</span><span class="k">a</span><span class="p">&gt;</span>I rĪ
+nmap <span class="k">r</span><span class="p">&lt;</span>M<span class="p">-</span><span class="k">a</span><span class="p">&gt;</span><span class="k">u</span> rū
+nmap <span class="k">r</span><span class="p">&lt;</span>M<span class="p">-</span><span class="k">a</span><span class="p">&gt;</span>U rŪ
+nmap <span class="k">r</span><span class="p">&lt;</span>M<span class="p">-</span><span class="k">a</span><span class="p">&gt;</span>ō rō
+nmap <span class="k">r</span><span class="p">&lt;</span>M<span class="p">-</span><span class="k">a</span><span class="p">&gt;</span>Ō rŌ 
+nmap <span class="k">r</span><span class="p">&lt;</span>M<span class="p">-</span><span class="k">a</span><span class="p">&gt;</span><span class="k">e</span> rē
+nmap <span class="k">r</span><span class="p">&lt;</span>M<span class="p">-</span><span class="k">a</span><span class="p">&gt;</span>E rĒ
+nmap <span class="k">r</span><span class="p">&lt;</span>M<span class="p">-</span><span class="k">p</span><span class="p">&gt;</span> rʿ
+nmap <span class="k">r</span><span class="p">&lt;</span>M<span class="p">-</span>P<span class="p">&gt;</span> rʾ
+nmap <span class="k">r</span><span class="p">&lt;</span>M<span class="p">-.&gt;</span><span class="k">d</span> rḍ
+nmap <span class="k">r</span><span class="p">&lt;</span>M<span class="p">-.&gt;</span>D rḌ
+nmap <span class="k">r</span><span class="p">&lt;</span>M<span class="p">-.&gt;</span>s rṣ
+nmap <span class="k">r</span><span class="p">&lt;</span>M<span class="p">-.&gt;</span>S rṢ
+nmap <span class="k">r</span><span class="p">&lt;</span>M<span class="p">-.&gt;</span><span class="k">t</span> rṭ
+nmap <span class="k">r</span><span class="p">&lt;</span>M<span class="p">-.&gt;</span>T rṬ
+nmap <span class="k">r</span><span class="p">&lt;</span>M<span class="p">-.&gt;</span>z rẓ
+nmap <span class="k">r</span><span class="p">&lt;</span>M<span class="p">-.&gt;</span>Z rẒ
+nmap <span class="k">r</span><span class="p">&lt;</span>M<span class="p">-.&gt;</span><span class="k">h</span> rḥ
+nmap <span class="k">r</span><span class="p">&lt;</span>M<span class="p">-.&gt;</span>H rḤ
+nmap <span class="k">r</span><span class="p">&lt;</span>M<span class="p">-</span><span class="k">w</span><span class="p">&gt;</span><span class="k">g</span> rġ
+nmap <span class="k">r</span><span class="p">&lt;</span>M<span class="p">-</span><span class="k">w</span><span class="p">&gt;</span>G rĠ
+nmap <span class="k">r</span><span class="p">&lt;</span>M<span class="p">-</span><span class="k">x</span><span class="p">&gt;</span><span class="k">d</span> rḏ
+nmap <span class="k">r</span><span class="p">&lt;</span>M<span class="p">-</span><span class="k">x</span><span class="p">&gt;</span>D rḎ
+nmap <span class="k">r</span><span class="p">&lt;</span>M<span class="p">-</span><span class="k">x</span><span class="p">&gt;</span><span class="k">t</span> rṯ
+nmap <span class="k">r</span><span class="p">&lt;</span>M<span class="p">-</span><span class="k">x</span><span class="p">&gt;</span>T rṮ
+nmap <span class="k">r</span><span class="p">&lt;</span>M<span class="p">-</span><span class="k">v</span><span class="p">&gt;</span>s rš
+nmap <span class="k">r</span><span class="p">&lt;</span>M<span class="p">-</span><span class="k">v</span><span class="p">&gt;</span>S rŠ
+</code></pre></div></div>
+
+
+  </div>
+
+</article>
+
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+          <footer class="footer">
+            <p>
+            
+<a href="mailto:andreasmartenhallberg@gmail.com"><i class="svg-icon email"></i></a>
+
+
+<a href="https://github.com/andreasmhallberg"><i class="svg-icon github"></i></a>
+
+
+
+<a href="/feed.xml"><i class="svg-icon rss"></i></a>
+
+
+
+
+            </p>
+            <p>
+            <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons-licens" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Uppercase Alif</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://andreasmhallberg.github.io/" property="cc:attributionName" rel="cc:attributionURL">Andreas Hallberg</a> is licensed under a<br><a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+            </p>
+          </footer>
+      </div>
+    </div>
+
+
+
+  </body>
+</html>

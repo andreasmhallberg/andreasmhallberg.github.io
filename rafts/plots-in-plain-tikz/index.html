@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Writing plots in plain Tikz – Uppercase Alif – Andreas Hallberg's notes on Arabic linguistics, Vim and LaTeX.</title>
+        <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="The quality of plots and graphs in academic publications is often poor. Typically, a plot is generated in some program and is simply pasted into the final document with fonts and a graphical characteristics that do not match the rest of the document. Here I describe a fairly easy and straight forward way of writing simple plots in Tikz in LaTeX documents. It allows for fine control of the output and an easy way to make us global document settings also inside the plots. This description is meant only to give the basic framework of how to rite plots this way, a proof of concept if you will. There are many ways to improve it and streamline the code. It is the method I used to generate the plots in my thesis, such as the one in page 210:
+
+" />
+    <meta property="og:description" content="The quality of plots and graphs in academic publications is often poor. Typically, a plot is generated in some program and is simply pasted into the final document with fonts and a graphical characteristics that do not match the rest of the document. Here I describe a fairly easy and straight forward way of writing simple plots in Tikz in LaTeX documents. It allows for fine control of the output and an easy way to make us global document settings also inside the plots. This description is meant only to give the basic framework of how to rite plots this way, a proof of concept if you will. There are many ways to improve it and streamline the code. It is the method I used to generate the plots in my thesis, such as the one in page 210:
+
+" />
+    
+    <meta name="author" content="Uppercase Alif" />
+
+    
+    <meta property="og:title" content="Writing plots in plain Tikz" />
+    <meta property="twitter:title" content="Writing plots in plain Tikz" />
+    
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" type="image/x-icon" href="/logo/favicon.png"> 
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="Uppercase Alif - Andreas Hallberg's notes on Arabic linguistics, Vim and LaTeX." href="/feed.xml" />
+
+    
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-77917262-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+
+    <!-- Begin Jekyll SEO tag v2.4.0 -->
+<title>Writing plots in plain Tikz | Uppercase Alif</title>
+<meta name="generator" content="Jekyll v3.7.2" />
+<meta property="og:title" content="Writing plots in plain Tikz" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="The quality of plots and graphs in academic publications is often poor. Typically, a plot is generated in some program and is simply pasted into the final document with fonts and a graphical characteristics that do not match the rest of the document. Here I describe a fairly easy and straight forward way of writing simple plots in Tikz in LaTeX documents. It allows for fine control of the output and an easy way to make us global document settings also inside the plots. This description is meant only to give the basic framework of how to rite plots this way, a proof of concept if you will. There are many ways to improve it and streamline the code. It is the method I used to generate the plots in my thesis, such as the one in page 210:" />
+<meta property="og:description" content="The quality of plots and graphs in academic publications is often poor. Typically, a plot is generated in some program and is simply pasted into the final document with fonts and a graphical characteristics that do not match the rest of the document. Here I describe a fairly easy and straight forward way of writing simple plots in Tikz in LaTeX documents. It allows for fine control of the output and an easy way to make us global document settings also inside the plots. This description is meant only to give the basic framework of how to rite plots this way, a proof of concept if you will. There are many ways to improve it and streamline the code. It is the method I used to generate the plots in my thesis, such as the one in page 210:" />
+<link rel="canonical" href="http://localhost:4000/plots-in-plain-tikz/" />
+<meta property="og:url" content="http://localhost:4000/plots-in-plain-tikz/" />
+<meta property="og:site_name" content="Uppercase Alif" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2016-08-09T00:00:00+02:00" />
+<script type="application/ld+json">
+{"description":"The quality of plots and graphs in academic publications is often poor. Typically, a plot is generated in some program and is simply pasted into the final document with fonts and a graphical characteristics that do not match the rest of the document. Here I describe a fairly easy and straight forward way of writing simple plots in Tikz in LaTeX documents. It allows for fine control of the output and an easy way to make us global document settings also inside the plots. This description is meant only to give the basic framework of how to rite plots this way, a proof of concept if you will. There are many ways to improve it and streamline the code. It is the method I used to generate the plots in my thesis, such as the one in page 210:","@type":"BlogPosting","headline":"Writing plots in plain Tikz","dateModified":"2016-08-09T00:00:00+02:00","datePublished":"2016-08-09T00:00:00+02:00","url":"http://localhost:4000/plots-in-plain-tikz/","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/plots-in-plain-tikz/"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+
+         <a href="/" class="site-avatar"><img src="http://andreasmhallberg.github.io/logo/logo2.png" /></a>
+
+          <div class="site-info">
+            <h1 class="site-name"><a href="/">Uppercase Alif</a></h1>
+            <p class="site-description">Andreas Hallberg's notes on Arabic linguistics, Vim and LaTeX.</p>
+          </div>
+
+          <nav>
+            <a href="/">Blog</a>
+            <a href="/tags">Tags</a>
+            <a href="/documents">Docs</a>
+            <a href="/about">About</a>
+          </nav>
+
+        </header>
+      </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+      <article class="post">
+  <h1>Writing plots in plain Tikz:</br><i></i></h1>
+
+  <div class="date">
+
+    
+
+    
+    August  9, 2016<br>
+    
+    Tags:  -latex -tikz -typography<br>
+    Length: long<br>
+    
+
+    
+
+
+    
+
+  </div>
+
+
+
+  <div class="entry">
+    <p>The quality of plots and graphs in academic publications is often poor. Typically, a plot is generated in some program and is simply pasted into the final document with fonts and a graphical characteristics that do not match the rest of the document. Here I describe a fairly easy and straight forward way of writing simple plots in Ti<em>k</em>z in LaTeX documents. It allows for fine control of the output and an easy way to make us global document settings also inside the plots. This description is meant only to give the basic framework of how to rite plots this way, a proof of concept if you will. There are many ways to improve it and streamline the code. It is the method I used to generate the plots in my <a href="https://lup.lub.lu.se/search/publication/8524489">thesis</a>, such as the one in page 210:</p>
+
+<p><img src="/images/2016-08-09/definitenessplotpage.png" alt="Plot from diss" /></p>
+
+<p>Ti<em>k</em>z is an extension of LaTeX (as well of other TeX-derived languages) specialized in describing and producing technical graphics. (For a good short introduction to Ti<em>k</em>z check out <a href="http://cremeronline.com/LaTeX/minimaltikz.png">A very minimal introduction to Ti<em>k</em>Z</a>.) Below I describe how to</p>
+
+<ol>
+  <li>set up a coordinate system that matches the structure of the data</li>
+  <li>draw the axes</li>
+  <li>define functions for plotting data as points or lines</li>
+  <li>add the data in the form of these functions</li>
+</ol>
+
+<p>A self complete self-contained example can be found at the end of this post.</p>
+
+<p>The design of these plots aims to get a high ink-to-information ratio, as defined by Edward Tufte in <em>The Visual Display of Quantitative Information</em> (Graphics Press, 2001). That is, every use of ink in the plot should convey some piece information. If it does not, if it is mere decoration, it should be removed. These plots are not as radical as some of Tufte’s most minimal designs. I have for example retained the axis lines, which I feel are needed to visually delimit the plotting area since I have no grid or background color that would otherwise define it. Still, these plots are fairly sparse, with little graphical redundancy.</p>
+
+<p>Some words on <a href="https://www.ctan.org/pkg/pgfplots"><code class="highlighter-rouge">pgfplots</code></a>. pgfplots is a popular higher level language for plotting based on Ti<em>k</em>z/pgf. I do not use it. I never got into it. I like the direct control that plain Ti<em>k</em>z provides. And also I just didn’t want to learn how to navigate the <code class="highlighter-rouge">pgfplots</code> documentation, which would. A lot of people like pgfplots, however, and it is probably faster once you learn it properly, especially if you do a lot of more complicated plots. I suspect though that using pgfplots would make it quite a bit more tricky to get some finer details exactly the way you want them. Also, if you have learned the basics of Ti<em>k</em>z, setting up your own system for plot writing is quite simple, as I hope to demonstrate in this post.</p>
+
+<h2 id="setup">Setup</h2>
+
+<p>First we need specify some lengths in the preamble of the LaTeX code. These lengths are to be the same in all plots so as to give coherent feel. Note for example that every plot is to be have same size relative to the page layout: one fifth of the height of the text block and a little more than two thirds of its width. By specifying the lengths this way, they conveniently scale to different page sizes if you change it later. These values are a matter of taste and can be changed at any point. They can also be overridden locally for a specific plot with the <code class="highlighter-rouge">\setllength</code> command.</p>
+
+<div class="language-tex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">\usepackage</span><span class="p">{</span>tikz<span class="p">}</span>
+<span class="k">\usepackage</span><span class="p">{</span>calc<span class="p">}</span>
+<span class="k">\usepackage</span><span class="p">{</span>kantlipsum<span class="p">}</span> <span class="c">% for placeholder text</span>
+
+<span class="c">% lengths for tikz plots</span>
+<span class="k">\newlength\plotdataheight</span> <span class="c">% Height of plotting area</span>
+<span class="k">\setlength\plotdataheight</span><span class="p">{</span>.2<span class="k">\textheight</span><span class="p">}</span>
+<span class="k">\newlength\plotdatawidth</span> <span class="c">% Width of plotting area</span>
+<span class="k">\setlength\plotdatawidth</span><span class="p">{</span>.7<span class="k">\textwidth</span><span class="p">}</span>
+<span class="k">\newlength\axissep</span> <span class="c">% Space between plotting area and axis</span>
+<span class="k">\setlength\axissep</span><span class="p">{</span>1em<span class="p">}</span>
+<span class="k">\newlength\tickl</span> <span class="c">% Length of minor ticks</span>
+<span class="k">\setlength\tickl</span><span class="p">{</span>2mm<span class="p">}</span>
+<span class="k">\newlength\ltickl</span> <span class="c">% Length of major ticks</span>
+<span class="k">\setlength\ltickl</span><span class="p">{</span>3mm<span class="p">}</span> 
+<span class="k">\newlength\ylabsep</span> <span class="c">% space between plotting area and y-label </span>
+<span class="k">\setlength\ylabsep</span><span class="p">{</span><span class="k">\axissep</span>+<span class="k">\tickl</span>+1.5em<span class="p">}</span>
+<span class="k">\newlength\xlabsep</span> <span class="c">% space between plotting area and x-label</span>
+<span class="k">\setlength\xlabsep</span><span class="p">{</span><span class="k">\axissep</span>+<span class="k">\tickl</span>+1.5em<span class="p">}</span>
+</code></pre></div></div>
+
+<p>The basic framework for each plot is as follows. Before each plot we specify some variables for that particular plot, namely the minimum and maximum values of the x- and y-axes in (these can be negative values) and the axis labels. These typically represent the independent and the response variables.</p>
+
+<div class="language-tex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">\def\maxy</span><span class="p">{</span>100<span class="p">}</span><span class="c">%</span>
+<span class="k">\def\miny</span><span class="p">{</span>0<span class="p">}</span><span class="c">%</span>
+<span class="k">\def\maxx</span><span class="p">{</span>3<span class="p">}</span><span class="c">%</span>
+<span class="k">\def\minx</span><span class="p">{</span>0<span class="p">}</span><span class="c">%</span>
+<span class="k">\def\xlab</span><span class="p">{</span>Definiteness<span class="p">}</span><span class="c">%</span>
+<span class="k">\def\ylab</span><span class="p">{</span>Case marking (<span class="k">\%</span>)<span class="p">}</span><span class="c">%</span>
+</code></pre></div></div>
+
+<p>On the line directly following this we start the <code class="highlighter-rouge">tikzpicture</code> environment where we do the actual drawing. The code is explained below.</p>
+
+<div class="language-tex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">\begin{tikzpicture}</span>[
+    y=<span class="k">\plotdataheight</span>/(<span class="k">\maxy</span>-<span class="k">\miny</span>)
+    , x=<span class="k">\plotdatawidth</span>/(<span class="k">\maxx</span>-<span class="k">\minx</span>)]
+
+    <span class="k">\useasboundingbox</span> 
+        (<span class="k">\minx</span>,<span class="k">\miny</span>) ++ 
+        (-<span class="k">\axissep</span>,-<span class="k">\axissep</span>-<span class="k">\tickl</span>-<span class="k">\xlabsep</span>)
+        rectangle (<span class="k">\maxx</span>,<span class="k">\maxy</span>);
+
+<span class="c">% y-axis</span>
+<span class="k">\draw</span> (<span class="k">\minx</span>-<span class="k">\axissep</span>,<span class="k">\miny</span>) -- (<span class="k">\minx</span>-<span class="k">\axissep</span>,<span class="k">\maxy</span>);
+<span class="c">% y-ticks</span>
+<span class="k">\foreach</span> <span class="k">\x</span> in <span class="p">{</span><span class="k">\miny</span>,25,...,<span class="k">\maxy</span><span class="p">}</span> 
+    <span class="p">{</span><span class="k">\draw</span> (<span class="k">\minx</span>,<span class="k">\x</span>) ++ (-<span class="k">\axissep</span>,0) -- ++ (-<span class="k">\tickl</span>,0)
+<span class="c">% y-tick labels    </span>
+	    node[anchor=east] <span class="p">{</span><span class="k">\x</span><span class="p">}</span>;<span class="p">}</span>
+<span class="c">% y-label</span>
+    <span class="k">\path</span>  (<span class="k">\minx</span>-<span class="k">\ylabsep</span>, <span class="p">{</span>(<span class="k">\miny</span>+<span class="k">\maxy</span>)/2<span class="p">}</span>) node[align=center, rotate=90 ,anchor=south] <span class="p">{</span><span class="k">\ylab</span><span class="p">}</span>;
+
+<span class="c">% x-axis</span>
+<span class="k">\draw</span> (<span class="k">\minx</span>,<span class="k">\miny</span>) ++ (0,-<span class="k">\axissep</span>) -- ++ (<span class="k">\maxx</span>,0);
+
+<span class="c">% x-ticks</span>
+<span class="k">\foreach</span> <span class="k">\x</span>/ in <span class="p">{</span> 0, 1, 2, 3 <span class="p">}</span>
+    <span class="k">\draw</span> (<span class="k">\x</span>, <span class="k">\miny</span>) ++ (0,-<span class="k">\axissep</span>) -- ++ (0, -<span class="k">\tickl</span>);
+<span class="c">% x-tick labels</span>
+      <span class="k">\node</span> at (0,-<span class="k">\axissep</span>-<span class="k">\tickl</span>) [align=center,anchor=north ] <span class="p">{</span>Definite<span class="k">\\</span>article<span class="p">}</span>;
+      <span class="k">\node</span> at (1,-<span class="k">\axissep</span>-<span class="k">\tickl</span>) [anchor=north] <span class="p">{</span><span class="k">\textsc</span><span class="p">{</span>cs-n/c<span class="p">}</span><span class="k">\vphantom</span><span class="p">{</span>I<span class="p">}}</span>; <span class="c">% \vphantom to align</span>
+      <span class="k">\node</span> at (2,-<span class="k">\axissep</span>-<span class="k">\tickl</span>) [anchor=north] <span class="p">{</span>Indefinite<span class="p">}</span>;
+      <span class="k">\node</span> at (3,-<span class="k">\axissep</span>-<span class="k">\tickl</span>) [align=center,anchor=north ] <span class="p">{</span>Enclitic<span class="k">\\</span>pronoun<span class="p">}</span>;
+
+      <span class="c">% &lt;----- Definitions of plotting command(s) go here.</span>
+
+      <span class="c">% &lt;----- Plotting commands go here.</span>
+
+<span class="nt">\end{tikzpicture}</span>
+</code></pre></div></div>
+
+<p>We utilize the max and min values defined above to get a coordinate system that matches the actual data. This means that we can draw it directly using actual data values as coordinate. One unit in the y-axis equals <code class="highlighter-rouge">\plotheight</code> (defined in the preamble as describe above) divided by the span of the y-axis (max value - min value). These values are usually known or easily retrievable from the data. Since in this example we want to plot percentages in the span of 0–100, one unit on the y-axis is one hundredth of the total plot height, which in turn is one fifth of the height of the text block on the page. Thus, we can feed in percentage data directly as a y-coordinate and it will be plotted accordingly. This example of 0–100 is of course very simple, but is works just as good if we have a y-span of, say, 36–285. The same thing is done for the x-axis. In this example, the x-axis has non-numerical data of four levels, 0–3 (including zero).</p>
+
+<p>The <code class="highlighter-rouge">\useasboundingbox</code> delimits the box that TeX identifies for alignment purposes. With this command the plot is centered on the area encloses by the axes lines, ignoring the label and the numbers for the y-axis. This makes the plot optically centered on the plot rather than logically centered as a complete graphical object with labels and all. The two images below illustrate the difference. The image on the left is logically centered, and the one to the right is optically centered using the boundingbox. The red box shows the area that TeX is centering.</p>
+
+<p><img src="/images/2016-08-09/woboundingbox.png" alt="logical alignment" /><img src="/images/2016-08-09/withboundingbox.png" alt="optical alignment" /></p>
+
+<p>The difference is subtle in this example, but if you have labels sticking out the sides, as in the page from the dissertation shown above, the effect is more noticeable. This page also shows the second effect of the boundingbox, namely that the caption becomes aligned with the y-axis of flush left, rather than with the y-axis label on the far left.</p>
+
+<p>The next set of commands draws the x and y-axes, ticks, labels for ticks, and labels for the axes using the lengths defined in the preamble. Thus, the axes are <code class="highlighter-rouge">\axissep</code> (1em) away from the plotting area, making the plot less cramped and giving some space for data points at the very edge of the area. This is a matter of taste. You could for example set this length to zero with <code class="highlighter-rouge">\setlength\axissep{0pt}</code> to have the axes lines exactly on the edge of the plotting area, which is quite common. I find that the plotting area needs some extra room to breath and prefer to give it this extra space.</p>
+
+<p>The one thing that may be tricky here is the for loop to draw the axis ticks. For the y-axis I have it loop over <code class="highlighter-rouge">\miny,25,...,\maxy</code>. This tells Ti<em>k</em>z to start at the minimum y-value (0), do one step to 25, then do steps of equal lengths till it gets to the maximum y-value (100), giving four values. These could just have been type out like this <code class="highlighter-rouge">0,25,50,75,100</code>. For each of these the commands draw a tick and prints the value that the tick represents.</p>
+
+<p>Note also that the tick labels on the x-axis are anchored to the north (top) of the box containing the text, making them top aligned by the tallest letter in each box. This means that if one of them has no ascending characters, such as in the small caps in CS-N/C in our example, but the others have, this shorter label will not be aligned with the others but will be slightly lifted up. To avoid this we add <code class="highlighter-rouge">\vphantom{I}</code> in the shorter label (or in all the labels). This places and invisible object there that has zero width but that is as tall as the letter <em>I</em>, making TeX having them align by this tall, invisible letter.</p>
+
+<p>Now we have the following, which is to be filled with data.</p>
+
+<p><img src="/images/2016-08-09/emptyaxes.png" alt="empty axis" /></p>
+
+<h2 id="entering-data">Entering data</h2>
+
+<p>This is where it all comes together. We want to fill this axis-delimited area with some graphical element, typically dots or lines or a combination of the two, to visualize our data. Because of the way we set up the coordinate system of the plot we can use the numbers from the data directly as coordinates in the plot, making it very simple to write a command that plots our data for us.</p>
+
+<p>The trick here is to take tabular data outputted from your favorite statistics software and turn it into LaTeX commands. For example, let’s say we have some csv-data that looks like the table below, where every line is the rate at which one speaker uses a specific grammatical ending in the four different grammatical environments <code class="highlighter-rouge">definite.article</code>, <code class="highlighter-rouge">cs.nc</code>, <code class="highlighter-rouge">indefite</code>, or <code class="highlighter-rouge">enclitic.pronoun</code>.</p>
+
+<pre><code class="language-csv">definite.article,cs.nc,indefinite,enclitic.pronoun
+10.800,70.000,70.149,99.999
+2.967,15.277,24.902,97.826
+0.809,19.718,30.496,93.750
+4.072,12.121,12.413,56.249
+0.684,4.081,13.872,47.999
+</code></pre>
+
+<p>We remove the column headers, they are not data, and then with some simple substitutions in our favorite text editor we can turn this the into a set of LaTeX commands, arbitrarily named <code class="highlighter-rouge">\plotdata</code>.<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup> In this example, the command was four arguments  since there are fore levels in the independent variable.</p>
+
+<div class="language-tex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">\plotdata</span><span class="p">{</span>10.800<span class="p">}{</span>70.000<span class="p">}{</span>70.149<span class="p">}{</span>99.999<span class="p">}</span>
+<span class="k">\plotdata</span><span class="p">{</span>2.967<span class="p">}{</span>15.277<span class="p">}{</span>24.902<span class="p">}{</span>97.826<span class="p">}</span>
+<span class="k">\plotdata</span><span class="p">{</span>0.809<span class="p">}{</span>19.718<span class="p">}{</span>30.496<span class="p">}{</span>93.750<span class="p">}</span>
+<span class="k">\plotdata</span><span class="p">{</span>4.072<span class="p">}{</span>12.121<span class="p">}{</span>12.413<span class="p">}{</span>56.249<span class="p">}</span>
+<span class="k">\plotdata</span><span class="p">{</span>0.684<span class="p">}{</span>4.081<span class="p">}{</span>13.872<span class="p">}{</span>47.999<span class="p">}</span>
+</code></pre></div></div>
+
+<p>We insert this at the bottom of our <code class="highlighter-rouge">tikzpicture</code> environment. Now all we need to do is to define the <code class="highlighter-rouge">\plotdata</code> command so that all this actually does something. The beauty of this approach is that now we have all the structure we need and we can use of the resources of Ti<em>k</em>z to turn them into a nice-looking plot. I will give two examples of how to do this, first with dots as a scatter plot and then with lines as a line plot.</p>
+
+<p>First dots. In Ti<em>k</em>z, coordinates are specified as <code class="highlighter-rouge">(&lt;x&gt;,&lt;y&gt;)</code>. The command definition below takes the first argument as the y-coordinate on draws it on <em>x=0</em>. The second argument as the y-coordinate on <em>x=1</em>, etc. Since we specified the <em>y</em>\ units in the plot to reflect the properties of the data, it will come out just right.</p>
+
+<div class="language-tex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">\newcommand\plotdata</span><span class="na">[4]</span><span class="p">{</span>
+  <span class="k">\draw</span><span class="na">[fill=black]</span> (0,#1) circle [radius=1pt];
+  <span class="k">\draw</span><span class="na">[fill=black]</span> (1,#2) circle [radius=1pt];
+  <span class="k">\draw</span><span class="na">[fill=black]</span> (2,#3) circle [radius=1pt];
+  <span class="k">\draw</span><span class="na">[fill=black]</span> (3,#4) circle [radius=1pt];
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>This gives the following:</p>
+
+<p><img src="/images/2016-08-09/dots.png" alt="Scatter plot" /></p>
+
+<p>Now lines. Here we want to connect these same four coordinates with a line.</p>
+
+<div class="language-tex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">\newcommand\plotdata</span><span class="na">[4]</span><span class="p">{</span>
+  <span class="k">\draw</span> (0,#1) -- (1,#2) -- (2,#3) -- (3,#4);
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>This gives the following, which is what we want in this example:</p>
+
+<p><img src="/images/2016-08-09/lines.png" alt="Line plot" /></p>
+
+<p>And there you have the basic idea.</p>
+
+<h2 id="complete-self-contained-example">Complete self contained example</h2>
+
+<div class="language-tex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">\documentclass</span><span class="p">{</span>article<span class="p">}</span>
+<span class="k">\usepackage</span><span class="p">{</span>tikz<span class="p">}</span>
+<span class="k">\usepackage</span><span class="p">{</span>calc<span class="p">}</span>
+<span class="k">\usepackage</span><span class="p">{</span>kantlipsum<span class="p">}</span>
+
+<span class="c">% lengths for tikz plots</span>
+<span class="k">\newlength\plotheight</span> <span class="c">% Height of plotting area</span>
+<span class="k">\setlength\plotheight</span><span class="p">{</span>.2<span class="k">\textheight</span><span class="p">}</span>
+<span class="k">\newlength\plotwidth</span> <span class="c">% Width of plotting area</span>
+<span class="k">\setlength\plotwidth</span><span class="p">{</span>.7<span class="k">\textwidth</span><span class="p">}</span>
+<span class="k">\newlength\axissep</span> <span class="c">% Space between plotting area and axis</span>
+<span class="k">\setlength\axissep</span><span class="p">{</span>1em<span class="p">}</span>
+<span class="k">\newlength\tickl</span> <span class="c">% Length of minor ticks</span>
+<span class="k">\setlength\tickl</span><span class="p">{</span>2mm<span class="p">}</span>
+<span class="k">\newlength\ltickl</span> <span class="c">% Length of major ticks</span>
+<span class="k">\setlength\ltickl</span><span class="p">{</span>3mm<span class="p">}</span> 
+<span class="k">\newlength\ylabsep</span> <span class="c">% space between plotting area and y-label </span>
+<span class="k">\setlength\ylabsep</span><span class="p">{</span><span class="k">\axissep</span>+<span class="k">\tickl</span>+1.5em<span class="p">}</span>
+<span class="k">\newlength\xlabsep</span> <span class="c">% space between plotting area and x-label</span>
+<span class="k">\setlength\xlabsep</span><span class="p">{</span><span class="k">\axissep</span>+<span class="k">\tickl</span>+1.5em<span class="p">}</span>
+
+<span class="nt">\begin{document}</span>
+
+<span class="k">\kant</span><span class="na">[1]</span>
+
+<span class="nt">\begin{figure}</span>
+<span class="k">\center</span>
+<span class="k">\def\maxy</span><span class="p">{</span>100<span class="p">}</span><span class="c">%</span>
+<span class="k">\def\miny</span><span class="p">{</span>0<span class="p">}</span><span class="c">%</span>
+<span class="k">\def\maxx</span><span class="p">{</span>3<span class="p">}</span><span class="c">%</span>
+<span class="k">\def\minx</span><span class="p">{</span>0<span class="p">}</span><span class="c">%</span>
+<span class="k">\def\xlab</span><span class="p">{</span>Definiteness<span class="p">}</span><span class="c">%</span>
+<span class="k">\def\ylab</span><span class="p">{</span>Case marking (<span class="k">\%</span>)<span class="p">}</span><span class="c">%</span>
+<span class="nt">\begin{tikzpicture}</span>[
+    y=<span class="k">\plotheight</span>/(<span class="k">\maxy</span>-<span class="k">\miny</span>)
+    , x=<span class="k">\plotwidth</span>/(<span class="k">\maxx</span>-<span class="k">\minx</span>)]
+
+    <span class="k">\useasboundingbox</span> 
+        (-<span class="k">\axissep</span>,-<span class="k">\axissep</span>-<span class="k">\tickl</span>-<span class="k">\xlabsep</span>)
+        rectangle  (<span class="k">\maxx</span>,<span class="k">\maxy</span>);
+
+<span class="c">% y-axis</span>
+<span class="k">\draw</span> (<span class="k">\minx</span>-<span class="k">\axissep</span>,<span class="k">\miny</span>) -- (<span class="k">\minx</span>-<span class="k">\axissep</span>,<span class="k">\maxy</span>);
+<span class="c">% y-ticks</span>
+<span class="k">\foreach</span> <span class="k">\x</span> in <span class="p">{</span>0,25,...,<span class="k">\maxy</span><span class="p">}</span> 
+    <span class="p">{</span><span class="k">\draw</span> (<span class="k">\minx</span>,<span class="k">\x</span>) ++ (-<span class="k">\axissep</span>,0) -- ++ (-<span class="k">\tickl</span>,0)
+<span class="c">% y-ticklabels    </span>
+	    node[anchor=east] <span class="p">{</span><span class="k">\x</span><span class="p">}</span>;<span class="p">}</span>
+<span class="c">% y-label</span>
+    <span class="k">\path</span>  (<span class="k">\minx</span>-<span class="k">\ylabsep</span>, <span class="p">{</span>(<span class="k">\miny</span>+<span class="k">\maxy</span>)/2<span class="p">}</span>) node[align=center, rotate=90 ,anchor=south] <span class="p">{</span><span class="k">\ylab</span><span class="p">}</span>;
+
+<span class="c">% x-axis</span>
+<span class="k">\draw</span> (<span class="k">\minx</span>,<span class="k">\miny</span>) ++ (0,-<span class="k">\axissep</span>) -- ++ (<span class="k">\maxx</span>,0);
+
+<span class="c">% x-ticks</span>
+<span class="k">\foreach</span> <span class="k">\x</span> in <span class="p">{</span> 0, 1, 2, 3 <span class="p">}</span>
+    <span class="k">\draw</span> (<span class="k">\x</span>, <span class="k">\miny</span>) ++ (0,-<span class="k">\axissep</span>) -- ++ (0, -<span class="k">\tickl</span>);
+<span class="c">% x-ticklabels</span>
+      <span class="k">\node</span> at (0,-<span class="k">\axissep</span>-<span class="k">\tickl</span>) [align=center,anchor=north ] <span class="p">{</span>Definite<span class="k">\\</span>article<span class="p">}</span>;
+      <span class="k">\node</span> at (1,-<span class="k">\axissep</span>-<span class="k">\tickl</span>) [anchor=north] <span class="p">{</span><span class="k">\textsc</span><span class="p">{</span>cs-n/c<span class="p">}</span><span class="k">\vphantom</span><span class="p">{</span>I<span class="p">}}</span>; <span class="c">% \vphantom to align</span>
+      <span class="k">\node</span> at (2,-<span class="k">\axissep</span>-<span class="k">\tickl</span>) [anchor=north] <span class="p">{</span>Indefinite<span class="p">}</span>;
+      <span class="k">\node</span> at (3,-<span class="k">\axissep</span>-<span class="k">\tickl</span>) [align=center,anchor=north ] <span class="p">{</span>Enclitic<span class="k">\\</span>pronoun<span class="p">}</span>;
+
+<span class="c">% x-label</span>
+    <span class="k">\path</span> (<span class="p">{</span>(<span class="k">\minx</span>+<span class="k">\maxx</span>)/2<span class="p">}</span>,<span class="k">\miny</span>) ++ (0, -<span class="k">\xlabsep</span>-<span class="k">\baselineskip</span>)
+    node[anchor=north] <span class="p">{</span><span class="k">\xlab</span><span class="p">}</span>;
+
+<span class="c">% \newcommand\plotdata[4]{</span>
+<span class="c">%   \draw[fill=black] (0,#1) circle [radius=1pt];</span>
+<span class="c">%   \draw[fill=black] (1,#2) circle [radius=1pt];</span>
+<span class="c">%   \draw[fill=black] (2,#3) circle [radius=1pt];</span>
+<span class="c">%   \draw[fill=black] (3,#4) circle [radius=1pt];</span>
+<span class="c">% }</span>
+
+<span class="k">\newcommand\plotdata</span><span class="na">[4]</span><span class="p">{</span>
+  <span class="k">\draw</span> (0,#1) -- (1,#2) -- (2,#3) -- (3,#4);
+<span class="p">}</span>
+
+<span class="k">\plotdata</span><span class="p">{</span>10.800<span class="p">}{</span>70.000<span class="p">}{</span>70.149<span class="p">}{</span>99.999<span class="p">}</span>
+<span class="k">\plotdata</span><span class="p">{</span>2.967<span class="p">}{</span>15.277<span class="p">}{</span>24.902<span class="p">}{</span>97.826<span class="p">}</span>
+<span class="k">\plotdata</span><span class="p">{</span>0.809<span class="p">}{</span>19.718<span class="p">}{</span>30.496<span class="p">}{</span>93.750<span class="p">}</span>
+<span class="k">\plotdata</span><span class="p">{</span>4.072<span class="p">}{</span>12.121<span class="p">}{</span>12.413<span class="p">}{</span>56.249<span class="p">}</span>
+<span class="k">\plotdata</span><span class="p">{</span>0.684<span class="p">}{</span>4.081<span class="p">}{</span>13.872<span class="p">}{</span>47.999<span class="p">}</span>
+
+<span class="nt">\end{tikzpicture}</span>
+<span class="k">\caption</span><span class="p">{</span>Predicted case marking by types of definiteness<span class="p">}</span>
+<span class="nt">\end{figure}</span>
+
+<span class="k">\kant</span><span class="na">[2]</span>
+
+<span class="nt">\end{document}</span>
+</code></pre></div></div>
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>In Vim, for example, we can visually select the csv data and do this <code class="highlighter-rouge">:s/^/\\plotdata{/g</code>, this <code class="highlighter-rouge">:s/,/}{/g</code>, and this <code class="highlighter-rouge">:s/$/}/g</code>, and there you have it. If you are doing your statistics in\ <em>R</em> I find it more convenient to write a script that transform the data into LaTeX commands directly. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+  </div>
+
+</article>
+
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+          <footer class="footer">
+            <p>
+            
+<a href="mailto:andreasmartenhallberg@gmail.com"><i class="svg-icon email"></i></a>
+
+
+<a href="https://github.com/andreasmhallberg"><i class="svg-icon github"></i></a>
+
+
+
+<a href="/feed.xml"><i class="svg-icon rss"></i></a>
+
+
+
+
+            </p>
+            <p>
+            <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons-licens" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Uppercase Alif</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://andreasmhallberg.github.io/" property="cc:attributionName" rel="cc:attributionURL">Andreas Hallberg</a> is licensed under a<br><a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+            </p>
+          </footer>
+      </div>
+    </div>
+
+
+
+  </body>
+</html>

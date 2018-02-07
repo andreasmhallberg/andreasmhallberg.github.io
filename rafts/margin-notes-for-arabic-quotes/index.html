@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Margin notes for Arabic quotes in LaTeX – Uppercase Alif – Andreas Hallberg's notes on Arabic linguistics, Vim and LaTeX.</title>
+        <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="This posts describes a way of showing quoted Arabic text in the margin in non-Arabic environments and how this can be achieved in LaTeX. For sentence length quotes this has several advantages over the traditional method of transcribing the Arabic text.
+
+" />
+    <meta property="og:description" content="This posts describes a way of showing quoted Arabic text in the margin in non-Arabic environments and how this can be achieved in LaTeX. For sentence length quotes this has several advantages over the traditional method of transcribing the Arabic text.
+
+" />
+    
+    <meta name="author" content="Uppercase Alif" />
+
+    
+    <meta property="og:title" content="Margin notes for Arabic quotes in LaTeX" />
+    <meta property="twitter:title" content="Margin notes for Arabic quotes in LaTeX" />
+    
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" type="image/x-icon" href="/logo/favicon.png"> 
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="Uppercase Alif - Andreas Hallberg's notes on Arabic linguistics, Vim and LaTeX." href="/feed.xml" />
+
+    
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-77917262-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+
+    <!-- Begin Jekyll SEO tag v2.4.0 -->
+<title>Margin notes for Arabic quotes in LaTeX | Uppercase Alif</title>
+<meta name="generator" content="Jekyll v3.7.2" />
+<meta property="og:title" content="Margin notes for Arabic quotes in LaTeX" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="This posts describes a way of showing quoted Arabic text in the margin in non-Arabic environments and how this can be achieved in LaTeX. For sentence length quotes this has several advantages over the traditional method of transcribing the Arabic text." />
+<meta property="og:description" content="This posts describes a way of showing quoted Arabic text in the margin in non-Arabic environments and how this can be achieved in LaTeX. For sentence length quotes this has several advantages over the traditional method of transcribing the Arabic text." />
+<link rel="canonical" href="http://localhost:4000/margin-notes-for-arabic-quotes/" />
+<meta property="og:url" content="http://localhost:4000/margin-notes-for-arabic-quotes/" />
+<meta property="og:site_name" content="Uppercase Alif" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2016-04-26T00:00:00+02:00" />
+<script type="application/ld+json">
+{"description":"This posts describes a way of showing quoted Arabic text in the margin in non-Arabic environments and how this can be achieved in LaTeX. For sentence length quotes this has several advantages over the traditional method of transcribing the Arabic text.","@type":"BlogPosting","headline":"Margin notes for Arabic quotes in LaTeX","dateModified":"2016-04-26T00:00:00+02:00","datePublished":"2016-04-26T00:00:00+02:00","url":"http://localhost:4000/margin-notes-for-arabic-quotes/","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/margin-notes-for-arabic-quotes/"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+
+         <a href="/" class="site-avatar"><img src="http://andreasmhallberg.github.io/logo/logo2.png" /></a>
+
+          <div class="site-info">
+            <h1 class="site-name"><a href="/">Uppercase Alif</a></h1>
+            <p class="site-description">Andreas Hallberg's notes on Arabic linguistics, Vim and LaTeX.</p>
+          </div>
+
+          <nav>
+            <a href="/">Blog</a>
+            <a href="/tags">Tags</a>
+            <a href="/documents">Docs</a>
+            <a href="/about">About</a>
+          </nav>
+
+        </header>
+      </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+      <article class="post">
+  <h1>Margin notes for Arabic quotes in LaTeX:</br><i></i></h1>
+
+  <div class="date">
+
+    
+
+    
+    April 26, 2016<br>
+    
+    Tags:  -typography -latex<br>
+    Length: medium<br>
+    
+
+    
+
+
+    
+
+  </div>
+
+
+  <p>
+  <div class="update">
+    
+        Update 2017-03-03 &mdash; Had I when I wrote this post known what I know now, I would have used <a href="/stretchable-kashida/">the stretchable kashida</a> to justify the margin notes, rather than having them ragged right.
+<br>
+    
+  </div>
+  </p>
+
+
+  <div class="entry">
+    <p>This posts describes a way of showing quoted Arabic text in the margin in non-Arabic environments and how this can be achieved in LaTeX. For sentence length quotes this has several advantages over the traditional method of transcribing the Arabic text.</p>
+
+<p>Often when one wants to quote an Arabic source in a non-Arabic text, the quote is translated with the original text transcribed. Transcribing the quote makes sense if a single word or short expression is quoted, since also the reader who is not very familiar with Arabic can read it and learn or recognize it. For longer quotes, transcription serves no real purpose. The reader who is not very familiar with Arabic will not be able to read it and for the reader who is familiar with Arabic it would be easier to read it in the original Arabic script. I find that to read a longer stretch of Arabic text in transcription I often have to read it aloud to understand it since I am not familiar with the visual shape of the transcribed words. Furthermore, when the text is transcribed this necessarily means adding vowels that are not there in the original text, thus adding information to the text that was not there in the source. It is then not possible to tell which of these vowels, if any, were there in the original text. It is in other words not an exact quote. Many quotes inserted this way also make for a cumbersome read, as illustrated in the following extract from an academic article<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>.</p>
+
+<p><img src="/images/2016-04-26-margin-notes-for-arabic-quotes/suleymantransarabic.png" alt="Article with lengthy Arabic transliteration" /></p>
+
+<p>The alternative then is to give the translation together with the original in Arabic script. For block quotes, this usually works fine, as the translation and the Arabic original are in two separate paragraphs and there is no problem with directionality. Sentence length quotes are best used in the running text, but the switch from left-to-right (LTR) to right-to-left (RTL) script can be quite annoying to read. This is especially problematic if there is a line break in the Arabic quote. The reader (who wishes to read the Arabic quote) must then go to the right end of the line where the RTL text begins, read to left to the middle of the line, then go the middle of the next line where the Arabic text continues, read to the left end of the line, go back to the middle of the line and continue reading the LTR Latinate text. Add to this the aesthetic problems of having a lucid and round Arabic script inserted into the angular and strict forms of a Roman typeface.</p>
+
+<p>In <a href="https://lup.lub.lu.se/search/publication/8524489">my dissertation</a> I have several such sentence length Arabic quotes and I wanted to avoid the directionality-mess described above. The way I did this was to have the translated quote in the running text and have the original Arabic text in the margin. This is illustrated in the image below, showing page 24 of the dissertation. Note how the first row of the Arabic text is aligned with the first row of the translation in the running text. This way, the quote is readily available for the interested reader without mixing reading direction, and the result is more aesthetically pleasing since the Arabic and the Latin texts are kept separate. The reader who does not know Arabic is not disturbed with it in the running text.</p>
+
+<p><img src="/images/2016-04-26-margin-notes-for-arabic-quotes/case.p24.png" alt="Page with Arabic quotes in the margin." /></p>
+
+<p>The rest of this post is a description of how this can be achieved in LaTeX. First, this method uses the following packages that must be called in the preamble:</p>
+
+<div class="language-tex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">\usepackage</span><span class="p">{</span>polyglossia<span class="p">}</span>
+<span class="k">\usepackage</span><span class="p">{</span>marginnote<span class="p">}</span>
+</code></pre></div></div>
+
+<p>The <code class="highlighter-rouge">polyglossia</code> package makes it relatively easy to use several languages and scripts in one document. It requires the XeTeX engine. <code class="highlighter-rouge">marginnote</code> gives the function with the same name to produce, well, margin notes. This is preferable to the <code class="highlighter-rouge">\marginpar</code> command in default LaTeX which does not work in footnotes, figures, and other such “outerpar” material. Note that <code class="highlighter-rouge">marginnotes</code> requires two runs of compilation to render correctly.</p>
+
+<p>Now, for a minimal example we also need to set up a font for Arabic script. This is done with the <code class="highlighter-rouge">fontspec</code> package which is called by <code class="highlighter-rouge">polyglossia</code>. I use the free and very nice <a href="http://www.amirifont.org/">Amiri</a> font here, but you could use any Arabic font that is installed in the operating system.</p>
+
+<div class="language-tex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">\setmainlanguage</span><span class="p">{</span>english<span class="p">}</span>
+<span class="k">\setotherlanguage</span><span class="p">{</span>arabic<span class="p">}</span>
+<span class="k">\newfontfamily\arabicfont</span>
+    [Script=Arabic,Scale=MatchUppercase<span class="p">}</span>]<span class="p">{</span>Amiri<span class="p">}</span>
+</code></pre></div></div>
+
+<p>The command I used to print original Arabic in the margin is defined in the preamble as follows (with some annotation):<sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup></p>
+
+<div class="language-tex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">% \araquote</span>
+  <span class="c">% [&lt;vertical offset&gt;] optional. default=0pt</span>
+  <span class="c">% {&lt;inline translation&gt;}</span>
+  <span class="c">% {&lt;arabic text in margin&gt;}</span>
+
+<span class="k">\newcommand\araquote</span><span class="na">[3][0pt]</span><span class="p">{</span><span class="c">%</span>
+<span class="k">\marginnote</span><span class="p">{</span><span class="c">%</span>
+    <span class="k">\raggedleft</span>
+  <span class="k">\textarabic</span><span class="p">{</span><span class="c">%</span>
+    <span class="k">\footnotesize</span>
+    #3<span class="c">%</span>
+  <span class="p">}}</span><span class="c">%</span>
+  [#1]<span class="c">% voffset</span>
+<span class="k">\null</span>#2<span class="p">}</span>
+</code></pre></div></div>
+
+<p>Whenever in the text you want to quote an Arabic source inline you can then do the following to get the Arabic source text in the margin:</p>
+
+<div class="language-tex highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Text text text text text text
+text <span class="k">\araquote</span><span class="p">{</span>translated qoute
+(Author 1999)<span class="p">}{</span>النص العري الأصلي<span class="p">}</span> text text text.
+</code></pre></div></div>
+
+<p>The method is not completely automatic since if the margin note is at the bottom of the page it will extend down below the text block, and this must be fixed manually. It is almost guaranteed to happen if you have Arabic quotes in a footnote, as I have in the example from my dissertation above. To fix this the command has an optional argument that takes a length expression that adjusts the vertical position of the margin note. The best way to use this optional argument is when the text is finished and compiled. Then you go through the document to see if there are Arabic margin notes that extends below the text block, count how many lines it extends below, and add a negative dimension with <code class="highlighter-rouge">\baselineskip</code> accordingly. So if a margin note extends two lines below the text block, you add <code class="highlighter-rouge">[-2\baselineskip]</code> between <code class="highlighter-rouge">\araquote</code> and the two arguments in curly brackets. This pushes the margin note upwards two lines to have the bottom line of the margin note aligned with the bottom line of the main text block.</p>
+
+<p>Lastly, the width of the text block in a margin note is generally to narrow for the text to be justified. I chose to have all the margin notes set flush right also on recto pages. In principle I would like to do like Bringhurst in his <em>The Elements of Typographic Style</em>,<sup id="fnref:3"><a href="#fn:3" class="footnote">3</a></sup> where margin notes are flush right on left hand pages and flush left on right hand pages. This gives a nice balanced cohesion to the page spread and makes the margin notes always look nicely tucked in next to the text. For Arabic script, flush left text often looks very bad. The reason is that many word-final letter forms in Arabic have long leftward swashes, such as ـب ـف ـق and others. This often gives the left edge of the text block a ragged look even in a flush left environment. What is even worse is that the right hand side often looks strange with the many word initial <em>alif</em>s. These <em>alif</em>s have a strong vertical character that looks odd when not aligned. In the example below you get the feeling that the text wants to be aligned to the right. Hence the choice to have all margin notes flush right.</p>
+
+<p><img src="/images/2016-04-26-margin-notes-for-arabic-quotes/arabicflushleft.png" alt="Flush left narrow Arabic text block." /></p>
+
+<p>In summary, Arabic quotes in the margin and the translation in the running text: pretty and practical.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>Suleiman, Y., 1996. “The Simplification of Arabic Grammar and the Problematic Nature of the Sources.” <em>Journal of Semitic Studies,</em> 41(1), pp.99–119. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>The <code class="highlighter-rouge">\null</code> in the last line is necessary to avoid LaTeX misinterpreting instances where the translated text begins with square brackets to signal that some word has been added for the sake of translation. <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:3">
+      <p>Bringhurst, R., 2012. <em>The Elements of Typographic Style</em>, Seattle: Hartley &amp; Marks. <a href="#fnref:3" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+  </div>
+
+</article>
+
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+          <footer class="footer">
+            <p>
+            
+<a href="mailto:andreasmartenhallberg@gmail.com"><i class="svg-icon email"></i></a>
+
+
+<a href="https://github.com/andreasmhallberg"><i class="svg-icon github"></i></a>
+
+
+
+<a href="/feed.xml"><i class="svg-icon rss"></i></a>
+
+
+
+
+            </p>
+            <p>
+            <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons-licens" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Uppercase Alif</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://andreasmhallberg.github.io/" property="cc:attributionName" rel="cc:attributionURL">Andreas Hallberg</a> is licensed under a<br><a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+            </p>
+          </footer>
+      </div>
+    </div>
+
+
+
+  </body>
+</html>

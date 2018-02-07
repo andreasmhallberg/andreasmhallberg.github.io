@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Typing Arabic in Vim – Uppercase Alif – Andreas Hallberg's notes on Arabic linguistics, Vim and LaTeX.</title>
+        <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="I often write documents, such as exams and lecture notes, that contain both Latin and Arabic script, often on the same line of text. This can be challenging due to the complications of mixing of LTR (left-to-right) and RTL (right-to-left) scripts. This seems like an easy problem to solve for software developers, and it is, only not in software with graphical WYSIWYG interfaces, such as Word or OpenOffice. (I’m sure everyone who has tried writing mixed direction text in such softwares share my frustration with them, and I will therefore refrain from rants.) Since my shift to exclusively producing and editing text in plain text formats (.txt, .mkd, .tex, etc.) with the editor Vim, writing texts with mixed directionlity has become a lot easier. This post is  an attempt to explain how.
+
+" />
+    <meta property="og:description" content="I often write documents, such as exams and lecture notes, that contain both Latin and Arabic script, often on the same line of text. This can be challenging due to the complications of mixing of LTR (left-to-right) and RTL (right-to-left) scripts. This seems like an easy problem to solve for software developers, and it is, only not in software with graphical WYSIWYG interfaces, such as Word or OpenOffice. (I’m sure everyone who has tried writing mixed direction text in such softwares share my frustration with them, and I will therefore refrain from rants.) Since my shift to exclusively producing and editing text in plain text formats (.txt, .mkd, .tex, etc.) with the editor Vim, writing texts with mixed directionlity has become a lot easier. This post is  an attempt to explain how.
+
+" />
+    
+    <meta name="author" content="Uppercase Alif" />
+
+    
+    <meta property="og:title" content="Typing Arabic in Vim" />
+    <meta property="twitter:title" content="Typing Arabic in Vim" />
+    
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" type="image/x-icon" href="/logo/favicon.png"> 
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="Uppercase Alif - Andreas Hallberg's notes on Arabic linguistics, Vim and LaTeX." href="/feed.xml" />
+
+    
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-77917262-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+
+    <!-- Begin Jekyll SEO tag v2.4.0 -->
+<title>Typing Arabic in Vim | Uppercase Alif</title>
+<meta name="generator" content="Jekyll v3.7.2" />
+<meta property="og:title" content="Typing Arabic in Vim" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="I often write documents, such as exams and lecture notes, that contain both Latin and Arabic script, often on the same line of text. This can be challenging due to the complications of mixing of LTR (left-to-right) and RTL (right-to-left) scripts. This seems like an easy problem to solve for software developers, and it is, only not in software with graphical WYSIWYG interfaces, such as Word or OpenOffice. (I’m sure everyone who has tried writing mixed direction text in such softwares share my frustration with them, and I will therefore refrain from rants.) Since my shift to exclusively producing and editing text in plain text formats (.txt, .mkd, .tex, etc.) with the editor Vim, writing texts with mixed directionlity has become a lot easier. This post is an attempt to explain how." />
+<meta property="og:description" content="I often write documents, such as exams and lecture notes, that contain both Latin and Arabic script, often on the same line of text. This can be challenging due to the complications of mixing of LTR (left-to-right) and RTL (right-to-left) scripts. This seems like an easy problem to solve for software developers, and it is, only not in software with graphical WYSIWYG interfaces, such as Word or OpenOffice. (I’m sure everyone who has tried writing mixed direction text in such softwares share my frustration with them, and I will therefore refrain from rants.) Since my shift to exclusively producing and editing text in plain text formats (.txt, .mkd, .tex, etc.) with the editor Vim, writing texts with mixed directionlity has become a lot easier. This post is an attempt to explain how." />
+<link rel="canonical" href="http://localhost:4000/typing-arabic-in-vim/" />
+<meta property="og:url" content="http://localhost:4000/typing-arabic-in-vim/" />
+<meta property="og:site_name" content="Uppercase Alif" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2017-06-22T00:00:00+02:00" />
+<script type="application/ld+json">
+{"description":"I often write documents, such as exams and lecture notes, that contain both Latin and Arabic script, often on the same line of text. This can be challenging due to the complications of mixing of LTR (left-to-right) and RTL (right-to-left) scripts. This seems like an easy problem to solve for software developers, and it is, only not in software with graphical WYSIWYG interfaces, such as Word or OpenOffice. (I’m sure everyone who has tried writing mixed direction text in such softwares share my frustration with them, and I will therefore refrain from rants.) Since my shift to exclusively producing and editing text in plain text formats (.txt, .mkd, .tex, etc.) with the editor Vim, writing texts with mixed directionlity has become a lot easier. This post is an attempt to explain how.","@type":"BlogPosting","headline":"Typing Arabic in Vim","dateModified":"2017-06-22T00:00:00+02:00","datePublished":"2017-06-22T00:00:00+02:00","url":"http://localhost:4000/typing-arabic-in-vim/","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/typing-arabic-in-vim/"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+
+         <a href="/" class="site-avatar"><img src="http://andreasmhallberg.github.io/logo/logo2.png" /></a>
+
+          <div class="site-info">
+            <h1 class="site-name"><a href="/">Uppercase Alif</a></h1>
+            <p class="site-description">Andreas Hallberg's notes on Arabic linguistics, Vim and LaTeX.</p>
+          </div>
+
+          <nav>
+            <a href="/">Blog</a>
+            <a href="/tags">Tags</a>
+            <a href="/documents">Docs</a>
+            <a href="/about">About</a>
+          </nav>
+
+        </header>
+      </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+      <article class="post">
+  <h1>Typing Arabic in Vim:</br><i></i></h1>
+
+  <div class="date">
+
+    
+
+    
+    June 22, 2017<br>
+    
+    Tags:  -vim<br>
+    Length: long<br>
+    
+
+    
+
+
+    
+
+  </div>
+
+
+
+  <div class="entry">
+    <p>I often write documents, such as exams and lecture notes, that contain both Latin and Arabic script, often on the same line of text. This can be challenging due to the complications of mixing of LTR (left-to-right) and RTL (right-to-left) scripts. This seems like an easy problem to solve for software developers, and it is, only not in software with graphical WYSIWYG interfaces, such as Word or OpenOffice. (I’m sure everyone who has tried writing mixed direction text in such softwares share my frustration with them, and I will therefore refrain from rants.) Since my shift to exclusively producing and editing text in plain text formats (.txt, .mkd, .tex, etc.) with the editor Vim, writing texts with mixed directionlity has become a lot easier. This post is  an attempt to explain how.</p>
+
+<p>When typing and editing text on computer, switching from working with Latin script to Arabic script at the most basic level involves changing two things: a) the direction in which characters appear on the screen, and b) the keyboard layout that is used to insert characters in the text. In Vim, each of these two changes is done independently of one another with the options <code class="highlighter-rouge">rightleft</code> for directionality and <code class="highlighter-rouge">keymap</code> for the keyboard layout.</p>
+
+<h2 id="directionality-and-display">Directionality and display</h2>
+
+<p>It is important to understand that text is stored electronically as series of characters, including spaces and line breaks, order one after another in a long list. Think of this as a list of all keystrokes used to produce the text. Arabic characters come encoded with information that they are to be displayed LTR, but it doesn’t effect the order in which they are electronically stored. Thus, if I type <code class="highlighter-rouge">hello</code> the letters are stored in that particular order, and it can be displayed as LTR (<code class="highlighter-rouge">hello</code>) or as RTL (<code class="highlighter-rouge">olleh</code>) with without changing the logical order in which they are stored, only the direction in which they are displayed on the screen has changed. If i type the letters <code class="highlighter-rouge">م</code> <code class="highlighter-rouge">ر</code> <code class="highlighter-rouge">ح</code> <code class="highlighter-rouge">ب</code> <code class="highlighter-rouge">ا</code>, they can be displayed as LTR (<code class="highlighter-rouge">ابحرم</code>) or as RTL (<code class="highlighter-rouge">مرحبا</code>) with the characters in same order but with different direction of display. For Arabic, the latter is of course appropriate.</p>
+
+<p>Now, what WYSIWYG (What You See Is What You Get) word processors such as Word of OpenOffice do is that when they come across characters in the file that are part of an RTL alphabet, such as Arabic characters, it rearranges them so that they are displayed RTL on the screen. This is of course nice in that it shows the text as it is intended to be read by humans. However, try to highlight a portion of a text with mixed directionlity (or even with only RTL) with the mouse, add a comma at a direction switch, or enclose section in parenthesis and you are likely to run into trouble. Editing a text displayed like this is a pain.</p>
+
+<p>Enter Vim. Vim lacks the capability of visually reorder specific letters according to the reading direction of that particular alphabet. All characters are displayed in a logical order and all are either displayed LTR or RTL, as shown in the image below. In the image to the left with LTR display the text in English is be displayed correctly and Arabic text reversed. In the image to the right with LTR display the text in English is reversed and Arabic text is displayed correctly.</p>
+
+<p><img src="/images/2017-06-22/ltr.png" alt="RTL display" /> <img src="/images/2017-06-22/rtl.png" alt="LTR display" /></p>
+
+<p>You switch between these two ways of displaying a text with <code class="highlighter-rouge">:set rightleft</code> for RTL <code class="highlighter-rouge">:set norightleft</code> for LTR. I have this mapped to the keystrokes <code class="highlighter-rouge">\a</code> for Arabic and <code class="highlighter-rouge">\e</code> for English to quickly switch back and forth. (This mapping also switches to Arabic keyboard layout, as explained below.) This way writing documents with mixed Latin/Arabic script becomes a process of quickly reorienting the entire text back and forth between these two modes of display. The idea is that all characters, regardless of how they are to appear in the final document are displayed in their logical, rather than in their proper visual order. The reordering of the characters as appropriate for final display is postponed to when the document is compiled or converted to its final form, be it in a .doc file, a pdf in the rendering of a HTML file in a browser (as in the text you are now reading).</p>
+
+<p>The drawback of this method of changing the entire text back and forth between LTR to RTL is that it is a bit disorienting. It is more difficult to navigate the text you are writing using visual cues, like headings and list, since these change shape with every switch in directionlity. The gains are however significant. Navigating, marking, copying, pasting and generally moving things around becomes completely streamlined, intuitive, and friction free. You can edit and change stuff as easily as you would piece of text containing only Latin script.</p>
+
+<h2 id="keyboard-layout">Keyboard layout</h2>
+
+<p>Vim also comes with its own Arabic keyboard layout (see <code class="highlighter-rouge">:h mbyte-keymap</code>). You switch to it with <code class="highlighter-rouge">:set keymap=arabic</code>. It is preferable to use Vim’s internal settings for keyboard layout rather than the system for keyboard layouts in the operating system. Of you change the keyboard layout in the OS, commands in normal mode no longer work since the keys that are input to Vim are now different. Vim’s core functionality is then lost. Vim’s internal keyboard switching instead only applies to insert and search modes while normal mode is unaffected, meaning that everything works as normal, and you don’t have to change the keyboard layout every time you enter or exit insert mode.</p>
+
+<p>The keyboard layout and the text direction are thus set independently of one another. If you change the <code class="highlighter-rouge">keymap</code> option  without changing the <code class="highlighter-rouge">rightleft</code> option, you will insert Arabic characters that are displayed LTR, as in the image below. I have found that if you only type a few isolated Arabic words here and there in an otherwise LTR text, this is the most convenient way to do it. The Arabic words will look strange on the screen, with letters ordered LTR and connected according to this backwards order, but they are still more or less readable, and for a few isolated words this is not too big of a deal. It is well worth this inconvenience to avoid the hassle of editing text with mixed directionality. They Arabic words all align correctly when the final document is compiled.</p>
+
+<p><img src="/images/2017-06-22/arabic-in-ltr.png" alt="Arabic words in a LTR text." /></p>
+
+<p>Another advantage of Vim’s keyboard layouts is that they are very easy to modify. Each keyboard layout is specified in a file that consists of two columns, the first containing the input key and the second the output character. The example below is an excerpt from the Arabic keyboard layout with the output characters given as Unicode character codes.</p>
+
+<div class="language-vim highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">loadkeymap</span>
+<span class="k">q</span>	<span class="p">&lt;</span>char<span class="m">-0</span>x0636<span class="p">&gt;</span>	" <span class="p">(</span><span class="m">1590</span><span class="p">)</span>	<span class="p">-</span> DAD
+<span class="k">w</span>	<span class="p">&lt;</span>char<span class="m">-0</span>x0635<span class="p">&gt;</span>	" <span class="p">(</span><span class="m">1589</span><span class="p">)</span>	<span class="p">-</span> SAD
+<span class="k">e</span>	<span class="p">&lt;</span>char<span class="m">-0</span>x062b<span class="p">&gt;</span>	" <span class="p">(</span><span class="m">1579</span><span class="p">)</span>	<span class="p">-</span> THEH
+<span class="k">r</span>	<span class="p">&lt;</span>char<span class="m">-0</span>x0642<span class="p">&gt;</span>	" <span class="p">(</span><span class="m">1602</span><span class="p">)</span>	<span class="p">-</span> QAF
+<span class="p">[...]</span>
+</code></pre></div></div>
+
+<p>This is very useful. I am for example used from PC-standards to having the letter <em>dhaal</em> (ذ) on the §-key at the top left of the keyboard, but in Vim’s Arabic layout it is on the `-key next to the left shift. To change this I copied the original Arabic keymap file (I use MacVim so this file is locate in <code class="highlighter-rouge">/Applications/MacVim.app/Contents/Resources/vim/runtime/keymap/arabic_utf-8.vim</code>) to <code class="highlighter-rouge">~/.vim/keymap/</code> and changed its name to <code class="highlighter-rouge">arabic-pc_utf-8.vim</code> to differentiate it from the original file. The file name is arbitrary accept that it must end with <code class="highlighter-rouge">_utf-8.vim</code>. In this new file I changed the input key that produces the letter <em>dhāl</em> from <code class="highlighter-rouge">`</code> to <code class="highlighter-rouge">§</code> (line 54). I can now call this new modified keyboard layout with <code class="highlighter-rouge">:set keymap=arabic-pc</code> (using the first part of its file name). You could also change the original file, but this method is better since you can store the new file separately and make it more easy accessible for different Vim installations. My slightly modified Arabic keymap file can for instance be found <a href="https://github.com/andreasmhallberg/dotfiles">here</a>.</p>
+
+<h2 id="wrap-up-language-switching-command">Wrap-up: Language switching command</h2>
+
+<p>If you find yourself often having to switch back and forth between English (or some other language that uses Latin script) and Arabic, it is a good idea to map a function that switches to RTL directionality and the Arabic keyboard layout and back again. I have this set to <code class="highlighter-rouge">\a</code> for Arabic and <code class="highlighter-rouge">\e</code> for English using the code below (adapted from <a href="https://github.com/andreasmhallberg/dotfiles/blob/master/.vimrc">my vimrc</a>).</p>
+
+<div class="language-vim highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">" Switch to English - mapping</span>
+nmap <span class="p">&lt;</span>Leader<span class="p">&gt;</span><span class="k">e</span> <span class="p">:&lt;</span>C<span class="p">-</span>U<span class="p">&gt;</span><span class="k">call</span> EngType<span class="p">()&lt;</span>CR<span class="p">&gt;</span>
+<span class="c">" Switch to Arabic - mapping</span>
+nmap <span class="p">&lt;</span>Leader<span class="p">&gt;</span><span class="k">a</span> <span class="p">:&lt;</span>C<span class="p">-</span>U<span class="p">&gt;</span><span class="k">call</span> AraType<span class="p">()&lt;</span>CR<span class="p">&gt;</span>
+
+<span class="c">" Switch to English - function</span>
+<span class="k">function</span><span class="p">!</span> EngType<span class="p">()</span>
+<span class="c">" To switch back from Arabic</span>
+  <span class="k">set</span> keymap<span class="p">=</span> " Restore default <span class="p">(</span>US<span class="p">)</span> keyboard layout
+  <span class="k">set</span> norightleft
+<span class="k">endfunction</span>
+
+<span class="c">" Switch to Arabic - function</span>
+<span class="k">function</span><span class="p">!</span> AraType<span class="p">()</span>
+    <span class="k">set</span> keymap<span class="p">=</span>arabic<span class="p">-</span><span class="k">pc</span> "Modified keymap<span class="p">.</span> File <span class="k">in</span> <span class="p">~</span><span class="sr">/.vim/</span>keymap/
+    <span class="k">set</span> rightleft
+<span class="k">endfunction</span>
+</code></pre></div></div>
+
+<p>Alternatively, and much simpler, you can use <code class="highlighter-rouge">:set arabic</code> to change to RTL and the default Arabic keyboard layout (see <code class="highlighter-rouge">:h arabic</code>).</p>
+
+  </div>
+
+</article>
+
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+          <footer class="footer">
+            <p>
+            
+<a href="mailto:andreasmartenhallberg@gmail.com"><i class="svg-icon email"></i></a>
+
+
+<a href="https://github.com/andreasmhallberg"><i class="svg-icon github"></i></a>
+
+
+
+<a href="/feed.xml"><i class="svg-icon rss"></i></a>
+
+
+
+
+            </p>
+            <p>
+            <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons-licens" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Uppercase Alif</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://andreasmhallberg.github.io/" property="cc:attributionName" rel="cc:attributionURL">Andreas Hallberg</a> is licensed under a<br><a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+            </p>
+          </footer>
+      </div>
+    </div>
+
+
+
+  </body>
+</html>

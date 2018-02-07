@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Stretchable kashida and Arabic text justification in LaTeX – Uppercase Alif – Andreas Hallberg's notes on Arabic linguistics, Vim and LaTeX.</title>
+        <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="This post describes how to make stretchable pseudo-kashidas to lengthen words (كلمة طويـــــــلة) and how to automatically insert these at letter connections in order to justify Arabic text, that is, to to make it have even right and left margins. The problem, solution, and the result is first presented in a non-technical way. Thereafter the implementation of the stretchable kashida in LaTeX is described.
+
+" />
+    <meta property="og:description" content="This post describes how to make stretchable pseudo-kashidas to lengthen words (كلمة طويـــــــلة) and how to automatically insert these at letter connections in order to justify Arabic text, that is, to to make it have even right and left margins. The problem, solution, and the result is first presented in a non-technical way. Thereafter the implementation of the stretchable kashida in LaTeX is described.
+
+" />
+    
+    <meta name="author" content="Uppercase Alif" />
+
+    
+    <meta property="og:title" content="Stretchable kashida and Arabic text justification in LaTeX" />
+    <meta property="twitter:title" content="Stretchable kashida and Arabic text justification in LaTeX" />
+    
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" type="image/x-icon" href="/logo/favicon.png"> 
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="Uppercase Alif - Andreas Hallberg's notes on Arabic linguistics, Vim and LaTeX." href="/feed.xml" />
+
+    
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-77917262-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+
+    <!-- Begin Jekyll SEO tag v2.4.0 -->
+<title>Stretchable kashida and Arabic text justification in LaTeX | Uppercase Alif</title>
+<meta name="generator" content="Jekyll v3.7.2" />
+<meta property="og:title" content="Stretchable kashida and Arabic text justification in LaTeX" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="This post describes how to make stretchable pseudo-kashidas to lengthen words (كلمة طويـــــــلة) and how to automatically insert these at letter connections in order to justify Arabic text, that is, to to make it have even right and left margins. The problem, solution, and the result is first presented in a non-technical way. Thereafter the implementation of the stretchable kashida in LaTeX is described." />
+<meta property="og:description" content="This post describes how to make stretchable pseudo-kashidas to lengthen words (كلمة طويـــــــلة) and how to automatically insert these at letter connections in order to justify Arabic text, that is, to to make it have even right and left margins. The problem, solution, and the result is first presented in a non-technical way. Thereafter the implementation of the stretchable kashida in LaTeX is described." />
+<link rel="canonical" href="http://localhost:4000/stretchable-kashida/" />
+<meta property="og:url" content="http://localhost:4000/stretchable-kashida/" />
+<meta property="og:site_name" content="Uppercase Alif" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2017-03-03T00:00:00+01:00" />
+<script type="application/ld+json">
+{"description":"This post describes how to make stretchable pseudo-kashidas to lengthen words (كلمة طويـــــــلة) and how to automatically insert these at letter connections in order to justify Arabic text, that is, to to make it have even right and left margins. The problem, solution, and the result is first presented in a non-technical way. Thereafter the implementation of the stretchable kashida in LaTeX is described.","@type":"BlogPosting","headline":"Stretchable kashida and Arabic text justification in LaTeX","dateModified":"2017-03-03T00:00:00+01:00","datePublished":"2017-03-03T00:00:00+01:00","url":"http://localhost:4000/stretchable-kashida/","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/stretchable-kashida/"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+
+         <a href="/" class="site-avatar"><img src="http://andreasmhallberg.github.io/logo/logo2.png" /></a>
+
+          <div class="site-info">
+            <h1 class="site-name"><a href="/">Uppercase Alif</a></h1>
+            <p class="site-description">Andreas Hallberg's notes on Arabic linguistics, Vim and LaTeX.</p>
+          </div>
+
+          <nav>
+            <a href="/">Blog</a>
+            <a href="/tags">Tags</a>
+            <a href="/documents">Docs</a>
+            <a href="/about">About</a>
+          </nav>
+
+        </header>
+      </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+      <article class="post">
+  <h1>Stretchable kashida and Arabic text justification in LaTeX:</br><i></i></h1>
+
+  <div class="date">
+
+    
+
+    
+    March  3, 2017<br>
+    
+    Tags:  -latex -typography<br>
+    Length: long<br>
+    
+
+    
+
+
+    
+
+  </div>
+
+
+
+  <div class="entry">
+    <p>This post describes how to make stretchable pseudo-<em>kashidas</em> to lengthen words (كلمة طويـــــــلة) and how to automatically insert these at letter connections in order to justify Arabic text, that is, to to make it have even right and left margins. The problem, solution, and the result is first presented in a non-technical way. Thereafter the implementation of the stretchable kashida in LaTeX is described.</p>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>A paragraph with even left and right margins is said to be <em>justified</em>. In texts in the Latin alphabet, this is achieved in two ways: a) by hyphenating long words where they appear at the end of a line, and b) by varying the space between words.<sup id="fnref:microtype"><a href="#fn:microtype" class="footnote">1</a></sup> In the Arabic script  there is no hyphenation, words cannot be broken up in two, making justification of paragraphs is more difficult.</p>
+
+<p>What Arabic has, though, that the Latin script lacks, is the ability stretch out the connecting lines between letters. In typed text, this is done with a character called <em>kashida</em> (<code class="highlighter-rouge">U+0640</code>). It is a line at the baseline, similar in shape to the underscore, and it connects to adjacent letters. The word كبير (<em>kabīr</em> ‘big’), for instance, could be written with a few kashidas to make it take up more space (كبيـــــر), which can be used to justify the text.</p>
+
+<p>There are two problems with this. First, a line can only be lengthened by a multiple of the width of the kashida in the typeface. For example, if the kashida is 5 pts wide, the line could be lengthened by 5 pts by adding a kashida somewhere, or by 10 pts by adding two. But it could not be lengthened by 7 pts. Second, the lengthening can only be applied at certain points in certain words on the line. The lengthening cannot be evenly distributed across the line, making for an uneven appearance of the words in a line. See for example the excerpt below from the novel <em>Yūtūbiyā</em> by Aḥmad Xālid Tawfīq.<sup id="fnref:utopia"><a href="#fn:utopia" class="footnote">2</a></sup> Kashidas have been added to the last couple of words at the end of lines to fill them up to the left margin. This is common practice, but it makes, in my view, for an unattractive and uneven page.</p>
+
+<p><img src="/images/2017-03-03/utopia.png" alt="Page 12 from Yūtūbiyā, where kashidas are used in words at the end of the line to fill it." /></p>
+
+<h2 id="solution---the-stretchable-kashida">Solution - the stretchable kashida</h2>
+
+<p>One solution to this is to use a stretchable kashida that is placed between all connecting characters. It just so happens that TeX with it’s glue mechanisms provides tools to do this fairly easily and very reliably. If no stretching is needed to justify the text the kashidas get a width of zero and do not appear at all. If some stretching is needed to fill the line (which in practice will virtually always be the case), then all these stretchable kashidas are stretched with an equal amount until the line is filled. There is thus no fixed or even default width of this kashida, it will be as long or short as it needs to be, and all stretchable kashidas on the same line will be of the same width.</p>
+
+<p>Have a look at the page below. It contains the same three paragraphs, taken at random from an Arabic news site. The three paragraphs are typeset three times each, first in three columns, then in four, and then in five columns. The more columns, and thus the narrower the columns, the more difficult it is for the typesetting engine to find a good way of distributing words on the lines to avoid big, white spaces between words. In the last part with five columns, the text looks really bad, with large white blobs scattered all over surface of the text.</p>
+
+<p><img src="/images/2017-03-03/no-kashida.png" alt="Example text without stretchable kashida." /></p>
+
+<p>Now compare this with the following page. Here the same text is set with the same font, font size and columns, but with a stretchable kashida at every letter connection. Note the total lack of white blobs. The stretchable kashida nicely fills every line, producing an even and attractive text surface.</p>
+
+<p><img src="/images/2017-03-03/kashida.png" alt="Example text with stretchable kashida." /></p>
+
+<p>The images above are PNGs and in limited resolution. Follow these links for PDFs of the example documents above <a href="/documents/kashida.pdf">with stretchable kashida</a> and <a href="/documents/no-kashida.pdf">without stretchable kashida</a> to see them in better resolution. Note that when viewing these PDFs on screen, the inserted stretchable kashida may appear choppy in certain resolutions. This is because it has not been adapted for screen display in various resolutions as has the rest of the font. This problem is specific to on-screen display and will not be an issue when the text is printed.</p>
+
+<h2 id="application">Application</h2>
+
+<p>The rest of this post is a step-by-step explanation of the LaTeX code that achieves this result. A complete self-contained example (used to produce the documents above) can be found <a href="https://github.com/andreasmhallberg/kashida-justification">here</a>.</p>
+
+<p>First we load the packages that we need and setup the Arabic font. Lateef is a free and open source font available <a href="https://www.sil.org/resources/software_fonts/lateef">here</a>.</p>
+
+<div class="language-tex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">\documentclass</span><span class="p">{</span>article<span class="p">}</span>
+<span class="k">\usepackage</span><span class="p">{</span>calc<span class="p">}</span> <span class="c">% used to measure kashida thickness</span>
+<span class="k">\usepackage</span><span class="p">{</span>polyglossia<span class="p">}</span>
+<span class="k">\setmainlanguage</span><span class="p">{</span>arabic<span class="p">}</span>
+<span class="k">\newfontfamily\arabicfont</span><span class="na">[Script=Arabic]</span><span class="p">{</span>Lateef<span class="p">}</span> 
+</code></pre></div></div>
+
+<h3 id="xetexinterchartoks">XeTeXinterchartoks</h3>
+
+<p>Then we activate the <code class="highlighter-rouge">XeTeXinterchartoks</code> feature, declare the different classes, and assign characters to the different classes. This allows us to automatically insert a command between combinations of characters of each class. All Arabic letters are assigned to one class with a specific set of connecting rules, i.e. those that connect to the following letter and those that do not. So between all connectors we want to insert the command for the stretchable kashida, also when a connector is followed by a non-connector, but not after a non-connector. We also need special classes for the letters <em>lām</em> (ل) and <em>alif</em> (ا, in all its variants)  since we do not want to insert anything between them when they appear in this order, which would break the compulsory ligature لا. Similar exceptions for other ligatures in particular fonts could easily be added this way, otherwise the ligatures will simply connect at the baseline as normal when this code is applied.</p>
+
+<div class="language-tex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">\XeTeXinterchartokenstate</span>=1
+
+<span class="k">\newXeTeXintercharclass\confb</span> <span class="c">% connect back</span>
+<span class="k">\newXeTeXintercharclass\conb</span>  <span class="c">% connect front back</span>
+<span class="k">\newXeTeXintercharclass\alif</span>  <span class="c">% alif</span>
+<span class="k">\newXeTeXintercharclass\lam</span>   <span class="c">% lam</span>
+
+<span class="k">\XeTeXcharclass</span> `<span class="k">\ي</span>=<span class="k">\confb</span> 
+<span class="k">\XeTeXcharclass</span> `<span class="k">\ئ</span>=<span class="k">\confb</span>
+<span class="k">\XeTeXcharclass</span> `<span class="k">\ه</span>=<span class="k">\confb</span>
+<span class="k">\XeTeXcharclass</span> `<span class="k">\ش</span>=<span class="k">\confb</span>
+<span class="k">\XeTeXcharclass</span> `<span class="k">\س</span>=<span class="k">\confb</span>
+<span class="k">\XeTeXcharclass</span> `<span class="k">\ق</span>=<span class="k">\confb</span>
+<span class="k">\XeTeXcharclass</span> `<span class="k">\ف</span>=<span class="k">\confb</span>
+<span class="k">\XeTeXcharclass</span> `<span class="k">\غ</span>=<span class="k">\confb</span>
+<span class="k">\XeTeXcharclass</span> `<span class="k">\ع</span>=<span class="k">\confb</span>
+<span class="k">\XeTeXcharclass</span> `<span class="k">\ض</span>=<span class="k">\confb</span>
+<span class="k">\XeTeXcharclass</span> `<span class="k">\ص</span>=<span class="k">\confb</span>
+<span class="k">\XeTeXcharclass</span> `<span class="k">\ن</span>=<span class="k">\confb</span>
+<span class="k">\XeTeXcharclass</span> `<span class="k">\م</span>=<span class="k">\confb</span>
+<span class="k">\XeTeXcharclass</span> `<span class="k">\ك</span>=<span class="k">\confb</span>
+<span class="k">\XeTeXcharclass</span> `<span class="k">\ظ</span>=<span class="k">\confb</span>
+<span class="k">\XeTeXcharclass</span> `<span class="k">\ط</span>=<span class="k">\confb</span>
+<span class="k">\XeTeXcharclass</span> `<span class="k">\خ</span>=<span class="k">\confb</span>
+<span class="k">\XeTeXcharclass</span> `<span class="k">\ح</span>=<span class="k">\confb</span>
+<span class="k">\XeTeXcharclass</span> `<span class="k">\ج</span>=<span class="k">\confb</span>
+<span class="k">\XeTeXcharclass</span> `<span class="k">\ث</span>=<span class="k">\confb</span>
+<span class="k">\XeTeXcharclass</span> `<span class="k">\ت</span>=<span class="k">\confb</span>
+<span class="k">\XeTeXcharclass</span> `<span class="k">\ب</span>=<span class="k">\confb</span>
+
+<span class="k">\XeTeXcharclass</span> `<span class="k">\ل</span>=<span class="k">\lam</span>
+
+<span class="k">\XeTeXcharclass</span> `<span class="k">\ا</span>=<span class="k">\alif</span>
+<span class="k">\XeTeXcharclass</span> `<span class="k">\أ</span>=<span class="k">\alif</span>
+<span class="k">\XeTeXcharclass</span> `<span class="k">\إ</span>=<span class="k">\alif</span>
+<span class="k">\XeTeXcharclass</span> `<span class="k">\آ</span>=<span class="k">\alif</span>
+
+<span class="k">\XeTeXcharclass</span> `<span class="k">\و</span>=<span class="k">\conb</span>
+<span class="k">\XeTeXcharclass</span> `<span class="k">\ؤ</span>=<span class="k">\conb</span>
+<span class="k">\XeTeXcharclass</span> `<span class="k">\ذ</span>=<span class="k">\conb</span>
+<span class="k">\XeTeXcharclass</span> `<span class="k">\د</span>=<span class="k">\conb</span>
+<span class="k">\XeTeXcharclass</span> `<span class="k">\ز</span>=<span class="k">\conb</span>
+<span class="k">\XeTeXcharclass</span> `<span class="k">\ر</span>=<span class="k">\conb</span>
+<span class="k">\XeTeXcharclass</span> `<span class="k">\ة</span>=<span class="k">\conb</span>
+</code></pre></div></div>
+
+<p>Then we declare the combinations of character classes between which we want to insert the command for the stretchable kashida (which we have yet to define). The order of any two characterclasses is significant. All possible combinations of characterclasses where you want stretchable kashida must be added to the list.</p>
+
+<div class="language-tex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">\XeTeXinterchartoks</span> <span class="k">\confb</span> <span class="k">\confb</span> = <span class="p">{</span><span class="k">\kashida</span><span class="p">{}}</span>
+<span class="k">\XeTeXinterchartoks</span> <span class="k">\confb</span> <span class="k">\conb</span>  = <span class="p">{</span><span class="k">\kashida</span><span class="p">{}}</span>
+<span class="k">\XeTeXinterchartoks</span> <span class="k">\confb</span> <span class="k">\alif</span>  = <span class="p">{</span><span class="k">\kashida</span><span class="p">{}}</span>
+<span class="k">\XeTeXinterchartoks</span> <span class="k">\confb</span> <span class="k">\lam</span>   = <span class="p">{</span><span class="k">\kashida</span><span class="p">{}}</span>
+<span class="k">\XeTeXinterchartoks</span> <span class="k">\lam</span>   <span class="k">\lam</span>   = <span class="p">{</span><span class="k">\kashida</span><span class="p">{}}</span>
+<span class="k">\XeTeXinterchartoks</span> <span class="k">\lam</span>   <span class="k">\confb</span> = <span class="p">{</span><span class="k">\kashida</span><span class="p">{}}</span>
+<span class="k">\XeTeXinterchartoks</span> <span class="k">\lam</span>   <span class="k">\conb</span>  = <span class="p">{</span><span class="k">\kashida</span><span class="p">{}}</span>
+</code></pre></div></div>
+
+<p>This means that the presence of a vowel sign (  َ ِ ُ etc), <em>shadda</em> (  ّ ), <em>sukūn</em> (  ْ ), or other similar symbols negate the stretchable kashida at that position. This is because the sequence of characters is then <em>vowel sign—letter,</em> and not one of the sequences listed above, so it will not trigger the <code class="highlighter-rouge">\kashida</code> command. You can see this in the word شنّت, the first word in the test paragraph in the examples above. This may not be a bad thing. To me, vowel or other sign and then kashida ( شــنّــت ) looks odd, and it is avoided here.</p>
+
+<p>Also, in manuals of Arabic calligraphy there are rules about where and in what words, where in a word, and between what characters kashidas may be inserted (<a href="https://www.tug.org/tugboat/tb27-2/tb87benatia.pdf">Benatia et al. 2006</a>). These rules are disregarded here. I do not believe that they are particularity relevant for the modern simplified text fonts.</p>
+
+<h3 id="kashida-thickness">Kashida thickness</h3>
+
+<p>The following snippet uses functions form the <a href="https://www.ctan.org/pkg/calc?lang=en"><code class="highlighter-rouge">calc</code></a> package to measure the thickness of the kashida in the loaded font. It measurs the top of the kashida from the baseline and stores this value in <code class="highlighter-rouge">\kashidaheight</code>. It also measure how far it extends below the baseline and stores the value in <code class="highlighter-rouge">\kashidadepth</code>. (None of the fonts I have tested this on have a kashida that extends below the baseline, so this measure will normally be <code class="highlighter-rouge">0 pts</code>.)</p>
+
+<div class="language-tex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">\newlength\kashidaheight</span>
+<span class="k">\setlength\kashidaheight</span><span class="p">{</span><span class="k">\heightof</span><span class="p">{</span><span class="k">\textarabic</span><span class="p">{</span>ـ<span class="p">}}}</span>
+<span class="k">\newlength\kashidadepth</span>
+<span class="k">\setlength\kashidadepth</span><span class="p">{</span><span class="k">\depthof</span><span class="p">{</span><span class="k">\textarabic</span><span class="p">{</span>ـ<span class="p">}}}</span>
+</code></pre></div></div>
+
+<p>This means that this method does not give good results for typefaces in which the letter connection is raised above the baseline. This is the case with Geeza Pro, for example, a typeface included in OSX. (This could be fixed provided there is a reliable way of measuring how much the letter connections, and by extension the kashida character, is raised above the baseline.) The method presented here will work fine with most simple <em>nasx</em> typefaces, however, such as 
+<a href="https://www.sil.org/resources/software_fonts/lateef">Lateef</a>, 
+<a href="http://software.sil.org/scheherazade/">Scheherazade</a>,
+and <a href="https://www.microsoft.com/typography/fonts/family.aspx?FID=261">Simplified Arabic</a>, as well as with any mono-spaced Arabic font.</p>
+
+<p>Note also that these measurements will change any time the font size changes, so that the above command should be run again after any command that changes the fontsize. Alternatively, and preferebly, these commands could be redifined to also run</p>
+
+<div class="language-tex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">\setlength\kashidaheight</span><span class="p">{</span><span class="k">\heightof</span><span class="p">{</span><span class="k">\textarabic</span><span class="p">{</span>ـ<span class="p">}}}</span>  <span class="k">\setlength\kashidadepth</span><span class="p">{</span><span class="k">\depthof</span><span class="p">{</span><span class="k">\textarabic</span><span class="p">{</span>ـ<span class="p">}}}</span>.
+</code></pre></div></div>
+
+<h3 id="defining-the-kashida-command">Defining the kashida command</h3>
+
+<p>With the measurements of the kashida now stored, we can use them to define the actual stretchable kashida that is to go between all connecting characters.</p>
+
+<div class="language-tex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">\newcommand\kashida</span><span class="na">[1]</span><span class="p">{</span><span class="k">\char</span>"200D
+  <span class="k">\nobreak\leaders</span>
+    <span class="k">\hrule</span> height <span class="k">\kashidaheight</span> depth <span class="k">\kashidadepth</span>
+    <span class="k">\hskip</span> 0pt plus 100 pt
+  <span class="k">\nobreak\char</span>"200D<span class="p">}</span>
+</code></pre></div></div>
+
+<p>This produces a leader, similar to the row of dots that fills the line  between a chapter title and the page number in a table of contents, for example, but it is here in the form of a solid line of kashida-thickness.</p>
+
+<p>Note that the command begins and ends with <code class="highlighter-rouge">\char"200D</code>. This inserts the Unicode character <code class="highlighter-rouge">ZERO WIDTH JOINER</code>, a character that is very useful when typing in Arabic. As its name suggest, it takes no space and only instructs surrounding letters to connect with it, and thus with one another. Without it the typesetting engine would see the command <code class="highlighter-rouge">\nobreak</code> when it comes to this command, and not a letter with which the previous letter can connect, making it take the unconnecting form. The command <code class="highlighter-rouge">\nobreak</code> instructs LaTeX not to have any line breaks here.</p>
+
+<p>The heart of the command is <code class="highlighter-rouge">\leaders</code> which is a stretchable element, here declared in plain TeX. It takes two parameters:</p>
+
+<ol>
+  <li>what it is that is to be repeated or stretched, here a horizontal rule (<code class="highlighter-rouge">\hrule</code>) with the height stored in <code class="highlighter-rouge">\kashidaheight</code> and the depth stored in <code class="highlighter-rouge">\kashidadepth</code></li>
+  <li>the stretchability (or ‘glue’ in TeX-terminology), here set to be able to stretch from 0 to 100 pts.</li>
+</ol>
+
+<p>It is important that the glue is set to limited dimension such as 100 pts and not to infinite glue with <code class="highlighter-rouge">fill</code>, because this will mess up the last line of the paragraph which should not be filled.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>And that’s it. Adding the above code to the preamble automatically applies the stretchable kashida, as in the multicolumn examples above.</p>
+
+<p>The way it has been applied here comes with a few caveats:</p>
+
+<ul>
+  <li>It only works with typefaces where letters are connected at the baseline and where the connection is not cruvilinear.</li>
+  <li>If the typeface have ligatures other than <em>lam-alif</em> that you wish to retain, they must be added to the classes and patters of <code class="highlighter-rouge">\XeTeXinterchartoks</code>.</li>
+  <li>Vowel signs and similar negate the stretchable kashida.</li>
+  <li>Your may not be able to resist the urge to hang your beautiful Arabic text columns on your office wall.</li>
+</ul>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:microtype">
+      <p>There is also a third method: to stretch or squeeze letters by a measure that is too small to be noticeable on individual letters but that have an accumulated effect that provides a variability used for justifying the text. See the documentation for the <a href="https://www.ctan.org/pkg/microtype?lang=en"><code class="highlighter-rouge">mycrotype</code> package</a> for a discussion and implementation in LaTeX. <a href="#fnref:microtype" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:utopia">
+      <p>أحمد خالد توفيق، ٢٠١٤. <em>يوتوبيا</em>، دير ميريت، القاهرة. <a href="#fnref:utopia" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+  </div>
+
+</article>
+
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+          <footer class="footer">
+            <p>
+            
+<a href="mailto:andreasmartenhallberg@gmail.com"><i class="svg-icon email"></i></a>
+
+
+<a href="https://github.com/andreasmhallberg"><i class="svg-icon github"></i></a>
+
+
+
+<a href="/feed.xml"><i class="svg-icon rss"></i></a>
+
+
+
+
+            </p>
+            <p>
+            <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons-licens" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Uppercase Alif</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://andreasmhallberg.github.io/" property="cc:attributionName" rel="cc:attributionURL">Andreas Hallberg</a> is licensed under a<br><a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+            </p>
+          </footer>
+      </div>
+    </div>
+
+
+
+  </body>
+</html>

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Typing Swedish characters with American keyboard layout in Vim – Uppercase Alif – Andreas Hallberg's notes on Arabic linguistics, Vim and LaTeX.</title>
+        <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="In this post I describe a method for extending the standard US keyboard layout to type Swedish characters in Vim. This is done with minimal changes to the layout and without moving characters around.
+
+" />
+    <meta property="og:description" content="In this post I describe a method for extending the standard US keyboard layout to type Swedish characters in Vim. This is done with minimal changes to the layout and without moving characters around.
+
+" />
+    
+    <meta name="author" content="Uppercase Alif" />
+
+    
+    <meta property="og:title" content="Typing Swedish characters with American keyboard layout in Vim" />
+    <meta property="twitter:title" content="Typing Swedish characters with American keyboard layout in Vim" />
+    
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" type="image/x-icon" href="/logo/favicon.png"> 
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="Uppercase Alif - Andreas Hallberg's notes on Arabic linguistics, Vim and LaTeX." href="/feed.xml" />
+
+    
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-77917262-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+
+    <!-- Begin Jekyll SEO tag v2.4.0 -->
+<title>Typing Swedish characters with American keyboard layout in Vim | Uppercase Alif</title>
+<meta name="generator" content="Jekyll v3.7.2" />
+<meta property="og:title" content="Typing Swedish characters with American keyboard layout in Vim" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="In this post I describe a method for extending the standard US keyboard layout to type Swedish characters in Vim. This is done with minimal changes to the layout and without moving characters around." />
+<meta property="og:description" content="In this post I describe a method for extending the standard US keyboard layout to type Swedish characters in Vim. This is done with minimal changes to the layout and without moving characters around." />
+<link rel="canonical" href="http://localhost:4000/swe-with-us-kb-layout/" />
+<meta property="og:url" content="http://localhost:4000/swe-with-us-kb-layout/" />
+<meta property="og:site_name" content="Uppercase Alif" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2016-03-20T00:00:00+01:00" />
+<script type="application/ld+json">
+{"description":"In this post I describe a method for extending the standard US keyboard layout to type Swedish characters in Vim. This is done with minimal changes to the layout and without moving characters around.","@type":"BlogPosting","headline":"Typing Swedish characters with American keyboard layout in Vim","dateModified":"2016-03-20T00:00:00+01:00","datePublished":"2016-03-20T00:00:00+01:00","url":"http://localhost:4000/swe-with-us-kb-layout/","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/swe-with-us-kb-layout/"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+
+         <a href="/" class="site-avatar"><img src="http://andreasmhallberg.github.io/logo/logo2.png" /></a>
+
+          <div class="site-info">
+            <h1 class="site-name"><a href="/">Uppercase Alif</a></h1>
+            <p class="site-description">Andreas Hallberg's notes on Arabic linguistics, Vim and LaTeX.</p>
+          </div>
+
+          <nav>
+            <a href="/">Blog</a>
+            <a href="/tags">Tags</a>
+            <a href="/documents">Docs</a>
+            <a href="/about">About</a>
+          </nav>
+
+        </header>
+      </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+      <article class="post">
+  <h1>Typing Swedish characters with American keyboard layout in Vim:</br><i></i></h1>
+
+  <div class="date">
+
+    
+
+    
+    March 20, 2016<br>
+    
+    Tags:  -vim<br>
+    Length: medium<br>
+    
+
+    
+
+
+    
+
+  </div>
+
+
+  <p>
+  <div class="update">
+    
+        Update 2017-03-18 &mdash; An earlier version of this post described how to implement this new keypoard layout with a series of mappings in the <code class="highlighter-rouge">.vimrc</code>. The method described below with an external <code class="highlighter-rouge">keymap</code> file is much more convenient.
+<br>
+    
+  </div>
+  </p>
+
+
+  <div class="entry">
+    <p>In this post I describe a method for extending the standard US keyboard layout to type Swedish characters in Vim. This is done with minimal changes to the layout and without moving characters around.</p>
+
+<p>When writing some sort of computer code, the American keyboard layout is more convenient than the Swedish layout that most Swedes are used to. This is because many of the non-alphabetical characters, <code class="highlighter-rouge">\</code> and <code class="highlighter-rouge">{</code> for instance, are more readily available on the American layout. These are direct key presses on the American layout whereas they require combinations with the ALT-key on the Swedish layout. Since most of the things I write are in English I often don’t need the <code class="highlighter-rouge">å</code>, <code class="highlighter-rouge">ä</code>, and <code class="highlighter-rouge">ö</code> and thus mostly use the US layout.</p>
+
+<p>Now, every now and again I need to write something in Swedish. The standard way of doing this, and the way I used to do it before my romance with the text editor Vim, was to use the layout switching feature of the operating system. This can be set to switch between two or more keyboard layouts, for example the American and Swedish layouts (shown below). The switch can be mapped to some easily accessed key combination. I have it set to COMMAND+SPACE on my Mac. This is quite convenient if you are typing in a lot of different applications. The problem with this is that the Swedish keyboard layout not only adds three Swedish characters (relative to the American layout), it also moves a bunch characters around, including <code class="highlighter-rouge">?</code>,  <code class="highlighter-rouge">:</code>, <code class="highlighter-rouge">;</code>, <code class="highlighter-rouge">-</code>, <code class="highlighter-rouge">"</code>, <code class="highlighter-rouge">&amp;</code>, <code class="highlighter-rouge">*</code>, <code class="highlighter-rouge">\</code>, <code class="highlighter-rouge">/</code>, <code class="highlighter-rouge">`</code>, and all four pairs of delimiters (<code class="highlighter-rouge">&lt;</code>, <code class="highlighter-rouge">[</code>, <code class="highlighter-rouge">(</code>, and <code class="highlighter-rouge">{</code>). So if you are used to the positioning of these characters in the American layout, as I am, things get very confusing, even when writing normal prose.</p>
+
+<p><img src="/images/kblayoutusa.png" alt="American keyboard layout" /></p>
+
+<p><img src="/images/kblayoutswe.png" alt="Swedish keyboard layout" /></p>
+
+<p>A solution to this problem in Vim, where I do almost all kinds of typing anyways, is to configure a pseudo-Swedish keyboard layout that only adds the <code class="highlighter-rouge">å</code>, <code class="highlighter-rouge">ä</code>, and <code class="highlighter-rouge">ö</code> and their uppercase variants without moving other characters around. However, adding these keys to the American layout according to their normal position masks some characters by now occupying their positions on the keyboard, making the masked characters no longer accessible. More specifically:</p>
+
+<p><code class="highlighter-rouge">å</code> masks <code class="highlighter-rouge">[</code><br />
+<code class="highlighter-rouge">Å</code> masks <code class="highlighter-rouge">{</code><br />
+<code class="highlighter-rouge">ä</code> masks <code class="highlighter-rouge">'</code><br />
+<code class="highlighter-rouge">Ä</code> masks <code class="highlighter-rouge">"</code><br />
+<code class="highlighter-rouge">ö</code> masks <code class="highlighter-rouge">;</code><br />
+<code class="highlighter-rouge">Ö</code> masks <code class="highlighter-rouge">:</code></p>
+
+<p>Mapping these masked characters to other positions keys on the keyboard is not a good solution if your are often switching between layouts, since it messes up your muscle memory. Moving them would also mask other characters and just move the problem around. Instead, I opted to have the masked characters remain and have them accessed with double key presses, so that pressing <code class="highlighter-rouge">åå</code> produces <code class="highlighter-rouge">[</code>, <code class="highlighter-rouge">ÅÅ</code> produces <code class="highlighter-rouge">{</code>, etc. Luckily, in Swedish you never type double å, ä, or ö, so these double key sequences are a “free space” on the keyboard. (In fact, typing the previous sentence was the first time this has ever been a problem.) This solution is a much smaller adaptation of the American layout than having everything move around whenever you are switching between the two layouts. I call this mapping swe-us.</p>
+
+<p>I have applied this layout in Vim by having the code below in the <a href="https://github.com/andreasmhallberg/dotfiles/blob/master/.vimrc">my <code class="highlighter-rouge">.vimrc</code></a> (slightly modified here to make it self-contained and more easily copyable).</p>
+
+<div class="language-vim highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">function</span><span class="p">!</span> SweType<span class="p">()</span>
+  <span class="k">set</span> keymap<span class="p">=</span>swe<span class="p">-</span>us
+  <span class="k">set</span> spelllang<span class="p">=</span><span class="k">sv</span>
+<span class="k">endfunction</span>
+
+nnoremap <span class="p">&lt;</span>Leader<span class="p">&gt;</span>s <span class="p">:&lt;</span>C<span class="p">-</span>U<span class="p">&gt;</span><span class="k">call</span> SweType<span class="p">()&lt;</span>CR<span class="p">&gt;</span>
+
+<span class="c">"{{{2 Switch to English</span>
+<span class="k">function</span><span class="p">!</span> EngType<span class="p">()</span>
+  <span class="k">set</span> keymap<span class="p">=</span>
+  <span class="k">set</span> spelllang<span class="p">=</span>en_us
+<span class="k">endfunction</span>
+
+nnoremap <span class="p">&lt;</span>Leader<span class="p">&gt;</span>s <span class="p">:&lt;</span>C<span class="p">-</span>U<span class="p">&gt;</span><span class="k">call</span> EngType<span class="p">()&lt;</span>CR<span class="p">&gt;</span>
+</code></pre></div></div>
+
+<p>What this does is to map the keys <code class="highlighter-rouge">&lt;Leader&gt;s</code> and <code class="highlighter-rouge">&lt;Leader&gt;\e</code> (typically the leader key will be <code class="highlighter-rouge">\</code>) to switch between these Swedish and English keyboard layouts. The mappings also change the spell language accordingly.</p>
+
+<p>The swe-us keyboard layout  is defined in the file <code class="highlighter-rouge">swe-us_utf-8.vim</code> which goes in <code class="highlighter-rouge">~/.vim/keymap/</code>. This only changes mappings in insert mode, leaving all your normal mode mappings untouched, and it interacts with the <code class="highlighter-rouge">r</code> and <code class="highlighter-rouge">x</code> operations and the like. The file is quite small since only a few keys are modified from the default US layout. It applies all the changes to the US layout discussed above. This is the entire file:</p>
+
+<div class="language-vim highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">let</span> <span class="nv">b:keymap_name</span> <span class="p">=</span> <span class="s2">"swe-us"</span>
+
+<span class="k">loadkeymap</span>
+<span class="p">[</span>	å
+<span class="p">[[</span>	<span class="p">[</span>
+<span class="p">{</span>	Å
+<span class="p">{{</span>	<span class="p">{</span>
+'	ä
+<span class="s1">''</span>	'
+<span class="se">\</span>"	Ä
+<span class="se">\</span><span class="s2">""</span>	"
+;	ö
+;;	;
+<span class="p">:</span>	Ö
+<span class="p">::</span>	<span class="p">:</span>
+</code></pre></div></div>
+
+<p>Since a started using these settings, and after a week or so of learning it, typing Swedish in Vim is much less of a pain. No more finger gymnastics such as Alt+Shift+7 to get a simple backslash. The double key presses to get the “underlying” masked character is however a bit difficult to get use to.</p>
+
+
+  </div>
+
+</article>
+
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+          <footer class="footer">
+            <p>
+            
+<a href="mailto:andreasmartenhallberg@gmail.com"><i class="svg-icon email"></i></a>
+
+
+<a href="https://github.com/andreasmhallberg"><i class="svg-icon github"></i></a>
+
+
+
+<a href="/feed.xml"><i class="svg-icon rss"></i></a>
+
+
+
+
+            </p>
+            <p>
+            <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons-licens" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Uppercase Alif</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://andreasmhallberg.github.io/" property="cc:attributionName" rel="cc:attributionURL">Andreas Hallberg</a> is licensed under a<br><a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+            </p>
+          </footer>
+      </div>
+    </div>
+
+
+
+  </body>
+</html>

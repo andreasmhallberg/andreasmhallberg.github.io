@@ -1,0 +1,1192 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-02-04T17:09:57+01:00</updated><id>http://localhost:4000/</id><title type="html">Uppercase Alif</title><subtitle>Andreas Hallberg's notes on Arabic linguistics, Vim and LaTeX.</subtitle><entry xml:lang="en"><title type="html">Arabic verb forms: fill in the blanks</title><link href="http://localhost:4000/arabic-verb-forms/" rel="alternate" type="text/html" title="Arabic verb forms: fill in the blanks" /><published>2018-01-25T00:00:00+01:00</published><updated>2018-01-25T00:00:00+01:00</updated><id>http://localhost:4000/arabic-verb-forms</id><content type="html" xml:base="http://localhost:4000/arabic-verb-forms/">&lt;p&gt;I’ve been toying with different ways of visually representing the ten Standard Arabic verb forms. The traditional way of using the root &lt;em&gt;fʿl&lt;/em&gt; (فعل) as a pattern is nice enough, but it does not provide clear visual cues to differentiate between the pattern and the root. What you see is whole words, not roots and patterns. This is something I have tried to amend in &lt;a href=&quot;/documents/verb-forms/verb-forms.tex.pdf&quot;&gt;the document below&lt;/a&gt; in which the three root consonants are represented by empty squares. With the table in this format it is possible see the structure of the verb form at a glance without having to untangle it from root consonants. Or at least this is the intention.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/documents/verb-forms/verb-forms.tex.pdf&quot;&gt;&lt;img src=&quot;/images/verb-forms.mindoc.png&quot; alt=&quot;thumbnail&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;To my knowledge noone has presented the forms in this manner before. There are probably two reasons for this. The first is that is tricky to get the vowels typeset correctly when they are not used with actual letters. I had to revert to some &lt;a href=&quot;/documents/verb-forms/verb-forms.tex&quot;&gt;LaTex black magic&lt;/a&gt; to get it done. The second reason is that the connections between the letters of the form (e.g. the infix ـتـ in form VIII) will be incorrect for some roots, which might be upsetting to some. I believe this is a pedagogical non-issue since students at the level where this table is appropriate will have already mastered the Arabic script.&lt;/p&gt;
+
+&lt;p&gt;A positive side effect of this form of presentation is that it students can physically ‘fill in the blanks’ with roots to test them in different forms and then pronounce them. This could be a good way to train what will sooner or later have to be an automated process, the generation of words by combining roots and patterns in the ten forms. It is here the incorrect letters connections come into play, but gain, this will probably not be a problem in practice.&lt;/p&gt;
+
+&lt;p&gt;The document gives the entire table twice: in Arabic script and in &lt;em&gt;Al-Kitaab&lt;/em&gt;/Ryding (2005) type transcription. Most likely the table with the Arabic script is best suited for students at the level where this table is introduced. The transcription is provided for students who might find the linear order of vowels in the Latin script more revealing of the verb forms.&lt;/p&gt;
+
+&lt;p&gt;The fonts used are the free-to-use Source Sans Pro and Lateef. Source Sans comes in several different weights (thicknesses) which comes in handy when you want to match it with a specific Arabic typeface. I generally prefer the Light and ExtaLight weights but the Regular is used here to match the Arabic Lateef which is a typical &lt;em&gt;naskh&lt;/em&gt; print typeface and thus quite heavy.&lt;/p&gt;</content><author><name></name></author><category term="latex" /><category term="linguistics" /><category term="tafl" /><summary type="html">I’ve been toying with different ways of visually representing the ten Standard Arabic verb forms. The traditional way of using the root fʿl (فعل) as a pattern is nice enough, but it does not provide clear visual cues to differentiate between the pattern and the root. What you see is whole words, not roots and patterns. This is something I have tried to amend in the document below in which the three root consonants are represented by empty squares. With the table in this format it is possible see the structure of the verb form at a glance without having to untangle it from root consonants. Or at least this is the intention.</summary></entry><entry xml:lang="en"><title type="html">Minimal pairs in Standard Arabic</title><link href="http://localhost:4000/minimal-pairs/" rel="alternate" type="text/html" title="Minimal pairs in Standard Arabic" /><published>2017-12-20T00:00:00+01:00</published><updated>2017-12-20T00:00:00+01:00</updated><id>http://localhost:4000/minimal-pairs</id><content type="html" xml:base="http://localhost:4000/minimal-pairs/">&lt;p&gt;Minimal pairs are a good way to highlight and practice unfamiliar sounds in a foreign language. Often in lists of Arabic minimal pairs in teaching materials the authors feel they have to reach towards the very bottom of the Classical Arabic vocabulary bowl, listing words that students may never come across in real life. In the document below I have only included words that are in actual use in Modern Standard Arabic, that are fairly frequent, and that students sooner or later will have to learn.&lt;/p&gt;
+
+&lt;p&gt;The list gives examples of contrasts in phonemes which speakers of European languages typically find difficult to reproduce. It is meant as a pronunciation exercise for first semester students, preferably a few months into their studies when they are familiar with the script but before they master pronunciation. All words are given in Arabic script, transcription, and in translation. The transcription system used is that of &lt;em&gt;Alif Baa/Al-Kitaab&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;There are two versions of this document, one with words translated to English and which can be accessed through &lt;a href=&quot;/documents/minimal-pairs-en.md.pdf&quot;&gt;this link&lt;/a&gt; or by clicking on the image below, och en med orden översatta till svenska och som kan laddas ner genom &lt;a href=&quot;/documents/minimal-pairs-sv.md.pdf&quot;&gt;denna länk&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/documents/minimal-pairs-en.md.pdf&quot;&gt;
+&lt;img width=&quot;50%&quot; src=&quot;/images/minimala-par.thumbnail.png&quot; alt=&quot;Thumbnail&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="tafl" /><summary type="html">Minimal pairs are a good way to highlight and practice unfamiliar sounds in a foreign language. Often in lists of Arabic minimal pairs in teaching materials the authors feel they have to reach towards the very bottom of the Classical Arabic vocabulary bowl, listing words that students may never come across in real life. In the document below I have only included words that are in actual use in Modern Standard Arabic, that are fairly frequent, and that students sooner or later will have to learn.</summary></entry><entry xml:lang="en"><title type="html">Arabic letters and vowel markers</title><link href="http://localhost:4000/arabic-letters-and-vowel-markers/" rel="alternate" type="text/html" title="Arabic letters and vowel markers" /><published>2017-12-01T00:00:00+01:00</published><updated>2017-12-01T00:00:00+01:00</updated><id>http://localhost:4000/arabic-letters-and-vowel-markers</id><content type="html" xml:base="http://localhost:4000/arabic-letters-and-vowel-markers/">&lt;p&gt;The Arabic textbook &lt;em&gt;Alif Baa&lt;/em&gt; (Georgetown University Press, 2014), the introductory book in the popular &lt;em&gt;Al-Kitaab&lt;/em&gt; series lacks a good overview of the Arabic alphabet and how letters connect. (The table on pages 11–12 only shows the isolated forms.) I therefore device an overview of the alphabet of the type found in for example Schulz et al. (2000, a.k.a “the red book”) in which all four forms of each letter are shown. This fits neatly on one page, so I populated the second with letters not traditionally part of the alphabet but that nevertheless need to be learned by students (أ إ ؤ ئ ء آ ة and ي), as well as the system of vowel markers. I also crammed in some (I hope useful) information in sidenotes. The intention is for students to have this document at hand as a reference sheet for the entirety their introductory course.&lt;/p&gt;
+
+&lt;p&gt;The document can be downloaded &lt;a href=&quot;/documents/arabic-letters-and-vowel-markers.tex.pdf&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/documents/arabic-letters-and-vowel-markers.tex.pdf&quot;&gt;
+&lt;img width=&quot;50%&quot; src=&quot;/images/arabic-letters.thumbnail.png&quot; alt=&quot;Thumbnail&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The fonts used in the document are &lt;a href=&quot;http://www.linuxlibertine.org/&quot;&gt;Linux Libertine&lt;/a&gt; for the Latin script and &lt;a href=&quot;https://software.sil.org/scheherazade/&quot;&gt;Scheherazade&lt;/a&gt; for the Arabic, with &lt;a href=&quot;http://www.amirifont.org/&quot;&gt;Amiri&lt;/a&gt; in the ligatures infobox. The overly engineered LaTeX source code can be found &lt;a href=&quot;/documents/arabic-letters-and-vowel-markers.tex&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="tafl" /><summary type="html">The Arabic textbook Alif Baa (Georgetown University Press, 2014), the introductory book in the popular Al-Kitaab series lacks a good overview of the Arabic alphabet and how letters connect. (The table on pages 11–12 only shows the isolated forms.) I therefore device an overview of the alphabet of the type found in for example Schulz et al. (2000, a.k.a “the red book”) in which all four forms of each letter are shown. This fits neatly on one page, so I populated the second with letters not traditionally part of the alphabet but that nevertheless need to be learned by students (أ إ ؤ ئ ء آ ة and ي), as well as the system of vowel markers. I also crammed in some (I hope useful) information in sidenotes. The intention is for students to have this document at hand as a reference sheet for the entirety their introductory course.</summary></entry><entry xml:lang="en"><title type="html">Typing Arabic in Vim</title><link href="http://localhost:4000/typing-arabic-in-vim/" rel="alternate" type="text/html" title="Typing Arabic in Vim" /><published>2017-06-22T00:00:00+02:00</published><updated>2017-06-22T00:00:00+02:00</updated><id>http://localhost:4000/typing-arabic-in-vim</id><content type="html" xml:base="http://localhost:4000/typing-arabic-in-vim/">&lt;p&gt;I often write documents, such as exams and lecture notes, that contain both Latin and Arabic script, often on the same line of text. This can be challenging due to the complications of mixing of LTR (left-to-right) and RTL (right-to-left) scripts. This seems like an easy problem to solve for software developers, and it is, only not in software with graphical WYSIWYG interfaces, such as Word or OpenOffice. (I’m sure everyone who has tried writing mixed direction text in such softwares share my frustration with them, and I will therefore refrain from rants.) Since my shift to exclusively producing and editing text in plain text formats (.txt, .mkd, .tex, etc.) with the editor Vim, writing texts with mixed directionlity has become a lot easier. This post is  an attempt to explain how.&lt;/p&gt;
+
+&lt;p&gt;When typing and editing text on computer, switching from working with Latin script to Arabic script at the most basic level involves changing two things: a) the direction in which characters appear on the screen, and b) the keyboard layout that is used to insert characters in the text. In Vim, each of these two changes is done independently of one another with the options &lt;code class=&quot;highlighter-rouge&quot;&gt;rightleft&lt;/code&gt; for directionality and &lt;code class=&quot;highlighter-rouge&quot;&gt;keymap&lt;/code&gt; for the keyboard layout.&lt;/p&gt;
+
+&lt;h2 id=&quot;directionality-and-display&quot;&gt;Directionality and display&lt;/h2&gt;
+
+&lt;p&gt;It is important to understand that text is stored electronically as series of characters, including spaces and line breaks, order one after another in a long list. Think of this as a list of all keystrokes used to produce the text. Arabic characters come encoded with information that they are to be displayed LTR, but it doesn’t effect the order in which they are electronically stored. Thus, if I type &lt;code class=&quot;highlighter-rouge&quot;&gt;hello&lt;/code&gt; the letters are stored in that particular order, and it can be displayed as LTR (&lt;code class=&quot;highlighter-rouge&quot;&gt;hello&lt;/code&gt;) or as RTL (&lt;code class=&quot;highlighter-rouge&quot;&gt;olleh&lt;/code&gt;) with without changing the logical order in which they are stored, only the direction in which they are displayed on the screen has changed. If i type the letters &lt;code class=&quot;highlighter-rouge&quot;&gt;م&lt;/code&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;ر&lt;/code&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;ح&lt;/code&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;ب&lt;/code&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;ا&lt;/code&gt;, they can be displayed as LTR (&lt;code class=&quot;highlighter-rouge&quot;&gt;ابحرم&lt;/code&gt;) or as RTL (&lt;code class=&quot;highlighter-rouge&quot;&gt;مرحبا&lt;/code&gt;) with the characters in same order but with different direction of display. For Arabic, the latter is of course appropriate.&lt;/p&gt;
+
+&lt;p&gt;Now, what WYSIWYG (What You See Is What You Get) word processors such as Word of OpenOffice do is that when they come across characters in the file that are part of an RTL alphabet, such as Arabic characters, it rearranges them so that they are displayed RTL on the screen. This is of course nice in that it shows the text as it is intended to be read by humans. However, try to highlight a portion of a text with mixed directionlity (or even with only RTL) with the mouse, add a comma at a direction switch, or enclose section in parenthesis and you are likely to run into trouble. Editing a text displayed like this is a pain.&lt;/p&gt;
+
+&lt;p&gt;Enter Vim. Vim lacks the capability of visually reorder specific letters according to the reading direction of that particular alphabet. All characters are displayed in a logical order and all are either displayed LTR or RTL, as shown in the image below. In the image to the left with LTR display the text in English is be displayed correctly and Arabic text reversed. In the image to the right with LTR display the text in English is reversed and Arabic text is displayed correctly.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-06-22/ltr.png&quot; alt=&quot;RTL display&quot; /&gt; &lt;img src=&quot;/images/2017-06-22/rtl.png&quot; alt=&quot;LTR display&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You switch between these two ways of displaying a text with &lt;code class=&quot;highlighter-rouge&quot;&gt;:set rightleft&lt;/code&gt; for RTL &lt;code class=&quot;highlighter-rouge&quot;&gt;:set norightleft&lt;/code&gt; for LTR. I have this mapped to the keystrokes &lt;code class=&quot;highlighter-rouge&quot;&gt;\a&lt;/code&gt; for Arabic and &lt;code class=&quot;highlighter-rouge&quot;&gt;\e&lt;/code&gt; for English to quickly switch back and forth. (This mapping also switches to Arabic keyboard layout, as explained below.) This way writing documents with mixed Latin/Arabic script becomes a process of quickly reorienting the entire text back and forth between these two modes of display. The idea is that all characters, regardless of how they are to appear in the final document are displayed in their logical, rather than in their proper visual order. The reordering of the characters as appropriate for final display is postponed to when the document is compiled or converted to its final form, be it in a .doc file, a pdf in the rendering of a HTML file in a browser (as in the text you are now reading).&lt;/p&gt;
+
+&lt;p&gt;The drawback of this method of changing the entire text back and forth between LTR to RTL is that it is a bit disorienting. It is more difficult to navigate the text you are writing using visual cues, like headings and list, since these change shape with every switch in directionlity. The gains are however significant. Navigating, marking, copying, pasting and generally moving things around becomes completely streamlined, intuitive, and friction free. You can edit and change stuff as easily as you would piece of text containing only Latin script.&lt;/p&gt;
+
+&lt;h2 id=&quot;keyboard-layout&quot;&gt;Keyboard layout&lt;/h2&gt;
+
+&lt;p&gt;Vim also comes with its own Arabic keyboard layout (see &lt;code class=&quot;highlighter-rouge&quot;&gt;:h mbyte-keymap&lt;/code&gt;). You switch to it with &lt;code class=&quot;highlighter-rouge&quot;&gt;:set keymap=arabic&lt;/code&gt;. It is preferable to use Vim’s internal settings for keyboard layout rather than the system for keyboard layouts in the operating system. Of you change the keyboard layout in the OS, commands in normal mode no longer work since the keys that are input to Vim are now different. Vim’s core functionality is then lost. Vim’s internal keyboard switching instead only applies to insert and search modes while normal mode is unaffected, meaning that everything works as normal, and you don’t have to change the keyboard layout every time you enter or exit insert mode.&lt;/p&gt;
+
+&lt;p&gt;The keyboard layout and the text direction are thus set independently of one another. If you change the &lt;code class=&quot;highlighter-rouge&quot;&gt;keymap&lt;/code&gt; option  without changing the &lt;code class=&quot;highlighter-rouge&quot;&gt;rightleft&lt;/code&gt; option, you will insert Arabic characters that are displayed LTR, as in the image below. I have found that if you only type a few isolated Arabic words here and there in an otherwise LTR text, this is the most convenient way to do it. The Arabic words will look strange on the screen, with letters ordered LTR and connected according to this backwards order, but they are still more or less readable, and for a few isolated words this is not too big of a deal. It is well worth this inconvenience to avoid the hassle of editing text with mixed directionality. They Arabic words all align correctly when the final document is compiled.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-06-22/arabic-in-ltr.png&quot; alt=&quot;Arabic words in a LTR text.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Another advantage of Vim’s keyboard layouts is that they are very easy to modify. Each keyboard layout is specified in a file that consists of two columns, the first containing the input key and the second the output character. The example below is an excerpt from the Arabic keyboard layout with the output characters given as Unicode character codes.&lt;/p&gt;
+
+&lt;div class=&quot;language-vim highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;loadkeymap&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;q&lt;/span&gt;	&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;char&lt;span class=&quot;m&quot;&gt;-0&lt;/span&gt;x0636&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;	&quot; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1590&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;	&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; DAD
+&lt;span class=&quot;k&quot;&gt;w&lt;/span&gt;	&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;char&lt;span class=&quot;m&quot;&gt;-0&lt;/span&gt;x0635&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;	&quot; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1589&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;	&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; SAD
+&lt;span class=&quot;k&quot;&gt;e&lt;/span&gt;	&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;char&lt;span class=&quot;m&quot;&gt;-0&lt;/span&gt;x062b&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;	&quot; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1579&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;	&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; THEH
+&lt;span class=&quot;k&quot;&gt;r&lt;/span&gt;	&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;char&lt;span class=&quot;m&quot;&gt;-0&lt;/span&gt;x0642&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;	&quot; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1602&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;	&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; QAF
+&lt;span class=&quot;p&quot;&gt;[...]&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This is very useful. I am for example used from PC-standards to having the letter &lt;em&gt;dhaal&lt;/em&gt; (ذ) on the §-key at the top left of the keyboard, but in Vim’s Arabic layout it is on the `-key next to the left shift. To change this I copied the original Arabic keymap file (I use MacVim so this file is locate in &lt;code class=&quot;highlighter-rouge&quot;&gt;/Applications/MacVim.app/Contents/Resources/vim/runtime/keymap/arabic_utf-8.vim&lt;/code&gt;) to &lt;code class=&quot;highlighter-rouge&quot;&gt;~/.vim/keymap/&lt;/code&gt; and changed its name to &lt;code class=&quot;highlighter-rouge&quot;&gt;arabic-pc_utf-8.vim&lt;/code&gt; to differentiate it from the original file. The file name is arbitrary accept that it must end with &lt;code class=&quot;highlighter-rouge&quot;&gt;_utf-8.vim&lt;/code&gt;. In this new file I changed the input key that produces the letter &lt;em&gt;dhāl&lt;/em&gt; from &lt;code class=&quot;highlighter-rouge&quot;&gt;`&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;§&lt;/code&gt; (line 54). I can now call this new modified keyboard layout with &lt;code class=&quot;highlighter-rouge&quot;&gt;:set keymap=arabic-pc&lt;/code&gt; (using the first part of its file name). You could also change the original file, but this method is better since you can store the new file separately and make it more easy accessible for different Vim installations. My slightly modified Arabic keymap file can for instance be found &lt;a href=&quot;https://github.com/andreasmhallberg/dotfiles&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;wrap-up-language-switching-command&quot;&gt;Wrap-up: Language switching command&lt;/h2&gt;
+
+&lt;p&gt;If you find yourself often having to switch back and forth between English (or some other language that uses Latin script) and Arabic, it is a good idea to map a function that switches to RTL directionality and the Arabic keyboard layout and back again. I have this set to &lt;code class=&quot;highlighter-rouge&quot;&gt;\a&lt;/code&gt; for Arabic and &lt;code class=&quot;highlighter-rouge&quot;&gt;\e&lt;/code&gt; for English using the code below (adapted from &lt;a href=&quot;https://github.com/andreasmhallberg/dotfiles/blob/master/.vimrc&quot;&gt;my vimrc&lt;/a&gt;).&lt;/p&gt;
+
+&lt;div class=&quot;language-vim highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;&quot; Switch to English - mapping&lt;/span&gt;
+nmap &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;Leader&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;e&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&amp;lt;&lt;/span&gt;C&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt;U&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;call&lt;/span&gt; EngType&lt;span class=&quot;p&quot;&gt;()&amp;lt;&lt;/span&gt;CR&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;&quot; Switch to Arabic - mapping&lt;/span&gt;
+nmap &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;Leader&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&amp;lt;&lt;/span&gt;C&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt;U&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;call&lt;/span&gt; AraType&lt;span class=&quot;p&quot;&gt;()&amp;lt;&lt;/span&gt;CR&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;&quot; Switch to English - function&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;!&lt;/span&gt; EngType&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;&quot; To switch back from Arabic&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;set&lt;/span&gt; keymap&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &quot; Restore default &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;US&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; keyboard layout
+  &lt;span class=&quot;k&quot;&gt;set&lt;/span&gt; norightleft
+&lt;span class=&quot;k&quot;&gt;endfunction&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;&quot; Switch to Arabic - function&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;!&lt;/span&gt; AraType&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;set&lt;/span&gt; keymap&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;arabic&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;pc&lt;/span&gt; &quot;Modified keymap&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt; File &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/.vim/&lt;/span&gt;keymap/
+    &lt;span class=&quot;k&quot;&gt;set&lt;/span&gt; rightleft
+&lt;span class=&quot;k&quot;&gt;endfunction&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Alternatively, and much simpler, you can use &lt;code class=&quot;highlighter-rouge&quot;&gt;:set arabic&lt;/code&gt; to change to RTL and the default Arabic keyboard layout (see &lt;code class=&quot;highlighter-rouge&quot;&gt;:h arabic&lt;/code&gt;).&lt;/p&gt;</content><author><name></name></author><category term="vim" /><summary type="html">I often write documents, such as exams and lecture notes, that contain both Latin and Arabic script, often on the same line of text. This can be challenging due to the complications of mixing of LTR (left-to-right) and RTL (right-to-left) scripts. This seems like an easy problem to solve for software developers, and it is, only not in software with graphical WYSIWYG interfaces, such as Word or OpenOffice. (I’m sure everyone who has tried writing mixed direction text in such softwares share my frustration with them, and I will therefore refrain from rants.) Since my shift to exclusively producing and editing text in plain text formats (.txt, .mkd, .tex, etc.) with the editor Vim, writing texts with mixed directionlity has become a lot easier. This post is an attempt to explain how.</summary></entry><entry xml:lang="en"><title type="html">A list of Syrian Arabic politeness formulae</title><link href="http://localhost:4000/syrian-arabic-politeness-formulae/" rel="alternate" type="text/html" title="A list of Syrian Arabic politeness formulae" /><published>2017-05-28T00:00:00+02:00</published><updated>2017-05-28T00:00:00+02:00</updated><id>http://localhost:4000/syrian-arabic-politeness-formulae</id><content type="html" xml:base="http://localhost:4000/syrian-arabic-politeness-formulae/">&lt;p&gt;In the different dialects of Arabic there are highly developed systems of polite phrases to be uttered in various situations. Many of these phrases have one specific appropriate response. Knowing these phrases, in what situations they are used, and how to properly respond to them, is an important part of Arabic communicative competence. For native speakers, this is simply part of language and it isn’t given much thought. When, for example, someone says &lt;em&gt;naʿīman&lt;/em&gt; to you after you have had a shower you just automatically reply &lt;em&gt;aḷḷa yinʿam ʿalēk&lt;/em&gt;. For a non-native speaker like myself, recognizing and learning these phrases can be challenging, and I hope this post may be of some help.&lt;/p&gt;
+
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#introduction&quot; id=&quot;markdown-toc-introduction&quot;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#greetings&quot; id=&quot;markdown-toc-greetings&quot;&gt;Greetings&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#general-greetings&quot; id=&quot;markdown-toc-general-greetings&quot;&gt;General greetings&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#to-someone-who-just-woke-up&quot; id=&quot;markdown-toc-to-someone-who-just-woke-up&quot;&gt;To someone who just woke up&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#greeting-before-noon&quot; id=&quot;markdown-toc-greeting-before-noon&quot;&gt;Greeting before noon&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#greeting-after-noon&quot; id=&quot;markdown-toc-greeting-after-noon&quot;&gt;Greeting after noon&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#welcoming&quot; id=&quot;markdown-toc-welcoming&quot;&gt;Welcoming&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#when-being-introduced-to-someone&quot; id=&quot;markdown-toc-when-being-introduced-to-someone&quot;&gt;When being introduced to someone&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#parting&quot; id=&quot;markdown-toc-parting&quot;&gt;Parting&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#general-goodbye&quot; id=&quot;markdown-toc-general-goodbye&quot;&gt;General goodbye&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#parting-before-sleep&quot; id=&quot;markdown-toc-parting-before-sleep&quot;&gt;Parting before sleep&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#parting-from-someone-you-have-met-for-the-first-time&quot; id=&quot;markdown-toc-parting-from-someone-you-have-met-for-the-first-time&quot;&gt;Parting from someone you have met for the first time&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#special-occasions&quot; id=&quot;markdown-toc-special-occasions&quot;&gt;Special occasions&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#good-wishes-on-annual-holiday&quot; id=&quot;markdown-toc-good-wishes-on-annual-holiday&quot;&gt;Good wishes on annual holiday&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#to-someone-in-grief-at-funeral-ʿaza&quot; id=&quot;markdown-toc-to-someone-in-grief-at-funeral-ʿaza&quot;&gt;To someone in grief (at funeral (&lt;em&gt;ʿaza&lt;/em&gt;))&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#departing&quot; id=&quot;markdown-toc-departing&quot;&gt;To someone departing on a journey&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#to-someone-returning-from-a-journey&quot; id=&quot;markdown-toc-to-someone-returning-from-a-journey&quot;&gt;To someone returning from a journey&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#not-so-special-occasions&quot; id=&quot;markdown-toc-not-so-special-occasions&quot;&gt;Not so special occasions&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#thanking&quot; id=&quot;markdown-toc-thanking&quot;&gt;Thanking&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#to-someone-who-has-cut-their-hair-shaved-or-have-had-a-shower-or-bath&quot; id=&quot;markdown-toc-to-someone-who-has-cut-their-hair-shaved-or-have-had-a-shower-or-bath&quot;&gt;To someone who has cut their hair, shaved, or have had a shower or bath&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#to-someone-who-has-performed-the-prayer-ṣalāt&quot; id=&quot;markdown-toc-to-someone-who-has-performed-the-prayer-ṣalāt&quot;&gt;To someone who has performed the prayer (&lt;em&gt;ṣalāt&lt;/em&gt;)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#asking-someone-to-be-patient-or-to-calm-down&quot; id=&quot;markdown-toc-asking-someone-to-be-patient-or-to-calm-down&quot;&gt;Asking someone to be patient or to calm down&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#passagreeting&quot; id=&quot;markdown-toc-passagreeting&quot;&gt;Asking someone to pass a greeting&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#to-host-after-finishing-meal&quot; id=&quot;markdown-toc-to-host-after-finishing-meal&quot;&gt;To host after finishing meal&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#to-someone-who-is-or-will-be-eating-or-drinking&quot; id=&quot;markdown-toc-to-someone-who-is-or-will-be-eating-or-drinking&quot;&gt;To someone who is or will be eating or drinking&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#to-someone-who-is-working-or-exerting-themselves&quot; id=&quot;markdown-toc-to-someone-who-is-working-or-exerting-themselves&quot;&gt;To someone who is working or exerting themselves&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#to-someone-who-has-acquired-and-item-as-a-gift-or-through-purchase&quot; id=&quot;markdown-toc-to-someone-who-has-acquired-and-item-as-a-gift-or-through-purchase&quot;&gt;To someone who has acquired and item (as a gift or through purchase)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#on-hearing-of-the-addressees-ill-health&quot; id=&quot;markdown-toc-on-hearing-of-the-addressees-ill-health&quot;&gt;On hearing of the addressee’s ill health&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#on-hearing-that-the-addressee-has-children&quot; id=&quot;markdown-toc-on-hearing-that-the-addressee-has-children&quot;&gt;On hearing that the addressee has children&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#references&quot; id=&quot;markdown-toc-references&quot;&gt;References&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;Not giving the proper response to a politeness phrase can often lead to awkward social situations or is simply rude. As one scholar explains, these formulaic responses&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;signify an addressee’s acceptance of the phrase to which they respond, thus serving as an indication that communications of concern, kindness, or other positive emotion has been successful, or that a social obligation has been properly fulfilled and is appreciated (Stewart 1996).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Thus not properly responding, even if it because you as a non-native speaker does not know the answer, is a social mishap and one of the of the parties either have to save the situation, by diverting attention from the event or call out what has just happened and explain the situation, or someone might get uncomfortable.&lt;/p&gt;
+
+&lt;p&gt;A short anecdote may serve to illustrate this. One of the first people I got to know during my stay in Damascus always ended our telephone conversations by asking me if I wanted something (&lt;em&gt;biddak ši?&lt;/em&gt;). I found this a bit odd, as if I was a costumer in his shop, and in my confusion typically answered something like “no, thanks” (&lt;em&gt;lā, sukran&lt;/em&gt;). There was always something awkward about these exchanges. It was only later that I discovered that this was a formulaic phrase and that I was supposed to answer “your well-being” (&lt;em&gt;salāmtak&lt;/em&gt;). When I tried this the first time I could proudly confirm that the conversation ended smoothly and that I had arisen to the occasion as a well functional social human being.&lt;/p&gt;
+
+&lt;p&gt;This formula (&lt;em&gt;– biddak ši? – salāmtak&lt;/em&gt;) is only one of the couple of dozens or so phrases and responses that are in common use. Keeping track of all of them can be a daunting task for the language learner. A trick I figured out was that the response &lt;em&gt;aḷḷa yixallīk&lt;/em&gt; ‘May God keep you safe’ is an acceptable response in most situations, even if there is another response that is more suited for that situation (cf. Stewart 1996:162).&lt;/p&gt;
+
+&lt;p&gt;Many formulaic responses include a repetition of the root of the main word in the phrase that it is a response to, producing a wordplay.&lt;sup id=&quot;fnref:impoliteness&quot;&gt;&lt;a href=&quot;#fn:impoliteness&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; This means that often the same response is used for several different initial phrases that all include words with the same root. For example, to all of the phrases &lt;a href=&quot;#thanking&quot;&gt;&lt;em&gt;yislam īdēk&lt;/em&gt;&lt;/a&gt; ‘thanks’, &lt;a href=&quot;#passagreeting&quot;&gt;&lt;em&gt;sallim ʿala  X&lt;/em&gt;&lt;/a&gt; ‘give my regard to X’, and &lt;a href=&quot;#departing&quot;&gt;&lt;em&gt;trūḥ u-tarjaʿ bi-salāma&lt;/em&gt;&lt;/a&gt; ‘may you leave and return in peace’, all including a word with the root &lt;em&gt;SLM&lt;/em&gt;, the appropriate response is &lt;em&gt;aḷḷa yisallimak&lt;/em&gt; ‘May God preserve you’. (See Ferguson 1997 and Stewart 1996 for further discussion.)&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;The following list includes politeness formulae as used by speakers from the Damascus area. The phrases or sorted under headings indicating the situation in which the initiator phrase is used. I have only included phrases that I have heard in use, and the list thus has a bias to situations where a non-Arab male may find himself. The list is thus by no means complete, but I do believe it includes the most common phrases. Native speaker informants were consulted in a few cases where I was not certain of the form of the formula.&lt;/p&gt;
+
+&lt;p&gt;The phrases are given in Arabic script and then in EALL transcription (Reichmut 2006) as pronounced in Damascene Arabic. The translations provided are fairly literal. Many of the expressions have no or only partial equivalents in English anyways, and the humorous effects of literal translation was sometimes hard to resist. Each phrase is followed by its appropriate response.&lt;/p&gt;
+
+&lt;p&gt;Note that the Arabic text is the wrong way around relative to the reading direction, with the initial phrase to the left and its response to the right. Some are followed by brief comments.&lt;/p&gt;
+
+&lt;p&gt;Forward slash indicates alternative responses.&lt;/p&gt;
+
+&lt;p&gt;Parentheses indicate optional extensions to responses.&lt;/p&gt;
+
+&lt;p&gt;Square brackets indicate clarifications in the translation.&lt;/p&gt;
+
+&lt;h2 id=&quot;greetings&quot;&gt;Greetings&lt;/h2&gt;
+
+&lt;h3 id=&quot;general-greetings&quot;&gt;General greetings&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;السلام عليكم&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;وعليكم سلام (ورحمة الله وبركاته)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;as-salāmu ʿalaykum&lt;/em&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;wa-ʿalaykum salām (wa-raḥmatu allāhi wa-barakātuh)&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Peace be upon you&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;And upon you peace (and God’s greace and his blessings)&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Islamic greeting signalling high degree of formality or allegiance to Islam. The pronoun &lt;em&gt;-kum&lt;/em&gt; (2mpl) is invariable in the phrase and in its response.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;مرحبا&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;أهلاً / مرحبتين / مية مرحبا / يا هلا&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;marḥaba&lt;/em&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;ahlan / marḥabatēn&lt;/em&gt; / &lt;em&gt;mīt marḥaba&lt;/em&gt; / hi&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Hello&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Hello / Two &lt;em&gt;marḥaba&lt;/em&gt;s / a hunderd &lt;em&gt;marḥaba&lt;/em&gt;s / hi&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;to-someone-who-just-woke-up&quot;&gt;To someone who just woke up&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;صح النوم&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;صح بدنك&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;ṣaḥḥ an-nōm&lt;/em&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;ṣaḥḥ badanak&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;May the sleep be healing&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;May your body be healed&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;greeting-before-noon&quot;&gt;Greeting before noon&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;صباح الخير&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;صباح النور&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;ṣabāḥ al-xēr&lt;/em&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;ṣabāḥ an-nūr / ṣabāḥ al-full&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Morning of fortune&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Morning of light / Morning of rose&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;em&gt;Xēr&lt;/em&gt; does not easily lend itself to translation. Wehr, the standard Arabic-English lexicon, translates it as “good thing, blessing; wealth, property; — good, benefit, interest, advantage; welfare; charity.”&lt;/p&gt;
+
+&lt;h3 id=&quot;greeting-after-noon&quot;&gt;Greeting after noon&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;مساء الخير&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;مساء النور&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;masāʾ al-xēr&lt;/em&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;masāʾ an-nūr&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Evening of fortune&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Evening of light&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;welcoming&quot;&gt;Welcoming&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;أهلا وسهلا&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;أهلاً فيك / أهلين&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;ahla wa-sahla&lt;/em&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;ahlan fīk&lt;/em&gt; / &lt;em&gt;ahlēn&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Welcome&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Welcome to you / Two welcomes&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Also general filler in silences in the conversation.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;نوّرتو&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;بوجودكم&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;nawwartu&lt;/em&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;bi-wujūdkum&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;You have enlightened&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;With your presence&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;when-being-introduced-to-someone&quot;&gt;When being introduced to someone&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;تشرّفنا&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;يزيدك الشرف&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;tašarrafna&lt;/em&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;yazīdak aš-šaraf&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;We are honored&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;May he increase your honor&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;parting&quot;&gt;Parting&lt;/h2&gt;
+
+&lt;h3 id=&quot;general-goodbye&quot;&gt;General goodbye&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;مع سلامة&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;الله معك&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;maʿa salāma&lt;/em&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;aḷḷa maʿak&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;With peace&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;May God be with you&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;بدك شي؟&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;(ما بدي إلا) سلامتك&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;biddak ši?&lt;/em&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;(mā biddi illa) salāmtak&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Do you want something?&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;(I don’t want anything but) your wellbeing&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Said before the actual good bay to signal the end of the conversation.&lt;/p&gt;
+
+&lt;h3 id=&quot;parting-before-sleep&quot;&gt;Parting before sleep&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;تصبح على خير&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;وانت  بخير / وانت من أهله&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;tuṣbiḥ ʿala xēr&lt;/em&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;w-inta bi-xēr / min ahlu / min ahl il-xēr&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Wake up in fortune&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;And you are well / of the its people / of the people of fortune&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;parting-from-someone-you-have-met-for-the-first-time&quot;&gt;Parting from someone you have met for the first time&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;فرصة سعيدة&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;وأنا أسعد&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;furṣa saʿīda&lt;/em&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;u-ʾana asʿad&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Happy occasion&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;And I am happier&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;special-occasions&quot;&gt;Special occasions&lt;/h2&gt;
+
+&lt;h3 id=&quot;good-wishes-on-annual-holiday&quot;&gt;Good wishes on annual holiday&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;عيد مبارك&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;الله يبارك فيك&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;ʿīd mubārak&lt;/em&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;aḷḷa yibārik fīk&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Blessed festival&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;May God bless you&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;كل عام وانت بخير&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;وانت بخير&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;kull ʿām w-anta bi-xēr&lt;/em&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;w-anta bi-xēr&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;May you be well all year&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;And may you be well&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;to-someone-in-grief-at-funeral-ʿaza&quot;&gt;To someone in grief (at funeral (&lt;em&gt;ʿaza&lt;/em&gt;))&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;العواض بسلامتك&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;الله يسلمك&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;al-ʿiwāḍ bi-salāmtak&lt;/em&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;aḷḷa yisallimak&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;May you be compensated with well-beeing&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;May God preserve you&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;العمر إلك&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;تعيش&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;al-ʿumr illak&lt;/em&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;tʿīš&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;The lifetime to you&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;May you live&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;departing&quot;&gt;To someone departing on a journey&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;تروح وترجع بسلامة&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;الله يسلمك&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;trūḥ u-tarjaʾ bi-salāma&lt;/em&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;aḷḷah yisallimak&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Leave and return in peace&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;May God preserve you&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;to-someone-returning-from-a-journey&quot;&gt;To someone returning from a journey&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;الحمد لله على السلامة&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;الله يسلمك&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;al-ḥamdu li-llāh ʿala s-salāma&lt;/em&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;aḷḷa yisallimak&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;God be praised for your wellbeing&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;May God preserve you&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;not-so-special-occasions&quot;&gt;Not so special occasions&lt;/h2&gt;
+
+&lt;h3 id=&quot;thanking&quot;&gt;Thanking&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;يسلم إيديك&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;الله يسلمك / وإيديك&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;yislam īdēk&lt;/em&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;aḷḷa yisallimak / wa-īdēk&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;May [God] preserve your hands&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;May God preserve you / And your hands&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;to-someone-who-has-cut-their-hair-shaved-or-have-had-a-shower-or-bath&quot;&gt;To someone who has cut their hair, shaved, or have had a shower or bath&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;نعيماً&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;الله ينعم عليك&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;naʿīman&lt;/em&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;aḷḷa yinʿam ʿalēk&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Gracefully&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;May God bestow grace upon you.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;to-someone-who-has-performed-the-prayer-ṣalāt&quot;&gt;To someone who has performed the prayer (&lt;em&gt;ṣalāt&lt;/em&gt;)&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;تقبل الله&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;مني ومنك&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;taqabbal aḷḷa&lt;/em&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;minni u-minnak&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;May God accept&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;From me and from you&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;asking-someone-to-be-patient-or-to-calm-down&quot;&gt;Asking someone to be patient or to calm down&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;صلي عالنبي&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;الله يصلي عالنبي&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;ṣalli ʿa-n-nabi&lt;/em&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;aḷḷa yiṣalli ʿa-n-nabi&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Pray for the Prophet&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;May God pray for the Prophet&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;passagreeting&quot;&gt;Asking someone to pass a greeting&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;سلّم على فلان&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;الله يسلّمك / بيوصل / صار عنده&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;sallim ʿala X&lt;/em&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;aḷḷa yisallimak / byūṣal / ṣār ʿindu&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Give my regars X&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;May God preserve you / It will arrive / He got it&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;to-host-after-finishing-meal&quot;&gt;To host after finishing meal&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;دايما&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;صحة&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;dāyima&lt;/em&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;ṣaḥḥa&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;[May you] always [have food]&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;[I wish you] Health&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;to-someone-who-is-or-will-be-eating-or-drinking&quot;&gt;To someone who is or will be eating or drinking&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;صحة / صحتين&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;على قلبك&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;ṣaḥḥa / ṣaḥḥatēn&lt;/em&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;ʿala ʾalbak&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Health / Two healths&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;On your heart&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;em&gt;ṣaḥḥa&lt;/em&gt; is also used to politely decline drink or food offered to you.&lt;/p&gt;
+
+&lt;h3 id=&quot;to-someone-who-is-working-or-exerting-themselves&quot;&gt;To someone who is working or exerting themselves&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;الله يعطيك العافية&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;الله يعافيك&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;aḷḷa yaʿṭīk al-ʿāfiya&lt;/em&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;aḷḷa yiʿāfīk&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;May God give you vigor&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;May God invogorate you&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;to-someone-who-has-acquired-and-item-as-a-gift-or-through-purchase&quot;&gt;To someone who has acquired and item (as a gift or through purchase)&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;مبروك&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;الله يبارك فيك&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;mabrūk&lt;/em&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;aḷḷa yibārik fīk&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Blessed&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;May God bless you&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;on-hearing-of-the-addressees-ill-health&quot;&gt;On hearing of the addressee’s ill health&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;سلامتك&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;الله يسلمك&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;salamtak&lt;/em&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;aḷḷa yisallimak&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Your health&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;May God preserve you&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;on-hearing-that-the-addressee-has-children&quot;&gt;On hearing that the addressee has children&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;الله يخليلك إياهم&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;الله يخليك&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;aḷḷa yixallī-lak iyyāhum&lt;/em&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;aḷḷa yixallīk&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;May God preserve them for you&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;May God keep you safe&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+&lt;p&gt;Ferguson, Charles A. 1997 [1967]. “Root-echo responses in Syrian Arabic politeness formulas.” In &lt;em&gt;Structuralist Studies in Arabic Linguistics: Charles A. Ferguson’s Papers, 1954-1994,&lt;/em&gt; edited by R. Kirk Belnap and Niloofar Haeri, 198–205. Leiden, Netherlands: Brill.&lt;/p&gt;
+
+&lt;p&gt;Reichmuth, Philipp. 2006. “Transcription.” In &lt;em&gt;Encyclopedia of Arabic Language and Linguistics,&lt;/em&gt; edited by C. H. M. Versteegh, 4:146–56. Leiden: Brill.&lt;/p&gt;
+
+&lt;p&gt;Stewart, Devin J., 1996. “Root echo-responses in Egyptian Arabic politeness formulae.” In &lt;em&gt;Understanding Arabic: Essays in Contemporary Arabic Linguistics in Honor of El-Said Badawi,&lt;/em&gt; edited by Alaa Elgibali, 157–80. Cairo: American University in Cairo Press.&lt;/p&gt;
+
+&lt;p&gt;— 1997. “Impoliteness formulae: the cognate curse in Egyptian Arabic.” &lt;em&gt;Journal of Semitic Studies,&lt;/em&gt; 42(2), 327–360.&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:impoliteness&quot;&gt;
+      &lt;p&gt;There are also formulaic &lt;em&gt;impolite&lt;/em&gt; responses to common phrases that work in this way. For a fascinating and entertaining description of such responses in Egyptian Arabic, see Stewart (1997). &lt;a href=&quot;#fnref:impoliteness&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="linguistics" /><summary type="html">In the different dialects of Arabic there are highly developed systems of polite phrases to be uttered in various situations. Many of these phrases have one specific appropriate response. Knowing these phrases, in what situations they are used, and how to properly respond to them, is an important part of Arabic communicative competence. For native speakers, this is simply part of language and it isn’t given much thought. When, for example, someone says naʿīman to you after you have had a shower you just automatically reply aḷḷa yinʿam ʿalēk. For a non-native speaker like myself, recognizing and learning these phrases can be challenging, and I hope this post may be of some help.</summary></entry><entry xml:lang="en"><title type="html">Word counts and aya counts in the Quran</title><link href="http://localhost:4000/word-counts-and-aya-counts-in-the-quran/" rel="alternate" type="text/html" title="Word counts and aya counts in the Quran" /><published>2017-04-01T00:00:00+02:00</published><updated>2017-04-01T00:00:00+02:00</updated><id>http://localhost:4000/word-counts-and-aya-counts-in-the-quran</id><content type="html" xml:base="http://localhost:4000/word-counts-and-aya-counts-in-the-quran/">&lt;p&gt;Another uncalled-for graph. I recently helped a student getting word counts for &lt;em&gt;suras&lt;/em&gt; (chapters) in the Quran by running a script on the Quran in plain text downloaded from &lt;a href=&quot;http://tanzil.net&quot;&gt;tanzil.net&lt;/a&gt;. I then had this nice little data file and felt I had to do something with it. The result is &lt;a href=&quot;/documents/quran-wc.tex.pdf&quot;&gt;the document below&lt;/a&gt;, which is a graphical representation of the number of words and &lt;em&gt;ayas&lt;/em&gt; (verses) in each sura in the Quran. It is intended to be printed on A3-paper. For A4-paper you will need a printer with high resolution since the text will be very small.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/documents/quran-wc.tex.pdf&quot;&gt;&lt;img src=&quot;/images/quran-wc-thumbnail.png&quot; alt=&quot;Word counts and aya counts of suras in the Quran&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I first thought of this as nothing more than an exercise in graph design, using Edward Tufte’s principles of omitting all elements that do not represent any information in order to get a high information to ink ratio. Note for instance that the grid lines are produced by removing ink from the bars rather than adding lines in in the background, and how the two layers of quantitative information, the lines for word and aya counts, share numerical scale on the horizontal axis but with word counts being multiplied by 10. The graph did however also turn out to visualize some interesting aspects of the Quranic text. The suras are often said to be ordered roughly by descending length, except for the first sura. Sura lengths are typically compared by the number of ayas. This is easily done since aya numbers are given in the Quranic text. By this measure the second sura, which is the longest, is roughly one third longer than any other sura. By measuring sura by word count, however, which of course a much better measurement, we see that the second sura is in fact around twice as long as the second longest aya.&lt;/p&gt;
+
+&lt;p&gt;We also see that there is not clear proportional relation by the number of words and the number of ayas in a sura. The ayas in some suras are very long while they are very short in some ayas. Average length of ayas in a sura ranges from 23.7 in sura 5 (‘The Table’) to 3.3 in sura 80 (‘He Frowned’). For suras where the black line that gives word count is the same length as the gray, thicker line that gives aya count, the average number of words per aya is 10, which is close to the total average of 12.5. Thus, suras for which the black word count line extends far beyond the gray aya count line, the text tends to be prose-like and expository. For suras where the black line is much shorter than the gray line, the text tends to be rhetorically forceful and intense.&lt;/p&gt;</content><author><name></name></author><category term="linguistics" /><category term="tikz" /><summary type="html">Another uncalled-for graph. I recently helped a student getting word counts for suras (chapters) in the Quran by running a script on the Quran in plain text downloaded from tanzil.net. I then had this nice little data file and felt I had to do something with it. The result is the document below, which is a graphical representation of the number of words and ayas (verses) in each sura in the Quran. It is intended to be printed on A3-paper. For A4-paper you will need a printer with high resolution since the text will be very small.</summary></entry><entry xml:lang="en"><title type="html">Stretchable kashida and Arabic text justification in LaTeX</title><link href="http://localhost:4000/stretchable-kashida/" rel="alternate" type="text/html" title="Stretchable kashida and Arabic text justification in LaTeX" /><published>2017-03-03T00:00:00+01:00</published><updated>2017-03-03T00:00:00+01:00</updated><id>http://localhost:4000/stretchable-kashida-and-arabic-text-justificiation-in-latex</id><content type="html" xml:base="http://localhost:4000/stretchable-kashida/">&lt;p&gt;This post describes how to make stretchable pseudo-&lt;em&gt;kashidas&lt;/em&gt; to lengthen words (كلمة طويـــــــلة) and how to automatically insert these at letter connections in order to justify Arabic text, that is, to to make it have even right and left margins. The problem, solution, and the result is first presented in a non-technical way. Thereafter the implementation of the stretchable kashida in LaTeX is described.&lt;/p&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;A paragraph with even left and right margins is said to be &lt;em&gt;justified&lt;/em&gt;. In texts in the Latin alphabet, this is achieved in two ways: a) by hyphenating long words where they appear at the end of a line, and b) by varying the space between words.&lt;sup id=&quot;fnref:microtype&quot;&gt;&lt;a href=&quot;#fn:microtype&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; In the Arabic script  there is no hyphenation, words cannot be broken up in two, making justification of paragraphs is more difficult.&lt;/p&gt;
+
+&lt;p&gt;What Arabic has, though, that the Latin script lacks, is the ability stretch out the connecting lines between letters. In typed text, this is done with a character called &lt;em&gt;kashida&lt;/em&gt; (&lt;code class=&quot;highlighter-rouge&quot;&gt;U+0640&lt;/code&gt;). It is a line at the baseline, similar in shape to the underscore, and it connects to adjacent letters. The word كبير (&lt;em&gt;kabīr&lt;/em&gt; ‘big’), for instance, could be written with a few kashidas to make it take up more space (كبيـــــر), which can be used to justify the text.&lt;/p&gt;
+
+&lt;p&gt;There are two problems with this. First, a line can only be lengthened by a multiple of the width of the kashida in the typeface. For example, if the kashida is 5 pts wide, the line could be lengthened by 5 pts by adding a kashida somewhere, or by 10 pts by adding two. But it could not be lengthened by 7 pts. Second, the lengthening can only be applied at certain points in certain words on the line. The lengthening cannot be evenly distributed across the line, making for an uneven appearance of the words in a line. See for example the excerpt below from the novel &lt;em&gt;Yūtūbiyā&lt;/em&gt; by Aḥmad Xālid Tawfīq.&lt;sup id=&quot;fnref:utopia&quot;&gt;&lt;a href=&quot;#fn:utopia&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; Kashidas have been added to the last couple of words at the end of lines to fill them up to the left margin. This is common practice, but it makes, in my view, for an unattractive and uneven page.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-03-03/utopia.png&quot; alt=&quot;Page 12 from Yūtūbiyā, where kashidas are used in words at the end of the line to fill it.&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;solution---the-stretchable-kashida&quot;&gt;Solution - the stretchable kashida&lt;/h2&gt;
+
+&lt;p&gt;One solution to this is to use a stretchable kashida that is placed between all connecting characters. It just so happens that TeX with it’s glue mechanisms provides tools to do this fairly easily and very reliably. If no stretching is needed to justify the text the kashidas get a width of zero and do not appear at all. If some stretching is needed to fill the line (which in practice will virtually always be the case), then all these stretchable kashidas are stretched with an equal amount until the line is filled. There is thus no fixed or even default width of this kashida, it will be as long or short as it needs to be, and all stretchable kashidas on the same line will be of the same width.&lt;/p&gt;
+
+&lt;p&gt;Have a look at the page below. It contains the same three paragraphs, taken at random from an Arabic news site. The three paragraphs are typeset three times each, first in three columns, then in four, and then in five columns. The more columns, and thus the narrower the columns, the more difficult it is for the typesetting engine to find a good way of distributing words on the lines to avoid big, white spaces between words. In the last part with five columns, the text looks really bad, with large white blobs scattered all over surface of the text.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-03-03/no-kashida.png&quot; alt=&quot;Example text without stretchable kashida.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now compare this with the following page. Here the same text is set with the same font, font size and columns, but with a stretchable kashida at every letter connection. Note the total lack of white blobs. The stretchable kashida nicely fills every line, producing an even and attractive text surface.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-03-03/kashida.png&quot; alt=&quot;Example text with stretchable kashida.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The images above are PNGs and in limited resolution. Follow these links for PDFs of the example documents above &lt;a href=&quot;/documents/kashida.pdf&quot;&gt;with stretchable kashida&lt;/a&gt; and &lt;a href=&quot;/documents/no-kashida.pdf&quot;&gt;without stretchable kashida&lt;/a&gt; to see them in better resolution. Note that when viewing these PDFs on screen, the inserted stretchable kashida may appear choppy in certain resolutions. This is because it has not been adapted for screen display in various resolutions as has the rest of the font. This problem is specific to on-screen display and will not be an issue when the text is printed.&lt;/p&gt;
+
+&lt;h2 id=&quot;application&quot;&gt;Application&lt;/h2&gt;
+
+&lt;p&gt;The rest of this post is a step-by-step explanation of the LaTeX code that achieves this result. A complete self-contained example (used to produce the documents above) can be found &lt;a href=&quot;https://github.com/andreasmhallberg/kashida-justification&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;First we load the packages that we need and setup the Arabic font. Lateef is a free and open source font available &lt;a href=&quot;https://www.sil.org/resources/software_fonts/lateef&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;language-tex highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;\documentclass&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;article&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\usepackage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;calc&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;% used to measure kashida thickness&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\usepackage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;polyglossia&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\setmainlanguage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;arabic&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\newfontfamily\arabicfont&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;[Script=Arabic]&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;Lateef&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;xetexinterchartoks&quot;&gt;XeTeXinterchartoks&lt;/h3&gt;
+
+&lt;p&gt;Then we activate the &lt;code class=&quot;highlighter-rouge&quot;&gt;XeTeXinterchartoks&lt;/code&gt; feature, declare the different classes, and assign characters to the different classes. This allows us to automatically insert a command between combinations of characters of each class. All Arabic letters are assigned to one class with a specific set of connecting rules, i.e. those that connect to the following letter and those that do not. So between all connectors we want to insert the command for the stretchable kashida, also when a connector is followed by a non-connector, but not after a non-connector. We also need special classes for the letters &lt;em&gt;lām&lt;/em&gt; (ل) and &lt;em&gt;alif&lt;/em&gt; (ا, in all its variants)  since we do not want to insert anything between them when they appear in this order, which would break the compulsory ligature لا. Similar exceptions for other ligatures in particular fonts could easily be added this way, otherwise the ligatures will simply connect at the baseline as normal when this code is applied.&lt;/p&gt;
+
+&lt;div class=&quot;language-tex highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;\XeTeXinterchartokenstate&lt;/span&gt;=1
+
+&lt;span class=&quot;k&quot;&gt;\newXeTeXintercharclass\confb&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;% connect back&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\newXeTeXintercharclass\conb&lt;/span&gt;  &lt;span class=&quot;c&quot;&gt;% connect front back&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\newXeTeXintercharclass\alif&lt;/span&gt;  &lt;span class=&quot;c&quot;&gt;% alif&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\newXeTeXintercharclass\lam&lt;/span&gt;   &lt;span class=&quot;c&quot;&gt;% lam&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;\XeTeXcharclass&lt;/span&gt; `&lt;span class=&quot;k&quot;&gt;\ي&lt;/span&gt;=&lt;span class=&quot;k&quot;&gt;\confb&lt;/span&gt; 
+&lt;span class=&quot;k&quot;&gt;\XeTeXcharclass&lt;/span&gt; `&lt;span class=&quot;k&quot;&gt;\ئ&lt;/span&gt;=&lt;span class=&quot;k&quot;&gt;\confb&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\XeTeXcharclass&lt;/span&gt; `&lt;span class=&quot;k&quot;&gt;\ه&lt;/span&gt;=&lt;span class=&quot;k&quot;&gt;\confb&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\XeTeXcharclass&lt;/span&gt; `&lt;span class=&quot;k&quot;&gt;\ش&lt;/span&gt;=&lt;span class=&quot;k&quot;&gt;\confb&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\XeTeXcharclass&lt;/span&gt; `&lt;span class=&quot;k&quot;&gt;\س&lt;/span&gt;=&lt;span class=&quot;k&quot;&gt;\confb&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\XeTeXcharclass&lt;/span&gt; `&lt;span class=&quot;k&quot;&gt;\ق&lt;/span&gt;=&lt;span class=&quot;k&quot;&gt;\confb&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\XeTeXcharclass&lt;/span&gt; `&lt;span class=&quot;k&quot;&gt;\ف&lt;/span&gt;=&lt;span class=&quot;k&quot;&gt;\confb&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\XeTeXcharclass&lt;/span&gt; `&lt;span class=&quot;k&quot;&gt;\غ&lt;/span&gt;=&lt;span class=&quot;k&quot;&gt;\confb&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\XeTeXcharclass&lt;/span&gt; `&lt;span class=&quot;k&quot;&gt;\ع&lt;/span&gt;=&lt;span class=&quot;k&quot;&gt;\confb&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\XeTeXcharclass&lt;/span&gt; `&lt;span class=&quot;k&quot;&gt;\ض&lt;/span&gt;=&lt;span class=&quot;k&quot;&gt;\confb&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\XeTeXcharclass&lt;/span&gt; `&lt;span class=&quot;k&quot;&gt;\ص&lt;/span&gt;=&lt;span class=&quot;k&quot;&gt;\confb&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\XeTeXcharclass&lt;/span&gt; `&lt;span class=&quot;k&quot;&gt;\ن&lt;/span&gt;=&lt;span class=&quot;k&quot;&gt;\confb&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\XeTeXcharclass&lt;/span&gt; `&lt;span class=&quot;k&quot;&gt;\م&lt;/span&gt;=&lt;span class=&quot;k&quot;&gt;\confb&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\XeTeXcharclass&lt;/span&gt; `&lt;span class=&quot;k&quot;&gt;\ك&lt;/span&gt;=&lt;span class=&quot;k&quot;&gt;\confb&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\XeTeXcharclass&lt;/span&gt; `&lt;span class=&quot;k&quot;&gt;\ظ&lt;/span&gt;=&lt;span class=&quot;k&quot;&gt;\confb&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\XeTeXcharclass&lt;/span&gt; `&lt;span class=&quot;k&quot;&gt;\ط&lt;/span&gt;=&lt;span class=&quot;k&quot;&gt;\confb&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\XeTeXcharclass&lt;/span&gt; `&lt;span class=&quot;k&quot;&gt;\خ&lt;/span&gt;=&lt;span class=&quot;k&quot;&gt;\confb&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\XeTeXcharclass&lt;/span&gt; `&lt;span class=&quot;k&quot;&gt;\ح&lt;/span&gt;=&lt;span class=&quot;k&quot;&gt;\confb&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\XeTeXcharclass&lt;/span&gt; `&lt;span class=&quot;k&quot;&gt;\ج&lt;/span&gt;=&lt;span class=&quot;k&quot;&gt;\confb&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\XeTeXcharclass&lt;/span&gt; `&lt;span class=&quot;k&quot;&gt;\ث&lt;/span&gt;=&lt;span class=&quot;k&quot;&gt;\confb&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\XeTeXcharclass&lt;/span&gt; `&lt;span class=&quot;k&quot;&gt;\ت&lt;/span&gt;=&lt;span class=&quot;k&quot;&gt;\confb&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\XeTeXcharclass&lt;/span&gt; `&lt;span class=&quot;k&quot;&gt;\ب&lt;/span&gt;=&lt;span class=&quot;k&quot;&gt;\confb&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;\XeTeXcharclass&lt;/span&gt; `&lt;span class=&quot;k&quot;&gt;\ل&lt;/span&gt;=&lt;span class=&quot;k&quot;&gt;\lam&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;\XeTeXcharclass&lt;/span&gt; `&lt;span class=&quot;k&quot;&gt;\ا&lt;/span&gt;=&lt;span class=&quot;k&quot;&gt;\alif&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\XeTeXcharclass&lt;/span&gt; `&lt;span class=&quot;k&quot;&gt;\أ&lt;/span&gt;=&lt;span class=&quot;k&quot;&gt;\alif&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\XeTeXcharclass&lt;/span&gt; `&lt;span class=&quot;k&quot;&gt;\إ&lt;/span&gt;=&lt;span class=&quot;k&quot;&gt;\alif&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\XeTeXcharclass&lt;/span&gt; `&lt;span class=&quot;k&quot;&gt;\آ&lt;/span&gt;=&lt;span class=&quot;k&quot;&gt;\alif&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;\XeTeXcharclass&lt;/span&gt; `&lt;span class=&quot;k&quot;&gt;\و&lt;/span&gt;=&lt;span class=&quot;k&quot;&gt;\conb&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\XeTeXcharclass&lt;/span&gt; `&lt;span class=&quot;k&quot;&gt;\ؤ&lt;/span&gt;=&lt;span class=&quot;k&quot;&gt;\conb&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\XeTeXcharclass&lt;/span&gt; `&lt;span class=&quot;k&quot;&gt;\ذ&lt;/span&gt;=&lt;span class=&quot;k&quot;&gt;\conb&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\XeTeXcharclass&lt;/span&gt; `&lt;span class=&quot;k&quot;&gt;\د&lt;/span&gt;=&lt;span class=&quot;k&quot;&gt;\conb&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\XeTeXcharclass&lt;/span&gt; `&lt;span class=&quot;k&quot;&gt;\ز&lt;/span&gt;=&lt;span class=&quot;k&quot;&gt;\conb&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\XeTeXcharclass&lt;/span&gt; `&lt;span class=&quot;k&quot;&gt;\ر&lt;/span&gt;=&lt;span class=&quot;k&quot;&gt;\conb&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\XeTeXcharclass&lt;/span&gt; `&lt;span class=&quot;k&quot;&gt;\ة&lt;/span&gt;=&lt;span class=&quot;k&quot;&gt;\conb&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Then we declare the combinations of character classes between which we want to insert the command for the stretchable kashida (which we have yet to define). The order of any two characterclasses is significant. All possible combinations of characterclasses where you want stretchable kashida must be added to the list.&lt;/p&gt;
+
+&lt;div class=&quot;language-tex highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;\XeTeXinterchartoks&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;\confb&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;\confb&lt;/span&gt; = &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\kashida&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{}}&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\XeTeXinterchartoks&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;\confb&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;\conb&lt;/span&gt;  = &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\kashida&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{}}&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\XeTeXinterchartoks&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;\confb&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;\alif&lt;/span&gt;  = &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\kashida&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{}}&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\XeTeXinterchartoks&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;\confb&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;\lam&lt;/span&gt;   = &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\kashida&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{}}&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\XeTeXinterchartoks&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;\lam&lt;/span&gt;   &lt;span class=&quot;k&quot;&gt;\lam&lt;/span&gt;   = &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\kashida&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{}}&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\XeTeXinterchartoks&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;\lam&lt;/span&gt;   &lt;span class=&quot;k&quot;&gt;\confb&lt;/span&gt; = &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\kashida&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{}}&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\XeTeXinterchartoks&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;\lam&lt;/span&gt;   &lt;span class=&quot;k&quot;&gt;\conb&lt;/span&gt;  = &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\kashida&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{}}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This means that the presence of a vowel sign (  َ ِ ُ etc), &lt;em&gt;shadda&lt;/em&gt; (  ّ ), &lt;em&gt;sukūn&lt;/em&gt; (  ْ ), or other similar symbols negate the stretchable kashida at that position. This is because the sequence of characters is then &lt;em&gt;vowel sign—letter,&lt;/em&gt; and not one of the sequences listed above, so it will not trigger the &lt;code class=&quot;highlighter-rouge&quot;&gt;\kashida&lt;/code&gt; command. You can see this in the word شنّت, the first word in the test paragraph in the examples above. This may not be a bad thing. To me, vowel or other sign and then kashida ( شــنّــت ) looks odd, and it is avoided here.&lt;/p&gt;
+
+&lt;p&gt;Also, in manuals of Arabic calligraphy there are rules about where and in what words, where in a word, and between what characters kashidas may be inserted (&lt;a href=&quot;https://www.tug.org/tugboat/tb27-2/tb87benatia.pdf&quot;&gt;Benatia et al. 2006&lt;/a&gt;). These rules are disregarded here. I do not believe that they are particularity relevant for the modern simplified text fonts.&lt;/p&gt;
+
+&lt;h3 id=&quot;kashida-thickness&quot;&gt;Kashida thickness&lt;/h3&gt;
+
+&lt;p&gt;The following snippet uses functions form the &lt;a href=&quot;https://www.ctan.org/pkg/calc?lang=en&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;calc&lt;/code&gt;&lt;/a&gt; package to measure the thickness of the kashida in the loaded font. It measurs the top of the kashida from the baseline and stores this value in &lt;code class=&quot;highlighter-rouge&quot;&gt;\kashidaheight&lt;/code&gt;. It also measure how far it extends below the baseline and stores the value in &lt;code class=&quot;highlighter-rouge&quot;&gt;\kashidadepth&lt;/code&gt;. (None of the fonts I have tested this on have a kashida that extends below the baseline, so this measure will normally be &lt;code class=&quot;highlighter-rouge&quot;&gt;0 pts&lt;/code&gt;.)&lt;/p&gt;
+
+&lt;div class=&quot;language-tex highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;\newlength\kashidaheight&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\setlength\kashidaheight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\heightof&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\textarabic&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;ـ&lt;span class=&quot;p&quot;&gt;}}}&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\newlength\kashidadepth&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\setlength\kashidadepth&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\depthof&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\textarabic&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;ـ&lt;span class=&quot;p&quot;&gt;}}}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This means that this method does not give good results for typefaces in which the letter connection is raised above the baseline. This is the case with Geeza Pro, for example, a typeface included in OSX. (This could be fixed provided there is a reliable way of measuring how much the letter connections, and by extension the kashida character, is raised above the baseline.) The method presented here will work fine with most simple &lt;em&gt;nasx&lt;/em&gt; typefaces, however, such as 
+&lt;a href=&quot;https://www.sil.org/resources/software_fonts/lateef&quot;&gt;Lateef&lt;/a&gt;, 
+&lt;a href=&quot;http://software.sil.org/scheherazade/&quot;&gt;Scheherazade&lt;/a&gt;,
+and &lt;a href=&quot;https://www.microsoft.com/typography/fonts/family.aspx?FID=261&quot;&gt;Simplified Arabic&lt;/a&gt;, as well as with any mono-spaced Arabic font.&lt;/p&gt;
+
+&lt;p&gt;Note also that these measurements will change any time the font size changes, so that the above command should be run again after any command that changes the fontsize. Alternatively, and preferebly, these commands could be redifined to also run&lt;/p&gt;
+
+&lt;div class=&quot;language-tex highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;\setlength\kashidaheight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\heightof&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\textarabic&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;ـ&lt;span class=&quot;p&quot;&gt;}}}&lt;/span&gt;  &lt;span class=&quot;k&quot;&gt;\setlength\kashidadepth&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\depthof&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\textarabic&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;ـ&lt;span class=&quot;p&quot;&gt;}}}&lt;/span&gt;.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;defining-the-kashida-command&quot;&gt;Defining the kashida command&lt;/h3&gt;
+
+&lt;p&gt;With the measurements of the kashida now stored, we can use them to define the actual stretchable kashida that is to go between all connecting characters.&lt;/p&gt;
+
+&lt;div class=&quot;language-tex highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;\newcommand\kashida&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;[1]&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\char&lt;/span&gt;&quot;200D
+  &lt;span class=&quot;k&quot;&gt;\nobreak\leaders&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;\hrule&lt;/span&gt; height &lt;span class=&quot;k&quot;&gt;\kashidaheight&lt;/span&gt; depth &lt;span class=&quot;k&quot;&gt;\kashidadepth&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;\hskip&lt;/span&gt; 0pt plus 100 pt
+  &lt;span class=&quot;k&quot;&gt;\nobreak\char&lt;/span&gt;&quot;200D&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This produces a leader, similar to the row of dots that fills the line  between a chapter title and the page number in a table of contents, for example, but it is here in the form of a solid line of kashida-thickness.&lt;/p&gt;
+
+&lt;p&gt;Note that the command begins and ends with &lt;code class=&quot;highlighter-rouge&quot;&gt;\char&quot;200D&lt;/code&gt;. This inserts the Unicode character &lt;code class=&quot;highlighter-rouge&quot;&gt;ZERO WIDTH JOINER&lt;/code&gt;, a character that is very useful when typing in Arabic. As its name suggest, it takes no space and only instructs surrounding letters to connect with it, and thus with one another. Without it the typesetting engine would see the command &lt;code class=&quot;highlighter-rouge&quot;&gt;\nobreak&lt;/code&gt; when it comes to this command, and not a letter with which the previous letter can connect, making it take the unconnecting form. The command &lt;code class=&quot;highlighter-rouge&quot;&gt;\nobreak&lt;/code&gt; instructs LaTeX not to have any line breaks here.&lt;/p&gt;
+
+&lt;p&gt;The heart of the command is &lt;code class=&quot;highlighter-rouge&quot;&gt;\leaders&lt;/code&gt; which is a stretchable element, here declared in plain TeX. It takes two parameters:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;what it is that is to be repeated or stretched, here a horizontal rule (&lt;code class=&quot;highlighter-rouge&quot;&gt;\hrule&lt;/code&gt;) with the height stored in &lt;code class=&quot;highlighter-rouge&quot;&gt;\kashidaheight&lt;/code&gt; and the depth stored in &lt;code class=&quot;highlighter-rouge&quot;&gt;\kashidadepth&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;the stretchability (or ‘glue’ in TeX-terminology), here set to be able to stretch from 0 to 100 pts.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;It is important that the glue is set to limited dimension such as 100 pts and not to infinite glue with &lt;code class=&quot;highlighter-rouge&quot;&gt;fill&lt;/code&gt;, because this will mess up the last line of the paragraph which should not be filled.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;And that’s it. Adding the above code to the preamble automatically applies the stretchable kashida, as in the multicolumn examples above.&lt;/p&gt;
+
+&lt;p&gt;The way it has been applied here comes with a few caveats:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;It only works with typefaces where letters are connected at the baseline and where the connection is not cruvilinear.&lt;/li&gt;
+  &lt;li&gt;If the typeface have ligatures other than &lt;em&gt;lam-alif&lt;/em&gt; that you wish to retain, they must be added to the classes and patters of &lt;code class=&quot;highlighter-rouge&quot;&gt;\XeTeXinterchartoks&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Vowel signs and similar negate the stretchable kashida.&lt;/li&gt;
+  &lt;li&gt;Your may not be able to resist the urge to hang your beautiful Arabic text columns on your office wall.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:microtype&quot;&gt;
+      &lt;p&gt;There is also a third method: to stretch or squeeze letters by a measure that is too small to be noticeable on individual letters but that have an accumulated effect that provides a variability used for justifying the text. See the documentation for the &lt;a href=&quot;https://www.ctan.org/pkg/microtype?lang=en&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mycrotype&lt;/code&gt; package&lt;/a&gt; for a discussion and implementation in LaTeX. &lt;a href=&quot;#fnref:microtype&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:utopia&quot;&gt;
+      &lt;p&gt;أحمد خالد توفيق، ٢٠١٤. &lt;em&gt;يوتوبيا&lt;/em&gt;، دير ميريت، القاهرة. &lt;a href=&quot;#fnref:utopia&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="latex" /><category term="typography" /><summary type="html">This post describes how to make stretchable pseudo-kashidas to lengthen words (كلمة طويـــــــلة) and how to automatically insert these at letter connections in order to justify Arabic text, that is, to to make it have even right and left margins. The problem, solution, and the result is first presented in a non-technical way. Thereafter the implementation of the stretchable kashida in LaTeX is described.</summary></entry><entry xml:lang="sv"><title type="html">Det standardarabiska konsonantinventariet</title><link href="http://localhost:4000/det-arabiska-konsonantinventariet/" rel="alternate" type="text/html" title="Det standardarabiska konsonantinventariet" /><published>2017-02-02T00:00:00+01:00</published><updated>2017-02-02T00:00:00+01:00</updated><id>http://localhost:4000/det-arabiska-konsonantinventariet</id><content type="html" xml:base="http://localhost:4000/det-arabiska-konsonantinventariet/">&lt;p&gt;Dokumentet nedan är en grafisk framställning av det standardarabiska fonetiska inventariet jag gjorde för en introduktionskurs i arabiska. På dokumentets andra sida läggs det svenska fonetiska inventariet till i röd text. Det används så att första sidan med endast de arabiska konsonantljuden projiceras och diskuteras. Sedan går man till nästa sida där de svenska konsonantljuden läggs till. Man kan då visa på skillnader systemen emellan, såsom att arabiska använder fler ljud längre bak och ner i uttalsorganen (längre till höger i tabellen), att arabiska i större utsträckning använder distinktioner i ton/tonlöshet, etc.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/andreasmhallberg/sa-konsonantinventariet/raw/master/sa-konsonantinventariet.pdf&quot;&gt;&lt;img src=&quot;/images/sainventarie-thumbnail.png&quot; alt=&quot;thumbnail&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Dokumentet går under en CCBY licens och kan fritt distribueras och användas. Det kan laddas ner &lt;a href=&quot;https://github.com/andreasmhallberg/sa-konsonantinventariet/raw/master/sa-konsonantinventariet.pdf&quot;&gt;här&lt;/a&gt;. Källkoden för dokumentet (LaTeX) finns &lt;a href=&quot;https://github.com/andreasmhallberg/sa-konsonantinventariet/blob/master/sa-konsonantinventariet.tex&quot;&gt;här&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="latex" /><category term="linguistics" /><category term="tafl" /><summary type="html">Dokumentet nedan är en grafisk framställning av det standardarabiska fonetiska inventariet jag gjorde för en introduktionskurs i arabiska. På dokumentets andra sida läggs det svenska fonetiska inventariet till i röd text. Det används så att första sidan med endast de arabiska konsonantljuden projiceras och diskuteras. Sedan går man till nästa sida där de svenska konsonantljuden läggs till. Man kan då visa på skillnader systemen emellan, såsom att arabiska använder fler ljud längre bak och ner i uttalsorganen (längre till höger i tabellen), att arabiska i större utsträckning använder distinktioner i ton/tonlöshet, etc.</summary></entry><entry xml:lang="en"><title type="html">Emulating Alt-Latin keyboard layout for Arabic transcription in Vim</title><link href="http://localhost:4000/emulating-alt-latin-in-vim/" rel="alternate" type="text/html" title="Emulating Alt-Latin keyboard layout for Arabic transcription in Vim" /><published>2017-01-03T00:00:00+01:00</published><updated>2017-01-03T00:00:00+01:00</updated><id>http://localhost:4000/emulating-alt-latin-in-vim</id><content type="html" xml:base="http://localhost:4000/emulating-alt-latin-in-vim/">&lt;p&gt;I’m used to the Alt-Latin keyboard layout to quickly type Arabic transcription. The Alt-Latin is an extension of the US QUARTY layout that uses combinations of the ALT and SHIFT keys to add diacritics such as in &lt;em&gt;ḥ&lt;/em&gt; and &lt;em&gt;ā,&lt;/em&gt; as well as the characters &lt;em&gt;ʿ&lt;/em&gt; and &lt;em&gt;ʾ&lt;/em&gt;. A nice graphical presentation of this layout and instructions of how to install it on Windows and Mac can be found &lt;a href=&quot;http://mamluk.uchicago.edu/keyboards/&quot;&gt;here&lt;/a&gt;. The image below is from that site.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://mamluk.uchicago.edu/keyboards/&quot;&gt;&lt;img src=&quot;http://mamluk.uchicago.edu/keyboards/alt-latinKBD-medoc-72.jpg&quot; alt=&quot;Alt-Latin keyboard layout&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Below is block code I have in my &lt;a href=&quot;https://github.com/andreasmhallberg/dotfiles/blob/master/.vimrc&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.vimrc&lt;/code&gt;&lt;/a&gt;
+to emulate the Alt-Latin layout in Vim. I have only mapped characters that are needed for the transcription system used in &lt;a href=&quot;http://referenceworks.brillonline.com/browse/encyclopedia-of-arabic-language-and-linguistics&quot;&gt;Encyclopedia of Arabic Language and Linguistics&lt;/a&gt;. The code also includes mappings for &lt;code class=&quot;highlighter-rouge&quot;&gt;r&lt;/code&gt; operations.&lt;/p&gt;
+
+&lt;p&gt;It may tricky to use the &lt;code class=&quot;highlighter-rouge&quot;&gt;r&lt;/code&gt; operation with the transcription. After typing &lt;code class=&quot;highlighter-rouge&quot;&gt;r&lt;/code&gt; to replace a single character you only have one second (with the default settings) to type the right key combination for the transcription character. If this is a problem you can change the default 1000 ms timer to some other value, e.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;:set timeoutlen=2000&lt;/code&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;language-vim highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;&quot; Arabic transcription (simulates Alt-Latin keyboard layout)&lt;/span&gt;
+inoremap &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;a&lt;/span&gt; ā
+inoremap &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;A Ā
+inoremap &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;i&lt;/span&gt; ī
+inoremap &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;I Ī
+inoremap &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;u&lt;/span&gt; ū
+inoremap &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;U Ū
+inoremap &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;ō ō
+inoremap &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;Ō Ō 
+inoremap &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;e&lt;/span&gt; ē
+inoremap &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;E Ē
+inoremap &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt; ʿ
+inoremap &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt;P&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt; ʾ
+inoremap &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-.&amp;gt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;d&lt;/span&gt; ḍ
+inoremap &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-.&amp;gt;&lt;/span&gt;D Ḍ
+inoremap &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-.&amp;gt;&lt;/span&gt;s ṣ
+inoremap &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-.&amp;gt;&lt;/span&gt;S Ṣ
+inoremap &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-.&amp;gt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;t&lt;/span&gt; ṭ
+inoremap &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-.&amp;gt;&lt;/span&gt;T Ṭ
+inoremap &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-.&amp;gt;&lt;/span&gt;z ẓ
+inoremap &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-.&amp;gt;&lt;/span&gt;Z Ẓ
+inoremap &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-.&amp;gt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;h&lt;/span&gt; ḥ
+inoremap &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-.&amp;gt;&lt;/span&gt;H Ḥ
+inoremap &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;w&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;g&lt;/span&gt; ġ
+inoremap &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;w&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;G Ġ
+inoremap &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;d&lt;/span&gt; ḏ
+inoremap &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;D Ḏ
+inoremap &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;t&lt;/span&gt; ṯ
+inoremap &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;T Ṯ
+inoremap &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;v&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;s š
+inoremap &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;v&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;S Š
+
+&lt;span class=&quot;c&quot;&gt;&quot; r operations&lt;/span&gt;
+nmap &lt;span class=&quot;k&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;a&lt;/span&gt; rā
+nmap &lt;span class=&quot;k&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;A rĀ
+nmap &lt;span class=&quot;k&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;i&lt;/span&gt; rī
+nmap &lt;span class=&quot;k&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;I rĪ
+nmap &lt;span class=&quot;k&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;u&lt;/span&gt; rū
+nmap &lt;span class=&quot;k&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;U rŪ
+nmap &lt;span class=&quot;k&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;ō rō
+nmap &lt;span class=&quot;k&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;Ō rŌ 
+nmap &lt;span class=&quot;k&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;e&lt;/span&gt; rē
+nmap &lt;span class=&quot;k&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;E rĒ
+nmap &lt;span class=&quot;k&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt; rʿ
+nmap &lt;span class=&quot;k&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt;P&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt; rʾ
+nmap &lt;span class=&quot;k&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-.&amp;gt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;d&lt;/span&gt; rḍ
+nmap &lt;span class=&quot;k&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-.&amp;gt;&lt;/span&gt;D rḌ
+nmap &lt;span class=&quot;k&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-.&amp;gt;&lt;/span&gt;s rṣ
+nmap &lt;span class=&quot;k&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-.&amp;gt;&lt;/span&gt;S rṢ
+nmap &lt;span class=&quot;k&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-.&amp;gt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;t&lt;/span&gt; rṭ
+nmap &lt;span class=&quot;k&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-.&amp;gt;&lt;/span&gt;T rṬ
+nmap &lt;span class=&quot;k&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-.&amp;gt;&lt;/span&gt;z rẓ
+nmap &lt;span class=&quot;k&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-.&amp;gt;&lt;/span&gt;Z rẒ
+nmap &lt;span class=&quot;k&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-.&amp;gt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;h&lt;/span&gt; rḥ
+nmap &lt;span class=&quot;k&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-.&amp;gt;&lt;/span&gt;H rḤ
+nmap &lt;span class=&quot;k&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;w&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;g&lt;/span&gt; rġ
+nmap &lt;span class=&quot;k&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;w&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;G rĠ
+nmap &lt;span class=&quot;k&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;d&lt;/span&gt; rḏ
+nmap &lt;span class=&quot;k&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;D rḎ
+nmap &lt;span class=&quot;k&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;t&lt;/span&gt; rṯ
+nmap &lt;span class=&quot;k&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;T rṮ
+nmap &lt;span class=&quot;k&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;v&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;s rš
+nmap &lt;span class=&quot;k&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;M&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;v&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;S rŠ
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="transcription" /><category term="vim" /><summary type="html">I’m used to the Alt-Latin keyboard layout to quickly type Arabic transcription. The Alt-Latin is an extension of the US QUARTY layout that uses combinations of the ALT and SHIFT keys to add diacritics such as in ḥ and ā, as well as the characters ʿ and ʾ. A nice graphical presentation of this layout and instructions of how to install it on Windows and Mac can be found here. The image below is from that site.</summary></entry><entry xml:lang="sv"><title type="html">Malmö-arabisk lexikal innovation</title><link href="http://localhost:4000/malmo-arabisk-lexikal-innovation/" rel="alternate" type="text/html" title="Malmö-arabisk lexikal innovation" /><published>2016-09-05T00:00:00+02:00</published><updated>2016-09-05T00:00:00+02:00</updated><id>http://localhost:4000/malmo-arabisk-lexikal-innovation</id><content type="html" xml:base="http://localhost:4000/malmo-arabisk-lexikal-innovation/">&lt;p&gt;Det följande är en lista på arabiska namn, platser och institutioner gångbara bland den arabisktalande befolkningen i Malmö. Listan inkluderar bara benämningar som inte är direkta översättningar av den svenska orden utan är innovation bland arabisktalande personer.&lt;/p&gt;
+
+&lt;p&gt;Listan kommer eventuellt utökas då ny data tillkommer.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;akšūn&lt;/em&gt; أكشون second-hand affär&lt;/p&gt;
+
+    &lt;p&gt;Ordet är antagligen en reanalysering av &lt;em&gt;Auktion&lt;/em&gt;, namnet på en second-affär som tidigare fanns i Malmö. Det arabiska ordet har kommit att betyda ‘second-hand affär’ över lag.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;ḥadīqat al-baṭṭ&lt;/em&gt; حديقة البط (‘Ankparken’) Pildamsparken&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;maktab al-ʿamal&lt;/em&gt; مكتب العمل  (‘Arbetskontoret’) Arbetsförmedlingen’&lt;/p&gt;
+
+    &lt;p&gt;Även benämningen som Arbetsförmedlingen själv använder i sina arabiska informationsblad.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;sūq/sāḥat al-xuḍra&lt;/em&gt; سوق/ساحة الخضرة (‘Grönsaksmarknaden/-torget’) Möllevångstorget&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;šaṭṭ al-ʿarab&lt;/em&gt; شط العرب (‘Arabstranden’) Sibbarp&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;šāriʿ al-jamʿiyyāt&lt;/em&gt; شارع الجمعيات  (‘Föreningsgatan’) Norra Grängesbergsgatan&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;al-skāt&lt;/em&gt; السكات ‘Skatteverket’&lt;/p&gt;
+
+    &lt;p&gt;Syftar inte till skatt som sådant utan till Skatteverket som institution. För ‘skatt’ (pengar man betalar till staten) används vanligen ordet &lt;em&gt;ḍarība&lt;/em&gt;. &lt;em&gt;l&lt;/em&gt;:et i den bestämda artikeln i &lt;em&gt;al-skatt&lt;/em&gt; assimileras inte till solbokstaven &lt;em&gt;s&lt;/em&gt; i &lt;em&gt;skāt&lt;/em&gt; som förväntat. Kanske kommer detta ske om ordet fortlever och med tiden integreras i arabisk fonologi, så som har hänt med en del talares uttal av &lt;em&gt;ad-dāgis&lt;/em&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="linguistics" /><summary type="html">Det följande är en lista på arabiska namn, platser och institutioner gångbara bland den arabisktalande befolkningen i Malmö. Listan inkluderar bara benämningar som inte är direkta översättningar av den svenska orden utan är innovation bland arabisktalande personer.</summary></entry></feed>

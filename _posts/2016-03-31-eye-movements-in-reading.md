@@ -7,6 +7,7 @@ language: English
 lang: en
 tags:
 - linguistics
+thumbnail: /images/2016-03-31-eye-movements-in-reading/et.raw.png
 ---
 
 I am currently involved in an eye-tracking study investigating some aspects of reading in Arabic. Eye-tracking is a research method in which a person's eyes movements are recorded while he or she performs some sort of task. By analyzing the eye-movement it is possible to see exactly were that person is looking at a certain point in time, and based on this data one can draw conclusions about mental activities during that task. 

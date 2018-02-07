@@ -1,0 +1,39 @@
+---
+lang: sv
+header-includes:
+- \input{\string ~/mylatexstuff/tentamacros.tex}
+geometry:
+- a4paper
+- vmargin=2cm
+---
+
+
+\large
+
+\pagestyle{empty}
+
+|              |           |
+| :-           | :-        |
+| börja        | \ordlinje |
+| gå ut, lämna | \ordlinje |
+| eftermiddag  | \ordlinje |
+| middag       | \ordlinje |
+| sitta        | \ordlinje |
+| halv         | \ordlinje |
+| tidning      | \ordlinje |
+|              |           |
+| försenad     | \ordlinje |
+| rast         | \ordlinje |
+| bli          | \ordlinje |
+| förstå       | \ordlinje |
+| tråkig       | \ordlinje |
+| tid          | \ordlinje |
+| be           | \ordlinje |
+|              |           |
+| berg         | \ordlinje |
+| hav          | \ordlinje |
+| turism       | \ordlinje |
+| relation     | \ordlinje |
+| hotell       | \ordlinje |
+| dyr          | \ordlinje |
+| avbrytas     | \ordlinje |
