@@ -57,9 +57,9 @@ If you find yourself often having to switch back and forth between English (or s
 
 ``` vim
 " Switch to English - mapping
-nmap <Leader>e :<C-U>call EngType()<CR>
+noremap <Leader>e :<C-U>call EngType()<CR>
 " Switch to Arabic - mapping
-nmap <Leader>a :<C-U>call AraType()<CR>
+noremap <Leader>a :<C-U>call AraType()<CR>
 
 " Switch to English - function
 function! EngType()
