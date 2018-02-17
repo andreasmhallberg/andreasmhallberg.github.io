@@ -8,10 +8,9 @@ length: short
 tags:
     - latex
     - tikz
-document: https://github.com/andreasmhallberg/alt-timeline/raw/master/alt-timeline.pdf
+document: /documents/alt-timeline.tex.pdf
 documenttitle: Timeline of Arab grammarians and their major works
 thumbnail: /images/alt-timeline.thumbnail.png
-# excerpt: <a href="http://andreasmhallberg.github.io/timeline-of-arab-grammarians/"><img width="30%" src="/images/alt-timeline.thumbnail.png" alt="Thumbnail"></a>
 updates: 
     - date: 2017-12-08
       contents: A German version of this timeline has been published in *Einführung in die arabische Grammatiktradition* by Frank Weigelt (Harrowitz, 2017).  
@@ -23,6 +22,6 @@ Sometimes when reading about the classical Arabic grammarians I find it difficul
 
 [![thumbnail]({{ page.thumbnail }})]({{ page.document }})
 
-The LaTeX source code can be found [here](https://github.com/andreasmhallberg/alt-timeline/blob/master/alt-timeline.tex). I plan on also making an Arabic version of this timeline at some point.
+The LaTeX source code can be found [here]({{ page.documennt }}). I plan on also making an Arabic version of this timeline at some point.
 
 Thanks to Georges Bohas for his comments, suggestions and corrections.
