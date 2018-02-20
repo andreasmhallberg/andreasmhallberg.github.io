@@ -1,0 +1,168 @@
+\documentclass{article}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{\string ~/mylatexstuff/ccbyandreas}
+\usepackage[landscape, top=2cm, bottom=2cm, left=2cm, right=2cm]{geometry}
+\usepackage{etoolbox}
+\usepackage{graphicx}
+\usepackage{footnote} % to save and spew notes
+\usepackage{ccicons}
+\usepackage{calc}
+\def\UrlFont{\rmfamily\itshape} % roman font in urls
+\usepackage{ragged2e}
+\usepackage{tikz}
+\usepackage{varwidth} % nodes size with adjusted width
+\usetikzlibrary{calc,backgrounds,tikzmark}
+\usepackage{polyglossia}
+\setmainlanguage{english}
+\setotherlanguage{arabic}
+
+\usepackage{fontspec}
+\setmainfont[Numbers=OldStyle]{Linux Libertine O}
+\setsansfont[Numbers=OldStyle]{Source Sans Pro ExtraLight}
+
+
+\def\fixcolor{blue}
+\def\saccolor{red}
+\def\spacolor{green}
+\def\spacolor{green}
+
+
+\newcommand{\fix}[2]{%
+  \tikzmark{#2a}%
+  \begin{tikzpicture}
+    \node [inner sep = 0pt, text depth=0pt](fix) {#1};
+    \draw[draw=\fixcolor, fill=\fixcolor] ($ (fix.south west)!0.5!(fix.south east) $) ++ (0,.5ex) circle (2pt);
+  \end{tikzpicture}%
+  \tikzmark{#2b}%
+}
+
+% ARguments are coordinates specified with \tikzmark
+\newcommand{\saccade}[2]{%
+  \begin{tikzpicture}[remember picture]
+    \draw[->, overlay, draw=\saccolor, shorten < =1pt, shorten > =1pt] ($(pic cs:#1) + (0,.5ex)$) -- ($(pic cs:#2) + (0,.5ex)$);
+  \end{tikzpicture}%
+}
+
+\newcommand{\regression}[2]{%
+\begin{tikzpicture}[remember picture, above=2ex]
+  \draw[->, overlay, draw=\saccolor, shorten < =1pt, shorten > =1pt] ($(pic cs:#1) + (0,.5ex)$) -- ($(pic cs:#2) + (0,.5ex)$);
+\end{tikzpicture}%
+}
+
+
+\tikzstyle{infoboxfix}=[
+    color=\fixcolor
+  , font=\itshape\sffamily\small
+  , yshift=\infosep
+]
+\tikzstyle{infoboxsac}=[
+    color=\saccolor
+  , font=\itshape\sffamily\small
+  , above=1.5\infosep
+]
+\tikzstyle{fixline}=[
+    color=\fixcolor
+  , shorten < = 4pt
+  , shorten > = 15pt
+]
+\tikzstyle{sacline}=[
+    color=\saccolor
+  , shorten < = 4pt
+  , shorten > = 15pt
+]
+
+% \fixinfo{tikzmark name}{text}
+\newcommand{\fixinfo}[2]{%
+  \coordinate (#1) at ($(pic cs:#1a)!.5!(pic cs:#1b)$);
+  \node[infoboxfix] (infobox) at (#1) {\begin{varwidth}{3cm}#2\end{varwidth}} ;
+  \draw[fixline] (infobox) -- (#1);
+}
+
+% \fixinfo{tikzmark name}{text}
+% Use to give info on fixations when the position is set with \tikzmark and there is no fixation point
+\newcommand{\fixinfonofix}[2]{%
+\node[infoboxfix] (infobox) at (pic cs:#1) {\begin{varwidth}{3cm}#2\end{varwidth}} ;
+  \draw[fixline] (infobox) -- (pic cs:#1);
+}
+
+% \sacinfo{tikzmark 1}{tikzmark2}{text}
+\newcommand{\sacinfo}[3]{%
+  \coordinate (sac) at ($(pic cs:#1b)!.5!(pic cs:#2a)$);
+\node[infoboxsac] (infobox) at (sac) {\begin{varwidth}{3cm}#3\end{varwidth}} ;
+  \draw[sacline] (infobox) -- (sac);
+}
+
+
+% Lengths
+\newlength\infosep
+\setlength{\infosep}{2cm}
+\newlength\letterwidth
+\setlength{\letterwidth}{\widthof{\huge h}}
+
+\begin{document}
+
+\begin{tikzpicture}[remember picture, overlay]
+  \draw [color=green] (pic cs:fix1a) ++ (6\letterwidth,.5ex) ellipse (\letterwidth*9 and 10mm);
+  % \draw [color=green!20] (pic cs:fix2a) ++ (6\letterwidth,.5ex) ellipse (\letterwidth*9 and 10mm);
+  % \draw [color=green!20] (pic cs:fix3a) ++ (6\letterwidth,.5ex) ellipse (\letterwidth*9 and 10mm);
+  % \draw [color=green!20] (pic cs:fix4a) ++ (6\letterwidth,.5ex) ellipse (\letterwidth*9 and 10mm);
+  % \draw [color=green!20] (pic cs:fix5a) ++ (6\letterwidth,.5ex) ellipse (\letterwidth*9 and 10mm);
+  % \draw [color=green!20] (pic cs:fix6a) ++ (6\letterwidth,.5ex) ellipse (\letterwidth*9 and 10mm);
+\end{tikzpicture}
+
+When reading, the eyes do not move in smooth motion but in a combination of extremely quick motions, called \textcolor{\saccolor}{saccades} and stops, called \textcolor{\fixcolor}{fixations}.
+
+\ttfamily\huge
+
+
+
+\null\vspace{5cm}
+
+% The example sentence
+
+
+\textcolor{black!20}{%
+  \tikzmark{sentensbegin}%
+  This ex\fix{a}{fix1}mple ill\fix{u}{fix2}stra\fix{t}{fix3}es e\tikzmark{shortword}ye mo\fix{v}{fix4}ements ty\fix{p}{fix5}ical o\tikzmark{function}f re\fix{a}{fix6}ding.%
+  \tikzmark{sentensend}%
+}
+
+\saccade{fix1b}{fix2a}
+\saccade{fix2b}{fix3a}
+\saccade{fix3b}{fix4a}
+\saccade{fix4b}{fix5a}
+\saccade{fix5b}{fix6a}
+
+
+
+% Infoboxes
+
+\begin{tikzpicture}[remember picture, overlay, inner sep=0pt]
+
+  \fixinfonofix{sentensbegin}{New lines are fixated 5--7 letters in, so that around 80\% of the line are withing lateral fixations.}
+
+  \fixinfo{fix2}{Words of 8 letters or more are almost always fixated.}
+
+  \fixinfo{fix1}{Fixations are 200--250~ms. long.}
+
+  \fixinfonofix{shortword}{Words of 2--3 letters are fixated 25\% of the time.} ;
+  \fixinfonofix{shortword}{Function words are fixated 35\% because they short and often predictable from contexts.} ;
+
+  \fixinfo{fix5}{Long words are often refixated.}
+
+  \sacinfo{fix1}{fix2}{Saccades are typically \mbox{6--12} letters and take 20--30ms.}
+
+
+\end{tikzpicture}
+
+\vfill
+\small
+\begin{verbatim}
+- in other orthografies
+- fixation times
+- saccade length
+- perceptual span
+\end{verbatim}
+
+
+\end{document}

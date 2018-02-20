@@ -2,7 +2,6 @@
 layout: post
 title: Malmö-arabisk lexikal innovation
 permalink: /malmo-arabisk-lexikal-innovation/
-language: Swedish
 lang: sv
 tags:
     - linguistics

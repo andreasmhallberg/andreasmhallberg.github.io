@@ -22,7 +22,7 @@ There are two problems with this. First, a line can only be lengthened by a mult
 
 ![Page 12 from Yūtūbiyā, where kashidas are used in words at the end of the line to fill it.](/images/2017-03-03/utopia.png)
 
-## Solution - the stretchable kashida
+## Solution: the stretchable kashida
 
 One solution to this is to use a stretchable kashida that is placed between all connecting characters. It just so happens that TeX with it's glue mechanisms provides tools to do this fairly easily and very reliably. If no stretching is needed to justify the text the kashidas get a width of zero and do not appear at all. If some stretching is needed to fill the line (which in practice will virtually always be the case), then all these stretchable kashidas are stretched with an equal amount until the line is filled. There is thus no fixed or even default width of this kashida, it will be as long or short as it needs to be, and all stretchable kashidas on the same line will be of the same width.
 
