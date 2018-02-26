@@ -1,7 +1,7 @@
 \documentclass{article}
 \usepackage[dvipsnames]{xcolor}
 \usepackage{\string ~/mylatexstuff/ccbyandreas}
-\usepackage[landscape, top=2cm, bottom=2cm, left=2cm, right=2cm]{geometry}
+\usepackage[landscape, top=2cm, bottom=2cm, hmargin=3cm]{geometry}
 \usepackage{etoolbox}
 \usepackage{graphicx}
 \usepackage{footnote} % to save and spew notes
@@ -11,7 +11,7 @@
 \usepackage{ragged2e}
 \usepackage{tikz}
 \usepackage{varwidth} % nodes size with adjusted width
-\usetikzlibrary{calc,backgrounds,tikzmark}
+\usetikzlibrary{arrows,fadings,calc,backgrounds,tikzmark}
 \usepackage{polyglossia}
 \setmainlanguage{english}
 \setotherlanguage{arabic}
@@ -39,7 +39,7 @@
 % ARguments are coordinates specified with \tikzmark
 \newcommand{\saccade}[2]{%
   \begin{tikzpicture}[remember picture]
-    \draw[->, overlay, draw=\saccolor, shorten < =1pt, shorten > =1pt] ($(pic cs:#1) + (0,.5ex)$) -- ($(pic cs:#2) + (0,.5ex)$);
+    \draw[->,>=latex, overlay, draw=\saccolor, shorten < =1pt, shorten > =1pt] ($(pic cs:#1) + (0,.5ex)$) -- ($(pic cs:#2) + (0,.5ex)$);
   \end{tikzpicture}%
 }
 
@@ -99,10 +99,22 @@
 \newlength\letterwidth
 \setlength{\letterwidth}{\widthof{\huge h}}
 
+\setlength\parindent{0pt}
+
+\pagestyle{empty}
 \begin{document}
 
+
+% title
+{\Huge 
+\scshape Eye Movements and Perceptual Span in Reading
+}
+
+\medskip
+Based on Rayner, K., 1998. "Eye movements in reading and information processing."  \textit{Psychological Bulletin}, 85(3), pp.618--66.
+
 \begin{tikzpicture}[remember picture, overlay]
-  \draw [color=green] (pic cs:fix1a) ++ (6\letterwidth,.5ex) ellipse (\letterwidth*9 and 10mm);
+  % \draw [color=green] (pic cs:fix1a) ++ (6\letterwidth,.5ex) ellipse (\letterwidth*9 and 10mm);
   % \draw [color=green!20] (pic cs:fix2a) ++ (6\letterwidth,.5ex) ellipse (\letterwidth*9 and 10mm);
   % \draw [color=green!20] (pic cs:fix3a) ++ (6\letterwidth,.5ex) ellipse (\letterwidth*9 and 10mm);
   % \draw [color=green!20] (pic cs:fix4a) ++ (6\letterwidth,.5ex) ellipse (\letterwidth*9 and 10mm);
@@ -112,20 +124,20 @@
 
 When reading, the eyes do not move in smooth motion but in a combination of extremely quick motions, called \textcolor{\saccolor}{saccades} and stops, called \textcolor{\fixcolor}{fixations}.
 
-\ttfamily\huge
 
 
 
-\null\vspace{5cm}
+\null\vspace{3cm}
 
 % The example sentence
 
 
-\textcolor{black!20}{%
+{%
+\color{black!30}
+\ttfamily\huge
   \tikzmark{sentensbegin}%
   This ex\fix{a}{fix1}mple ill\fix{u}{fix2}stra\fix{t}{fix3}es e\tikzmark{shortword}ye mo\fix{v}{fix4}ements ty\fix{p}{fix5}ical o\tikzmark{function}f re\fix{a}{fix6}ding.%
   \tikzmark{sentensend}%
-}
 
 \saccade{fix1b}{fix2a}
 \saccade{fix2b}{fix3a}
@@ -139,30 +151,75 @@ When reading, the eyes do not move in smooth motion but in a combination of extr
 
 \begin{tikzpicture}[remember picture, overlay, inner sep=0pt]
 
-  \fixinfonofix{sentensbegin}{New lines are fixated 5--7 letters in, so that around 80\% of the line are withing lateral fixations.}
+  \fixinfonofix{sentensbegin}{There is usually no fixation on the start of a line. The first fixation is 5--7 letters in.}
 
   \fixinfo{fix2}{Words of 8 letters or more are almost always fixated.}
 
   \fixinfo{fix1}{Fixations are 200--250~ms. long.}
 
-  \fixinfonofix{shortword}{Words of 2--3 letters are fixated 25\% of the time.} ;
-  \fixinfonofix{shortword}{Function words are fixated 35\% because they short and often predictable from contexts.} ;
+  \fixinfonofix{shortword}{Words of 2--3 letters are only fixated 25\% of the time.} ;
+  \fixinfonofix{function}{Function words are fixated 35\% of the time.} ;
 
-  \fixinfo{fix5}{Long words are often refixated.}
+  \fixinfo{fix3}{Long words are often refixated.}
 
   \sacinfo{fix1}{fix2}{Saccades are typically \mbox{6--12} letters and take 20--30ms.}
+  \sacinfo{fix4}{fix5}{Saccades or so fast (500°/s) that during them we are effectively blind.}
 
 
 \end{tikzpicture}
 
-\vfill
-\small
-\begin{verbatim}
-- in other orthografies
-- fixation times
-- saccade length
-- perceptual span
-\end{verbatim}
+}%\huge ends
 
+\vfill
+
+% \textcolor{black!20}{%
+%   \tikzmark{sentensbegin}%
+%   This ex\fix{a}{fix1}mple illustrates eye movements typical of reading.%
+%   \tikzmark{sentensend}%
+% }
+
+The are the fixation from which we retrieve information is, the \textit{perceptual span}, as is asymmetric. En English it reaches 14--15~letters to the right of the fixation and 4--5~letters to the left. It is only around half of this span, 7--8 letters to right, that we can identify words. Further right we most importantly get information on word length used to plan the next saccade. In writing systems that are read from right to left the asymmetry of the perceptual span is mirrored. For more densely packed orthographies such as in Hebrew och Chinese it is smaller.  
+
+\vfill
+
+{\huge\ttfamily 
+  This ex\fix{a}{span1}mple ill{u}stra{t}es eye mo{v}ements ty{p}ical of re{a}ding.%
+
+  This example ill\fix{u}{span2}stra{t}es eye mo{v}ements ty{p}ical of re{a}ding.%
+
+  This example ill{u}stra\fix{t}{span3}es eye mo{v}ements ty{p}ical of re{a}ding.%
+
+  This example ill{u}stra{t}es eye mo\fix{v}{span4}ements ty{p}ical of re{a}ding.%
+
+  This example ill{u}stra{t}es eye mo{v}ements ty\fix{p}{span5}ical of re{a}ding.%
+
+  This example ill{u}stra{t}es eye mo{v}ements ty{p}ical of re\fix{a}{span6}ding.%
+
+\tikzfading[name=fade right,
+  left color=transparent!0,
+  right color=transparent!100]
+\tikzfading[name=fade left,
+  left color=transparent!110,
+  right color=transparent!0]
+
+
+\newcommand\thespan[1]{%
+\begin{tikzpicture}[remember picture, overlay, inner sep=0pt]
+  \fill [path fading=fade right,  white](pic cs:#1a) ++ (0,-1ex) rectangle ++ (-5\letterwidth, 3ex); 
+  \fill [fill=white](pic cs:#1a)  ++ (-5\letterwidth,-1ex) rectangle ++ (-\textwidth, 3ex); 
+  \fill [path fading=fade left, white](pic cs:#1b) ++ (0,-1ex) rectangle ++ (14\letterwidth, 3ex); 
+  \fill [fill=white](pic cs:#1b) ++ (14\letterwidth, -1ex) rectangle ++ (\textwidth,3ex); 
+\end{tikzpicture}%
+}
+
+\thespan{span1}
+\thespan{span2}
+\thespan{span3}
+\thespan{span4}
+\thespan{span5}
+\thespan{span6}
+}% \huge ends here
+
+\vfill\null
 
 \end{document}
