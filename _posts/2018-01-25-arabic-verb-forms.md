@@ -6,10 +6,9 @@ lang: en
 length: short
 tags: 
 - latex
-- linguistics
 - tafl
 document: /documents/verb-forms/verb-forms.tex.pdf
-documenttitle: Arabic verb forms I-X
+documenttitle: Verb forms I-X
 thumbnail: /images/verb-forms.thumbnail.png
 mindoc: /images/verb-forms.mindoc.png
 

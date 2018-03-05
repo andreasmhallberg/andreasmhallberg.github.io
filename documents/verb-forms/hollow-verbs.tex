@@ -1,3 +1,7 @@
+% TODO
+% - 9th hollow
+% - example verbs for Frequency Dictionary
+% - comment on defective nominal paradigm
 \documentclass{article}
 \usepackage{tikz}
 \usetikzlibrary{backgrounds}
@@ -49,6 +53,8 @@
 \newcommand{\f}{_َ}% fatha
 \newcommand{\d}{_ُ}% damma
 \newcommand{\k}{_ِ}% kasra
+\newcommand{\kn}{_ٍ}% kasra nunation
+\newcommand{\skn}{_ٍّ}% shadda kasra nunation
 \newcommand{\sf}{_َّ}% shadda fatha
 \newcommand{\sd}{_ُّ}% shadda damma
 \newcommand{\sk}{_ِّ}% shadda kasra
@@ -89,19 +95,43 @@ There two different forms for verbs with the middle root consonant~\textarabic{�
   \begin{tabularx}{\linewidth}{@{}lYYYYYYYYYYYY@{}}
 
     &\large \textenglish{I \textarabic{و}\itshape a}    &\large \textenglish{I \textarabic{و}\itshape b}&\large\textenglish{I \textarabic{ي}}&\large \textenglish{II} &\large \textenglish{III}               &\large \textenglish{IV} &\large \textenglish{V} &\large \textenglish{VI} &\large \textenglish{VII} &\large \textenglish{VIII} &\large \textenglish{(IX)} &\large \textenglish{X} \\
+
 \midrule
 \hhline{~---}
-\textenglish{Past}        & \multicolumn{3}{|c|}{\n ـا\f}                                                       & \f \sf \f     & \n ـا\f\f       & أَ\n ـا\f     & تَـ\f\sf\f       & تَـ\n ـا\f\f     & اِنْـ\f ـا\f   & اِ\s ـتَـ\n ـا\f     & اِ\s\f\sf     & اِسْتَـ\n ـا\f \\   
-\hhline{~---}
-\rc\textenglish{Past 1s}         & \d\s ـتُ                                     & \k\s ـتُ    & \k\s ـتُ          & \f \sf \f     & \n ـا\f \       & أَ\f \s ـتُ    & تَـ\f\sf\s ـتُ    & تَـ\n ـا\f\s ـتُ  & اِنْـ\f\n ـتُ   & اِ\s ـتَـ\f\n ـتُ      & اِ\s\f\n ـتُ   & اِسْتَـ\f \n ـتُ \\   
-\textenglish{Present}         & يَـ\d ـو\n                                   & يَـ\n ـا\n  & يَـ\k ـيـ\n          & يُـ\f \sk \n   & يُـ\n ـا\k \n    & يُـ\k ـِيـ\n   & يَتَـ\f\sf\n      & يَتَـ\n ـا\f\n    & يَنْـ\n ـا\n   & يَـ\s ـتَـ\k\n    & يَـ\s\f\sh    & يَسْتَـ\s \k \n \\   
-\hhline{~---}
-\textenglish{\textit{maSdar}} & \multicolumn{3}{|c|}{\textenglish{Irregular}}                                 & تَـ\s \k ـيـ\n & مُـ\n ـا\f \n ـة & إِ\n ـا\n ـة  & تَـ\f\sd\n       & تَـ\n ـا\d\n     & اِنْـ\k ـِيا\n  & اِ\s ـتِـ\n ـا\n  & اِ\s\k\n ـا\n & اِسْتِـ\s \n ـا\n \\ 
-\textenglish{AP}    & \multicolumn{3}{|c|}{\n ـائِـ\n}                                                & مُـ\f \sk \n   & مُـ\n ـا\k \n    & مُـ\n ـِيـ\n   & مُتَـ\f\sk\n      & مُتَـ\n ـا\k\n    & مُنْـ\f ـا\n   & مُـ\s ـتَـ\k\n    & مُـ\s\f\sh    & مُسْتَـ\s \k \n \\                                    
-\hhline{~---}
-\textenglish{PP}   & مَـ\d ـو\n                                   & مَـ\d ـو\n  & مَـ\k ـيـ\n          & مُـ\f\sf \n    & مُـ\n ـا\f\n     & مُـ\s ـا\n    & مُتَـ\f\sf\n      & مُتَـ\n ـا\f\n    & مُنْـ\f ـا\n   & مُـ\s ـتَـ\f\n    &              & مُسْتَـ\s \f \n \\ 
+\textenglish{Past}        & \multicolumn{3}{|c|}{\n ـا\f}                       & \f \sf \f     & \n ـا\f\f       & أَ\n ـا\f    & تَـ\f\sf\f    & تَـ\n ـا\f\f    & اِنْـ\f ـا\f  & اِ\s ـتَـ\n ـا\f & اِ\s\f\sf     & اِسْتَـ\n ـا\f \\   
+\hhline{~---}                                                                                                                                                                                                                    
+\rc\textenglish{Past 1s}    & \d\s ـتُ      & \k\s ـتُ    & \k\s ـتُ               & \f \sf \f     & \n ـا\f \       & أَ\f \s ـتُ   & تَـ\f\sf\s ـتُ & تَـ\n ـا\f\s ـتُ & اِنْـ\f\n ـتُ  & اِ\s ـتَـ\f\n ـتُ & اِ\s\f\n ـتُ   & اِسْتَـ\f \s ـتُ \\  
+\textenglish{Present}       & يَـ\d ـو\n   & يَـ\n ـا\n  & يَـ\k ـيـ\n             & يُـ\f \sk \n   & يُـ\n ـا\k \n    & يُـ\k ـِيـ\n  & يَتَـ\f\sf\n   & يَتَـ\n ـا\f\n   & يَنْـ\n ـا\n  & يَـ\s ـتَـ\k\n   & يَـ\s\f\sh    & يَسْتَـ\k ـيـ\n \\  
+\hhline{~---}                                                                                                                                                                                                                    
+\textenglish{\textit{maSdar}} & \multicolumn{3}{|c|}{\textenglish{Irregular}}   & تَـ\s \k ـيـ\n & مُـ\n ـا\f \n ـة & إِ\n ـا\n ـة & تَـ\f\sd\n    & تَـ\n ـا\d\n    & اِنْـ\k ـِيا\n & اِ\s ـتِـ\n ـا\n & اِ\s\k\n ـا\n & اِسْتِـ\s \n ـا\n \\
+\textenglish{AP}    & \multicolumn{3}{|c|}{\n ـائِـ\n}                           & مُـ\f \sk \n   & مُـ\n ـا\k \n    & مُـ\n ـِيـ\n  & مُتَـ\f\sk\n   & مُتَـ\n ـا\k\n   & مُنْـ\f ـا\n  & مُـ\s ـتا\n     & مُـ\s\f\sh    & مُسْتَـ\k ـيـ\n \\  
+\hhline{~---}                                                                                                                                                                                                                    
+\textenglish{PP}   & مَـ\d ـو\n & مَـ\d ـو\n  & مَـ\k ـيـ\n                        & مُـ\f\sf \n    & مُـ\n ـا\f\n     & مُـ\n ـا\n   & مُتَـ\f\sf\n   & مُتَـ\n ـا\f\n   & مُنْـ\f ـا\n  & مُـ\s ـتا\n     &              & مُسْتَـ\n ـا\n \\   
+\midrule                                                                                                                                                                                                                         
+\textenglish{Example} & قام & نام &عاش                                          & خيم           & قاوم            & أراد        & تجوز         & تجاهل          & انهار       & اِجتاح          & اسود         & استراح\\         
+\addlinespace
+\bottomrule
+
+        \end{tabularx}     
+ \end{Arabic}              
+
+\begin{Arabic}
+  \begin{tabularx}{\linewidth}{@{}lYYYYYYYYYYYY@{}}
+
+    &\large \textenglish{I \textarabic{ي}\itshape a}    &\large \textenglish{I \textarabic{ي}\itshape b}&\large\textenglish{I \textarabic{و}}&\large \textenglish{II} &\large \textenglish{III}               &\large \textenglish{IV} &\large \textenglish{V} &\large \textenglish{VI} &\large \textenglish{VII} &\large \textenglish{VIII} &\large \textenglish{(IX)} &\large \textenglish{X} \\
+
 \midrule
-\textenglish{Example} & قام & نام &عاش&خيم&قاوم&أراد&تجوز&تجاهل&انهار&اِجتاح&اسود&استراح\\
+\textenglish{Past}          & \f\n ـى        &\f\k ـيَ      & \f\n ـا            & \f \sf ـى     & \n ـا\f ـى      & أَ\s\n ـى     & تَـ\f\s ـى       & تَـ\n ـا\n ـى       & اِنْـ\f\n ـى      & اِ\s ـتَـ\s\n ـى  & اِ\s\f\sf     & اِسْتَـ\s \n ـى \\   
+\rc\textenglish{Past 1s}    & \f\f\s ـتُ      & \f\k ـيتُ    & \f\f\s ـتُ          & \f \sf ـيْتُ    & \n ـا\f ـيْتُ     & أَ\f\f ـيْتُ    & تَـ\f\sf\f ـيْتُ   & تَـ\n ـا\f\f ـيْتُ    & اِنْـ\f\f ـيْتُ     & اِ\s ـتَـ\s\f ـيْتُ & اِ\s\f\n ـيْتُ   & اِسْتَـ\n\f ـيْتُ \\  
+\textenglish{Present}       & يَـ\s\k ـي      & يَـ\s\n ـى   & يَـ\s\d ـو          & يُـ\f \sk \n   & يُـ\n ـا\k \n    & يُـ\k ـِيـ\n   & يَتَـ\f\sf\n      & يَتَـ\n ـا\f\n       & يَنْـ\n ـا\n      & يَـ\s ـتَـ\k\n    & يَـ\s\f\sh    & يَسْتَـ\k ـيـ\n \\  
+\hhline{~---}                                                                                                                                                                                                                    
+\textenglish{\textit{maSdar}} & \multicolumn{3}{|c|}{\textenglish{Irregular}}   & تَـ\s \k ـية   & مُـ\n ـا\n ـاة   & إِ\s\n ـاء    & تَـ\f\skn        & تَـ\n ـا\kn         & اِنْـ\k\n ـاء     & اِ\s ـتِـ\n ـاء   & اِ\s\k\n ـا\n & اِسْتِـ\s\n ـاء \\
+\textenglish{AP}    & \multicolumn{3}{|c|}{\n ـا\kn}                            & مُـ\f \skn     & مُـ\n ـا\kn       & مُـ\s\kn      & مُتَـ\f\skn       & مُتَـ\n ـا\kn        & مُنْـ\f\kn        & مُـ\s ـتَـ\kn     & مُـ\s\f\sh    & مُسْتَـ\s\kn \\  
+
+\hhline{~---}                                                                                                                                                                                                                    
+\textenglish{PP}   & مَـ\s\k ـيّ & مَـ\s\k ـيّ &مَـ\s\d ـوّ                           & مُـ\f\sf \n    & مُـ\n ـا\f\n     & مُـ\n ـا\n    & مُتَـ\f\sf\n      & مُتَـ\n ـا\f\n       & مُنْـ\f ـا\n      & مُـ\s ـتا\n      &              & مُسْتَـ\n ـا\n \\   
+\midrule                                                                                                                                                                                                                         
+\textenglish{Example} & مشى & لقي &دعا                                          & خيم           & قاوم            & أراد         & تجوز            & تجاهل              & انهار           & اِجتاح           & اسود         & استراح\\         
 \addlinespace
 \bottomrule
 
