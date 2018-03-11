@@ -49,13 +49,11 @@ Before we start we need the following in the preamble to load the required packa
 First we need the actual characters bound to commands which we call `\ayn` and `\hamza`. The&nbsp;ʿ is simply this superscript&nbsp;*c*. To make the&nbsp;ʾ we rotate the character 180 degrees around its center.[^3] Finally we bind these to the input characters `ʿ` and&nbsp;`ʾ` by changing the catcode (category code) of these characters to active, basically making them one letter commands, and defining them as `\ayn` and `\hamza`.  
 
 ``` tex
-\newcommand\hamza{\textsuperscript{%
-	c}}%
-	}
+\newcommand\hamza{\textsuperscript{c}}}
 
 \newcommand\hamza{%
-		\textsuperscript{\rotatebox[origin=c]{180}{c}}
-	}
+  \textsuperscript{\rotatebox[origin=c]{180}{c}}
+}
 
 \catcode`ʾ=\active
 \catcode`ʿ=\active
@@ -76,11 +74,11 @@ We need to have different kerning in the upright and in the italic. One way to a
 ``` tex
 \makeatletter
 \newcommand*{\IfItElse}{%
- \ifx\f@shape\my@test@it
-   \expandafter\@firstoftwo
- \else
-   \expandafter\@secondoftwo
- \fi
+  \ifx\f@shape\my@test@it
+    \expandafter\@firstoftwo
+  \else
+    \expandafter\@secondoftwo
+  \fi
 }
 \newcommand*{\my@test@it}{it}
 \makeatother
@@ -90,16 +88,16 @@ We add this to the preamble somewhere. This gives the command `\IfItElse` that t
 
 ``` tex
 \newcommand\ayn{%
-	\IfItElse{\kern.02em}{}%
-	    \textsuperscript{c}%
-	\IfItElse{\kern-.1em}{}%
-	}
+  \IfItElse{\kern.02em}{}%
+  \textsuperscript{c}%
+  \IfItElse{\kern-.1em}{}%
+}
 
 \newcommand\hamza{%
-	\IfItElse{\kern.02em}{}%
-		\textsuperscript{\rotatebox[origin=c]{180}{c}}%
-	\IfItElse{\kern-.1em}{}%
-	}
+  \IfItElse{\kern.02em}{}%
+    \textsuperscript{\rotatebox[origin=c]{180}{c}}%
+  \IfItElse{\kern-.1em}{}%
+}
 ```
 
 And this is the output:
@@ -136,24 +134,24 @@ First we need to turn on this feature with `\XeTeXinterchartokenstate=1`. We the
 \XeTeXcharclass "FEFF=\aynhamza % hamza and ayn
 ```
 
-The last class here is where things get tricky. We now need to assign a character class to our newly created ʿ and&nbsp;ʾ. The problem is that XeTeX will not see  ʿ and&nbsp;ʾ but the&nbsp;*c* in the underlaying code that renders them. And we do not want this kerning also to apply to the cA combination. So we can't assign&nbsp;*c* to this class. One of the wizards at TEX.SE came up with [this solution](http://tex.stackexchange.com/questions/180409/xetex-kerning-with-newunicodechar): we include in the commands generating our new characters a Unicode character that takes no space and that is unused. Enter U+FEFF, aka *zero width no-break space*. We put this at the beginning and the end of the character commands, with a somewhat odd annotation: 
+The last class here is where things get tricky. We now need to assign a character class to our newly created ʿ and&nbsp;ʾ. The problem is that XeTeX will not see  ʿ and&nbsp;ʾ but the&nbsp;*c* in the underlaying code that renders them. And we do not want this kerning also to apply to the *cA* combination. So we can't assign&nbsp;*c* to this class. One of the wizards at TEX.SE came up with [this solution](http://tex.stackexchange.com/questions/180409/xetex-kerning-with-newunicodechar): we include in the commands generating our new characters a Unicode character that takes no space and that is unused. Enter U+FEFF, aka *zero width no-break space*. We put this at the beginning and the end of the character commands, with a somewhat odd annotation: 
 
 ``` tex
- \newcommand\ayn{%
-	^^^^feff%
-	\IfItElse{\kern.02em}{}%
-	    \textsuperscript{c}%
-	\IfItElse{\kern-.1em}{}%
-	^^^^feff%
-	}
+\newcommand\ayn{%
+  ^^^^feff%
+  \IfItElse{\kern.02em}{}%
+    \textsuperscript{c}%
+  \IfItElse{\kern-.1em}{}%
+  ^^^^feff%
+}
 
 \newcommand\hamza{%
-	^^^^feff%
-	\IfItElse{\kern.02em}{}%
-		\textsuperscript{\rotatebox[origin=c]{180}{c}}%
-	\IfItElse{\kern-.1em}{}%
-	^^^^feff%
-	}
+  ^^^^feff%
+  \IfItElse{\kern.02em}{}%
+    \textsuperscript{\rotatebox[origin=c]{180}{c}}%
+  \IfItElse{\kern-.1em}{}%
+  ^^^^feff%
+}
 ```
 
 Now what LaTeX (really XeTeX) will see when it comes across a&nbsp;ʿ in the input file is something like 
@@ -167,13 +165,18 @@ We can then assign FEFF to a XeTeX character class to represent ʿ and&nbsp;ʾ, 
 We now declare kerning commands to be inserted between these combinations of character classes. Note that you need to be explicit about the ordering of character classes and that different orderings may have different results.
 
 ``` tex
-\XeTeXinterchartoks \aynhamza \capA ={\kern -.1em} % ʿ/ʾ then A
-\XeTeXinterchartoks \capA \aynhamza ={\kern -.1em} %  A then ʿ/ʾ 
+% ʿ/ʾ then A
+\XeTeXinterchartoks \aynhamza \capA ={\kern -.1em} 
+%  A then ʿ/ʾ 
+\XeTeXinterchartoks \capA \aynhamza ={\kern -.1em} 
 
-\XeTeXinterchartoks \aynhamza \punct ={\kern -.15em} % ʿ/ʾ then ./,
+% ʿ/ʾ then ./,
+\XeTeXinterchartoks \aynhamza \punct ={\kern -.15em} 
 
-\XeTeXinterchartoks \hyph \aynhamza ={\kern -.05em} % - then ʿ/ʾ 
-\XeTeXinterchartoks \aynhamza  \hyph={\kern -.05em} % ʿ/ʾ then - 
+% - then ʿ/ʾ 
+\XeTeXinterchartoks \hyph \aynhamza ={\kern -.05em} 
+% ʿ/ʾ then - 
+\XeTeXinterchartoks \aynhamza  \hyph={\kern -.05em} 
 ```
 
 Now the output looks like this:
@@ -221,21 +224,21 @@ The code below can be added to the preamble without any further modifications th
 \usepackage{rotating}
 \usepackage{etoolbox}
 
- \newcommand\ayn{%
-	^^^^feff%
-	\IfItElse{\kern.02em}{}%
-	    \textsuperscript{c}%
-	\IfItElse{\kern-.1em}{}%
-	^^^^feff%
-	}
+\newcommand\ayn{%
+  ^^^^feff%
+  \IfItElse{\kern.02em}{}%
+    \textsuperscript{c}%
+  \IfItElse{\kern-.1em}{}%
+  ^^^^feff%
+}
 
 \newcommand\hamza{%
-	^^^^feff%
-	\IfItElse{\kern.02em}{}%
-		\textsuperscript{\rotatebox[origin=c]{180}{c}}%
-	\IfItElse{\kern-.1em}{}%
-	^^^^feff%
-	}
+  ^^^^feff%
+  \IfItElse{\kern.02em}{}%
+    \textsuperscript{\rotatebox[origin=c]{180}{c}}%
+  \IfItElse{\kern-.1em}{}%
+  ^^^^feff%
+}
 
 % Bind to Unicode chars and robustify
 \catcode`ʾ=\active
@@ -280,15 +283,21 @@ The code below can be added to the preamble without any further modifications th
 \newXeTeXintercharclass\aynhamza
 \XeTeXcharclass "FEFF=\aynhamza % hamza and ayn
 
-\XeTeXinterchartoks \aynhamza \capA ={\kern -.1em} % ʿ/ʾ then A
-\XeTeXinterchartoks \capA \aynhamza ={\kern -.05em} %  A then ʿ/ʾ 
+% ʿ/ʾ then A
+\XeTeXinterchartoks \aynhamza \capA ={\kern -.1em}
+%  A then ʿ/ʾ
+\XeTeXinterchartoks \capA \aynhamza ={\kern -.05em}
 
-\XeTeXinterchartoks \aynhamza \punct ={\kern -.15em} % ʿ/ʾ then ,/.
+ % ʿ/ʾ then ,/.
+\XeTeXinterchartoks \aynhamza \punct ={\kern -.15em}
 
-\XeTeXinterchartoks \hyph \aynhamza ={\kern -.05em} % - then ʿ/ʾ 
-\XeTeXinterchartoks \aynhamza  \hyph={\kern -.05em} % ʿ/ʾ then - 
+% - then ʿ/ʾ
+\XeTeXinterchartoks \hyph \aynhamza ={\kern -.05em}
+% ʿ/ʾ then -
+\XeTeXinterchartoks \aynhamza  \hyph={\kern -.05em}
 
-% Commands for left protruding hamza and ayn when word inital in tabular envs. 
+% Commands for left protruding hamza and ayn when
+% word inital in tabular envs. 
 \newcommand*{\la}{\hspace*{-.15em}ʿ}
 \newcommand*{\lh}{\hspace*{-.15em}ʾ}
 ```
