@@ -39,7 +39,6 @@ I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de s
 
 
 - *2016-04-29* --- A., angående svårigheter med polisyrket.
-    <a name="polis"></a>
 
     | *fī* | *ktīr* | *min‑hum* | *ʿam* | *y*hopp*u* | av |
     | finns | många | av‑dom | PROG | M.hoppa.PL | av |
@@ -102,13 +101,28 @@ I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de s
     På arabiska kan man mycket mer fritt än i svenska topikalisera, dvs. placera ett ord i början av meningen för att ange dess ämne. Det topikaliserade ordet är inte syntaktiskt bundet till satsen. Här topikaliserar talaren meningen med *ana* 'jag' och växlar sedan till svenska med en sats som inleds med "jag", så att pronomenet jag yttras två gånger efter varandra, först som en arabisk topikalisering och sedan som ett svenskt pronominalt subjekt. Utan kodväxlingen mellan de två "jagen" hade meningen varit ogrammatisk både på svenska och arabiska (*\*Jag---jag måste sticka snart* och *\*ana---ana baʿd šway lāzim rūḥ*).
 
 <!--
-[//]: # ( - *2017-09-10* -- A. )
+- *2017-09-10* -- A. 
 
-[//]: # (     har | du | sett | min | mobil | *šī?* )
-[//]: # (     har | du | sett | min | mobil | någonting? )
+    har | du | sett | min | mobil | *šī?* 
+    har | du | sett | min | mobil | någonting? 
 
-[//]: # (     | Har du sett min mobil? | )
+    | Har du sett min mobil? | 
+
+    Svensk mening med ett arabisk *negative polarity item* (*šī*).
 -->
+
+- *2018-02-09* -- A.
+
+  det | finns | som | du | kan | *tištarī-hun* | av | *minn-i*
+  det | finns | som | du | kan | *2MS.köpa-dem* | av | *från-mig*
+
+  | Det finns [några] som du kan köpa av mig. |
+
+  På arabiska är pronomina suffigerade till prepositioner, som i *minn-i* 'från-mig'. Talaren växlar här till svenska med prepositionen *av* efter det arabiska verbet *tištarī-hun* 'du köper dem'. Tydligen kan man inte på den svenska prepositionens hänga på det arabiska suffigerade pronomenet *-i* 'mig' (\**av-i*). Talaren måste därför upprepa prepositionen på arabiska för att lägga till det arabiska suffigerade pronomenet och få en syntaktiskt fullständig mening. Detta resulterar i en dubbel preposition, först på svenska och sedan på arabiska.
+  
+  Notera att jag accepterar ett arabiskt suffigerat pronomen på ett svenskt verb (se 2016-08-03 ovan) men att göra detsamma på en svensk preposition låter för mig ogrammatiskt.
+
+  (I talarens svenska kräver verbfrasen *det finns* inte ett subjekt.)
 
 ---
 
