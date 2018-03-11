@@ -1,9 +1,15 @@
 \documentclass{article}
 \usepackage[dvipsnames]{xcolor}
 \usepackage{\string ~/mylatexstuff/ccbyandreas}
-\usepackage[landscape, top=2cm, bottom=2cm, hmargin=3cm]{geometry}
+\usepackage[
+   landscape
+, top=2cm
+, bottom=2cm
+, hmargin=3cm
+]{geometry}
 \usepackage{etoolbox}
 \usepackage{graphicx}
+\usepackage{multicol}
 \usepackage{footnote} % to save and spew notes
 \usepackage{ccicons}
 \usepackage{calc}
@@ -31,7 +37,7 @@
   \tikzmark{#2a}%
   \begin{tikzpicture}
     \node [inner sep = 0pt, text depth=0pt](fix) {#1};
-    \draw[draw=\fixcolor, fill=\fixcolor] ($ (fix.south west)!0.5!(fix.south east) $) ++ (0,.5ex) circle (2pt);
+    \draw[draw=white, fill=\fixcolor] ($ (fix.south west)!0.5!(fix.south east) $) ++ (0,.5ex) circle (2pt);
   \end{tikzpicture}%
   \tikzmark{#2b}%
 }
@@ -39,56 +45,81 @@
 % ARguments are coordinates specified with \tikzmark
 \newcommand{\saccade}[2]{%
   \begin{tikzpicture}[remember picture]
-    \draw[->,>=latex, overlay, draw=\saccolor, shorten < =1pt, shorten > =1pt] ($(pic cs:#1) + (0,.5ex)$) -- ($(pic cs:#2) + (0,.5ex)$);
+    \draw[->,>=latex, overlay, draw=\saccolor, shorten < =1pt, shorten > =1pt] ($(pic cs:#1) + (0,.5ex)$) to ($(pic cs:#2) + (0,.5ex)$);
   \end{tikzpicture}%
 }
 
+
+\newcommand{\regfix}[2]{%
+  \tikzmark{#2a}%
+  \begin{tikzpicture}
+    \node [inner sep = 0pt, text depth=0pt](fix) {#1};
+    \draw[draw=\fixcolor, fill=\fixcolor, transform canvas={yshift=-1.5ex}]
+      ($ (fix.south west)!0.5!(fix.south east) $)
+      ++ (0,.5ex) circle (2pt);
+  \end{tikzpicture}%
+  \tikzmark{#2b}%
+}
+
 \newcommand{\regression}[2]{%
-\begin{tikzpicture}[remember picture, above=2ex]
-  \draw[->, overlay, draw=\saccolor, shorten < =1pt, shorten > =1pt] ($(pic cs:#1) + (0,.5ex)$) -- ($(pic cs:#2) + (0,.5ex)$);
+\begin{tikzpicture}[remember picture]
+  \draw[->,>=latex, overlay, draw=\saccolor, shorten < =1pt, shorten > =1pt, transform canvas={yshift=-1.5ex}]
+    ($(pic cs:#1) + (0,.5ex)$) --
+    ($(pic cs:#2) + (0,.5ex)$);
 \end{tikzpicture}%
 }
+
+\newcommand{\regressiontwo}[2]{%
+\begin{tikzpicture}[remember picture]
+  \draw[->,>=latex, overlay, draw=\saccolor, shorten < =1pt, shorten > =1pt, transform canvas={yshift=-2.5ex}]
+    ($(pic cs:#1) + (0,.5ex)$) --
+    ($(pic cs:#2) + (0,.5ex)$);
+\end{tikzpicture}%
+}
+
 
 
 \tikzstyle{infoboxfix}=[
     color=\fixcolor
   , font=\itshape\sffamily\small
-  , yshift=\infosep
+  % , yshift=\infosep
 ]
 \tikzstyle{infoboxsac}=[
     color=\saccolor
   , font=\itshape\sffamily\small
-  , above=1.5\infosep
+  % , above=1.5\infosep
 ]
 \tikzstyle{fixline}=[
     color=\fixcolor
   , shorten < = 4pt
   , shorten > = 15pt
+  , ultra thin
 ]
 \tikzstyle{sacline}=[
     color=\saccolor
   , shorten < = 4pt
   , shorten > = 15pt
+  , ultra thin
 ]
 
 % \fixinfo{tikzmark name}{text}
-\newcommand{\fixinfo}[2]{%
-  \coordinate (#1) at ($(pic cs:#1a)!.5!(pic cs:#1b)$);
-  \node[infoboxfix] (infobox) at (#1) {\begin{varwidth}{3cm}#2\end{varwidth}} ;
-  \draw[fixline] (infobox) -- (#1);
+\newcommand{\fixinfo}[3][1]{%
+  \coordinate (#2) at ($(pic cs:#2a)!.5!(pic cs:#2b)$);
+  \node[infoboxfix, yshift=#1\infosep] (infobox) at (#2) {\begin{varwidth}{3cm}\center\color{\fixcolor}#3\end{varwidth}} ;
+  \draw[fixline] (infobox) -- (#2);
 }
 
 % \fixinfo{tikzmark name}{text}
 % Use to give info on fixations when the position is set with \tikzmark and there is no fixation point
-\newcommand{\fixinfonofix}[2]{%
-\node[infoboxfix] (infobox) at (pic cs:#1) {\begin{varwidth}{3cm}#2\end{varwidth}} ;
-  \draw[fixline] (infobox) -- (pic cs:#1);
+\newcommand{\fixinfonofix}[3][1]{%
+\node[infoboxfix, yshift=#1\infosep] (infobox) at (pic cs:#2) {\begin{varwidth}{3cm}\center\color{\fixcolor}#3\end{varwidth}} ;
+  \draw[fixline] (infobox) -- (pic cs:#2);
 }
 
-% \sacinfo{tikzmark 1}{tikzmark2}{text}
-\newcommand{\sacinfo}[3]{%
-  \coordinate (sac) at ($(pic cs:#1b)!.5!(pic cs:#2a)$);
-\node[infoboxsac] (infobox) at (sac) {\begin{varwidth}{3cm}#3\end{varwidth}} ;
+% \sacinfo[multiplication to infosep]{tikzmark 1}{tikzmark2}{text}
+\newcommand{\sacinfo}[4][1]{%
+  \coordinate (sac) at ($(pic cs:#2b)!.5!(pic cs:#3a)$);
+\node[infoboxsac, yshift=#1\infosep] (infobox) at (sac) {\begin{varwidth}{3cm}\center\color{\saccolor}#4\end{varwidth}} ;
   \draw[sacline] (infobox) -- (sac);
 }
 
@@ -102,50 +133,51 @@
 \setlength\parindent{0pt}
 
 \pagestyle{empty}
+
 \begin{document}
 
 
 % title
-{\Huge 
+\centerline{\Huge 
 \scshape Eye Movements and Perceptual Span in Reading
 }
 
 \medskip
-Based on Rayner, K., 1998. "Eye movements in reading and information processing."  \textit{Psychological Bulletin}, 85(3), pp.618--66.
+\centerline{Based on Rayner, K., 1998. "Eye movements in reading and information processing."  \textit{Psychological Bulletin}, 85(3), pp.618--66.}
 
-\begin{tikzpicture}[remember picture, overlay]
-  % \draw [color=green] (pic cs:fix1a) ++ (6\letterwidth,.5ex) ellipse (\letterwidth*9 and 10mm);
-  % \draw [color=green!20] (pic cs:fix2a) ++ (6\letterwidth,.5ex) ellipse (\letterwidth*9 and 10mm);
-  % \draw [color=green!20] (pic cs:fix3a) ++ (6\letterwidth,.5ex) ellipse (\letterwidth*9 and 10mm);
-  % \draw [color=green!20] (pic cs:fix4a) ++ (6\letterwidth,.5ex) ellipse (\letterwidth*9 and 10mm);
-  % \draw [color=green!20] (pic cs:fix5a) ++ (6\letterwidth,.5ex) ellipse (\letterwidth*9 and 10mm);
-  % \draw [color=green!20] (pic cs:fix6a) ++ (6\letterwidth,.5ex) ellipse (\letterwidth*9 and 10mm);
-\end{tikzpicture}
+\vfill
 
-When reading, the eyes do not move in smooth motion but in a combination of extremely quick motions, called \textcolor{\saccolor}{saccades} and stops, called \textcolor{\fixcolor}{fixations}.
-
-
-
-
-\null\vspace{3cm}
 
 % The example sentence
 
+\begin{multicols}{3}
+  \setlength\parfillskip{0pt}
+  \setlength\emergencystretch{40pt}
+\itshape
+When reading, the eyes do not move along the line in a smooth motion but in a combination of extremely quick motions, called \textcolor{\saccolor}{\mbox{saccades}}, and stops, called \textcolor{\fixcolor}{\mbox{fixations}}. It is only during fixations that we retrieve information. The saccades are extremely fast (500°/s) so that any vision during them would be perceived as a blur, but this is filtered out by the brain. In effect the text is presented to the brain as a sequence of windows around each fixation, \textit{perceptual span}. This window is asymmetric. In English it reaches 14--15~letters to the right of the fixation and 4--5~letters to the left, but words are only identifiable 7--8 letters to right. Further to the right we primarily get information on word length used to plan the next saccade. For languages that are read from left to right the asymmetry of the perceptual span is mirrored. It is in denser writing systems, for Chinese only 3--4 characters wide, makin saccades shorter. 
+\end{multicols}
+
+\vfill
+
+\vspace{3cm}
+
 
 {%
-\color{black!30}
+\color{black!70}
 \ttfamily\huge
   \tikzmark{sentensbegin}%
-  This ex\fix{a}{fix1}mple ill\fix{u}{fix2}stra\fix{t}{fix3}es e\tikzmark{shortword}ye mo\fix{v}{fix4}ements ty\fix{p}{fix5}ical o\tikzmark{function}f re\fix{a}{fix6}ding.%
+  This ex\fix{a}{fix1}mple ill\fix{u}{fix2}stra\fix{t}{fix3}es e\tikzmark{shortword}ye mo\fix{v}{fix4}em\regfix{e}{regfix}nts ty\fix{p}{fix5}ical o\tikzmark{function}f re\fix{a}{fix6}ding.%
   \tikzmark{sentensend}%
 
 \saccade{fix1b}{fix2a}
 \saccade{fix2b}{fix3a}
 \saccade{fix3b}{fix4a}
 \saccade{fix4b}{fix5a}
-\saccade{fix5b}{fix6a}
+% \saccade{fix5b}{fix6a}
+\regression{fix5a}{regfixb}
+\regressiontwo{regfixb}{fix6a}
 
-
+\vspace{-1cm}
 
 % Infoboxes
 
@@ -153,34 +185,25 @@ When reading, the eyes do not move in smooth motion but in a combination of extr
 
   \fixinfonofix{sentensbegin}{There is usually no fixation on the start of a line. The first fixation is 5--7 letters in.}
 
-  \fixinfo{fix2}{Words of 8 letters or more are almost always fixated.}
+  \fixinfo[1.7]{fix2}{Words of 8 letters or more are almost always fixated.}
 
-  \fixinfo{fix1}{Fixations are 200--250~ms. long.}
+  \fixinfo[1.7]{fix1}{Fixations are 200--250~ms. long.}
 
-  \fixinfonofix{shortword}{Words of 2--3 letters are only fixated 25\% of the time.} ;
+  \fixinfonofix[1.7]{shortword}{Words of 2--3 letters are only fixated 25\% of the time.} ;
+
   \fixinfonofix{function}{Function words are fixated 35\% of the time.} ;
 
   \fixinfo{fix3}{Long words are often refixated.}
 
   \sacinfo{fix1}{fix2}{Saccades are typically \mbox{6--12} letters and take 20--30ms.}
-  \sacinfo{fix4}{fix5}{Saccades or so fast (500°/s) that during them we are effectively blind.}
+  % \sacinfo{fix4}{fix5}{Saccades or so fast (500°/s) that during them we are effectively blind.}
 
+  \sacinfo{fix5}{regfix}{10-15\% of all saccades move backwards. They most often target the previous word.}
+
+  \fixinfo[1.7]{fix6}{Fixation times are longer at the end of a clause or sentence.}
 
 \end{tikzpicture}
 
-}%\huge ends
-
-\vfill
-
-% \textcolor{black!20}{%
-%   \tikzmark{sentensbegin}%
-%   This ex\fix{a}{fix1}mple illustrates eye movements typical of reading.%
-%   \tikzmark{sentensend}%
-% }
-
-The are the fixation from which we retrieve information is, the \textit{perceptual span}, as is asymmetric. En English it reaches 14--15~letters to the right of the fixation and 4--5~letters to the left. It is only around half of this span, 7--8 letters to right, that we can identify words. Further right we most importantly get information on word length used to plan the next saccade. In writing systems that are read from right to left the asymmetry of the perceptual span is mirrored. For more densely packed orthographies such as in Hebrew och Chinese it is smaller.  
-
-\vfill
 
 {\huge\ttfamily 
   This ex\fix{a}{span1}mple ill{u}stra{t}es eye mo{v}ements ty{p}ical of re{a}ding.%
@@ -193,7 +216,11 @@ The are the fixation from which we retrieve information is, the \textit{perceptu
 
   This example ill{u}stra{t}es eye mo{v}ements ty\fix{p}{span5}ical of re{a}ding.%
 
+  This example ill{u}stra{t}es eye mo{v}em\fix{e}{reg}nts typical of re{a}ding.%
+
   This example ill{u}stra{t}es eye mo{v}ements ty{p}ical of re\fix{a}{span6}ding.%
+
+}%\huge ends
 
 \tikzfading[name=fade right,
   left color=transparent!0,
@@ -217,9 +244,10 @@ The are the fixation from which we retrieve information is, the \textit{perceptu
 \thespan{span3}
 \thespan{span4}
 \thespan{span5}
+\thespan{reg}
 \thespan{span6}
 }% \huge ends here
 
-\vfill\null
+\vfill
 
 \end{document}

@@ -22,11 +22,12 @@ In linguistics, transcriptions of various kinds are often used to represent feat
 ## The problem
 The Arabic letters (and sounds) *hamza*&nbsp;(ء) and *ʿayn*&nbsp;(ع) are transcribed as small, raised half circles, ʾ and&nbsp;ʿ respectively (U+02BE and U+02BF). These characters are not modifications of letters but completely new characters added to the alphabet. As such they often interact with neighboring letters in ways that type designers have not accounted for and it is accordingly not uncommon to see very poor renderings of these characters. The introduction to the popular *al-Kitaab* series of Arabic text books[^1] provides an example of how things may go wrong:
 
-![ʿ in *al-Kitaab*](/images/alkitaab.png) 
+![ʿ in *al-Kitaab*](/images/2016-02-10-typographyofaynandhamza/alkitaab.png) 
+
 
 These characters typically receive little attention by type designers, which is of course understandable seeing to their very specialized use. This is particularly noticeable when it comes to kerning (spacing between letters), as in the example above. With these characters being optically very light but still taking up horizontal space they often visually split the word in two, not being able to fill up the space they occupy. In the examples below, this is particularly noticeable in Times New Roman. Gentium Plus, a free font designed to cover multiple languages, nicely solves the problem by making the symbol larger than in most other typefaces. Latin Modern Roman (which builds on Computer Modern that Knuth designed for TeX) is another free alternative with a vast range of glyphs and weights for numerous languages. It's&nbsp;ʿ is in fact a superscript&nbsp;*c*. 
 
-![ʿ in various fonts](/images/infonts.png)
+![ʿ in various fonts](/images/2016-02-10-typographyofaynandhamza/infonts.png)
 
 The problem I faced when writing my thesis was that I wanted to use Minion Pro, which does not have these characters in its set of glyphs. Hence the spaces in the last example above. I wanted to create this character with the superscript&nbsp;*c*, as in Latin Modern. I like this design because it gives the characters more of a visual status as proper letter, as they are in Arabic. A nice thing with the superscript font is also that it exploits the work done by the type designer to make this smaller letter optically balanced with the other characters. Taking a regular small&nbsp;*c* and shrink it down would make it too thin and light. The superscript, as also small caps, is not simply smaller, it as also proportionally thicker to give it more wight.
 
@@ -62,7 +63,7 @@ First we need the actual characters bound to commands which we call `\ayn` and `
 \defʾ\hamza
 ```
 
-![output1](/images/output1.png)
+![output1](/images/2016-02-10-typographyofaynandhamza/output1.png)
 
 
 The characters look nice, but as you can see the kerning in the italic is pretty bad. We need to fix this. 
@@ -103,11 +104,11 @@ We add this to the preamble somewhere. This gives the command `\IfItElse` that t
 
 And this is the output:
 
-![output2](/images/output2.png)
+![output2](/images/2016-02-10-typographyofaynandhamza/output2.png)
 
 This is much better. We could stop here. But we won't. The tricky thing with kerning is that it needs to be different for different character combinations. Look at this example, produced with the command above:
 
-![output3](/images/output3.png)
+![output3](/images/2016-02-10-typographyofaynandhamza/output3.png)
 
 Each line here shows&nbsp;ʿ in combinations with characters that give odd spacing. In the first word the diagonal side of&nbsp;A leaves too much space. In the second the space after the hyphen below the&nbsp;ʿ makes the word seem disjointed. Since the Arabic definite article *al* is usually written with a hyphen, this combination is very frequent. In the last word the space below the&nbsp;ʿ makes the punctuation mark seem much too lonely.
 
@@ -177,18 +178,18 @@ We now declare kerning commands to be inserted between these combinations of cha
 
 Now the output looks like this:
 
-![output4](/images/output4.png)
+![output4](/images/2016-02-10-typographyofaynandhamza/output4.png)
 
 Much better. Just applying these kernings will improve the text considerably. There are however many more combinations of ʿ and&nbsp;ʾ with other characters that would need its own kerning values. You can add kerning as they show up in the text.
 
 ## Alignment in tabular environments 
 Another typographical problem with ʿ and&nbsp;ʾ is that they look odd when they are the first letter in word appearing in a list or a similarly  aligned environment. The space beneath a word-initial ʿ and&nbsp;ʾ makes the word look indented. This problem appears in many lists of Arabic words or names: 
 
-![output5](/images/output5.png)
+![output5](/images/2016-02-10-typographyofaynandhamza/output5.png)
 
 In linguistic literature this also often shows up in glossed examples since the transcription is aligned with the translation:
 
-![output6](/images/output6.png)
+![output6](/images/2016-02-10-typographyofaynandhamza/output6.png)
 
 This may by matter of taste, but it really annoys me, especially with *ʾana* being aligned to&nbsp;I. Articles in linguistics will often have dozens of such examples, so it really builds up quickly.
 
@@ -201,13 +202,13 @@ What we want here is the ʿ and&nbsp;ʾ to protrude slightly to the left to get 
 
 These prints the appropriate character but with a small negative space of 0.2&nbsp;preceding them, pulling them slightly to the left. And we get something much prettier:
 
-![output7](/images/output7.png)
+![output7](/images/2016-02-10-typographyofaynandhamza/output7.png)
 
 
 ## Conclusion
 The characters ʿ and&nbsp;ʾ are in many otherwise either absent or poorly designed. This post has described a way of creating them from scratch in LaTeX. This method has the advantage of being in principle font independent, provided that the font has a superscript&nbsp;*c*. (I have used it with [Source Sans Pro](https://www.google.com/fonts/specimen/Source+Sans+Pro) to great effect with these exact same kerning values but have not tested it with other fonts.) It takes elements present in the font and modifies them to make the new characters.
 
-There is one problem with this approach that I have not yet solved. In the pdf output the character renders as expected but it is internally represented as&nbsp;*c*, so if you copy the word *muʿallim* from the pdf you get *mucallim*. I might come back here and add a fix once I figure it out.  
+There is one problem with this approach that I have not yet solved. In the pdf output the character renders as expected but it is internally represented as&nbsp;*c*, so if you copy the word *muʿallim* from the pdf you get *mucallim*. I might come back here and add a fix once I figure it out.
 
 
 ## Complete code
