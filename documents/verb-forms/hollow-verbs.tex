@@ -1,17 +1,20 @@
 % TODO
 % - 9th hollow
 % - example verbs for Frequency Dictionary
-% - comment on defective nominal paradigm
 \documentclass{article}
 \usepackage{tikz}
 \usetikzlibrary{backgrounds}
-\usepackage[a4paper,landscape, hmargin=1.5cm, vmargin=2cm ]{geometry}
+\usepackage[a4paper,landscape, hmargin=5.5cm, vmargin=3cm ]{geometry}
 \usepackage{xcolor}
 \usepackage{hhline}
+\usepackage{letltxmacro} % Patch commands with let
+\usepackage{etoolbox}
 \usepackage{newunicodechar}
 \usepackage{colortbl}
+\usepackage{microtype}
 \usepackage{calc}
 \usepackage{booktabs}
+\usepackage{multicol}
 \usepackage{tabularx}
 \usepackage{threeparttable}
 \usepackage{array}
@@ -19,14 +22,24 @@
 \usepackage{polyglossia}
 \setmainlanguage{english}
 \setotherlanguage{arabic}
-\newfontfamily\arabicfont[Script=Arabic, Scale=1.8]
+\newfontfamily\arabicfont[Script=Arabic, Scale=1.4]
 % {Scheherazade}
 {Lateef}
 % {DejaVu Sans Mono}
 % {Amiri}
-\setmainfont{Source Sans Pro}
+\setmainfont[Numbers=OldStyle]{Linux Libertine O}
+% \setmainfont[Numbers=OldStyle]{Source Sans Pro}
+
+\frenchspacing
+\setlength\tabcolsep{5pt}
+
+% Make Arabic text take no vertical space to remove extra line height
+\LetLtxMacro{\oldtextarabic}{\textarabic}
+\renewcommand{\textarabic}[1]{\smash{\oldtextarabic{#1}}}
 
 \setlength\parindent{0pt}
+
+
 \pagestyle{empty}
 
 \catcode`\_=\active
@@ -36,9 +49,12 @@
 
 % \newcommand\root{\raisebox{-.2ex}{\tikz \draw [color=white, fill=black!15](0,-.2ex) circle (.7ex);}}
 \newcommand\root{\raisebox{-.2ex}{%
-      \tikz\draw [color=gray, fill=black!15](0,-.2ex) rectangle (1.2ex,1.4ex);%
+  \tikz\draw [color=gray, fill=black!15](0,-.2ex) rectangle (1.2ex,1.4ex);%
 }}
 
+\newcommand{\explaingrayrow}{%
+  The gray row shows the shortened form applicable also to 2ms, 2fs, 1pl, 2mpl, and 3fpl in past tense, i.e with \textarabic{ـتَ}\,, \textarabic{ـتِ}\,, \textarabic{ـنا}\,, \textarabic{ـتم}\,, or~\textarabic{ـن}\,. Example verbs are taken from {\upshape A Frequency Dictionary of Arabic} by Tim Buckwalter and Dilworth Parkinson (Routledge 2011).%
+}
 
 \let\d\undefined
 \let\k\undefined
@@ -68,39 +84,43 @@
 
 \begin{document}
 
-
 \center
 
 % title
-\centerline{\huge Hollow verbs forms I--X}
+\centerline{\huge \scshape Hollow Verbs Form I--X}
 
-\smallskip
+\bigskip
 \centerline{\footnotesize\itshape \today}
 
 \vfill
 
- \begin{minipage}{.7\textwidth}
-   \itshape
-There two different forms for verbs with the middle root consonant~\textarabic{و} and one form for verbs with the middle root~\textarabic{ي}. In forms II--X the form is the same regardless of whether the middle root is \textarabic{و} or~\textarabic{ي}. Note that hollow verbs in forms II, III, V and~VI  are inflected exactly like strong verbs.
+ \begin{minipage}{\textwidth}
+  \renewcommand\baselinestretch{1.2}
+  \setlength\parfillskip{0pt}
+  \itshape
+  \begin{multicols}{3}
+    Hollow verbs have \textarabic{و} or~\textarabic{ي} as the middle root consonant. In form~\textsc{i} there two different inflectional classes for verbs with the middle root~\textarabic{و} and one for verbs with the middle root~\textarabic{ي}. In~\textsc{ii--x} all verbs with hollow roots are inflected the same way regardless of whether the middle root is \textarabic{و} or~\textarabic{ي}. Note that hollow verbs in forms \textsc{ii, iii, v} and~\textsc{vi} are inflected exactly like strong verbs.
+    \explaingrayrow 
+  \end{multicols}
  \end{minipage}
 
-\vfill
+ \vfill
+ \vfill
 
-\newcolumntype{A}{>{\begin{Arabic}}r<{\end{Arabic}}}
+\newcolumntype{A}{>{\begin{}r<{\end{Arabic}}}Arabic}
 
-\begin{threeparttable}
 
 
 \begin{Arabic}
-  \begin{tabularx}{\linewidth}{@{}lYYYYYYYYYYYY@{}}
-
-    &\large \textenglish{I \textarabic{و}\itshape a}    &\large \textenglish{I \textarabic{و}\itshape b}&\large\textenglish{I \textarabic{ي}}&\large \textenglish{II} &\large \textenglish{III}               &\large \textenglish{IV} &\large \textenglish{V} &\large \textenglish{VI} &\large \textenglish{VII} &\large \textenglish{VIII} &\large \textenglish{(IX)} &\large \textenglish{X} \\
+  \begin{tabularx}{\linewidth}{lYYYYYYYYYYYc}
+    \toprule
+    &\large \textenglish{I \itshape w-a}    &\large \textenglish{I \itshape w-b}&\large\textenglish{I \itshape y}&\large \textenglish{II} &\large \textenglish{III}               &\large \textenglish{IV} &\large \textenglish{V} &\large \textenglish{VI} &\large \textenglish{VII} &\large \textenglish{VIII} &\large \textenglish{(IX)} &\large \textenglish{X} \\
 
 \midrule
 \hhline{~---}
 \textenglish{Past}        & \multicolumn{3}{|c|}{\n ـا\f}                       & \f \sf \f     & \n ـا\f\f       & أَ\n ـا\f    & تَـ\f\sf\f    & تَـ\n ـا\f\f    & اِنْـ\f ـا\f  & اِ\s ـتَـ\n ـا\f & اِ\s\f\sf     & اِسْتَـ\n ـا\f \\   
 \hhline{~---}                                                                                                                                                                                                                    
-\rc\textenglish{Past 1s}    & \d\s ـتُ      & \k\s ـتُ    & \k\s ـتُ               & \f \sf \f     & \n ـا\f \       & أَ\f \s ـتُ   & تَـ\f\sf\s ـتُ & تَـ\n ـا\f\s ـتُ & اِنْـ\f\n ـتُ  & اِ\s ـتَـ\f\n ـتُ & اِ\s\f\n ـتُ   & اِسْتَـ\f \s ـتُ \\  
+\rc\textenglish{Past 1s}    & \d\s ـتُ      & \k\s ـتُ    & \k\s ـتُ               & \f \sf \s ـتُ     & \n ـا\f\s ـتُ       & أَ\f \s ـتُ   & تَـ\f\sf\s ـتُ & تَـ\n ـا\f\s ـتُ & اِنْـ\f\s ـتُ  & اِ\s ـتَـ\f\s ـتُ & اِ\s\f\s ـتُ   & اِسْتَـ\f \s ـتُ \\  
 \textenglish{Present}       & يَـ\d ـو\n   & يَـ\n ـا\n  & يَـ\k ـيـ\n             & يُـ\f \sk \n   & يُـ\n ـا\k \n    & يُـ\k ـِيـ\n  & يَتَـ\f\sf\n   & يَتَـ\n ـا\f\n   & يَنْـ\n ـا\n  & يَـ\s ـتَـ\k\n   & يَـ\s\f\sh    & يَسْتَـ\k ـيـ\n \\  
 \hhline{~---}                                                                                                                                                                                                                    
 \textenglish{\textit{maSdar}} & \multicolumn{3}{|c|}{\textenglish{Irregular}}   & تَـ\s \k ـيـ\n & مُـ\n ـا\f \n ـة & إِ\n ـا\n ـة & تَـ\f\sd\n    & تَـ\n ـا\d\n    & اِنْـ\k ـِيا\n & اِ\s ـتِـ\n ـا\n & اِ\s\k\n ـا\n & اِسْتِـ\s \n ـا\n \\
@@ -115,27 +135,53 @@ There two different forms for verbs with the middle root consonant~\textarabic{�
         \end{tabularx}     
  \end{Arabic}              
 
-\begin{Arabic}
-  \begin{tabularx}{\linewidth}{@{}lYYYYYYYYYYYY@{}}
+ \vfill
+ \null
 
-    &\large \textenglish{I \textarabic{ي}\itshape a}    &\large \textenglish{I \textarabic{ي}\itshape b}&\large\textenglish{I \textarabic{و}}&\large \textenglish{II} &\large \textenglish{III}               &\large \textenglish{IV} &\large \textenglish{V} &\large \textenglish{VI} &\large \textenglish{VII} &\large \textenglish{VIII} &\large \textenglish{(IX)} &\large \textenglish{X} \\
+\newpage
+
+\centerline{\huge \scshape Defective Verbs Form I--X}
+
+\bigskip
+\centerline{\footnotesize\itshape \today}
+
+\vfill
+
+\begin{minipage}{\textwidth}
+  \renewcommand\baselinestretch{1.2}
+  \setlength\parfillskip{0pt}
+  \itshape
+  \begin{multicols}{3}
+  Defective verbs have \textarabic{و} or~\textarabic{ي} as the third root consonant. In form~\textsc{i} there are two different inflectional classes for verbs with~\textarabic{ي} as the third root and one for verbs with~\textarabic{و} as the third root. In \textsc{ii--x} the form is the same regardless of whether the final root is \textarabic{و} or~\textarabic{ي}. The nunation~\textarabic{ـٍ} in participles is replaced with~\textarabic{ـِي} when definite or in construct state (e.g~\textarabic{قاضٍ، القاضي، قاضي بغداد}). PPs with~\textarabic{ى} are traditionally described as having an ending~\textarabic{ـً}\,. This is however rarely enunciated or produced in print.
+    \explaingrayrow
+  \end{multicols}
+\end{minipage}
+
+\vfill
+
+\begin{Arabic}
+  \begin{tabularx}{\textwidth}{lYYYYYYYYYYYc}
+
+    \toprule
+\Large
+    &\large \textenglish{I \itshape y-a}    &\large \textenglish{I \itshape y-b}&\large\textenglish{I \itshape w}&\large \textenglish{II} &\large \textenglish{III}               &\large \textenglish{IV} &\large \textenglish{V} &\large \textenglish{VI} &\large \textenglish{VII} &\large \textenglish{VIII} &\large \textenglish{(IX)} &\large \textenglish{X} \\
 
 \midrule
 \textenglish{Past}          & \f\n ـى        &\f\k ـيَ      & \f\n ـا            & \f \sf ـى     & \n ـا\f ـى      & أَ\s\n ـى     & تَـ\f\s ـى       & تَـ\n ـا\n ـى       & اِنْـ\f\n ـى      & اِ\s ـتَـ\s\n ـى  & اِ\s\f\sf     & اِسْتَـ\s \n ـى \\   
-\rc\textenglish{Past 1s}    & \f\f\s ـتُ      & \f\k ـيتُ    & \f\f\s ـتُ          & \f \sf ـيْتُ    & \n ـا\f ـيْتُ     & أَ\f\f ـيْتُ    & تَـ\f\sf\f ـيْتُ   & تَـ\n ـا\f\f ـيْتُ    & اِنْـ\f\f ـيْتُ     & اِ\s ـتَـ\s\f ـيْتُ & اِ\s\f\n ـيْتُ   & اِسْتَـ\n\f ـيْتُ \\  
+\rc\textenglish{Past 1s}    & \f\f\s ـتُ      & \f\k ـيتُ    & \f\f\s ـتُ          & \f \sf ـيْتُ    & \n ـا\f ـيْتُ     & أَ\f\f ـيْتُ    & تَـ\f\sf ـيْتُ     & تَـ\n ـا\f ـيْتُ      & اِنْـ\f\f ـيْتُ     & اِ\s ـتَـ\f ـيْتُ & اِ\s\f ـيْتُ   & اِسْتَـ\n\f ـيْتُ \\  
 \textenglish{Present}       & يَـ\s\k ـي      & يَـ\s\n ـى   & يَـ\s\d ـو          & يُـ\f \sk \n   & يُـ\n ـا\k \n    & يُـ\k ـِيـ\n   & يَتَـ\f\sf\n      & يَتَـ\n ـا\f\n       & يَنْـ\n ـا\n      & يَـ\s ـتَـ\k\n    & يَـ\s\f\sh    & يَسْتَـ\k ـيـ\n \\  
 \hhline{~---}                                                                                                                                                                                                                    
 \textenglish{\textit{maSdar}} & \multicolumn{3}{|c|}{\textenglish{Irregular}}   & تَـ\s \k ـية   & مُـ\n ـا\n ـاة   & إِ\s\n ـاء    & تَـ\f\skn        & تَـ\n ـا\kn         & اِنْـ\k\n ـاء     & اِ\s ـتِـ\n ـاء   & اِ\s\k\n ـا\n & اِسْتِـ\s\n ـاء \\
-\textenglish{AP}    & \multicolumn{3}{|c|}{\n ـا\kn}                            & مُـ\f \skn     & مُـ\n ـا\kn       & مُـ\s\kn      & مُتَـ\f\skn       & مُتَـ\n ـا\kn        & مُنْـ\f\kn        & مُـ\s ـتَـ\kn     & مُـ\s\f\sh    & مُسْتَـ\s\kn \\  
+\textenglish{AP}    & \multicolumn{3}{|c|}{\n ـا\kn}                            & مُـ\f \skn     & مُـ\n ـا\kn      & مُـ\s\kn      & مُتَـ\f\skn       & مُتَـ\n ـا\kn        & مُنْـ\f\kn        & مُـ\s ـتَـ\kn     & مُـ\s\f\sh    & مُسْتَـ\s\kn \\  
 
 \hhline{~---}                                                                                                                                                                                                                    
-\textenglish{PP}   & مَـ\s\k ـيّ & مَـ\s\k ـيّ &مَـ\s\d ـوّ                           & مُـ\f\sf \n    & مُـ\n ـا\f\n     & مُـ\n ـا\n    & مُتَـ\f\sf\n      & مُتَـ\n ـا\f\n       & مُنْـ\f ـا\n      & مُـ\s ـتا\n      &              & مُسْتَـ\n ـا\n \\   
+\textenglish{PP}   & مَـ\s\k ـيّ & مَـ\s\k ـيّ &مَـ\s\d ـوّ                           & مُـ\f\sh ـى    & مُـ\n ـا\n ـى    & مُـ\n ـا\n ـى& مُتَـ\f\sh ـى      & مُتَـ\n ـا\n ـى      & مُنْـ\f ـا\n ـى   & مُـ\s ـتا\n ـى   &              & مُسْتَـ\n ـا\n ـى\\   
 \midrule                                                                                                                                                                                                                         
 \textenglish{Example} & مشى & لقي &دعا                                          & خيم           & قاوم            & أراد         & تجوز            & تجاهل              & انهار           & اِجتاح           & اسود         & استراح\\         
 \addlinespace
 \bottomrule
 
-        \end{tabularx}     
+        \end{tabularx}
  \end{Arabic}              
 
   % \begin{tablenotes}
@@ -144,36 +190,9 @@ There two different forms for verbs with the middle root consonant~\textarabic{�
   %   \item[**] For verbs denoting conflict alternatively \textarabic{\k\n ـا\n} .
   % \end{tablenotes}
 
-\end{threeparttable}
-
-   
 
 
-
-% \vfill
-% \begin{threeparttable}
-%   \begin{tabularx}{\linewidth}{lcYYYYYYYYY}
-
-%                     & I                    & II                     & III                   & IV                 & V                        & VI                   & VII                & VIII               & (IX)                                       & X\\
-% \midrule
-% {Past}              & \itshape  _a_a/u/i_a & \itshape  _a\dou a_a   & \itshape  _aa_a_      & \itshape  ʾa__a_a & \itshape  ta_a\dou a_a   & \itshape  ta_aa_a_a  & \itshape  in_a_a_a & \itshape  i_ta_a_a & \itshape  i__a\dou a                       & \itshape  ista__a_a \\
-% {Present}           & \itshape  ya__a/u/i_ & \itshape  yu_a\dou i_  & \itshape  yu_aa_i_    & \itshape  yu__i_   & \itshape  yata_a\dou a_  & \itshape  yata_aa_a_ & \itshape  yan_a_i_ & \itshape  ya_ta_i_ & \itshape  ya__a\dou                        & \itshape  yasta__i_\\
-% \textit{maSdar}     & Irregular*           & \itshape  ta__ii_      & \itshape  mu_aa_a_a** & \itshape  ʾi__aa_  & \itshape  ta_a\dou u_    & \itshape  ta_aa_u_   & \itshape  in_i_aa_ & \itshape  i_ta_aa_ & \itshape  i__i\underline{_}aa\underline{_} & \itshape  isti__aa_\\
-% {Active part.}      & \itshape  _aa_i_     & \itshape  mu_a\dou i _ & \itshape  mu_aa_i_    & \itshape  mu__i_   & \itshape  muta_a\dou i_ & \itshape  muta_aa_i_ & \itshape  mun_a_i_ & \itshape  mu_ta_i_ & \itshape  mu__a\dou                        & \itshape  musta__i_\\
-% {Passive part.}   & \itshape  ma__uu_    & \itshape  mu_a\dou a _ & \itshape  mu_aa\dou _ & \itshape  mu__a_   & \itshape  muta_a_a _     & \itshape  muta_aa_a_ & \itshape  mun_a_a_ & \itshape  mu_ta_a_ & \itshape                                   & \itshape  musta__a_\\
-
-% \midrule
-%   \end{tabularx}
-  % \begin{tablenotes}
-  %   \footnotesize
-  % \item[] \dou{} signifies a doubled letter.
-  %   \smallskip
-
-  %   \item[*] Common forms include~~\textit{_i_aa_a}~,~~\textit{_a__}~~and~~\textit{_u_uu_} . 
-  %   \item[**] For verbs denoting conflict, alternatively~~\textit{_i_aa_} .
-  % \end{tablenotes}
-% \end{threeparttable}
-
-\vfill\vfill\null
+\vfill
+\null
 
 \end{document}
