@@ -5,11 +5,14 @@
    landscape
 , top=2cm
 , bottom=2cm
-, hmargin=3cm
+, hmargin=3.5cm
+, a4paper
 ]{geometry}
 \usepackage{etoolbox}
+\usepackage{ifthen}
 \usepackage{graphicx}
 \usepackage{multicol}
+\usepackage{microtype}
 \usepackage{footnote} % to save and spew notes
 \usepackage{ccicons}
 \usepackage{calc}
@@ -24,20 +27,30 @@
 
 \usepackage{fontspec}
 \setmainfont[Numbers=OldStyle]{Linux Libertine O}
-\setsansfont[Numbers=OldStyle]{Source Sans Pro ExtraLight}
+\setsansfont[Numbers=OldStyle]{Source Sans Pro Light}
 
+\frenchspacing
 
-\def\fixcolor{blue}
-\def\saccolor{red}
-\def\spacolor{green}
-\def\spacolor{green}
+\def\fixcolor{blue!30!gray}
+\def\saccolor{red!50!gray}
 
+% Lengths
+\newlength\infosep
+\setlength{\infosep}{2cm}
+\newlength\infoseptop
+\setlength{\infoseptop}{4.5cm}
+\newlength\letterwidth
+\setlength{\letterwidth}{\widthof{\huge h}}
+
+\setlength\parindent{0pt}
 
 \newcommand{\fix}[2]{%
   \tikzmark{#2a}%
   \begin{tikzpicture}
     \node [inner sep = 0pt, text depth=0pt](fix) {#1};
-    \draw[draw=white, fill=\fixcolor] ($ (fix.south west)!0.5!(fix.south east) $) ++ (0,.5ex) circle (2pt);
+    \draw[fill opacity=.7, draw=\fixcolor, fill=\fixcolor]
+      ($ (fix.south west)!0.5!(fix.south east) $)
+      ++ (0,.5ex) circle (4pt);
   \end{tikzpicture}%
   \tikzmark{#2b}%
 }
@@ -54,9 +67,9 @@
   \tikzmark{#2a}%
   \begin{tikzpicture}
     \node [inner sep = 0pt, text depth=0pt](fix) {#1};
-    \draw[draw=\fixcolor, fill=\fixcolor, transform canvas={yshift=-1.5ex}]
+    \draw[fill opacity=.7, draw=\fixcolor, fill=\fixcolor, transform canvas={yshift=-1.7ex}]
       ($ (fix.south west)!0.5!(fix.south east) $)
-      ++ (0,.5ex) circle (2pt);
+      ++ (0,.5ex) circle (4pt);
   \end{tikzpicture}%
   \tikzmark{#2b}%
 }
@@ -71,7 +84,7 @@
 
 \newcommand{\regressiontwo}[2]{%
 \begin{tikzpicture}[remember picture]
-  \draw[->,>=latex, overlay, draw=\saccolor, shorten < =1pt, shorten > =1pt, transform canvas={yshift=-2.5ex}]
+  \draw[->,>=latex, overlay, draw=\saccolor, shorten < =1pt, shorten > =1pt, transform canvas={yshift=-2ex}]
     ($(pic cs:#1) + (0,.5ex)$) --
     ($(pic cs:#2) + (0,.5ex)$);
 \end{tikzpicture}%
@@ -81,12 +94,12 @@
 
 \tikzstyle{infoboxfix}=[
     color=\fixcolor
-  , font=\itshape\sffamily\small
+  , font=\itshape\sffamily\footnotesize
   % , yshift=\infosep
 ]
 \tikzstyle{infoboxsac}=[
     color=\saccolor
-  , font=\itshape\sffamily\small
+  , font=\itshape\sffamily\footnotesize
   % , above=1.5\infosep
 ]
 \tikzstyle{fixline}=[
@@ -105,32 +118,27 @@
 % \fixinfo{tikzmark name}{text}
 \newcommand{\fixinfo}[3][1]{%
   \coordinate (#2) at ($(pic cs:#2a)!.5!(pic cs:#2b)$);
-  \node[infoboxfix, yshift=#1\infosep] (infobox) at (#2) {\begin{varwidth}{3cm}\center\color{\fixcolor}#3\end{varwidth}} ;
+  \node[infoboxfix, yshift=#1\infosep]
+    (infobox) at (#2)
+    {\begin{varwidth}{2.3cm}\Centering\color{\fixcolor}#3\end{varwidth}} ;
   \draw[fixline] (infobox) -- (#2);
 }
 
 % \fixinfo{tikzmark name}{text}
 % Use to give info on fixations when the position is set with \tikzmark and there is no fixation point
 \newcommand{\fixinfonofix}[3][1]{%
-\node[infoboxfix, yshift=#1\infosep] (infobox) at (pic cs:#2) {\begin{varwidth}{3cm}\center\color{\fixcolor}#3\end{varwidth}} ;
+\node[infoboxfix, yshift=#1\infosep] (infobox) at (pic cs:#2) {\begin{varwidth}{2.3cm}\Centering\color{\fixcolor}#3\end{varwidth}} ;
   \draw[fixline] (infobox) -- (pic cs:#2);
 }
 
 % \sacinfo[multiplication to infosep]{tikzmark 1}{tikzmark2}{text}
 \newcommand{\sacinfo}[4][1]{%
   \coordinate (sac) at ($(pic cs:#2b)!.5!(pic cs:#3a)$);
-\node[infoboxsac, yshift=#1\infosep] (infobox) at (sac) {\begin{varwidth}{3cm}\center\color{\saccolor}#4\end{varwidth}} ;
+\node[infoboxsac, yshift=#1\infosep] (infobox) at (sac) {\begin{varwidth}{2.3cm}\Centering\color{\saccolor}#4\end{varwidth}} ;
   \draw[sacline] (infobox) -- (sac);
 }
 
 
-% Lengths
-\newlength\infosep
-\setlength{\infosep}{2cm}
-\newlength\letterwidth
-\setlength{\letterwidth}{\widthof{\huge h}}
-
-\setlength\parindent{0pt}
 
 \pagestyle{empty}
 
@@ -142,10 +150,10 @@
 \scshape Eye Movements and Perceptual Span in Reading
 }
 
-\medskip
+\bigskip
 \centerline{Based on Rayner, K., 1998. "Eye movements in reading and information processing."  \textit{Psychological Bulletin}, 85(3), pp.618--66.}
 
-\vfill
+\bigskip
 
 
 % The example sentence
@@ -154,19 +162,18 @@
   \setlength\parfillskip{0pt}
   \setlength\emergencystretch{40pt}
 \itshape
-When reading, the eyes do not move along the line in a smooth motion but in a combination of extremely quick motions, called \textcolor{\saccolor}{\mbox{saccades}}, and stops, called \textcolor{\fixcolor}{\mbox{fixations}}. It is only during fixations that we retrieve information. The saccades are extremely fast (500°/s) so that any vision during them would be perceived as a blur, but this is filtered out by the brain. In effect the text is presented to the brain as a sequence of windows around each fixation, \textit{perceptual span}. This window is asymmetric. In English it reaches 14--15~letters to the right of the fixation and 4--5~letters to the left, but words are only identifiable 7--8 letters to right. Further to the right we primarily get information on word length used to plan the next saccade. For languages that are read from left to right the asymmetry of the perceptual span is mirrored. It is in denser writing systems, for Chinese only 3--4 characters wide, makin saccades shorter. 
+When reading, the eyes do not move along a line of text in a smooth motion, but in a combination of extremely quick motions, called \textcolor{\saccolor}{\mbox{saccades}}, and stops, called \textcolor{\fixcolor}{\mbox{fixations}}. It is only during fixations that we retrieve information. The saccades are extremely fast (500°/s) so that any vision during them would be perceived as a blur. This is however filtered out by the brain so that during saccades we are effectively blind. The text is thus taken in as a sequence of windows around each fixation. This is called the perceptual span. The perceptual span is asymmetric. In English it reaches 14--15~letters to the right of the fixation and 4--5~letters to the left. Words are only identifiable 7--8 letters to right. Further to the right we primarily get information on word length which is used to plan the next saccade. For languages that are read from left to right the asymmetry of the perceptual span is mirrored. In languages with denser writing systems it is narrower, making saccades shorter (2--3 characters in Chinese, 5--6 letters in Hebrew), but fixation times remain the same. 
 \end{multicols}
 
-\vfill
 
-\vspace{3cm}
+\vspace{3.5cm}
 
 
 {%
 \color{black!70}
 \ttfamily\huge
-  \tikzmark{sentensbegin}%
-  This ex\fix{a}{fix1}mple ill\fix{u}{fix2}stra\fix{t}{fix3}es e\tikzmark{shortword}ye mo\fix{v}{fix4}em\regfix{e}{regfix}nts ty\fix{p}{fix5}ical o\tikzmark{function}f re\fix{a}{fix6}ding.%
+  %
+  Thi\tikzmark{sentensbegin}s ex\fix{a}{fix1}mple ill\fix{u}{fix2}stra\fix{t}{fix3}es e\tikzmark{shortword}ye mo\fix{v}{fix4}em\regfix{e}{regfix}nts ty\fix{p}{fix5}ical o\tikzmark{function}f rea\fix{d}{fix6}ing.%
   \tikzmark{sentensend}%
 
 \saccade{fix1b}{fix2a}
@@ -177,30 +184,32 @@ When reading, the eyes do not move along the line in a smooth motion but in a co
 \regression{fix5a}{regfixb}
 \regressiontwo{regfixb}{fix6a}
 
-\vspace{-1cm}
+\vspace{-1.3cm}
 
 % Infoboxes
 
 \begin{tikzpicture}[remember picture, overlay, inner sep=0pt]
 
-  \fixinfonofix{sentensbegin}{There is usually no fixation on the start of a line. The first fixation is 5--7 letters in.}
+  \fixinfonofix{sentensbegin}{There is no fixation on the start of a line. The first fixation is typically 5--7 letters in.}
 
-  \fixinfo[1.7]{fix2}{Words of 8 letters or more are almost always fixated.}
+  \fixinfo[1.7]{fix2}{Words of eight or more letters are almost always fixated.}
 
-  \fixinfo[1.7]{fix1}{Fixations are 200--250~ms. long.}
+  \fixinfo[1.7]{fix1}{Most fixations are 200--250~ms. long.}
 
   \fixinfonofix[1.7]{shortword}{Words of 2--3 letters are only fixated 25\% of the time.} ;
 
-  \fixinfonofix{function}{Function words are fixated 35\% of the time.} ;
+  \fixinfonofix[1.9]{function}{Function words are only fixated 35\% of the time.} ;
 
-  \fixinfo{fix3}{Long words are often refixated.}
+  \fixinfo{fix3}{Long words are often re-fixated.}
 
-  \sacinfo{fix1}{fix2}{Saccades are typically \mbox{6--12} letters and take 20--30ms.}
+  \sacinfo{fix1}{fix2}{Saccades are \mbox{6--12} letters long and take 20--30ms.}
   % \sacinfo{fix4}{fix5}{Saccades or so fast (500°/s) that during them we are effectively blind.}
 
-  \sacinfo{fix5}{regfix}{10-15\% of all saccades move backwards. They most often target the previous word.}
+  \sacinfo{fix5}{regfix}{10-15\% of all saccades move backwards and are called re\-gressions. They most often target the previous word.}
 
-  \fixinfo[1.7]{fix6}{Fixation times are longer at the end of a clause or sentence.}
+  \fixinfo{fix6}{Fixation times are longer at the end of a clause or sentence as the proposition is processed.}
+
+  \sacinfo{regfix}{fix6}{After regressions readers often skip parts they have already read, giving very long saccades (15--20~letters).}
 
 \end{tikzpicture}
 
