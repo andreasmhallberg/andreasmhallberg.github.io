@@ -1,12 +1,19 @@
-\documentclass{article}
+\documentclass[oneside]{article}
 \usepackage[dvipsnames]{xcolor}
 \usepackage{\string ~/mylatexstuff/ccbyandreas}
+\usepackage{calc}
+\usepackage{fontspec}
+\setmainfont[Numbers=OldStyle]{Linux Libertine O}
+\setsansfont[Numbers=OldStyle]{Source Sans Pro Light}
+% \newlength\examplewidth
+% \settowidth{\examplewidth}{\huge\ttfamily This example illustrates eye movements typical of reading.}
 \usepackage[
-   landscape
-, top=2cm
+  landscape
+  , top=2cm
 , bottom=2cm
 , hmargin=3.5cm
-, a4paper
+  % , textwidth=\examplewidth
+  , a4paper
 ]{geometry}
 \usepackage{etoolbox}
 \usepackage{ifthen}
@@ -15,7 +22,6 @@
 \usepackage{microtype}
 \usepackage{footnote} % to save and spew notes
 \usepackage{ccicons}
-\usepackage{calc}
 \def\UrlFont{\rmfamily\itshape} % roman font in urls
 \usepackage{ragged2e}
 \usepackage{tikz}
@@ -25,9 +31,6 @@
 \setmainlanguage{english}
 \setotherlanguage{arabic}
 
-\usepackage{fontspec}
-\setmainfont[Numbers=OldStyle]{Linux Libertine O}
-\setsansfont[Numbers=OldStyle]{Source Sans Pro Light}
 
 \frenchspacing
 
@@ -44,10 +47,13 @@
 
 \setlength\parindent{0pt}
 
+\settowidth{\textwidth}{\huge\ttfamily This example illustrates eye movements typical of reading.}
+\addtolength{\textwidth}{-.5\letterwidth}
+
 \newcommand{\fix}[2]{%
   \tikzmark{#2a}%
-  \begin{tikzpicture}
-    \node [inner sep = 0pt, text depth=0pt](fix) {#1};
+  \begin{tikzpicture}[baseline]
+    \node [inner sep = 0pt, text depth=0pt, anchor=base](fix) {#1};
     \draw[fill opacity=.7, draw=\fixcolor, fill=\fixcolor]
       ($ (fix.south west)!0.5!(fix.south east) $)
       ++ (0,.5ex) circle (4pt);
@@ -65,7 +71,7 @@
 
 \newcommand{\regfix}[2]{%
   \tikzmark{#2a}%
-  \begin{tikzpicture}
+  \begin{tikzpicture}[]
     \node [inner sep = 0pt, text depth=0pt](fix) {#1};
     \draw[fill opacity=.7, draw=\fixcolor, fill=\fixcolor, transform canvas={yshift=-1.7ex}]
       ($ (fix.south west)!0.5!(fix.south east) $)
@@ -127,14 +133,14 @@
 % \fixinfo{tikzmark name}{text}
 % Use to give info on fixations when the position is set with \tikzmark and there is no fixation point
 \newcommand{\fixinfonofix}[3][1]{%
-\node[infoboxfix, yshift=#1\infosep] (infobox) at (pic cs:#2) {\begin{varwidth}{2.3cm}\Centering\color{\fixcolor}#3\end{varwidth}} ;
+\node[infoboxfix, yshift=#1\infosep] (infobox) at (pic cs:#2) {\begin{varwidth}{3cm}\Centering\color{\fixcolor}#3\end{varwidth}} ;
   \draw[fixline] (infobox) -- (pic cs:#2);
 }
 
 % \sacinfo[multiplication to infosep]{tikzmark 1}{tikzmark2}{text}
 \newcommand{\sacinfo}[4][1]{%
   \coordinate (sac) at ($(pic cs:#2b)!.5!(pic cs:#3a)$);
-\node[infoboxsac, yshift=#1\infosep] (infobox) at (sac) {\begin{varwidth}{2.3cm}\Centering\color{\saccolor}#4\end{varwidth}} ;
+\node[infoboxsac, yshift=#1\infosep] (infobox) at (sac) {\begin{varwidth}{3cm}\Centering\color{\saccolor}#4\end{varwidth}} ;
   \draw[sacline] (infobox) -- (sac);
 }
 
@@ -151,7 +157,7 @@
 }
 
 \bigskip
-\centerline{Based on Rayner, K., 1998. "Eye movements in reading and information processing."  \textit{Psychological Bulletin}, 85(3), pp.618--66.}
+\centerline{\today. Based on Rayner, K., 1998. "Eye movements in reading and information processing."  \textit{Psychological Bulletin}, 85(3), pp.618--66.}
 
 \bigskip
 
@@ -173,7 +179,7 @@ When reading, the eyes do not move along a line of text in a smooth motion, but 
 \color{black!70}
 \ttfamily\huge
   %
-  Thi\tikzmark{sentensbegin}s ex\fix{a}{fix1}mple ill\fix{u}{fix2}stra\fix{t}{fix3}es e\tikzmark{shortword}ye mo\fix{v}{fix4}em\regfix{e}{regfix}nts ty\fix{p}{fix5}ical o\tikzmark{function}f rea\fix{d}{fix6}ing.%
+  Thi\tikzmark{sentensbegin}s ex\fix{a}{fix1}mple ill\fix{u}{fix2}stra\fix{t}{fix3}es e\tikzmark{shortword}ye mo\fix{v}{fix4}e\regfix{m}{regfix}ents ty\fix{p}{fix5}ical o\tikzmark{function}f rea\fix{d}{fix6}ing.%
   \tikzmark{sentensend}%
 
 \saccade{fix1b}{fix2a}
@@ -205,11 +211,11 @@ When reading, the eyes do not move along a line of text in a smooth motion, but 
   \sacinfo{fix1}{fix2}{Saccades are \mbox{6--12} letters long and take 20--30ms.}
   % \sacinfo{fix4}{fix5}{Saccades or so fast (500°/s) that during them we are effectively blind.}
 
-  \sacinfo{fix5}{regfix}{10-15\% of all saccades move backwards and are called re\-gressions. They most often target the previous word.}
+  \sacinfo[1.7]{fix5}{regfix}{10-15\% of all saccades move backwards and are called re\-gressions. They most often target the previous word.}
 
   \fixinfo{fix6}{Fixation times are longer at the end of a clause or sentence as the proposition is processed.}
 
-  \sacinfo{regfix}{fix6}{After regressions readers often skip parts they have already read, giving very long saccades (15--20~letters).}
+  \sacinfo[.8]{regfix}{fix6}{After regressions readers often skip parts they have already read, giving very long saccades (15--20~letters).}
 
 \end{tikzpicture}
 
@@ -225,9 +231,9 @@ When reading, the eyes do not move along a line of text in a smooth motion, but 
 
   This example ill{u}stra{t}es eye mo{v}ements ty\fix{p}{span5}ical of re{a}ding.%
 
-  This example ill{u}stra{t}es eye mo{v}em\fix{e}{reg}nts typical of re{a}ding.%
+  This example ill{u}stra{t}es eye mo{v}e\fix{m}{reg}ents typical of re{a}ding.%
 
-  This example ill{u}stra{t}es eye mo{v}ements ty{p}ical of re\fix{a}{span6}ding.%
+  This example ill{u}stra{t}es eye mo{v}ements ty{p}ical of rea\fix{d}{span6}ing.%
 
 }%\huge ends
 
@@ -242,7 +248,7 @@ When reading, the eyes do not move along a line of text in a smooth motion, but 
 \newcommand\thespan[1]{%
 \begin{tikzpicture}[remember picture, overlay, inner sep=0pt]
   \fill [path fading=fade right,  white](pic cs:#1a) ++ (0,-1ex) rectangle ++ (-5\letterwidth, 3ex); 
-  \fill [fill=white](pic cs:#1a)  ++ (-5\letterwidth,-1ex) rectangle ++ (-\textwidth, 3ex); 
+  \fill [fill=white](pic cs:#1a) ++ (-5\letterwidth,-1ex) rectangle ++ (-\textwidth, 3ex); 
   \fill [path fading=fade left, white](pic cs:#1b) ++ (0,-1ex) rectangle ++ (14\letterwidth, 3ex); 
   \fill [fill=white](pic cs:#1b) ++ (14\letterwidth, -1ex) rectangle ++ (\textwidth,3ex); 
 \end{tikzpicture}%

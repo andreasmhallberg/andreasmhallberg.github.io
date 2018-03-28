@@ -52,7 +52,7 @@ pubyears:
 
 <br/>
 
-## Teaching documents
+## Other documents
 
 These documents are subject to continuous tinkering. The latest version can always be found here. 
 
@@ -61,7 +61,7 @@ These documents are subject to continuous tinkering. The latest version can alwa
 
 
 {% if docpost.thumbnail %}
-<a href="{{ docpost.document }}"><img style="height: 3em; width: 3em; float: left; margin-right: 30px" src="{{ docpost.thumbnail }}"></a>
+<a href="{{ docpost.document }}"><img style="width: 3em; height: 3em; float: left; margin-right: 30px" src="{{ docpost.thumbnail }}"></a>
 {%  endif %}
 {% if docpost.documenttitle %}
   {{ docpost.documenttitle }}
@@ -72,6 +72,7 @@ These documents are subject to continuous tinkering. The latest version can alwa
   <span class="date">(Swedish)</span>
 {% endif %}<br>
 <span class="publink">[pdf]({{ docpost.document }}) | [Blog post]({{ site.url }}{{ docpost.url }})</span>
+
 
 {% endif %}
 {% endfor %}
