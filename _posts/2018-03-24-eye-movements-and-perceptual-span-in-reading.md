@@ -23,4 +23,4 @@ The document is based on Rayner's 2009 review article on research on eye movemen
 
 [![Ducument image]({{ page.minidoc }})]({{ page.document }})
 
-Also, three perfectly square text columns of equal length and only three hyphenations is pretty cool, especially since I havn't touched TeX's `\hyphenationpenalty`.
+Also, three perfectly square text columns of equal length is pretty cool.
