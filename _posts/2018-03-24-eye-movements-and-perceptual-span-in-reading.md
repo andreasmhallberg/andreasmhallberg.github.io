@@ -12,7 +12,7 @@ thumbnail: /images/eye-movements-and-perceptual-span.thumbnail.png
 minidoc: /images/eye-movements-and-perceptual-span.thumbnail.png
 ---
 
-I am currently reading up on eye movements in reading. A good way to assimilate new information is to try and come up with ways to visualize it. [The document below]({{ page.minidoc }})
+I am currently reading up on eye movements in reading. A good way to assimilate new information is to try and come up with ways to visualize it. [The document below]({{ page.document }})
 ([LaTeX source](/documents/eye-movements-and-perceptual-span/eye-movements-and-perceptual-span.tex))
 is the result of one such attempt. It is a summary of some basic facts about eye movements in reading, focusing on the structure of fixations, saccades, and perceptual span.
 
