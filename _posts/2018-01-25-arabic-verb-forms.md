@@ -3,20 +3,19 @@ layout: post
 title: 'Arabic verb forms: fill in the blanks'
 permalink: /arabic-verb-forms/
 lang: en
-length: short
+length: medium
 tags: 
 - latex
 - tafl
 document: /documents/verb-forms/verb-forms.tex.pdf
 documenttitle: Verb forms I-X
 thumbnail: /images/verb-forms.thumbnail.png
-mindoc: /images/verb-forms.mindoc.png
-
+minidoc: /images/verb-forms.mindoc.png
 ---
 
 I've been toying with different ways of visually representing the ten Standard Arabic verb forms. The traditional way of using the root *fʿl* (فعل) as a pattern is nice enough, but it does not provide clear visual cues to differentiate between the pattern and the root. What you see is whole words, not roots and patterns. This is something I have tried to amend in [the document below]({{ page.document }}) in which the three root consonants are represented by empty squares. With the table in this format it is possible see the structure of the verb form at a glance without having to untangle it from root consonants. Or at least this is the intention. 
 
-[![thumbnail]({{ page.mindoc }})]({{ page.document }})
+[![thumbnail]({{ page.minidoc }})]({{ page.document }})
 
 To my knowledge noone has presented the forms in this manner before. There are probably two reasons for this. The first is that is tricky to get the vowels typeset correctly when they are not used with actual letters. I had to revert to some [LaTex black magic](/documents/verb-forms/verb-forms.tex) to get it done. The second reason is that the connections between the letters of the form (e.g. the infix ـتـ in form VIII) will be incorrect for some roots, which might be upsetting to some. I believe this is a pedagogical non-issue since students at the level where this table is appropriate will have already mastered the Arabic script. 
 
