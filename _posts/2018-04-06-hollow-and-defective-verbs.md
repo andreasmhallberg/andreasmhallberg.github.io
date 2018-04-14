@@ -16,7 +16,6 @@ This is a followup to a [previous post](/arabic-verb-forms/) in which I presente
 
 Hollow verbs are those that have و or&nbsp;ي as their middle rood and defective verbs are those that have و or&nbsp;ي as their final root. Their inflection deviates from that of the strong verb but is reguler, only with different and more complex regularities. These verbs are in some teaching materials presented as irregular verbs and students are encouraged to study them as such, one by one. While there is some merit to this, I believe it is useful, at least for some students, to see the whole system laid out as a whole in one massive table since you can then discover patterns and regularities and develop a feel for how the roots و or&nbsp;ي behave in various morphological contexts.
 
-
 [![thumbnail]({{ page.minidoc }})]({{ page.document }})
 
 Please report any typos or other errors.

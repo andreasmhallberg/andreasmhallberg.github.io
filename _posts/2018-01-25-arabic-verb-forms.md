@@ -11,6 +11,9 @@ document: /documents/verb-forms/verb-forms.tex.pdf
 documenttitle: Verb forms I-X
 thumbnail: /images/verb-forms.thumbnail.png
 minidoc: /images/verb-forms.mindoc.png
+updates:
+  - date: 2018-04-06
+    contents: Se also [this followup post](/hollow-and-derfective-verbs/) for corresponding tables for hollow and defective verbs.
 ---
 
 I've been toying with different ways of visually representing the ten Standard Arabic verb forms. The traditional way of using the root *fʿl* (فعل) as a pattern is nice enough, but it does not provide clear visual cues to differentiate between the pattern and the root. What you see is whole words, not roots and patterns. This is something I have tried to amend in [the document below]({{ page.document }}) in which the three root consonants are represented by empty squares. With the table in this format it is possible see the structure of the verb form at a glance without having to untangle it from root consonants. Or at least this is the intention. 
