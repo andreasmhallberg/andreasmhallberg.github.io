@@ -33,3 +33,8 @@ logo: /images/humlablogo.png
 
 
 Dr. Andreas Hallberg
+
+موقع إلكتروني: <https://sprak.gu.se/om/personal?userId=xhalaa>
+
+الإي-ميل: <mailto:andreas.hallberg@sprak.gu.se>
+
