@@ -54,7 +54,7 @@ pubyears:
 
 ## Other documents
 
-These documents are subject to continuous tinkering. The latest version can always be found here. 
+These documents are subject to continuous tinkering. The latest version can always be found here. Please report any errors in these documents and they will be corrected as soon as possible.
 
 {% for docpost in site.posts | reversed %}
 {% if docpost.document %} 
