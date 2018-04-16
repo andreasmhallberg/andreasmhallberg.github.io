@@ -4,8 +4,8 @@ permalink: /experiment/
 title: مشاركة في اختبار عن القراءة في اللغة العربية
 lang: ar
 logo: /images/humlablogo.png
+qr: /images/experiment-qr.png
 ---
-
 
 نبحث عن متكلمي اللغة العربية للمشاركة في اختبار عن القراءة في اللغة العربية في مختبر العلوم الإنسانية (Humanities Lab) التابع لجامعة لوند في العنوان التالي <span dir="ltr">Helgonabacken 14</span>. الاختبار يتعلق بحركات العين عند القراءة باللغة العربية وستقوم خلال الاختبار بقراءة جمل مأخوذة من مقالات صحفية على شاشة كمبيوتر تُصور خلالها العين لتسجيل حركاتها.
 
@@ -28,6 +28,8 @@ logo: /images/humlablogo.png
 
 
 &nbsp;
+
+<img src="{{ page.qr }}" style="width:30%; float: left">
 
 هذا ولكم منّا أطيب التحيات 
 
