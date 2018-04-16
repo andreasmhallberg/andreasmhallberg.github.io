@@ -36,5 +36,5 @@ Dr. Andreas Hallberg
 
 موقع إلكتروني: <https://sprak.gu.se/om/personal?userId=xhalaa>
 
-الإي-ميل: <mailto:andreas.hallberg@sprak.gu.se>
+إي-ميل: <mailto:andreas.hallberg@sprak.gu.se>
 
