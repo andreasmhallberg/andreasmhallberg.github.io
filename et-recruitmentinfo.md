@@ -1,7 +1,7 @@
 ---
 layout: independent
 permalink: /experiment/
-title: مشاركة في اختبار عن القراءة في اللغة العربية
+title: مشاركة في اختبار عن القراءة باللغة العربية
 lang: ar
 logo: /images/humlablogo.png
 qr: /images/experiment-qr.png
