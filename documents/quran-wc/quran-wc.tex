@@ -1,0 +1,257 @@
+% !mv '%'.pdf ~/blog/andreasmhallberg.github.io/documents/quran-wc.tex.pdf
+
+\documentclass{article}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usepackage{ifthen}
+\usepackage{\string ~/mylatexstuff/ccbyandreas}
+\usepackage[a3paper,margin=1cm]{geometry}
+% \usepackage[dvipnames]{xcolor}
+
+\usepackage{polyglossia}
+\setmainlanguage{english}
+\setotherlanguage{arabic}
+
+\usepackage{fontspec}
+\setmainfont{Source Sans Pro Light}
+
+\newfontfamily\arabic[Script=Arabic]{Amiri}
+
+\pagestyle{empty}
+
+\newlength\plotheight
+\setlength\plotheight{.8\textheight}
+\newlength\plotwidth
+\setlength\plotwidth{.6\textwidth}
+
+\def\maxwc{3550}
+
+\def\myred{black!15}
+
+\newcounter{totalayas}
+\setcounter{totalayas}{0}
+
+\newcounter{totalwords}
+\setcounter{totalwords}{0}
+
+\setlength{\fboxsep}{2pt}
+
+        \newcommand\printwpa{\pgfmathprintnumber[assume math mode=true,precision=1,fixed zerofill=true]{\wpa}}
+
+\newcommand\sura[6]{
+    % Add to totals
+    \addtocounter{totalayas}{#3}
+    \addtocounter{totalwords}{#2}
+
+    % Calculate words per aya
+        \pgfmathsetmacro{\wpa}{#2/#3}
+
+    \node at (0,-#1) [anchor=east, font=\footnotesize] {
+        #5~\ifthenelse{#6=1}{•}{\textcolor{white}{•}} %
+        \strut\makebox[\widthof{114}][r]{#1\strut}%
+        ~~\makebox[\widthof{00.0}][r]{\printwpa}~
+    };
+
+    \draw [line width=.73ex, color=\myred] (0,-#1) -- ++ ({#3*10},0);
+
+    \ifthenelse{#2>\maxwc}
+    {\draw [->,thin] (0,-#1) -- (\maxwc,-#1) node [anchor=west, font=\footnotesize] {#2}; }
+        % normalcase
+    {\draw [thin] (0,-#1) -- ++ (#2,0);}
+
+    % \ifthenelse{#3*10>\maxwc}
+    % {\draw [color=red,->, yshift=-1pt] (0,-#1) -- (\maxwc,-#1) node [anchor=west, font=\tiny] {#3}; }
+        % normalcase
+}
+
+\newcommand\dothesuras{
+% \sura{<sura nr>}{<word count>}{<aya couynt>}{<arabic name>}{<english name>}
+    \sura{1}{29}{7}{الفَاتِحَة}{The Opening}{1}
+    \sura{2}{6144}{286}{البَقَرَة}{The Cow}{2}
+    \sura{3}{3505}{200}{آل عِمرَان}{The House of Imran}{2}
+    \sura{4}{3767}{176}{النِّسَاء}{Women}{2}
+    \sura{5}{2841}{120}{المَائدة}{The Table}{2}
+    \sura{6}{3060}{165}{الأنعَام}{Cattle}{1}
+    \sura{7}{3345}{206}{الأعرَاف}{The Battlements}{1}
+    \sura{8}{1246}{75}{الأنفَال}{The Spoils}{2}
+    \sura{9}{2505}{129}{التوبَة}{Repentance}{2}
+    \sura{10}{1843}{109}{يُونس}{Jonah}{1}
+    \sura{11}{1950}{123}{هُود}{Hood}{1}
+    \sura{12}{1799}{111}{يُوسُف}{Joseph}{1}
+    \sura{13}{857}{43}{الرَّعْد}{Thunder}{2}
+    \sura{14}{834}{52}{إبراهِيم}{Abraham}{1}
+    \sura{15}{661}{99}{الحِجْر}{El-Hijr}{1}
+    \sura{16}{1848}{128}{النَّحْل}{The Bee}{1}
+    \sura{17}{1562}{111}{الإسْرَاء}{The Night Journey}{1}
+    \sura{18}{1587}{110}{الكهْف}{The Cave}{1}
+    \sura{19}{975}{98}{مَريَم}{Mary}{1}
+    \sura{20}{1357}{135}{طه}{Ta Ha}{1}
+    \sura{21}{1178}{112}{الأنبيَاء}{The Prophets}{1}
+    \sura{22}{1283}{78}{الحَج}{The Pilgrimage}{2}
+    \sura{23}{1056}{118}{المُؤمنون}{The Believers}{1}
+    \sura{24}{1323}{64}{النُّور}{Light}{2}
+    \sura{25}{900}{77}{الفُرْقان}{Salvation}{1}
+    \sura{26}{1324}{227}{الشُّعَرَاء}{The Poets}{1}
+    \sura{27}{1163}{93}{النَّمْل}{The Ant}{1}
+    \sura{28}{1442}{88}{القَصَص}{The Story}{1}
+    \sura{29}{982}{69}{العَنكبوت}{The Spider}{1}
+    \sura{30}{821}{60}{الرُّوم}{The Greeks}{1}
+    \sura{31}{554}{34}{لقمَان}{Lokman}{1}
+    \sura{32}{376}{30}{السَّجدَة}{Prostration}{1}
+    \sura{33}{1307}{73}{الأحزَاب}{The Confederates}{2}
+    \sura{34}{888}{54}{سَبَأ}{Sheba}{1}
+    \sura{35}{782}{45}{فَاطِر}{The Angels}{1}
+    \sura{36}{734}{83}{يس}{Ya Sin}{1}
+    \sura{37}{869}{182}{الصَّافات}{The Rangers}{1}
+    \sura{38}{739}{88}{ص}{Sad}{1}
+    \sura{39}{1181}{75}{الزُّمَر}{The Companies}{1}
+    \sura{40}{1230}{85}{غَافِر}{The Believer}{1}
+    \sura{41}{798}{54}{فُصِّلَتْ}{Distinguished}{1}
+    \sura{42}{864}{53}{الشُّورَى}{Counsel}{1}
+    \sura{43}{840}{89}{الزُّخْرُف}{Ornaments}{1}
+    \sura{44}{350}{59}{الدخَان}{Smoke}{1}
+    \sura{45}{492}{37}{الجَاثيَة}{Hobbling}{1}
+    \sura{46}{649}{35}{الأحْقاف}{The Sand-Dunes}{1}
+    \sura{47}{546}{38}{محَمَّد}{Muhammad}{2}
+    \sura{48}{564}{29}{الفَتْح}{Victory}{2}
+    \sura{49}{357}{18}{الحُجرَات}{Apartments}{2}
+    \sura{50}{377}{45}{ق}{Qaf}{1}
+    \sura{51}{364}{60}{الذَّاريَات}{The Scatterers}{1}
+    \sura{52}{316}{49}{الطُّور}{The Mount}{1}
+    \sura{53}{364}{62}{النَّجْم}{The Star}{1}
+    \sura{54}{346}{55}{القَمَر}{The Moon}{1}
+    \sura{55}{356}{78}{الرَّحمن}{The All-Merciful}{2}
+    \sura{56}{383}{96}{الوَاقِعَة}{The Terror}{1}
+    \sura{57}{579}{29}{الحَديد}{Iron}{2}
+    \sura{58}{479}{22}{المجَادلة}{The Disputer}{2}
+    \sura{59}{451}{24}{الحَشر}{The Mustering}{2}
+    \sura{60}{356}{13}{المُمتَحنَة}{The Woman Tested}{2}
+    \sura{61}{230}{14}{الصَّف}{The Ranks}{2}
+    \sura{62}{181}{11}{الجُمُعَة}{Congregation}{2}
+    \sura{63}{185}{11}{المنَافِقون}{Hypocrites}{2}
+    \sura{64}{246}{18}{التغَابُن}{Mutual Fraud}{2}
+    \sura{65}{293}{12}{الطلَاق}{Divorce}{2}
+    \sura{66}{258}{12}{التحْريم}{The Forbidding}{2}
+    \sura{67}{337}{30}{المُلْك}{The Kingdom}{1}
+    \sura{68}{305}{52}{القَلَم}{The Pen}{1}
+    \sura{69}{264}{52}{الحَاقَّة}{The Indubitable}{1}
+    \sura{70}{221}{44}{المعَارج}{The Stairways}{1}
+    \sura{71}{231}{28}{نُوح}{Noah}{1}
+    \sura{72}{290}{28}{الجِن}{The Jinn}{1}
+    \sura{73}{204}{20}{المُزَّمِّل}{Enwrapped}{1}
+    \sura{74}{260}{56}{المُدَّثِّر}{Shrouded}{1}
+    \sura{75}{168}{40}{القِيَامَة}{The Resurrection}{1}
+    \sura{76}{247}{31}{الإنسَان}{Man}{2}
+    \sura{77}{185}{50}{المُرسَلات}{The Loosed Ones}{1}
+    \sura{78}{178}{40}{النَّبَأ}{The Tiding}{1}
+    \sura{79}{183}{46}{النّازعَات}{The Pluckers}{1}
+    \sura{80}{137}{42}{عَبَس}{He Frowned}{1}
+    \sura{81}{108}{29}{التَّكوير}{The Darkening}{1}
+    \sura{82}{85}{19}{الانفِطار}{The Splitting}{1}
+    \sura{83}{173}{36}{المطفِّفِين}{The Stinters}{1}
+    \sura{84}{112}{25}{الانْشِقَاق}{The Rending}{1}
+    \sura{85}{113}{22}{البرُوج}{The Constellations}{1}
+    \sura{86}{65}{17}{الطَّارِق}{The Night-Star}{1}
+    \sura{87}{76}{19}{الأَعْلى}{The Most High}{1}
+    \sura{88}{96}{26}{الغَاشِية}{The Enveloper}{1}
+    \sura{89}{143}{30}{الفَجْر}{The Dawn}{1}
+    \sura{90}{86}{20}{البَلَد}{The Land}{1}
+    \sura{91}{58}{15}{الشَّمْس}{The Sun}{1}
+    \sura{92}{75}{21}{الليْل}{The Night}{1}
+    \sura{93}{44}{11}{الضُّحَى}{The Forenoon}{1}
+    \sura{94}{31}{8}{الشَّرْح}{The Expanding}{1}
+    \sura{95}{38}{8}{التِّين}{The Fig}{1}
+    \sura{96}{76}{19}{العَلَق}{The Blood-Clot}{1}
+    \sura{97}{34}{5}{القَدْر}{Power}{1}
+    \sura{98}{98}{8}{البَينَة}{The Clear Sign}{2}
+    \sura{99}{40}{8}{الزلزَلة}{The Earthquake}{2}
+    \sura{100}{44}{11}{العَادِيات}{The Chargers}{1}
+    \sura{101}{40}{11}{القَارِعة}{The Clatterer}{1}
+    \sura{102}{32}{8}{التَّكَاثر}{Rivalry}{1}
+    \sura{103}{18}{3}{العَصْر}{Afternoon}{1}
+    \sura{104}{37}{9}{الهُمَزَة}{The Backbiter}{1}
+    \sura{105}{27}{5}{الفِيل}{The Elephant}{1}
+    \sura{106}{21}{4}{قُرَيْش}{Koraish}{1}
+    \sura{107}{29}{7}{المَاعُون}{Charity}{1}
+    \sura{108}{14}{3}{الكَوْثَر}{Abundance}{1}
+    \sura{109}{31}{6}{الكَافِرُون}{The Unbelievers}{1}
+    \sura{110}{23}{3}{النَّصر}{Help}{2}
+    \sura{111}{27}{5}{المَسَد}{Perish}{1}
+    \sura{112}{19}{4}{الإخْلَاص}{Sincere Religion}{1}
+    \sura{113}{27}{5}{الفَلَق}{Daybreak}{1}
+    \sura{114}{24}{6}{النَّس}{Men}{1}
+}
+
+
+
+\begin{document}
+
+\center
+
+
+% \null\vfill
+
+% \LARGE
+% Word counts and \colorbox{\myred}{aya counts} of suras in the Quran 
+% \bigskip
+
+% \normalsize
+% Names of suras are from Arberry's translation. Dots mark Makkan suras.
+
+\null\vfill
+
+\noindent
+\begin{tikzpicture}[x=\plotwidth/\maxwc, y=\plotheight/115]
+
+\dothesuras
+
+\setlength{\fboxsep}{1pt}
+% axis
+\foreach \x in {500,1000,...,\maxwc} 
+    {
+        \pgfmathsetmacro{\var}{\x/10}
+        \draw (\x,0) -- ++ (0,2mm) node [font=\footnotesize, anchor=east, rotate=-90] {\colorbox{\myred}{\pgfmathprintnumber[assume math mode=true,precision=0]{\var}}\hspace{-1pt}0};
+}
+
+
+
+\foreach \x in {500,1000,...,\maxwc} 
+    {\draw [color=white] (\x,-1) -- (\x,-115); }
+
+\foreach \x in {100,200,...,\maxwc} 
+    {\draw [thin, color=white] (\x,-1) -- (\x,-115); }
+
+        \node at (0,0) [anchor=south east, font=\footnotesize, align=right]{avg.\\words/\\aya};
+
+        \node at (\maxwc,-115) [anchor=south east, inner sep=0pt, align=right]
+        {
+            \begin{minipage}{.5\textwidth}
+                \raggedleft
+\Huge
+Word counts and \colorbox{black!10}{\strut aya counts}\\
+of suras in the Quran 
+
+\bigskip
+
+\large
+Names of suras are from Arberry's translation.
+Dots mark Makkan suras.
+
+
+\bigskip
+\bigskip
+\bigskip
+
+            \begin{tabular}{@{}lr@{}}
+            Total nr. of words: & \thetotalwords\\
+            Total nr. of ayas:  & \thetotalayas\\
+            Avg. words/aya: & 12.5\\
+            \end{tabular}
+        \end{minipage}
+        };
+
+\end{tikzpicture}
+
+\vfill\null
+
+\end{document}

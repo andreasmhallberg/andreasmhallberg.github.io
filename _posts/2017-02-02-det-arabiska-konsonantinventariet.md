@@ -9,7 +9,7 @@ tags:
 - latex
 - linguistics
 - tafl
-document: https://github.com/andreasmhallberg/sa-konsonantinventariet/raw/master/sa-konsonantinventariet.pdf
+document: /documents/sa-konsonantinventariet.tex.pdf
 documenttitle: Det standardarabiska konsonantinventariet
 thumbnail: /images/sainventarie-thumbnail.png
 ---
@@ -19,7 +19,7 @@ Dokumentet nedan är en grafisk framställning av det standardarabiska fonetiska
 
 [![thumbnail]({{ page.thumbnail }})]({{ page.document }})
 
-Dokumentet går under en CCBY licens och kan fritt distribueras och användas. Det kan laddas ner [här]({{ page.document }}). Källkoden för dokumentet (LaTeX) finns [här](https://github.com/andreasmhallberg/sa-konsonantinventariet/blob/master/sa-konsonantinventariet.tex).
+Dokumentet går under en CCBY licens och kan fritt distribueras och användas. Det kan laddas ner [här]({{ page.document }}). Källkoden för dokumentet (LaTeX) finns [här](/documents/sa-konsonantinventariet.tex).
 
 
 

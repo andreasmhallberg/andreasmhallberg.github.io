@@ -1,0 +1,111 @@
+\documentclass{article}
+
+\usepackage{hyperref}
+\renewcommand\UrlFont{\itshape}
+\usepackage[table]{xcolor}
+    \usepackage{rotating}
+    \usepackage{ccicons}
+    \usepackage{array}
+    \usepackage{multirow}
+    \usepackage{polyglossia}
+    \usepackage[hmargin=2cm, vmargin=2cm, landscape]{geometry}
+    \setmainlanguage{swedish}
+    \setotherlanguage{arabic}
+    \setmainfont{Linux Libertine O}
+    \newfontfamily\arabicfont[Script=Arabic]{Amiri}
+    \usepackage{booktabs}
+
+    \newcommand{\fon}[4][.5em]{\makebox[#1]{#4}~\textarabic{#3}}
+
+    \setlength\parindent{0pt}
+    \pagestyle{empty}
+
+    \newcolumntype{F}{>{\hspace{1em}}l}
+
+    % Nästa sida/\null
+    \newcommand{\rodref}{ på nästa sida}
+
+\newcommand\dothetable{
+    \raggedright
+
+        \textit{\huge Det standardarabiska konsonatinventariet}\\
+
+      \bigskip
+
+       \normalsize
+    \begin{minipage}{.7\linewidth}
+       Tabellen bygger på \textit{A Refence Grammar of Modern Standard Arabic}  (Ryding 2005, Cambridge University Press) med förenklad transkription enligt \textit{Alif Baa} (Brustad, Al-Batal \& Al-Tonsi 2010, Georgetown University Press).
+       
+       \smallskip
+       \textcolor{red}{Röda tecken}\rodref{} anger det svenska konsonantinventariet.
+   \end{minipage}
+
+\vfill
+
+
+\LARGE
+    \centering
+    \begin{tabular}{@{}lFF@{\,}FF@{\,}FFFFFF@{}}
+                                &
+        \multicolumn{1}{c}{\scshape labial}     &
+\multicolumn{2}{c}{\scshape dental} &
+\multicolumn{2}{c}{\scshape alveolar}      &
+\multicolumn{1}{c}{\scshape palatal}      &
+    \multicolumn{1}{c}{\scshape velar/}       &
+\multicolumn{1}{c}{\scshape faryngal}    &
+\multicolumn{1}{c}{\scshape glottal}\\
+             &
+\multicolumn{1}{c}{} &
+    \multicolumn{1}{c}{\itshape--emf.}   &
+    \multicolumn{1}{c}{\itshape+emf.}   &
+    \multicolumn{1}{c}{\itshape--emf.}   &
+    \multicolumn{1}{c}{\itshape+emf.}   &&
+    \multicolumn{1}{c}{\scshape uvular}     
+            &
+            &
+\\
+
+
+        \rowcolor{gray!25}
+        \textbf{klusil}    &               &               &                    &               &              &                 &               &              & \\
+        \rowcolor{gray!25}
+        ~~tonlös           & \fon{p}{}{}   &               &                    & \fon[.4em]{t}{ت}{t} & \fon{}{ط}{T} & \fon{k}{ك}{k}   & \fon{}{ق}{q}  &              & \fon{}{ء}{ʾ}\\
+        \rowcolor{gray!25}
+        ~~tonande          & \fon{b}{ب}{b} &               &                    & \fon{d}{د}{d} & \fon{}{ض}{D} & \fon{g}{}{}     &               &              & \\
+        \textbf{frikativ}  &               &               &                    &               &              &                 &               &              & \\
+        ~~tonlös                   & \fon{f}{ف}{f} & \fon{}{ث}{th} &                    & \fon{s}{س}{s} & \fon{}{ص}{S} & \fon{sj}{ش}{sh} & \fon[.7em]{}{خ}{kh} & \fon{}{ح}{H} & \fon{h}{ه}{h}\\
+        ~~tonande                  & \fon{v}{}{}   & \fon[.7em]{}{ذ}{dh} & \fon[1em]{}{ظ}{DH} & \fon{}{ز}{z}  &              &                 & \fon[.7em]{}{غ}{gh} & \fon{}{ع}{ʿ} & \\
+        \rowcolor{gray!25}
+        affrikata          &               &               &                    &               &              & \fon{}{ج}{j}    &               &              & \\
+        lateral            &               &               &                    & \fon{l}{ل}{l} &              &                 &               &              & \\
+        \rowcolor{gray!25}
+        vibrant            &               &               &                    & \fon{r}{ر}{r} &              &                 &               &              & \\
+        nasal              & \fon{m}{م}{m} &               &                    & \fon{n}{ن}{n} &              &    \fon{ng}{}{}             &               &              & \\
+        \rowcolor{gray!25}
+        halvvokal          & \fon{}{و}{w}  &               &                    &               &              & \fon{j}{ي}{y}   &               &              & \\
+\end{tabular}
+
+
+\vfill\vfill\null
+\center
+\center
+\tiny
+Av Andreas Hallberg \ccby. 2017. Dokumentet finns tillgängligt på\\\url{http://andreasmhallberg.github.io/det-arabiska-konsonantinventariet/.}
+\vspace{-1cm}
+}
+
+    \begin{document}
+
+\dothetable
+
+
+\clearpage
+    % show swe
+\renewcommand{\fon}[4][.5em]{\textcolor{red}{\llap{\rlap{#2}\hspace{1em}}}\makebox[#1]{#4}~\textarabic{#3}}
+    % ta bort "på nästa sida" 
+\renewcommand{\rodref}{}
+
+
+\dothetable
+
+    \end{document}
