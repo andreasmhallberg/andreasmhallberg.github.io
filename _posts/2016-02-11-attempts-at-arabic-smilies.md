@@ -2,7 +2,6 @@
 layout: post
 title: Attempts at Arabic smilies
 permalink: /attemptsatarabicsmilies/
-language: English
 length: short
 ---
 

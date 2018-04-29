@@ -2,7 +2,6 @@
 layout: post
 title: Timeline of Arab grammarians
 permalink: /timeline-of-arab-grammarians/
-language: English
 lang: en
 length: short
 tags:

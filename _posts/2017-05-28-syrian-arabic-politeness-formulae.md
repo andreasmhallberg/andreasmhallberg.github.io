@@ -2,8 +2,6 @@
 layout: post
 title: A list of Syrian Arabic politeness formulae
 permalink: /syrian-arabic-politeness-formulae/
-language: English
-lang: en
 lang: en
 length: long
 tags:

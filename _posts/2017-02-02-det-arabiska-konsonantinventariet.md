@@ -2,7 +2,6 @@
 layout: post
 title: Det standardarabiska konsonantinventariet
 permalink: /det-arabiska-konsonantinventariet/
-language: Swedish
 lang: sv
 length: short
 tags:

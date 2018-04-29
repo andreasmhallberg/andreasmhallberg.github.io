@@ -2,7 +2,6 @@
 layout: post
 title: Better backspacing in Vim
 permalink: /better-backspacing-in-vim/
-language: English
 lang: en
 length: medium
 tags:

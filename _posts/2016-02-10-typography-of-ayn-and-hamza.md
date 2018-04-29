@@ -2,7 +2,6 @@
 layout: post
 title: The typography of ʿ and ʾ and a method to render them from scratch in LaTeX
 permalink: /typographyofaynandhamza/
-language: English
 lang: en
 length: long
 tags:

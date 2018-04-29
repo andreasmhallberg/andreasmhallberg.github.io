@@ -2,7 +2,6 @@
 layout: post
 title: 'Language ideology on AlJazera: <i>Taḥt al-mijhar—Lisān aḍ-ḍād yajmaʿunā</i>'
 permalink: /taht-al-mijhar-lisan-ad-dad/
-language: English
 lang: en
 length: long
 tags:

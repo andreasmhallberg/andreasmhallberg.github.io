@@ -2,7 +2,6 @@
 layout: post
 title: 'Writing plots in plain Tikz'
 permalink: /plots-in-plain-tikz/
-language: English
 lang: en
 length: long
 tags:

@@ -2,7 +2,6 @@
 layout: post
 title: Emulating Alt-Latin keyboard layout for Arabic transcription in Vim
 permalink: /emulating-alt-latin-in-vim/
-language: English
 lang: en
 tags:
 - transcription

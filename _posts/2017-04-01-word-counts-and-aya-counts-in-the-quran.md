@@ -2,7 +2,6 @@
 layout: post
 title: Word counts and aya counts in the Quran
 permalink: /word-counts-and-aya-counts-in-the-quran/
-language: English
 lang: en
 length: medium
 tags:

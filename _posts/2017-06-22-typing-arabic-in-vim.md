@@ -2,7 +2,6 @@
 layout: post
 title: Typing Arabic in Vim 
 permalink: /typing-arabic-in-vim/
-language: English
 lang: en
 length: long
 tags:

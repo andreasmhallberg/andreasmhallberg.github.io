@@ -2,7 +2,6 @@
 layout: post
 title: Exempel på svensk-arabisk kodväxling
 permalink: /exempel-pa-svensk-arabisk-kodvaxling/
-language: Swedish
 lang: sv
 length: medium
 tags:
