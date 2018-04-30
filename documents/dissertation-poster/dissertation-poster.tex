@@ -1,0 +1,57 @@
+\documentclass{article}
+\usepackage{tikz}
+\usetikzlibrary{trees, shapes}
+\usepackage[skins]{tcolorbox} % to fill nodes with image
+% \usepackage{~/mylatexstuff/ccbyandreas.sty}
+\usepackage{graphicx}
+\usepackage{fontspec}
+\setmainfont{Arial}
+\usepackage[outline]{contour}
+
+\usepackage[vmargin=2cm, hmargin=1cm]{geometry}
+\pagestyle{empty}
+
+\begin{document}
+
+\center
+
+{\Huge\color{red}\itshape
+Get You Free First Edition Digital Copy Today!
+}
+
+\vfill
+
+\fontspec{FTY SPEEDY CASUAL 001 NCV}
+
+\tikzstyle{bang}=[
+    draw=red
+  , fill=yellow
+  , shape=starburst
+  % , star points=9
+  , minimum height=2cm
+  , line width=2pt
+  , inner sep=2pt
+  , align=center
+  , font=\itshape\bfseries\Large\color{red}
+  , text opacity=0.7
+  ]
+
+  \begin{tikzpicture}[grow cyclic, level 1/.style={sibling angle=42, level distance=6cm, draw=white}]
+    \node [draw=black, inner sep=0pt]{\includegraphics[width=4cm]{other-Cover-cropped.pdf}}
+    child {node [bang, fill overzoom image=bang-controversial.pdf]{Contriversial\\statemements!}}
+    child {node [bang, fill overzoom image=bang-statistics.pdf]{Statistics!}}
+    child {node [bang, fill overzoom image=bang-quranic.pdf]{Quranic\\orthography!}}
+    child {node [bang]{Typoes!}}
+    % child {node [bang, fill overzoom image=other-Cover-cropped.pdf]{Inventive\\grammar!}}
+    child {node [bang, fill overzoom image=bang-sidenotes.pdf]{Sidenotes!}}
+    child {node [bang, fill overzoom image=bang-plots.pdf]{Plots!}}
+    child {node [bang, fill overzoom image=bang-elitism.pdf]{Elitism!}}
+    child {node [bang, fill overzoom image=bang-indices.pdf]{Two indices!}}
+    ;
+\end{tikzpicture}
+
+
+
+
+
+\end{document}
