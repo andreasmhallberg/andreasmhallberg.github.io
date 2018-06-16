@@ -19,6 +19,6 @@ Sometimes when reading about the classical Arabic grammarians I find it difficul
 
 [![thumbnail]({{ page.thumbnail }})]({{ page.document }})
 
-The LaTeX source code can be found [here]({{ page.documennt }}). I plan on also making an Arabic version of this timeline at some point.
+The LaTeX source code can be found [here](/documents/alt-timeline.tex). I plan on also making an Arabic version of this timeline at some point.
 
 Thanks to Georges Bohas for his comments, suggestions and corrections.
