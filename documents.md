@@ -7,7 +7,8 @@ pubyears:
     - 2016
 ---
 
-<br/>
+[CV English](/documents/hallberg-cv-en.pdf)   
+[CV Swedish](/documents/hallberg-cv-sv.pdf)
 
 ## Publications
 
@@ -54,7 +55,7 @@ pubyears:
 
 ## Other documents
 
-These documents are subject to continuous tinkering. The latest version can always be found here. Please report any errors in these documents and they will be corrected as soon as possible.
+These documents are subject to continuous tinkering. The latest version can always be found here. Please report any errors in these documents and they will be corrected ASAP.
 
 {% for docpost in site.posts | reversed %}
 {% if docpost.document %} 

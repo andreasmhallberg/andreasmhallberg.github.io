@@ -9,7 +9,4 @@ I am an Assistant Proffer in Arabic at the University of Gothenburg. This blog i
 
 Posts are written in English or Swedish depending on topic. Typos and poor grammar may occur. Typically, posts that get more views are more carefully edited post publication. 
 
-[CV (English)](/documents/hallberg-cv-en.pdf)   
-[CV (Swedish)](/documents/hallberg-cv-sv.pdf)
-
 My dissertation, *Case Endings in Spoken Standard Arabic* (Lund University, 2016), can be downloaded [here](https://lup.lub.lu.se/search/publication/530e5fe6-ec77-4e84-9a45-0935598e86a8). [Contact me](mailto:andreasmartenhallberg@gmail.com) for a free printed copy.
