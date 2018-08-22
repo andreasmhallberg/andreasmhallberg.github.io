@@ -11,6 +11,8 @@ document: /documents/quran-wc/quran-wc.tex.pdf
 documenttitle: Word counts and aya counts of suras in the Quran
 thumbnail: /images/quran-wc-thumbnail.png
 updates:
+    - date: 2018-08-22
+      contents: Small change it title and title design.
     - date: 2017-12-31
       contents: New design. Title now in the bottom right.
 ---

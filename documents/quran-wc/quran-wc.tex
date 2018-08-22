@@ -210,7 +210,7 @@
 \foreach \x in {500,1000,...,\maxwc} 
     {
         \pgfmathsetmacro{\var}{\x/10}
-        \draw (\x,0) -- ++ (0,2mm) node [font=\footnotesize, anchor=east, rotate=-90] {\colorbox{\myred}{\pgfmathprintnumber[assume math mode=true,precision=0]{\var}}\hspace{-1pt}0};
+        \draw (\x,0) -- ++ (0,2mm) node [font=\footnotesize, anchor=east, rotate=-90] {\colorbox{\myred}{\strut\pgfmathprintnumber[assume math mode=true,precision=0]{\var}}\hspace{-1pt}0};
 }
 
 
@@ -228,18 +228,21 @@
             \begin{minipage}{.5\textwidth}
                 \raggedleft
 \Huge
-Word counts and \colorbox{black!10}{\strut aya counts}\\
-of suras in the Quran 
+\strut Word and \colorbox{black!10}{\strut aya} counts\\
+\strut in the Quran 
 
-\bigskip
+\medskip
 
 \large
-Names of suras are from Arberry's translation.
-Dots mark Makkan suras.
+
+\textit{\today}
+
+\medskip
+
+Names of suras are from Arberry's\\
+translation. Dots mark Makkan suras.
 
 
-\bigskip
-\bigskip
 \bigskip
 
             \begin{tabular}{@{}lr@{}}
