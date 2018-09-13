@@ -45,7 +45,7 @@ dir="ltr">(progressiva&nbsp;glasögon)</span> لا يمكنك المشاركة �
 
 هذا ولكم منّا أطيب التحيات 
 
-<span dir="rtl">Andreas Hallberg</span>
+[<span dir="rtl">Andreas Hallberg</span>](https://sprak.gu.se/om/personal?userId=xhalaa)
 
 بروفسور مساعد  
 مركز اللغات والآداب  
