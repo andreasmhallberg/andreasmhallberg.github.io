@@ -17,7 +17,7 @@ logo: /images/gu-logotyp.png
   - تكون قد أكملت دراسة المستوى الثانوي (البكلوريا) في بلد عربي
 
 <img style="width: 35%; float: right; padding-left: 30px; padding-bottom: 20px; padding-top: 20px" src="/images/gamlahovratten.jpg">
-يتم الاختبار في العنوان التالي <span
+يتم الاختبار في العنوان <span
 dir="ltr">Wolof&nbsp;Wijksgatan&nbsp;6</span>، قريب من <span
 dir="ltr">Götaplatsen</span>. يستغرق الاختبار حوالي ساعة 
 ومشاركتك فيه تكون مجهولة الهوية. كشكر لمشاركتك تحصل على **تذكرة سينما&nbsp;<span
@@ -42,7 +42,6 @@ dir="ltr">(progressiva&nbsp;glasögon)</span> لا يمكنك المشاركة �
 إذا كان عندك أي سؤال لا تتردد أن ترسله إلى العنوان سفلاه.
 
 <br/>
-
 هذا ولكم منّا أطيب التحيات 
 
 [<span dir="rtl">Andreas Hallberg</span>](https://sprak.gu.se/om/personal?userId=xhalaa)
