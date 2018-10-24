@@ -119,7 +119,7 @@ I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de s
 
   (I talarens svenska kräver verbfrasen *det finns* inte ett subjekt.)
 
-- *2018 maj * -- A. Om en buss som inte har påstigning på den här hållplatsen.
+- *2018 maj* -- A. Om en buss som inte har påstigning på den här hållplatsen.
 
   *hāy*   | *mā* | *b-yi-n-*tar       |
   den.här | inte | *IND-3MS-PASS*-tar |
