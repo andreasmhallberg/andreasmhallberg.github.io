@@ -121,8 +121,8 @@ I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de s
 
 - *2018 maj* -- A. Om en buss som inte har påstigning på den här hållplatsen.
 
-  *hāy*   | *mā* | *b-yi-n-*tar       |
-  den.här | inte | *IND-3MS-PASS*-tar |
+  *hāy*   | *mā* | *b‑yi‑n‑*tar       |
+  den.här | inte | *IND‑3MS‑PASS*‑tar |
 
   | Man kan inte ta den här. | 
 
