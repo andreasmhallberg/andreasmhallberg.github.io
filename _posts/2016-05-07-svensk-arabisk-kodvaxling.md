@@ -116,8 +116,6 @@ I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de s
   | Det finns [några] som du kan köpa av mig. |
 
   På arabiska är pronomina suffigerade till prepositioner, som i *minn-i* 'från-mig'. Talaren växlar här till svenska med prepositionen *av* efter det arabiska verbet *tištarī-hun* 'du köper dem'. Tydligen kan man inte på den svenska prepositionens hänga på det arabiska suffigerade pronomenet *-i* 'mig' (\**av-i*). Talaren måste därför upprepa prepositionen på arabiska för att lägga till det arabiska suffigerade pronomenet och få en syntaktiskt fullständig mening. Detta resulterar i en dubbel preposition, först på svenska och sedan på arabiska.
-  
-  Notera att jag accepterar ett arabiskt suffigerat pronomen på ett svenskt verb (se 2016-08-03 ovan) men att göra detsamma på en svensk preposition låter för mig ogrammatiskt.
 
   (I talarens svenska kräver verbfrasen *det finns* inte ett subjekt.)
 
