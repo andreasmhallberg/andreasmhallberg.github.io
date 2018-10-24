@@ -99,7 +99,6 @@ I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de s
 
     På arabiska kan man mycket mer fritt än i svenska topikalisera, dvs. placera ett ord i början av meningen för att ange dess ämne. Det topikaliserade ordet är inte syntaktiskt bundet till satsen. Här topikaliserar talaren meningen med *ana* 'jag' och växlar sedan till svenska med en sats som inleds med "jag", så att pronomenet jag yttras två gånger efter varandra, först som en arabisk topikalisering och sedan som ett svenskt pronominalt subjekt. Utan kodväxlingen mellan de två "jagen" hade meningen varit ogrammatisk både på svenska och arabiska (*\*Jag---jag måste sticka snart* och *\*ana---ana baʿd šway lāzim rūḥ*).
 
-<!--
 - *2017-09-10* -- A. 
 
     har | du | sett | min | mobil | *šī?* 
@@ -107,8 +106,7 @@ I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de s
 
     | Har du sett min mobil? | 
 
-    Svensk mening med ett arabisk *negative polarity item* (*šī*).
--->
+    Svensk mening med ett arabiskt *negative polarity item* (*šī*).
 
 - *2018-02-09* -- A.
 
@@ -123,6 +121,15 @@ I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de s
 
   (I talarens svenska kräver verbfrasen *det finns* inte ett subjekt.)
 
+- *2018 maj * -- A. Om en buss som inte har påstigning på den här hållplatsen.
+
+  *hāy*   | *mā* | *b-yi-n-*tar       |
+  den.här | inte | *IND-3MS-PASS*-tar |
+
+  | Man kan inte ta den här. | 
+
+  Passivformer används ofta modalt i arabiska för att ange att något *kan* göras, inte bara att det *görs*. Den svenska verbstammen *tar* bär böjt endast för tempus. När det används i en arabisk kontext behöver talaren därför förse det med den grammatiska information som på arabiska är obligatoriskt för ett finit verb utöver tempus, dvs. modus, person, numerus och genus, vilket sker med arabiska prefix.
+
 ---
 
 ## Förkortningar:
@@ -134,6 +141,7 @@ I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de s
 | DUA  | dualis
 | F    | feminin
 | M    | maskulin
+| PASS | passiv
 | PL   | plural
 | PRE  | preposition
 | PROG | progressiv aspekt
