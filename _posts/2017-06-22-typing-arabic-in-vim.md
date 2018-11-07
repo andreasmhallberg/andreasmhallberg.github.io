@@ -7,6 +7,9 @@ length: long
 tags:
 - vim
 thumbnail: /images/2017-06-22/rtl.png
+updates: 
+    - date: 2018-11-07
+      contents: Editing and spelling corrections.
 ---
 
 
