@@ -31,7 +31,7 @@ Many formulaic responses include a repetition of the root of the main word in th
 
 ---
 
-The following list includes politeness formulae as used by speakers from the Damascus area. The phrases or sorted under headings indicating the situation in which the initiator phrase is used. I have only included phrases that I have heard in use, and the list thus has a bias to situations where a non-Arab male may find himself. The list is thus by no means complete, but I do believe it includes the most common phrases. Native speaker informants were consulted in a few cases where I was not certain of the form of the formula.
+The following list includes politeness formulae as used by speakers from the Damascus area. The phrases are sorted under headings indicating the situation in which the initiator phrase is used. I have only included phrases that I have heard in use, and the list thus has a bias to situations where a non-Arab male may find himself. The list is thus by no means complete, but I do believe it includes the most common phrases. Native speaker informants were consulted in a few cases where I was not certain of the form of the formula.
 
 The phrases are given in Arabic script and then in EALL transcription (Reichmut 2006) as pronounced in Damascene Arabic. The translations provided are fairly literal. Many of the expressions have no or only partial equivalents in English anyways, and the humorous effects of literal translation was sometimes hard to resist. Each phrase is followed by its appropriate response.
 
