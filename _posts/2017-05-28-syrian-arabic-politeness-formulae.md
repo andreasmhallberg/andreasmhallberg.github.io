@@ -261,7 +261,7 @@ Said before the actual good bay to signal the end of the conversation.
 | *aḷḷa yaʿṭīk al-ʿāfiya* | *aḷḷa yiʿāfīk*         |
 | May God give you vigor  | May God invogorate you |
 
-### To someone who has acquired and item (as a gift or through purchase)
+### To someone who has acquired an item (as a gift or through purchase)
 
 |          |                    |
 | :-       | :-                 |
