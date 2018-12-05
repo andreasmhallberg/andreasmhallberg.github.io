@@ -15,9 +15,9 @@ In the different dialects of Arabic there are highly developed systems of polite
 
 ## Introduction
 
-Not giving the proper response to a politeness phrase can often lead to awkward social situations or is simply rude. As one scholar explains, these formulaic responses 
+Not giving the proper response to a politeness phrase can often lead to awkward social situations or is simply rude. As one scholar explains (Stewart 1996), these formulaic responses 
 
-> signify an addressee's acceptance of the phrase to which they respond, thus serving as an indication that communications of concern, kindness, or other positive emotion has been successful, or that a social obligation has been properly fulfilled and is appreciated (Stewart 1996).
+> signify an addressee's acceptance of the phrase to which they respond, thus serving as an indication that communications of concern, kindness, or other positive emotion has been successful, or that a social obligation has been properly fulfilled and is appreciated.
 
 Thus not properly responding, even if it because you as a non-native speaker do not know the answer, is a social mishap and one of the parties either have to save the situation, by diverting attention from the event or call out what has just happened and explain the situation. 
 
