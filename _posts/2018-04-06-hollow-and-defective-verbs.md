@@ -12,7 +12,7 @@ thumbnail: /images/verb-forms.thumbnail.png
 minidoc: /images/hollow-and-defective-verbs.minidoc.png
 updates: 
     - date: 2018-12-10
-      contents: Correction in hollow verbs: تجوز → تزوج
+      contents: 'Correction in hollow verbs: تجوز → تزوج'
 ---
 
 This is a followup to a [previous post](/arabic-verb-forms/) in which I presented a way of representing the ten Arabic verb forms. In the [document below]({{ page.document }}) I have done the same thing, i.e. a table with the ten verb forms in present, past, etc. and with the roots represented by empty squares, but this time for hollow and defective verbs. This is essentially to separate document, one for hollow and one for defective verbs, conveniently packaged in one pdf.
