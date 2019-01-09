@@ -7,7 +7,7 @@ length: short
 tags: 
   - tafl
 document: /documents/verb-forms/hollow-and-defective-verbs.tex.pdf
-documenttitle: Hollow/Defective Verbs Form I-X
+documenttitle: Hollow/Defective Verb Form I-X
 thumbnail: /images/verb-forms.thumbnail.png
 minidoc: /images/hollow-and-defective-verbs.minidoc.png
 updates: 
