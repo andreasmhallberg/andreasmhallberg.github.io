@@ -11,7 +11,7 @@ tags:
 [//]: # (All hyphens in glosses no breaking U+2011: s/-/‑/g)
 Det följande är intressanta och/eller lustiga exempel på spontan svenska-arabisk kodväxling som jag noterat i min omgivning. Listan utvidgas kontinuerligt i och med att ny data tillkommer.
 
-I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de svenska elementen i upprätt text. Längst ner på sidan finns [en lista på förkortningar](#förkortningar).
+I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de svenska elementen i upprätt text. Längst ner på sidan finns [en lista med förkortningar](#förkortningar).
 
 ---- 
 
