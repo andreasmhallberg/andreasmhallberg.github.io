@@ -61,7 +61,9 @@ These documents are subject to continuous tinkering. The latest version can alwa
 {% if docpost.document %} 
 
 
-{% if docpost.thumbnail %}
+{% if docpost.minidoc %}
+<a href="{{ docpost.document }}"><img style="width: 3em; height: 3em; float: left; margin-right: 30px" src="{{ docpost.minidoc }}"></a>
+  {% else %}
 <a href="{{ docpost.document }}"><img style="width: 3em; height: 3em; float: left; margin-right: 30px" src="{{ docpost.thumbnail }}"></a>
 {%  endif %}
 {% if docpost.documenttitle %}
