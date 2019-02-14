@@ -17,10 +17,13 @@ I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de s
 
 - *2010* --- Ung kvinna till väninna på Foodland, nära Värnhemstorget i Malmö.
 
-    *naštari* | godis*iyāt*?
-    1PL.köper | godis.PL
+    *naštari* | godis*iyyāt*?
+    1PL.köper | godis.ADJ.PL
 
     | Ska vi köpa godis? |
+
+    Det är oklart varför talaren först adejktivifierar ordet *godis* med ändelsen *iyy* i samband med pluralbildningen.
+
 
 - *Inget datum* --- A., angående alternativa resvägar.
 
@@ -117,7 +120,7 @@ I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de s
 
   På arabiska är pronomina suffigerade till prepositioner, som i *minn-i* 'från-mig'. Talaren växlar här till svenska med prepositionen *av* efter det arabiska verbet *tištarī-hun* 'du köper dem'. Tydligen kan man inte på den svenska prepositionens hänga på det arabiska suffigerade pronomenet *-i* 'mig' (\**av-i*). Talaren måste därför upprepa prepositionen på arabiska för att lägga till det arabiska suffigerade pronomenet och få en syntaktiskt fullständig mening. Detta resulterar i en dubbel preposition, först på svenska och sedan på arabiska.
 
-  (I talarens svenska kräver verbfrasen *det finns* inte ett subjekt.)
+  (I talarens svenska kräver verbfrasen *det finns* inte ett explicit subjekt.)
 
 - *2018 maj* -- A. Om en buss som inte har påstigning på den här hållplatsen.
 
@@ -135,6 +138,7 @@ I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de s
 | 1    | första person
 | 2    | andra person
 | 3    | tredje person
+| ADJ  | adjektiv
 | BES  | bestämd artikel
 | DUA  | dualis
 | F    | feminin
