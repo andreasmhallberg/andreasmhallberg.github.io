@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Visualizing a network of keywords
+title: Visualizing a network of keywords in Arabic linguistics
 permalink: /keyword-network/
 lang: en
 length: medium
