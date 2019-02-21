@@ -12,12 +12,12 @@ updates:
       contents: Commands to disable kashida added.
 ---
 
+This post describes how to make stretchable pseudo-*kashidas* to lengthen words (كلمة طويـــــــلة) and how to automatically insert these at letter connections in order to justify Arabic text, that is, to to make it have even right and left margins. The problem, solution, and the result is first presented in a non-technical way. Thereafter the implementation of the stretchable kashida in LaTeX is described.
+
 <!--
 \newenvironment{nokashida}{\renewcommand{\kashida}{\relax}}{}
 \newcommand{\nokash}[1]{\begin{nokashida}#1\end{nokashida}}
 -->
-
-This post describes how to make stretchable pseudo-*kashidas* to lengthen words (كلمة طويـــــــلة) and how to automatically insert these at letter connections in order to justify Arabic text, that is, to to make it have even right and left margins. The problem, solution, and the result is first presented in a non-technical way. Thereafter the implementation of the stretchable kashida in LaTeX is described.
 
 ## Introduction
 
