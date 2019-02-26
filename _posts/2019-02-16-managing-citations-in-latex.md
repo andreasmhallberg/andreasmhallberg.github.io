@@ -6,9 +6,9 @@ lang: en
 length: medium
 tags: 
 - latex
- # updates:
- #  - date:
- #    contents:
+  updates:
+   - date: 2019-02-26
+     contents: Clarifications regarding pages in citation commands.
 ---
 
 This is a quick introduction of how to use citations in LaTeX using the [`biblatex`](https://www.ctan.org/pkg/biblatex) package. It is intended for someone who is new to LaTeX and to provide the bare minimum required to get you up and running with automatically generated citations and bibliography in the outputted pdf. I assume that you have some basic understanding of LaTeX, the command line interface, and have a [standard distribution of LaTeX](https://www.latex-project.org/get/) installed.
@@ -72,13 +72,19 @@ that ``bla bla bla''. Also cognitive aspects of reading are quite interesting
 \printbibliography
 ```
 
-As you can see there are several different citation commands, all calling the appropriate citation key. `\textcite` produces the author's name and the year in parenthesis. `\parencite` puts both author name and year in parenthesis. Another useful command is `\parencites`, with the plural `s` at the end, that lets you cite several works in the same parenthesis with `\parencites{key1}{key2}{key3}`. If you want to give a page you add it as an option to the command withing square brackets, as in the first citation above. Add the command `\printbibliography` where you want the bibliography to appear in your document, typically at the very end.
+As you can see there are several different citation commands, all calling the appropriate citation key. `\textcite` produces the author's name and the year in parenthesis. `\parencite` puts both author name and year in parenthesis. Another useful command is `\parencites`, with the plural `s` at the end, that lets you cite several works in the same parenthesis with `\parencites{key1}{key2}{key3}`. If you want to give a page you add it as an option to the command withing square brackets, like this
+
+```
+\textcite[330]{ferguson_diglossia_1959}
+```
+
+and it will show up at the citation as appropriate. Add the command `\printbibliography` where you want the bibliography to appear in your document, typically at the very end.
 
 Now if you compile this, you get something like the following, with the citation keys printed in bold, but no proper references:
 
 ![Pdf pre-biber](/images/2019-02-16/pre-biber.png)
 
-This is because you need to run another program, `biber`, on the file to match the citation keys with posts in the associated `.bib` file and work out what the citations and the bibliography should look like. Do this with by running `biber` on your `.tex` file, but without the `.tex` extension. So if your main text document is `article.tex`, in the command line you run `biber article`. Then you compile the `.tex` file as normal again and all the citations and the bibliography should be render properly.
+This is because you need to run another program, `biber`, on the file to match the citation keys with posts in the associated `.bib` file and work out what the citations and the bibliography should look like. Do this with by running `biber` on your `.tex` file, but without the `.tex` extension. So if your main text document is `article.tex`, in the command line you run `biber article`. Then you compile the `.tex` file as normal again and all the citations and the bibliography should be render properly. If you use a GUI LaTeX editor like TeXShop to compile the document, you have to set the BibTeX engine to `biber` in the preferences.
 
 
 ![Pdf post-biber](/images/2019-02-16/post-biber.png)
