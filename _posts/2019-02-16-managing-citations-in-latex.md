@@ -6,7 +6,7 @@ lang: en
 length: medium
 tags: 
 - latex
-  updates:
+- updates:
    - date: 2019-02-26
      contents: Clarifications regarding pages in citation commands.
 ---
