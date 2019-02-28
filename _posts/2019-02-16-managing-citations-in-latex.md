@@ -6,9 +6,9 @@ lang: en
 length: medium
 tags: 
 - latex
-- updates:
-   - date: 2019-02-26
-     contents: Clarifications regarding pages in citation commands.
+updates:
+ - date: 2019-02-26
+   contents: Clarifications regarding pages in citation commands.
 ---
 
 This is a quick introduction of how to use citations in LaTeX using the [`biblatex`](https://www.ctan.org/pkg/biblatex) package. It is intended for someone who is new to LaTeX and to provide the bare minimum required to get you up and running with automatically generated citations and bibliography in the outputted pdf. I assume that you have some basic understanding of LaTeX, the command line interface, and have a [standard distribution of LaTeX](https://www.latex-project.org/get/) installed.
