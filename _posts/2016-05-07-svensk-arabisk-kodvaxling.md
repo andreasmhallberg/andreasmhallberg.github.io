@@ -124,12 +124,19 @@ I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de s
 
 - *2018 maj* -- A. Om en buss som inte har påstigning på den här hållplatsen.
 
-  *hāy*   | *mā* | *b‑yi‑n‑*tar       |
-  den.här | inte | *IND‑3MS‑PASS*‑tar |
+  *hāy*   | *mā* | *b‑yi‑n*‑tar       |
+  den.här | inte | IND‑3MS‑PASS‑tar |
 
   | Man kan inte ta den här. | 
 
   Passivformer används ofta modalt i arabiska för att ange att något *kan* göras, inte bara att det *görs*. Den svenska verbstammen *tar* bär böjt endast för tempus. När det används i en arabisk kontext behöver talaren därför förse det med den grammatiska information som på arabiska är obligatoriskt för ett finit verb utöver tempus, dvs. modus, person, numerus och genus, vilket sker med arabiska prefix.
+
+- *2019 februrari* -- A.
+
+  *ʿāmila* | *ʿaḍaafir* | jätte | *ṭwaal* |
+  gör.PART.F | naglar | jätte | lång.PL |
+
+  | Hennes naglar är jättelånga. |
 
 ---
 
@@ -143,6 +150,7 @@ I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de s
 | DUA  | dualis
 | F    | feminin
 | M    | maskulin
+| PART | particip
 | PASS | passiv
 | PL   | plural
 | PRE  | preposition
