@@ -8,10 +8,11 @@ tags:
 - linguistics
 ---
 
-[//]: # (All hyphens in glosses no breaking U+2011: s/-/‑/g)
 Det följande är intressanta och/eller lustiga exempel på spontan svenska-arabisk kodväxling som jag noterat i min omgivning. Listan utvidgas kontinuerligt i och med att ny data tillkommer.
 
 I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de svenska elementen i upprätt text. Längst ner på sidan finns [en lista med förkortningar](#förkortningar).
+
+<!-- (All hyphens in glosses no breaking U+2011: s/-/‑/g) -->
 
 ---- 
 
@@ -113,12 +114,12 @@ I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de s
 
 - *2018-02-09* -- A.
 
-  det | finns | som | du | kan | *tištarī-hun* | av | *minn-i*
-  det | finns | som | du | kan | *2MS.köpa-dem* | av | *från-mig*
+  det | finns | som | du | kan | *tištarī-hun* | av | *minn‑i*
+  det | finns | som | du | kan | *2MS.köpa‑dem* | av | *från‑mig*
 
   | Det finns [några] som du kan köpa av mig. |
 
-  På arabiska är pronomina suffigerade till prepositioner, som i *minn-i* 'från-mig'. Talaren växlar här till svenska med prepositionen *av* efter det arabiska verbet *tištarī-hun* 'du köper dem'. Tydligen kan man inte på den svenska prepositionens hänga på det arabiska suffigerade pronomenet *-i* 'mig' (\**av-i*). Talaren måste därför upprepa prepositionen på arabiska för att lägga till det arabiska suffigerade pronomenet och få en syntaktiskt fullständig mening. Detta resulterar i en dubbel preposition, först på svenska och sedan på arabiska.
+  På arabiska är pronomina suffigerade till prepositioner, som i *minn‑i* 'från‑mig'. Talaren växlar här till svenska med prepositionen *av* efter det arabiska verbet *tištarī‑hun* 'du köper dem'. Tydligen kan man inte på den svenska prepositionens hänga på det arabiska suffigerade pronomenet *‑i* 'mig' (\**av‑i*). Talaren måste därför upprepa prepositionen på arabiska för att lägga till det arabiska suffigerade pronomenet och få en syntaktiskt fullständig mening. Detta resulterar i en dubbel preposition, först på svenska och sedan på arabiska.
 
   (I talarens svenska kräver verbfrasen *det finns* inte ett explicit subjekt.)
 
@@ -133,8 +134,8 @@ I de glossade exemplen nedan är de arabiska elementen angivna i kursiv och de s
 
 - *2019 februrari* -- A.
 
-  *ʿāmila* | *ʿaḍaafir* | jätte | *ṭwaal* |
-  gör.PART.F | naglar | jätte | lång.PL |
+  *ʿāmil‑a* | *ʿaḍaafir* | jätte | *ṭwaal* |
+  gör.PART‑F | naglar | jätte | lång.PL |
 
   | Hennes naglar är jättelånga. |
 
