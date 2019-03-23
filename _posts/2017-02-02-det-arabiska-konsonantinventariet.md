@@ -5,7 +5,6 @@ permalink: /det-arabiska-konsonantinventariet/
 lang: sv
 length: short
 tags:
-- latex
 - linguistics
 - tafl
 document: /documents/sa-konsonantinventariet.tex.pdf

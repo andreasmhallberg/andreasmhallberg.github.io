@@ -6,7 +6,6 @@ lang: en
 length: medium
 tags:
 - linguistics
-- tikz
 document: /documents/quran-wc/quran-wc.tex.pdf
 documenttitle: Word counts and aya counts of suras in the Quran
 thumbnail: /images/quran-wc-thumbnail.png

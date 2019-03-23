@@ -5,8 +5,7 @@ permalink: /timeline-of-arab-grammarians/
 lang: en
 length: short
 tags:
-    - latex
-    - tikz
+    - linguistics
 document: /documents/alt-timeline.tex.pdf
 documenttitle: Timeline of Arab grammarians and their major works
 thumbnail: /images/alt-timeline.thumbnail.png
