@@ -15,7 +15,7 @@ Det följande är intressanta och/eller lustiga exempel på spontan svenska-arab
 
 I de glossade exemplen nedan är de arabiska elementen angivna i kursiv text och de svenska elementen i upprätt text. Längst ner på sidan finns [en lista med förkortningar](#förkortningar).
 
-<!-- (All hyphens in glosses no breaking U+2011: s/-/‑/g) -->
+<!-- (All hyphens in glosses no breaking U+02011: s/-/‑/g) -->
 
 ---- 
 
