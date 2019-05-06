@@ -7,8 +7,8 @@ pubyears:
     - 2016
 ---
 
-[CV English](/documents/hallberg-cv-en.pdf)   
-[CV Swedish](/documents/hallberg-cv-sv.pdf)
+[CV-en](/documents/hallberg-cv-en.pdf)
+[CV-sv](/documents/hallberg-cv-sv.pdf)
 
 ## Publications
 
@@ -45,8 +45,6 @@ pubyears:
 {% endif %}
 </details>
 
-
-
 {% endif %}
 {% endfor %}
 {% endfor %}
@@ -72,9 +70,12 @@ These documents are subject to continuous tinkering. The latest version can alwa
   {{ docpost.title }}
 {% endif %}<!--
 -->{% if docpost.lang == 'sv'%}
-  <span class="date">(Swedish)</span>
+<span class="date">(Swedish)</span>
 {% endif %}<br>
 <span class="publink">[pdf]({{ docpost.document }}) | [Blog post]({{ site.url }}{{ docpost.url }})</span>
+<!-- <span class="date"> -->
+<!-- &emsp;{% for tag in docpost.tags %} -{{tag}}{% endfor %} -->
+<!-- </span> -->
 
 
 {% endif %}

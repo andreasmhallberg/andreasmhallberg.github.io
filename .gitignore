@@ -9,6 +9,7 @@ node_modules
 package.json
 # Vim swapfile
 *.swp
+_drafts
 
 # LaTeX
 *.aux
