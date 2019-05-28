@@ -126,7 +126,7 @@ Also general filler in silences in the conversation.
 | *biddak ši?*           | *(mā biddi illa) salāmtak*                 |
 | Do you want something? | (I don't want anything but) your wellbeing |
 
-Said before the actual good bay to signal the end of the conversation.
+Said before the actual goodbye to signal the end of the conversation.
 
 ### Parting before sleep
 
