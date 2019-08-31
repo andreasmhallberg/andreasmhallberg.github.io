@@ -19,6 +19,13 @@ I de glossade exemplen nedan är de arabiska elementen angivna i kursiv text och
 
 ---- 
 
+- *2019-08* -- A.
+
+  *aʿṭā-ni* | *min* | *al-kəbāb* | *al*-äcklig |
+  gav.3M-mig | av | DEF-kebab | DEF-äcklig |
+
+  | Han gav mig av den äckliga kebaben. |
+
 - *2019-02* -- A.
 
   *ʿāmil‑a* | *ʿaḍāfir* | jätte | *ṭwaal* |
