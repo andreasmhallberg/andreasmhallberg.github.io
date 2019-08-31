@@ -21,7 +21,7 @@ I de glosserade exemplen nedan är de arabiska elementen angivna i kursiv text o
 
 - *2019-08* -- A.
 
-  *aʿṭā-ni* | *min* | *il-kəbāb* | *il*-äcklig |
+  *aʿṭā‑ni* | *min* | *il‑kəbāb* | *il*‑äcklig |
   gav.3M-mig | av | DEF-kebab | DEF-äcklig |
 
   | Han gav mig av den äckliga kebaben. |
