@@ -106,7 +106,7 @@ I de glosserade exemplen nedan är de arabiska elementen angivna i kursiv text o
 
     När man lär sig ett nytt språk når man förr eller senare en fas där man börjar bli flytande genom att utveckla en repertoar av fraser som ofta överanvänds. För talaren i det här exemplet var *saker och ting* en sådan fras. Hen är nu helt flytande i svenska och frasen hänger fortfarande kvar även när hen pratar arabiska, antagligen också för att det inte finns någon bra arabisk fras som fyller samma funktion.
 
-- *20016-04-30* --- J. angående en bekants lägenhet.
+- *2016-04-30* --- J. angående en bekants lägenhet.
 
     *ʿam* | *yaʿmil‑l‑u* | renovera | *u‑biddu* | *yabīʿ‑u*
     PROG | 3MS.gör‑PREP‑den | renovera | och‑vill.3MS | 3MS.sälja‑den
