@@ -8,24 +8,30 @@ tags:
 - linguistics
 ---
 
-In the different dialects of Arabic there are highly developed systems of polite phrases to be uttered in various situations. Many of these phrases have one specific appropriate response. For native speakers, this is simply part of language and it isn't given much thought. When, for example, someone says *naʿīman* to you after you have had a shower you just automatically reply *aḷḷa yinʿam ʿalēk*. For a non-native speaker like myself, recognizing and learning these phrases can be challenging, and I hope this post may be of some help.
+In the different dialects of Arabic there are highly developed systems of polite phrases to be uttered in various situations. Many of these phrases have one specific appropriate response. For native speakers this is simply part of language and it isn't given much thought. When, for example, someone says *naʿīman* to you after you have had a shower you just automatically reply *aḷḷa yinʿam ʿalēk*. For a non-native speaker like myself, recognizing and learning these phrases can be challenging. I hope this post may be of some help.
 
 - TOC
 {:toc}
 
 ## Introduction
 
-Not giving the proper response to a politeness phrase can often lead to awkward social situations or is simply rude. As one scholar explains (Stewart 1996), these formulaic responses 
+Not giving the proper response to a politeness phrase can often lead to awkward social situations or, simply be rude. As one scholar explains (Stewart 1996), these formulaic responses 
 
 > signify an addressee's acceptance of the phrase to which they respond, thus serving as an indication that communications of concern, kindness, or other positive emotion has been successful, or that a social obligation has been properly fulfilled and is appreciated.
 
 Thus not properly responding, even if it because you as a non-native speaker do not know the answer, is a social mishap and one of the parties either have to save the situation, by diverting attention from the event or call out what has just happened and explain the situation. 
 
-A short anecdote may serve to illustrate this. One of the first people I got to know during my stay in Damascus always ended our telephone conversations by asking me if I wanted something (*biddak ši?*). I found this a bit odd, as if I was a costumer in his shop, and in my confusion typically answered something like "no, thanks" (*lā, sukran*). There was always something awkward about these exchanges. It was only later that I discovered that this was a formulaic phrase and that I was supposed to answer "your wellbeing" (*salāmtak*). When I tried this the first time I could proudly confirm that the conversation ended smoothly and that I had arisen to the occasion as a well functional social human being.    
+A short anecdote may serve to illustrate this. One of the first people I got to know during my stay in Damascus always ended our telephone conversations by asking me if I wanted something (*biddak ši?*). I found this a bit odd, as if I was a costumer in his shop, and in my confusion typically answered something like "no, thanks" (*lā, sukran*). There was always something awkward about these exchanges. It was only later that I discovered that this was a formulaic phrase and that I was supposed to answer "your wellbeing" (*salāmtak*). When I tried this the first time I could proudly confirm that the conversation ended smoothly and that I had risen to the occasion as a well functional social human being.    
 
 This formula (*--&nbsp;biddak ši? --&nbsp;salāmtak*) is only one of the couple of dozens or so phrases and responses that are in common use. Keeping track of all of them can be a daunting task for the language learner. A trick I figured out was that the response *aḷḷa yixallīk* 'May God keep you safe' is an acceptable response in most situations, even if there is another response that is more suited for that situation (cf.&nbsp;Stewart 1996:162)
 
-Many formulaic responses include a repetition of the root of the main word in the phrase that it is a response to, producing a kind of wordplay.[^impoliteness] This means that often the same response is used for several different initial phrases that all include words with the same root. For example, to all of the phrases [*yislam īdēk*](#thanking) 'thanks', [*sallim ʿala&nbsp; X*](#passagreeting) 'give my regard to&nbsp;X', and [*trūḥ u-tarjaʿ bi-salāma*](#departing) 'may you leave and return in peace', all including a word with the root *SLM*, the appropriate response is *aḷḷa yisallimak* 'May God preserve you'. (See Ferguson 1997 and Stewart 1996 for further discussion.)
+Many formulaic responses include a repetition of the root of the main word in the phrase that it is a response to, producing a kind of wordplay.[^impoliteness] This means that often the same response is used for several different initial phrases that all include words with the same root. For example, to all of the phrases
+
+- [*yislam īdēk*](#thanking) 'thanks'
+- [*sallim ʿala&nbsp; X*](#passagreeting) 'give my regard to&nbsp;X', and
+- [*trūḥ u-tarjaʿ bi-salāma*](#departing) 'may you leave and return in peace'
+
+all including a word with the root *SLM*, the appropriate response is *aḷḷa yisallimak* 'May God preserve you', which also contains this root. (See Ferguson 1997 and Stewart 1996 for further discussion.)
 
 [^impoliteness]: There are also formulaic *impolite* responses to common phrases that work in this way. For a fascinating and entertaining description of such responses in Egyptian Arabic, see Stewart (1997).
 
@@ -33,15 +39,7 @@ Many formulaic responses include a repetition of the root of the main word in th
 
 The following list includes politeness formulae as used by speakers from the Damascus area. The phrases are sorted under headings indicating the situation in which the initiator phrase is used. I have only included phrases that I have heard in use, and the list thus may have a bias to situations where a non-Arab male may find himself. The list is thus by no means complete, but I do believe it includes the most common phrases. Native speaker informants were consulted in a few cases where I was not certain of the form of the formula.
 
-The phrases are given in Arabic script and then in EALL transcription (Reichmut 2006) as pronounced in Damascene Arabic. The translations provided are fairly literal. Many of the expressions have no or only partial equivalents in English anyways, and the humorous effects of literal translation was sometimes hard to resist. Each phrase is followed by its appropriate response. Some are followed by brief comments.
-
-Note that the Arabic text is the wrong way around relative to the reading direction, with the initial phrase to the left and its response to the right.
-
-Forward slash indicates alternative responses.
-
-Parentheses indicate optional extensions to responses.
-
-Square brackets indicate clarifications in the translation.
+The phrases are given in Arabic script and then in EALL transcription (Reichmut 2006) as pronounced in Damascene Arabic. The translations provided are fairly literal. Many of the expressions have no or only partial equivalents in English anyways, and the humorous effects of literal translation was sometimes hard to resist. Each phrase is followed by its appropriate response. Some are followed by brief comments. Note that the Arabic text is the wrong way around relative to the reading direction, with the initial phrase to the left and its response to the right. Forward slash indicates alternative responses. Parentheses indicate optional extensions to responses. Square brackets indicate clarifications in the translation.
 
 ## Greetings
 
@@ -53,7 +51,7 @@ Square brackets indicate clarifications in the translation.
 | *as-salāmu ʿalaykum* | *wa-ʿalaykum salām (wa-raḥmatu allāhi wa-barakātuh)*    |
 | Peace be upon you    | And upon you peace (and God's greace and his blessings) |
 
-Islamic greeting signalling high degree of formality or allegiance to Islam. The pronoun *-kum* (2mpl) is invariable in the phrase and in its response.
+Islamic greeting signaling high degree of formality or allegiance to Islam. The pronoun *-kum* (2mpl) is invariable in the phrase and in its response.
 
 |           |                                                    |
 | :-        | :-                                                 |

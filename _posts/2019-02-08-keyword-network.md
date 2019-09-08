@@ -13,15 +13,15 @@ minidoc: /images/2019-02-08/keywordnetwork.ar.190128.pdf.png
 updates: 
   - date: 2019-03-23
     contents: Editing
+  - date: 2019-09-08
+    contents: Further editing
 ---
 
-When I read books and articles related to my research I usually take [notes](/reading-notes-on-github/) of what is most interesting to me, with each note in separate text file. To each file I add one or more keywords from a set list. A note can contain any arbitrary combination of keywords. The idea with these keywords is to allow me to sort or filter the notes by topic. A while back it struck me that these keywords form a network of connected nodes and that this network could probably be visualized somehow.
+When I read books and articles related to my research I usually take [notes](/reading-notes-on-github/) of what is most interesting to me, with each note in separate text file. To each file I add one or more keywords from a set list. A note can contain any arbitrary combination of keywords. The idea with these keywords is to allow me to sort or filter the notes by topic. A while back it struck me that these keywords form a network of connected nodes and that this network could probably somehow be visualized. Some ideas completely obsess you and won't leave you alone. The only way to get them out of your head is to let them materialize in the real world.
 
-Some ideas completely obsess you and won't leave you alone. The only way to get them out of your head is to let them materialize in the real world.
+It is important to note before continuing that these are keywords of my notes of the sources, not of the sources themselves. They are intended to capture what I find to be of interest in the respective sources from my particular vantage point. Only some of them are summaries of the content in the sources.
 
-It is important to note before continuing these are keywords of my notes of the sources, not of the sources themselves. They are intended to capture what I find to be of interest in the respective sources from my particular vantage point. They are not intended to be correct summaries of the content in the sources.
-
-Due to the consistent formatting of file names and keywords in the note files it was pretty easy to generate a database of all connections between keywords and references. Something like this:
+Due to the consistent formatting of file names and keywords in the note files it was pretty easy to generate a database of all connections between keywords and references. Like this:
 
 ```
 Ferguson (1997)	standard-language
@@ -35,22 +35,21 @@ Now I only needed to find a way to draw all these relations on a two dimensional
 
 [![Keywords in columns](/images/2019-02-08/tikz.tex.pdf.png)](/documents/keyword-network/tikz.tex.pdf)
 
-It looks kind of nice, but you cannot get much information out of it, other than what my main areas of interest are. The references so tightly packed together that it is difficult to make out which line goes to which reference, and the positioning of keywords and references does not encode useful information. They are simply ordered alphabetically (from bottom to top), which isn't very helpful.
+It looks kind of nice, but you cannot get much information out of it, other than what my main areas of interest are. The references are so tightly packed together that it is difficult to make out which line goes to which reference, and the positioning of keywords and references does not encode useful information. They are simply ordered alphabetically (from bottom to top), which isn't very helpful.
 
-So I looked up some methods to plot networks and found the [`GGally`](https://cran.r-project.org/web/packages/GGally/index.html) package for the statistical programming language *R*. It allows you to plot networks using several different algorithms of node placement. I tried all of them out and found one, the Kamada-Kasai algorithm, that produced a plot pretty close to how I had imagined it. The [first result](/documents/keyword-network/kamadakawai.pdf), excluding some unconnected node islands, looked like this:
+So I looked up some methods to plot networks and found the [`GGally`](https://cran.r-project.org/web/packages/GGally/index.html) package for the statistical programming language *R*. It allows you to plot networks using several different algorithms of node placement. I tried all of them out and found one, the Kamada-Kasai algorithm, that produced a plot pretty close to how I had imagined it. The [first attempt](/documents/keyword-network/kamadakawai.pdf), excluding some unconnected node islands, looked like this:
 
 [![Kamada-Kawai](/images/2019-02-08/kamadakawai.pdf.png)](/documents/keyword-network/kamadakawai.pdf)
 
-Pretty cool, but since almost everything is connected to the central keyword `Arabic` it is too dense in the middle. In the periphery things are more clear, such as the connections between `eye-tracking` and `reading` in the top, and the connections between `standard-language` and `language-ideology` to the right. Also, I like to think of this plot as depicting the world I've been living in the last seven or so years; a big mess of Arabic which everything centers around, with outgrowths of language ideology, eye tracking, reading, and some other stuff, all organically grown together in a big blob-monster of interconnected texts.
+Pretty cool, but since almost everything is connected to the central keyword `Arabic` it is too dense in the middle. In the periphery things are more clear, such as the connections between `eye-tracking` and `reading` at the top, and the connections between `standard-language` and `language-ideology` to the right. Also, I like to think of this plot as depicting the world I've been living in the last seven or so years; a big mess of Arabic which everything centers around, with outgrowths of language ideology, eye tracking, reading, and some other stuff, all organically grown together in a big blob-monster of interconnected texts.
 
 To make the whole thing less dense and more practically useful I plotted the data with the same method but only including notes that have the keyword `Arabic`, while not including this keyword as a node in the plot. Below is the result.
 
 [![Kamada-Kawai Arabic](/images/2019-02-08/keywordnetwork.ar.190128.pdf.png)](/documents/keyword-network/keywordnetwork.ar.190128.pdf)
 
-Now it's much more readable and you can actually retrieve information from of it. A good plot is one that allows to see both larger structures and to pick out detailed information. On the larger scale in this plot you can see, for example, the blob of `diglossia` and that it is densely connected in my notes with `language-planning` and `language-idoelogy`, `code-switching` and `literacy`. `ALT` (the Arabic Linguistic Tradition) at the bottom has a bunch of references all to itself but is also connected with `language-ideology` and `language-instruction`. You can also zoom in (conceptually and literally on your favorite pdf-reader) on, say, the space between `diglossia` and `language-ideology` to see what references I have notes on that deal with those two topics in combination.
+Now it's much more readable and you can actually retrieve information from it. A good plot is one that allows to see both larger structures and to pick out detailed information. On the larger scale in this plot you can see for example the blob of `diglossia` and that it is densely connected in my notes with `language-planning` and `language-idoelogy`, `code-switching` and `literacy`. `ALT` (the Arabic Linguistic Tradition) at the bottom has a bunch of references all to itself but is also connected with `language-ideology` and `language-instruction`. You can also zoom in (conceptually and literally on your favorite pdf-reader) on, say, the space between `diglossia` and `language-ideology` to see what references I have notes on that deal with those two topics in combination.
 
 Since the plot generation is scripted the plot can easily be redrawn as more notes are added. The [version of the plot on GitHub](https://github.com/andreasmhallberg/readingnotes/blob/master/keyword-counts/kamadakawai.ar.pdf) will be updated from time to time. The one posted here will remain fixed for now.
-
-The whole project has been quite satisfying, not the least because it gives me a sense of actually having achieved some reading the last couple of years. The practical use I have found in the plot so far is that it reminds me of interesting things that I have read by placing them in a meaningful context that makes them (re-)discoverable, as opposed to just having them listed. I also find myself sometimes staring at the plot, following its nodes and angels, mentally revisiting things I've read several years ago.
+The whole project has been quite satisfying, not the least because it gives me a sense of actually having achieved some reading the last couple of years. The practical use I have found in the plot so far is that it reminds me of interesting things that I have read by placing them in a meaningful context that makes them rediscoverable. I also find myself sometimes staring at the plot, following its nodes and angels, mentally revisiting things I've read several years ago.
 
 But most of all it just looks cool.

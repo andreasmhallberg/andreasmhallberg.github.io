@@ -25,15 +25,15 @@ A paragraph with even left and right margins is said to be *justified*. In texts
 
 What Arabic has, though, that the Latin script lacks, is the ability stretch out the connecting lines between letters. In typed text, this is done with a character called *kashida* (`U+0640`). It is a line at the baseline, similar in shape to the underscore, and it connects to adjacent letters. The word كبير (*kabīr* 'big'), for instance, could be written with a few kashidas to make it take up more space (كبيـــــر), which can be used to justify the text.
 
-There are two problems with this. First, a line can only be lengthened by a multiple of the width of the kashida in the typeface. For example, if the kashida is 5&nbsp;pts wide, the line could be lengthened by 5&nbsp;pts by adding a kashida somewhere, or by 10&nbsp;pts by adding two. But it could not be lengthened by 7&nbsp;pts. Second, the lengthening can only be applied at certain points in certain words on the line. The lengthening cannot be evenly distributed across the line, making for an uneven appearance of the words in a line. See for example the excerpt below from the novel *Yūtūbiyā* by Aḥmad Xālid Tawfīq.[^utopia] Kashidas have been added to the last couple of words at the end of lines to fill them up to the left margin. This is common practice, but it makes, in my view, for an unattractive and uneven page.
+There are two problems with this. First, a line can only be lengthened by a multiple of the width of the kashida in the typeface. For example, if the kashida is 5&nbsp;pts wide, the line could be lengthened by 5&nbsp;pts by adding a kashida somewhere, or by 10&nbsp;pts by adding two. But it could not be lengthened by 7&nbsp;pts. Second, the lengthening can only be applied at certain points in certain words on the line. The lengthening cannot be evenly distributed across the line, making for an uneven appearance of the words. See for example the excerpt below from the novel *Yūtūbiyā* by Aḥmad Xālid Tawfīq.[^utopia] Kashidas have been added to the last couple of words at the end of lines to fill them up to the left margin. This is common practice, but it makes for an unattractive and uneven page.
 
 ![Page 12 from Yūtūbiyā, where kashidas are used in words at the end of the line to fill it.](/images/2017-03-03/utopia.png)
 
 ## Solution: the stretchable kashida
 
-One solution to this is to use a stretchable kashida that is placed between all connecting characters. It just so happens that TeX with it's glue mechanisms provides tools to do this fairly easily and very reliably. If no stretching is needed to justify the text the kashidas get a width of zero and do not appear at all. If some stretching is needed to fill the line (which in practice will virtually always be the case), then all these stretchable kashidas are stretched with an equal amount until the line is filled. There is thus no fixed or even default width of this kashida, it will be as long or short as it needs to be, and all stretchable kashidas on the same line will be of the same width.
+One solution to this is to use a stretchable kashida that is placed between all connecting characters. It just so happens that TeX with its glue mechanisms provides tools to do this fairly easily and very reliably. If no stretching is needed to justify the text the kashidas get a width of zero and do not appear at all. If some stretching is needed to fill the line (which in practice will virtually always be the case), then all these stretchable kashidas are stretched with an equal amount until the line is filled. There is thus no fixed or even default width of this kashida, it will be as long or short as it needs to be, and all stretchable kashidas on the same line will be of the same width.
 
-Have a look at the page below. It contains the same three paragraphs, taken at random from an Arabic news site. The three paragraphs are typeset three times each, first in three columns, then in four, and then in five columns. The more columns, and thus the narrower the columns, the more difficult it is for the typesetting engine to find a good way of distributing words on the lines to avoid big, white spaces between words. In the last part with five columns, the text looks really bad, with large white blobs scattered all over surface of the text.  
+Have a look at the page below. It contains the same three paragraphs, taken at random from an Arabic news site. The three paragraphs are typeset three times each, first in three columns, then in four, and then in five columns. The more and thus the narrower the columns, the more difficult it is for the typesetting engine to find a good way of distributing words on the lines to avoid big, white spaces between words. In the last part with five columns, the text looks really bad, with large white blobs scattered all over surface of the text.  
 
 ![Example text without stretchable kashida.](/images/2017-03-03/no-kashida.png)
 
@@ -48,7 +48,7 @@ The images above are PNGs and in limited resolution. Follow these links for PDFs
 
 The rest of this post is a step-by-step explanation of the LaTeX code that achieves this result. A complete self-contained example (used to produce the documents above) can be found [here](https://github.com/andreasmhallberg/kashida-justification).
 
-First we load the packages that we need and setup the Arabic font. Lateef is a free and open source font available [here](https://www.sil.org/resources/software_fonts/lateef).  
+First we load the packages that we need and setup the Arabic font. The font use here, Lateef, is a free and open source and available [here](https://www.sil.org/resources/software_fonts/lateef).  
 
 ``` tex
 \documentclass{article}
@@ -110,7 +110,7 @@ Then we activate the `XeTeXinterchartoks` feature, declare the different classes
 \XeTeXcharclass `\ة=\conb
 ```
 
-Then we declare the combinations of character classes between which we want to insert the command for the stretchable kashida (which we have yet to define). The order of any two characterclasses is significant. All possible combinations of characterclasses where you want stretchable kashida must be added to the list.
+Then we declare the combinations of character classes between which we want to insert the command for the stretchable kashida (which we have yet to define). The order of any two character classes is significant. All possible combinations of character classes where you want stretchable kashida must be added to the list.
 
 ``` tex
 \XeTeXinterchartoks \confb \confb = {\kashida{}}
@@ -127,11 +127,9 @@ This means that the presence of a vowel sign&nbsp;(&nbsp; َ ِ ُ etc), *shadda
 Also, in manuals of Arabic calligraphy there are rules about where and in what words, where in a word, and between what characters kashidas may be inserted ([Benatia&nbsp;et&nbsp;al. 2006](https://www.tug.org/tugboat/tb27-2/tb87benatia.pdf)). These rules are disregarded here. I do not believe that they are particularity relevant for the modern simplified text fonts. 
 
 
-
-
 ### Kashida thickness
 
-The following snippet uses functions form the [`calc`](https://www.ctan.org/pkg/calc?lang=en) package to measure the thickness of the kashida in the loaded font. It measurs the top of the kashida from the baseline and stores this value in `\kashidaheight`. It also measure how far it extends below the baseline and stores the value in `\kashidadepth`. (None of the fonts I have tested this on have a kashida that extends below the baseline, so this measure will normally be `0 pts`.)
+The following snippet uses functions form the [`calc`](https://www.ctan.org/pkg/calc?lang=en) package to measure the thickness of the kashida in the loaded font. It measures the top of the kashida from the baseline and stores this value in `\kashidaheight`. It also measure how far it extends below the baseline and stores the value in `\kashidadepth`. (None of the fonts I have tested this on have a kashida that extends below the baseline, so this measure will normally be `0 pts`.)
 
 ``` tex
 \newlength\kashidaheight
@@ -145,11 +143,13 @@ This means that this method does not give good results for typefaces in which th
 [Scheherazade](http://software.sil.org/scheherazade/),
 and [Simplified Arabic](https://www.microsoft.com/typography/fonts/family.aspx?FID=261), as well as with any mono-spaced Arabic font. 
 
-Note also that these measurements will change any time the font size changes, so that the above command should be run again after any command that changes the fontsize. Alternatively, and preferebly, these commands could be redifined to also run   
+Note also that these measurements will change any time the font size changes, so that the above command should be run again after any command that changes the font size. Alternatively, and preferably, these commands could be redefined to run   
 
 ``` tex
 \setlength\kashidaheight{\heightof{\textarabic{ـ}}}  \setlength\kashidadepth{\depthof{\textarabic{ـ}}}.
 ```
+
+and thereby reset the kashida measurements.
 
 ### Defining the kashida command
 
@@ -163,7 +163,7 @@ With the measurements of the kashida now stored, we can use them to define the a
   \nobreak\char"200D}
 ```
 
-This produces a leader, similar to the row of dots that fills the line  between a chapter title and the page number in a table of contents, for example, but it is here in the form of a solid line of kashida-thickness.
+This produces a leader, similar to the row of dots that fills the line between a chapter title and the page number in a table of contents, for example, but it is here in the form of a solid line of kashida-thickness.
 
 Note that the command begins and ends with `\char"200D`. This inserts the Unicode character `ZERO WIDTH JOINER`, a character that is very useful when typing in Arabic. As its name suggest, it takes no space and only instructs surrounding letters to connect with it, and thus with one another. Without it the typesetting engine would see the command `\nobreak` when it comes to this command, and not a letter with which the previous letter can connect, making it take the unconnecting form. The command `\nobreak` instructs LaTeX not to have any line breaks here.
 
@@ -187,7 +187,7 @@ And that's it. Adding the above code to the preamble automatically applies the s
 
 The way it has been applied here comes with a few caveats:
 
-- It only works with typefaces where letters are connected at the baseline and where the connection is not cruvilinear.
+- It only works with typefaces with letters that are connected at the baseline and where the connection is not cruvilinear.
 - If the typeface have ligatures other than *lam-alif* that you wish to retain, they must be added to the classes and patters of `\XeTeXinterchartoks`.
 - Vowel signs and similar negate the stretchable kashida.
 - Your may not be able to resist the urge to hang your beautiful Arabic text columns on your office wall. 
