@@ -18,7 +18,7 @@ Listan kommer eventuellt utökas då ny data tillkommer.
 
     Ordet är antagligen en reanalysering av *Auktion*, namnet på en second-affär som tidigare fanns i Malmö. Det arabiska ordet har kommit att betyda 'second-hand affär' över lag.
 
-- *ḥadīqat al-baṭṭ* حديقة البط ('Ankparken') Pildamsparken 
+- *ḥadīqat al-baṭṭ* حديقة البط ('Ankparken') Pildammsparken 
 
 - *maktab al-ʿamal* مكتب العمل  ('Arbetskontoret') Arbetsförmedlingen'
 

@@ -15,14 +15,21 @@ Det följande är intressanta och/eller lustiga exempel på spontan svenska-arab
 
 I de glosserade exemplen nedan är de arabiska elementen angivna i kursiv text och de svenska elementen i upprätt text. Längst ner på sidan finns [en lista med förkortningar](#förkortningar).
 
-<!-- (All hyphens in glosses no breaking U+02011: s/-/‑/g) -->
+<!-- (All hyphens in glosses no breaking U+2011: s/-/‑/g) -->
 
 ---- 
+
+- *2019-09* -- A.
+
+  vet | du | vad | jag | *ḥlim*‑de
+  vet | du | vad | jag | dröm‑DÅTID
+
+  | Vet du vad jag drömde? |
 
 - *2019-08* -- A.
 
   *aʿṭā‑ni* | *min* | *il‑kəbāb* | *il*‑äcklig |
-  gav.3M-mig | av | DEF-kebab | DEF-äcklig |
+  gav.3M-mig | av | BES-kebab | BES-äcklig |
 
   | Han gav mig av den äckliga kebaben. |
 
