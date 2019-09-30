@@ -45,7 +45,7 @@ I de glosserade exemplen nedan är de arabiska elementen angivna i kursiv text o
   *hāy*   | *mā* | *b‑yi‑n*‑tar       |
   den.här | inte | IND‑3MS‑PASS‑tar |
 
-  | Man kan inte ta den här. | 
+  | Den här tas inte./Man kan inte ta den här. | 
 
   Passivformer används ofta modalt i arabiska för att ange att något *kan* göras, inte bara att det *görs*. Den svenska verbstammen *tar* bär böjt endast för tempus. När det används i en arabisk kontext behöver talaren därför förse det med den grammatiska information som på arabiska är obligatoriskt för ett finit verb utöver tempus, dvs. modus, person, numerus och genus, vilket sker med arabiska prefix.
 
@@ -62,12 +62,12 @@ I de glosserade exemplen nedan är de arabiska elementen angivna i kursiv text o
 
 - *2017-09-10* -- A. 
 
-    har | du | sett | min | mobil | *šī?* 
+    har | du | sett | min | mobil | *ši?* 
     har | du | sett | min | mobil | någonting? 
 
     | Har du sett min mobil? | 
 
-    Svensk mening med ett arabiskt *negative polarity item* (*šī*).
+    Svensk mening med en efterställd arabisk frågepartikel.
 
 - *2017-04-26* --- A.
 
@@ -109,7 +109,7 @@ I de glosserade exemplen nedan är de arabiska elementen angivna i kursiv text o
     *ʿind‑u* | *ktīr* | *afkār* | *innu* | *yaʿmal* | saker | och | ting
     hos‑honom | mycket | tankar | att | 3MS.gör | saker | och | ting
 
-    | Han har mågna tankar om att göra saker och ting. |
+    | Han har många tankar om att göra saker och ting. |
 
     När man lär sig ett nytt språk når man förr eller senare en fas där man börjar bli flytande genom att utveckla en repertoar av fraser som ofta överanvänds. För talaren i det här exemplet var *saker och ting* en sådan fras. Hen är nu helt flytande i svenska och frasen hänger fortfarande kvar även när hen pratar arabiska, antagligen också för att det inte finns någon bra arabisk fras som fyller samma funktion.
 
