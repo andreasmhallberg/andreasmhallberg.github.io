@@ -85,7 +85,6 @@ I de glosserade exemplen nedan är de arabiska elementen angivna i kursiv text o
 
     | Den här växer jättesnabbt. |
 
-
 - *2016-08-03* --- Jag.
 
     vi | går | och | *n‑baddil‑*den| *awwal* | *ši*
@@ -125,7 +124,7 @@ I de glosserade exemplen nedan är de arabiska elementen angivna i kursiv text o
 
 - *2016-04-29* --- A., angående svårigheter med polisyrket.
 
-    | *fī* | *ktīr* | *min‑hum* | *ʿam* | *y*hopp*u* | av |
+    | *fī* | *ktīr* | *min‑hum* | *ʿam* | *yi*hopp*u* | av |
     | finns | många | av‑dom | PROG | M.hoppa.PL | av |
 
     | Det är många av dem som hoppar av. |
