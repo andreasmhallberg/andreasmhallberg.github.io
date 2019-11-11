@@ -6,7 +6,6 @@ lang: en
 length: long
 tags:
 - latex
-- tikz
 - typography
 ---
 
@@ -21,7 +20,7 @@ Ti*k*z is an extension of LaTeX (as well of other TeX-derived languages) special
 2. define functions for plotting data as points or lines 
 3. add the data in the form of these functions
 
-A self complete self-contained example can be found at the end of this post.
+A self-contained example can be found at the end of this post.
 
 The design of these plots aims to get a high ink-to-information ratio, as defined by Edward Tufte in *The Visual Display of Quantitative Information* (Graphics Press, 2001). That is, every use of ink in the plot should convey some piece information. If it does not, if it is mere decoration, it should be removed. These plots are not as radical as some of Tufte's most minimal designs. I have for example retained the axis lines, which I feel are needed to visually delimit the plotting area since I have no grid or background color that would otherwise define it. Still, these plots are fairly sparse, with little graphical redundancy.
 
