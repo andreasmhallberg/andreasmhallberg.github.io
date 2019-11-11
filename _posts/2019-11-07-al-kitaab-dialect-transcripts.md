@@ -1,6 +1,6 @@
 ---
 layout: post
-title: <i>Al-Kitaab</i> Syrain Arabic transcripts
+title: <i>Al-Kitaab</i> Syrian Arabic transcripts
 permalink: /al-kitaab-dialect-transcripts/
 lang: en
 length: short
