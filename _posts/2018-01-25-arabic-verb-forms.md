@@ -10,7 +10,7 @@ document: /documents/verb-forms/verb-forms.tex.pdf
 documenttitle: Verb forms I-X
 thumbnail: /images/verb-forms.thumbnail.png
 minidoc: /images/verb-forms.mindoc.png
-updates:
+uprates:
   - date: 2018-04-06
     contents: See also [this followup post](/hollow-and-derfective-verbs/) for corresponding tables for hollow and defective verbs.
   - date: 2019-09-08
