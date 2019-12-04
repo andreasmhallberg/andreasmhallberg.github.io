@@ -6,22 +6,25 @@ lang: en
 length: long
 tags:
 - linguistics
+updates: 
+  - date: 2019-12-04
+    contents: 'Monor editing'
 ---
 
-In the different dialects of Arabic there are highly developed systems of polite phrases to be uttered in various situations. Many of these phrases have one specific appropriate response. For native speakers this is simply part of language and it isn't given much thought. When, for example, someone says *naʿīman* to you after you have had a shower you just automatically reply *aḷḷa yinʿam ʿalēk*. For a non-native speaker like myself, recognizing and learning these phrases can be challenging. I hope this post may be of some help.
+In the different dialects of Arabic there are highly developed systems of polite phrases to be uttered in various situations. Many of these phrases have one specific appropriate response. For native speakers this is simply part of language and it isn't given much thought. When, for example, someone says *naʿīman* to you after you have had a shower you just automatically reply *aḷḷa yinʿam ʿalēk*. For a non-native speaker like myself, recognizing and learning these phrases can be challenging, and I hope this post may be of some help.
 
 - TOC
 {:toc}
 
 ## Introduction
 
-Not giving the proper response to a politeness phrase can often lead to awkward social situations or, simply be rude. As one scholar explains (Stewart 1996), these formulaic responses 
+Not giving the proper response to a politeness phrase can often lead to awkward social situations, or it may simply be rude. As one scholar explains (Stewart 1996), these formulaic responses 
 
 > signify an addressee's acceptance of the phrase to which they respond, thus serving as an indication that communications of concern, kindness, or other positive emotion has been successful, or that a social obligation has been properly fulfilled and is appreciated.
 
-Thus not properly responding, even if it because you as a non-native speaker do not know the answer, is a social mishap and one of the parties either have to save the situation, by diverting attention from the event or call out what has just happened and explain the situation. 
+Thus, not properly responding, even if it because you as a non-native speaker do not know the appropriate reply, is a social mishap, and one of the parties either have to save the situation, for example by diverting attention from the event, or call out what has just happened and explain the situation. 
 
-A short anecdote may serve to illustrate this. One of the first people I got to know during my stay in Damascus always ended our telephone conversations by asking me if I wanted something (*biddak ši?*). I found this a bit odd, as if I was a costumer in his shop, and in my confusion typically answered something like "no, thanks" (*lā, sukran*). There was always something awkward about these exchanges. It was only later that I discovered that this was a formulaic phrase and that I was supposed to answer "your wellbeing" (*salāmtak*). When I tried this the first time I could proudly confirm that the conversation ended smoothly and that I had risen to the occasion as a well functional social human being.    
+A short anecdote may serve to illustrate this. One of the first people I got to know during my stay in Damascus always ended our telephone conversations by asking me if I wanted something (*biddak ši?*). I found this a bit odd, as if I was a costumer in his shop, and in my confusion typically answered something like "no, thanks" (*lā, sukran*). There was always something awkward about these exchanges. It was only later that I discovered that this was a formulaic phrase and that I was supposed to answer "your wellbeing" (*salāmtak*). When I tried this the first time, I could proudly confirm that the conversation ended smoothly and that I had risen to the occasion as a well functional social human being.
 
 This formula (*--&nbsp;biddak ši? --&nbsp;salāmtak*) is only one of the couple of dozens or so phrases and responses that are in common use. Keeping track of all of them can be a daunting task for the language learner. A trick I figured out was that the response *aḷḷa yixallīk* 'May God keep you safe' is an acceptable response in most situations, even if there is another response that is more suited for that situation (cf.&nbsp;Stewart 1996:162)
 
