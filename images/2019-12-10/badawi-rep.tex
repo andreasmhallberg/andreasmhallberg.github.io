@@ -1,0 +1,83 @@
+\documentclass[margin=1cm]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{shapes 
+	, backgrounds
+	, patterns
+	, calc
+	, positioning
+	}
+
+\begin{document}
+
+\newlength\plotheight
+\newlength\plotwidth
+\setlength\plotheight{5cm}
+\setlength\plotwidth{\plotheight}
+\begin{tikzpicture}[x=\plotheight, y=\plotheight]
+
+\sffamily
+\small
+%\useasboundingbox (-1,-.05) rectangle (1,1.05);
+
+\begin{pgfonlayer}{background}
+\draw (0,0) rectangle (1,1);
+\foreach \y in {.2,.4,.6,.8}
+    \draw (0,\y) -- (1,\y);
+\end{pgfonlayer}
+
+% Top left
+\draw[fill=black!10] 
+    (0,1) node[above] {a} -- 
+    (.25,.5) node[left] {g} --
+    (.5,1) node[above] {e} circle;
+    
+% Top right
+\draw[fill=black!10] 
+    (.5,1) -- 
+    (.75,.5) node[right] {h} --
+    (1,1) node[above] {b} circle;
+    
+% Bottom left
+\draw[fill=black!30] 
+    (0,0) node[below] {c\vphantom{I}} --
+    (.25,.5) --
+    (.5,0) node[below] {f\vphantom{I}} circle;
+    
+% Bottom right
+\draw[fill=black!30]
+    (.5,0)  --
+    (.75,.5) --
+    (1,0) node[below] {d\vphantom{I}} circle;
+    
+% Middle top
+\draw[fill=black!30]
+    (.25,.5)  --
+    (.75,.5) --
+    (.5,1)  circle;
+    
+% Middle bottom
+\draw[fill=black!10] 
+    (.25,.5) -- 
+    (.75,.5) --
+    (.5,0) circle;
+
+% Labels
+\node at (1.05,.9) [right] {Level 1} ;
+\node at (1.05,.7) [right] {Level 2} ;
+\node at (1.05,.5) [right] {Level 3} ;
+\node at (1.05,.3) [right] {Level 4} ;
+\node at (1.05,.1) [right] {Level 5} ;
+
+% Legend
+\node[right] at (-1, 1) {Key};
+\draw[fill=black!10] (-1,.9) rectangle (-.75, .8);
+	\node[right] at (-.75,.85)  {(H) features};
+\draw[fill=black!30] (-1,.7) rectangle  (-.75, .6);
+	\node[right] at (-.75,.65)  {(L) features};
+\draw  (-1,.4) rectangle  (-.75, .3);
+	\node[right, align=left] at (-.75,.35)  {Borrowings\\from foreign\\languages};
+
+
+
+\end{tikzpicture}
+\end{document}
