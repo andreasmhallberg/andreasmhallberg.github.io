@@ -1,0 +1,47 @@
+\documentclass[margin=1cm]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{shapes 
+	, backgrounds
+	, patterns
+	, calc
+	, positioning
+	}
+
+\begin{document}
+
+\newlength\plotheight
+\newlength\plotwidth
+\setlength\plotheight{5cm}
+\setlength\plotwidth{\plotheight}
+
+\begin{tikzpicture}[x=\plotheight, y=\plotheight]
+  \scriptsize
+  \usetikzlibrary{backgrounds}
+  %\useasboundingbox (0,0) rectangle (1,1);
+
+  \draw [fill=white] (0,0) rectangle (1,1) ;
+  % ammiya
+  \draw[fill=black!30] (0,0) -- (.6,.5) -- (1,1) -- (1,0) -- cycle ;
+  % fusha
+  \draw[fill=black!10] (0,0) -- (.2,.5) -- (0,1) -- (1,1) -- (.6,.5) -- cycle ;
+
+  \begin{pgfonlayer}{background}
+      \draw[dashed] (-.1,.2) -- (1.3,.2) ;
+      \draw[dashed] (-.1,.4) -- (1.3,.4) ;
+      \draw[dashed] (-.1,.6) -- (1.3,.6) ;
+      \draw[dashed] (-.1,.8) -- (1.3,.8) ;
+  \end{pgfonlayer}
+
+  \node at (1.05,.9) [right] {1. Classical} ;
+  \node at (1.05,.7) [right] {2. Modern Standard} ;
+  \node at (1.05,.5) [right] {3. Educated spoken} ;
+  \node at (1.05,.3) [right] {4. Semi-literate spoken} ;
+  \node at (1.05,.1) [right] {5. Illiterate spoken} ;
+
+  % labels
+  \node at (.6,.2) [align=center] {Non-Standard} ; 
+  \node at (.45,.8) [align=center] {Standard} ; 
+  \node at (.1,.5) [fill=white, anchor=east, inner sep=1pt] {\sc foreign} ; 
+
+\end{tikzpicture} 
+\end{document}
