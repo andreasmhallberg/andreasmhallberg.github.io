@@ -3,7 +3,8 @@
 
 \documentclass[oneside]{article}
 % \usepackage[all, placement=bottom, scale=1, color=black, opacity=1, vshift=1cm]{background}
-\usepackage{\string ~/mylatexstuff/ccbyandreas}
+\usepackage{/Users/xhalaa/dotfiles/mylatexstuff/ccbyandreas}
+\renewcommand{\ccyear}{2018}
 \usepackage{array}
 \usepackage[
   left=2.3cm
@@ -40,16 +41,20 @@
 \newcommand{\raiseyaa}[1]{\raisebox{2pt}{#1}}
 
 \newfontfamily\arabicfont[Script=Arabic,Scale=1.5]{Scheherazade}
+\newfontfamily\arabicfontsf[Script=Arabic]{Amiri} % use sf for ligautres
 
 \newcommand\ligaturetable{%
 \renewcommand\arraystretch{1.2}%
     \upshape
     \framebox{%
-\newfontfamily\arabicfont[Script=Arabic]{Amiri}%
-\begin{tabularx}{\linewidth}{r@{~\color{gray}$\rightarrow$~}rr@{~~}>{\itshape}X@{}}
+\begin{tabularx}{\linewidth}{
+    >{\sf}r@{~\color{gray}$\rightarrow$~}
+    >{\sf}r
+    >{\sf}r@
+    {~~}>{\itshape}X@{}}
     \multicolumn{4}{l}{\textbf{Common ligatures}}\\
     \addlinespace
-    \textarabic{لـ\char"200D ا}     & \textarabic{لا}\rlap{*\ }    & \textarabic{سلام}     & yallaa   \\  
+    \textarabic{لـ\char"200D ا}     & \textarabic{لا}\rlap{*\ }    & \textarabic{سلام}     & salaam   \\  
     \textarabic{لـمـ}                  & \textarabic{لمـ}  & \textarabic{المسلم} & \mbox{al-muslim} \\ 
   \textarabic{فـي}                 & \textarabic{في}   &                     & fii \\           
 \textarabic{يـحـ}                  & \textarabic{يحـ}  & \textarabic{يحيا}   & yaHyaa  \\   
@@ -192,7 +197,7 @@ alif maqSuura                                                                   
   \addlinespace[1ex]
 
   
-  \multicolumn{3}{l}{\itshape alif khanjariyya\marginnote{Alif khanjariyya is only used in the words {\newfontfamily\arabicfont[Script=Arabic]{Amiri}\upshape\textarabic{اللّٰه}}, \textarabic{لٰكِن}, \textarabic{هٰذا}, \textarabic{هٰذِهِ} and \textarabic{ذٰلِك}. Usually not printed even in voweled text.}}%
+  \multicolumn{3}{l}{\itshape alif khanjariyya\marginnote{Alif khanjariyya is only used in the words {\fontspec[Script=Arabic]{Amiri}\upshape\textarabic{اللّٰه}}, \textarabic{لٰكِن}, \textarabic{هٰذا}, \textarabic{هٰذِهِ} and \textarabic{ذٰلِك}. Usually not printed even in voweled text.}}%
     & aa & \textarabic{ـٰ}\\
 
 \end{tabular}
