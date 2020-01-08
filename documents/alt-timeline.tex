@@ -1,7 +1,8 @@
 \documentclass[a4paper,landscape]{article}
 
 \usepackage[dvipsnames]{xcolor}
-\usepackage{\string ~/mylatexstuff/ccbyandreas}
+\usepackage{/Users/xhalaa/dotfiles/mylatexstuff/ccbyandreas}
+\renewcommand{\ccyear}{2016, 2017, 2020}
 \usepackage[top=2cm, bottom=2cm, left=2cm, right=2cm]{geometry}
 \usepackage{etoolbox}
 \usepackage{graphicx}
@@ -37,15 +38,17 @@
 \newlength\dynastyheight
 \setlength\dynastyheight{.4cm}
 \newlength\dynastyvshift
-\setlength\dynastyvshift{.2cm}
+\setlength\dynastyvshift{.55cm}
 
 \newlength\dynwidth
 
 % \grammarian[horizontal offset][east]{<name>}{<yod c.e.>}{<opus magnus>}
 \newcommand\person[4][0]{
     % Name and yod on top
-    \path [draw] (#3,\nameh) ++ (#1,0) node [rotate=-90, anchor=west] (name) {\makebox[2.5em][l]{#3}#2};
-    \draw [thin] (name.east) |- (#3,1.5) -- (#3,0) ;
+  \path [draw] (#3,\nameh) ++ (#1,0) node [rotate=-90, anchor=west] (name) [fill=white] {\makebox[2.5em][l]{#3}#2};
+\begin{pgfonlayer}{background}
+    \draw [thin] (name.east) |- (#3,2) -- (#3,0) ;
+\end{pgfonlayer}
     % Work below
     \node [font=\itshape, rotate=-90, anchor=west, yshift=#1] (work) at (#3,-2\baselineskip) {#4};
 }
@@ -85,7 +88,7 @@
 
 \begin{minipage}[t]{.4\textwidth}
 {\LARGE Timeline of Arab grammarians\\and their major works}\\[\medskipamount]
-\textit{v.1.5\\\today}
+\textit{v.1.6\\\today}
 \end{minipage}
 \hfill
 \begin{minipage}[t]{.38\textwidth}
@@ -109,6 +112,14 @@ This timeline is based primarily on \textit{The Arabic Linguistic Tradition} by 
     \phase{Codification\\and systematization}{920}{1100}
     \phase{Elaboration of forms\\of presentation}{1100}{1520}
 
+
+    % \dynasty{Muḥammad}{622}{632}
+    \dynasty    {OliveGreen}   {Ummayads}      {661}    {750}      {1}
+    %\dynasty   {blue}    {ar-Rāšhidun}   {632}    {661}      {1}
+    \dynasty    {red}     {\hspace{4em}Abbasids}      {750}    {1258}     {1}
+    \dynasty    {black}   {Fatimids}      {909}    {1171}     {2}
+    \dynasty    {blue}     {Ottomans}      {1299}   {\fince}   {1}
+    \dynasty    {brown}    {\hspace{2em}Mamluks}       {1250}   {1517}     {2}
 
 % List of grammarians
     \person{Abū l-Aswad ad-Duʾalī}{688}{}
@@ -144,13 +155,6 @@ This timeline is based primarily on \textit{The Arabic Linguistic Tradition} by 
     \person[-.5ex]{al-Ašmūnī}{1494}{Šarḥ al-Alfiyya} % p.14
     \person{as-Suyūṭī}{1505}{al-Muzhir} % IE
     
-    % \dynasty{Muḥammad}{622}{632}
-    \dynasty    {OliveGreen}   {Ummayads}      {661}    {750}      {1}
-    %\dynasty   {blue}    {ar-Rāšhidun}   {632}    {661}      {1}
-    \dynasty    {red}     {\hspace{4em}Abbasids}      {750}    {1258}     {1}
-    \dynasty    {black}   {Fatimids}      {909}    {1171}     {2}
-    \dynasty    {blue}     {Ottomans}      {1299}   {\fince}   {1}
-    \dynasty    {brown}    {\hspace{2em}Mamluks}       {1250}   {1517}     {2}
 
   % Special arrow for Ottomans
   \begin{pgfonlayer}{background}
@@ -164,19 +168,30 @@ This timeline is based primarily on \textit{The Arabic Linguistic Tradition} by 
   \end{pgfonlayer}
 
 
+
+        \begin{pgfonlayer}{background}
+        % hijri ticks
+          \foreach \x in {0,100,...,900} 
+            {\draw [red!70!gray] (.97*\x+622, 0) -- ++ (0, +.2) node [font=\bfseries,inner sep=0pt,anchor=south, color=red!70!gray] {\x\strut} ;}
+
+          % hijri ticks on 50s
+          \foreach \x in {50,150,...,900} 
+            {\draw [red!70!gray] (.97*\x+622, 0) -- ++ (0, +.1);}
+        \end{pgfonlayer}
+
 	% Axis
 	\draw [->, very thick] (\startce,0) -- (\fince,0);
 
 	% Axis ticks
 	\foreach \x in {700,800,...,\fince} 
-	    {\draw (\x, 0) -- (\x,-.2) node [anchor=north, font=\bfseries] {\x};}
+	    {\draw (\x, 0) -- (\x,-.2) node [anchor=north, font=\bfseries,inner sep=0pt] {\x\strut};}
 
 	% Axis tick on 50s
-	\foreach \x in {650,675,...,1525} 
+	\foreach \x in {650,700,...,1525} 
 	    {\draw (\x, 0) -- (\x,-.1);}
 
 	% Hijra
-	\draw [very thick] (622, .2) -- (622, -.5) 
+	\draw [very thick] (622, 0) -- (622, -.5) 
 	  node [rotate=-90, anchor=west] {\textbf{\textit{al-Hijra}}~(622)};
 
 
