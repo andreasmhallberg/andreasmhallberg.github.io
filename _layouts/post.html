@@ -45,13 +45,13 @@ layout: default
   </div>
 
 {% if page.updates %}
+    {% for update in page.updates %}
   <p>
   <div class="update">
-    {% for update in page.updates %}
         Update {{ update.date }} &mdash; {{ update.contents | markdownify | remove: '<p>' | remove: '</p>'}}<br>
-    {% endfor %}
   </div>
   </p>
+    {% endfor %}
 {% endif %}
 
   <div class="entry">
