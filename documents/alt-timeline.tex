@@ -14,6 +14,9 @@
 \usepackage{tikz}
 \usepackage{varwidth} % nodes size with adjusted width
 \usetikzlibrary{calc, backgrounds}
+  \pgfdeclarelayer{background}
+  \pgfdeclarelayer{foreground}
+  \pgfsetlayers{background,main,foreground}
 \usepackage{polyglossia}
 \setmainlanguage{english}
 \setotherlanguage{arabic}
@@ -27,7 +30,7 @@
 \def\fince{1550}
 
 % Color to mix in with dynasty. 70%
-\def\mixcolor{gray}
+\def\mixcolor{gray!60!white}
 
 \frenchspacing
 	
@@ -45,10 +48,10 @@
 % \grammarian[horizontal offset][east]{<name>}{<yod c.e.>}{<opus magnus>}
 \newcommand\person[4][0]{
     % Name and yod on top
-  \path [draw] (#3,\nameh) ++ (#1,0) node [rotate=-90, anchor=west] (name) [fill=white] {\makebox[2.5em][l]{#3}#2};
-\begin{pgfonlayer}{background}
+  \begin{pgfonlayer}{foreground}
+    \path [draw] (#3,\nameh) ++ (#1,0) node [rotate=-90, anchor=west] (name) [fill=white, inner sep=0pt] {\makebox[2.5em][l]{#3}#2~\strut};
+  \end{pgfonlayer}
     \draw [thin] (name.east) |- (#3,2) -- (#3,0) ;
-\end{pgfonlayer}
     % Work below
     \node [font=\itshape, rotate=-90, anchor=west, yshift=#1] (work) at (#3,-2\baselineskip) {#4};
 }
@@ -88,11 +91,12 @@
 
 \begin{minipage}[t]{.4\textwidth}
 {\LARGE Timeline of Arab grammarians\\and their major works}\\[\medskipamount]
-\textit{v.1.6\\\today}
+\textit{v.1.6.1\\\today}
 \end{minipage}
 \hfill
-\begin{minipage}[t]{.38\textwidth}
-This timeline is based primarily on \textit{The Arabic Linguistic Tradition} by G. Bohas, \mbox{J.-P.} Guillaume, and D. Kouloughli (Georgetown University Press, 2006) and lists grammarians mentioned therein. Years are in the common era.
+\begin{minipage}[t]{7cm}
+  \setlength{\parfillskip}{0pt}
+This timeline is based primarily on \textit{The Arabic Linguistic Tradition} by G. Bohas, \mbox{J.-P.} Guillaume, and D. Kouloughli (Georgetown University Press, 2006) and lists grammarians mentioned therein.
 \end{minipage}
 
 
@@ -126,7 +130,7 @@ This timeline is based primarily on \textit{The Arabic Linguistic Tradition} by 
     \person{\llap{ʿ}Abd Allāh ibn Abī Isḥāq}{734}{} % p.1
     % \person[-1.7ex]{al-Xalil}{786}{Kitāb al-ʿAyn}
     \person{Sībawayhi}{798}{al-Kitāb} % p. 1. In Carter (2004:15) 796
-    \person{al-Farrāʾ}{822}{Maʿānī al-Qurʾān} % p.5
+    \person[-.5ex]{al-Farrāʾ}{822}{Maʿānī al-Qurʾān} % p.5
     \person[.7ex]{al-Axfaš al-Awsaṭ}{830}{Maʿānī al-Qurʾān} % p.5 835. EI 830
     % \person{al-Aṣmaʿī}{828}{}
     \person[-1.5ex]{al-Mubarrad}{898}{Kitāb al-Muqtaḍab}
