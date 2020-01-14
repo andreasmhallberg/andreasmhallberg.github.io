@@ -6,7 +6,7 @@ lang: en
 length: short
 tags:
 - tafl
-update:
+updates:
 - date: 2020-01-14
 - contents: The longer texts for all 13 chapters now added.
 ---
