@@ -143,10 +143,11 @@ This means that this method does not give good results for typefaces in which th
 [Scheherazade](http://software.sil.org/scheherazade/),
 and [Simplified Arabic](https://www.microsoft.com/typography/fonts/family.aspx?FID=261), as well as with any mono-spaced Arabic font. 
 
-Note also that these measurements will change any time the font size changes, so that the above command should be run again after any command that changes the font size. Alternatively, and preferably, these commands could be redefined to run   
+Note also that these measurements will change any time the font size changes, so that the above command should be run again after any command that changes the font size. Alternatively, and preferably, these commands could be redefined to run
 
 ``` tex
-\setlength\kashidaheight{\heightof{\textarabic{ـ}}}  \setlength\kashidadepth{\depthof{\textarabic{ـ}}}.
+\setlength\kashidaheight{\heightof{\textarabic{ـ}}}
+\setlength\kashidadepth{\depthof{\textarabic{ـ}}}.
 ```
 
 and thereby reset the kashida measurements.
