@@ -147,7 +147,7 @@ Note also that these measurements will change any time the font size changes, so
 
 ``` tex
 \setlength\kashidaheight{\heightof{\textarabic{ـ}}}
-\setlength\kashidadepth{\depthof{\textarabic{ـ}}}.
+\setlength\kashidadepth{\depthof{\textarabic{ـ}}}
 ```
 
 and thereby reset the kashida measurements.
