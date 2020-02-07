@@ -1,0 +1,170 @@
+\documentclass{article}
+
+\frenchspacing
+
+% TYPOGRAPHY
+\usepackage{microtype}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{/Users/xhalaa/dotfiles/mylatexstuff/ccbyandreas}
+\renewcommand{\ccyear}{2020}
+
+\usepackage{enumitem}
+\setlist{nosep}
+
+\usepackage{xcolor}
+
+% LANGUAGES
+\usepackage{polyglossia}
+\setmainlanguage{arabic}
+\setotherlanguage{englis}
+\newfontfamily\arabicfont[Script=Arabic,Scale=1.4]{Lateef}
+
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{\medskipamount}
+
+% Images
+% Metadata
+
+\title{Syrian Arabic grammatical cheat sheet}
+\author{Andreas Hallberg}
+\date{\today}
+
+% leftward compensation for inital ayn and hamza in tabulars
+\newcommand{\ayntab}{\null\hspace{-.2em}}
+
+\begin{document}
+
+\maketitle
+
+% put stuff here
+
+This is a brief grammatical summary of the variety of Arabic spoken in and around Damascus. It is intended for quick references of grammatical forms. For more detailed see Cowell's \textit{A Reference Grammar of Syrian Arabic}, to wh are given in parenthesis.
+
+The transcription system used here is an extended version of the system used in \textit{Alif Baa} and Rydings \textit{Refernce Grammar}. It is extended with the long vowels \textit{oo} and \textit{ee}.
+ 
+\section{Phonetic inventory}
+
+\section{Pronouns}
+
+\begin{tabular}{>{\itshape}l>{\itshape}l>{\itshape}l}
+  \upshape{Indep.} & \multicolumn{2}{l}{Attached}\\
+  \midrule
+  & \upshape Cons. & \upshape Vow.\\
+  \cmidrule(rl){2-3}
+  أنا  & -i    & -ya\\
+  إنْتَ & -ak   & -k\\
+  إنْتِ & -ik   & -ki\\
+  هُوِ & -u    & -h\\
+  هيِ & -a    & -ha\\
+  niHna  & -na\\
+  hum  & -un   & -hun\\
+  hunne  & -kun \\
+
+\end{tabular}
+
+The last form is used on words with final vowel: \textit{aʿTaa-ki} 'he~gave~you~(fs.)'. Attached pronouns are used for
+
+\begin{itemize}
+  \item direct objects: \textit{katbt-u} 'I~wrote~it'
+  \item indirect objects, with \textit{-l-}, \textit{katabt-l-u} 'I~write~for~him'
+  \item possessors: \textit{ktaab-u} 'his~book'
+\end{itemize}
+
+\section{Prepositions}
+
+\begin{tabular}{>{\itshape}ll}
+
+  bi-  & in, at  (with nouns)\\
+  fii- & in, at  (with pronouns)\\
+  \ayntab ʿa-  & to\\
+  min  & from\\
+  ill-  & for (ownership, with pronouns)\\
+  li-  & for (ownership, with nouns)\\
+  \ayntab ʿind  & with, at\\
+  Hadd & next to\\
+  fooʾ & above\\
+  taHt & below\\
+
+\end{tabular}
+
+\section{Question words}
+
+\begin{tabular}{>{\itshape}ll}
+
+  shuu & what\\
+  miin & who\\
+  eemta & when\\
+  kiif & how\\
+  ween & where\\
+
+\end{tabular}
+  
+Yes-no question formed with rising intonation or an elongated final syllable. Rethorical yes-no questions may be introduced with \textit{hal}.
+
+\section{Verbs}
+
+\begin{tabular}{l
+  >{\itshape}r@{{\itshape-ktib}}>{\itshape}l
+  >{\itshape katab}l
+  }
+
+  & \multicolumn{2}{l}{Non-past}&\multicolumn{1}{l}{Past}\\
+
+  \midrule
+
+  I          & i  &   & -t\\
+  yous (ms.) & ti &   & -t\\
+  you (fs.)  & ti & -i & -ti\\
+  he         & yi &   & \\
+  she        & ti &   & -it\\
+  we         & ni &   & -na\\
+  you (pl.)  & ti & -u & -tu\\
+  they       & yi & -u & -u\\
+
+\end{tabular}
+
+The pronoun may be omitted. The non-past verb is always preceded by one of the following:
+
+\begin{itemize}
+\item\textit{b-}, generalities, habitual: \textit{byiktib} 'he~writes'. Note:~1pl.~\textit{\textbf{m}niktib}
+\item\textit{ʿam}, progressive: \textit{ʿam yiktib} 'he~is~writing'
+\item\textit{Ha-/raH}, future: \textit{raH yiktib} 'he~will~write'
+\item\textit{laazim}, \textit{laazim yiktib} 'he~must~write'
+\item Aux. verb, eg.
+  \begin{itemize}
+    \item[] \textit{biddu yiktib} 'he~wants~to~write'
+    \item[] \textit{biyHibb yiktib} 'he~likes~to~write'
+    \item[] \textit{kaan yiktib} 'he~was~writing'
+  \end{itemize}
+\end{itemize}
+
+\section{Pseudo-verbs}
+
+\textit{bidd-}~'want' and \textit{ʿind-}~'has' are inflected form person with attached pronouns (as were they nouns), \textit{biddu} 'he~wants'; \textit{ʿindu-} 'he~has', but take the verbal negation \textit{maa} and direct objects.
+
+
+\section{Standard to Syrian sound conversion rules}
+
+
+{\itshape
+\begin{tabular}{l@{~→~}ll@{~→~}l}
+
+  ay & ee & bayt & beet \\
+  aw & oo & yawm & yoom \\
+  q  & ʾ  & qaal & ʾaal \\
+  th & t*  & thalatha & tlaate \\
+  dh & d*  & haadha & haada \\
+  DH & D  & DHuhr & Duhr \\
+
+\end{tabular}
+}
+
+* For loans fro Standard Arabic \textit{th} and~\textit{dh} becomes \textit{s} and~\textit{z}: \textit{musaqqaf} 'intellectual', \textit{iza} 'if'.
+
+\section{Numbers}
+
+\section{Negation}
+
+\end{document}
