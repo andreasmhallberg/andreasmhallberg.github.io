@@ -3,6 +3,7 @@ layout: page
 title: Documents
 permalink: /documents/
 pubyears:
+    - 2020
     - 2017
     - 2016
 ---
@@ -17,10 +18,11 @@ pubyears:
 {% for publication in site.data.publications  %}
 
 {% if publication.year == pubyear %}
-{% if pulication.authors %}
-{{ publication.authors %}}&nbsp;
-{% endif %}
-<b>{{ publication.title }}</b>
+
+{% if publication.authors %}
+{{ publication.authors %}}
+{% endif %}<br><!--
+--><b>{{ publication.title }}</b>
 &emsp;<span class="date">{{ publication.type }}</span><br>
 {{ publication.ref | markdownify | remove: '<p>' | remove: '</p>' }}
 <details style="margin-top: -.7em; margin-left: 1em">
