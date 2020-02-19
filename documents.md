@@ -17,6 +17,9 @@ pubyears:
 {% for publication in site.data.publications  %}
 
 {% if publication.year == pubyear %}
+{% if pulication.authors %}
+{{ publication.authors %}}&nbsp;
+{% endif %}
 <b>{{ publication.title }}</b>
 &emsp;<span class="date">{{ publication.type }}</span><br>
 {{ publication.ref | markdownify | remove: '<p>' | remove: '</p>' }}
