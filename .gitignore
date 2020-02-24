@@ -16,3 +16,4 @@ _drafts
 *.log
 *.out
 *.gz
+.jekyll-cache
