@@ -2,10 +2,6 @@
 layout: page
 title: Documents
 permalink: /documents/
-pubyears:
-    - 2020
-    - 2017
-    - 2016
 ---
 
 [CV-en](/documents/hallberg-cv-en.pdf)
@@ -13,17 +9,12 @@ pubyears:
 
 ## Publications
 
-{% for pubyear in page.pubyears %}
-<div class="pubyear">{{ pubyear }}</div>
+
 {% for publication in site.data.publications  %}
 
-{% if publication.year == pubyear %}
-
-{% if publication.authors %}
-{{ publication.authors %}}
-{% endif %}<br><!--
---><b>{{ publication.title }}</b>
-&emsp;<span class="date">{{ publication.type }}</span><br>
+({{ publication.year}})<!--
+--> {% if publication.authors %}{{ publication.authors %}}{% endif %}
+<b>{{ publication.title }}.</b>
 {{ publication.ref | markdownify | remove: '<p>' | remove: '</p>' }}
 <details style="margin-top: -.7em; margin-left: 1em">
 <summary>
@@ -50,11 +41,45 @@ pubyears:
 {% endif %}
 </details>
 
-{% endif %}
-{% endfor %}
 {% endfor %}
 
-<br/>
+## Misc. publications
+
+{% for publication in site.data.publicationsmisc  %}
+
+
+{% if publication.authors %}
+{{ publication.authors %}}
+{% endif %}<!--
+-->({{ publication.year }}) <b>{{ publication.title }}</b>
+&emsp;[{{ publication.type }}]
+{{ publication.ref | markdownify | remove: '<p>' | remove: '</p>' }}
+<details style="margin-top: -.7em; margin-left: 1em">
+<summary>
+<!-- abstract --> {% if publication.abstract %}
+ <a>abstract</a>
+ {% else %}
+ <span style="color: $gray"> abstract </span>
+{% endif %} |
+<!-- pdf -->
+{% if publication.pdf %}
+ <a href="{{ publication.pdf }}">pdf</a>
+  {% else %} 
+  <span style="color: $gray">pdf</span>
+{% endif %} |
+<!-- link -->
+{% if publication.link %}
+ <a href="{{ publication.link }}">link</a>
+ {% else %}
+ <span style="color: $gray">link</span>
+{% endif %}
+</summary>
+{% if publication.abstract %}
+  <span class="date">{{ publication.abstract | markdownify }}</span>
+{% endif %}
+</details>
+{% endfor %}
+
 
 ## Other documents
 

@@ -1,36 +1,12 @@
 - title: 'Parsing written language with non-standard grammar: an eye-tracking study of case marking in Arabic'
   type: article
   lang: en
-  authors: Hallberg, A & Niehorster, D.
-  year: 2020
+  authors: Hallberg, A. & Niehorster, D.
+  year: Forthcoming
   ref: '<i>Reading and Writing: An Interdisciplinary Journal</i>'
   pdf:
   link: 
   abstract:
-
-
-- title: Zeittafel
-  type: graphical timeline
-  lang: de
-  year: 2017
-  ref: 'In Weigelt, Frank. <i>Einführung in die arabische Grammatiktradition</i>. Weisbaden: Harrassowitz. 247--8.'
-  pdf: /documents/weigelt-2017-zeittafel.pdf
-  link: https://www.harrassowitz-verlag.de/Einf%C3%BChrung_in_die_arabische_Grammatiktradition/titel_2956.ahtml
-  abstract: In der Zeittafel auf der folgenden Doppelseite sind die im Buch genannten Gelehrten und einige ausgewählte Werke verzeichnet. Die Übersicht wurde zusammengestellt und typographisch gestaltet von Andreas Hallberg (Göteborg). Die Originalfassung steht im Blogg *Uppercase Alif* unter <http://andreasmhallberg.github.io/> zur Verfügung.
-
-- title: Skammen
-  type: translation
-  lang: sv
-  year: 2017
-  ref: Short story by Miryam Hammoud. In&nbsp;<i>Glänta</i> 2-3.17. 42--8.
-  link: http://glanta.org/tidskrift/alla-nummer/?view=76
-
-- title: Tawfiq Basha och den nya musiken
-  type: translation
-  lang: sv
-  year: 2017
-  ref: Article by Muḥammad Kurayyim. In&nbsp;<i>Glänta</i> 2-3.17. 153--9.
-  link: http://glanta.org/tidskrift/alla-nummer/?view=76
 
 - title: Några egenheter i arabisk standardspråksideologi 
   type: bookchapter
