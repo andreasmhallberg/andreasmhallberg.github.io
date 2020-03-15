@@ -9,6 +9,8 @@ tags:
 updates: 
   - date: 2019-12-04
     contents: 'Monor editing'
+  - date: 2020-03-15
+    contents: 'Correction: yizīdak aš-šaraf ->  yizīdak šaraf. Removed: ʿīd mubārak (too formal)'
 ---
 
 In the different dialects of Arabic there are highly developed systems of polite phrases to be uttered in various situations. Many of these phrases have one specific appropriate response. For native speakers this is simply part of language and it isn't given much thought. When, for example, someone says *naʿīman* to you after you have had a shower you just automatically reply *aḷḷa yinʿam ʿalēk*. For a non-native speaker like myself, recognizing and learning these phrases can be challenging, and I hope this post may be of some help.
@@ -107,8 +109,8 @@ Also general filler in silences in the conversation.
 
 |                |                            |
 | :-             | :-                         |
-| تشرّفنا         | يزيدك الشرف                |
-| *tašarrafna*   | *yazīdak aš-šaraf*         |
+| تشرّفنا         | يزيدك شرف                |
+| *tašarrafna*   | *yazīdak šaraf*         |
 | We are honored | May he increase your honor |
 
 ## Parting
@@ -149,12 +151,6 @@ Said before the actual goodbye to signal the end of the conversation.
 ## Special occasions
 
 ### Good wishes on annual holiday
-
-|                  |                    |
-| :-               | :-                 |
-| عيد مبارك        | الله يبارك فيك     |
-| *ʿīd mubārak*    | *aḷḷa yibārik fīk* |
-| Blessed festival | May God bless you  |
 
 |                          |                     |
 | :-                       | :-                  |
