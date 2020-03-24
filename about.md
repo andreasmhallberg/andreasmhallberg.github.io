@@ -11,4 +11,4 @@ If you have found any material published here useful (in your teaching, studies,
 
 My dissertation, *Case Endings in Spoken Standard Arabic* (Lund University, 2016), can be downloaded [here](https://lup.lub.lu.se/search/publication/530e5fe6-ec77-4e84-9a45-0935598e86a8).
 
-This blog is hosted on [GitHub](www.github.com) and is built with [Jekyll](https://jekyllrb.com/) as a fork of [Jekyll Now](http://www.jekyllnow.com/).
+This blog is hosted on [GitHub](http://www.github.com) and is built with [Jekyll](https://jekyllrb.com/) as a fork of [Jekyll Now](http://www.jekyllnow.com/).
