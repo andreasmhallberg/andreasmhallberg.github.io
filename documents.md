@@ -12,8 +12,8 @@ permalink: /documents/
 
 {% for publication in site.data.publications  %}
 
-({{ publication.year}})<!--
---> {% if publication.authors %}{{ publication.authors %}}{% endif %}
+{% if publication.authors %}{{ publication.authors %}}{% endif %} <!--
+-->({{ publication.year}})
 {{ publication.title }}.
 {{ publication.ref | markdownify | remove: '<p>' | remove: '</p>' }}
 <details style="margin-top: -.7em; margin-left: 1em">
