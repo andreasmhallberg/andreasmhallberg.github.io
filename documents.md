@@ -14,7 +14,7 @@ permalink: /documents/
 
 ({{ publication.year}})<!--
 --> {% if publication.authors %}{{ publication.authors %}}{% endif %}
-<b>{{ publication.title }}.</b>
+{{ publication.title }}.
 {{ publication.ref | markdownify | remove: '<p>' | remove: '</p>' }}
 <details style="margin-top: -.7em; margin-left: 1em">
 <summary>
@@ -51,8 +51,8 @@ permalink: /documents/
 {% if publication.authors %}
 {{ publication.authors %}}
 {% endif %}<!--
--->({{ publication.year }}) <b>{{ publication.title }}</b>
-&emsp;[{{ publication.type }}]
+-->({{ publication.year }}) {{ publication.title }}.
+({{ publication.type }})
 {{ publication.ref | markdownify | remove: '<p>' | remove: '</p>' }}
 <details style="margin-top: -.7em; margin-left: 1em">
 <summary>
