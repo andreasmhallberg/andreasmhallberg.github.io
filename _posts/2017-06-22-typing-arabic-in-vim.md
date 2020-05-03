@@ -10,10 +10,14 @@ thumbnail: /images/2017-06-22/rtl.png
 updates: 
     - date: 2018-11-07
       contents: Editing and spelling corrections.
+    - date: 2020-05-03
+      contents: Added paragraph on terminal emulators.
 ---
 
 
 I often write documents, such as exams and lecture notes, that contain both Latin and Arabic script, often on the same line of text. This can be challenging due to the complications of mixing of LTR (left-to-right) and RTL (right-to-left) scripts. This seems like an easy problem to solve for software developers, and it is, only not in software with graphical WYSIWYG interfaces, such as Word or OpenOffice. (I'm sure everyone who has tried writing mixed direction text in such software share my frustration with them, and I will therefore refrain from rants.) Since my shift to exclusively producing and editing text in plain text formats (.txt, .mkd, .tex, etc.) with the editor Vim, writing texts with mixed directionality has become a lot easier. This post is  an attempt to explain how.
+
+This post only deals with the Vim side of things. The correct rendering of Arabic text also depends on the terminal in which you are running Vim. Not all terminals can display Arabic text correctly. For example, I use a Mac, and the terminal it ships with (Terminal.app) cannot connect letters. I run Vim in either in [ITerm2](https://iterm2.com/) or [MacVim](https://macvim-dev.github.io/macvim/), both of which display the characters correctly.
 
 ## Directionality and display
 
