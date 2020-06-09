@@ -1,4 +1,4 @@
----
+----
 title: README
 lang: en
 ---
@@ -22,9 +22,6 @@ The YAML headers have the following attributes ():
     Should be `post`.
 
 - `title` 
-
-    Selfexplenatory.
-
 - `permalink`
 
     Extension of http address to this post. If not explicitly made will be generated from date by Jekyll. Must be enclosed in `/`.
@@ -90,10 +87,8 @@ updates:
       contents: A version of this timeline in German has subsequently been published in *Einführung in die arabische Grammatiktradition* by Frank Weigelt (Harrowitz, 2017).  
 ```
 
-# Assets
+# Images
 
-## Images
+# Documents
 
-## Documents
-
-## Data
+# Data

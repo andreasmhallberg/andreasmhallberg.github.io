@@ -2,11 +2,13 @@
   type: article
   lang: en
   authors: Hallberg, A. & Niehorster, D.
-  year: Forthcoming
+  year: 2020
   ref: '<i>Reading and Writing: An Interdisciplinary Journal</i>'
-  pdf:
-  link: 
-  abstract:
+  doi: https://doi.org/10.1007/s11145-020-10040-6 
+  pdf: https://link.springer.com/content/pdf/10.1007/s11145-020-10040-6.pdf
+  link: https://link.springer.com/article/10.1007/s11145-020-10040-6
+  abstract: Morphologically marked case is in Arabic a feature exclusive to the variety of Standard Arabic, with no parallel in the spoken varieties, and it is orthographically marked only on some word classes in specific grammatical situations. In this study we test the hypothesis that readers of Arabic do not parse sentences for case and that orthographically marked case can therefore be removed with no effect on reading. Twenty-nine participants read sentences in which one of the two most frequent types of orthographically marked case was either retained or omitted, while their eye-movements were monitored. The removal of case marking from subjects in the sound masculine plural declension (changing the suffix ‑ūn ـون to ‑īn ـين) had no negative effect on gaze duration, regressions out, or go-past time. The removal of case marking form direct objects in the triptote declension (omitting the suffix -an ـاً) did however resulted in an increase in these measures. These results indicate that only some forms of case marking are required in the grammar used by readers for parsing written text.
+
 
 - title: Några egenheter i arabisk standardspråksideologi 
   type: bookchapter
