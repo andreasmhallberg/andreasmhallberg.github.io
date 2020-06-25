@@ -6,7 +6,8 @@ layout: default
 
 <div class="posts">
   {% for post in site.posts %}
-    <article class="post">
+    <article class="post"{% if post.lang == 'ar' %} dir="rtl"{% endif %}>
+
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
@@ -29,10 +30,14 @@ layout: default
       {% if post.lang == 'en' %}
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
       {% endif %}
-
       {% if post.lang == 'sv' %}
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Läs mer</a>
       {% endif %}
+      {% if post.lang == 'ar' %}
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">إقرأ المزيد</a>
+      {% endif %}
+
+      
 
     </article>
   {% endfor %}
