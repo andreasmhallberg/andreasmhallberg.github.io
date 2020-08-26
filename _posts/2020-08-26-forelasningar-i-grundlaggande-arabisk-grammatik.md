@@ -20,7 +20,7 @@ Den övergripande strukturen och ordförrådet för exempelmeningar följer kapi
 
 Ljudkvalitén är inte optimal, men, tror jag, inte störande dålig. Alla inspelningar är oredigerade första tagningar. Detta för att a)&nbsp; jag är lat, och b)&nbsp;jag vill behålla känslan av en "riktig" föreläsning. Inspelningarna är gjorda dels i Humansten på Göteborgs universitet och dels på Språk- och litteraturcentrum på Lunds universitet.
 
-| *Kap.* | *Föreläsning*                                                                                                              | *Sidor i Al-Kitaab* |
+| *Kap.* | *Innehåll*                                                                                                              | *Sidor i Al-Kitaab* |
 | :--    | :-------------------------------------                                                                                     | :------------------ |
 | 1a     | 1. [Personböjning](https://play.gu.se/media/1a1-personbojning+%28inget+intro%29/0_lldbix3o)                                |  3--4               |
 |        | 2. [Bestämning](https://play.gu.se/media/1a2-bestamning/0_45qpfd1u)                                                        | 14--15              |
