@@ -1,6 +1,6 @@
 ﻿---
 layout: post
-title: ملخص باللغة العربية لدراسة في دور العلامات الإعرابية في القراءة
+title: دراسة حول العلامات الإعرابية في القراءة
 permalink: /parsing-non-standard-ar/
 lang: ar
 length: medium
