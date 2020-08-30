@@ -20,12 +20,12 @@ Den övergripande strukturen och ordförrådet för exempelmeningar följer kapi
 
 Ljudkvalitén är inte optimal, men, tror jag, inte störande dålig. Alla inspelningar är oredigerade första tagningar. Detta för att a)&nbsp; jag är lat, och b)&nbsp;jag vill behålla känslan av en "riktig" föreläsning. Inspelningarna är gjorda dels i Humansten på Göteborgs universitet och dels på Språk- och litteraturcentrum på Lunds universitet.
 
-| *Kap.* | *Innehåll*                                                                                                              | *Sidor i Al-Kitaab* |
+| *Kap.* | *Innehåll*                                                                                                                 | *Sidor i Al-Kitaab* |
 | :--    | :-------------------------------------                                                                                     | :------------------ |
 | 1a     | 1. [Personböjning](https://play.gu.se/media/1a1-personbojning+%28inget+intro%29/0_lldbix3o)                                |  3--4               |
 |        | 2. [Bestämning](https://play.gu.se/media/1a2-bestamning/0_45qpfd1u)                                                        | 14--15              |
 |        | 3. [*Nisba*-adjektiv](https://play.gu.se/media/1a3-nisba/0_9yb6zso4)                                                       | 6--7                |
-| 1b     | [Formell/informell högläsning](https://play.gu.se/media/1b1-formell-och-informell-hoglasning/0_59b69hke)                |                     |
+| 1b     | [Formell/informell högläsning](https://play.gu.se/media/1b1-formell-och-informell-hoglasning/0_59b69hke)                   |                     |
 | &nbsp; |                                                                                                                            |                     |
 | 2a     | 1. [Plural: pronomen/verb](https://play.gu.se/media/2a1-person/0_6h0zqmvy)                                                 | 25--26              |
 |        | 2. [Plural: regelbunden m./f.](https://play.gu.se/media/2a2-reg-mf-pl/0_6d18vrbc)                                          | 27--31, 48--51      |
