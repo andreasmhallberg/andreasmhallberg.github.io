@@ -5,7 +5,7 @@ lang: en
 permalink: /about/
 ---
 
-I am an Assistant Professor in Arabic at the University of Gothenburg. This blog is a space for me to write informally about Arabic linguistics, research, teaching, writing tools, and related things that interest me. It is also a platform for me to make teaching materials I develop available. Posts are written in English or Swedish depending on topic. Typos and poor grammar may occur. Typically, posts that get more views are more carefully edited post publication.
+I am an Assistant Professor in Arabic at the University of Gothenburg. This blog is a space for me to write informally about Arabic linguistics, research, teaching, writing tools, and related things that interest me. It is also a platform for me to make teaching materials I develop available. Posts are written in English, Swedish or Arabic depending on topic. Typos and poor grammar may occur. Typically, posts that get more views are more carefully edited post publication.
 
 If you have found any material published here useful (in your teaching, studies, or something else entirely) I'd love to hear about it. [Drop me a mail.](<mailto:andreas.hallberg@sprak.gu.se>)
 
