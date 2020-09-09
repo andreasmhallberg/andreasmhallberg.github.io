@@ -16,7 +16,7 @@ permalink: /documents/
 -->({{ publication.year}})
 {{ publication.title }}.
 {{ publication.ref | markdownify | remove: '<p>' | remove: '</p>' }}<!--
--->{{% if publication.doi %}}<a href="{{ publicatoin.doi }}">{{ publication.doi }}</a>{{% endif %}}
+-->{{% if publication.doi %}} <{{ publication.doi }}>{{% endif %}}
 <details style="margin-top: -.7em; margin-left: 1em">
 <summary>
 <!-- abstract --> {% if publication.abstract %}
