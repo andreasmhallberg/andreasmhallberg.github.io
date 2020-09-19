@@ -12,7 +12,7 @@ updates:
     contents: Fixed typo. kafrat → karfat
 ---
 
-This fall I have been teaching a course in Syrian Arabic, and in preparation for this I read Cowell's excellent *A Reference Grammar of Syrian Arabic* (1964), more or less cover to cover. This grammar is nothing short of fantastic. It is well organized, fairly easy to read, and it is, above all, comprehensive. Every little nook and cranny of the language seems to be explored and explained, and all is illustrated with authentic data. (Being from 1964, it does however contain some examples with words that are no longer in use.) I have a pretty good command of Syrian Arabic, but I have not studied it formally, and when reading this grammar, I had quite a few *aha*-moments, when quirky bits of the grammar in Syrian Arabic that I had found strange or confusing fell into place. There were also a lot of things I knew intuitively, but that I had never consciously formulated, and that I had not seen formally described. This post is a description of a some things that I found particularity interesting, namely: derived verb forms with the infixes *w* and *r*; special forms of numerals for specific nouns; the "*-āt* of batch", as I like to call it; the *bi-/fī-* complementary distribution; variants of demonstrative pronouns; and the three yeses.
+This fall I have been teaching a course in Syrian Arabic, and in preparation for this I read Cowell's excellent *A Reference Grammar of Syrian Arabic* (1964), more or less cover to cover. This grammar is nothing short of fantastic. It is well organized, fairly easy to read, and it is, above all, comprehensive. Every little nook and cranny of the language seems to be explored and explained, and all is illustrated with authentic data. (Being from 1964, it does, however, contain some examples with words that are no longer in use.) I have a pretty good command of Syrian Arabic, but I have not studied it formally, and when reading this grammar, I had quite a few *aha*-moments, when quirky bits of the grammar in Syrian Arabic that I had found strange or confusing fell into place. There were also a lot of things I knew intuitively, but that I had never consciously formulated, and that I had not seen formally described. This post is a description of a some things that I found particularity interesting, namely: derived verb forms with the infixes *w* and *r*; special forms of numerals for specific nouns; the "*-āt* of batch", as I like to call it; the *bi-/fī-* complementary distribution; variants of demonstrative pronouns; and the three yeses.
 
 Page references to Cowell are provided in parentheses in the headings.
 
@@ -88,7 +88,7 @@ This form, Cowell explains, is used to delimit a piece of a larger mass:
 
 This *-āt* is not an actual plural, but a 'batch-marker'. *ha‑r‑ruzz‑āt tayyibīn* 'this rice (pl.) is good', uttered when having a meal, means something like 'this patch of rice [delimited by being in the pot] is good'. In contrast, *ha-r-ruzz tayyib*, without the indefinite quantification designated by the plural form, uttered in the same situation, would mean 'This [type of rice] is good.' That is, it is not delimited to this particular limited amount or batch at hand.
 
-Cowell mentions that if one of the nouns that may take indefinite quantification (the *-āt* of batch) has a possessive pronoun, it generally must have this *-at*-ending, to donate only the batch. This is because the possession makes the noun definite and delimited by nature. The second example above, *šaʿr‑ā‑-ak ḥelwīn* 'your hair is nice', would therefore be strange without the *-āt*. *šaʿr‑ak ḥilw* would mean something like 'your hair in general [not just the hear on your head?] is nice'.
+Cowell mentions that if one of the nouns that may take indefinite quantification (the *-āt* of batch) has a possessive pronoun, it generally must have this *-at*-ending, to donate only the batch. This is because the possession makes the noun definite and delimited in nature. The second example above, *šaʿr‑ā‑ak ḥelwīn* 'your hair is nice', would therefore be strange without the *-āt*. *šaʿr‑ak ḥilw* would mean something like 'your hair in general [not just the hear on your head?] is nice'.
 
 ## The *bi-/fi-* complementary distribution (p.&nbsp;479)
 
@@ -122,7 +122,7 @@ The normal word for 'yes' in Syrian Arabic is *ēh*. There is also *mbala*, whic
 
 1. with rising intonation to ask for a repetition of what was just said (*naʿm?*).
 
-1. with falling intonation (that is, not with question-like raise in intonation) as an answer 
+1. with falling intonation (that is, not with question-like raise in intonation) as an answer to
    
     a. a call
  
