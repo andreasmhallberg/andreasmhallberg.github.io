@@ -24,8 +24,8 @@ permalink: /tags/
 </div>
 
 <p class="date">
-S: short post
-M: medium length post
+S: short post;
+M: medium length post;
 L: long post
 </p>
 
