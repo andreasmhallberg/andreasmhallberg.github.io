@@ -5,7 +5,7 @@ permalink: /arabic-verb-forms/
 lang: en
 length: medium
 tags: 
-- tafl
+- teaching-materials
 document: /documents/verb-forms/verb-forms.tex.pdf
 documenttitle: Verb forms I-X
 thumbnail: /images/verb-forms.thumbnail.png

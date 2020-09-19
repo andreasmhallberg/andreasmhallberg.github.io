@@ -6,7 +6,7 @@ lang: sv
 length: short
 tags:
 - linguistics
-- tafl
+- teaching-materials
 document: /documents/sa-konsonantinventariet.tex.pdf
 documenttitle: Det standardarabiska konsonantinventariet
 thumbnail: /images/sainventarie-thumbnail.png

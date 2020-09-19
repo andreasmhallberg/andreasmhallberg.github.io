@@ -6,7 +6,7 @@ lang: ar
 length: medium
 tags:
     - linguistics
- \# updates: 
+ # updates: 
  #  - date:
  #    contents:
 excerpt_separator: <!--excerpt_end-->

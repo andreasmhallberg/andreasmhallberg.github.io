@@ -5,7 +5,8 @@ permalink: /forelasningar-i-grundlaggande-arabisk-grammatik/
 lang: sv
 length: short
 tags:
-  - tafl
+  - teaching-materials
+  - lecture
  # document: /documents/xx.pdf
  # documenttitle: 
  # thumbnail: /images/xx.png

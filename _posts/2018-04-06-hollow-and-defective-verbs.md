@@ -5,7 +5,7 @@ permalink: /hollow-and-derfective-verbs/
 lang: en
 length: short
 tags: 
-  - tafl
+  - teaching-materials
 document: /documents/verb-forms/hollow-and-defective-verbs.tex.pdf
 documenttitle: Hollow/Defective Verbs Form I-X
 thumbnail: /images/verb-forms.thumbnail.png
