@@ -8,18 +8,41 @@ permalink: /only-en/
 <div class="posts">
   {% for post in site.posts %}
 
-      {% if post.lang == 'en' %}
-    <article class="post">
+      {% if post.lang == 'en' or post.lang == 'ar' %}
+    <article class="post"{% if post.lang == 'ar' %} dir="rtl"{% endif %}>
+
+
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
+      {% if post.lang == 'sv' %}
+          <div class="date">
+              (Swedish)
+          </div>
+      {% endif %}
+      <p>
       <div class="entry">
+        {% if post.thumbnail %}
+        <a href="{{ site.baseurl }}{{ post.url }}">
+            <img style="float: right; max-width: 40%; max-height: 300px; margin-left: 15px; margin-bottom: 10px;" src="{{ post.thumbnail }}">
+        </a>
+        {% endif %}
         {{ post.excerpt }}
       </div>
+      </p>
 
+      {% if post.lang == 'en' %}
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      {% endif %}
+      {% if post.lang == 'sv' %}
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Läs mer</a>
+      {% endif %}
+      {% if post.lang == 'ar' %}
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">إقرأ المزيد</a>
+      {% endif %}
+
+      
 
     </article>
-    {% else %}
     {% endif %}
   {% endfor %}
 </div>
