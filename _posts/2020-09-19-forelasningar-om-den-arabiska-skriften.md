@@ -19,5 +19,5 @@ Nedan finner du länkar till två föreläsningar om den arabiska skriften som j
 
 - [Del 1: Skriftsystemet](https://play.gu.se/media/Den+arabiska+skriften+1A+Skriftsystemet/0_sdj1f9c9) (30&nbsp;min) behandlar det faktum att man på arabiska i normalfallet inte har tecken för korta vokaler, hur korta vokaler kan läggas till med ett extra lager av skrivtecken, och vad detta betyder för hur man läser, och hur man lära sig läsa, på arabiska.
 
-- [Del 2: Bokstavsbindning](https://play.gu.se/media/Den+arabiska+skriften+2A+bokstavsbindning/0_qu29n48i) (24&nbsp;min.) behandlar principerna för hur man på arabiska binder ihop bokstäver så att varje ord blir en grafisk enhet.
+- [Del 2: Bokstavsbindning](https://play.gu.se/media/Den+arabiska+skriften+2A+bokstavsbindning/0_qu29n48i) (24&nbsp;min) behandlar principerna för hur man på arabiska binder ihop bokstäver så att varje ord blir en grafisk enhet.
 
