@@ -12,11 +12,13 @@ permalink: /documents/
 
 {% for publication in site.data.publications  %}
 
-{% if publication.authors %}{{ publication.authors %}}{% endif %} <!--
--->({{ publication.year}})
+{{ publication.author }} <!--
+-->({{ publication.year}}).
 {{ publication.title }}.
 {{ publication.ref | markdownify | remove: '<p>' | remove: '</p>' }}<!--
--->{{% if publication.doi %}} <{{ publication.doi }}>{{% endif %}}
+-->{{% if publication.doi %}}
+<a href="{{ publication.doi }}">{{ publication.doi }}</a>
+{{% endif %}}
 <details style="margin-top: -.7em; margin-left: 1em">
 <summary>
 <!-- abstract --> {% if publication.abstract %}
@@ -49,11 +51,9 @@ permalink: /documents/
 {% for publication in site.data.publicationsmisc  %}
 
 
-{% if publication.authors %}
-{{ publication.authors %}}
-{% endif %}<!--
--->({{ publication.year }}) {{ publication.title }}.
-({{ publication.type }})
+{{ publication.author }}
+({{ publication.year }}). {{ publication.title }}
+({{ publication.type }}).
 {{ publication.ref | markdownify | remove: '<p>' | remove: '</p>' }}
 <details style="margin-top: -.7em; margin-left: 1em">
 <summary>

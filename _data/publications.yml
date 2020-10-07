@@ -1,9 +1,9 @@
 - title: 'Parsing written language with non-standard grammar: an eye-tracking study of case marking in Arabic'
   type: article
   lang: en
-  authors: Hallberg, A. & Niehorster, D.
+  author: Hallberg, A. & Niehorster, D.
   year: 2020
-  ref: '<i>Reading and Writing: An Interdisciplinary Journal</i>'
+  ref: '<i>Reading and Writing: An Interdisciplinary Journal.</i>'
   doi: https://doi.org/10.1007/s11145-020-10040-6 
   pdf: https://link.springer.com/content/pdf/10.1007/s11145-020-10040-6.pdf
   link: https://link.springer.com/article/10.1007/s11145-020-10040-6
@@ -12,6 +12,7 @@
 
 - title: Några egenheter i arabisk standardspråksideologi 
   type: bookchapter
+  author: Hallberg, A.
   lang: sv
   year: 2017
   pdf: /documents/Hallberg-2017-nagra-egenheter.pdf
@@ -20,6 +21,7 @@
 
 - title: Case Endings in Spoken Standard Arabic
   type: dissertation
+  author: Hallberg, A.
   lang: en
   year: 2016
   pdf: http://lup.lub.lu.se/search/ws/files/3772169/8852155.pdf

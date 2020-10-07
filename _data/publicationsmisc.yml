@@ -1,4 +1,5 @@
 - title: Zeittafel
+  author: Hallberg, A.
   type: graphical timeline
   lang: de
   year: 2017
@@ -9,15 +10,17 @@
 
 - title: Skammen
   type: translation
+  author: Hallberg, A.
   lang: sv
   year: 2017
-  ref: Short story by Miryam Hammoud. In&nbsp;<i>Glänta</i> 2-3.17. 42--8.
+  ref: In&nbsp;<i>Glänta</i> 2-3.17. 42--8.
   link: http://glanta.org/tidskrift/alla-nummer/?view=76
 
 - title: Tawfiq Basha och den nya musiken
   type: translation
+  author: Hallberg, A.
   lang: sv
   year: 2017
-  ref: Article by Muḥammad Kurayyim. In&nbsp;<i>Glänta</i> 2-3.17. 153--9.
+  ref: In&nbsp;<i>Glänta</i> 2-3.17. 153--9.
   link: http://glanta.org/tidskrift/alla-nummer/?view=76
 
