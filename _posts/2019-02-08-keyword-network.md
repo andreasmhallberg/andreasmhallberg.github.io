@@ -49,8 +49,6 @@ To make the whole thing less dense and more practically useful, I plotted the da
 
 Now it's much more readable, and you can actually retrieve information from it. A good plot is one that allows you to see both larger structures and to pick out detailed information. On the larger scale in this plot you can see for example the blob of `diglossia`, and that it is densely connected in my notes with `language-planning`, `language-idoelogy`, `code-switching` and `literacy`. `ALT` (the Arabic Linguistic Tradition), at the bottom, has a bunch of references all to itself, but is also connected with `language-ideology` and `language-instruction`. You can also zoom in (conceptually, or literally on your favorite pdf-reader) on, say, the space between `diglossia` and `language-ideology` to see what references I have notes on that deal with those two topics in combination.
 
-Since the plot generation is scripted, the plot can easily be redrawn as more notes are added. The [version of the plot on GitHub](https://github.com/andreasmhallberg/readingnotes/blob/master/keyword-counts/kamadakawai.ar.pdf) will be updated from time to time. The one posted here will remain fixed for now.
-
 This project has been quite satisfying, not the least because it gives me a sense of actually having achieved some reading the last couple of years. The practical use I have found in the plot so far is that it makes interesting things I have read rediscoverable, by placing them in a meaningful context. I find myself sometimes staring at this plot, following its nodes and angels, mentally revisiting and reminding myself of things I read several years ago.
 
 But most of all it just looks impressive.
