@@ -7,8 +7,6 @@ length: long
 tags:
 - linguistics
 updates: 
-  - date: 2019-12-04
-    contents: 'Monor editing'
   - date: 2020-03-15
     contents: 'Correction: yizīdak aš-šaraf ->  yizīdak šaraf. Removed: ʿīd mubārak (too formal)'
 ---
