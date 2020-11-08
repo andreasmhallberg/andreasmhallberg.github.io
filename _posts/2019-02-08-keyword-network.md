@@ -11,10 +11,10 @@ documenttitle: Keyword network
 thumbnail: /images/2019-02-08/network.thumbnail.png
 minidoc: /images/2019-02-08/keywordnetwork.ar.190128.pdf.png
 updates: 
+  - date: 2019-09-08
+    contents: Editing
   - date: 2019-03-23
     contents: Editing
-  - date: 2019-09-08
-    contents: Further editing
 ---
 
 When I read books and articles related to my research, I usually take [notes](/reading-notes-on-github/) of what is most interesting to me, with each note in separate text file. To each file I add one or more keywords from a set list. A note can contain any arbitrary combination of keywords. The idea with these keywords is to allow me to sort or filter the notes by topic. A while back it struck me that these keywords form a network of connected nodes and that this network could probably somehow be visualized. Some ideas completely obsess you and won't leave you alone. The only way to get them out of your head is to let them materialize in the real world.
