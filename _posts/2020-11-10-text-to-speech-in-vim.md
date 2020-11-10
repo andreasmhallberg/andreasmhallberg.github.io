@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Text-to-speech in Vim (for proofreading)'
-permalink: /text-to-speak-in-vim/
+permalink: /text-to-speech-in-vim/
 lang: en
 length: medium
 tags:
