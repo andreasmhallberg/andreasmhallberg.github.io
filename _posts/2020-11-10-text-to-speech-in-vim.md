@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Text-to-speach in Vim (for proofreading)'
+title: 'Text-to-speech in Vim (for proofreading)'
 permalink: /text-to-speak-in-vim/
 lang: en
 length: medium
