@@ -8,7 +8,7 @@ length: short
 tags:
   - teaching-materials
 document: /documents/arabic-letters-and-vowel-markers.tex.pdf
-documenttitle: Arabic letters and vowel markers
+documenttitle: The Arabic writing system
 thumbnail: /images/arabic-letters.thumbnail.png
 updates: 
   - date: 2019-12-20

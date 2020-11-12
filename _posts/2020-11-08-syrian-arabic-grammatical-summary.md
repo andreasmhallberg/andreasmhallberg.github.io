@@ -98,13 +98,13 @@ Phonemes within parenthesis are specific to Standard Arabic and are not part of 
 ## Vowels
 
 
-| Short     | Long   |                            |
-| :-: | :-: | :-: |
-| *i*       | *ii*   | <span lang="ar" dir="rtl">ي</span>   |
-| *e*       | *ee*   | <span lang="ar" dir="rtl">ي</span>   |
-| *u*       | *uu*   | <span lang="ar" dir="rtl">و</span>   |
-| *o*       | *oo*   | <span lang="ar" dir="rtl">و</span>   |
-| *a*       | *aa*   | <span lang="ar" dir="rtl">ا</span>   |
+| Short | Long |                                    |
+| :-:   | :-:  | :-:                                |
+| *i*   | *ii* | <span lang="ar" dir="rtl">ي</span> |
+| *e*   | *ee* | <span lang="ar" dir="rtl">ي</span> |
+| *u*   | *uu* | <span lang="ar" dir="rtl">و</span> |
+| *o*   | *oo* | <span lang="ar" dir="rtl">و</span> |
+| *a*   | *aa* | <span lang="ar" dir="rtl">ا</span> |
 
 Note:
 
@@ -152,31 +152,30 @@ Forms in parenthesis are used with words with final vowel: *aʿTaa-ki* ‘he ga
 
 Attached pronouns are used for:
 
-|                           |                |                     |
-| :-         | :- | :- |
-| possession                | *ktaab-o*      | ‘his book’          |
-| prepositional complements | *maʿ-o*        | ‘with-him’          |
-| direct objects            | *katabt-o*     | ‘I wrote it’        |
-| indirect objects          | *katabt-l-o*   | ‘I wrote for him’   |
+|                           |              |                   |
+| :-                        | :-           | :-                |
+| possession                | *ktaab-o*    | ‘his book’        |
+| prepositional complements | *maʿ-o*      | ‘with-him’        |
+| direct objects            | *katabt-o*   | ‘I wrote it’      |
+| indirect objects          | *katabt-l-o* | ‘I wrote for him’ |
 
 The connective *-l-* ‘for’ for indirect objects may take the form *-el-* to prevent consonant clusters: *katabt‑el‑kon* ‘I wrote for you&nbsp;(pl.)’. A direct object may then be added with the word *yaa-:* *katabt-l-ak yaa-ha* ‘I wrote it&nbsp;(fem.) for you’.
 
 ## Demonstrative pronouns
 
-|          | Close         | Distant        | <span lang="ar" dir="rtl">بعيد</span>     | <span lang="ar" dir="rtl">قريب</span>   |
-| :- | :- | :- | -: | -: |
-| m.s.    | *haada*       | *hadaak(e)*    | <span lang="ar" dir="rtl">هداك</span>     | <span lang="ar" dir="rtl">هادا</span>   |
-| f.s     | *haay(e)*     | *hadiik(e)*    | <span lang="ar" dir="rtl">هديك</span>     | <span lang="ar" dir="rtl">هاي</span>    |
-| pl.     | *hadool(e)*   | *haadooliik*   | <span lang="ar" dir="rtl">هدوليك</span>   | <span lang="ar" dir="rtl">هدول</span>   |
+|      | Close       | Distant      | <span lang="ar" dir="rtl">بعيد</span>   | <span lang="ar" dir="rtl">قريب</span> |
+| :-   | :-          | :-           | -:                                      | -:                                    |
+| m.s. | *haada*     | *hadaak(e)*  | <span lang="ar" dir="rtl">هداك</span>   | <span lang="ar" dir="rtl">هادا</span> |
+| f.s  | *haay(e)*   | *hadiik(e)*  | <span lang="ar" dir="rtl">هديك</span>   | <span lang="ar" dir="rtl">هاي</span>  |
+| pl.  | *hadool(e)* | *haadooliik* | <span lang="ar" dir="rtl">هدوليك</span> | <span lang="ar" dir="rtl">هدول</span> |
 
 Note:
 
 - Several forms have a stylistic variant with final *e*.
 
-- *haada* has a shortened, *haad*, used only at the end of phrases: *shuu haad?* ‘What is this?’.
+- *haada* has a shortened form, *haad*, used only at the end of phrases: *shuu haad?* ‘What is this?’.
 
 - The distant plural pronoun has several variants not listed above, including *hadook, hadenk*, and *hadenken*.
-
 
 # Nouns
 
@@ -186,65 +185,65 @@ Nouns are inflected for number and definiteness, and most animate nouns (referri
 
 There are four ways to form plural: *irregular*, *regular masculine*, *regular feminine*, and *general human*:
 
-|                    |             | Singular     | Plural        |         | <span lang="ar" dir="rtl">جمع</span>      | <span lang="ar" dir="rtl">مفرد</span>    |
-| :-          | :-      | :- | :- | :-     | -: | -: |
-| Irrergula         |            | *beet*       | *buyuut*      | house  | <span lang="ar" dir="rtl">بيوت</span>     | <span lang="ar" dir="rtl">بيت</span>     |
-| Regular masculine | *-iin*     | *muslim*     | *muslemiin*   | muslim | <span lang="ar" dir="rtl">مسلمين</span>   | <span lang="ar" dir="rtl">مسلم</span>    |
-| Regular feminine  | *-aat*     | *sheghle*    | *sheghlaat*   | thing  | <span lang="ar" dir="rtl">شغلات</span>     | <span lang="ar" dir="rtl">شغلة</span>    |
-| General human     | -*(iyy)e* | *ʿeraaqi*    | *ʿeraaqiyye*  | Iraqi  | <span lang="ar" dir="rtl">عراقية</span>   | <span lang="ar" dir="rtl">عراقي</span>   |
+|                   |           | Singular  | Plural       |        | <span lang="ar" dir="rtl">جمع</span>    | <span lang="ar" dir="rtl">مفرد</span>  |
+| :-                | :-        | :-        | :-           | :-     | -:                                      | -:                                     |
+| Irrergula         |           | *beet*    | *buyuut*     | house  | <span lang="ar" dir="rtl">بيوت</span>   | <span lang="ar" dir="rtl">بيت</span>   |
+| Regular masculine | *-iin*    | *muslim*  | *muslemiin*  | muslim | <span lang="ar" dir="rtl">مسلمين</span> | <span lang="ar" dir="rtl">مسلم</span>  |
+| Regular feminine  | *-aat*    | *sheghle* | *sheghlaat*  | thing  | <span lang="ar" dir="rtl">شغلات</span>   | <span lang="ar" dir="rtl">شغلة</span>  |
+| General human     | -*(iyy)e* | *ʿeraaqi* | *ʿeraaqiyye* | Iraqi  | <span lang="ar" dir="rtl">عراقية</span> | <span lang="ar" dir="rtl">عراقي</span> |
 
 # Prepositions
 
-|                 |                                   |                 |
-|:-|-:|:-|
-| *ʿa-*           |          <span lang="ar" dir="rtl">ع</span>| to              |
-| *ʿala/ʿalee-*   |    <span lang="ar" dir="rtl">على/عليـ</span>| on              |
-| *ʿand*          |         <span lang="ar" dir="rtl">عند</span>| with, at        |
-| *been*          |         <span lang="ar" dir="rtl">بين</span>| between         |
-| *been/beenaat-* |  <span lang="ar" dir="rtl">بين/بيناتـ</span>| among           |
-| *bi-/fii-*      |      <span lang="ar" dir="rtl">بـ/فيـ</span>| in, at          |
-| *men*           |          <span lang="ar" dir="rtl">من</span>| from            |
-| *Hadd*          |          <span lang="ar" dir="rtl">حد</span>| next to         |
-| *fooʾ*          |         <span lang="ar" dir="rtl">فوق</span>| above           |
-| *taHt*          |         <span lang="ar" dir="rtl">تحت</span>| below           |
-| *maʿ*           |          <span lang="ar" dir="rtl">مع</span>| with            |
-| *wara*          |         <span lang="ar" dir="rtl">ورا</span>| behind          |
-| *ʾuddaam*       |        <span lang="ar" dir="rtl">قدام</span>| in front of     |
-| *la-/el-*       |      <span lang="ar" dir="rtl">لـ/الـ</span>| for (ownership) |
+|                 |                                             |                 |
+| :-              | -:                                          | :-              |
+| *ʿa-*           | <span lang="ar" dir="rtl">ع</span>          | to              |
+| *ʿala/ʿalee-*   | <span lang="ar" dir="rtl">على/عليـ</span>   | on              |
+| *ʿand*          | <span lang="ar" dir="rtl">عند</span>        | with, at        |
+| *been*          | <span lang="ar" dir="rtl">بين</span>        | between         |
+| *been/beenaat-* | <span lang="ar" dir="rtl">بين/بيناتـ</span> | among           |
+| *bi-/fii-*      | <span lang="ar" dir="rtl">بـ/فيـ</span>     | in, at          |
+| *men*           | <span lang="ar" dir="rtl">من</span>         | from            |
+| *Hadd*          | <span lang="ar" dir="rtl">حد</span>         | next to         |
+| *fooʾ*          | <span lang="ar" dir="rtl">فوق</span>        | above           |
+| *taHt*          | <span lang="ar" dir="rtl">تحت</span>        | below           |
+| *maʿ*           | <span lang="ar" dir="rtl">مع</span>         | with            |
+| *wara*          | <span lang="ar" dir="rtl">ورا</span>        | behind          |
+| *ʾuddaam*       | <span lang="ar" dir="rtl">قدام</span>       | in front of     |
+| *la-/el-*       | <span lang="ar" dir="rtl">لـ/الـ</span>     | for (ownership) |
 
 For the prepositions with two alternate forms, the first is used with nouns and the second with pronouns:
 
-|             |                               |                |
-|:-|-:|:-|
-| *bi-l-beet* |  <span lang="ar" dir="rtl">بالبيت</span>| ‘in the house’ |
-| *fii-h*     |     <span lang="ar" dir="rtl">فيه</span>| ‘in it’        |
+|             |                                         |                |
+| :-          | -:                                      | :-             |
+| *bi-l-beet* | <span lang="ar" dir="rtl">بالبيت</span> | ‘in the house’ |
+| *fii-h*     | <span lang="ar" dir="rtl">فيه</span>    | ‘in it’        |
 
 
 # Question words
 
-|            |                               |           |
-|:-|-:|:-|
-| *shuu?*    |     <span lang="ar" dir="rtl">شو؟</span>| what?     |
-| *miin?*    |    <span lang="ar" dir="rtl">مين؟</span>| who?      |
-| *eemta?*   |  <span lang="ar" dir="rtl">ايمتى؟</span>| when?     |
-| *kiif?*    |    <span lang="ar" dir="rtl">كيف؟</span>| how?      |
-| *ween?*    |    <span lang="ar" dir="rtl">وين؟</span>| where?    |
-| *leesh?*   |    <span lang="ar" dir="rtl">ليش؟</span>| why?      |
-| *addeesh?* |   <span lang="ar" dir="rtl">قديش؟</span>| how much? |
-| *kam?*     |     <span lang="ar" dir="rtl">كم؟</span>| how many? |
+|            |                                         |           |
+| :-         | -:                                      | :-        |
+| *shuu?*    | <span lang="ar" dir="rtl">شو؟</span>    | what?     |
+| *miin?*    | <span lang="ar" dir="rtl">مين؟</span>   | who?      |
+| *eemta?*   | <span lang="ar" dir="rtl">ايمتى؟</span> | when?     |
+| *kiif?*    | <span lang="ar" dir="rtl">كيف؟</span>   | how?      |
+| *ween?*    | <span lang="ar" dir="rtl">وين؟</span>   | where?    |
+| *leesh?*   | <span lang="ar" dir="rtl">ليش؟</span>   | why?      |
+| *addeesh?* | <span lang="ar" dir="rtl">قديش؟</span>  | how much? |
+| *kam?*     | <span lang="ar" dir="rtl">كم؟</span>    | how many? |
   
 Question words are normally clause-inital, and may be preceded by a preposition:
 
-|                         |                             |
-| :- | -: |
-| *maʿ miin ʿam taHki?*   | ‘Who are you talking to?’   |
+|                       |                           |
+| :-                    | -:                        |
+| *maʿ miin ʿam taHki?* | ‘Who are you talking to?’ |
 
 Only *ween* and *kiif* take attached pronouns:
 
-|            |                              |                  |
-|:-|-:|:-|
-| *ween-ak?* |  <span lang="ar" dir="rtl">وينك؟</span>| ‘Where are you?’ |
-| *kiif-ak?* |  <span lang="ar" dir="rtl">كيفك؟</span>| ‘How are you?’   |
+|            |                                        |                  |
+| :-         | -:                                     | :-               |
+| *ween-ak?* | <span lang="ar" dir="rtl">وينك؟</span> | ‘Where are you?’ |
+| *kiif-ak?* | <span lang="ar" dir="rtl">كيفك؟</span> | ‘How are you?’   |
 
 Yes/no-question are formed with rising intonation.
 
