@@ -15,9 +15,9 @@ excerpt: This is a short pedagogical summary of the variety of Arabic spoken in 
 tags:
   - teaching-materials
   - linguistics
- # updates: 
- #  - date:
- #    contents:
+updates: 
+  - date: 2020-11-20
+    contents: Correted spelling in Arabic script for bumeral 11-19. Added subheading for auxiliary verbs. 
 header-includes:
     - \usepackage[bottom]{footmisc} 
     - \newfontfamily\arabicfont[Script=Arabic]{Lateef}
@@ -52,6 +52,8 @@ following topics are planned to be added:
 
 - syllable structure
 - exclamations
+- imperative
+- maan-negation
 - dual
 - gender
 - gender and number congruency
@@ -62,7 +64,7 @@ following topics are planned to be added:
 
 # Introduction
 
-This is a short pedagogical summary of the variety of Arabic spoken in the Damascus area. It is intended to be used for quick reference for beginner to intermediate language learners and to provide a basic overview of the grammar. It was written as a complement to the Syrian-Arabic material in *Al-Kitaab fii Taʿallun al-ʿArabiyya* (Brustad et al., Georgetown University Press, 2013) but can be used independently. Parts of it are based on *A Reference Grammar of Syrian Arabic* (Georgetown University Press, 2005 [1964]), to which the reader is referred for a detailed and comprehensive grammar.
+This is a short pedagogical summary of the variety of Arabic spoken in the Damascus area. It is intended to be used for quick reference and overview for beginner to intermediate language learners. It was written as a complement to the Syrian-Arabic material in *Al-Kitaab fii Taʿallun al-ʿArabiyya* (Brustad et al., Georgetown University Press, 2013) but can be used independently. Parts of it are based on *A Reference Grammar of Syrian Arabic* (Georgetown University Press, 2005 [1964]), to which the reader is referred for a detailed and comprehensive grammar.
 
 This grammar uses a simplified transcription (see [Phonology](#phonolgy)) adapted from *Alif Baa* (Brustad et al., Georgetown University Press, 2010). Examples in Arabic script represent written vernacular as used in text messaging, advertisement, etc. There is a considerable variation in vernacular orthography, especially in the extent to which Standard Arabic spelling is followed, and forms that differ from those presented here are therefore common.
 
@@ -267,13 +269,13 @@ The pronoun is often omitted. The *e* in parenthesis is omitted on stems beginn
 
 The non-past verb form is preceded by one of the following:
 
-|                |                                        |                          |
-| :-    | -:         | :- |
-| *b-*           | <span lang="ar" dir="rtl">بـ</span>    | habitual, generalities   |
-| *ʿam*          | <span lang="ar" dir="rtl">عم</span>    | ongoing (progressive)    |
-| *Ha-/raH*      | <span lang="ar" dir="rtl">حـ/رح</span> | future                   |
-| *laazim*       | <span lang="ar" dir="rtl">لازم</span>   | ‘have to’                |
-| auxiliary verb |                                        | see below                |
+|                |                                        |                        |
+| :-             | -:                                     | :-                     |
+| *b-*           | <span lang="ar" dir="rtl">بـ</span>    | habitual, generalities |
+| *ʿam*          | <span lang="ar" dir="rtl">عم</span>    | ongoing (progressive)  |
+| *Ha-/raH*      | <span lang="ar" dir="rtl">حـ/رح</span> | future                 |
+| *laazim*       | <span lang="ar" dir="rtl">لازم</span>   | ‘have to’              |
+| auxiliary verb |                                        | see below              |
 
 Note:
 
@@ -283,7 +285,9 @@ Note:
 
 - Some speakers combine *b-* and *ʿam*: *ʿam b-yektob*.
 
-The verb may also be preceded by an auxiliary verb, in which case both the auxiliary and the main verb are inflected for person:
+## Auxiliary verbs
+
+The main verb may be preceded by an auxiliary verb. Both the auxiliary and the main verb are inflected for person:
 
 
 |                  |                                  |                     |
@@ -313,14 +317,14 @@ The verb may also be preceded by an auxiliary verb, in which case both the auxil
 1.  to make a verb-less clause past or future tense:
 
     |                          |                           |
-    |:-|:-|
+    | :-                       | :-                        |
     | *aHmed kaan Taaleb*      | ‘Ahmad was a student’     |
     | *aHmed Ha-yekuun Taaleb* | ‘Ahmad will be a student’ |
 
 2.  to express a past ongoing (progressive) event:
 
-    |                           |                     |
-    |:-|:-|
+    |                           |                      |
+    | :-                        | :-                   |
     | *aHmed kaan (ʿam) yedros* | ‘Ahmed was studying’ |
 
 
@@ -397,14 +401,14 @@ present tense, otherwise the negation *maa* is used:
 | 10  | *ʿashara*                    | *ʿashar*       | <span lang="ar" dir="rtl">عشر</span>      | <span lang="ar" dir="rtl">عشرة</span>        |
 |     |                              |                |                                           |                                              |
 | 11  | *eddaʿsh*                    | *eddaʿshar*    | <span lang="ar" dir="rtl">ادعشر</span>    | <span lang="ar" dir="rtl">ادعش</span>        |
-| 12  | *etnaʿsh*                    | *etnaʿshar*    | <span lang="ar" dir="rtl">اتنعشر</span>   | <span lang="ar" dir="rtl">اتنعش</span>       |
-| 13  | *tlaTaʿsh*                   | *tlaTaʿshar*   | <span lang="ar" dir="rtl">تلاتعشر</span>   | <span lang="ar" dir="rtl">تلاتعش</span>       |
-| 14  | *arbaʿTaʿsh*                 | *arbaʿTaʿshar* | <span lang="ar" dir="rtl">اربعتعشر</span> | <span lang="ar" dir="rtl">اربعتعش</span>     |
-| 15  | *khamasTaʿsh*                | *khamsTaʿshar* | <span lang="ar" dir="rtl">خمستعشر</span>  | <span lang="ar" dir="rtl">خمستعش</span>      |
-| 16  | *seTTaʿsh*                   | *seTTaʿshar*   | <span lang="ar" dir="rtl">ستعشر</span>    | <span lang="ar" dir="rtl">ستعش</span>        |
-| 17  | *sabʿaTaʿsh*                 | *sabʿaTaʿshar* | <span lang="ar" dir="rtl">سبعتعشر</span>  | <span lang="ar" dir="rtl">سبعتعش</span>      |
-| 18  | *tmanTaʿsh*                  | *tmanTaʿshar*  | <span lang="ar" dir="rtl">بماتعشر</span>  | <span lang="ar" dir="rtl">بماتعش</span>      |
-| 19  | *tesʿaTaʿsh*                 | *tesʿaTaʿshar* | <span lang="ar" dir="rtl">تسعتعشر</span>  | <span lang="ar" dir="rtl">تسعتعش</span>      |
+| 12  | *etnaʿsh*                    | *etnaʿshar*    | <span lang="ar" dir="rtl">اتنعشر</span>   | <span lang="ar" dir="rtl">اتطعش</span>       |
+| 13  | *tlaTaʿsh*                   | *tlaTaʿshar*   | <span lang="ar" dir="rtl">تلاطعشر</span>   | <span lang="ar" dir="rtl">تلاطعش</span>       |
+| 14  | *arbaʿTaʿsh*                 | *arbaʿTaʿshar* | <span lang="ar" dir="rtl">اربعطعشر</span> | <span lang="ar" dir="rtl">اربعطعش</span>     |
+| 15  | *khamasTaʿsh*                | *khamsTaʿshar* | <span lang="ar" dir="rtl">خمسطعشر</span>  | <span lang="ar" dir="rtl">خمسطعش</span>      |
+| 16  | *seTTaʿsh*                   | *seTTaʿshar*   | <span lang="ar" dir="rtl">سطعشر</span>    | <span lang="ar" dir="rtl">سطعش</span>        |
+| 17  | *sabʿaTaʿsh*                 | *sabʿaTaʿshar* | <span lang="ar" dir="rtl">سبعطعشر</span>  | <span lang="ar" dir="rtl">سبعطعش</span>      |
+| 18  | *tmanTaʿsh*                  | *tmanTaʿshar*  | <span lang="ar" dir="rtl">تماطعشر</span>  | <span lang="ar" dir="rtl">تماطعش</span>      |
+| 19  | *tesʿaTaʿsh*                 | *tesʿaTaʿshar* | <span lang="ar" dir="rtl">تسعطعشر</span>  | <span lang="ar" dir="rtl">تسعطعش</span>      |
 |     |                              |                |                                           |                                              |
 | 20  | *ʿeshriin*                   |                |                                           | <span lang="ar" dir="rtl">عشرين</span>       |
 | 30  | *tlaatiin*                   |                |                                           | <span lang="ar" dir="rtl">تلاتين</span>       |
