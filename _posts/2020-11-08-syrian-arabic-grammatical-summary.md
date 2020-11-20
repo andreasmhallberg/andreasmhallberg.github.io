@@ -17,7 +17,7 @@ tags:
   - linguistics
 updates: 
   - date: 2020-11-20
-    contents: Correted spelling in Arabic script for bumeral 11-19. Added subheading for auxiliary verbs. 
+    contents: Corrected spelling in Arabic script for numerals 11-19. Added subheading for auxiliary verbs. 
 header-includes:
     - \usepackage[bottom]{footmisc} 
     - \newfontfamily\arabicfont[Script=Arabic]{Lateef}
