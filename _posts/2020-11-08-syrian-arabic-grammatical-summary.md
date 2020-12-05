@@ -375,7 +375,7 @@ present tense, otherwise the negation *maa* is used:
 | Future  | *aHmed* ***maa*** *Ha‑/raH* *yedrus*                | *aHmed* ***maa*** *Ha‑/raH yekuun Taaleb*                |
 |         | <span lang="ar" dir="rtl">أحمد ما حـ/رح يدرس</span> | <span lang="ar" dir="rtl">أحمد ما حـ/رح يكين طالب</span> |
 
-## *maa‑n‑*
+## *maa-n-*
 
 *maa‑* followed by a connecting *-n-* and an [attached pronoun](#personal-pronouns) (*maan‑i, maan‑ak, maan‑ik,* etc.) may be used to reply in the negative to a statement, question, or implication. For example,
 
