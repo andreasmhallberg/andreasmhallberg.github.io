@@ -401,7 +401,7 @@ present tense, otherwise the negation *maa* is used:
 | 10  | *ʿashara*                    | *ʿashar*       | <span lang="ar" dir="rtl">عشر</span>      | <span lang="ar" dir="rtl">عشرة</span>        |
 |     |                              |                |                                           |                                              |
 | 11  | *eddaʿsh*                    | *eddaʿshar*    | <span lang="ar" dir="rtl">ادعشر</span>    | <span lang="ar" dir="rtl">ادعش</span>        |
-| 12  | *eTnaʿsh*                    | *eTnaʿshar*    | <span lang="ar" dir="rtl">اطنعشر</span>   | <span lang="ar" dir="rtl">اططعش</span>       |
+| 12  | *eTnaʿsh*                    | *eTnaʿshar*    | <span lang="ar" dir="rtl">اطنعشر</span>   | <span lang="ar" dir="rtl">اطنعش</span>       |
 | 13  | *tlaTaʿsh*                   | *tlaTaʿshar*   | <span lang="ar" dir="rtl">تلاطعشر</span>   | <span lang="ar" dir="rtl">تلاطعش</span>       |
 | 14  | *arbaʿTaʿsh*                 | *arbaʿTaʿshar* | <span lang="ar" dir="rtl">اربعطعشر</span> | <span lang="ar" dir="rtl">اربعطعش</span>     |
 | 15  | *khamasTaʿsh*                | *khamsTaʿshar* | <span lang="ar" dir="rtl">خمسطعشر</span>  | <span lang="ar" dir="rtl">خمسطعش</span>      |
