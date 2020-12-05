@@ -16,6 +16,8 @@ tags:
   - teaching-materials
   - linguistics
 updates: 
+  - date: 2020-12-05
+    contents: maan- negation added. Minor readability improvements.
   - date: 2020-11-20
     contents: Corrected spelling in Arabic script for numerals 11-19. Added subheading for auxiliary verbs. 
 header-includes:
@@ -53,7 +55,6 @@ following topics are planned to be added:
 - syllable structure
 - exclamations
 - imperative
-- maan-negation
 - dual
 - gender
 - gender and number congruency
@@ -68,7 +69,7 @@ This is a short pedagogical summary of the variety of Arabic spoken in the Damas
 
 This grammar uses a simplified transcription (see [Phonology](#phonolgy)) adapted from *Alif Baa* (Brustad et al., Georgetown University Press, 2010). Examples in Arabic script represent written vernacular as used in text messaging, advertisement, etc. There is a considerable variation in vernacular orthography, especially in the extent to which Standard Arabic spelling is followed, and forms that differ from those presented here are therefore common.
 
-For corrections and suggestions on improvements, please contact the author.[^email]
+For corrections or suggestions on improvements, please contact the author.[^email]
 
 [^email]: [*andreas.hallberg@sprak.gu.se*](mailto:andreas.hallberg@sprak.gu.se)
 
@@ -112,11 +113,11 @@ Note:
 
 - Only long vowels have an orthographic representation. 
 
-- *i* and *u* occur primarily in word final position as part of inflections (*beet-i* 'my house', *yeʿmal-u* 'they do').
+- *i* and *u* occur primarily in word final position as part of inflections (*beet-i* 'my house', *byeʿmal-u* 'they do').
 
 - The vowel here represented as *e* is generally realized as *schwa*&nbsp;[ə].
 
-- Syrian Arabic has no diphthongs, as opposed to Standard Arabic. The Standard Arabic diphthongs *ay* and *aw* correspond in Syrian Arabic to the long vowels *ee* and *oo* respectively.
+- There are no diphthongs in Syrian Arabic. The Standard Arabic diphthongs *ay* and *aw* correspond in Syrian Arabic to the long vowels *ee* and *oo* respectively.
 
 ## Standard to Syrian phonemic conversion rules 
 
@@ -134,9 +135,9 @@ These conversion rules represent regular sound relations in Standard–Syrian co
 | *dh* | →  | *d*   |         | *dhahab*    | →  | *dahab*   |         | <span lang="ar" dir="rtl">دهب</span>   | gold        |
 |      |    | *(z)* |         | *idha*      | →  | *iza*     |         | <span lang="ar" dir="rtl">اذا</span>   | if          |
 
-# Pronouns
+# Pronouns 
 
-## Personal pronouns
+## Personal pronouns {#personal-pronouns}
 
 |            | Independent | Attached |          |                                        | <span lang="ar" dir="rtl">متصل</span> | <span lang="ar" dir="rtl">منفصل</span> |
 | :-         | :-          | :-       | :-       | -:                                     | -:                                    | -:                                     |
@@ -264,7 +265,6 @@ Yes/no-question are formed with rising intonation.
 | you (pl.) | *te-ktob-u*   | *katab-tu* | <span lang="ar" dir="rtl">تكتبو</span> | <span lang="ar" dir="rtl">كتبتو</span> |
 | they      | *ye-ktob-u*   | *katab-u*  | <span lang="ar" dir="rtl">يكتبو</span> | <span lang="ar" dir="rtl">كتبو</span>  |
 
-
 The pronoun is often omitted. The *e* in parenthesis is omitted on stems beginning with a single consonant *t-shuuf-i* ‘you&nbsp;(fs.) see’.
 
 The non-past verb form is preceded by one of the following:
@@ -290,8 +290,8 @@ Note:
 The main verb may be preceded by an auxiliary verb. Both the auxiliary and the main verb are inflected for person:
 
 
-|                  |                                  |                     |
-| :-               | -:                               | :-                  |
+|                  |                                            |                     |
+| :-               | -:                                         | :-                  |
 | *beddo yektob*   | <span lang="ar" dir="rtl">بدو يكتب</span>  | ‘he wants to write’ |
 | *byeHebb yektob* | <span lang="ar" dir="rtl">بيحب يكتب</span> | ‘he likes to write’ |
 | *kaan yektob*    | <span lang="ar" dir="rtl">كان يكتب</span>  | ‘he was writing’    |
@@ -328,8 +328,6 @@ The main verb may be preceded by an auxiliary verb. Both the auxiliary and the m
     | *aHmed kaan (ʿam) yedros* | ‘Ahmed was studying’ |
 
 
-
-
 ## Pseudo-verbs
 
 |         |                            |            |
@@ -344,24 +342,23 @@ verbal person and tense inflection. *bedd‑* and *ʿand-* are inflected
 for person with attached pronouns, like nouns, while *fii* is not
 inflected:
 
-|                |                                            |
-| :-             | :-                                         |
-| *bedd‑a ktaab* | ‘she wants a book’  [‘her wish is a book’] |
-| *ʿand-a ktaab* | ‘she has a book’ [‘with her is a book’]    |
-| *fii ktaab*    | ‘there is a book’                          |
+|                |                                 |                                            |
+| :-             | :-                              | :-                                         |
+| *bedd‑a ktaab* | <span lang="ar" dir="rtl">بدها كتاب</span>   | ‘she wants a book’  [‘her wish is a book’] |
+| *ʿand-a ktaab* | <span lang="ar" dir="rtl">عندها كتاب</span>  | ‘she has a book’ [‘with her is a book’]    |
+| *fii ktaab*    | <span lang="ar" dir="rtl">في كتاب</span>     | ‘there is a book’                          |
 
 Pseudo-verbs are inflected for tense with an auxiliary *kaan*:
 
-|                           |                         |
-|:-|:-|
-| *kaan ʿand-a ktaab*      | ‘She had a book’.       |
-| *Ha-yekuun ʿand-a ktaab* | ‘She will have a book’. |
-
+|                          |                                       |                         |
+| :-                       | :-                                    | :-                      |
+| *kaan ʿand-a ktaab*      | <span lang="ar" dir="rtl">كان عندها كتاب</span>     | ‘She had a book’.       |
+| *Ha-yekuun ʿand-a ktaab* | <span lang="ar" dir="rtl">حيكون عندها كتاب</span>  | ‘She will have a book’. |
 
 # Negation {#negation}
 
-|       |                           |                    |
-| :-    | -:                        | :-                 |
+|       |                                     |                    |
+| :-    | -:                                  | :-                 |
 | *maa* | <span lang="ar" dir="rtl">ما</span> | verbs              |
 | *muu* | <span lang="ar" dir="rtl">مو</span> | non-verbal clauses |
 
@@ -371,22 +368,27 @@ present tense, otherwise the negation *maa* is used:
 |         | Verbal clause                                       | Verbless ("is") clause                                   |
 | :-      | :-                                                  | :-                                                       |
 |         | 'Ahmed is studying.'                                | 'Ahmed is a student.'                                    |
-|         |                                                     |                                                          |
 | Past    | *aHmed* ***maa*** *daras*                           | *aHmed* ***maa*** *kaan Taaleb*                          |
 |         | <span lang="ar" dir="rtl">أحمد ما درس</span>        | <span lang="ar" dir="rtl">أحمد ما كان طالب</span>        |
-|         |                                                     |                                                          |
 | Present | *aHmed* ***maa*** *byedrus*                         | *aHmed* ***muu*** *Taaleb*                               |
 |         | <span lang="ar" dir="rtl">أحمد ما بيدرس</span>      | <span lang="ar" dir="rtl">أحمد مو طالب</span>            |
-|         |                                                     |                                                          |
 | Future  | *aHmed* ***maa*** *Ha‑/raH* *yedrus*                | *aHmed* ***maa*** *Ha‑/raH yekuun Taaleb*                |
 |         | <span lang="ar" dir="rtl">أحمد ما حـ/رح يدرس</span> | <span lang="ar" dir="rtl">أحمد ما حـ/رح يكين طالب</span> |
 
+## *maa‑n‑*
 
+*maa‑* followed by a connecting *-n-* and an [attached pronoun](#personal-pronouns) (*maan‑i, maan‑ak, maan‑ik,* etc.) may be used to reply in the negative to a statement, question, or implication. For example,
+
+|                  |                                             |                   |
+| :-               | -:                                          | :-                |
+| *maa‑n‑i juʿaan* | <span lang="ar" dir="rtl">ماني جوعان</span> | 'I am not hungry' |
+
+can be used to answer someone saying that you are hungry, asking whether you are hungry, or urging you to eat.
 
 # Numerals 1--100
 
 
-|     | Absolute                     | Construct      | <span lang="ar" dir="rtl">مضاف</span>     | <span lang="ar" dir="rtl">غير مضاف</span>    |
+|     | Independent                  | Counting       | <span lang="ar" dir="rtl">مضاف</span>     | <span lang="ar" dir="rtl">غير مضاف</span>    |
 | :-  | :-                           | :-             | -:                                        | -:                                           |
 | 1   | *waaHed* (m.)/*waHde* (f.)   |                |                                           | <span lang="ar" dir="rtl">واحد/وحدة</span>   |
 | 2   | *etneen* (m.)/*tenteen* (f.) |                |                                           | <span lang="ar" dir="rtl">اتنين/تنتين</span> |
@@ -396,7 +398,7 @@ present tense, otherwise the negation *maa* is used:
 | 5   | *khamse*                     | *khams*        | <span lang="ar" dir="rtl">خمس</span>      | <span lang="ar" dir="rtl">خمسة</span>        |
 | 6   | *sette*                      | *sett*         | <span lang="ar" dir="rtl">ست</span>       | <span lang="ar" dir="rtl">ستة</span>         |
 | 7   | *sabʿa*                      | *sabʿ*         | <span lang="ar" dir="rtl">سبع</span>      | <span lang="ar" dir="rtl">سبعة</span>        |
-| 8   | *tmaane*                      | *tman*         | <span lang="ar" dir="rtl">تمان</span>     | <span lang="ar" dir="rtl">تمانة</span>       |
+| 8   | *tmaane*                     | *tman*         | <span lang="ar" dir="rtl">تمان</span>     | <span lang="ar" dir="rtl">تمانة</span>       |
 | 9   | *tesʿa*                      | *tesʿ*         | <span lang="ar" dir="rtl">تسع</span>      | <span lang="ar" dir="rtl">تسعة</span>        |
 | 10  | *ʿashara*                    | *ʿashar*       | <span lang="ar" dir="rtl">عشر</span>      | <span lang="ar" dir="rtl">عشرة</span>        |
 |     |                              |                |                                           |                                              |
@@ -422,18 +424,24 @@ present tense, otherwise the negation *maa* is used:
 | 100 | *miyye*                      | *miit*         |                                           | <span lang="ar" dir="rtl">مية</span>         |
 
 
-The *absolute* form of the numeral is used when it stands by itself and is not followed by a noun. The *construct* form is when the numeral is followed by counted a noun: *tlaate* 'three', but *tlatt ewlaad* ‘three boys.’
+The *independent* form of the numeral is used when it stands by itself and is not followed by a noun. The *counting* form is when the numeral is followed by counted a noun: *tlaate* 'three', but *tlatt ewlaad* ‘three boys.’
 
 Note:
 
-- 1--2 are used only for emphasis or contrast, or when ordering in restaurants (*itneen shaay* ‘two tea’). Otherwise, the lone noun in singular or dual is used: *ktaab* '[a/one] book'; *ktabeen* 'two books'. 1 and 2 are the only numerals that inflect for gender.
+- 1--2 are used only for emphasis or contrast, or when ordering in restaurants and the like (*itneen shaay* ‘two tea’). Otherwise, the lone noun in singular or dual is used (*ktaab* '[a/one] book'; *ktabeen* 'two books'). 1 and 2 are the only numerals that inflect for gender.
 
-- 3--10 have a special form with a final *-t* when used with one of three nouns *eyyaam* ’days’, *shehuur* ’months’, and *aalaaf* ’thousands’: *khamst eyyam* ’five days’, *ʿashart aalaaf* 'ten thousand'.
+- 3--10 have a special form with a final *-t* when used with one of three following nouns:
+
+  |          |             |                                   |
+  | :-       | :-          | :-                                |
+  | *eyyaam* | ’days’      | (*khamst eyyam* ’five days’)      |
+  | *eshhur* | ’months’    | (*khamst eshhur* 'five months')   |
+  | *aalaaf* | ’thousands’ | (*ʿashart aalaaf* 'ten thousand') |
 
 - For 3–10, the counted noun is in the plural: *tlatt kutub* 'three books', and for numerals above 10, it is in the singular: *iddaʿashar ktaab* ‘eleven book\[s\]’.
 
-- 11—19 are constructed from the construct form of the unit and *‑Taʿsh*, with irregularites in 11, 12, and 15. The suffix *-ar* is added in construct forms.
+- 11—19 are constructed from the counting form of the unit number and the ending *‑Taʿsh*, with irregularites in 11, 12, and 15.
 
-- Decades (20, 30, etc.) are constructed of the construct form of the unit and the ending *‑iin*, with only 20 having an irregular form. In complex numbers, the unit in absolute form appears before the decades with the two parts connected with *u-* 'and': *sabʿa u‑tlaatiin*, ‘thirty‑six’.
+- Decades (20, 30, etc.) are constructed from the counting form of the unit numer and the ending *‑iin*, with only 20 having an irregular form. In complex numbers, the unit in independent form appears before the decades with the two parts connected with *u-* 'and': *sabʿa u‑tlaatiin*, ‘thirty‑six’.
 
-- For numbers above one hundred there is no construct form for 100: *miyye u-tlaate kelime* ‘103&nbsp;words’.
+- For numbers above one hundred there is no counting form for 100: *miyye u-tlaate kelime* ‘103&nbsp;words’.
