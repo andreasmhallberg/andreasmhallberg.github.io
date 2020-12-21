@@ -3,12 +3,13 @@ layout: post
 title: Syrian Arabic grammatical summary
 author: Andreas Hallberg
 permalink: /syrian-arabic-grammatical-summary/
+document: /documents/2020-11-08-syrian-arabic-grammatical-summary.md.pdf
+documenttitle: Syrian Arabic grammatical summary
 geometry:
     - a4paper
 lang: en
 length: long
 toc: true
-document: /documents/2020-11-08-syrian-grammatical-summary.md.pdf
 minidoc: /images/syrian-grammatical-summary.minidoc.png
 excerpt_separator: <!--excerpt_end-->
 excerpt: This is a short pedagogical summary of the variety of Arabic spoken in the Damascus area. It is intended to be used for quick reference for beginner to intermediate language learners and to provide a basic overview of the grammar. It was written as a complement to the Syrian-Arabic material in <i>Al-Kitaab fii Taʿallun al-ʿArabiyya</i> (Brustad et al., Georgetown University Press, 2013) but can be used independently. Parts of it are based on <i>A Reference Grammar of Syrian Arabic</i> (Georgetown University Press, 2005 [1964]), to which the reader is referred for a detailed and comprehensive grammar.
@@ -57,6 +58,7 @@ following topics are planned to be added:
 - imperative
 - dual
 - gender
+- a list of common adverbs
 - gender and number congruency
 - the possessive exponent 
 - verbal uses of participles
@@ -192,8 +194,8 @@ There are four ways to form plural: *irregular*, *regular masculine*, *regular f
 | :-                | :-        | :-        | :-           | :-     | -:                                      | -:                                     |
 | Irrergula         |           | *beet*    | *buyuut*     | house  | <span lang="ar" dir="rtl">بيوت</span>   | <span lang="ar" dir="rtl">بيت</span>   |
 | Regular masculine | *-iin*    | *muslim*  | *muslemiin*  | muslim | <span lang="ar" dir="rtl">مسلمين</span> | <span lang="ar" dir="rtl">مسلم</span>  |
-| Regular feminine  | *-aat*    | *sheghle* | *sheghlaat*  | thing  | <span lang="ar" dir="rtl">شغلات</span>   | <span lang="ar" dir="rtl">شغلة</span>  |
-| General human     | -*(iyy)e* | *ʿeraaqi* | *ʿeraaqiyye* | Iraqi  | <span lang="ar" dir="rtl">عراقية</span> | <span lang="ar" dir="rtl">عراقي</span> |
+| Regular feminine  | *-aat*    | *sheghle* | *sheghlaat*  | thing  | <span lang="ar" dir="rtl">شغلات</span>  | <span lang="ar" dir="rtl">شغلة</span>  |
+| General human     | *–(iyy)e* | *ʿeraaqi* | *ʿeraaqiyye* | Iraqi  | <span lang="ar" dir="rtl">عراقية</span> | <span lang="ar" dir="rtl">عراقي</span> |
 
 # Prepositions
 

@@ -82,9 +82,11 @@ permalink: /documents/
 {% endfor %}
 
 
-## Other documents
+## Teaching materials
 
 These documents are subject to continuous tinkering. The latest version can always be found here. Please report any errors in these documents and they will be corrected ASAP.
+
+For recorded lectures, see under <a href='{{ site.baseurl }}/tags/'>tags</a>.
 
 {% for docpost in site.posts | reversed %}
 {% if docpost.document %} 

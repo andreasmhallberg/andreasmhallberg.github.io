@@ -2,6 +2,9 @@
 layout: post
 title: Syrian Arabic transcripts from Al-Kitaab
 permalink: /al-kitaab-dialect-transcripts/
+document: https://github.com/andreasmhallberg/al-kitaab-dialecttexts
+documenttitle: Syrian Arabic transcripts from Al-Kitaab
+minidoc: ../images/dialect-transcripts.minidoc.png
 lang: en
 length: short
 tags:
