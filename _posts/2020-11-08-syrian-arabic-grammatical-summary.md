@@ -252,7 +252,7 @@ Yes/no-question are formed with rising intonation.
 
 # Verbs
 
-## Tense
+## Tense and person inflection
 
 |           | Non-past      | Past       | <span lang="ar" dir="rtl">المضارع</span>         | <span lang="ar" dir="rtl">الماضي</span>          |
 | :-        | :-            | :-         | -:                                     | -:                                     |
