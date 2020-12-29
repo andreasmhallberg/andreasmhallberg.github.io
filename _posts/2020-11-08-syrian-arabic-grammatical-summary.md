@@ -119,7 +119,7 @@ Note:
 
 - There are no diphthongs in Syrian Arabic. The Standard Arabic diphthongs *ay* and *aw* correspond in Syrian Arabic to the long vowels *ee* and *oo* respectively.
 
-## Standard to Syrian phonemic conversion rules 
+## Standard to Syrian Arabic phonemic conversion rules 
 
 These conversion rules represent regular sound relations in Standard–Syrian cognates. Standard Arabic pronunciation is often retained in formal or literary words (*dimuqraaTiyye*) and in non-Syrian Arabic place names (*il-qaahira* ‘Cairo’). Standard Arabic *th* and *dh* are normally realized as *s* and *z* respectively for such words. 
 
@@ -222,34 +222,6 @@ For the prepositions with two alternate forms, the first is used with nouns and 
 | *fii-h*     | <span lang="ar" dir="rtl">فيه</span>    | ‘in it’        |
 
 
-# Question words
-
-|            |                                         |           |
-| :-         | -:                                      | :-        |
-| *shuu?*    | <span lang="ar" dir="rtl">شو؟</span>    | what?     |
-| *miin?*    | <span lang="ar" dir="rtl">مين؟</span>   | who?      |
-| *eemta?*   | <span lang="ar" dir="rtl">ايمتى؟</span> | when?     |
-| *kiif?*    | <span lang="ar" dir="rtl">كيف؟</span>   | how?      |
-| *ween?*    | <span lang="ar" dir="rtl">وين؟</span>   | where?    |
-| *leesh?*   | <span lang="ar" dir="rtl">ليش؟</span>   | why?      |
-| *addeesh?* | <span lang="ar" dir="rtl">قديش؟</span>  | how much? |
-| *kam?*     | <span lang="ar" dir="rtl">كم؟</span>    | how many? |
-  
-Question words are normally clause-inital, and may be preceded by a preposition:
-
-|                       |                           |
-| :-                    | -:                        |
-| *maʿ miin ʿam taHki?* | ‘Who are you talking to?’ |
-
-Only *ween* and *kiif* take attached pronouns:
-
-|            |                                        |                  |
-| :-         | -:                                     | :-               |
-| *ween-ak?* | <span lang="ar" dir="rtl">وينك؟</span> | ‘Where are you?’ |
-| *kiif-ak?* | <span lang="ar" dir="rtl">كيفك؟</span> | ‘How are you?’   |
-
-Yes/no-question are formed with rising intonation.
-
 # Verbs
 
 ## Inflection
@@ -287,7 +259,7 @@ Note:
 
 ### Hollow verbs
 
-Hollow verbs have a long middle vowel in the stem. They are of three types with different middle vowel in non-past tense: 1)&nbsp;*uu*, 2)&nbsp;*ii*, and 3)&nbsp;*aa*. The inflection of the three types does not differ in past tense, where the middle long vowel is invariably *aa*, reduces to *e* in 1s, 2ms, 2mf,1pl, and 2pl, as shown below.
+Hollow verbs have a long vowel in the middle of the stem. They are of three types, each with different middle vowel in non-past tense: 1)&nbsp;*uu*, 2)&nbsp;*ii*, and 3)&nbsp;*aa*. The inflection of the three types does not differ in past tense, where the middle long vowel is invariably *aa*, reduced to *e* in 1s, 2ms, 2mf,1pl, and 2pl, as shown below.
 
 1. Middle *uu* (*raaH* 'went'):
 
@@ -429,6 +401,34 @@ Pseudo-verbs are inflected for tense with an auxiliary *kaan*:
 | :-                       | :-                                    | :-                      |
 | *kaan ʿand-a ktaab*      | <span lang="ar" dir="rtl">كان عندها كتاب</span>     | ‘She had a book’.       |
 | *Ha-yekuun ʿand-a ktaab* | <span lang="ar" dir="rtl">حيكون عندها كتاب</span>  | ‘She will have a book’. |
+
+# Question words
+
+|            |                                         |           |
+| :-         | -:                                      | :-        |
+| *shuu?*    | <span lang="ar" dir="rtl">شو؟</span>    | what?     |
+| *miin?*    | <span lang="ar" dir="rtl">مين؟</span>   | who?      |
+| *eemta?*   | <span lang="ar" dir="rtl">ايمتى؟</span> | when?     |
+| *kiif?*    | <span lang="ar" dir="rtl">كيف؟</span>   | how?      |
+| *ween?*    | <span lang="ar" dir="rtl">وين؟</span>   | where?    |
+| *leesh?*   | <span lang="ar" dir="rtl">ليش؟</span>   | why?      |
+| *addeesh?* | <span lang="ar" dir="rtl">قديش؟</span>  | how much? |
+| *kam?*     | <span lang="ar" dir="rtl">كم؟</span>    | how many? |
+  
+Question words are normally clause-inital, and may be preceded by a preposition:
+
+|                       |                           |
+| :-                    | -:                        |
+| *maʿ miin ʿam taHki?* | ‘Who are you talking to?’ |
+
+Only *ween* and *kiif* take attached pronouns:
+
+|            |                                        |                  |
+| :-         | -:                                     | :-               |
+| *ween-ak?* | <span lang="ar" dir="rtl">وينك؟</span> | ‘Where are you?’ |
+| *kiif-ak?* | <span lang="ar" dir="rtl">كيفك؟</span> | ‘How are you?’   |
+
+Yes/no-question are formed with rising intonation.
 
 # Negation {#negation}
 
