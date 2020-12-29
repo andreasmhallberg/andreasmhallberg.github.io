@@ -51,16 +51,19 @@ mv 2020-11-08-syrian-arabic-grammatical-summary.md.pdf ../documents/
 This grammar is under construction. The
 following topics are planned to be added:
 
-- syllable structure
-- exclamations
-- imperative
-- dual
-- gender
-- a list of common adverbs
-- gender and number congruency
-- the possessive exponent 
-- verbal uses of participles
-- defective, double, and hollow verbs
+- [ ] syllable structure
+- [ ] exclamations
+- [ ] imperative
+- [ ] dual
+- [ ] gender
+- [ ] adverbs
+- [ ] gender and number congruency
+- [ ] the possessive exponent 
+- [ ] verbal uses of participles
+- [ ] defective verbs
+- [ ] double verbs
+- [x] hollow verbs
+- [x] maan-negation
 ```
 
 # Introduction
