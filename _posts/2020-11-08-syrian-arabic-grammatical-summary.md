@@ -17,6 +17,8 @@ tags:
   - teaching-materials
   - linguistics
 updates: 
+  - date: 2020-12-29
+    contents: Hollow verbs added. 
   - date: 2020-12-05
     contents: maan- negation added. Minor readability improvements.
   - date: 2020-11-20
