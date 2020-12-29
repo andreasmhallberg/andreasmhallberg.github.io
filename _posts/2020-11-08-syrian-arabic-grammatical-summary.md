@@ -47,8 +47,6 @@ mv 2020-11-08-syrian-arabic-grammatical-summary.md.pdf ../documents/
 - TOC
 {:toc}
 
-***
-
 ```
 This grammar is under construction. The
 following topics are planned to be added:
@@ -121,7 +119,7 @@ Note:
 
 - There are no diphthongs in Syrian Arabic. The Standard Arabic diphthongs *ay* and *aw* correspond in Syrian Arabic to the long vowels *ee* and *oo* respectively.
 
-## Standard to Syrian phonemic conversion rules 
+## Standard to Syrian Arabic phonemic conversion rules 
 
 These conversion rules represent regular sound relations in Standard–Syrian cognates. Standard Arabic pronunciation is often retained in formal or literary words (*dimuqraaTiyye*) and in non-Syrian Arabic place names (*il-qaahira* ‘Cairo’). Standard Arabic *th* and *dh* are normally realized as *s* and *z* respectively for such words. 
 
@@ -224,34 +222,6 @@ For the prepositions with two alternate forms, the first is used with nouns and 
 | *fii-h*     | <span lang="ar" dir="rtl">فيه</span>    | ‘in it’        |
 
 
-# Question words
-
-|            |                                         |           |
-| :-         | -:                                      | :-        |
-| *shuu?*    | <span lang="ar" dir="rtl">شو؟</span>    | what?     |
-| *miin?*    | <span lang="ar" dir="rtl">مين؟</span>   | who?      |
-| *eemta?*   | <span lang="ar" dir="rtl">ايمتى؟</span> | when?     |
-| *kiif?*    | <span lang="ar" dir="rtl">كيف؟</span>   | how?      |
-| *ween?*    | <span lang="ar" dir="rtl">وين؟</span>   | where?    |
-| *leesh?*   | <span lang="ar" dir="rtl">ليش؟</span>   | why?      |
-| *addeesh?* | <span lang="ar" dir="rtl">قديش؟</span>  | how much? |
-| *kam?*     | <span lang="ar" dir="rtl">كم؟</span>    | how many? |
-  
-Question words are normally clause-inital, and may be preceded by a preposition:
-
-|                       |                           |
-| :-                    | -:                        |
-| *maʿ miin ʿam taHki?* | ‘Who are you talking to?’ |
-
-Only *ween* and *kiif* take attached pronouns:
-
-|            |                                        |                  |
-| :-         | -:                                     | :-               |
-| *ween-ak?* | <span lang="ar" dir="rtl">وينك؟</span> | ‘Where are you?’ |
-| *kiif-ak?* | <span lang="ar" dir="rtl">كيفك؟</span> | ‘How are you?’   |
-
-Yes/no-question are formed with rising intonation.
-
 # Verbs
 
 ## Inflection
@@ -264,7 +234,7 @@ Yes/no-question are formed with rising intonation.
 | he        | *ye-ktob*     | *katab*    | <span lang="ar" dir="rtl">يكتب</span>  | <span lang="ar" dir="rtl">كتب</span>   |
 | she       | *t(e)-ktob*   | *katab-et* | <span lang="ar" dir="rtl">تكتب</span>  | <span lang="ar" dir="rtl">كتبت</span>  |
 | we        | *n(e)-ktob*   | *katab-na* | <span lang="ar" dir="rtl">نكتب</span>  | <span lang="ar" dir="rtl">كتبنا</span> |
-| you (pl.) | *te-ktob-u*   | *katab-tu* | <span lang="ar" dir="rtl">تكتبو</span> | <span lang="ar" dir="rtl">كتبتو</span> |
+| you (pl.) | *t(e)-ktob-u*   | *katab-tu* | <span lang="ar" dir="rtl">تكتبو</span> | <span lang="ar" dir="rtl">كتبتو</span> |
 | they      | *ye-ktob-u*   | *katab-u*  | <span lang="ar" dir="rtl">يكتبو</span> | <span lang="ar" dir="rtl">كتبو</span>  |
 
 The pronoun is often omitted. The *e* in parenthesis is omitted on stems beginning with a single consonant *t-shuuf-i* ‘you&nbsp;(fs.) see’.
@@ -287,10 +257,82 @@ Note:
 
 - Some speakers combine *b-* and *ʿam*: *ʿam b-yektob*.
 
+### Hollow verbs
+
+Hollow verbs have a long vowel in the middle of the stem. They are of three types, each with different middle vowel in non-past tense: 1)&nbsp;*uu*, 2)&nbsp;*ii*, and 3)&nbsp;*aa*. The inflection of the three types does not differ in past tense, where the middle long vowel is invariably *aa*, reduced to *e* in 1s, 2ms, 2mf,1pl, and 2pl, as shown below.
+
+1. Middle *uu* (*raaH* 'went'):
+
+    |           | Non-Past    | Past      | <span lang="ar" dir="rtl">المضارع</span> | <span lang="ar" dir="rtl">الماضي</span> |
+    | :-        | :-          | :-        | -:                                       | -:                                      |
+    | I         | *e-ruuH*    | *reH-t*    | <span lang="ar" dir="rtl">اروح</span>    | <span lang="ar" dir="rtl">رحت</span>    |
+    | you (ms.) | *t-ruuH*    | *reH-t*    | <span lang="ar" dir="rtl">تروح</span>    | <span lang="ar" dir="rtl">رحت</span>    |
+    | you (fs.) | *t-ruuH-i*  | *reH-ti*  | <span lang="ar" dir="rtl">تروحي</span>   | <span lang="ar" dir="rtl">رحتي</span>   |
+    | he        | *ye-ruuH*   | *raaH*    | <span lang="ar" dir="rtl">يروح</span>    | <span lang="ar" dir="rtl">راح</span>    |
+    | she       | *t-ruuH*    | *raaH-et* | <span lang="ar" dir="rtl">تروح</span>    | <span lang="ar" dir="rtl">راحت</span>   |
+    | we        | *n-ruuH*    | *reH-na*  | <span lang="ar" dir="rtl">نروح</span>    | <span lang="ar" dir="rtl">رحا</span>    |
+    | you (pl.) | *t-ruuH-u*  | *reH-tu*  | <span lang="ar" dir="rtl">تروحو</span>   | <span lang="ar" dir="rtl">رحتو</span>   |
+    | they      | *ye-ruuH-u* | *raaH-u*  | <span lang="ar" dir="rtl">يروحو</span>   | <span lang="ar" dir="rtl">راحو</span>   |
+
+    Some other frequent verbs of this type are:
+
+    |         |          |                                      |
+    | :-      | :-       | -:                                   |
+    | *kaan*  | was      | <span lang="ar" dir="rtl">كان</span> |
+    | *ʾaal*  | said     | <span lang="ar" dir="rtl">قال</span> |
+    | *raaH*  | went     | <span lang="ar" dir="rtl">راح</span> |
+    | *shaaf* | saw, met | <span lang="ar" dir="rtl">شاف</span> |
+    | *ʾaam*  | stood up | <span lang="ar" dir="rtl">قام</span> |
+    | *maat*  | died     | <span lang="ar" dir="rtl">مات</span> |
+
+
+1. Middle *ii* (*Saar* 'became'):
+
+    |           | Non-Past    | Past      | <span lang="ar" dir="rtl">المضارع</span> | <span lang="ar" dir="rtl">الماضي</span> |
+    | :-        | :-          | :-        | -:                                       | -:                                      |
+    | I         | *e-Siir*    | *Sert*    | <span lang="ar" dir="rtl">اروح</span>    | <span lang="ar" dir="rtl">رحت</span>    |
+    | you (ms.) | *t-Siir*    | *Sert*    | <span lang="ar" dir="rtl">تروح</span>    | <span lang="ar" dir="rtl">رحت</span>    |
+    | you (fs.) | *t-Siir-i*  | *Sert-i*  | <span lang="ar" dir="rtl">تروحي</span>   | <span lang="ar" dir="rtl">رحتي</span>   |
+    | he        | *ye-Siir*   | *Saar*    | <span lang="ar" dir="rtl">يروح</span>    | <span lang="ar" dir="rtl">راح</span>    |
+    | she       | *t-Siir*    | *Saar-et* | <span lang="ar" dir="rtl">تروح</span>    | <span lang="ar" dir="rtl">راحت</span>   |
+    | we        | *n-Siir*    | *Ser-na*  | <span lang="ar" dir="rtl">نروح</span>    | <span lang="ar" dir="rtl">رحا</span>    |
+    | you (pl.) | *t-Siir-u*  | *Ser-tu*  | <span lang="ar" dir="rtl">تروحو</span>   | <span lang="ar" dir="rtl">رحتو</span>   |
+    | they      | *ye-Siir-u* | *Saar-u*  | <span lang="ar" dir="rtl">يروحو</span>   | <span lang="ar" dir="rtl">راحو</span>   |
+
+    Some other frequent verbs of this type are:
+
+    |         |           |                          |
+    | :-      | :-        | -:                       |
+    | *ʿaash* | lived   | <span lang="ar" dir="rtl">عاش</span> |
+    | *jaab*  | fetched | <span lang="ar" dir="rtl">جاب</span>|
+    | *baaʿ*  | sold    | <span lang="ar" dir="rtl">جاع</span> |
+    | *daar*  | turned  | <span lang="ar" dir="rtl">دار</span>|
+
+
+1. Middle *aa* (*naam* 'slept'):
+
+    |           | Non-Past    | Past      | <span lang="ar" dir="rtl">المضارع</span> | <span lang="ar" dir="rtl">الماضي</span> |
+    | :-        | :-          | :-        | -:                                       | -:                                      |
+    | I         | *e-naam*    | *nem-t*   | <span lang="ar" dir="rtl">انام</span>    | <span lang="ar" dir="rtl">نمت</span>    |
+    | you (ms.) | *t-naam*    | *nem-t*   | <span lang="ar" dir="rtl">تنام</span>    | <span lang="ar" dir="rtl">نمت</span>    |
+    | you (fs.) | *t-naam-i*  | *nemt-i*  | <span lang="ar" dir="rtl">تنامي</span>   | <span lang="ar" dir="rtl">نمتي</span>   |
+    | he        | *ye-naam*   | *naam*    | <span lang="ar" dir="rtl">ينام</span>    | <span lang="ar" dir="rtl">نام</span>    |
+    | she       | *t-naam*    | *naam-et* | <span lang="ar" dir="rtl">تنام</span>    | <span lang="ar" dir="rtl">نامت</span>   |
+    | we        | *n-naam*    | *nem-na*  | <span lang="ar" dir="rtl">ننام</span>    | <span lang="ar" dir="rtl">نمنا</span>    |
+    | you (pl.) | *t-naam-u*  | *nem-tu*  | <span lang="ar" dir="rtl">تنامو</span>   | <span lang="ar" dir="rtl">نمتو</span>   |
+    | they      | *ye-naam-u* | *naam-u*  | <span lang="ar" dir="rtl">ينامو</span>   | <span lang="ar" dir="rtl">نامو</span>   |
+
+    Some other frequent verbs of this type are:
+
+    |         |                |                                      |
+    | :-      | :-             | -:                                   |
+    | *khaaf* | was frightened | <span lang="ar" dir="rtl">خاف</span> |
+    | *ghaar* | was jelous     | <span lang="ar" dir="rtl">غار</span> |
+
+
 ## Auxiliary verbs
 
 The main verb may be preceded by an auxiliary verb. Both the auxiliary and the main verb are inflected for person:
-
 
 |                  |                                            |                     |
 | :-               | -:                                         | :-                  |
@@ -300,21 +342,9 @@ The main verb may be preceded by an auxiliary verb. Both the auxiliary and the m
 | *Saar yektob*    | <span lang="ar" dir="rtl">صار يكتب</span>  | ‘he began to write’ |
 
 
-## *Kaan* ‘was’
+## *kaan* 'was'
 
-|           | Non-Past    | Past      | <span lang="ar" dir="rtl">المضارع</span> | <span lang="ar" dir="rtl">الماضي</span> |
-| :-        | :-           | :-        | -:                                       | -:                                      |
-| I         | *e-kuun*    | *kent*    | <span lang="ar" dir="rtl">اكون</span>    | <span lang="ar" dir="rtl">كنت</span>    |
-| you (ms.) | *te-kuun*   | *kent*    | <span lang="ar" dir="rtl">تكون</span>    | <span lang="ar" dir="rtl">كنت</span>    |
-| you (fs.) | *te-kuun-i* | *kent-i*  | <span lang="ar" dir="rtl">تكوني</span>   | <span lang="ar" dir="rtl">كنتي</span>   |
-| he        | *ye-kuun*   | *kaan*    | <span lang="ar" dir="rtl">يكون</span>    | <span lang="ar" dir="rtl">كان</span>    |
-| she       | *te-kuun*   | *kaan-et* | <span lang="ar" dir="rtl">تكون</span>    | <span lang="ar" dir="rtl">كانت</span>   |
-| we        | *ne-kuun*   | *ken-na*  | <span lang="ar" dir="rtl">نكون</span>    | <span lang="ar" dir="rtl">كنا</span>    |
-| you (pl.) | *te-kuun-u* | *ken-tu*  | <span lang="ar" dir="rtl">تكونو</span>   | <span lang="ar" dir="rtl">كنتو</span>   |
-| they      | *ye-kuun-u* | *kaan-u*  | <span lang="ar" dir="rtl">يكونو</span>   | <span lang="ar" dir="rtl">كانو</span>   |
-
-*Kaan* is used
-
+The verb *kaan* 'was' is used
 
 1.  to make a verb-less clause past or future tense:
 
@@ -328,6 +358,21 @@ The main verb may be preceded by an auxiliary verb. Both the auxiliary and the m
     |                           |                      |
     | :-                        | :-                   |
     | *aHmed kaan (ʿam) yedros* | ‘Ahmed was studying’ |
+
+It is a [hollow verb with middle *uu*](#hollow-verbs) in non-past tense:
+
+|           | Non-past    | Past      | <span lang="ar" dir="rtl">المضارع</span> | <span lang="ar" dir="rtl">الماضي</span> |
+| :-        | :-          | :-        | -:                                       | -:                                      |
+| I         | *e-kuun*    | *ken-t*   | <span lang="ar" dir="rtl">اكون</span>    | <span lang="ar" dir="rtl">كنت</span>    |
+| you (ms.) | *t-kuun*    | *ken-t*   | <span lang="ar" dir="rtl">تكون</span>    | <span lang="ar" dir="rtl">كنت</span>    |
+| you (fs.) | *t-kuun-i*  | *kent-i*  | <span lang="ar" dir="rtl">تكوني</span>   | <span lang="ar" dir="rtl">كنتي</span>   |
+| he        | *ye-kuun*   | *kaan*    | <span lang="ar" dir="rtl">يكون</span>    | <span lang="ar" dir="rtl">كان</span>    |
+| she       | *t-kuun*    | *kaan-et* | <span lang="ar" dir="rtl">تكون</span>    | <span lang="ar" dir="rtl">كانت</span>   |
+| we        | *n-kuun*    | *ken-na*  | <span lang="ar" dir="rtl">نكون</span>    | <span lang="ar" dir="rtl">كنا</span>    |
+| you (pl.) | *t-kuun-u*  | *ken-tu*  | <span lang="ar" dir="rtl">تكونو</span>   | <span lang="ar" dir="rtl">كنتو</span>   |
+| they      | *ye-kuun-u* | *kaan-u*  | <span lang="ar" dir="rtl">يكونو</span>   | <span lang="ar" dir="rtl">كانو</span>   |
+
+
 
 
 ## Pseudo-verbs
@@ -356,6 +401,34 @@ Pseudo-verbs are inflected for tense with an auxiliary *kaan*:
 | :-                       | :-                                    | :-                      |
 | *kaan ʿand-a ktaab*      | <span lang="ar" dir="rtl">كان عندها كتاب</span>     | ‘She had a book’.       |
 | *Ha-yekuun ʿand-a ktaab* | <span lang="ar" dir="rtl">حيكون عندها كتاب</span>  | ‘She will have a book’. |
+
+# Question words
+
+|            |                                         |           |
+| :-         | -:                                      | :-        |
+| *shuu?*    | <span lang="ar" dir="rtl">شو؟</span>    | what?     |
+| *miin?*    | <span lang="ar" dir="rtl">مين؟</span>   | who?      |
+| *eemta?*   | <span lang="ar" dir="rtl">ايمتى؟</span> | when?     |
+| *kiif?*    | <span lang="ar" dir="rtl">كيف؟</span>   | how?      |
+| *ween?*    | <span lang="ar" dir="rtl">وين؟</span>   | where?    |
+| *leesh?*   | <span lang="ar" dir="rtl">ليش؟</span>   | why?      |
+| *addeesh?* | <span lang="ar" dir="rtl">قديش؟</span>  | how much? |
+| *kam?*     | <span lang="ar" dir="rtl">كم؟</span>    | how many? |
+  
+Question words are normally clause-inital, and may be preceded by a preposition:
+
+|                       |                           |
+| :-                    | -:                        |
+| *maʿ miin ʿam taHki?* | ‘Who are you talking to?’ |
+
+Only *ween* and *kiif* take attached pronouns:
+
+|            |                                        |                  |
+| :-         | -:                                     | :-               |
+| *ween-ak?* | <span lang="ar" dir="rtl">وينك؟</span> | ‘Where are you?’ |
+| *kiif-ak?* | <span lang="ar" dir="rtl">كيفك؟</span> | ‘How are you?’   |
+
+Yes/no-question are formed with rising intonation.
 
 # Negation {#negation}
 
