@@ -54,6 +54,7 @@ This grammar is under construction. The
 following topics are planned to be added:
 
 - [ ] syllable structure
+- [ ] phonolgy table
 - [ ] exclamations
 - [ ] imperative
 - [ ] dual
@@ -62,10 +63,6 @@ following topics are planned to be added:
 - [ ] gender and number congruency
 - [ ] the possessive exponent 
 - [ ] verbal uses of participles
-- [ ] defective verbs
-- [ ] double verbs
-- [x] hollow verbs
-- [x] maan-negation
 ```
 
 # Introduction
@@ -246,13 +243,13 @@ The pronoun is often omitted. The *e* in parenthesis is omitted on stems beginn
 
 The non-past verb form is preceded by one of the following:
 
-|                |                                        |                        |
-| :-             | -:                                     | :-                     |
-| *b‑*           | <span lang="ar" dir="rtl">بـ</span>    | habitual, generalities |
-| *ʿam*          | <span lang="ar" dir="rtl">عم</span>    | ongoing (progressive)  |
-| *Ha‑/raH*      | <span lang="ar" dir="rtl">حـ/رح</span> | future                 |
-| *laazim*       | <span lang="ar" dir="rtl">لازم</span>   | ‘have to’              |
-| auxiliary verb | [see below](#auxiliary-verbs)          |                        |
+|                |                                        |                               |
+| :-             | -:                                     | :-                            |
+| *b‑*           | <span lang="ar" dir="rtl">بـ</span>    | habitual, generalities        |
+| *ʿam*          | <span lang="ar" dir="rtl">عم</span>    | ongoing (progressive)         |
+| *Ha‑/raH*      | <span lang="ar" dir="rtl">حـ/رح</span> | future                        |
+| *laazim*       | <span lang="ar" dir="rtl">لازم</span>   | ‘have to’                     |
+| auxiliary verb |                                        | [see below](#auxiliary-verbs) |
 
 Note:
 
