@@ -264,7 +264,7 @@ Note:
 
 ### Hollow verbs
 
-Hollow verbs have a long vowel in the middle of the stem. They are of three types, each with different middle vowel in non-past tense: 1)&nbsp;*uu*, 2)&nbsp;*ii*, and 3)&nbsp;*aa*. The inflection of the three types does not differ in past tense, where the middle long vowel is invariably *aa*, reduced to *e* in 1s, 2ms, 2mf,1pl, and 2pl, as shown below.
+Hollow verbs have a long vowel in the middle of the stem. They are of three types, each with different middle vowel in non-past tense: 1)&nbsp;*uu*, 2)&nbsp;*ii*, and 3)&nbsp;*aa*. The inflection of the three types does not differ in past tense, where the middle long vowel is invariably *aa*, reduced to *e* in past tense in forms with consonantal suffixes (1s, 2ms, 2mf,1pl, and 2pl).
 
 1. Middle *uu* (*raaH* 'went'):
 
@@ -334,6 +334,47 @@ Hollow verbs have a long vowel in the middle of the stem. They are of three type
     | *khaaf* | was frightened | <span lang="ar" dir="rtl">خاف</span> |
     | *ghaar* | was jelous     | <span lang="ar" dir="rtl">غار</span> |
 
+### Defective verbs
+
+Defective verbs have a stem ending in a vowel *i* in non-past tense and *a*/*ee* in past tense. There is only one type of defective verb.
+
+*Haka* 'talked':
+
+|           | Non-Past | Past       | <span lang="ar" dir="rtl">المضارع</span> | <span lang="ar" dir="rtl">الماضي</span>  |
+| :-        | :-       | :-         | -:                                       | -:                                       |
+| I         | *e-Hki*  | *Hakee-t*  | <span lang="ar" dir="rtl">احكي</span>   | <span lang="ar" dir="rtl">حكيت</span>  |
+| you (ms.) | *te-Hki* | *Hakee-t*  | <span lang="ar" dir="rtl">تحكي</span>   | <span lang="ar" dir="rtl">حكيت</span>  |
+| you (fs.) | *te-Hki* | *Hakee-ti* | <span lang="ar" dir="rtl">تحكي</span>    | <span lang="ar" dir="rtl">حكيتي</span> |
+| he        | *ye-Hki* | *Haka*     | <span lang="ar" dir="rtl">يحكي</span>    | <span lang="ar" dir="rtl">حكى</span>   |
+| she       | *te-Hki* | *Hak-et*   | <span lang="ar" dir="rtl">تحكي</span>    | <span lang="ar" dir="rtl">حكت</span>   |
+| we        | *ne-Hki* | *Hakee-na* | <span lang="ar" dir="rtl">نحكي</span>    | <span lang="ar" dir="rtl">حكينا</span> |
+| you (pl.) | *te-Hk-u* | *Hakee-tu* | <span lang="ar" dir="rtl">تحكو</span>   | <span lang="ar" dir="rtl">حكيتو</span> |
+| they      | *ye-Hk-u* | *Hak-u*    | <span lang="ar" dir="rtl">يحكو</span>   | <span lang="ar" dir="rtl">حكو</span>   |
+
+Some other frequent verbs of this type are:
+
+|          |        |                                        |
+| :-       | :-     | -:                                     |
+| *masha*  | walked | <span lang="ar" dir="rtl">مشى</span>   |
+| *ʿaTa*   | gave   | <span lang="ar" dir="rtl">عطى</span>   |
+| *shtara* | baught | <span lang="ar" dir="rtl">اشترى</span> |
+
+### Doubled verbs
+
+Doubled verbs have a stem ending in a lengthened (doubled) consonant. In past tense forms with consonantal suffixes, *ee* is added.
+
+*Hass* 'felt':
+
+|           | Non-Past    | Past        | <span lang="ar" dir="rtl">المضارع</span> | <span lang="ar" dir="rtl">الماضي</span> |
+| :-        | :-          | :-          | -:                                       | -:                                      |
+| I         | *e-Hess*    | *Hassee-t*  | <span lang="ar" dir="rtl">احس</span>     | <span lang="ar" dir="rtl">حسيت</span>   |
+| you (ms.) | *t-Hess*    | *Hassee-t*  | <span lang="ar" dir="rtl">تحسي</span>    | <span lang="ar" dir="rtl">حسيت</span>   |
+| you (fs.) | *t-Hess-i*  | *Hassee-ti* | <span lang="ar" dir="rtl">تحس</span>     | <span lang="ar" dir="rtl">حسيتي</span>  |
+| he        | *y-Hess*    | *Hass*      | <span lang="ar" dir="rtl">يحس</span>     | <span lang="ar" dir="rtl">حس</span>     |
+| she       | *t-Hess*    | *Hass-et*   | <span lang="ar" dir="rtl">تحس</span>     | <span lang="ar" dir="rtl">حست</span>    |
+| we        | *n-Hess*    | *Hassee-na* | <span lang="ar" dir="rtl">نحس</span>     | <span lang="ar" dir="rtl">حسينا</span>  |
+| you (pl.) | *t-Hess-u*  | *Hassee-tu* | <span lang="ar" dir="rtl">تحسو</span>    | <span lang="ar" dir="rtl">حسيتو</span>  |
+| they      | *ye-Hess-u* | *Hass-u*    | <span lang="ar" dir="rtl">يحسو</span>     | <span lang="ar" dir="rtl">حسو</span>    |
 
 ## Auxiliary verbs
 
@@ -345,7 +386,6 @@ The main verb may be preceded by an auxiliary verb. Both the auxiliary and the m
 | *byeHebb yektob* | <span lang="ar" dir="rtl">بيحب يكتب</span> | ‘he likes to write’ |
 | *kaan yektob*    | <span lang="ar" dir="rtl">كان يكتب</span>  | ‘he was writing’    |
 | *Saar yektob*    | <span lang="ar" dir="rtl">صار يكتب</span>  | ‘he began to write’ |
-
 
 ## *kaan* 'was'
 
