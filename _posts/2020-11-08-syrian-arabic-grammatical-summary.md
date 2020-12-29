@@ -332,11 +332,11 @@ The main verb may be preceded by an auxiliary verb. Both the auxiliary and the m
 
 ## Pseudo-verbs
 
-|         |                            |            |
-|:-|-:|:-|
-| *bedd‑* |   <span lang="ar" dir="rtl">بد</span>| ‘want’     |
-| *ʿand‑* |  <span lang="ar" dir="rtl">عند</span>| ‘has’      |
-| *fii*   |   <span lang="ar" dir="rtl">في</span>| ‘there is’ |
+|         |                                      |            |
+| :-      | -:                                   | :-         |
+| *bedd‑* | <span lang="ar" dir="rtl">بد</span>  | ‘want’     |
+| *ʿand‑* | <span lang="ar" dir="rtl">عند</span> | ‘has’      |
+| *fii*   | <span lang="ar" dir="rtl">في</span>  | ‘there is’ |
 
 
 The pseudo-verbs are negated as verbs with *maa* (see [Negation](#negation)) but do not follow
@@ -344,11 +344,11 @@ verbal person and tense inflection. *bedd‑* and *ʿand-* are inflected
 for person with attached pronouns, like nouns, while *fii* is not
 inflected:
 
-|                |                                 |                                            |
-| :-             | :-                              | :-                                         |
-| *bedd‑a ktaab* | <span lang="ar" dir="rtl">بدها كتاب</span>   | ‘she wants a book’  [‘her wish is a book’] |
-| *ʿand-a ktaab* | <span lang="ar" dir="rtl">عندها كتاب</span>  | ‘she has a book’ [‘with her is a book’]    |
-| *fii ktaab*    | <span lang="ar" dir="rtl">في كتاب</span>     | ‘there is a book’                          |
+|                |                                             |                                            |
+| :-             | :-                                          | :-                                         |
+| *bedd‑a ktaab* | <span lang="ar" dir="rtl">بدها كتاب</span>  | ‘she wants a book’  [‘her wish is a book’] |
+| *ʿand-a ktaab* | <span lang="ar" dir="rtl">عندها كتاب</span> | ‘she has a book’ [‘with her is a book’]    |
+| *fii ktaab*    | <span lang="ar" dir="rtl">في كتاب</span>    | ‘there is a book’                          |
 
 Pseudo-verbs are inflected for tense with an auxiliary *kaan*:
 
