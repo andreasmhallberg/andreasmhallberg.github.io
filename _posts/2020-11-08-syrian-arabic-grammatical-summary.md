@@ -54,15 +54,14 @@ This grammar is under construction. The
 following topics are planned to be added:
 
 - [ ] syllable structure
-- [ ] phonolgy table
-- [ ] exclamations?
+- [ ] phonology table
+- [ ] exclamations(?)
 - [ ] imperative
 - [ ] dual
 - [ ] gender
 - [ ] adverbs
-- [ ] gender and number congruency
 - [ ] the possessive exponent 
-- [ ] verbal uses of participles
+- [ ] participles
 - [x] hollow, defective and doubles verbs
 - [x] maa-n- negation
 ```
@@ -245,13 +244,13 @@ The pronoun is often omitted. The *e* in parenthesis is omitted on stems beginn
 
 The non-past verb form is preceded by one of the following:
 
-|                |                                        |                               |
-| :-             | -:                                     | :-                            |
-| *b‑*           | <span lang="ar" dir="rtl">بـ</span>    | habitual, generalities        |
-| *ʿam*          | <span lang="ar" dir="rtl">عم</span>    | ongoing (progressive)         |
-| *Ha‑/raH*      | <span lang="ar" dir="rtl">حـ/رح</span> | future                        |
-| *laazim*       | <span lang="ar" dir="rtl">لازم</span>   | ‘have to’                     |
-| auxiliary verb |                                        | [see below](#auxiliary-verbs) |
+|                                    |                                        |                        |
+| :-                                 | -:                                     | :-                     |
+| *b‑*                               | <span lang="ar" dir="rtl">بـ</span>    | habitual, generalities |
+| *ʿam*                              | <span lang="ar" dir="rtl">عم</span>    | ongoing (progressive)  |
+| *Ha‑/raH*                          | <span lang="ar" dir="rtl">حـ/رح</span> | future                 |
+| *laazim*                           | <span lang="ar" dir="rtl">لازم</span>   | ‘have to’              |
+| [auxiliary verb](#auxiliary-verbs) |                                        |                        |
 
 Note:
 
@@ -278,16 +277,13 @@ Hollow verbs have a long vowel in the middle of the stem. They are of three type
     | you (pl.) | *t‑ruuH‑u*  | *reH‑tu*  | <span lang="ar" dir="rtl">تروحو</span>   | <span lang="ar" dir="rtl">رحتو</span>   |
     | they      | *ye‑ruuH‑u* | *raaH‑u*  | <span lang="ar" dir="rtl">يروحو</span>   | <span lang="ar" dir="rtl">راحو</span>   |
 
-    Some other frequent verbs of this type are:
-
-    |         |          |                                      |
-    | :-      | :-       | -:                                   |
-    | *kaan*  | was      | <span lang="ar" dir="rtl">كان</span> |
-    | *ʾaal*  | said     | <span lang="ar" dir="rtl">قال</span> |
-    | *raaH*  | went     | <span lang="ar" dir="rtl">راح</span> |
-    | *shaaf* | saw, met | <span lang="ar" dir="rtl">شاف</span> |
-    | *ʾaam*  | stood up | <span lang="ar" dir="rtl">قام</span> |
-    | *maat*  | died     | <span lang="ar" dir="rtl">مات</span> |
+    Some other frequent verbs of this type are: 
+    *kaan* 'was',
+    *ʾaal* 'said',
+    *raaH* 'went',
+    *shaaf* 'saw'/'met',
+    *ʾaam* 'stood up', and
+    *maat* 'died'.
 
 
 1. Middle *ii* (*Saar* 'became'):
@@ -303,14 +299,11 @@ Hollow verbs have a long vowel in the middle of the stem. They are of three type
     | you (pl.) | *t‑Siir‑u*  | *Ser‑tu*  | <span lang="ar" dir="rtl">تروحو</span>   | <span lang="ar" dir="rtl">رحتو</span>   |
     | they      | *ye‑Siir‑u* | *Saar‑u*  | <span lang="ar" dir="rtl">يروحو</span>   | <span lang="ar" dir="rtl">راحو</span>   |
 
-    Some other frequent verbs of this type are:
-
-    |         |           |                          |
-    | :-      | :-        | -:                       |
-    | *ʿaash* | lived   | <span lang="ar" dir="rtl">عاش</span> |
-    | *jaab*  | fetched | <span lang="ar" dir="rtl">جاب</span>|
-    | *baaʿ*  | sold    | <span lang="ar" dir="rtl">جاع</span> |
-    | *daar*  | turned  | <span lang="ar" dir="rtl">دار</span>|
+    Some other frequent verbs of this type are: 
+    *ʿaash* 'lived',
+    *jaab* 'fetched',
+    *baaʿ* 'sold'. and
+    *daar* 'turned'.
 
 
 1. Middle *aa* (*naam* 'slept'):
@@ -326,12 +319,9 @@ Hollow verbs have a long vowel in the middle of the stem. They are of three type
     | you (pl.) | *t‑naam‑u*  | *nem‑tu*  | <span lang="ar" dir="rtl">تنامو</span>   | <span lang="ar" dir="rtl">نمتو</span>   |
     | they      | *ye‑naam‑u* | *naam‑u*  | <span lang="ar" dir="rtl">ينامو</span>   | <span lang="ar" dir="rtl">نامو</span>   |
 
-    Some other frequent verbs of this type are:
-
-    |         |                |                                      |
-    | :-      | :-             | -:                                   |
-    | *khaaf* | was frightened | <span lang="ar" dir="rtl">خاف</span> |
-    | *ghaar* | was jelous     | <span lang="ar" dir="rtl">غار</span> |
+    Some other frequent verbs of this type are: 
+    *khaaf* 'was frightened' and
+    *ghaar* 'was jealous'.
 
 ### Defective verbs
 
@@ -351,12 +341,9 @@ Defective verbs have a stem ending in a vowel *i* in non-past tense and *a*/*ee*
 | they      | *ye‑Hk‑u* | *Hak‑u*    | <span lang="ar" dir="rtl">يحكو</span>   | <span lang="ar" dir="rtl">حكو</span>   |
 
 Some other frequent verbs of this type are:
-
-|          |        |                                        |
-| :-       | :-     | -:                                     |
-| *masha*  | walked | <span lang="ar" dir="rtl">مشى</span>   |
-| *ʿaTa*   | gave   | <span lang="ar" dir="rtl">عطى</span>   |
-| *shtara* | baught | <span lang="ar" dir="rtl">اشترى</span> |
+*masha* 'walked',
+*ʿaTa* 'gave', and
+*shtara* 'baught'.
 
 ### Doubled verbs
 
@@ -463,7 +450,7 @@ Question words are normally clause-inital, and may be preceded by a preposition:
 
 |                       |                           |
 | :-                    | -:                        |
-| *maʿ miin ʿam taHki?* | ‘Who are you talking to?’ |
+| *maʿ miin ʿam teHki?* | ‘Who are you talking to?’ |
 
 Only *ween* and *kiif* take attached pronouns:
 
