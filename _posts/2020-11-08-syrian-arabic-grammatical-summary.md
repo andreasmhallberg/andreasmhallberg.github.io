@@ -69,7 +69,7 @@ following topics are planned to be added:
 
 This is a short pedagogical summary of the variety of Arabic spoken in the Damascus area. It is intended to be used for quick reference and overview for beginner to intermediate language learners. It was written as a complement to the Syrian-Arabic material in *Al-Kitaab fii Taʿallun al-ʿArabiyya* (Brustad et al., Georgetown University Press, 2013) but can be used independently. Parts of it are based on *A Reference Grammar of Syrian Arabic* (Georgetown University Press, 2005 [1964]), to which the reader is referred for a detailed and comprehensive grammar.
 
-This grammar uses a simplified transcription (see [Phonology](#phonolgy)) adapted from *Alif Baa* (Brustad et al., Georgetown University Press, 2010). Examples in Arabic script represent written vernacular as used in text messaging, advertisement, etc. There is a considerable variation in vernacular orthography, especially in the extent to which Standard Arabic spelling is followed, and forms that differ from those presented here are therefore common.
+This grammar uses a simplified transcription (see [Phonology](#phonolgy)) adapted from *Alif Baa* (Brustad et al., Georgetown University Press, 2010). Examples in Arabic script represent [Syrian Arabic orthography](#orthography), as used in text messaging, advertisement, etc. There is a considerable variation in vernacular orthography, especially in the extent to which Standard Arabic spelling is followed, and forms that differ from those presented here are therefore common.
 
 For corrections or suggestions on improvements, please contact the author.[^email]
 
@@ -79,26 +79,36 @@ For corrections or suggestions on improvements, please contact the author.[^emai
 
 ## Consonants
 
-|        |                                    |    |        |                                    |
-| :-     | :-                                 | :- | :-     | :-                                 |
-| *ʾ*    | <span lang="ar" dir="rtl">ء</span> |    | *D*    | <span lang="ar" dir="rtl">ض</span> |
-| *b*    | <span lang="ar" dir="rtl">ب</span> |    | *T*    | <span lang="ar" dir="rtl">ط</span> |
-| *t*    | <span lang="ar" dir="rtl">ت</span> |    | *(DH)* | <span lang="ar" dir="rtl">ظ</span> |
-| *(th)* | <span lang="ar" dir="rtl">ث</span> |    | *ʿ*    | <span lang="ar" dir="rtl">ع</span> |
-| *j*    | <span lang="ar" dir="rtl">ج</span> |    | *gh*   | <span lang="ar" dir="rtl">غ</span> |
-| *H*    | <span lang="ar" dir="rtl">ح</span> |    | *f*    | <span lang="ar" dir="rtl">ف</span> |
-| *kh*   | <span lang="ar" dir="rtl">خ</span> |    | *(q)*  | <span lang="ar" dir="rtl">ق</span> |
-| *d*    | <span lang="ar" dir="rtl">د</span> |    | *k*    | <span lang="ar" dir="rtl">ك</span> |
-| *(dh)* | <span lang="ar" dir="rtl">ذ</span> |    | *l*    | <span lang="ar" dir="rtl">ل</span> |
-| *r*    | <span lang="ar" dir="rtl">ر</span> |    | *m*    | <span lang="ar" dir="rtl">م</span> |
-| *z*    | <span lang="ar" dir="rtl">ز</span> |    | *n*    | <span lang="ar" dir="rtl">ن</span> |
-| *s*    | <span lang="ar" dir="rtl">س</span> |    | *h*    | <span lang="ar" dir="rtl">ه</span> |
-| *sh*   | <span lang="ar" dir="rtl">ش</span> |    | *w*    | <span lang="ar" dir="rtl">و</span> |
-| *S*    | <span lang="ar" dir="rtl">ص</span> |    | *y*    | <span lang="ar" dir="rtl">ي</span> |
+|                | Labial | Dental | Alveolar | Palatal | Velar | Pharyngal | Glottal |
+| :-             | :-     | :-     | :-       | :-      | :-    | :-        | :-      |
+| Fricative      |        |        |          |         |       |           |         |
+| ---*voiced*    |        |        |          |         | gh    | ʿ         |         |
+| ---*voiceless* | f      |        |          |         | kh    | H         | h       |
+| Plosive        |        |        |          |         |       |           |         |
+| ---*voiced*    | b      |        | d/D      | j       |       |           |         |
+| ---*voiceless* |        |        | t/T      |         | k     |           | ʾ       |
+| Lateral        |        | l      |          |         |       |           |         |
+| Trill          |        |        | r        |         |       |           |         |
+| Nasal          | m      | n      |          |         |       |           |         |
+| Sibilant       |        |        |          |         |       |           |         |
+| --*voiced*     |        |        | z        |         |       |           |         |
+| --*voiceless*  |        |        | s/S      |         |       |           |         |
+| Semi-vowel     | w      |        |          | y       |       |           |         |
 
-Phonemes within parenthesis are specific to Standard Arabic and are not part of the Syrian Arabic phonemic system. Their respective letters are, however, commonly used in Syrian-Standard cognates in written vernacular.[^connected]
 
-[^connected]: For the use of connected letter-forms, see [*The Arabic Writing System*](http://andreasmhallberg.github.io/documents/arabic-letters-and-vowel-markers.tex.pdf) (available for download at *<http://andreasmhallberg.github.io/documents/>*).
+Note:
+
+- Phonemes after slash are velarized variants (traditionally called "emphatic"), pronounces with the back of the tongue raised, giving a darker, thicker sound. 
+
+- Several Standard Arabic phonemes are missing in he Syrian Arabic phonemic inventory: 
+  /th/ (<span lang="ar" dir="rtl">ث</span>),
+  /dh/ (<span lang="ar" dir="rtl">ذ</span>),
+  /DH/ (<span lang="ar" dir="rtl">ظ</span>), and
+  /q/ (<span lang="ar" dir="rtl">ق</span>, See [the phonological conversion rules](#sa-conversion)).
+
+- Peripheral phonemes are the velarized /M/ (*May* 'water') and /L/ (*aLLa* 'God'), and /g/ (*argiile* 'water pipe', *engliizi* 'English'). 
+
+- /j/ is in Syrian Arabic pronounces [ʒ], as in the French *journal*, on contrast to the Standard Arabic affricate pronunciation&nbsp;[ʤ].
 
 ## Vowels
 
@@ -121,7 +131,7 @@ Note:
 
 - There are no diphthongs in Syrian Arabic. The Standard Arabic diphthongs *ay* and *aw* correspond in Syrian Arabic to the long vowels *ee* and *oo* respectively.
 
-## Standard to Syrian Arabic phonemic conversion rules 
+## Standard to Syrian Arabic phonological conversion rules {#sa-conversion}
 
 These conversion rules represent regular sound relations in Standard–Syrian cognates. Standard Arabic pronunciation is often retained in formal or literary words (*dimuqraaTiyye*) and in non-Syrian Arabic place names (*il-qaahira* ‘Cairo’). Standard Arabic *th* and *dh* are normally realized as *s* and *z* respectively for such words. 
 
@@ -136,6 +146,29 @@ These conversion rules represent regular sound relations in Standard–Syrian co
 |      |    | *(s)* |         | *mathalan*  | →  | *masalan* |         | <span lang="ar" dir="rtl">مثلا</span>   | for example |
 | *dh* | →  | *d*   |         | *dhahab*    | →  | *dahab*   |         | <span lang="ar" dir="rtl">دهب</span>   | gold        |
 |      |    | *(z)* |         | *idha*      | →  | *iza*     |         | <span lang="ar" dir="rtl">اذا</span>   | if          |
+
+# Orthography
+
+|        |                                    |    |        |                                    |
+| :-     | :-                                 | :- | :-     | :-                                 |
+| *ʾ*    | <span lang="ar" dir="rtl">ء</span> |    | *D*    | <span lang="ar" dir="rtl">ض</span> |
+| *b*    | <span lang="ar" dir="rtl">ب</span> |    | *T*    | <span lang="ar" dir="rtl">ط</span> |
+| *t*    | <span lang="ar" dir="rtl">ت</span> |    | *(DH)* | <span lang="ar" dir="rtl">ظ</span> |
+| *(th)* | <span lang="ar" dir="rtl">ث</span> |    | *ʿ*    | <span lang="ar" dir="rtl">ع</span> |
+| *j*    | <span lang="ar" dir="rtl">ج</span> |    | *gh*   | <span lang="ar" dir="rtl">غ</span> |
+| *H*    | <span lang="ar" dir="rtl">ح</span> |    | *f*    | <span lang="ar" dir="rtl">ف</span> |
+| *kh*   | <span lang="ar" dir="rtl">خ</span> |    | *(q)*  | <span lang="ar" dir="rtl">ق</span> |
+| *d*    | <span lang="ar" dir="rtl">د</span> |    | *k*    | <span lang="ar" dir="rtl">ك</span> |
+| *(dh)* | <span lang="ar" dir="rtl">ذ</span> |    | *l*    | <span lang="ar" dir="rtl">ل</span> |
+| *r*    | <span lang="ar" dir="rtl">ر</span> |    | *m*    | <span lang="ar" dir="rtl">م</span> |
+| *z*    | <span lang="ar" dir="rtl">ز</span> |    | *n*    | <span lang="ar" dir="rtl">ن</span> |
+| *s*    | <span lang="ar" dir="rtl">س</span> |    | *h*    | <span lang="ar" dir="rtl">ه</span> |
+| *sh*   | <span lang="ar" dir="rtl">ش</span> |    | *w*    | <span lang="ar" dir="rtl">و</span> |
+| *S*    | <span lang="ar" dir="rtl">ص</span> |    | *y*    | <span lang="ar" dir="rtl">ي</span> |
+
+Phonemes within parenthesis are specific to Standard Arabic and are not part of the Syrian Arabic phonemic system. Their respective letters are, however, commonly used in Syrian-Standard cognates in written vernacular.[^connected] Vowel diacritics (*tashkiil*) are not used in written vernacular.
+
+[^connected]: For the use of connected letter-forms, see [*The Arabic Writing System*](http://andreasmhallberg.github.io/documents/arabic-letters-and-vowel-markers.tex.pdf) (available for download at *<http://andreasmhallberg.github.io/documents/>*).
 
 # Pronouns 
 
@@ -171,7 +204,7 @@ The connective *-l-* ‘for’ for indirect objects may take the form *-el-* to
 |      | Close       | Distant      | <span lang="ar" dir="rtl">بعيد</span>   | <span lang="ar" dir="rtl">قريب</span> |
 | :-   | :-          | :-           | -:                                      | -:                                    |
 | m.s. | *haada*     | *hadaak(e)*  | <span lang="ar" dir="rtl">هداك</span>   | <span lang="ar" dir="rtl">هادا</span> |
-| f.s  | *haay(e)*   | *hadiik(e)*  | <span lang="ar" dir="rtl">هديك</span>   | <span lang="ar" dir="rtl">هاي</span>  |
+| f.s  | *haay*      | *hadiik(e)*  | <span lang="ar" dir="rtl">هديك</span>   | <span lang="ar" dir="rtl">هاي</span>  |
 | pl.  | *hadool(e)* | *haadooliik* | <span lang="ar" dir="rtl">هدوليك</span> | <span lang="ar" dir="rtl">هدول</span> |
 
 Note:
@@ -562,3 +595,4 @@ Note:
 - Decades (20, 30, etc.) are constructed from the counting form of the unit numer and the ending *‑iin*, with only 20 having an irregular form. In complex numbers, the unit in independent form appears before the decades with the two parts connected with *u‑* 'and': *sabʿa u‑tlaatiin*, ‘thirty‑six’.
 
 - For numbers above one hundred there is no counting form for 100: *miyye u‑tlaate kelime* ‘103&nbsp;words’.
+
