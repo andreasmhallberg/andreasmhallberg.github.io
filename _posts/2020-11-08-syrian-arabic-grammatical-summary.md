@@ -55,7 +55,7 @@ following topics are planned to be added:
 
 - [ ] syllable structure
 - [ ] phonolgy table
-- [ ] exclamations
+- [ ] exclamations?
 - [ ] imperative
 - [ ] dual
 - [ ] gender
@@ -63,6 +63,8 @@ following topics are planned to be added:
 - [ ] gender and number congruency
 - [ ] the possessive exponent 
 - [ ] verbal uses of participles
+- [x] hollow, defective and doubles verbs
+- [x] maa-n- negation
 ```
 
 # Introduction
