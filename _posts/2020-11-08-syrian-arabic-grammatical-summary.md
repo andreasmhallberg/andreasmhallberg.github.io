@@ -100,15 +100,15 @@ Note:
 
 - Phonemes after slash are velarized variants (traditionally called "emphatic"), pronounces with the back of the tongue raised, giving a darker, thicker sound. 
 
-- Several Standard Arabic phonemes are missing in he Syrian Arabic phonemic inventory: 
-  /th/ (<span lang="ar" dir="rtl">ث</span>),
-  /dh/ (<span lang="ar" dir="rtl">ذ</span>),
-  /DH/ (<span lang="ar" dir="rtl">ظ</span>), and
-  /q/ (<span lang="ar" dir="rtl">ق</span>, See [the phonological conversion rules](#sa-conversion)).
+- Several Standard Arabic phonemes are missing in the Syrian Arabic phonemic inventory (see [phonological conversion rules](#sa-conversion)):
+  *th* (<span lang="ar" dir="rtl">ث</span>),
+  *dh* (<span lang="ar" dir="rtl">ذ</span>),
+  *DH* (<span lang="ar" dir="rtl">ظ</span>), and
+  *q* (<span lang="ar" dir="rtl">ق</span>).
 
-- Peripheral phonemes are the velarized /M/ (*May* 'water') and /L/ (*aLLa* 'God'), and /g/ (*argiile* 'water pipe', *engliizi* 'English'). 
+- *m*, *b*, and *l* have infrequent velarized variants (*May* 'water', cf. *may* female name; *BaaBa* 'daddy', cf. *baaba* 'her door'; *aLLa* 'God'). 
 
-- /j/ is in Syrian Arabic pronounces [ʒ], as in the French *journal*, on contrast to the Standard Arabic affricate pronunciation&nbsp;[ʤ].
+- /j/ is in Syrian Arabic pronounces [ʒ] (as in the French *journal*), in contrast to the Standard Arabic pronunciation&nbsp;[ʤ].
 
 ## Vowels
 
