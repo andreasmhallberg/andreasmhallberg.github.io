@@ -432,10 +432,10 @@ inflected:
 
 Pseudo-verbs are inflected for tense with an auxiliary *kaan*:
 
-|                          |                                       |                         |
-| :-                       | :-                                    | :-                      |
-| *kaan ʿand-a ktaab*      | <span lang="ar" dir="rtl">كان عندها كتاب</span>     | ‘She had a book’.       |
-| *Ha-yekuun ʿand-a ktaab* | <span lang="ar" dir="rtl">حيكون عندها كتاب</span>  | ‘She will have a book’. |
+|                          |                                                   |                         |
+| :-                       | :-                                                | :-                      |
+| *kaan ʿand-a ktaab*      | <span lang="ar" dir="rtl">كان عندها كتاب</span>   | ‘She had a book’.       |
+| *Ha-yekuun ʿand-a ktaab* | <span lang="ar" dir="rtl">حيكون عندها كتاب</span> | ‘She will have a book’. |
 
 # Question words
 
@@ -474,8 +474,9 @@ Yes/no-question are formed with rising intonation.
 | :-    | -:                                  | :-                 |
 | *maa* | <span lang="ar" dir="rtl">ما</span> | verbs              |
 | *muu* | <span lang="ar" dir="rtl">مو</span> | non-verbal clauses |
+| *laa* | <span lang="ar" dir="rtl">لا</span>  | imperative         |
 
-In effect, *muu* is used to negate verbless clauses in
+For declarative clauses, in effect, *muu* is used to negate verbless clauses in
 present tense, otherwise the negation *maa* is used:
 
 |         | Verbal clause                                       | Verbless ("is") clause                                   |
