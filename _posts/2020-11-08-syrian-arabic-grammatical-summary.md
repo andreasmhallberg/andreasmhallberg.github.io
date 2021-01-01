@@ -12,7 +12,7 @@ length: long
 toc: true
 minidoc: /images/syrian-grammatical-summary.minidoc.png
 excerpt_separator: <!--excerpt_end-->
-excerpt: This is a short pedagogical summary of the variety of Arabic spoken in the Damascus area. It is intended to be used for quick reference for beginner to intermediate language learners and to provide a basic overview of the grammar. It was written as a complement to the Syrian-Arabic material in <i>Al-Kitaab fii Taʿallun al-ʿArabiyya</i> (Brustad et al., Georgetown University Press, 2013) but can be used independently. Parts of it are based on <i>A Reference Grammar of Syrian Arabic</i> (Georgetown University Press, 2005 [1964]), to which the reader is referred for a detailed and comprehensive grammar.
+excerpt: This is a short pedagogical summary of the variety of Arabic spoken in the Damascus area in Syria. It is intended to be used for quick reference and overview for beginner to intermediate language learners. It is partially based on <i>A Reference Grammar of Syrian Arabic</i> (Georgetown University Press, 2005 [1964]) and <i>Arabisch-syrische grammatik</i> (Grotzfeld, 1965, Harrasowitz), to which the reader is referred for detailed and comprehensive grammatical descriptions.
 tags:
   - teaching-materials
   - linguistics
@@ -70,13 +70,11 @@ following topics are planned to be added:
 
 # Introduction
 
-This is a short pedagogical summary of the variety of Arabic spoken in the Damascus area. It is intended to be used for quick reference and overview for beginner to intermediate language learners. It was written as a complement to the Syrian-Arabic material in *Al-Kitaab fii Taʿallun al-ʿArabiyya* (Brustad et al., Georgetown University Press, 2013) but can be used independently. Parts of it are based on *A Reference Grammar of Syrian Arabic* (Georgetown University Press, 2005 [1964]), to which the reader is referred for a detailed and comprehensive grammar.
+This is a short pedagogical summary of the variety of Arabic spoken in the Damascus area in Syria. It is intended to be used for quick reference and overview for beginner to intermediate language learners. It is partially based on *A Reference Grammar of Syrian Arabic* (Georgetown University Press, 2005 [1964]) and *Arabisch-syrische grammatik* (Grotzfeld, 1965, Harrasowitz),* to which the reader is referred for detailed and comprehensive grammatical descriptions.
 
-This grammar uses a simplified transcription (see [Phonology](#phonolgy)) adapted from *Alif Baa* (Brustad et al., Georgetown University Press, 2010). Words and examples are presented in transcription, translation, and, space permitting, Arabic script. The Arabic script represent written vernacular as used in text messaging, advertisement, etc. There is a considerable variation in vernacular orthography, especially in the extent to which Standard Arabic spelling is followed, and forms that differ from those presented here are therefore common.
+This grammar uses a simplified transcription (see [Phonology](#phonolgy)) adapted from *Alif Baa* (Brustad et al., Georgetown University Press, 2010). Words and examples are presented in transcription, translation, and, space permitting, also in Arabic script. The Arabic script represents written vernacular as used in text messaging, advertisement, etc. There is a considerable variation in vernacular Arabic orthography, especially in the extent to which Standard Arabic spelling is followed, and forms that differ from those presented here are therefore common.
 
-For corrections or suggestions on improvements, please contact the author.[^email]
-
-[^email]: [*andreas.hallberg@sprak.gu.se*](mailto:andreas.hallberg@sprak.gu.se)
+For corrections or suggestions on improvements, please contact the author at [*andreas.hallberg@sprak.gu.se*](mailto:andreas.hallberg@sprak.gu.se)
 
 # Phonology {#phonolgy}
 
