@@ -82,10 +82,10 @@ For corrections or suggestions on improvements, please contact the author.[^emai
 |                | Labial | Dental | Alveolar | Palatal | Velar | Pharyngal | Glottal |
 | :-             | :-     | :-     | :-       | :-      | :-    | :-        | :-      |
 | Fricative      |        |        |          |         |       |           |         |
-| ---*voiced*    |        |        |          |         | gh    | ʿ         |         |
+| ---*voiced*    |        |        |          | j       | gh    | ʿ         |         |
 | ---*voiceless* | f      |        |          |         | kh    | H         | h       |
 | Plosive        |        |        |          |         |       |           |         |
-| ---*voiced*    | b      |        | d/D      | j       |       |           |         |
+| ---*voiced*    | b      |        | d/D      |         |       |           |         |
 | ---*voiceless* |        |        | t/T      |         | k     |           | ʾ       |
 | Lateral        |        | l      |          |         |       |           |         |
 | Trill          |        |        | r        |         |       |           |         |
@@ -98,20 +98,23 @@ For corrections or suggestions on improvements, please contact the author.[^emai
 
 Note:
 
-- Phonemes after slash are velarized variants (traditionally called "emphatic"), pronounces with the back of the tongue raised, giving a darker, thicker sound. 
+- *D*, *T*, and *S* are so called emphatic consonants, pronounces with the back of the tongue raised, giving a darker, thicker sound. 
 
-- Several Standard Arabic phonemes are missing in the Syrian Arabic phonemic inventory (see [phonological conversion rules](#sa-conversion)):
+- Several Standard Arabic phonemes are missing in the Syrian Arabic (see [phonological conversion rules](#sa-conversion)):
   *th* (<span lang="ar" dir="rtl">ث</span>),
   *dh* (<span lang="ar" dir="rtl">ذ</span>),
   *DH* (<span lang="ar" dir="rtl">ظ</span>), and
   *q* (<span lang="ar" dir="rtl">ق</span>).
 
-- *m*, *b*, and *l* have infrequent velarized variants (*May* 'water', cf. *may* female name; *BaaBa* 'daddy', cf. *baaba* 'her door'; *aLLa* 'God'). 
+- *m*, *b*, and *l* have infrequent emphatic variants which may change the meaning of some words (*May* 'water', cf. *may* female name; *BaaBa* 'daddy', cf. *baaba* 'her door'; *aLLa* 'God').
 
-- /j/ is in Syrian Arabic pronounces [ʒ] (as in the French *journal*), in contrast to the Standard Arabic pronunciation&nbsp;[ʤ].
+- /j/ is in Syrian Arabic pronounced&nbsp;[ʒ] (as in the French *journal*), in contrast to the Standard Arabic pronunciation&nbsp;[ʤ].
+
+- All consonants have a short and a long form. Long consonants are transcribed as doubled letter. This distinction is crucial, often changing the meaning of words (*daras* 'he studied', *darras* 'he taught'). For plosives, the long consonant is produced by briefly holding the air pressure before releasing it and producing the sound.
+
+  The long-short consonant distinction is generally not represented in the Arabic script, and only vary rarely with the diacritic&nbsp;<span lang="ar" dir="rtl">ـّ</span> (*shadda*). 
 
 ## Vowels
-
 
 | Short | Long |                                    |
 | :-:   | :-:  | :-:                                |
@@ -123,29 +126,42 @@ Note:
 
 Note:
 
-- Only long vowels have an orthographic representation. 
+- The Arabic letters are only used to represent the long vowels. Short vowels have no orthographic representation. 
 
-- *i* and *u* occur primarily in word final position as part of inflections (*beet-i* 'my house', *byeʿmal-u* 'they do').
+- *i* and *u* occur only in word final position as part of inflections (*beet-i* 'my house', *byeʿmal-u* 'they do').
 
-- The vowel here represented as *e* is generally realized as *schwa*&nbsp;[ə].
+- *e* is generally pronounced as *schwa*&nbsp;[ə] when occurring at or before the word stress, and as [e] after word stress.
 
 - There are no diphthongs in Syrian Arabic. The Standard Arabic diphthongs *ay* and *aw* correspond in Syrian Arabic to the long vowels *ee* and *oo* respectively.
 
+## Word stress
+
+Word stress in Syrian Arabic is largely predictable. Word stress occurs on the last
+
+- long vowel followed by consonant (*mabrúuk*, *fáaTme*), or
+- short vowel followed by two consonants or a long consonant (*mádrase*, *dárraso*) 
+
+or else on the first vowel (*Háka*, *dárasu*).
+
 ## Standard to Syrian Arabic phonological conversion rules {#sa-conversion}
 
-These conversion rules represent regular sound relations in Standard–Syrian cognates. Standard Arabic pronunciation is often retained in formal or literary words (*dimuqraaTiyye*) and in non-Syrian Arabic place names (*il-qaahira* ‘Cairo’). Standard Arabic *th* and *dh* are normally realized as *s* and *z* respectively for such words. 
-
-|      |    |       |         |             |    |           |         |                              |             |
-| :-   | :- | :-    | :------ | :-          | :- | :-        | :------ | :-                           | :-          |
+|      |    |       |         |             |    |           |         |                                        |             |
+| :-   | :- | :-    | :------ | :-          | :- | :-        | :------ | :-                                     | :-          |
 | *aw* | →  | *oo*  |         | *yawm*      | →  | *yoom*    |         | <span lang="ar" dir="rtl">يوم</span>   | day         |
 | *ay* | →  | *ee*  |         | *bayn*      | →  | *been*    |         | <span lang="ar" dir="rtl">بين</span>   | between     |
-| *q*  | →  | *ʾ*   |         | *daqiiqa*   | →  | *daʾiiʾa* |         | <span lang="ar" dir="rtl">دقيقة</span> | minute      |
+| *q*  | →  | *ʾ*   |         | *daqiiqa*   | →  | *daʾiiʾe* |         | <span lang="ar" dir="rtl">دقيقة</span> | minute      |
 | *DH* | →  | *D*   |         | *DHuhr*     | →  | *Duhr*    |         | <span lang="ar" dir="rtl">ضهر</span>   | noon        |
 | *ʾ*  | →  | *ø*   |         | *masaaʾ*    | →  | *masa*    |         | <span lang="ar" dir="rtl">مسا</span>   | eavening    |
 | *th* | →  | *t*   |         | *thalaatha* | →  | *tlaate*  |         | <span lang="ar" dir="rtl">تلاتة</span>  | three       |
 |      |    | *(s)* |         | *mathalan*  | →  | *masalan* |         | <span lang="ar" dir="rtl">مثلا</span>   | for example |
 | *dh* | →  | *d*   |         | *dhahab*    | →  | *dahab*   |         | <span lang="ar" dir="rtl">دهب</span>   | gold        |
 |      |    | *(z)* |         | *idha*      | →  | *iza*     |         | <span lang="ar" dir="rtl">اذا</span>   | if          |
+
+Note:
+
+- In Standard Arabic loan words in Syrian Arabic, the Standard Arabic pronunciation is preserved (*dimuqraaTiyye*).
+
+- Speakers of Syrian Arabic approximate the Standard Arabic phonemes *th* and *dh* as *s* and&nbs;*z* respectively, represented by the parenthesis above. Standard Arabic loan words containing these phonemes are pronounced accordingly. See examples with parenthesis above.
 
 # Orthography
 
@@ -166,7 +182,7 @@ These conversion rules represent regular sound relations in Standard–Syrian co
 | *sh*   | <span lang="ar" dir="rtl">ش</span> |    | *w*    | <span lang="ar" dir="rtl">و</span> |
 | *S*    | <span lang="ar" dir="rtl">ص</span> |    | *y*    | <span lang="ar" dir="rtl">ي</span> |
 
-Phonemes within parenthesis are specific to Standard Arabic and are not part of the Syrian Arabic phonemic system. Their respective letters are, however, commonly used in Syrian-Standard cognates in written vernacular.[^connected] Vowel diacritics (*tashkiil*) are not used in written vernacular.
+Phonemes within parenthesis are specific to Standard Arabic and are not part of the Syrian Arabic phonemic system. Their respective letters are, however, commonly used in Syrian-Standard cognates in written vernacular.[^connected] Vowel diacritics (*tashkiil*) are very rarely used in written vernacular.
 
 [^connected]: For the use of connected letter-forms, see [*The Arabic Writing System*](http://andreasmhallberg.github.io/documents/arabic-letters-and-vowel-markers.tex.pdf) (available for download at *<http://andreasmhallberg.github.io/documents/>*).
 
@@ -595,4 +611,3 @@ Note:
 - Decades (20, 30, etc.) are constructed from the counting form of the unit numer and the ending *‑iin*, with only 20 having an irregular form. In complex numbers, the unit in independent form appears before the decades with the two parts connected with *u‑* 'and': *sabʿa u‑tlaatiin*, ‘thirty‑six’.
 
 - For numbers above one hundred there is no counting form for 100: *miyye u‑tlaate kelime* ‘103&nbsp;words’.
-
