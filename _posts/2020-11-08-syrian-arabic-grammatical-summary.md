@@ -362,6 +362,10 @@ Doubled verbs have a stem ending in a lengthened (doubled) consonant. In past te
 | you (pl.) | *t‑Hess‑u*  | *Hassee‑tu* | <span lang="ar" dir="rtl">تحسو</span>    | <span lang="ar" dir="rtl">حسيتو</span>  |
 | they      | *ye‑Hess‑u* | *Hass‑u*    | <span lang="ar" dir="rtl">يحسو</span>     | <span lang="ar" dir="rtl">حسو</span>    |
 
+Some other frequent verbs of this type are:
+*radd* 'answered' and
+*Dall* 'remained'.
+
 ## Auxiliary verbs
 
 The main verb may be preceded by an auxiliary verb. Both the auxiliary and the main verb are inflected for person:
