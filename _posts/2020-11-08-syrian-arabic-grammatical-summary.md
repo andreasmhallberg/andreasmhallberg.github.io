@@ -183,6 +183,13 @@ Note:
 
 - The distant plural pronoun has several variants not listed above, including *hadook, hadenk*, and *hadenken*.
 
+## Indefinite pronouns
+
+|         |             |                                      |
+| :-      | :-          | -:                                   |
+| *Hada*  | ‘somewhone’ | <span lang="ar" dir="rtl">حدا</span> |
+| *shi*   | ‘something’ | <span lang="ar" dir="rtl">شي</span>  |
+
 # Nouns
 
 Nouns are inflected for number and definiteness, and most animate nouns (referring to humans or animals) are also inflected for gender.
