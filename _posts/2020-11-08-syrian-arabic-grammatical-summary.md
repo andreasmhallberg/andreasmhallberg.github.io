@@ -17,6 +17,8 @@ tags:
   - teaching-materials
   - linguistics
 updates: 
+  - date: XXXX
+    contents: 'Presentation order standardized: translation, transcription, Arabic. Indefinite pronouns added. Various minor additions.'
   - date: 2020-12-29
     contents: Hollow, defective, and doubled verbs added. 
   - date: 2020-12-05
