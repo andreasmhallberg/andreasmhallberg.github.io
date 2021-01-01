@@ -61,7 +61,7 @@ following topics are planned to be added:
 - [ ] gender
 - [ ] adverbs
 - [ ] the possessive exponent 
-- [ ] participles
+- [ ] verbal uses of participles
 - [x] hollow, defective and doubles verbs
 - [x] maa-n- negation
 ```
@@ -116,7 +116,7 @@ Note:
 
 - Only long vowels have an orthographic representation. 
 
-- *i* and *u* occur primarily in word final position as part of inflections (*beet-i* 'my house', *byeʿmal-u* 'they do').
+- The short vowels *i* and *u* only occur in word final position as part of inflections (*beet-i* 'my house', *byeʿmal-u* 'they do').
 
 - The vowel here represented as *e* is generally realized as *schwa*&nbsp;[ə].
 
@@ -444,26 +444,30 @@ Pseudo-verbs are inflected for tense with an auxiliary *kaan*:
 | *kaan ʿand-a ktaab*      |  ‘She had a book’.       |<span lang="ar" dir="rtl">كان عندها كتاب</span>   |
 | *Ha-yekuun ʿand-a ktaab* |  ‘She will have a book’. |<span lang="ar" dir="rtl">حيكون عندها كتاب</span> |
 
+
 # Question words
 
-|            |            |                                        |
-| :-         |  :-        |-:                                      |
-| *shuu?*    |  what?     |<span lang="ar" dir="rtl">شو؟</span>    |
-| *miin?*    |  who?      |<span lang="ar" dir="rtl">مين؟</span>   |
-| *eemta?*   |  when?     |<span lang="ar" dir="rtl">ايمتى؟</span> |
-| *kiif?*    |  how?      |<span lang="ar" dir="rtl">كيف؟</span>   |
-| *ween?*    |  where?    |<span lang="ar" dir="rtl">وين؟</span>   |
-| *leesh?*   |  why?      |<span lang="ar" dir="rtl">ليش؟</span>   |
-| *addeesh?* |  how much? |<span lang="ar" dir="rtl">قديش؟</span>  |
-| *kam?*     |  how many? |<span lang="ar" dir="rtl">كم؟</span>    |
+|               |                                           |            |
+| :-            | -:                                        | :-         |
+| *shuu*        | <span lang="ar" dir="rtl">شو</span>       | what       |
+| *miin*        | <span lang="ar" dir="rtl">مين</span>      | who        |
+| *eemta*       | <span lang="ar" dir="rtl">ايمتى</span>    | when       |
+| *kiif/shloon* | <span lang="ar" dir="rtl">كيف/شلون</span> | how        |
+| *ween*        | <span lang="ar" dir="rtl">وين</span>      | where      |
+| *minnen*      | <span lang="ar" dir="rtl">منين</span>     | from where |
+| *laween*      | <span lang="ar" dir="rtl">لوين</span>     | whereto    |
+| *leesh*       | <span lang="ar" dir="rtl">ليش</span>      | why        |
+| *addeesh*     | <span lang="ar" dir="rtl">قديش</span>     | how much   |
+| *kam*         | <span lang="ar" dir="rtl">كم</span>       | how many   |
+| *ayyi/anu*    | <span lang="ar" dir="rtl">اي/انو</span>   | which      |
   
 Question words are normally clause-inital, and may be preceded by a preposition:
 
-|                       |                           ||
-| :-                    | :-                        | -:|
-| *maʿ miin ʿam teHki?* | ‘Who are you talking to?’ |<span lang="ar" dir="rtl">مع مين عم تحكي؟</span>|
+|                       |                           |                                                  |
+| :-                    | :-                        | -:                                               |
+| *maʿ miin ʿam teHki?* | ‘Who are you talking to?’ | <span lang="ar" dir="rtl">مع مين عم تحكي؟</span> |
 
-Only *ween* and *kiif* take attached pronouns:
+*Ween* and *kiif* take attached pronouns:
 
 |            |                   |                                       |
 | :-         |  :-               |-:                                     |
@@ -474,12 +478,13 @@ Yes/no-question are formed with rising intonation.
 
 # Negation {#negation}
 
-|       |                     |                                    |
-| :-    |  :-                 |-:                                  |
-| *maa* |  verbs              |<span lang="ar" dir="rtl">ما</span> |
-| *muu* |  non-verbal clauses |<span lang="ar" dir="rtl">مو</span> |
+|       |                                     |                    |
+| :-    | -:                                  | :-                 |
+| *maa* | <span lang="ar" dir="rtl">ما</span> | verbs              |
+| *muu* | <span lang="ar" dir="rtl">مو</span> | non-verbal clauses |
+| *laa* | <span lang="ar" dir="rtl">لا</span>  | imperative         |
 
-In effect, *muu* is used to negate verbless clauses in
+For declarative clauses, in effect, *muu* is used to negate verbless clauses in
 present tense, otherwise the negation *maa* is used:
 
 |         | Verbal clause                                       | Verbless ("is") clause                                   |
