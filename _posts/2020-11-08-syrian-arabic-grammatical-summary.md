@@ -18,7 +18,7 @@ tags:
   - linguistics
 updates: 
   - date: 2020-12-29
-    contents: Hollow, defective, and doubled verbs added. 
+    contents: Hollow and doubled verbs added. 
   - date: 2020-12-05
     contents: maan- negation added. Minor readability improvements.
   - date: 2020-11-20
@@ -62,7 +62,7 @@ following topics are planned to be added:
 - [ ] adverbs
 - [ ] the possessive exponent 
 - [ ] participles
-- [x] hollow, defective and doubles verbs
+- [x] hollow and doubles verbs
 - [x] maa-n- negation
 ```
 
@@ -323,6 +323,7 @@ Hollow verbs have a long vowel in the middle of the stem. They are of three type
     *khaaf* 'was frightened' and
     *ghaar* 'was jealous'.
 
+<!--
 ### Defective verbs
 
 Defective verbs have a stem ending in a vowel *i* in non-past tense and *a*/*ee* in past tense. There is only one type of defective verb.
@@ -344,6 +345,8 @@ Some other frequent verbs of this type are:
 *masha* 'walked',
 *ʿaTa* 'gave', and
 *shtara* 'baught'.
+
+-->
 
 ### Doubled verbs
 
