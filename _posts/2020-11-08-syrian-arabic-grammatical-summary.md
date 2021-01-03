@@ -12,13 +12,13 @@ length: long
 toc: true
 minidoc: /images/syrian-grammatical-summary.minidoc.png
 excerpt_separator: <!--excerpt_end-->
-excerpt: This is a short pedagogical summary of the variety of Arabic spoken in the Damascus area in Syria. It is intended to be used for quick reference and overview for beginner to intermediate language learners. It is partially based on <i>A Reference Grammar of Syrian Arabic</i> (Cowell 2005 [1964], Georgetown University Press) and <i>Arabisch-syrische grammatik</i> (Grotzfeld 1965, Harrasowitz), to which the reader is referred for detailed and comprehensive grammatical descriptions.
+excerpt: This is a short pedagogical summary of the variety of Arabic spoken in the Damascus area in Syria. It is intended to be used for quick reference and overview for beginner to intermediate language learners. It is partially based on <i>A Reference Grammar of Syrian Arabic</i> (Cowell 2005 [1964], Georgetown University Press) and <i>Arabisch-syrische grammatik</i> (Grotzfeld 1965, Harrassowitz), to which the reader is referred for detailed and comprehensive grammatical descriptions.
 tags:
   - teaching-materials
   - linguistics
 updates: 
-  - date: XXXX
-    contents: 'Presentation order standardized: translation, transcription, Arabic. Indefinite pronouns added. Various minor additions.'
+  - date: 2021-01-03
+    contents: 'Presentation order standardized: translation, transcription, Arabic. Indefinite pronouns added. Various minor additions and edits.'
   - date: 2020-12-29
     contents: Hollow and doubled verbs added. 
   - date: 2020-12-05
@@ -68,7 +68,7 @@ following topics are planned to be added:
 
 # Introduction
 
-This is a short pedagogical summary of the variety of Arabic spoken in the Damascus area in Syria. It is intended to be used for quick reference and overview for beginner to intermediate language learners. It is partially based on *A Reference Grammar of Syrian Arabic* (Cowell 2005 [1964], Georgetown University Press) and *Arabisch-syrische grammatik* (Grotzfeld 1965, Harrasowitz),* to which the reader is referred for detailed and comprehensive grammatical descriptions.
+This is a short pedagogical summary of the variety of Arabic spoken in the Damascus area in Syria. It is intended to be used for quick reference and overview for beginner to intermediate language learners. It is partially based on *A Reference Grammar of Syrian Arabic* (Cowell 2005 [1964], Georgetown University Press) and *Arabisch-syrische grammatik* (Grotzfeld 1965, Harrasowitz), to which the reader is referred for detailed and comprehensive grammatical descriptions.
 
 This grammar uses a simplified transcription (see [Phonology](#phonolgy)) adapted from *Alif Baa* (Brustad et al., Georgetown University Press, 2010). Words and examples are presented in transcription, translation, and, space permitting, also in Arabic script. The Arabic script represents written vernacular as used in text messaging, advertisement, etc. There is a considerable variation in vernacular Arabic orthography, especially in the extent to which Standard Arabic spelling is followed, and forms that differ from those presented here are therefore common.
 
@@ -156,12 +156,12 @@ Forms in parenthesis are used with words with final vowel: *aʿTaa-ki* ‘he ga
 
 Attached pronouns are used for:
 
-|                           |              |                   ||
-| :-                        | :-           | :-                | -:|
-| possession                | *ktaab‑o*    | ‘his book’        |<span lang="ar" dir="rtl">كتابو</span>|
-| prepositional complements | *maʿ‑o*      | ‘with‑him’        |<span lang="ar" dir="rtl">معو</span>|
-| direct objects            | *katabt‑o*   | ‘I wrote it’      |<span lang="ar" dir="rtl">كتبتو</span>|
-| indirect objects          | *katabt‑l‑o* | ‘I wrote for him’ |<span lang="ar" dir="rtl">كتبتلو</span>|
+|                           |              |                 |                                         |
+| :-                        | :-           | :-              | -:                                      |
+| possession                | *ktaab‑o*    | his book        | <span lang="ar" dir="rtl">كتابو</span>  |
+| prepositional complements | *maʿ‑o*      | with‑him        | <span lang="ar" dir="rtl">معو</span>    |
+| direct objects            | *katabt‑o*   | I wrote it      | <span lang="ar" dir="rtl">كتبتو</span>  |
+| indirect objects          | *katabt‑l‑o* | I wrote for him | <span lang="ar" dir="rtl">كتبتلو</span> |
 
 The connective *-l-* ‘for’ for indirect objects may take the form *-el-* to prevent consonant clusters: *katabt‑el‑kon* ‘I wrote for you&nbsp;(pl.)’. A direct object may then be added with the word *yaa-:* *katabt-l-ak yaa-ha* ‘I wrote it&nbsp;(fem.) for you’.
 
@@ -183,10 +183,10 @@ Note:
 
 ## Indefinite pronouns
 
-|         |             |                                      |
-| :-      | :-          | -:                                   |
-| *Hada*  | ‘somewhone’ | <span lang="ar" dir="rtl">حدا</span> |
-| *shi*   | ‘something’ | <span lang="ar" dir="rtl">شي</span>  |
+|        |           |                                      |
+| :-     | :-        | -:                                   |
+| *Hada* | someone   | <span lang="ar" dir="rtl">حدا</span> |
+| *shi*  | something | <span lang="ar" dir="rtl">شي</span>  |
 
 # Nouns
 
@@ -224,10 +224,10 @@ There are four ways to form plural: *irregular*, *regular masculine*, *regular f
 
 For the prepositions with two alternate forms, the first is used with nouns and the second with pronouns:
 
-|             |                 |                                        |
-| :-          |  :-             |-:                                      |
-| *bi‑l‑beet* |  ‘in the house’ |<span lang="ar" dir="rtl">بالبيت</span> |
-| *fii‑h*     |  ‘in it’        |<span lang="ar" dir="rtl">فيه</span>    |
+|             |              |                                         |
+| :-          | :-           | -:                                      |
+| *bi‑l‑beet* | in the house | <span lang="ar" dir="rtl">بالبيت</span> |
+| *fii‑h*     | in it        | <span lang="ar" dir="rtl">فيه</span>    |
 
 
 # Verbs
@@ -282,7 +282,7 @@ Hollow verbs have a long vowel in the middle of the stem. They are of three type
     | you (pl.) | *t‑ruuH‑u*  | *reH‑tu*  | <span lang="ar" dir="rtl">تروحو</span>   | <span lang="ar" dir="rtl">رحتو</span>   |
     | they      | *ye‑ruuH‑u* | *raaH‑u*  | <span lang="ar" dir="rtl">يروحو</span>   | <span lang="ar" dir="rtl">راحو</span>   |
 
-    Some other frequent verbs of this type are: 
+    Some other frequent verbs of this type are 
     *kaan* 'was',
     *ʾaal* 'said',
     *raaH* 'went',
@@ -304,7 +304,7 @@ Hollow verbs have a long vowel in the middle of the stem. They are of three type
     | you (pl.) | *t‑Siir‑u*  | *Ser‑tu*  | <span lang="ar" dir="rtl">تروحو</span>   | <span lang="ar" dir="rtl">رحتو</span>   |
     | they      | *ye‑Siir‑u* | *Saar‑u*  | <span lang="ar" dir="rtl">يروحو</span>   | <span lang="ar" dir="rtl">راحو</span>   |
 
-    Some other frequent verbs of this type are: 
+    Some other frequent verbs of this type are 
     *ʿaash* 'lived',
     *jaab* 'fetched',
     *baaʿ* 'sold'. and
@@ -324,7 +324,7 @@ Hollow verbs have a long vowel in the middle of the stem. They are of three type
     | you (pl.) | *t‑naam‑u*  | *nem‑tu*  | <span lang="ar" dir="rtl">تنامو</span>   | <span lang="ar" dir="rtl">نمتو</span>   |
     | they      | *ye‑naam‑u* | *naam‑u*  | <span lang="ar" dir="rtl">ينامو</span>   | <span lang="ar" dir="rtl">نامو</span>   |
 
-    Some other frequent verbs of this type are: 
+    Some other frequent verbs of this type are 
     *khaaf* 'was frightened' and
     *ghaar* 'was jealous'.
 
@@ -335,16 +335,16 @@ Defective verbs have a stem ending in a vowel *i* in non-past tense and *a*/*ee*
 
 *Haka* 'talked':
 
-|           | Non-Past | Past       | <span lang="ar" dir="rtl">المضارع</span> | <span lang="ar" dir="rtl">الماضي</span>  |
-| :-        | :-       | :-         | -:                                       | -:                                       |
-| I         | *e‑Hki*  | *Hakee‑t*  | <span lang="ar" dir="rtl">احكي</span>   | <span lang="ar" dir="rtl">حكيت</span>  |
-| you (ms.) | *te‑Hki* | *Hakee‑t*  | <span lang="ar" dir="rtl">تحكي</span>   | <span lang="ar" dir="rtl">حكيت</span>  |
-| you (fs.) | *te‑Hki* | *Hakee‑ti* | <span lang="ar" dir="rtl">تحكي</span>    | <span lang="ar" dir="rtl">حكيتي</span> |
-| he        | *ye‑Hki* | *Haka*     | <span lang="ar" dir="rtl">يحكي</span>    | <span lang="ar" dir="rtl">حكى</span>   |
-| she       | *te‑Hki* | *Hak‑et*   | <span lang="ar" dir="rtl">تحكي</span>    | <span lang="ar" dir="rtl">حكت</span>   |
-| we        | *ne‑Hki* | *Hakee‑na* | <span lang="ar" dir="rtl">نحكي</span>    | <span lang="ar" dir="rtl">حكينا</span> |
-| you (pl.) | *te‑Hk‑u* | *Hakee‑tu* | <span lang="ar" dir="rtl">تحكو</span>   | <span lang="ar" dir="rtl">حكيتو</span> |
-| they      | *ye‑Hk‑u* | *Hak‑u*    | <span lang="ar" dir="rtl">يحكو</span>   | <span lang="ar" dir="rtl">حكو</span>   |
+|           | Non-Past  | Past       | <span lang="ar" dir="rtl">المضارع</span> | <span lang="ar" dir="rtl">الماضي</span> |
+| :-        | :-        | :-         | -:                                       | -:                                      |
+| I         | *e‑Hki*   | *Hakee‑t*  | <span lang="ar" dir="rtl">احكي</span>    | <span lang="ar" dir="rtl">حكيت</span>   |
+| you (ms.) | *te‑Hki*  | *Hakee‑t*  | <span lang="ar" dir="rtl">تحكي</span>    | <span lang="ar" dir="rtl">حكيت</span>   |
+| you (fs.) | *te‑Hki*  | *Hakee‑ti* | <span lang="ar" dir="rtl">تحكي</span>    | <span lang="ar" dir="rtl">حكيتي</span>  |
+| he        | *ye‑Hki*  | *Haka*     | <span lang="ar" dir="rtl">يحكي</span>    | <span lang="ar" dir="rtl">حكى</span>    |
+| she       | *te‑Hki*  | *Hak‑et*   | <span lang="ar" dir="rtl">تحكي</span>    | <span lang="ar" dir="rtl">حكت</span>    |
+| we        | *ne‑Hki*  | *Hakee‑na* | <span lang="ar" dir="rtl">نحكي</span>    | <span lang="ar" dir="rtl">حكينا</span>  |
+| you (pl.) | *te‑Hk‑u* | *Hakee‑tu* | <span lang="ar" dir="rtl">تحكو</span>    | <span lang="ar" dir="rtl">حكيتو</span>  |
+| they      | *ye‑Hk‑u* | *Hak‑u*    | <span lang="ar" dir="rtl">يحكو</span>    | <span lang="ar" dir="rtl">حكو</span>    |
 
 Some other frequent verbs of this type are:
 *masha* 'walked',
@@ -370,7 +370,7 @@ Doubled verbs have a stem ending in a lengthened (doubled) consonant. In past te
 | you (pl.) | *t‑Hess‑u*  | *Hassee‑tu* | <span lang="ar" dir="rtl">تحسو</span>    | <span lang="ar" dir="rtl">حسيتو</span>  |
 | they      | *ye‑Hess‑u* | *Hass‑u*    | <span lang="ar" dir="rtl">يحسو</span>     | <span lang="ar" dir="rtl">حسو</span>    |
 
-Some other frequent verbs of this type are:
+Some other frequent verbs of this type are
 *radd* 'answered' and
 *Dall* 'remained'.
 
@@ -393,14 +393,14 @@ The verb *kaan* 'was' is used
 
     |                          |                           |
     | :-                       | :-                        |
-    | *aHmed kaan Taaleb*      | ‘Ahmad was a student’     |
-    | *aHmed Ha‑yekuun Taaleb* | ‘Ahmad will be a student’ |
+    | *aHmad kaan Taaleb*      | Ahmad was a student     |
+    | *aHmad Ha‑yekuun Taaleb* | Ahmad will be a student |
 
 2.  to express a past ongoing (progressive) event:
 
     |                           |                      |
     | :-                        | :-                   |
-    | *aHmed kaan (ʿam) yedros* | ‘Ahmed was studying’ |
+    | *aHmad kaan (ʿam) yedros* | Ahmed was studying |
 
 It is a [hollow verb with middle *uu*](#hollow-verbs) in non-past tense:
 
@@ -420,11 +420,11 @@ It is a [hollow verb with middle *uu*](#hollow-verbs) in non-past tense:
 
 ## Pseudo-verbs
 
-|         |             |                                     |
-| :-      |  :-         |-:                                   |
-| *bedd‑* |  ‘want’     |<span lang="ar" dir="rtl">بد</span>  |
-| *ʿand‑* |  ‘has’      |<span lang="ar" dir="rtl">عند</span> |
-| *fii*   |  ‘there is’ |<span lang="ar" dir="rtl">في</span>  |
+|         |          |                                      |
+| :-      | :-       | -:                                   |
+| *bedd‑* | want     | <span lang="ar" dir="rtl">بد</span>  |
+| *ʿand‑* | has      | <span lang="ar" dir="rtl">عند</span> |
+| *fii*   | there is | <span lang="ar" dir="rtl">في</span>  |
 
 
 The pseudo-verbs are negated as verbs with *maa* (see [Negation](#negation)) but do not follow
@@ -432,35 +432,35 @@ verbal person and tense inflection. *bedd‑* and *ʿand-* are inflected
 for person with attached pronouns, like nouns, while *fii* is not
 inflected:
 
-|                |                                             |                                            |
-| :-             |  :-                                         |:-                                          |
-| *bedd-a ktaab* |  ‘she wants a book’  [‘her wish is a book’] |<span lang="ar" dir="rtl">بدها كتاب</span>  |
-| *ʿand-a ktaab* |  ‘she has a book’ [‘with her is a book’]    |<span lang="ar" dir="rtl">عندها كتاب</span> |
-| *fii ktaab*    |  ‘there is a book’                          |<span lang="ar" dir="rtl">في كتاب</span>    |
+|                |                                        |                                             |
+| :-             | :-                                     | :-                                          |
+| *bedd-a ktaab* | she wants a book  [her wish is a book] | <span lang="ar" dir="rtl">بدها كتاب</span>  |
+| *ʿand-a ktaab* | she has a book [with her is a book]    | <span lang="ar" dir="rtl">عندها كتاب</span> |
+| *fii ktaab*    | there is a book                        | <span lang="ar" dir="rtl">في كتاب</span>    |
 
 Pseudo-verbs are inflected for tense with an auxiliary *kaan*:
 
 |                          |                          |                                                  |
 | :-                       |  :-                      |:-                                                |
-| *kaan ʿand-a ktaab*      |  ‘She had a book’.       |<span lang="ar" dir="rtl">كان عندها كتاب</span>   |
-| *Ha-yekuun ʿand-a ktaab* |  ‘She will have a book’. |<span lang="ar" dir="rtl">حيكون عندها كتاب</span> |
+| *kaan ʿand-a ktaab*      |  She had a book.       |<span lang="ar" dir="rtl">كان عندها كتاب</span>   |
+| *Ha-yekuun ʿand-a ktaab* |  She will have a book. |<span lang="ar" dir="rtl">حيكون عندها كتاب</span> |
 
 
 # Question words
 
-|               |                                           |            |
-| :-            | -:                                        | :-         |
-| *shuu*        | <span lang="ar" dir="rtl">شو</span>       | what       |
-| *miin*        | <span lang="ar" dir="rtl">مين</span>      | who        |
-| *eemta*       | <span lang="ar" dir="rtl">ايمتى</span>    | when       |
-| *kiif/shloon* | <span lang="ar" dir="rtl">كيف/شلون</span> | how        |
-| *ween*        | <span lang="ar" dir="rtl">وين</span>      | where      |
-| *minnen*      | <span lang="ar" dir="rtl">منين</span>     | from where |
-| *laween*      | <span lang="ar" dir="rtl">لوين</span>     | whereto    |
-| *leesh*       | <span lang="ar" dir="rtl">ليش</span>      | why        |
-| *addeesh*     | <span lang="ar" dir="rtl">قديش</span>     | how much   |
-| *kam*         | <span lang="ar" dir="rtl">كم</span>       | how many   |
-| *ayyi/anu*    | <span lang="ar" dir="rtl">اي/انو</span>   | which      |
+|               |            |                                           |
+| :-            | :-         | -:                                        |
+| *shuu*        | what       | <span lang="ar" dir="rtl">شو</span>       |
+| *miin*        | who        | <span lang="ar" dir="rtl">مين</span>      |
+| *eemta*       | when       | <span lang="ar" dir="rtl">ايمتى</span>    |
+| *kiif/shloon* | how        | <span lang="ar" dir="rtl">كيف/شلون</span> |
+| *ween*        | where      | <span lang="ar" dir="rtl">وين</span>      |
+| *minnen*      | from where | <span lang="ar" dir="rtl">منين</span>     |
+| *laween*      | whereto    | <span lang="ar" dir="rtl">لوين</span>     |
+| *leesh*       | why        | <span lang="ar" dir="rtl">ليش</span>      |
+| *addeesh*     | how much   | <span lang="ar" dir="rtl">قديش</span>     |
+| *kam*         | how many   | <span lang="ar" dir="rtl">كم</span>       |
+| *ayyi/anu*    | which      | <span lang="ar" dir="rtl">اي/انو</span>   |
   
 Question words are normally clause-inital, and may be preceded by a preposition:
 
@@ -472,8 +472,8 @@ Question words are normally clause-inital, and may be preceded by a preposition:
 
 |            |                   |                                       |
 | :-         |  :-               |-:                                     |
-| *ween-ak?* |  ‘Where are you?’ |<span lang="ar" dir="rtl">وينك؟</span> |
-| *kiif-ak?* |  ‘How are you?’   |<span lang="ar" dir="rtl">كيفك؟</span> |
+| *ween-ak?* |  Where are you? |<span lang="ar" dir="rtl">وينك؟</span> |
+| *kiif-ak?* |  How are you?   |<span lang="ar" dir="rtl">كيفك؟</span> |
 
 Yes/no-question are formed with rising intonation.
 
@@ -485,26 +485,26 @@ Yes/no-question are formed with rising intonation.
 | *muu* | <span lang="ar" dir="rtl">مو</span> | non-verbal clauses |
 | *laa* | <span lang="ar" dir="rtl">لا</span>  | imperative         |
 
-For declarative clauses, in effect, *muu* is used to negate verbless clauses in
-present tense, otherwise the negation *maa* is used:
+For declarative clauses, in effect, *muu* is only used to negate a verbless clauses in
+present tense, otherwise the *maa* is used:
 
 |         | Verbal clause                                       | Verbless ("is") clause                                   |
 | :-      | :-                                                  | :-                                                       |
-|         | 'Ahmed is studying.'                                | 'Ahmed is a student.'                                    |
-| Past    | *aHmed* ***maa*** *daras*                           | *aHmed* ***maa*** *kaan Taaleb*                          |
+|         | Ahmed is studying.                                  | Ahmed is a student.                                      |
+| Past    | *aHmad* ***maa*** *daras*                           | *aHmad* ***maa*** *kaan Taaleb*                          |
 |         | <span lang="ar" dir="rtl">أحمد ما درس</span>        | <span lang="ar" dir="rtl">أحمد ما كان طالب</span>        |
-| Present | *aHmed* ***maa*** *byedrus*                         | *aHmed* ***muu*** *Taaleb*                               |
+| Present | *aHmad* ***maa*** *byedrus*                         | *aHmad* ***muu*** *Taaleb*                               |
 |         | <span lang="ar" dir="rtl">أحمد ما بيدرس</span>      | <span lang="ar" dir="rtl">أحمد مو طالب</span>            |
-| Future  | *aHmed* ***maa*** *Ha‑/raH* *yedrus*                | *aHmed* ***maa*** *Ha‑/raH yekuun Taaleb*                |
+| Future  | *aHmad* ***maa*** *Ha‑/raH* *yedrus*                | *aHmad* ***maa*** *Ha‑/raH yekuun Taaleb*                |
 |         | <span lang="ar" dir="rtl">أحمد ما حـ/رح يدرس</span> | <span lang="ar" dir="rtl">أحمد ما حـ/رح يكين طالب</span> |
 
 ## *maa-n-*
 
 *maa‑* followed by a connecting *‑n‑* and an [attached pronoun](#personal-pronouns) (*maan‑i, maan‑ak, maan‑ik,* etc.) may be used to reply in the negative to a statement, question, or implication. For example,
 
-|                  |                    |                                            |
-| :-               |  :-                |-:                                          |
-| *maa‑n‑i juʿaan* |  'I am not hungry' |<span lang="ar" dir="rtl">ماني جوعان</span> |
+|                  |                 |                                             |
+| :-               | :-              | -:                                          |
+| *maa‑n‑i juʿaan* | I am not hungry | <span lang="ar" dir="rtl">ماني جوعان</span> |
 
 can be used to answer someone saying that you are hungry, asking whether you are hungry, or urging you to eat.
 
@@ -547,24 +547,24 @@ can be used to answer someone saying that you are hungry, asking whether you are
 | 100 | *miyye*                      | *miit*         |                                           | <span lang="ar" dir="rtl">مية</span>         |
 
 
-The *independent* form of the numeral is used when it stands by itself and is not followed by a noun. The *counting* form is when the numeral is followed by counted a noun: *tlaate* 'three', but *tlatt ewlaad* ‘three boys.’
+The independent form of the numeral is used when it stands by itself and is not followed by a noun. The counting form is when the numeral is followed by counted a noun: *tlaate* 'three', but *tlatt ewlaad* ‘three boys.’
 
 Note:
 
-- 1--2 are used only for emphasis or contrast, or when ordering in restaurants and the like (*itneen shaay* ‘two tea’). Otherwise, the lone noun in singular or dual is used (*ktaab* '[a/one] book'; *ktabeen* 'two books'). 1 and 2 are the only numerals that inflect for gender.
+- 1--2 are used only for emphasis or contrast, or when ordering in restaurants and the like (*etneen shaay* ‘two tea’). Otherwise, the lone noun in singular or dual is used (*ktaab* '[a/one] book'; *ktabeen* 'two books'). 1 and 2 are the only numerals that inflect for gender.
 
 - 3--10 have a special form with a final *-t* when used with one of three following nouns:
 
-  |          |             |                                   |
-  | :-       | :-          | :-                                |
-  | *eyyaam* | ’days’      | (*khamst eyyam* ’five days’)      |
-  | *eshhur* | ’months’    | (*khamst eshhur* 'five months')   |
-  | *aalaaf* | ’thousands’ | (*ʿashart aalaaf* 'ten thousand') |
+  |          |           |                                   |
+  | :-       | :-        | :-                                |
+  | *eyyaam* | days      | (*khamst eyyam* five days)        |
+  | *eshhur* | months    | (*khamst eshhur* 'five months')   |
+  | *aalaaf* | thousands | (*ʿashart aalaaf* 'ten thousand') |
 
 - For 3–10, the counted noun is in the plural: *tlatt kutub* 'three books', and for numerals above 10, it is in the singular: *iddaʿashar ktaab* ‘eleven book\[s\]’.
 
-- 11—19 are constructed from the counting form of the unit number and the ending *‑Taʿsh*, with irregularites in 11, 12, and 15.
+- 11—19 are constructed from the counting form of the unit number and the ending *‑Taʿsh*, with irregularities in 11, 12, and 15.
 
-- Decades (20, 30, etc.) are constructed from the counting form of the unit numer and the ending *‑iin*, with only 20 having an irregular form. In complex numbers, the unit in independent form appears before the decades with the two parts connected with *u‑* 'and': *sabʿa u‑tlaatiin*, ‘thirty‑six’.
+- Decades (20, 30, etc.) are constructed from the counting form of the unit number and the ending *‑iin*, with only 20 having an irregular form. In complex numbers, the unit in independent form appears before the decades with the two parts connected with *u‑* 'and': *sabʿa u‑tlaatiin*, ‘thirty‑six’.
 
 - For numbers above one hundred there is no counting form for 100: *miyye u‑tlaate kelime* ‘103&nbsp;words’.
