@@ -126,17 +126,17 @@ Note:
 
 These conversion rules represent regular sound relations in Standard–Syrian cognates. Standard Arabic pronunciation is often retained in formal or literary words (*dimuqraaTiyye*) and in non-Syrian Arabic place names (*il-qaahira* ‘Cairo’). Standard Arabic *th* and *dh* are normally realized as *s* and *z* respectively for such words. 
 
-|      |    |       |         |             |    |           |         |                              |             |
-| :-   | :- | :-    | :------ | :-          | :- | :-        | :------ | :-                           | :-          |
-| *aw* | →  | *oo*  |         | *yawm*      | →  | *yoom*    |         | <span lang="ar" dir="rtl">يوم</span>   | day         |
-| *ay* | →  | *ee*  |         | *bayn*      | →  | *been*    |         | <span lang="ar" dir="rtl">بين</span>   | between     |
-| *q*  | →  | *ʾ*   |         | *daqiiqa*   | →  | *daʾiiʾa* |         | <span lang="ar" dir="rtl">دقيقة</span> | minute      |
-| *DH* | →  | *D*   |         | *DHuhr*     | →  | *Duhr*    |         | <span lang="ar" dir="rtl">ضهر</span>   | noon        |
-| *ʾ*  | →  | *ø*   |         | *masaaʾ*    | →  | *masa*    |         | <span lang="ar" dir="rtl">مسا</span>   | eavening    |
-| *th* | →  | *t*   |         | *thalaatha* | →  | *tlaate*  |         | <span lang="ar" dir="rtl">تلاتة</span>  | three       |
-|      |    | *(s)* |         | *mathalan*  | →  | *masalan* |         | <span lang="ar" dir="rtl">مثلا</span>   | for example |
-| *dh* | →  | *d*   |         | *dhahab*    | →  | *dahab*   |         | <span lang="ar" dir="rtl">دهب</span>   | gold        |
-|      |    | *(z)* |         | *idha*      | →  | *iza*     |         | <span lang="ar" dir="rtl">اذا</span>   | if          |
+|      |    |       |         | Example     |    |           |             |                                        |
+| :-   | :- | :-    | :------ | :-          | :- | :-        | :-          | :-                                     |
+| *aw* | →  | *oo*  |         | *yawm*      | →  | *yoom*    | day         | <span lang="ar" dir="rtl">يوم</span>   |
+| *ay* | →  | *ee*  |         | *bayn*      | →  | *been*    | between     | <span lang="ar" dir="rtl">بين</span>   |
+| *q*  | →  | *ʾ*   |         | *daqiiqa*   | →  | *daʾiiʾa* | minute      | <span lang="ar" dir="rtl">دقيقة</span> |
+| *DH* | →  | *D*   |         | *DHuhr*     | →  | *Duhr*    | noon        | <span lang="ar" dir="rtl">ضهر</span>   |
+| *ʾ*  | →  | *ø*   |         | *masaaʾ*    | →  | *masa*    | eavening    | <span lang="ar" dir="rtl">مسا</span>   |
+| *th* | →  | *t*   |         | *thalaatha* | →  | *tlaate*  | three       | <span lang="ar" dir="rtl">تلاتة</span>  |
+|      |    | *(s)* |         | *mathalan*  | →  | *masalan* | for example | <span lang="ar" dir="rtl">مثلا</span>   |
+| *dh* | →  | *d*   |         | *dhahab*    | →  | *dahab*   | gold        | <span lang="ar" dir="rtl">دهب</span>   |
+|      |    | *(z)* |         | *idha*      | →  | *iza*     | if          | <span lang="ar" dir="rtl">اذا</span>   |
 
 # Pronouns 
 
