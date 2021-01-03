@@ -72,7 +72,7 @@ This is a short pedagogical summary of the variety of Arabic spoken in the Damas
 
 This grammar uses a simplified transcription (see [Phonology](#phonolgy)) adapted from *Alif Baa* (Brustad et al., Georgetown University Press, 2010). Words and examples are presented in transcription, translation, and, space permitting, also in Arabic script. The Arabic script represents written vernacular as used in text messaging, advertisement, etc. There is a considerable variation in vernacular Arabic orthography, especially in the extent to which Standard Arabic spelling is followed, and forms that differ from those presented here are therefore common.
 
-For corrections or suggestions on improvements, please contact the author at [*andreas.hallberg@sprak.gu.se*](mailto:andreas.hallberg@sprak.gu.se)
+For corrections or suggestions on improvements, please contact the author ([*andreas.hallberg@sprak.gu.se*](mailto:andreas.hallberg@sprak.gu.se)).
 
 # Phonology {#phonolgy}
 
