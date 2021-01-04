@@ -143,8 +143,8 @@ These conversion rules represent regular sound relations in Standard–Syrian co
 |            | Independent | Attached |          |                                        | <span lang="ar" dir="rtl">متصل</span> | <span lang="ar" dir="rtl">منفصل</span> |
 | :-         | :-          | :-       | :-       | -:                                     | -:                                    | -:                                     |
 | I          | *ana*       | *‑i*     | *(‑ya)*  |                                        | <span lang="ar" dir="rtl">ـي</span>   | <span lang="ar" dir="rtl">انا</span>   |
-| you (m.s.) | *enti*      | *‑ak*    | *(‑k)*   |                                        | <span lang="ar" dir="rtl">ـك</span>   | <span lang="ar" dir="rtl">انت</span>   |
-| you (f.s.) | *enta*      | *‑ik*    | *(‑ki)*  | <span lang="ar" dir="rtl">(ـكي)</span> | <span lang="ar" dir="rtl">ـك</span>   | <span lang="ar" dir="rtl">انتي</span>  |
+| you (m.s.) | *enta*      | *‑ak*    | *(‑k)*   |                                        | <span lang="ar" dir="rtl">ـك</span>   | <span lang="ar" dir="rtl">انت</span>   |
+| you (f.s.) | *enti*      | *‑ik*    | *(‑ki)*  | <span lang="ar" dir="rtl">(ـكي)</span> | <span lang="ar" dir="rtl">ـك</span>   | <span lang="ar" dir="rtl">انتي</span>  |
 | he         | *huwwe*     | *‑o*     | *(‑h)*   | <span lang="ar" dir="rtl">(ـه)</span>  | <span lang="ar" dir="rtl">ـو</span>   | <span lang="ar" dir="rtl">هو</span>    |
 | she        | *hiyye*     | *‑a*     | *(‑ha)*  |                                        | <span lang="ar" dir="rtl">ـها</span>  | <span lang="ar" dir="rtl">هي</span>    |
 | we         | *neHna*     | *‑na*    |          |                                        | <span lang="ar" dir="rtl">ـنا</span>  | <span lang="ar" dir="rtl">نحنا</span>  |
@@ -295,14 +295,14 @@ Hollow verbs have a long vowel in the middle of the stem. They are of three type
 
     |           | Non-Past    | Past      | <span lang="ar" dir="rtl">المضارع</span> | <span lang="ar" dir="rtl">الماضي</span> |
     | :-        | :-          | :-        | -:                                       | -:                                      |
-    | I         | *e‑Siir*    | *Sert*    | <span lang="ar" dir="rtl">اروح</span>    | <span lang="ar" dir="rtl">رحت</span>    |
-    | you (ms.) | *t‑Siir*    | *Sert*    | <span lang="ar" dir="rtl">تروح</span>    | <span lang="ar" dir="rtl">رحت</span>    |
-    | you (fs.) | *t‑Siir‑i*  | *Sert‑i*  | <span lang="ar" dir="rtl">تروحي</span>   | <span lang="ar" dir="rtl">رحتي</span>   |
-    | he        | *ye‑Siir*   | *Saar*    | <span lang="ar" dir="rtl">يروح</span>    | <span lang="ar" dir="rtl">راح</span>    |
-    | she       | *t‑Siir*    | *Saar‑et* | <span lang="ar" dir="rtl">تروح</span>    | <span lang="ar" dir="rtl">راحت</span>   |
-    | we        | *n‑Siir*    | *Ser‑na*  | <span lang="ar" dir="rtl">نروح</span>    | <span lang="ar" dir="rtl">رحا</span>    |
-    | you (pl.) | *t‑Siir‑u*  | *Ser‑tu*  | <span lang="ar" dir="rtl">تروحو</span>   | <span lang="ar" dir="rtl">رحتو</span>   |
-    | they      | *ye‑Siir‑u* | *Saar‑u*  | <span lang="ar" dir="rtl">يروحو</span>   | <span lang="ar" dir="rtl">راحو</span>   |
+    | I         | *e‑Siir*    | *Sert*    | <span lang="ar" dir="rtl">اصير</span>    | <span lang="ar" dir="rtl">صرت</span>    |
+    | you (ms.) | *t‑Siir*    | *Sert*    | <span lang="ar" dir="rtl">تصير</span>    | <span lang="ar" dir="rtl">صرت</span>    |
+    | you (fs.) | *t‑Siir‑i*  | *Sert‑i*  | <span lang="ar" dir="rtl">تصيري</span>   | <span lang="ar" dir="rtl">صرتي</span>   |
+    | he        | *ye‑Siir*   | *Saar*    | <span lang="ar" dir="rtl">يصير</span>    | <span lang="ar" dir="rtl">صار</span>    |
+    | she       | *t‑Siir*    | *Saar‑et* | <span lang="ar" dir="rtl">تصير</span>    | <span lang="ar" dir="rtl">صارت</span>   |
+    | we        | *n‑Siir*    | *Ser‑na*  | <span lang="ar" dir="rtl">نصير</span>    | <span lang="ar" dir="rtl">صار</span>    |
+    | you (pl.) | *t‑Siir‑u*  | *Ser‑tu*  | <span lang="ar" dir="rtl">تصيرو</span>   | <span lang="ar" dir="rtl">صرتو</span>   |
+    | they      | *ye‑Siir‑u* | *Saar‑u*  | <span lang="ar" dir="rtl">يصيرو</span>   | <span lang="ar" dir="rtl">صارو</span>   |
 
     Some other frequent verbs of this type are 
     *ʿaash* 'lived',
