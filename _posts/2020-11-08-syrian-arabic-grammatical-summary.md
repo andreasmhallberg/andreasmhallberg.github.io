@@ -278,7 +278,7 @@ Hollow verbs have a long vowel in the middle of the stem. They are of three type
     | you (fs.) | *t‑ruuH‑i*  | *reH‑ti*  | <span lang="ar" dir="rtl">تروحي</span>   | <span lang="ar" dir="rtl">رحتي</span>   |
     | he        | *ye‑ruuH*   | *raaH*    | <span lang="ar" dir="rtl">يروح</span>    | <span lang="ar" dir="rtl">راح</span>    |
     | she       | *t‑ruuH*    | *raaH‑et* | <span lang="ar" dir="rtl">تروح</span>    | <span lang="ar" dir="rtl">راحت</span>   |
-    | we        | *n‑ruuH*    | *reH‑na*  | <span lang="ar" dir="rtl">نروح</span>    | <span lang="ar" dir="rtl">رحا</span>    |
+    | we        | *n‑ruuH*    | *reH‑na*  | <span lang="ar" dir="rtl">نروح</span>    | <span lang="ar" dir="rtl">رحنا</span>    |
     | you (pl.) | *t‑ruuH‑u*  | *reH‑tu*  | <span lang="ar" dir="rtl">تروحو</span>   | <span lang="ar" dir="rtl">رحتو</span>   |
     | they      | *ye‑ruuH‑u* | *raaH‑u*  | <span lang="ar" dir="rtl">يروحو</span>   | <span lang="ar" dir="rtl">راحو</span>   |
 
@@ -300,7 +300,7 @@ Hollow verbs have a long vowel in the middle of the stem. They are of three type
     | you (fs.) | *t‑Siir‑i*  | *Sert‑i*  | <span lang="ar" dir="rtl">تصيري</span>   | <span lang="ar" dir="rtl">صرتي</span>   |
     | he        | *ye‑Siir*   | *Saar*    | <span lang="ar" dir="rtl">يصير</span>    | <span lang="ar" dir="rtl">صار</span>    |
     | she       | *t‑Siir*    | *Saar‑et* | <span lang="ar" dir="rtl">تصير</span>    | <span lang="ar" dir="rtl">صارت</span>   |
-    | we        | *n‑Siir*    | *Ser‑na*  | <span lang="ar" dir="rtl">نصير</span>    | <span lang="ar" dir="rtl">صار</span>    |
+    | we        | *n‑Siir*    | *Ser‑na*  | <span lang="ar" dir="rtl">نصير</span>    | <span lang="ar" dir="rtl">صرنا</span>    |
     | you (pl.) | *t‑Siir‑u*  | *Ser‑tu*  | <span lang="ar" dir="rtl">تصيرو</span>   | <span lang="ar" dir="rtl">صرتو</span>   |
     | they      | *ye‑Siir‑u* | *Saar‑u*  | <span lang="ar" dir="rtl">يصيرو</span>   | <span lang="ar" dir="rtl">صارو</span>   |
 
