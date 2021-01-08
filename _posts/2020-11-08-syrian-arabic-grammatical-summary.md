@@ -64,6 +64,7 @@ following topics are planned to be added:
 - adverbs
 - the possessive exponent 
 - participles
+- verbal noun
 ```
 
 # Introduction
