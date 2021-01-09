@@ -82,11 +82,11 @@ The phonology is here described in some detail for reference and overview. In pr
 ## Consonants
 
 Compared to Standard Arabic, several consonants are missing in Syrian Arabic consonantal, namely the dentals
-(th*&nbsp;<span lang="ar" dir="rtl">ث</span>,
+(*th*&nbsp;<span lang="ar" dir="rtl">ث</span>,
 *dh*&nbsp;<span lang="ar" dir="rtl">ذ</span>, and
 *DH*&nbsp;<span lang="ar" dir="rtl">ظ</span>) and
 *q*&nbsp;<span lang="ar" dir="rtl">ق</span>. (See [Standard to Syrian Arabic phonological conversion rules](#sa-conversion).)
-Furthermore, *j* is in Syrian Arabic pronounced&nbsp;[[ʒ]](https://upload.wikimedia.org/wikipedia/commons/3/30/Voiced_palato-alveolar_sibilant.ogg) (cf. Fr. *journal*), as opposed to the Standard Arabic&nbsp;[[ʤ]](https://upload.wikimedia.org/wikipedia/commons/e/e6/Voiced_palato-alveolar_affricate.ogg).
+Furthermore, *j* is in Syrian Arabic pronounced&nbsp;[[ʒ]](https://upload.wikimedia.org/wikipedia/commons/3/30/Voiced_palato-alveolar_sibilant.ogg), as opposed to the Standard Arabic&nbsp;[[ʤ]](https://upload.wikimedia.org/wikipedia/commons/e/e6/Voiced_palato-alveolar_affricate.ogg).
 
 |                  | Labial |  Alveolar | Palatal | Velar/Uvular | Pharyngal | Glottal |
 | :-               | :-:    |  :-:      | :-:     | :-:          | :-:       | :-:     |
@@ -111,19 +111,19 @@ The following consonants are used only in a few words:
 - emphatic *l* (*alla* 'God')
 - *g* (*ergiile* 'water pipe')
 
-(The emphasis distinction for *m*, *b*, and *l* is not reflected in the transcription.)
+(The emphasis distinction in *m*, *b*, and *l* is not reflected in the transcription.)
 
 ### Pointers on pronunciation {#pointers-pron}
 
-|      |                                                                                                                                                                                         |                                                                                                                          |
-| :-   | :-                                                                                                                                                                                      | :-                                                                                                                       |
-| *r*  | [[r]](https://upload.wikimedia.org/wikipedia/commons/c/ce/Alveolar_trill.ogg)                                                                                                           | rolled *t*, as in Spanish, pronounces emphatically (see below) [[rˤ]] when adjecent to *a* or another emphatic consonant |
-| *j*  | [[ʒ]](https://upload.wikimedia.org/wikipedia/commons/3/30/Voiced_palato-alveolar_sibilant.ogg)                                                                                          | as in French *journal*                                                                                                   |
-| *H*  | [[ħ]](https://upload.wikimedia.org/wikipedia/commons/b/b2/Voiceless_pharyngeal_fricative.ogg)                                                                                           | hissing *h* formed tensioning throat muscles                                                                             |
-| *kh* | [[x]](https://upload.wikimedia.org/wikipedia/commons/0/0f/Voiceless_velar_fricative.ogg)/[[χ]](https://upload.wikimedia.org/wikipedia/commons/c/c8/Voiceless_uvular_fricative.ogg) | as the German *ach* or (Castilian) Spanish *jota*                                                                        |
-| *gh* | [[ɣ]](https://upload.wikimedia.org/wikipedia/commons/4/47/Voiced_velar_fricative.ogg)/[[ʁ]](https://upload.wikimedia.org/wikipedia/commons/a/af/Voiced_uvular_fricative.ogg)            | as the French or German throaty *r*                                                                                      |
-| *ʿ*  | [[ʕ]](https://upload.wikimedia.org/wikipedia/commons/c/cd/Voiced_pharyngeal_fricative.ogg)                                                                                              |                                                                                                                          |
-| *ʾ*  | [[ʔ]](https://upload.wikimedia.org/wikipedia/commons/4/4d/Glottal_stop.ogg)                                                                                                             | stop and quick releas of the air pressure by the vocal-coards, as the *t* in colloquial British *better*                 |
+|      |                                                                                                                                                                                    |                                                                                                                         |
+| :-:  | :-                                                                                                                                                                                 | :-                                                                                                                      |
+| *r*  | [[r]](https://upload.wikimedia.org/wikipedia/commons/c/ce/Alveolar_trill.ogg)                                                                                                      | Rolled *r*, as in Spanish. Pronounced emphatically (see below) [rˤ] when adjecent to *a* or another emphatic consonant. |
+| *j*  | [[ʒ]](https://upload.wikimedia.org/wikipedia/commons/3/30/Voiced_palato-alveolar_sibilant.ogg)                                                                                     | As in French *journal*.                                                                                                 |
+| *H*  | [[ħ]](https://upload.wikimedia.org/wikipedia/commons/b/b2/Voiceless_pharyngeal_fricative.ogg)                                                                                      | Hissing *h* formed tensioning throat muscles.                                                                           |
+| *kh* | [[x]](https://upload.wikimedia.org/wikipedia/commons/0/0f/Voiceless_velar_fricative.ogg)/[[χ]](https://upload.wikimedia.org/wikipedia/commons/c/c8/Voiceless_uvular_fricative.ogg) | As the German *ach* or (Castilian) Spanish *jota*.                                                                      |
+| *gh* | [[ɣ]](https://upload.wikimedia.org/wikipedia/commons/4/47/Voiced_velar_fricative.ogg)/[[ʁ]](https://upload.wikimedia.org/wikipedia/commons/a/af/Voiced_uvular_fricative.ogg)       | As the French or German throaty *r*.                                                                                    |
+| *ʿ*  | [[ʕ]](https://upload.wikimedia.org/wikipedia/commons/c/cd/Voiced_pharyngeal_fricative.ogg)                                                                                         |                                                                                                                         |
+| *ʾ*  | [[ʔ]](https://upload.wikimedia.org/wikipedia/commons/4/4d/Glottal_stop.ogg)                                                                                                        | Stop and quick releas of the air pressure by the vocal-coards, as the *t* in colloquial British *better*.               |
 
 *S* [[sˤ]](https://upload.wikimedia.org/wikipedia/commons/8/8b/Voiceless_pharyngealized_alveolar_sibilant.ogg),
 *T* [[tˤ]](https://upload.wikimedia.org/wikipedia/commons/4/4c/Voiceless_pharyngealized_alveolar_stop.ogg), and
@@ -132,11 +132,11 @@ The following consonants are used only in a few words:
 
 ### Consonant length
 
-All consonants have a short and a long form, transcribed as doubled letter. This distinction is crucial, often changing the meaning of words (*daras* 'he studied' --- *darras* 'he taught').
+All consonants have a short and a long variant. The long variant transcribed as a doubled letter. Consonant length is a central part of Arabic phonology, often changing the meaning of a word (*daras* 'he studied' vs. *darras* 'he taught', *Hakat* 'she talked' vs. *Hakkat* 'she scratched').
 
-For plosives, the long consonant is produced by briefly holding the air pressure before releasing it and producing the sound.
+For plosives (*ʾ, b, d, D, t, T, k*) the long variant is produced by briefly holding the air pressure before releasing it and producing the sound.
 
-Consonant length is generally not represented in the Arabic script. Only very rarely is it marked with the diacritic&nbsp;<span lang="ar" dir="rtl">ـّ</span> (*shadda*).
+Consonant length is indicated with Arabic script. Only very rarely is it marked with the diacritic&nbsp;<span lang="ar" dir="rtl">ـّ</span> (*shadda*).
 
 ## Vowels
 
@@ -150,7 +150,7 @@ Consonant length is generally not represented in the Arabic script. Only very ra
 
 Note:
 
-- The Arabic letters only represent long vowels. Short vowels have no orthographic representation. 
+- The Arabic letters only represent long vowels. Short vowels are not indicated.
 
 - *i* and *u* occur only in word final position as part of inflections (*beet-i* 'my house', *byeʿmel-u* 'they do').
 
@@ -163,11 +163,12 @@ Note:
 
 ## Word stress
 
-Word stress in Syrian Arabic is largely predictable and corresponds with the rules of word stress in Standard Arabic. Word stress occurs on the last
+Word stress in Syrian Arabic is largely predictable and corresponds with the rules of word stress in Standard Arabic. Word stress occurs on
 
-- long vowel followed by consonant (*mabrúuk*, *fáaTme*), or
-- short vowel followed by two consonants or a long consonant (*mádrase*, *dárraso*) 
-- or else on the first vowel (*Háka*, *dárasu*).
+- the last
+  - long vowel followed by consonant (*darasúuha*)
+  - short vowel followed by two consonants or a long consonant (*darásna*, *byedárres*) 
+- or else on the first vowel (*dárasu*)
 
 ## Standard to Syrian Arabic phonological conversion rules {#sa-conversion}
 
