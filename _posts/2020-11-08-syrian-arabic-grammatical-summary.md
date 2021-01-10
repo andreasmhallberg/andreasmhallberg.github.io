@@ -77,7 +77,7 @@ For corrections or suggestions on improvements, please contact the author at [*a
 
 # Phonology {#phonolgy}
 
-The phonology is here described in some detail for reference and overview. In practice it can only be properly learned by imitating native speakers. Click on IPA symbols in square brackets for sound samples from Wikimedia.
+Syrian Arabic phonology is here described in some detail for reference and overview. In practice, it can only be properly learned by imitating native speakers. Click on IPA symbols in square brackets for sound samples from Wikimedia.
 
 ## Consonants
 
@@ -85,8 +85,8 @@ Compared to Standard Arabic, several consonants are missing in Syrian Arabic con
 (*th*&nbsp;<span lang="ar" dir="rtl">ث</span>,
 *dh*&nbsp;<span lang="ar" dir="rtl">ذ</span>, and
 *DH*&nbsp;<span lang="ar" dir="rtl">ظ</span>) and
-*q*&nbsp;<span lang="ar" dir="rtl">ق</span>. (See [Standard to Syrian Arabic phonological conversion rules](#sa-conversion).)
-Furthermore, *j* is in Syrian Arabic pronounced&nbsp;[[ʒ]](https://upload.wikimedia.org/wikipedia/commons/3/30/Voiced_palato-alveolar_sibilant.ogg), as opposed to the Standard Arabic&nbsp;[[ʤ]](https://upload.wikimedia.org/wikipedia/commons/e/e6/Voiced_palato-alveolar_affricate.ogg).
+*q*&nbsp;<span lang="ar" dir="rtl">ق</span>.
+Furthermore, *j*&nbsp;<span lang="ar" dir="rtl">ج</span> is in Syrian Arabic pronounced&nbsp;[[ʒ]](https://upload.wikimedia.org/wikipedia/commons/3/30/Voiced_palato-alveolar_sibilant.ogg), as opposed to the Standard Arabic&nbsp;[[ʤ]](https://upload.wikimedia.org/wikipedia/commons/e/e6/Voiced_palato-alveolar_affricate.ogg).
 
 |                  | Labial |  Alveolar | Palatal | Velar/Uvular | Pharyngal | Glottal |
 | :-               | :-:    |  :-:      | :-:     | :-:          | :-:       | :-:     |
@@ -106,7 +106,7 @@ Furthermore, *j* is in Syrian Arabic pronounced&nbsp;[[ʒ]](https://upload.wikim
 
 The following consonants are used only in a few words:
 
-- emphatic ([see below](#pointers-pron)) *m* (*maamaa* 'mum')
+- emphatic *m* (*maamaa* 'mum')
 - emphatic *b* (*baaba* 'dad')
 - emphatic *l* (*alla* 'God')
 - *g* (*ergiile* 'water pipe')
@@ -115,20 +115,22 @@ The following consonants are used only in a few words:
 
 ### Pointers on pronunciation {#pointers-pron}
 
-|      |                                                                                                                                                                                    |                                                                                                                         |
-| :-:  | :-                                                                                                                                                                                 | :-                                                                                                                      |
-| *r*  | [[r]](https://upload.wikimedia.org/wikipedia/commons/c/ce/Alveolar_trill.ogg)                                                                                                      | Rolled *r*, as in Spanish. Pronounced emphatically (see below) [rˤ] when adjecent to *a* or another emphatic consonant. |
-| *j*  | [[ʒ]](https://upload.wikimedia.org/wikipedia/commons/3/30/Voiced_palato-alveolar_sibilant.ogg)                                                                                     | As in French *journal*.                                                                                                 |
-| *H*  | [[ħ]](https://upload.wikimedia.org/wikipedia/commons/b/b2/Voiceless_pharyngeal_fricative.ogg)                                                                                      | Hissing *h* formed tensioning throat muscles.                                                                           |
-| *kh* | [[x]](https://upload.wikimedia.org/wikipedia/commons/0/0f/Voiceless_velar_fricative.ogg)/[[χ]](https://upload.wikimedia.org/wikipedia/commons/c/c8/Voiceless_uvular_fricative.ogg) | As the German *ach* or (Castilian) Spanish *jota*.                                                                      |
-| *gh* | [[ɣ]](https://upload.wikimedia.org/wikipedia/commons/4/47/Voiced_velar_fricative.ogg)/[[ʁ]](https://upload.wikimedia.org/wikipedia/commons/a/af/Voiced_uvular_fricative.ogg)       | As the French or German throaty *r*.                                                                                    |
-| *ʿ*  | [[ʕ]](https://upload.wikimedia.org/wikipedia/commons/c/cd/Voiced_pharyngeal_fricative.ogg)                                                                                         |                                                                                                                         |
-| *ʾ*  | [[ʔ]](https://upload.wikimedia.org/wikipedia/commons/4/4d/Glottal_stop.ogg)                                                                                                        | Stop and quick releas of the air pressure by the vocal-coards, as the *t* in colloquial British *better*.               |
+|      |                                                                                                                                                                                         |                                                                                                                                            |
+| :-:  | :-                                                                                                                                                                                      | :-                                                                                                                                         |
+| *r*  | [[r]](https://upload.wikimedia.org/wikipedia/commons/c/ce/Alveolar_trill.ogg)                                                                                                           | Rolled *r*, as in Spanish. Pronounced emphatically [rˤ] when adjacent to *a* or another emphatic consonant (*mara* 'wife', *rSaas* 'led'). |
+| *j*  | [[ʒ]](https://upload.wikimedia.org/wikipedia/commons/3/30/Voiced_palato-alveolar_sibilant.ogg)                                                                                          | As in French *journal*.                                                                                                                    |
+| *H*  | [[ħ]](https://upload.wikimedia.org/wikipedia/commons/b/b2/Voiceless_pharyngeal_fricative.ogg)                                                                                           | Hissing *h* formed by tensioning the throat.                                                                                               |
+| *kh* | [[x]](https://upload.wikimedia.org/wikipedia/commons/0/0f/Voiceless_velar_fricative.ogg)/[[χ]](https://upload.wikimedia.org/wikipedia/commons/c/c8/Voiceless_uvular_fricative.ogg) | As the German *ach* or (Castilian) Spanish *jota*.                                                                                         |
+| *gh* | [[ɣ]](https://upload.wikimedia.org/wikipedia/commons/4/47/Voiced_velar_fricative.ogg)/[[ʁ]](https://upload.wikimedia.org/wikipedia/commons/a/af/Voiced_uvular_fricative.ogg)            | As the French or German throaty *r*.                                                                                                       |
+| *ʿ*  | [[ʕ]](https://upload.wikimedia.org/wikipedia/commons/c/cd/Voiced_pharyngeal_fricative.ogg)                                                                                              |                                                                                                                                            |
+| *ʾ*  | [[ʔ]](https://upload.wikimedia.org/wikipedia/commons/4/4d/Glottal_stop.ogg)                                                                                                             | Stop and quick release of the air pressure by the vocal-cords, as the *t* in colloquial British *better*.                                  |
+| *S*  | [[sˤ]](https://upload.wikimedia.org/wikipedia/commons/8/8b/Voiceless_pharyngealized_alveolar_sibilant.ogg)                                                                              | Emphatic *s*.                                                                                                                              |
+| *T*  | [[tˤ]](https://upload.wikimedia.org/wikipedia/commons/4/4c/Voiceless_pharyngealized_alveolar_stop.ogg)                                                                                  | Emphatic *t*                                                                                                                               |
+| *D*  | [[dˤ]](https://upload.wikimedia.org/wikipedia/commons/0/07/Voiced_pharyngealized_alveolar_stop.ogg)                                                                                     | Emphatic *d*.                                                                                                                              |
 
-*S* [[sˤ]](https://upload.wikimedia.org/wikipedia/commons/8/8b/Voiceless_pharyngealized_alveolar_sibilant.ogg),
-*T* [[tˤ]](https://upload.wikimedia.org/wikipedia/commons/4/4c/Voiceless_pharyngealized_alveolar_stop.ogg), and
-*D* [[dˤ]](https://upload.wikimedia.org/wikipedia/commons/0/07/Voiced_pharyngealized_alveolar_stop.ogg) are so called emphatic consonants (technically pharyngalized), pronounced as their non-emphatic counterparts but with the back of the tongue raised, giving a darker, thicker sound. They affect the quality of surrounding letters, most clearly heard in *aa*&nbsp;[[aː]](https://upload.wikimedia.org/wikipedia/commons/0/0e/PR-open_front_unrounded_vowel.ogg)/[[æː]](https://upload.wikimedia.org/wikipedia/commons/c/c9/Near-open_front_unrounded_vowel.ogg) (as English *bad*) becoming backed&nbsp;[[ɑː]](https://upload.wikimedia.org/wikipedia/commons/e/e5/Open_back_unrounded_vowel.ogg) (as in English *far*).
+### Emphatic consonants
 
+Emphatic consonants (technically "pharyngalized") are pronounced as their non-emphatic counterparts but with the back of the tongue raised, giving a darker, thicker sound. This affects the quality of surrounding vowels, most clearly heard in *aa*&nbsp;[[æː]](https://upload.wikimedia.org/wikipedia/commons/c/c9/Near-open_front_unrounded_vowel.ogg) (as English *bad*) becoming backed&nbsp;[[ɑː]](https://upload.wikimedia.org/wikipedia/commons/e/e5/Open_back_unrounded_vowel.ogg) (as in English *far*).
 
 ### Consonant length
 
@@ -140,13 +142,13 @@ Consonant length is indicated with Arabic script. Only very rarely is it marked 
 
 ## Vowels
 
-| Short | Long |                                    |
-| :-:   | :-:  | :-:                                |
-| *i*   | *ii* | <span lang="ar" dir="rtl">ي</span> |
-| *e*   | *ee* | <span lang="ar" dir="rtl">ي</span> |
-| *u*   | *uu* | <span lang="ar" dir="rtl">و</span> |
-| *o*   | *oo* | <span lang="ar" dir="rtl">و</span> |
-| *a*   | *aa* | <span lang="ar" dir="rtl">ا</span> |
+| Short |         | Long |                                                                                                 |                                    |
+| :-:   | :-      | :-:  | :-                                                                                              | -:                                 |
+| *i*   | [i]     | *ii* | [[iː]](https://upload.wikimedia.org/wikipedia/commons/9/91/Close_front_unrounded_vowel.ogg)     | <span lang="ar" dir="rtl">ي</span> |
+| *e*   | [e]/[ə] | *ee* | [[eː]](https://upload.wikimedia.org/wikipedia/commons/6/6c/Close-mid_front_unrounded_vowel.ogg) | <span lang="ar" dir="rtl">ي</span> |
+| *u*   | [u]     | *uu* | [[uː]](https://upload.wikimedia.org/wikipedia/commons/5/5d/Close_back_rounded_vowel.ogg)        | <span lang="ar" dir="rtl">و</span> |
+| *o*   | [o]     | *oo* | [[oː]](https://upload.wikimedia.org/wikipedia/commons/0/0e/PR-open_front_unrounded_vowel.ogg)   | <span lang="ar" dir="rtl">و</span> |
+| *a*   | [a]/[ɑ] | *aa* | [[æː]](https://upload.wikimedia.org/wikipedia/commons/c/c9/Near-open_front_unrounded_vowel.ogg)/[[ɑː]](https://upload.wikimedia.org/wikipedia/commons/e/e5/open_back_unrounded_vowel.ogg) | <span lang="ar" dir="rtl">ا</span> |
 
 Note:
 
@@ -156,8 +158,10 @@ Note:
 
 - The vowel here transcribes as *e* is pronounced
 
-  - *schwa*&nbsp;[[ə]](https://upload.wikimedia.org/wikipedia/commons/d/d9/Mid-central_vowel.ogg) (as in English *the*) before or at word stress
+  - [[ə]](https://upload.wikimedia.org/wikipedia/commons/d/d9/Mid-central_vowel.ogg)&nbsp;*schwa* (as in English *the*) before or at word stress
   - [[e]](https://upload.wikimedia.org/wikipedia/commons/6/6c/Close-mid_front_unrounded_vowel.ogg) (as in English *when*) after word stress
+
+- Short and long *a* is pronounced backed&nbsp;[[ɑ]](https://upload.wikimedia.org/wikipedia/commons/e/e5/open_back_unrounded_vowel.ogg) when adjacent to an emphatic consonant.
 
 - There are no diphthongs in Syrian Arabic. The Standard Arabic diphthongs *ay* and *aw* correspond in Syrian Arabic to the long vowels *ee* and *oo* respectively.
 
@@ -184,16 +188,15 @@ Word stress in Syrian Arabic is largely predictable and corresponds with the rul
 | *dh* | →  | *d*   |         | *dhahab*    | →  | *dahab*   |         | <span lang="ar" dir="rtl">دهب</span>   | gold        |
 |      |    | *(z)* |         | *idha*      | →  | *iza*     |         | <span lang="ar" dir="rtl">اذا</span>   | if          |
 
-Modern loans from Standard Arabic, including foreign Arabic place names, often retain the Standard Arabic pronunciation. In such words, *th* and *dh* is pronounced as *s* and&nbsp;*z* respectively, represented by the parenthesis in the table above. Some examples are:
+Modern loans from Standard Arabic, including foreign Arabic place names, often retain the Standard Arabic pronunciation. In such words, *th* and *dh* are pronounced *s* and&nbsp;*z* respectively. Some examples are:
 
-| Syrian Arabic   | Stanard Arabic  |           |                                            |
+| Syrian Arabic   | Standard Arabic  |           |                                            |
 | :-              | :-              | :-        | -:                                         |
 | *saqaafe*       | *thaqaafa*      | culture   | <span lang="ar" dir="rtl">ثقافة</span>     |
 | *ustaaz*        | *ustaadh*       | teacher   | <span lang="ar" dir="rtl">أستاذ</span>     |
-| *dimuqraaTiyye* | *dimuqraaTiyya* | democracy | <span lang="ar" dir="rtl">ديمقراطية</span> |
+| *demuqraaTiyye* | *dimuqraaTiyya* | democracy | <span lang="ar" dir="rtl">ديمقراطية</span> |
 | *el-qurʾaan*    | *al-qurʾaan*    | the Quran | <span lang="ar" dir="rtl">القرآن</span>    |
-| *el-qaahira*    | *el-qaahira*    | Cairo     | <span lang="ar" dir="rtl">القاهرة</span>   |
-
+| *el-qaahira*    | *al-qaahira*    | Cairo     | <span lang="ar" dir="rtl">القاهرة</span>   |
 
 # Pronouns 
 
