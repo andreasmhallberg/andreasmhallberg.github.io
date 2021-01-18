@@ -17,6 +17,8 @@ tags:
   - teaching-materials
   - linguistics
 updates: 
+  - date: 2021-01-18
+    contents: Phonology section considerably expanded.
   - date: 2021-01-03
     contents: 'Presentation order standardized: translation, transcription, Arabic. Indefinite pronouns added. Various minor additions and edits.'
   - date: 2020-12-29
@@ -71,71 +73,134 @@ following topics are planned to be added:
 
 This is a short pedagogical summary of the variety of Arabic spoken in the Damascus area in Syria. It is intended to be used for quick reference and overview for beginner to intermediate language learners. It is partially based on *A Reference Grammar of Syrian Arabic* (Cowell 2005 [1964], Georgetown University Press) and *Arabisch-syrische grammatik* (Grotzfeld 1965, Harrasowitz), to which the reader is referred for detailed and comprehensive grammatical descriptions.
 
-This grammar uses a simplified transcription (see [Phonology](#phonolgy)) adapted from *Alif Baa* (Brustad et al., Georgetown University Press, 2010). Words and examples are presented in transcription, translation, and, space permitting, also in Arabic script. The Arabic script represents written vernacular as used in text messaging, advertisement, etc. There is a considerable variation in vernacular Arabic orthography, especially in the extent to which Standard Arabic spelling is followed, and forms that differ from those presented here are therefore common.
+This grammar uses a simplified transcription (see [Phonology](#phonolgy)) adapted from *Alif Baa* (Brustad et al., Georgetown University Press, 2010). Words and examples are presented in transcription, translation, and, space permitting, also in Arabic script.[^connected] The Arabic script represents written vernacular as used in text messaging, advertisement, etc. There is considerable variation in vernacular Arabic orthography, especially in the extent to which Standard Arabic spelling is followed, and forms that differ from those presented here are therefore common.
 
-For corrections or suggestions on improvements, please contact the author ([*andreas.hallberg@sprak.gu.se*](mailto:andreas.hallberg@sprak.gu.se)).
+[^connected]: For an overview of the Arabic script, see [*The Arabic Writing System*](http://andreasmhallberg.github.io/documents/arabic-letters-and-vowel-markers.tex.pdf) (available for download at *<http://andreasmhallberg.github.io/documents/>*).
+
+For corrections or suggestions on improvements, please contact the author at [*andreas.hallberg@sprak.gu.se*](mailto:andreas.hallberg@sprak.gu.se).
 
 # Phonology {#phonolgy}
 
+Many of the IPA symbols in square brackets are hyper-linked to sound samples on Wikimedia. Click on them to hear an example of the pronunciation.
+
 ## Consonants
 
-|        |                                    |    |        |                                    |
-| :-     | :-                                 | :- | :-     | :-                                 |
-| *ʾ*    | <span lang="ar" dir="rtl">ء</span> |    | *D*    | <span lang="ar" dir="rtl">ض</span> |
-| *b*    | <span lang="ar" dir="rtl">ب</span> |    | *T*    | <span lang="ar" dir="rtl">ط</span> |
-| *t*    | <span lang="ar" dir="rtl">ت</span> |    | *(DH)* | <span lang="ar" dir="rtl">ظ</span> |
-| *(th)* | <span lang="ar" dir="rtl">ث</span> |    | *ʿ*    | <span lang="ar" dir="rtl">ع</span> |
-| *j*    | <span lang="ar" dir="rtl">ج</span> |    | *gh*   | <span lang="ar" dir="rtl">غ</span> |
-| *H*    | <span lang="ar" dir="rtl">ح</span> |    | *f*    | <span lang="ar" dir="rtl">ف</span> |
-| *kh*   | <span lang="ar" dir="rtl">خ</span> |    | *(q)*  | <span lang="ar" dir="rtl">ق</span> |
-| *d*    | <span lang="ar" dir="rtl">د</span> |    | *k*    | <span lang="ar" dir="rtl">ك</span> |
-| *(dh)* | <span lang="ar" dir="rtl">ذ</span> |    | *l*    | <span lang="ar" dir="rtl">ل</span> |
-| *r*    | <span lang="ar" dir="rtl">ر</span> |    | *m*    | <span lang="ar" dir="rtl">م</span> |
-| *z*    | <span lang="ar" dir="rtl">ز</span> |    | *n*    | <span lang="ar" dir="rtl">ن</span> |
-| *s*    | <span lang="ar" dir="rtl">س</span> |    | *h*    | <span lang="ar" dir="rtl">ه</span> |
-| *sh*   | <span lang="ar" dir="rtl">ش</span> |    | *w*    | <span lang="ar" dir="rtl">و</span> |
-| *S*    | <span lang="ar" dir="rtl">ص</span> |    | *y*    | <span lang="ar" dir="rtl">ي</span> |
+Compared to Standard Arabic, several consonants are missing in Syrian Arabic, namely the dentals
+*th*&nbsp;<span lang="ar" dir="rtl">ث</span>,
+*dh*&nbsp;<span lang="ar" dir="rtl">ذ</span>, and
+*DH*&nbsp;<span lang="ar" dir="rtl">ظ</span>; as well as
+*q*&nbsp;<span lang="ar" dir="rtl">ق</span>.
+Furthermore, *j*&nbsp;<span lang="ar" dir="rtl">ج</span> is in Syrian Arabic pronounced&nbsp;[[ʒ]](https://upload.wikimedia.org/wikipedia/commons/3/30/Voiced_palato-alveolar_sibilant.ogg), as opposed to the Standard Arabic affricate&nbsp;[[ʤ]](https://upload.wikimedia.org/wikipedia/commons/e/e6/Voiced_palato-alveolar_affricate.ogg).
 
-Phonemes within parenthesis are specific to Standard Arabic and are not part of the Syrian Arabic phonemic system. Their respective letters are, however, commonly used in Syrian-Standard cognates in written vernacular.[^connected]
+| &nbsp;           | Labial | Alveolar | Palatal | Velar/Uvular | Pharyngal | Glottal |
+| :-               | :-:    | :-:      | :-:     | :-:          | :-:       | :-:     |
+| Fricative        |        |          |         |              |           |         |
+|   ---*voiced*    |        |          | *j*     | *gh*         | *ʿ*       |         |
+|   ---*voiceless* | *f*    |          |         | *kh*         | *H*       | *h*     |
+| Plosive          |        |          |         |              |           |         |
+|   ---*voiced*    | *b*    | *d, D*   |         |              |           |         |
+|   ---*voiceless* |        | *t, T*   | *k*     |              |           | *ʾ*     |
+| Lateral          |        | *l*      |         |              |           |         |
+| Trill            |        | *r*      |         |              |           |         |
+| Nasal            | *m*    | *n*      |         |              |           |         |
+| Sibilant         |        |          |         |              |           |         |
+|   --*voiced*     |        | *z*      |         |              |           |         |
+|   --*voiceless*  |        | *s, S*   |         |              |           |         |
+| Semi-vowel       | *w*    |          | *y*     |              |           |         |
 
-[^connected]: For the use of connected letter-forms, see [*The Arabic Writing System*](http://andreasmhallberg.github.io/documents/arabic-letters-and-vowel-markers.tex.pdf) (available for download at *<http://andreasmhallberg.github.io/documents/>*).
+The following consonants are used only in a few words:
+
+- emphatic *m* (*maamaa* 'mum')
+- emphatic *b* (*baaba* 'dad')
+- emphatic *l* (*alla* 'God')
+- *g* (*ergiile* 'water pipe')
+
+The emphasis distinction in *m*, *b*, and *l* is not reflected in the transcription employed here.
+
+### Pointers on pronunciation {#pointers-pron}
+
+|      |                         |                                                                                                                                                                                    |                                                                                                                                                                                        |
+| :-:  | :-:                     | :-                                                                                                                                                                                 | :-                                                                                                                                                                                     |
+| *r*  | <span lang="ar">ر</span> | [[r]](https://upload.wikimedia.org/wikipedia/commons/c/ce/Alveolar_trill.ogg)                                                                                                      | Rolled *r*, as in Spanish. Pronounced emphatically [rˤ] when adjacent to *a* or another emphatic consonant (*mara* 'wife', *rSaas* 'led').                                             |
+| *j*  | <span lang="ar">ج</span> | [[ʒ]](https://upload.wikimedia.org/wikipedia/commons/3/30/Voiced_palato-alveolar_sibilant.ogg)                                                                                     | As in French *journal*.                                                                                                                                                                |
+| *H*  | <span lang="ar">ح</span> | [[ħ]](https://upload.wikimedia.org/wikipedia/commons/b/b2/Voiceless_pharyngeal_fricative.ogg)                                                                                      | Hissing *h* formed by tensioning the throat.                                                                                                                                           |
+| *kh* | <span lang="ar">خ</span> | [[x]](https://upload.wikimedia.org/wikipedia/commons/0/0f/Voiceless_velar_fricative.ogg)/[[χ]](https://upload.wikimedia.org/wikipedia/commons/c/c8/Voiceless_uvular_fricative.ogg) | As the German *ach* or (Castilian) Spanish *jota*.                                                                                                                                     |
+| *gh* | <span lang="ar">غ</span> | [[ɣ]](https://upload.wikimedia.org/wikipedia/commons/4/47/Voiced_velar_fricative.ogg)/[[ʁ]](https://upload.wikimedia.org/wikipedia/commons/a/af/Voiced_uvular_fricative.ogg)       | As the French or German throaty *r*.                                                                                                                                                   |
+| *ʿ*  | <span lang="ar">ع</span> | [[ʕ]](https://upload.wikimedia.org/wikipedia/commons/c/cd/Voiced_pharyngeal_fricative.ogg)                                                                                         | Produced by using swolloing muscles to restrict the air flow. It is one of the most difficult sounds for language learners to produce. Learners often wrongly percieved as a vowel *a*. |
+| *ʾ*  | <span lang="ar">ء</span> | [[ʔ]](https://upload.wikimedia.org/wikipedia/commons/4/4d/Glottal_stop.ogg)                                                                                                        | Stop and quick release of the air pressure by the vocal-cords, as the *t* in colloquial British *better*.                                                                              |
+| *S*  | <span lang="ar">ص</span> | [[sˤ]](https://upload.wikimedia.org/wikipedia/commons/8/8b/Voiceless_pharyngealized_alveolar_sibilant.ogg)                                                                         | Emphatic *s*.                                                                                                                                                                          |
+| *D*  | <span lang="ar">ض</span> | [[dˤ]](https://upload.wikimedia.org/wikipedia/commons/0/07/Voiced_pharyngealized_alveolar_stop.ogg)                                                                                | Emphatic *d*.                                                                                                                                                                          |
+| *T*  | <span lang="ar">ط</span> | [[tˤ]](https://upload.wikimedia.org/wikipedia/commons/4/4c/Voiceless_pharyngealized_alveolar_stop.ogg)                                                                             | Emphatic *t*.                                                                                                                                                                           |
+
+### Emphatic consonants
+
+Emphatic consonants (technically "pharyngalized") are pronounced as their non-emphatic equivalents but with the back of the tongue raised, giving a darker, thicker sound. This affects the quality of surrounding vowels, most clearly heard in *aa*&nbsp;[[æː]](https://upload.wikimedia.org/wikipedia/commons/c/c9/Near-open_front_unrounded_vowel.ogg) (as English *bad*) becoming a backed&nbsp;[[ɑː]](https://upload.wikimedia.org/wikipedia/commons/e/e5/Open_back_unrounded_vowel.ogg) (as in English *far*).
+
+### Consonant length
+
+All consonants have a short and a long variant. The long variant is transcribed as a doubled letter. Consonant length is a central part of Arabic phonology, often changing the meaning of a word (*daras* 'he studied' vs. *darras* 'he taught', *Hakat* 'she talked' vs. *Hakkat* 'she scratched').
+
+For plosives (*ʾ, b, d, D, t, T, k*) the long variant is produced by briefly holding the air pressure before releasing it and producing the sound.
+
+Consonant length is not indicated in the Arabic script. Only very rarely is it marked with the diacritic&nbsp;<span lang="ar" dir="rtl">ـّ</span> (*shadda*).
 
 ## Vowels
 
-
-| Short | Long |                                    |
-| :-:   | :-:  | :-:                                |
-| *i*   | *ii* | <span lang="ar" dir="rtl">ي</span> |
-| *e*   | *ee* | <span lang="ar" dir="rtl">ي</span> |
-| *u*   | *uu* | <span lang="ar" dir="rtl">و</span> |
-| *o*   | *oo* | <span lang="ar" dir="rtl">و</span> |
-| *a*   | *aa* | <span lang="ar" dir="rtl">ا</span> |
+| Short |         | Long |                                                                                                 |                                    |
+| :-:   | :-      | :-:  | :-                                                                                              | -:                                 |
+| *i*   | [i]     | *ii* | [[iː]](https://upload.wikimedia.org/wikipedia/commons/9/91/Close_front_unrounded_vowel.ogg)     | <span lang="ar" dir="rtl">ي</span> |
+| *e*   | [e]/[ə] | *ee* | [[eː]](https://upload.wikimedia.org/wikipedia/commons/6/6c/Close-mid_front_unrounded_vowel.ogg) | <span lang="ar" dir="rtl">ي</span> |
+| *u*   | [u]     | *uu* | [[uː]](https://upload.wikimedia.org/wikipedia/commons/5/5d/Close_back_rounded_vowel.ogg)        | <span lang="ar" dir="rtl">و</span> |
+| *o*   | [o]     | *oo* | [[oː]](https://upload.wikimedia.org/wikipedia/commons/0/0e/PR-open_front_unrounded_vowel.ogg)   | <span lang="ar" dir="rtl">و</span> |
+| *a*   | [a]/[ɑ] | *aa* | [[æː]](https://upload.wikimedia.org/wikipedia/commons/c/c9/Near-open_front_unrounded_vowel.ogg)/[[ɑː]](https://upload.wikimedia.org/wikipedia/commons/e/e5/open_back_unrounded_vowel.ogg) | <span lang="ar" dir="rtl">ا</span> |
 
 Note:
 
-- Only long vowels have an orthographic representation. 
+- The Arabic letters only represent long vowels. Short vowels are not indicated.
 
-- The short vowels *i* and *u* only occur in word final position as part of inflections (*beet-i* 'my house', *byeʿmal-u* 'they do').
+- *i* and *u* occur primarily in word final position as part of inflections (*beet-i* 'my house', *byeʿmel-u* 'they do').
 
-- The vowel here represented as *e* is generally realized as *schwa*&nbsp;[ə].
+- The vowel here transcribes as *e* is pronounced
+
+  - [[ə]](https://upload.wikimedia.org/wikipedia/commons/d/d9/Mid-central_vowel.ogg)&nbsp;*schwa* (as in English *the*) before or at word stress
+  - [[e]](https://upload.wikimedia.org/wikipedia/commons/6/6c/Close-mid_front_unrounded_vowel.ogg) (as in English *when*) after word stress
+
+- Short and long *a* is pronounced backed&nbsp;[[ɑ]](https://upload.wikimedia.org/wikipedia/commons/e/e5/open_back_unrounded_vowel.ogg) when adjacent to an emphatic consonant.
 
 - There are no diphthongs in Syrian Arabic. The Standard Arabic diphthongs *ay* and *aw* correspond in Syrian Arabic to the long vowels *ee* and *oo* respectively.
 
-## Standard to Syrian Arabic phonemic conversion rules 
+## Word stress
 
-These conversion rules represent regular sound relations in Standard–Syrian cognates. Standard Arabic pronunciation is often retained in formal or literary words (*dimuqraaTiyye*) and in non-Syrian Arabic place names (*il-qaahira* ‘Cairo’). Standard Arabic *th* and *dh* are normally realized as *s* and *z* respectively for such words. 
+Word stress in Syrian Arabic is largely predictable and corresponds with the rules of word stress in Standard Arabic. Word stress occurs on
 
-|      |    |       |         | Example     |    |           |             |                                        |
-| :-   | :- | :-    | :------ | :-          | :- | :-        | :-          | :-                                     |
-| *aw* | →  | *oo*  |         | *yawm*      | →  | *yoom*    | day         | <span lang="ar" dir="rtl">يوم</span>   |
-| *ay* | →  | *ee*  |         | *bayn*      | →  | *been*    | between     | <span lang="ar" dir="rtl">بين</span>   |
-| *q*  | →  | *ʾ*   |         | *daqiiqa*   | →  | *daʾiiʾa* | minute      | <span lang="ar" dir="rtl">دقيقة</span> |
-| *DH* | →  | *D*   |         | *DHuhr*     | →  | *Duhr*    | noon        | <span lang="ar" dir="rtl">ضهر</span>   |
-| *ʾ*  | →  | *ø*   |         | *masaaʾ*    | →  | *masa*    | eavening    | <span lang="ar" dir="rtl">مسا</span>   |
-| *th* | →  | *t*   |         | *thalaatha* | →  | *tlaate*  | three       | <span lang="ar" dir="rtl">تلاتة</span>  |
-|      |    | *(s)* |         | *mathalan*  | →  | *masalan* | for example | <span lang="ar" dir="rtl">مثلا</span>   |
-| *dh* | →  | *d*   |         | *dhahab*    | →  | *dahab*   | gold        | <span lang="ar" dir="rtl">دهب</span>   |
-|      |    | *(z)* |         | *idha*      | →  | *iza*     | if          | <span lang="ar" dir="rtl">اذا</span>   |
+- the last
+  - long vowel followed by consonant (*darasúuna*)
+  - short vowel followed by two consonants or a long consonant (*darásna*, *byedárres*) 
+- or else on the first vowel (*dárasu*), excluding any prefix.
+
+## Standard to Syrian Arabic phonological conversion rules {#sa-conversion}
+
+|      |    |       |         |             |    |           |         |              |                                       |
+| :-   | :- | :-    | :------ | :-          | :- | :-        | :------ |  :-          |:-                                     |
+| *aw* | →  | *oo*  |         | *yawm*      | →  | *yoom*    |         |  day         |<span lang="ar" dir="rtl">يوم</span>   |
+| *ay* | →  | *ee*  |         | *bayn*      | →  | *been*    |         |  between     |<span lang="ar" dir="rtl">بين</span>   |
+| *q*  | →  | *ʾ*   |         | *daqiiqa*   | →  | *daʾiiʾa* |         |  minute      |<span lang="ar" dir="rtl">دقيقة</span> |
+| *DH* | →  | *D*   |         | *DHuhr*     | →  | *Duhr*    |         |  noon        |<span lang="ar" dir="rtl">ضهر</span>   |
+| *ʾ*  | →  | *ø*   |         | *masaaʾ*    | →  | *masa*    |         |  eavening    |<span lang="ar" dir="rtl">مسا</span>   |
+| *th* | →  | *t*   |         | *thalaatha* | →  | *tlaate*  |         |  three       |<span lang="ar" dir="rtl">تلاتة</span>  |
+|      |    | *(s)* |         | *mathalan*  | →  | *masalan* |         |  for example |<span lang="ar" dir="rtl">مثلا</span>   |
+| *dh* | →  | *d*   |         | *dhahab*    | →  | *dahab*   |         |  gold        |<span lang="ar" dir="rtl">دهب</span>   |
+|      |    | *(z)* |         | *idha*      | →  | *iza*     |         |  if          |<span lang="ar" dir="rtl">اذا</span>   |
+
+Loans from Standard Arabic, including foreign Arabic place names, often retain the Standard Arabic pronunciation. In such words, *th* and *dh* are pronounced *s* and&nbsp;*z* respectively. Some examples are:
+
+| Syrian Arabic   | Standard Arabic  |           |                                            |
+| :-              | :-              | :-        | -:                                         |
+| *saqaafe*       | *thaqaafa*      | culture   | <span lang="ar" dir="rtl">ثقافة</span>     |
+| *ustaaz*        | *ustaadh*       | teacher   | <span lang="ar" dir="rtl">أستاذ</span>     |
+| *demuqraaTiyye* | *dimuqraaTiyya* | democracy | <span lang="ar" dir="rtl">ديمقراطية</span> |
+| *el-qurʾaan*    | *al-qurʾaan*    | the Quran | <span lang="ar" dir="rtl">القرآن</span>    |
+| *el-qaahira*    | *al-qaahira*    | Cairo     | <span lang="ar" dir="rtl">القاهرة</span>   |
 
 # Pronouns 
 
@@ -171,7 +236,7 @@ The connective *-l-* ‘for’ for indirect objects may take the form *-el-* to
 |      | Close       | Distant      | <span lang="ar" dir="rtl">بعيد</span>   | <span lang="ar" dir="rtl">قريب</span> |
 | :-   | :-          | :-           | -:                                      | -:                                    |
 | m.s. | *haada*     | *hadaak(e)*  | <span lang="ar" dir="rtl">هداك</span>   | <span lang="ar" dir="rtl">هادا</span> |
-| f.s  | *haay(e)*   | *hadiik(e)*  | <span lang="ar" dir="rtl">هديك</span>   | <span lang="ar" dir="rtl">هاي</span>  |
+| f.s  | *haay*      | *hadiik(e)*  | <span lang="ar" dir="rtl">هديك</span>   | <span lang="ar" dir="rtl">هاي</span>  |
 | pl.  | *hadool(e)* | *haadooliik* | <span lang="ar" dir="rtl">هدوليك</span> | <span lang="ar" dir="rtl">هدول</span> |
 
 Note:
