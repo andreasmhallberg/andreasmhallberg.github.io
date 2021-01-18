@@ -18,7 +18,7 @@ tags:
   - linguistics
 updates: 
   - date: 2021-01-18
-    contents: Phonology section considerably expanded.
+    contents: Phonology section expanded considerably.
   - date: 2021-01-03
     contents: 'Presentation order standardized: translation, transcription, Arabic. Indefinite pronouns added. Various minor additions and edits.'
   - date: 2020-12-29
@@ -58,7 +58,6 @@ This grammar is under construction. The
 following topics are planned to be added:
 
 - syllable structure
-- phonology table
 - exclamations(?)
 - imperative
 - dual
