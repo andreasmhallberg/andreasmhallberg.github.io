@@ -94,17 +94,17 @@ Furthermore, *j*&nbsp;<span lang="ar" dir="rtl">ج</span> is in Syrian Arabic pr
 | &nbsp;           | Labial | Alveolar | Palatal | Velar/Uvular | Pharyngal | Glottal |
 | :-               | :-:    | :-:      | :-:     | :-:          | :-:       | :-:     |
 | Fricative        |        |          |         |              |           |         |
-|   ---*voiced*    |        |          | *j*     | *gh*         | *ʿ*       |         |
-|   ---*voiceless* | *f*    |          |         | *kh*         | *H*       | *h*     |
+|   --- *voiced*    |        |          | *j*     | *gh*         | *ʿ*       |         |
+|   --- *voiceless* | *f*    |          |         | *kh*         | *H*       | *h*     |
 | Plosive          |        |          |         |              |           |         |
-|   ---*voiced*    | *b*    | *d, D*   |         |              |           |         |
-|   ---*voiceless* |        | *t, T*   | *k*     |              |           | *ʾ*     |
+|   --- *voiced*    | *b*    | *d, D*   |         |              |           |         |
+|   --- *voiceless* |        | *t, T*   | *k*     |              |           | *ʾ*     |
 | Lateral          |        | *l*      |         |              |           |         |
 | Trill            |        | *r*      |         |              |           |         |
 | Nasal            | *m*    | *n*      |         |              |           |         |
 | Sibilant         |        |          |         |              |           |         |
-|   --*voiced*     |        | *z*      |         |              |           |         |
-|   --*voiceless*  |        | *s, S*   |         |              |           |         |
+|   --- *voiced*     |        | *z*      |         |              |           |         |
+|   --- *voiceless*  |        | *s, S*   |         |              |           |         |
 | Semi-vowel       | *w*    |          | *y*     |              |           |         |
 
 The following consonants are used only in a few words:
