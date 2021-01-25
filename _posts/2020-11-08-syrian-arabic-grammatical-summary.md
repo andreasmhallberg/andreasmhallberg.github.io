@@ -92,7 +92,8 @@ Compared to Standard Arabic, several consonants are missing in Syrian Arabic, na
 *q*&nbsp;<span lang="ar" dir="rtl">ق</span>.
 Furthermore, *j*&nbsp;<span lang="ar" dir="rtl">ج</span> is in Syrian Arabic pronounced&nbsp;[[ʒ]](https://upload.wikimedia.org/wikipedia/commons/3/30/Voiced_palato-alveolar_sibilant.ogg), as opposed to the Standard Arabic affricate&nbsp;[[ʤ]](https://upload.wikimedia.org/wikipedia/commons/e/e6/Voiced_palato-alveolar_affricate.ogg).
 
-| &nbsp;           | Labial | Alveolar | Palatal | Velar/Uvular | Pharyngal | Glottal |
+
+| &nbsp;           | <img src="/images/2020-11-08/articulation-labial.png" width="100px" height="70"><br>Labial | <img src="/images/2020-11-08/articulation-alveolar.png" width="100px" height="70"><br>Alveolar | <img src="/images/2020-11-08/articulation-palatal.png" width="100px" height="70"><br>Palatal | <img src="/images/2020-11-08/articulation-velaruvular.png" width="100px" height="70"><br>Velar/<br>Uvular | <img src="/images/2020-11-08/articulation-faryngal.png" width="100px" height="70"><br>Pharyngal | <img src="/images/2020-11-08/articulation-glottal.png" width="100px" height="70"><br>Glottal |
 | :-               | :-:    | :-:      | :-:     | :-:          | :-:       | :-:     |
 | Fricative        |        |          |         |              |           |         |
 |   --- *voiced*    |        |          | *j*     | *gh*         | *ʿ*       |         |
@@ -107,6 +108,8 @@ Furthermore, *j*&nbsp;<span lang="ar" dir="rtl">ج</span> is in Syrian Arabic pr
 |   --- *voiced*     |        | *z*      |         |              |           |         |
 |   --- *voiceless*  |        | *s, S*   |         |              |           |         |
 | Semi-vowel       | *w*    |          | *y*     |              |           |         |
+
+</div>
 
 The following consonants are used only in a few words:
 
