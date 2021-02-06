@@ -18,6 +18,8 @@ tags:
   - teaching-materials
   - linguistics
 updates: 
+  - date: 2021-02-06
+    contents: Images for place of articulation added.
   - date: 2021-01-18
     contents: Phonology section expanded considerably.
   - date: 2021-01-03
@@ -81,7 +83,7 @@ For corrections or suggestions on improvements, please contact the author at [*a
 
 # Phonology {#phonolgy}
 
-Many of the IPA symbols in square brackets are hyper-linked to sound samples on Wikimedia. Click on them to hear an example of the pronunciation.
+IPA symbols in square brackets are hyper-linked to [sound samples from Wikipedia](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet_chart). Click on them to hear an example of the pronunciation.
 
 ## Consonants
 
@@ -92,7 +94,11 @@ Compared to Standard Arabic, several consonants are missing in Syrian Arabic, na
 *q*&nbsp;<span lang="ar" dir="rtl">ق</span>.
 Furthermore, *j*&nbsp;<span lang="ar" dir="rtl">ج</span> is in Syrian Arabic pronounced&nbsp;[[ʒ]](https://upload.wikimedia.org/wikipedia/commons/3/30/Voiced_palato-alveolar_sibilant.ogg), as opposed to the Standard Arabic affricate&nbsp;[[ʤ]](https://upload.wikimedia.org/wikipedia/commons/e/e6/Voiced_palato-alveolar_affricate.ogg).
 
-| &nbsp;           | Labial | Alveolar | Palatal | Velar/Uvular | Pharyngal | Glottal |
+### Place and manner of articulation[^imageattr-art]
+
+[^imageattr-art]: Images (modified) created by User:ish shwar (original .png deleted), .svg by Rohieb, CC BY-SA 3.0 <http://creativecommons.org/licenses/by-sa/3.0/>, via Wikimedia Commons
+
+| &nbsp;           | <img src="/images/2020-11-08/articulation-labial.png" width="100px" height="70"><br>Labial | <img src="/images/2020-11-08/articulation-alveolar.png" width="100px" height="70"><br>Alveolar | <img src="/images/2020-11-08/articulation-palatal.png" width="100px" height="70"><br>Palatal | <img src="/images/2020-11-08/articulation-velaruvular.png" width="100px" height="70"><br>Velar/<br>Uvular | <img src="/images/2020-11-08/articulation-faryngal.png" width="100px" height="70"><br>Pharyngal | <img src="/images/2020-11-08/articulation-glottal.png" width="100px" height="70"><br>Glottal |
 | :-               | :-:    | :-:      | :-:     | :-:          | :-:       | :-:     |
 | Fricative        |        |          |         |              |           |         |
 |   --- *voiced*    |        |          | *j*     | *gh*         | *ʿ*       |         |
