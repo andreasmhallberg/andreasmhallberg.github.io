@@ -45,13 +45,33 @@ layout: default
   </div>
 
 {% if page.updates %}
-    {% for update in page.updates %}
-  <p>
-  <div class="update">
-        Update {{ update.date }} &mdash; {{ update.contents | markdownify | remove: '<p>' | remove: '</p>'}}<br>
-  </div>
+
+    <div class="update">
+    <p>
+
+  {% if page.updates.size > 3 %}
+    <details>
+      <summary>
+    <a>Updates</a>
+    </summary>
+
+      {% for update in page.updates %}
+    <p>
+          Update {{ update.date }} &mdash; {{ update.contents | markdownify | remove: '<p>' | remove: '</p>'}}<br>
+    </p>
+      {% endfor %}
+    </details>
+  {% else %}
+
+      {% for update in page.updates %}
+    <p>
+          Update {{ update.date }} &mdash; {{ update.contents | markdownify | remove: '<p>' | remove: '</p>'}}<br>
+    </p>
+      {% endfor %}
+  {% endif %}
+
   </p>
-    {% endfor %}
+    </div>
 {% endif %}
 
   <div class="entry">
