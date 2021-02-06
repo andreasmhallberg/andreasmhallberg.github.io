@@ -11,8 +11,6 @@ documenttitle: Hollow/Defective Verb Form I-X
 thumbnail: /images/verb-forms.thumbnail.png
 minidoc: /images/hollow-and-defective-verbs.minidoc.png
 updates: 
-  - date: 2018-12-10
-    contents: 'Correction in hollow verbs: تجوز → تزوج'
   - date: 2019-02-06
     contents: Reformulation in text. Fatha added before alif maqṣūra.
 ---
