@@ -1,12 +1,13 @@
 ---
 title: \es{Minimal pairs in Standard Arabic}{Minimala par i standardarabiska}
-lang: sv
+lang: en
 mainfont: Linux Libertine O
 header-includes:
   - \newfontfamily\arabicfont[Script=Arabic]{Lateef}
   - \newfontfamily\arabicfontsf[Script=Arabic]{Lateef}
   - \newfontfamily\arabicfontit[Script=Arabic]{Lateef}
   - \usepackage{\string ~/dotfiles/mylatexstuff/ccbyandreas}
+  - \renewcommand\ccyear{2017}
   - \renewcommand{\textbf}[1]{\bfseries\textcolor{black!30}{#1}}
   - \renewcommand{\toprule}{\null}
   - \renewcommand{\bottomrule}{\null}
@@ -14,7 +15,7 @@ header-includes:
   - \newcommand\es[2]{\ifeng#1\else#2\fi}
   - \newif\ifeng
   - \engfalse
-# - \engtrue
+  - \engtrue
 geometry:
   - hmargin=2cm
 papersize: a4
