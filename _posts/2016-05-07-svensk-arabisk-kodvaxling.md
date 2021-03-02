@@ -19,6 +19,29 @@ I de glosserade exemplen nedan är de arabiska elementen angivna i kursiv text o
 
 ---- 
 
+- *2021-01* -- A. 
+
+  Hämta | *al*-stol
+  Hämta | DEF-stol
+
+  | Hämta stolen. |
+
+- *2020* -- A.
+
+  Har | du | *tḥett* | märke | till | den?
+  Har | du | 2S.lägga    | märke | till | den?
+
+  | Har du lagt märke till den? |
+
+  Kodväxling i ett idiomatiskt uttryck.
+ 
+- *2020* -- A.
+
+  *mā* | *tkattir.* | yimken | itnēn | *bt*-räcker
+  NEG | 2S.lägg.mycket | kanske | två | IND.2S-räcker
+
+  | Lägg inte så mycket. Två räcker nog. |
+
 - *2019-09* -- A.
 
   vet | du | vad | jag | *ḥlim*‑de
