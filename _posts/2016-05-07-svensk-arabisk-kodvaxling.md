@@ -187,6 +187,7 @@ I de glosserade exemplen nedan är de arabiska elementen angivna i kursiv text o
 | BES  | bestämd artikel
 | DUA  | dualis
 | F    | feminin
+| IND  | indikativ
 | M    | maskulin
 | PART | particip
 | PASS | passiv
