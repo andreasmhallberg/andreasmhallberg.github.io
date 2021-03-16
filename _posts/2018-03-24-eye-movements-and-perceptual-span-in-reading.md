@@ -6,6 +6,7 @@ lang: en
 length: short
 tags: 
   - linguistics
+  - eye-movements
 document: /documents/eye-movements-and-perceptual-span/eye-movements-and-perceptual-span.tex.pdf
 documenttitle: Eye Movements and Perceptual Span in Reading
 thumbnail: /images/eye-movements-and-perceptual-span.thumbnail.png

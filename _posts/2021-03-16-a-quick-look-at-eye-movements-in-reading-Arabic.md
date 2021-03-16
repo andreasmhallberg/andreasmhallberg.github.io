@@ -7,6 +7,7 @@ lang: en
 length: medium
 tags:
   - linguistics
+  - eye-movements
 ---
 
 The two videos below are generated from eye-movement data I recently collected in a short test run for a research application. They show how the gaze moves across the screen as a native Arabic speaker reads text without diacritics (Text&nbsp;1) and with diacritics (Text&nbsp;2), or so called "unvowelled" and "vowelled" text (passive aggressive use of quotation marks intended).

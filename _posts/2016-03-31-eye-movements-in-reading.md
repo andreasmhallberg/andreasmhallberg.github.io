@@ -6,6 +6,7 @@ length: long
 lang: en
 tags:
 - linguistics
+- eye-movements
 thumbnail: /images/2016-03-31-eye-movements-in-reading/et.raw.png
 ---
 
