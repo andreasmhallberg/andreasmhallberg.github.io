@@ -6,6 +6,7 @@ lang: ar
 length: medium
 tags:
     - linguistics
+    - eye-movements
  # updates: 
  #  - date:
  #    contents:
