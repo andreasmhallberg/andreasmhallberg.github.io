@@ -7,6 +7,7 @@ length: long
 toc: true
 tags:
   - linguistics
+  - syrian-arabic
 updates: 
   - date: 2021-01-12
     contents: Transcriptions sligthly modified to better reflect Syrian pronunciation of vowels.

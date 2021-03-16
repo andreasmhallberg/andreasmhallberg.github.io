@@ -17,6 +17,7 @@ excerpt: This is a short pedagogical summary of the variety of Arabic spoken in 
 tags:
   - teaching-materials
   - linguistics
+  - syrian-arabic
 updates: 
   - date: 2021-02-06
     contents: Images for place of articulation added.
