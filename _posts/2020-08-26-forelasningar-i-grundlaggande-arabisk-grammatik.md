@@ -10,9 +10,9 @@ tags:
  # document: /documents/xx.pdf
  # documenttitle: 
  # thumbnail: /images/xx.png
- # updates: 
- #  - date:
- #    contents:
+updates: 
+ - date: 2021-03-29
+   contents: Föreläsningarna har blivit automatiskt undertextade. Texten är högst bristfällig och det är bäst att stänga av den. När jag har tid kommer jag gå igenom och redigera den.
 ---
 
 Nedan finner du länkar till inspelade föreläsningar i grundläggande arabisk grammatik jag gav under våren 2020  vid Göteborgs universitet inom Standardarabiska&nbsp;I, en delkurs i [Arabiska, Grundkurs&nbsp;I](https://utbildning.gu.se/kurser/kurs_information/?courseId=AR1100&subjectType=grundKurs). Föreläsningarna spelades in i samband med att undervisningen ställdes om till distansstudier på grund av coronapandemin. De kan vara av intresse som hjälp vid självstudier i arabiska eller för den som bara är allmänt intresserad.  Samtliga exempel ges i arabisk skrift, och man behöver vara hjälpligt bekant med denna för att följa föreläsningarna i detalj.

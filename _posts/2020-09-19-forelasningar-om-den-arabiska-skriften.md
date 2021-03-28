@@ -10,9 +10,9 @@ tags:
  # document: /documents/xx.pdf
  # documenttitle: 
  # thumbnail: /images/xx.png
- # updates: 
- #  - date:
- #    contents:
+updates: 
+ - date: 2021-03-29
+   contents: Föreläsningarna har blivit automatiskt undertextade. Texten är högst bristfällig och det är bäst att stänga av den. När jag har tid kommer jag gå igenom och redigera den.
 ---
 
 Nedan finner du länkar till två föreläsningar om den arabiska skriften som jag spelade in under hösten 2020 för kursen *Introduktion till arabiska* vid Göteborgs universitet, en delkurs i [Arabiska, Grundkurs&nbsp;I](https://utbildning.gu.se/kurser/kurs_information/?courseId=AR1100&subjectType=grundKurs). Föreläsningarna spelades in i samband med att undervisningen ställdes om till distansstudier på grund av coronapandemin, och jag tog tillfället i akt att grundligt gå igenom hur den arabiska skriften fungerar. Föreläsningarna riktar sig primärt till den som vill lära sig arabiska, som en förberedelse innan man systematiskt går igenom alfabetet och uttalet. Ambitionen i båda föreläsningarna är därmed att beskriva mekanismer och egenskaper i den arabiska skriften på ett konceptuellt plan, och de kan därför också vara av intresse också för den allmänt intresserade. Det behövs inga förkunskaper för att ta till sig innehållet. Föreläsningarna är oredigerade första tagningar. Ljudkvalitén är inte optimal, men, tror jag, inte störande dålig.
