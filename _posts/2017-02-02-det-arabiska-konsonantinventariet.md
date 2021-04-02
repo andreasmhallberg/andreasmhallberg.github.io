@@ -13,10 +13,8 @@ thumbnail: /images/sainventarie-thumbnail.png
 updates:
     - date: 2021-04-02
       contents: Bilder som illustrtrar uttalsposition tillagda.
-updates:
     - date: 2018-09-13
       contents: Korrektion. sh numera palatal och g velar. 
-updates:
     - date: 2019-05-13
       contents: Jag har också gjort en tom version av dokumentet, utan fonemen ifyllda. Den kan laddas ner [här](/documents/sa-konsonantinventariet-empty.tex.pdf). Denna version kan användas för att låta studenter fylla i konsonantinventariet för en arabisk dialekt eller ett annat språk.
 ---
