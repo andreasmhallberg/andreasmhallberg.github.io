@@ -7,6 +7,7 @@
     \usepackage{ccicons}
     \usepackage{array}
     \usepackage{multirow}
+    \usepackage{graphicx}
     \usepackage{polyglossia}
     \usepackage[hmargin=2cm, vmargin=2cm, landscape]{geometry}
     \setmainlanguage{swedish}
@@ -25,6 +26,8 @@
     % Nästa sida/\null
     \newcommand{\rodref}{ på nästa sida}
 
+\newcommand{\artimage}[1]{\includegraphics[width=1.75cm]{articulation-images/articulation-op-#1.png}}
+
 \newcommand\dothetable{
     \raggedright
 
@@ -39,8 +42,6 @@
        \smallskip
 
       Beskrivningen är något förenklad till förmån för tydlig och pedagogiska framställning. Transkription enligt \textit{Alif Baa} (Brustad, Al-Batal \& Al-Tonsi 2010, Georgetown University Press).
-       
-       \smallskip
        \textcolor{red}{Röda tecken}\rodref{} anger det svenska konsonantinventariet.
    \end{minipage}
 
@@ -50,6 +51,17 @@
 \LARGE
     \centering
     \begin{tabular}{@{}lFFFF@{\,}FF@{\,}FFFFFFF@{}}
+
+      &
+        \multicolumn{1}{c}{\artimage{labial}}     &
+\multicolumn{2}{c}{\artimage{dentalalveolar}} &
+\multicolumn{1}{c}{\artimage{palatal}}      &
+    \multicolumn{1}{c}{\artimage{velar}}       &
+    \multicolumn{1}{c}{\artimage{uvular}}&
+\multicolumn{1}{c}{\artimage{faryngal}}    &
+\multicolumn{1}{c}{\artimage{glottal}}\\
+
+
                                 &
         \multicolumn{1}{c}{\scshape labial}     &
 \multicolumn{2}{c}{\scshape dental/alveolar} &
@@ -94,7 +106,8 @@
 \center
 \center
 \small
-Av Andreas Hallberg \ccby 2017. Dokumentet finns tillgängligt på \url{http://andreasmhallberg.github.io/}.
+Andreas Hallberg \ccby{} 2017, 2021. Dokumentet finns tillgängligt på \url{http://andreasmhallberg.github.io/}.
+Artikulationsbilder (modifierade) från Wikimedia Commons.
 \vspace{-1cm}
 }
 

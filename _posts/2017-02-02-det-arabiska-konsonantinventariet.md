@@ -11,6 +11,9 @@ document: /documents/sa-konsonantinventariet.tex.pdf
 documenttitle: Det standardarabiska konsonantinventariet
 thumbnail: /images/sainventarie-thumbnail.png
 updates:
+    - date: 2021-04-02
+      contents: Bilder som illustrtrar uttalsposition tillagda.
+updates:
     - date: 2018-09-13
       contents: Korrektion. sh numera palatal och g velar. 
 updates:
