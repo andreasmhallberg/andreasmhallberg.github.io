@@ -2,20 +2,25 @@
 layout: default
 ---
 
-<a href='{{ site.baseurl }}/only-en/'>Hide Swedish posts</a>
+
+<!-- <a href='{{ site.baseurl }}/only-en/'>Hide Swedish posts</a> -->
+
 
 <div class="posts">
+
+
   {% for post in site.posts %}
     <article class="post"{% if post.lang == 'ar' %} dir="rtl"{% endif %}>
 
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
+          <div class="date" dir="ltr">
+            {{ post.date  | date: '%B %e, %Y' }}
       {% if post.lang == 'sv' %}
-          <div class="date">
               (Swedish)
-          </div>
       {% endif %}
+          </div>
       <p>
       <div class="entry">
         {% if post.thumbnail %}

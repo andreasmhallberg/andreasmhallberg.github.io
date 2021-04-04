@@ -41,16 +41,20 @@ L: long post
           <li>
             <a href="{{node.url}}">{{node.title}} </a>
             <a class="date">
+            <nobr> 
                 {% if node.length == 'long' %} L,
                 {% elsif node.length == 'short' %} S,
                 {% elsif node.length == 'medium' %} M,
                 {% endif %}
               {{node.date | date: '%y-%m-%d'}}
+              </nobr>
               {% if node.lang == 'sv' %}
                 (Swedish)
               {% endif %}
 
             </a>
+
+
           </li>
 
         {% endif %}
