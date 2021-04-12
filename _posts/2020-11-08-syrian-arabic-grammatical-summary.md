@@ -280,13 +280,13 @@ There are four ways to form plural: *irregular*, *regular masculine*, *regular f
 
 |                 |                 |                                             |
 | :-              | :-              | -:                                          |
-| *ʿa‑*           | to              | <span lang="ar" dir="rtl">ع</span>          |
+| *ʿa/leʿand-*    | to              | <span lang="ar" dir="rtl">ع</span>          |
 | *ʿala/ʿalee‑*   | on              | <span lang="ar" dir="rtl">على/عليـ</span>   |
 | *ʿand*          | with, at        | <span lang="ar" dir="rtl">عند</span>        |
 | *been*          | between         | <span lang="ar" dir="rtl">بين</span>        |
 | *been/beenaat‑* | among           | <span lang="ar" dir="rtl">بين/بيناتـ</span> |
 | *bi‑/fii‑*      | in, at          | <span lang="ar" dir="rtl">بـ/فيـ</span>     |
-| *men*           | from            | <span lang="ar" dir="rtl">من</span>         |
+| *men/menn-*     | from            | <span lang="ar" dir="rtl">من</span>         |
 | *Hadd*          | next to         | <span lang="ar" dir="rtl">حد</span>         |
 | *fooʾ*          | above           | <span lang="ar" dir="rtl">فوق</span>        |
 | *taHt*          | below           | <span lang="ar" dir="rtl">تحت</span>        |
@@ -295,13 +295,14 @@ There are four ways to form plural: *irregular*, *regular masculine*, *regular f
 | *ʾuddaam*       | in front of     | <span lang="ar" dir="rtl">قدام</span>       |
 | *la‑/el‑*       | for (ownership) | <span lang="ar" dir="rtl">لـ/الـ</span>     |
 
-For the prepositions with two alternate forms, the first is used with nouns and the second with pronouns:
+Note:
 
-|             |              |                                         |
-| :-          | :-           | -:                                      |
-| *bi‑l‑beet* | in the house | <span lang="ar" dir="rtl">بالبيت</span> |
-| *fii‑h*     | in it        | <span lang="ar" dir="rtl">فيه</span>    |
+- For the prepositions with two alternate forms, the first is used with nouns and the second with pronouns:
 
+  |             |              |                                         |
+  | :-          | :-           | -:                                      |
+  | *bi‑l‑beet* | in the house | <span lang="ar" dir="rtl">بالبيت</span> |
+  | *fii‑h*     | in it        | <span lang="ar" dir="rtl">فيه</span>    |
 
 # Verbs
 
