@@ -280,13 +280,13 @@ There are four ways to form plural: *irregular*, *regular masculine*, *regular f
 
 |                 |                 |                                             |
 | :-              | :-              | -:                                          |
-| *ʿa/leʿand-*    | to              | <span lang="ar" dir="rtl">ع</span>          |
+| *ʿa/leʿand-*    | to              | <span lang="ar" dir="rtl">ع/لعند</span>     |
 | *ʿala/ʿalee‑*   | on              | <span lang="ar" dir="rtl">على/عليـ</span>   |
 | *ʿand*          | with, at        | <span lang="ar" dir="rtl">عند</span>        |
 | *been*          | between         | <span lang="ar" dir="rtl">بين</span>        |
 | *been/beenaat‑* | among           | <span lang="ar" dir="rtl">بين/بيناتـ</span> |
 | *bi‑/fii‑*      | in, at          | <span lang="ar" dir="rtl">بـ/فيـ</span>     |
-| *men/menn-*     | from            | <span lang="ar" dir="rtl">من</span>         |
+| *men/menn-*     | from            | <span lang="ar" dir="rtl">من/منـ</span>     |
 | *Hadd*          | next to         | <span lang="ar" dir="rtl">حد</span>         |
 | *fooʾ*          | above           | <span lang="ar" dir="rtl">فوق</span>        |
 | *taHt*          | below           | <span lang="ar" dir="rtl">تحت</span>        |
