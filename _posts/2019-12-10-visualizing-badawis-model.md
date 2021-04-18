@@ -5,7 +5,7 @@ permalink: /visualizing-badawis-model/
 lang: en
 length: medium
 tags: 
-  - linguistics
+  - misc
 thumbnail: /images/2019-12-10/badawifigalt.png
  # updates: 
    # - date:

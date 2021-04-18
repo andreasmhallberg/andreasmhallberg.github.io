@@ -6,7 +6,6 @@ permalink: /eye-movement-with-and-without-diacritics/
 lang: en
 length: medium
 tags:
-  - linguistics
   - eye-movements
 ---
 

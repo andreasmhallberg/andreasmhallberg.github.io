@@ -5,7 +5,7 @@ permalink: /reading-notes-on-github/
 lang: en
 length: short
 tags:
-- linguistics
+- misc
 updates: 
     - date: 2019-12-13
       contents: Editing.

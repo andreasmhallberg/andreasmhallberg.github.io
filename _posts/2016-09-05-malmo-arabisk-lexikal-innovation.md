@@ -4,7 +4,7 @@ title: Malmö-arabisk lexikal innovation
 permalink: /malmo-arabisk-lexikal-innovation/
 lang: sv
 tags:
-    - linguistics
+    - misc
 length: medium
 ---
 

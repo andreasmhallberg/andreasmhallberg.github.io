@@ -16,7 +16,6 @@ excerpt_separator: <!--excerpt_end-->
 excerpt: This is a short pedagogical summary of the variety of Arabic spoken in the Damascus area in Syria. It is intended to be used for quick reference and overview for beginner to intermediate language learners. It is partially based on <i>A Reference Grammar of Syrian Arabic</i> (Cowell 2005 [1964], Georgetown University Press) and <i>Arabisch-syrische grammatik</i> (Grotzfeld 1965, Harrassowitz), to which the reader is referred for detailed and comprehensive grammatical descriptions.
 tags:
   - teaching-materials
-  - linguistics
   - syrian-arabic
 updates: 
   - date: 2021-02-06

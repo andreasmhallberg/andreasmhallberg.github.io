@@ -5,7 +5,7 @@ permalink: /taht-al-mijhar-lisan-ad-dad/
 lang: en
 length: long
 tags:
-- linguistics
+- misc
 ---
 
 December 4, 2014, AlJazeera aired the documentary [*Lisān aḍ-ḍād yajmaʿunā*](http://www.aljazeera.net/programs/infocus/2013/12/4/لسان-الضاد-يجمعنا) [The language of *ḍād* unites us] as part of the *Taḥt al-mijhar* series of documentaries, produced in-house by AlJazeera. The program is interesting in that it so clearly illustrates the Arabic language ideology in action, being in effect and inventory of mainstream concerns about the current state of Arabic. This post presents a fairly thorough presentation of the views aired in the documentary.
