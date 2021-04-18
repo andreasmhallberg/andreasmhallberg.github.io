@@ -25,7 +25,7 @@ layout: default
       <div class="entry">
         {% if post.thumbnail %}
         <a href="{{ site.baseurl }}{{ post.url }}">
-            <img style="float: right; max-width: 40%; max-height: 300px; margin-left: 15px; margin-bottom: 10px;" src="{{ post.thumbnail }}">
+          <img style="float: {% if post.lang == 'ar' %} left {% else %} right {% endif %}; max-width: 40%; max-height: 300px; margin-left: 15px; margin-bottom: 10px;" src="{{ post.thumbnail }}">
         </a>
         {% endif %}
         {{ post.excerpt }}
