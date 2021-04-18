@@ -5,7 +5,7 @@ permalink: /word-counts-and-aya-counts-in-the-quran/
 lang: en
 length: medium
 tags:
-- linguistics
+- misc
 document: /documents/quran-wc/quran-wc.tex.pdf
 documenttitle: Word counts and aya counts of suras in the Quran
 thumbnail: /images/quran-wc-thumbnail.png

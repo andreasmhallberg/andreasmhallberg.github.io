@@ -5,7 +5,7 @@ permalink: /keyword-network/
 lang: en
 length: medium
 tags: 
-  - linguistics
+  - misc
 document: /documents/keyword-network/keywordnetwork.ar.190128.pdf
 documenttitle: Keyword network
 thumbnail: /images/2019-02-08/network.thumbnail.png

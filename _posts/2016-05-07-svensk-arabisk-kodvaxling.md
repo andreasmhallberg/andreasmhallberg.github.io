@@ -5,7 +5,7 @@ permalink: /exempel-pa-svensk-arabisk-kodvaxling/
 lang: sv
 length: medium
 tags:
-- linguistics
+- misc
 updates:
 - date: 2019-02-08
   contents: Exempel nu i omvänd kronologisk ordning med senaster först.

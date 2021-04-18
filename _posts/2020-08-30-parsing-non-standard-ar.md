@@ -5,7 +5,6 @@ permalink: /parsing-non-standard-ar/
 lang: ar
 length: medium
 tags:
-    - linguistics
     - eye-movements
  # updates: 
  #  - date:

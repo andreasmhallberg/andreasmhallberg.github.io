@@ -6,7 +6,6 @@ lang: en
 length: long
 toc: true
 tags:
-  - linguistics
   - syrian-arabic
 updates: 
   - date: 2021-01-12

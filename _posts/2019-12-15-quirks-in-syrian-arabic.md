@@ -5,7 +5,6 @@ permalink: /quirks-in-syrian-arabic/
 lang: en
 length: medium
 tags: 
-- linguistics
 - syrian-arabic
 thumbnail: /images/2019-12-15/cowell.png
 updates: 
