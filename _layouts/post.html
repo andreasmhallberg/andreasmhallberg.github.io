@@ -32,14 +32,15 @@ layout: default
 
     {% if page.lang == 'ar' %}
     {{ page.date | date: "%Y/%m/%d" }}<br>
+    تصنيف: {% for tag in tags %} {{tag}}{% endfor %}<br>
     &#x202b;طول: 
-    {% if page.length == 'long' %}
-    &#x202b;طويل 
-    {% elsif page.length == 'short' %} 
-    &#x202b;قصير 
-    {% elsif page.length == 'medium' %}
-    &#x202b;وصط 
-    {% endif %}
+      {% if page.length == 'long' %}
+      &#x202b;طويل 
+      {% elsif page.length == 'short' %} 
+      &#x202b;قصير 
+      {% elsif page.length == 'medium' %}
+      &#x202b;وصط 
+      {% endif %}
     {% endif %}
 
   </div>
