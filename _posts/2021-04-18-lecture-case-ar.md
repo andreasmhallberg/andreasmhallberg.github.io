@@ -18,7 +18,7 @@ thumbnail: /images/lecture-case-ar-thumbnail.jpg
 
 إن أردت معرفة المزيد عن نتائج البحث أو المنهج المتبع فيه فيمكنك تنزيل الرسالة الكاملة (المكتوبة باللغة الإنجليزية) [هنا](https://lup.lub.lu.se/search/ws/files/3772169/8852155.pdf).
 
-\ 
+<br> 
 
 <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F_byIOuYL3c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
