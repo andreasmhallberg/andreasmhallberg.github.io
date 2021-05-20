@@ -18,6 +18,8 @@ tags:
   - teaching-materials
   - syrian-arabic
 updates: 
+  - date: 2021-05-20
+    contents: Prepositions ʿa- and leʿand split into two list items.
   - date: 2021-02-06
     contents: Images for place of articulation added.
   - date: 2021-01-18
@@ -279,7 +281,8 @@ There are four ways to form plural: *irregular*, *regular masculine*, *regular f
 
 |                 |                 |                                             |
 | :-              | :-              | -:                                          |
-| *ʿa/leʿand-*    | to              | <span lang="ar" dir="rtl">ع/لعند</span>     |
+| *ʿa-/ʿalee-*    | to (place)      | <span lang="ar" dir="rtl">ع/عليـ</span>     |
+| *leʿand*        | to (person)     | <span lang="ar" dir="rtl">لعند</span>       |
 | *ʿala/ʿalee‑*   | on              | <span lang="ar" dir="rtl">على/عليـ</span>   |
 | *ʿand*          | with, at        | <span lang="ar" dir="rtl">عند</span>        |
 | *been*          | between         | <span lang="ar" dir="rtl">بين</span>        |
