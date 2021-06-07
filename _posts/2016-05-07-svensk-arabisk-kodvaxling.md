@@ -19,12 +19,59 @@ I de glosserade exemplen nedan är de arabiska elementen angivna i kursiv text o
 
 ---- 
 
-- *2021-01* -- A. 
+- *2021-06-06* -- Jo.
+
+  han | e | *b‑ye‑tġālaz* | hela | tiden
+  han | är | IND‑3MS‑tramsar | hela | tiden
+
+  | Han tramsar hela tiden |
+
+  Svenskt *e* [är] som möjlig markör för progressiv aspekt.
+
+- *2021-06-06* -- D.
+
+  *mū* | *marra* | *šuft*‑*u* | *bi*‑*s*‑skola
+  NEG | en.gång | sett.1SG‑3MS | i‑DEF‑skola
+
+  | Såg jag inte honom en gång på skolan? |
+
+  Assimilation av arabisk bestämd artikel *l-* vid "solbokstav" i svenskt ord. Jfr. [exempel nedan](#solbokstav).
+
+- *2021-06* -- M.
+
+  *ʿamlu* | beställa | *li*‑Playstation | *xamse*
+  gjorde‑3MPL | beställa | för‑Playstation | fem
+
+  | De beställd Playstation 5. |
+
+  Svenska infinitiv använda som *dummy*-verb tar direkt objekt med prepositionen *li-*.
+
+
+- *2021-05* -- H.<a id=solbokstav></a>
+
+   *fakkart* | *eza* | *kent* | *bi*‑*s*‑stan
+   tänkte.1SG | om | var.2MS | i‑DEF‑stan
+
+   | Jag tänkte ifall du var på stan. |
+
+   Assimilation av arabisk bestämd artikel *l-* vid "solbokstav" i svenskt ord.
+
+- *2021-05* -- H.
+
+  *fī* | *tnēn* | *ʿamlu* | avboka
+  finns | två | gjorde.3PL | avboka
+
+  *ʿamil* som *dummy*-verb med svenskt infinitiv.
+
+- *2021-01* -- A.
 
   Hämta | *al*-stol
   Hämta | DEF-stol
 
   | Hämta stolen. |
+
+   Talare som inte assimilation arabisk bestämd artikel *l-* vid "solbokstav" i svenskt ord, till skillnad från [andra talare](#solbokstav). Oklart om detta är en lexikal eller individuell variation.
+
 
 - *2020* -- A.
 
@@ -135,7 +182,7 @@ I de glosserade exemplen nedan är de arabiska elementen angivna i kursiv text o
 
     När man lär sig ett nytt språk når man förr eller senare en fas där man börjar bli flytande genom att utveckla en repertoar av fraser som ofta överanvänds. För talaren i det här exemplet var *saker och ting* en sådan fras. Hen är nu helt flytande i svenska och frasen hänger fortfarande kvar även när hen pratar arabiska, antagligen också för att det inte finns någon bra arabisk fras som fyller samma funktion.
 
-- *2016-04-30* --- J. angående en bekants lägenhet.
+- *2016-04-30* --- J. angående en bekants lägenhet.<a id=dummy></a>
 
     *ʿam* | *yaʿmil‑l‑u* | renovera | *u‑biddu* | *yabīʿ‑u*
     PROG | 3MS.gör‑PREP‑den | renovera | och‑vill.3MS | 3MS.sälja‑den
