@@ -4,11 +4,14 @@ title: Documents
 permalink: /documents/
 ---
 
+
+[Publications](#publications) --- [Misc. publications](#misc-publications) --- [Teaching materials](#teaching-materials)
+
 [CV-en](/documents/hallberg-cv-en.pdf)
 [CV-sv](/documents/hallberg-cv-sv.pdf)
 
-## Publications
 
+## Publications
 
 {% for publication in site.data.publications  %}
 
@@ -86,9 +89,7 @@ permalink: /documents/
 
 ## Teaching materials
 
-These documents are subject to continuous tinkering. The latest version can always be found here. Please report any errors in these documents and they will be corrected ASAP.
-
-For recorded lectures, see under <a href='{{ site.baseurl }}/tags/'>tags</a>.
+These documents are subject to continuous tinkering. The latest version can always be found here. For recorded lectures, see `lecture` under <a href='{{ site.baseurl }}/tags/'>tags</a>.
 
 {% for docpost in site.posts | reversed %}
 {% if docpost.document %} 

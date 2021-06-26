@@ -4,6 +4,7 @@ title: A list of Syrian Arabic politeness formulae
 permalink: /syrian-arabic-politeness-formulae/
 lang: en
 length: long
+author: Andreas Hallberg
 toc: true
 tags:
   - syrian-arabic
@@ -13,10 +14,18 @@ updates:
   - date: 2020-03-15
     contents: 'Correction: yizīdak aš-šaraf ->  yizīdak šaraf. Removed: ʿīd mubārak (too formal).'
 header-includes:
-  - \newfontfamily\arabicfont[Script=Arabic]{Lateef}
-  - \newfontfamily\arabicfontsf[Script=Arabic]{Lateef}
-  - \newfontfamily\arabicfontit[Script=Arabic]{Lateef}
-  - \frenchspacing
+    - \usepackage[bottom]{footmisc} 
+    - \newfontfamily\arabicfont[Script=Arabic]{Lateef}
+    - \newfontfamily\arabicfontsf[Script=Arabic]{Lateef}
+    - \newfontfamily\arabicfontit[Script=Arabic]{Lateef}
+    - \frenchspacing
+    - \renewcommand{\toprule}{\null}
+    - \renewcommand{\midrule}{\null}
+    - \renewcommand{\bottomrule}{\null}
+    - \usepackage{ccicons}
+    - \usepackage{titleps}
+    - \newpagestyle{mystyle}{\sethead{\itshape\today}{}{\thepage}\setfoot{\raisebox{-3cm}{\footnotesize Andreas Hallberg \ccby{} 2017. This document is available for download at \href{http://andreasmhallberg.github.io}{\textit{http://andreasmhallberg.github.io}}.}}{}{}}
+    - \pagestyle{mystyle}
 ---
 
 
@@ -290,7 +299,6 @@ Said before the actual goodbye to signal the end of the conversation.
 | *aḷḷa yixallī-lak iyyāhum*    | *aḷḷa yixallīk*       |
 | May God preserve them for you | May God keep you safe |
 
-***
 
 ## References
 Ferguson, Charles&nbsp;A. 1997 [1967]. "Root-echo responses in Syrian Arabic politeness formulas." In *Structuralist Studies in Arabic Linguistics: Charles A. Ferguson’s Papers, 1954-1994,* edited by R. Kirk Belnap and Niloofar Haeri, 198–205. Leiden, Netherlands: Brill.
