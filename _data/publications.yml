@@ -1,31 +1,31 @@
-- title: 'Case and mood inflection in Formal Spoken Arabic: a quantitative investigation'
-  type: article
-  lang: en
-  author: Hallberg, A.
-  year: forthcoming
-  ref: <i>Zeitschrift für arabische Lingvistik.</i>
-  doi:
-  pdf:
-  link:
-  abstract:
-
-- title: 'Standard language ideology and prescriptivism in the Arabic speaking world'
+- title: 'Standard language ideology and prescriptivism in the Arabic-speaking world'
   type: chapter
   lang: en
   author: Hallberg, A.
-  year: 2022
+  year: 2022, forthcoming
   ref: 'In Beal,&nbsp;J., Lukač,&nbsp;M. \& Straaijer,&nbsp;R. (eds) <i>Routledge handbook of prescriptivism</i>. Routledge.'
   doi:
   pdf:
   link:
-  abstract:
+  abstract: This chapter describes Arabic prescriptivism by drawing on examples from a variety of sources. Arabic prescriptivism differs from that of many other modern languages in being conditioned by diglossia and a significant historical distance to the codification. The standard variety is often seen as essential to nationalist and religious identities and is portrayed as being under existential threat by non-standard varieties. Alternative forms within the standard variety are in prescriptive works evaluated for correctness exclusively on the basis of works from the classical heritage. The dominant Arabic language ideology and its associated prescriptivism have considerable effects, most importantly in education.
+
+- title: 'Case and mood inflection in Formal Spoken Arabic: a quantitative investigation'
+  type: article
+  lang: en
+  author: Hallberg, A.
+  year: 2021, in press
+  ref: <i>Zeitschrift für arabische Lingvistik, 72</i>(2)
+  doi:
+  pdf:
+  link:
+  abstract: This article presents results from a quantitative investigation of the use of case and mood inflection (CMI) in seventeen televised news-interviews (38,000 words) with Arab politicians and public figures with a variety of backgrounds. The speech of the interviewees was transcribed and annotated for realization of CMI and for relevant morphosyntactic parameters. Speakers were found to vary in the amount of CMI in their speech, but all perform far below the prescriptive ideal, with realizations of case inflection ranging from 0.2% to 42.3% (mean\ 7.5%, median\ 3.6%) and mood inflection from 0% to 68.5% (mean\ 9.9%, median\ 2.5%). Furthermore, speakers show striking similarities in how the CMI that they do use is distributed in morphosyntactic contexts. First, CMI is for all speakers used at markedly higher rates on words with enclitic pronouns and on words where CMI is orthographically represented. Second, for words with definite article, CMI is almost completely absent. Implications of these results for Arabic language instruction are discussed.
 
 - title: 'Parsing written language with non-standard grammar: an eye-tracking study of case marking in Arabic'
   type: article
   lang: en
   author: Hallberg, A. & Niehorster, D.
   year: 2021
-  ref: '<i>Reading and Writing: An Interdisciplinary Journal,</i> 43(1). 27&ndash;48.'
+  ref: '<i>Reading and Writing: An Interdisciplinary Journal, 43</i>(1). 27&ndash;48.'
   doi: https://doi.org/10.1007/s11145-020-10040-6 
   pdf: https://link.springer.com/content/pdf/10.1007/s11145-020-10040-6.pdf
   link: https://link.springer.com/article/10.1007/s11145-020-10040-6
@@ -40,7 +40,7 @@
   ref: 'In&nbsp;<i>Vetenskapssocieteten i&nbsp;Lund. Årsbok 2017</i>. Ed.&nbsp;Henrik Rahm. Vetenskapssocieteten i&nbsp;Lund. 39&ndash;48.'
   abstract: I den arabiska språksfären är det vanliga talspråket - dialekterna - mycket annorlunda än standardarabiska, den form av arabiska som används i skrift och som endast talas i mycket formella sammanhang. Ingen arabisktalande person har standardarabiska som sitt modersmål; det är ett utpräglat skrift- och bildningsspråk. Det finns en mycket stark uppfattning i den arabiska språksfären att dialekterna inte är ”riktig” arabiska, att de inte har någon grammatik, att de representerar ett moraliskt och intellektuellt förfall och att det inte går att tänka eller tala om avancerade ting på dialekterna. Detta att bara betrakta en form av ett språk som korrekt och riktig och att nedvärdera alla andra former finns i olika utsträckning i i stort sett alla moderna språkgemenskaper. Bland lingvister som intresserar sig för föreställningar och idéer om språk kallas detta ofta för standardspråksideologi. Jag kommer här att beskriva hur denna dominerande ideologi tar sig mycket explicita uttryck i den arabiska språksfären och hur detta är en effekt just av det stora avståndet mellan talspråket och skriftspråket.
 
-- title: Case Endings in Spoken Standard Arabic
+- title: Case endings in Spoken Standard Arabic
   type: dissertation
   author: Hallberg, A.
   lang: en
