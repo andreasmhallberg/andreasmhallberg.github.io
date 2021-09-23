@@ -188,17 +188,21 @@ Word stress in Syrian Arabic is largely predictable and corresponds with the rul
 
 ## Standard to Syrian Arabic phonological conversion rules {#sa-conversion}
 
-|      |    |       |         |             |    |           |         |              |                                       |
-| :-   | :- | :-    | :------ | :-          | :- | :-        | :------ |  :-          |:-                                     |
-| *aw* | →  | *oo*  |         | *yawm*      | →  | *yoom*    |         |  day         |<span lang="ar" dir="rtl">يوم</span>   |
-| *ay* | →  | *ee*  |         | *bayn*      | →  | *been*    |         |  between     |<span lang="ar" dir="rtl">بين</span>   |
-| *q*  | →  | *ʾ*   |         | *daqiiqa*   | →  | *daʾiiʾa* |         |  minute      |<span lang="ar" dir="rtl">دقيقة</span> |
-| *DH* | →  | *D*   |         | *DHuhr*     | →  | *Duhr*    |         |  noon        |<span lang="ar" dir="rtl">ضهر</span>   |
-| *ʾ*  | →  | *ø*   |         | *masaaʾ*    | →  | *masa*    |         |  eavening    |<span lang="ar" dir="rtl">مسا</span>   |
-| *th* | →  | *t*   |         | *thalaatha* | →  | *tlaate*  |         |  three       |<span lang="ar" dir="rtl">تلاتة</span>  |
-|      |    | *(s)* |         | *mathalan*  | →  | *masalan* |         |  for example |<span lang="ar" dir="rtl">مثلا</span>   |
-| *dh* | →  | *d*   |         | *dhahab*    | →  | *dahab*   |         |  gold        |<span lang="ar" dir="rtl">دهب</span>   |
-|      |    | *(z)* |         | *idha*      | →  | *iza*     |         |  if          |<span lang="ar" dir="rtl">اذا</span>   |
+|      |    |       |         |                  |    |                 |         |              |                                             |
+| :-   | :- | :-    | :------ | :-               | :- | :-              | :------ | :-           | :-                                          |
+| *aw* | →  | *oo*  |         | *yawm*           | →  | *yoom*          |         | day          | <span lang="ar" dir="rtl">يوم</span>        |
+|      |    |       |         | *Sawt*           |    | *Soot*          |         | sound/voice        | <span lang="ar" dir="rtl">صوت</span>        |
+| *ay* | →  | *ee*  |         | *bayn*           | →  | *been*          |         | between      | <span lang="ar" dir="rtl">بين</span>        |
+|      |    |       |         | *SabaaH* al-xayr |    | *SbaaH el-xeer* |         | Good morning | <span lang="ar" dir="rtl">صباح الخير</span> |
+| *q*  | →  | *ʾ*   |         | *daqiiqa*        | →  | *daʾiiʾa*       |         | minute       | <span lang="ar" dir="rtl">دقيقة</span>      |
+|      |    |       |         | *qalb*           |    | *ʾalb*          |         | heart        | <span lang="ar" dir="rtl">قلب</span>        |
+|      |    |       |         | *Taariq*         |    | *Taareq*        |         | Tariq (name) | <span lang="ar" dir="rtl">طارق</span>       |
+| *DH* | →  | *D*   |         | *DHuhr*          | →  | *Duhr*          |         | noon         | <span lang="ar" dir="rtl">ضهر</span>        |
+| *ʾ*  | →  | *ø*   |         | *masaaʾ*         | →  | *masa*          |         | eavening     | <span lang="ar" dir="rtl">مسا</span>        |
+| *th* | →  | *t*   |         | *thalaatha*      | →  | *tlaate*        |         | three        | <span lang="ar" dir="rtl">تلاتة</span>       |
+|      |    | *(s)* |         | *mathalan*       | →  | *masalan*       |         | for example  | <span lang="ar" dir="rtl">مثلا</span>        |
+| *dh* | →  | *d*   |         | *dhahab*         | →  | *dahab*         |         | gold         | <span lang="ar" dir="rtl">دهب</span>        |
+|      |    | *(z)* |         | *idha*           | →  | *iza*           |         | if           | <span lang="ar" dir="rtl">اذا</span>        |
 
 Loans from Standard Arabic, including foreign Arabic place names, often retain the Standard Arabic pronunciation. In such words, *th* and *dh* are pronounced *s* and&nbsp;*z* respectively. Some examples are:
 
@@ -257,10 +261,10 @@ Note:
 
 ## Indefinite pronouns
 
-|        |           |                                      |
-| :-     | :-        | -:                                   |
-| *Hada* | someone   | <span lang="ar" dir="rtl">حدا</span> |
-| *shi*  | something | <span lang="ar" dir="rtl">شي</span>  |
+|        |                    |                                      |
+| :-     | :-                 | -:                                   |
+| *Hada* | someone/anyone     | <span lang="ar" dir="rtl">حدا</span> |
+| *shi*  | something/anything | <span lang="ar" dir="rtl">شي</span>  |
 
 # Nouns
 
@@ -546,12 +550,12 @@ Question words are normally clause-inital, and may be preceded by a preposition:
 
 *Ween* and *kiif* take attached pronouns:
 
-|            |                   |                                       |
-| :-         |  :-               |-:                                     |
-| *ween-ak?* |  Where are you? |<span lang="ar" dir="rtl">وينك؟</span> |
-| *kiif-ak?* |  How are you?   |<span lang="ar" dir="rtl">كيفك؟</span> |
+|            |                |                                        |
+| :-         | :-             | -:                                     |
+| *ween-ak?* | Where are you? | <span lang="ar" dir="rtl">وينك؟</span> |
+| *kiif-ak?* | How are you?   | <span lang="ar" dir="rtl">كيفك؟</span> |
 
-Yes/no-question are formed with rising intonation.
+Yes/no-question are formed with rising intonation. The Standard Arabic particle *hal* is in Syrian only used for rhetoric questions.
 
 # Negation {#negation}
 
