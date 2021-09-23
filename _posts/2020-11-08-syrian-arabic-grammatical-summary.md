@@ -81,6 +81,8 @@ This grammar uses a simplified transcription (see [Phonology](#phonolgy)) adapte
 
 [^connected]: For an overview of the Arabic script, see [*The Arabic Writing System*](http://andreasmhallberg.github.io/documents/arabic-letters-and-vowel-markers.tex.pdf) (available for download at *<http://andreasmhallberg.github.io/documents/>*).
 
+Comparisons with Standard Arabic are made where relevant.
+
 For corrections or suggestions on improvements, please contact the author at [*andreas.hallberg@sprak.gu.se*](mailto:andreas.hallberg@sprak.gu.se).
 
 # Phonology {#phonolgy}
@@ -164,7 +166,7 @@ Consonant length is not indicated in the Arabic script. Only very rarely is it m
 
 Note:
 
-- The Arabic letters only represent long vowels. Short vowels are not indicated.
+- The Arabic letters only represent long vowels. Short vowels are normally not indicated.
 
 - *i* and *u* occur primarily in word final position as part of inflections (*beet-i* 'my house', *byeʿmel-u* 'they do').
 
@@ -559,6 +561,8 @@ Yes/no-question are formed with rising intonation. The Standard Arabic particle 
 
 # Negation {#negation}
 
+Syrian Arabic has three main forms of negation:
+
 |       |                                     |                    |
 | :-    | -:                                  | :-                 |
 | *maa* | <span lang="ar" dir="rtl">ما</span> | verbs              |
@@ -612,7 +616,7 @@ can be used to answer someone saying that you are hungry, asking whether you are
 | 15  | *khamasTaʿsh*                | *khamsTaʿshar* | <span lang="ar" dir="rtl">خمسطعشر</span>  | <span lang="ar" dir="rtl">خمسطعش</span>      |
 | 16  | *seTTaʿsh*                   | *seTTaʿshar*   | <span lang="ar" dir="rtl">سطعشر</span>    | <span lang="ar" dir="rtl">سطعش</span>        |
 | 17  | *sabʿaTaʿsh*                 | *sabʿaTaʿshar* | <span lang="ar" dir="rtl">سبعطعشر</span>  | <span lang="ar" dir="rtl">سبعطعش</span>      |
-| 18  | *tmanTaʿsh*                  | *tmanTaʿshar*  | <span lang="ar" dir="rtl">تماطعشر</span>  | <span lang="ar" dir="rtl">تماطعش</span>      |
+| 18  | *tmanTaʿsh*                  | *tmanTaʿshar*  | <span lang="ar" dir="rtl">تمانطعشر</span>  | <span lang="ar" dir="rtl">تمانطعش</span>      |
 | 19  | *tesʿaTaʿsh*                 | *tesʿaTaʿshar* | <span lang="ar" dir="rtl">تسعطعشر</span>  | <span lang="ar" dir="rtl">تسعطعش</span>      |
 |     |                              |                |                                           |                                              |
 | 20  | *ʿeshriin*                   |                |                                           | <span lang="ar" dir="rtl">عشرين</span>       |
@@ -622,7 +626,7 @@ can be used to answer someone saying that you are hungry, asking whether you are
 | 60  | *settiin*                    |                |                                           | <span lang="ar" dir="rtl">ستين</span>        |
 | 70  | *sabʿiin*                    |                |                                           | <span lang="ar" dir="rtl">سبعين</span>       |
 | 80  | *tmaaniin*                   |                |                                           | <span lang="ar" dir="rtl">تمانين</span>      |
-| 90  | *tesʿiin*                    |                |                                           | <span lang="ar" dir="rtl">يسعين</span>       |
+| 90  | *tesʿiin*                    |                |                                           | <span lang="ar" dir="rtl">تسعين</span>       |
 |     |                              |                |                                           |                                              |
 | 100 | *miyye*                      | *miit*         |                                           | <span lang="ar" dir="rtl">مية</span>         |
 
@@ -630,6 +634,8 @@ can be used to answer someone saying that you are hungry, asking whether you are
 The independent form of the numeral is used when it stands by itself and is not followed by a noun. The counting form is when the numeral is followed by counted a noun: *tlaate* 'three', but *tlatt ewlaad* ‘three boys.’
 
 Note:
+
+- Except for 1 and 2, numerals are not inflected for gender, as opposed to Standard Arabic.
 
 - 1--2 are used only for emphasis or contrast, or when ordering in restaurants and the like (*etneen shaay* ‘two tea’). Otherwise, the lone noun in singular or dual is used (*ktaab* '[a/one] book'; *ktabeen* 'two books'). 1 and 2 are the only numerals that inflect for gender.
 
