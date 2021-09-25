@@ -198,7 +198,7 @@ Word stress in Syrian Arabic is largely predictable and corresponds with the rul
 |      |    |       |         | *SabaaH* al-xayr |    | *SbaaH el-xeer* |         | Good morning | <span lang="ar" dir="rtl">صباح الخير</span> |
 | *q*  | →  | *ʾ*   |         | *daqiiqa*        | →  | *daʾiiʾa*       |         | minute       | <span lang="ar" dir="rtl">دقيقة</span>      |
 |      |    |       |         | *qalb*           |    | *ʾalb*          |         | heart        | <span lang="ar" dir="rtl">قلب</span>        |
-|      |    |       |         | *Taariq*         |    | *Taareq*        |         | Tariq (name) | <span lang="ar" dir="rtl">طارق</span>       |
+|      |    |       |         | *Taariq*         |    | *Taareʾ*        |         | Tariq (name) | <span lang="ar" dir="rtl">طارق</span>       |
 | *DH* | →  | *D*   |         | *DHuhr*          | →  | *Duhr*          |         | noon         | <span lang="ar" dir="rtl">ضهر</span>        |
 | *ʾ*  | →  | *ø*   |         | *masaaʾ*         | →  | *masa*          |         | eavening     | <span lang="ar" dir="rtl">مسا</span>        |
 | *th* | →  | *t*   |         | *thalaatha*      | →  | *tlaate*        |         | three        | <span lang="ar" dir="rtl">تلاتة</span>       |
