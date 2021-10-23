@@ -283,6 +283,43 @@ There are four ways to form plural: *irregular*, *regular masculine*, *regular f
 | Regular feminine  | *‑aat*    | *sheghle* | *sheghlaat*  | thing  | <span lang="ar" dir="rtl">شغلات</span>  | <span lang="ar" dir="rtl">شغلة</span>  |
 | General human     | *‑(iyy)e* | *ʿeraaqi* | *ʿeraaqiyye* | Iraqi  | <span lang="ar" dir="rtl">عراقية</span> | <span lang="ar" dir="rtl">عراقي</span> |
 
+## Dual
+
+<!-- 367 -->
+
+The dual is used instead of the plural when talking about two of something. It is formed with the ending *-een* to the singular (*-teen* for feminine feminine formed with *-e*).
+
+|           |         | Singular | Dual        |      | <span lang="ar" dir="rtl">المثنى</span> | <span lang="ar" dir="rtl">مفرد</span> |
+| :-        | :-      | :-       | :-          | :-   | -:                                      | -:                                    |
+| Masculine | *‑een*  | *walad*  | *waladeen*  | boy  | <span lang="ar" dir="rtl">ولدين</span>  | <span lang="ar" dir="rtl">ولد</span>  |
+| Feminine  | *‑teen* | *saaʿa*  | *saaʿateen* | hour | <span lang="ar" dir="rtl">ساعتين</span> | <span lang="ar" dir="rtl">ساعة</span> |
+
+The dual is only when important for context:
+
+|                                          |                                            |
+| :-                                       | :-                                         |
+| *ʿinna saaʿateen bas*                    | We only have two hours.                    |
+| *ash-shaʿʿa fii-haa ghurfateen u-matbax* | The apartment has two rooms and a kitchen. |
+
+Otherwise the dual is used:
+
+|                                              |                                                               |
+| :-                                           | :-                                                            |
+| *raaHu aHmad u-rafiiʿuʿa-buyuut-un*          | Ahmad and his friend went home [to their houses&nbsp;(pl.)]   |
+| *maa ʿinna wlaad, bas banaat, riim w-raniya* | we don't have any boys, only girls&nbsp;(pl.), Riim and Rania |
+
+The dual is avoided on nouns with attached pronouns or with annexed nouns. For these situations the plural is used and the construction is follow by an explicit *itneen* 'two', except for pairwise occurring body parts:
+
+|                                              |                                                               |
+| :-                                           | :-                                                            |
+| *axwaati l-itneen*                           | my two sisters                                                |
+| *maa ʿinna wlaad, bas banaat, riim w-raniya* | we don't have any boys, only girls&nbsp;(pl.), Riim and Rania |
+| *ijreek*                                     | your feet                                                     |
+|||
+
+
+
+
 # Prepositions
 
 |                 |                 |                                             |
