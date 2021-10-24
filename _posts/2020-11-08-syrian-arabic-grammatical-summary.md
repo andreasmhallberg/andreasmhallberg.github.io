@@ -330,20 +330,22 @@ Note:
 |                 |                 |                                             |
 | :-              | :-              | -:                                          |
 | *ʿa-/ʿalee-*    | to (place)      | <span lang="ar" dir="rtl">ع/عليـ</span>     |
-| *leʿand*        | to (person)     | <span lang="ar" dir="rtl">لعند</span>       |
 | *ʿala/ʿalee‑*   | on              | <span lang="ar" dir="rtl">على/عليـ</span>   |
 | *ʿand*          | with, at        | <span lang="ar" dir="rtl">عند</span>        |
+| *barraat*       | outside         | <span lang="ar" dir="rtl">برات</span>       |
 | *been*          | between         | <span lang="ar" dir="rtl">بين</span>        |
 | *been/beenaat‑* | among           | <span lang="ar" dir="rtl">بين/بيناتـ</span> |
 | *bi‑/fii‑*      | in, at          | <span lang="ar" dir="rtl">بـ/فيـ</span>     |
-| *men/menn-*     | from            | <span lang="ar" dir="rtl">من/منـ</span>     |
-| *Hadd*          | next to         | <span lang="ar" dir="rtl">حد</span>         |
 | *fooʾ*          | above           | <span lang="ar" dir="rtl">فوق</span>        |
-| *taHt*          | below           | <span lang="ar" dir="rtl">تحت</span>        |
-| *maʿ*           | with            | <span lang="ar" dir="rtl">مع</span>         |
-| *wara*          | behind          | <span lang="ar" dir="rtl">ورا</span>        |
-| *ʾuddaam*       | in front of     | <span lang="ar" dir="rtl">قدام</span>       |
+| *Hadd*          | next to         | <span lang="ar" dir="rtl">حد</span>         |
+| *juwwaat*       | inside          | <span lang="ar" dir="rtl">جوات</span>       |
 | *la‑/el‑*       | for (ownership) | <span lang="ar" dir="rtl">لـ/الـ</span>     |
+| *leʿand*        | to (person)     | <span lang="ar" dir="rtl">لعند</span>       |
+| *maʿ*           | with            | <span lang="ar" dir="rtl">مع</span>         |
+| *men/menn-*     | from            | <span lang="ar" dir="rtl">من/منـ</span>     |
+| *taHt*          | below           | <span lang="ar" dir="rtl">تحت</span>        |
+| *ʾuddaam*       | in front of     | <span lang="ar" dir="rtl">قدام</span>       |
+| *wara*          | behind          | <span lang="ar" dir="rtl">ورا</span>        |
 
 Note:
 
