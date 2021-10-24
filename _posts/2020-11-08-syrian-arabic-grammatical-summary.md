@@ -591,7 +591,7 @@ Question words are normally clause-inital, and may be preceded by a preposition:
 | :-                    | :-                        | -:                                               |
 | *maʿ miin ʿam teHki?* | ‘Who are you talking to?’ | <span lang="ar" dir="rtl">مع مين عم تحكي؟</span> |
 
-*Ween* and *kiif* take attached pronouns:
+*Ween* and *kiif* may take attached pronouns:
 
 |            |                |                                        |
 | :-         | :-             | -:                                     |
