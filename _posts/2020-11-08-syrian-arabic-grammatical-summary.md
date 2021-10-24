@@ -18,6 +18,8 @@ tags:
   - teaching-materials
   - syrian-arabic
 updates: 
+  - date: 2021-10-24
+    contents: Dual section added.
   - date: 2021-05-20
     contents: Prepositions ʿa- and leʿand split into two list items.
   - date: 2021-02-06
@@ -65,7 +67,6 @@ following topics are planned to be added:
 - syllable structure
 - exclamations(?)
 - imperative
-- dual
 - gender
 - adverbs
 - the possessive exponent 
