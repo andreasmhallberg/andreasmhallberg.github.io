@@ -195,7 +195,7 @@ Word stress in Syrian Arabic is largely predictable and corresponds with the rul
 | *aw* | →  | *oo*  |         | *yawm*           | →  | *yoom*          |         | day          | <span lang="ar" dir="rtl">يوم</span>        |
 |      |    |       |         | *Sawt*           |    | *Soot*          |         | sound/voice        | <span lang="ar" dir="rtl">صوت</span>        |
 | *ay* | →  | *ee*  |         | *bayn*           | →  | *been*          |         | between      | <span lang="ar" dir="rtl">بين</span>        |
-|      |    |       |         | *SabaaH* al-xayr |    | *SbaaH el-xeer* |         | Good morning | <span lang="ar" dir="rtl">صباح الخير</span> |
+|      |    |       |         | *SabaaH* al-khayr |    | *SbaaH el-kheer* |         | Good morning | <span lang="ar" dir="rtl">صباح الخير</span> |
 | *q*  | →  | *ʾ*   |         | *daqiiqa*        | →  | *daʾiiʾa*       |         | minute       | <span lang="ar" dir="rtl">دقيقة</span>      |
 |      |    |       |         | *qalb*           |    | *ʾalb*          |         | heart        | <span lang="ar" dir="rtl">قلب</span>        |
 |      |    |       |         | *Taariq*         |    | *Taareʾ*        |         | Tariq (name) | <span lang="ar" dir="rtl">طارق</span>       |
@@ -259,7 +259,7 @@ Note:
 
 - *haada* has a shortened form, *haad*, used only at the end of phrases: *shuu haad?* ‘What is this?’.
 
-- The distant plural pronoun has several variants not listed above, including *hadook, hadenk*, and *hadenken*.
+- The distant plural has several variants not listed above, including *hadook, hadenk*, and *hadenken*.
 
 ## Indefinite pronouns
 
@@ -287,38 +287,42 @@ There are four ways to form plural: *irregular*, *regular masculine*, *regular f
 
 <!-- 367 -->
 
-The dual is used instead of the plural when talking about two of something. It is formed with the ending *-een* to the singular (*-teen* for feminine feminine formed with *-e*).
+The noun has three forms of number inflection: singular, plural, and dual. (The adjective, [verb](#verbs), and [pronoun](#pronouns) have no dual forms.) The dual form is used to indicate specifically two of something. It is formed by adding the ending *-een* to the singular (*-teen* for feminine formed with *-e/-a*).
 
 |           |         | Singular | Dual        |      | <span lang="ar" dir="rtl">المثنى</span> | <span lang="ar" dir="rtl">مفرد</span> |
 | :-        | :-      | :-       | :-          | :-   | -:                                      | -:                                    |
 | Masculine | *‑een*  | *walad*  | *waladeen*  | boy  | <span lang="ar" dir="rtl">ولدين</span>  | <span lang="ar" dir="rtl">ولد</span>  |
 | Feminine  | *‑teen* | *saaʿa*  | *saaʿateen* | hour | <span lang="ar" dir="rtl">ساعتين</span> | <span lang="ar" dir="rtl">ساعة</span> |
 
-The dual is only when important for context:
+The dual is used only in contexts where the precise number is important.
 
 |                                          |                                            |
 | :-                                       | :-                                         |
 | *ʿinna saaʿateen bas*                    | We only have two hours.                    |
-| *ash-shaʿʿa fii-haa ghurfateen u-matbax* | The apartment has two rooms and a kitchen. |
+| *ash-shaʿʿa fii-ha ghurfateen u-maTbakh* | The apartment has two rooms and a kitchen. |
 
-Otherwise the dual is used:
-
-|                                              |                                                               |
-| :-                                           | :-                                                            |
-| *raaHu aHmad u-rafiiʿuʿa-buyuut-un*          | Ahmad and his friend went home [to their houses&nbsp;(pl.)]   |
-| *maa ʿinna wlaad, bas banaat, riim w-raniya* | we don't have any boys, only girls&nbsp;(pl.), Riim and Rania |
-
-The dual is avoided on nouns with attached pronouns or with annexed nouns. For these situations the plural is used and the construction is follow by an explicit *itneen* 'two', except for pairwise occurring body parts:
+Otherwise the plural is used.
 
 |                                              |                                                               |
 | :-                                           | :-                                                            |
-| *axwaati l-itneen*                           | my two sisters                                                |
+| *raaHu aHmad u-rafiiʿu ʿa-buyuut-un*         | Ahmad and his friend went home [to their houses&nbsp;(pl.)]   |
 | *maa ʿinna wlaad, bas banaat, riim w-raniya* | we don't have any boys, only girls&nbsp;(pl.), Riim and Rania |
-| *ijreek*                                     | your feet                                                     |
-|||
 
+The dual is avoided on nouns with attached pronouns, except for pairwise occurring body parts. The plural follow by an explicit *itneen* 'two' is used instead.
 
+|                        |                 |                                                 |
+| :-                     | :-              | :-                                              |
+| *akhwaat-i l-itneen*   | my two sisters  | <span lang="ar" dir="rtl">اخواتي الاتنين</span>  |
+| *sayaaraat-u l-itneen* | his two cars    | <span lang="ar" dir="rtl">سياراتو الاتنين</span> |
+| *ghassili iidee-ki*    | wash your hands | <span lang="ar" dir="rtl">غسل ايديكي</span>     |
 
+Note:
+
+-  When used with an attached pronoun, the *n* in the dual ending is dropped.
+
+   |                                                                    |
+   | :-                                                                 |
+   | *iid* 'hand' → *iideen* 'two hands' → *iideek* 'your two hands'. |
 
 # Prepositions
 
@@ -380,7 +384,7 @@ Note:
 
 - For 1s, the initial letter *alif*&nbsp;<span lang="ar" dir="rtl">ا</span> is normally omitted when preceded by *b­*: *bektob* <span lang="ar" dir="rtl">بكتب</span>.
 
-- For 1pl. the *b-* prefix is partially assimilated and pronounced as *m:* *mniktib*. This is often reflected in orthography: <span lang="ar" dir="rtl">منكتب</span>.
+- For 1pl. the *b-* prefix is partially assimilated and pronounced as *m:* *mnektob*. This is often reflected in orthography: <span lang="ar" dir="rtl">منكتب</span>.
 
 - Some speakers combine *b-* and *ʿam*: *ʿam b-yektob*.
 
@@ -546,10 +550,7 @@ It is a [hollow verb with middle *uu*](#hollow-verbs) in non-past tense:
 | *fii*   | there is | <span lang="ar" dir="rtl">في</span>  |
 
 
-The pseudo-verbs are negated as verbs with *maa* (see [Negation](#negation)) but do not follow
-verbal person and tense inflection. *bedd‑* and *ʿand-* are inflected
-for person with attached pronouns, like nouns, while *fii* is not
-inflected:
+The pseudo-verbs are negated as verbs with *maa* (see [Negation](#negation)) but do not follow verbal person and tense inflection. *bedd‑* and *ʿand-* are inflected for person with attached pronouns, like nouns, while *fii* is not inflected:
 
 |                |                                        |                                             |
 | :-             | :-                                     | :-                                          |
@@ -674,7 +675,7 @@ Note:
 
 - Except for 1 and 2, numerals are not inflected for gender, as opposed to Standard Arabic.
 
-- 1--2 are used only for emphasis or contrast, or when ordering in restaurants and the like (*etneen shaay* ‘two tea’). Otherwise, the lone noun in singular or dual is used (*ktaab* '[a/one] book'; *ktabeen* 'two books'). 1 and 2 are the only numerals that inflect for gender.
+- 1--2 are used only for emphasis or contrast, or when ordering in restaurants and the like (*etneen shaay* ‘two tea’, see also [Dual](#dual)). Otherwise, the lone noun in singular or dual is used (*ktaab* '[a/one] book'; *ktabeen* 'two books'). 1 and 2 are the only numerals that inflect for gender.
 
 - 3--10 have a special form with a final *-t* when used with one of three following nouns:
 
