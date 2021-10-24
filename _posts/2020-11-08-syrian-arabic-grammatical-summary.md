@@ -295,21 +295,21 @@ The noun has three forms of number inflection: singular, plural, and dual. (The 
 | Masculine | *‑een*  | *walad*  | *waladeen*  | boy  | <span lang="ar" dir="rtl">ولدين</span>  | <span lang="ar" dir="rtl">ولد</span>  |
 | Feminine  | *‑teen* | *saaʿa*  | *saaʿateen* | hour | <span lang="ar" dir="rtl">ساعتين</span> | <span lang="ar" dir="rtl">ساعة</span> |
 
-The dual is used only in contexts where the precise number is important.
+The dual is used only in contexts where the precise number is important:
 
 |                                          |                                            |
 | :-                                       | :-                                         |
 | *ʿinna saaʿateen bas*                    | We only have two hours.                    |
 | *ash-shaʿʿa fii-ha ghurfateen u-maTbakh* | The apartment has two rooms and a kitchen. |
 
-Otherwise the plural is used.
+Otherwise the plural is used:
 
 |                                              |                                                               |
 | :-                                           | :-                                                            |
 | *raaHu aHmad u-rafiiʿu ʿa-buyuut-un*         | Ahmad and his friend went home [to their houses&nbsp;(pl.)]   |
 | *maa ʿinna wlaad, bas banaat, riim w-raniya* | we don't have any boys, only girls&nbsp;(pl.), Riim and Rania |
 
-The dual is avoided on nouns with attached pronouns, except for pairwise occurring body parts. The plural follow by an explicit *itneen* 'two' is used instead.
+The dual is avoided on nouns with attached pronouns, except for pairwise occurring body parts. The plural follow by an explicit *itneen* 'two' is used instead:
 
 |                        |                 |                                                 |
 | :-                     | :-              | :-                                              |
