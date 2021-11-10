@@ -76,7 +76,9 @@ following topics are planned to be added:
 
 # Introduction
 
-This is a short pedagogical summary of the variety of Arabic spoken in the Damascus area in Syria. It is intended to be used for quick reference and overview for beginner to intermediate language learners. It is partially based on *A Reference Grammar of Syrian Arabic* (Cowell 2005 [1964], Georgetown University Press) and *Arabisch-syrische grammatik* (Grotzfeld 1965, Harrasowitz), to which the reader is referred for detailed and comprehensive grammatical descriptions.
+This is a short pedagogical summary of the variety of Arabic spoken in the Damascus area in Syria. It is intended to be used for quick reference and overview for beginner to intermediate language learners. It is partially based on *A Reference Grammar of Syrian Arabic* (Cowell 2005 [1964], Georgetown University Press[^cowellpdf]) and *Arabisch-syrische grammatik* (Grotzfeld 1965, Harrasowitz), to which the reader is referred for detailed and comprehensive grammatical descriptions.
+
+[^cowellpdf]: Available as pdf on <https://ia801609.us.archive.org/31/items/AReferenceGrammarOfSyrianArabic_201704/A_Reference_Grammar_of_Syrian_Arabic_text.pdf>.
 
 This grammar uses a simplified transcription (see [Phonology](#phonolgy)) adapted from *Alif Baa* (Brustad et al., Georgetown University Press, 2010). Words and examples are presented in transcription, translation, and, space permitting, also in Arabic script.[^connected] The Arabic script represents written vernacular as used in text messaging, advertisement, etc. There is considerable variation in vernacular Arabic orthography, especially in the extent to which Standard Arabic spelling is followed, and forms that differ from those presented here are therefore common.
 
@@ -636,6 +638,8 @@ can be used to answer someone saying that you are hungry, asking whether you are
 # Numerals 1--100
 
 
+The independent form of the numeral in the table below is used when the numeral stands by itself and is not followed by a noun, and the counting-form is used when the numeral is followed by counted a noun: *tlaate* 'three', but *tlatt ewlaad* ‘three boys.’
+
 |     | Independent                  | Counting       | <span lang="ar" dir="rtl">مضاف</span>     | <span lang="ar" dir="rtl">غير مضاف</span>    |
 | :-  | :-                           | :-             | -:                                        | -:                                           |
 | 1   | *waaHed* (m.)/*waHde* (f.)   |                |                                           | <span lang="ar" dir="rtl">واحد/وحدة</span>   |
@@ -672,7 +676,6 @@ can be used to answer someone saying that you are hungry, asking whether you are
 | 100 | *miyye*                      | *miit*         |                                           | <span lang="ar" dir="rtl">مية</span>         |
 
 
-The independent form of the numeral is used when it stands by itself and is not followed by a noun. The counting form is when the numeral is followed by counted a noun: *tlaate* 'three', but *tlatt ewlaad* ‘three boys.’
 
 Note:
 
