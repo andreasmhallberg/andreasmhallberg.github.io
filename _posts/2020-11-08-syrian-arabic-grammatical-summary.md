@@ -185,9 +185,9 @@ Note:
 Word stress in Syrian Arabic is largely predictable and corresponds with the rules of word stress in Standard Arabic. Word stress occurs on
 
 - the last
-  - long vowel followed by consonant (*darasúuna*)
-  - short vowel followed by two consonants or a long consonant (*darásna*, *byedárres*) 
-- or else on the first vowel (*dárasu*), excluding any prefix.
+  - long vowel followed by consonant (*darrasúu-na* 'they taught us')
+  - short vowel followed by two consonants or a long consonant (*darásna* 'we studied', *byedárres* 'he studies') 
+- or else on the first vowel (*dárasu* 'they studied'), excluding any prefix (*u-dárasu* 'and they studied').
 
 ## Standard to Syrian Arabic phonological conversion rules {#sa-conversion}
 
