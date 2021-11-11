@@ -25,7 +25,7 @@ Writing a thesis or a first longer research paper is for many students an emotio
 
 My process of writing academic papers includes multiple passes of printing and editing by hand. I find reading the printed text, as opposed to reading it on screen, puts it in a different light, making it easier to spot things that need to be changed. I also like the physicality of it, feeling the resistance of the pen against the paper and seeing the margins being filled out with notes, arrows, and doodles. Working with pen and paper also gives some welcome time away from the computer screen.
 
-After the initial idea, my writing of a paper can be described as six steps, some of which are repeated several times. Step&nbsp;4 is the most involved in terms of writing, and accordingly gets more space here.
+After the initial idea, my writing of a paper can be described as six steps: *conceptualization and structure*, *research and note-taking*, *first write-up*, *editing*, and *proof-reading*. Some of these are repeated several times. Step&nbsp;4 is the most involved in terms of writing and is the most cyclical of these steps, and accordingly gets more space here.
 
 I should stress that these steps are not intended to be a handbook or a set of prescriptive of rules for how best to write a paper. It is only an example of one way to go about it. Other researchers may have developed other strategies and routines that work well, or better, for them than this does to me.
 
@@ -33,7 +33,7 @@ I should stress that these steps are not intended to be a handbook or a set of p
 
 When I only have the idea of the paper, before even doing research, I write down the main structure of the paper in the form of section headings, sometimes with short notes in the form of bullet-lists under each heading of what that section should include. Crucially, these notes include the research question or the stated the aim of the paper. This gives me an opportunity think through and make a mental image of what needs to be done for me to answer these questions. This document, containing only headings loosely structured notes, will eventually grow and evolve into the finished paper. 
 
-### Step 2: Research and note taking
+### Step 2: Research and note-taking
 
 This stage involves data collection or other information gathering, reading up on related research, doing experiments and analysis. Exactly what this step entails and how long time it takes depends on the nature of the paper. It is not the focus of this post since we are here concerned specifically with writing. The important point I want to make here is that during this research phase I take a lot of notes that I write under the appropriate headings in the document described above. Again, these notes are very simple: short abbreviated sentences or lists. These notes include how I actually do the research, so that I can later describe it in detail in the method section, and what the findings are that I want to present. If I get ideas about how to write the introduction or the conclusion, or randomly come up with some clever formulation that I might want to use somewhere in the paper, I also jot that down in the appropriate section.
 
