@@ -19,7 +19,28 @@ I de glosserade exemplen nedan är de arabiska elementen angivna i kursiv text o
 
 ---- 
 
-- *2021-06-06* -- Jo.
+- *2021-12-23* -- Anställd och kund på shawarmarestaurang, Malmö.
+
+  *bidd-ak* | *maʿ-hun* | dricka
+  vilja-din | med-dem | dricka
+
+  | Vill du ha dricka med dem? |
+
+  *laʾ* | *bidūn* | dricka
+  nej | utan | dricka
+
+  | Nej. Utan dricka. |
+
+- *2021-12-23* -- Man på shawarmarestaurang, Malmö.
+
+  rulle | *jāj* | *u*‑rulle | laḥme
+  rulle | kyckling | och‑rulle | kött
+
+  | En kycklingrulle och en och en köttrulle. |
+
+  *Rulle* används som första led i en genitivkonstruktion som motsvarighet till *kycklingrulle.*
+
+- *2021-06-06* -- Jo. (9 år)
 
   han | e | *b‑ye‑tġālaz* | hela | tiden
   han | är | IND‑3MS‑tramsar | hela | tiden
