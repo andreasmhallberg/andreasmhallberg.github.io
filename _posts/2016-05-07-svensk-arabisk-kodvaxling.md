@@ -19,12 +19,12 @@ I de glosserade exemplen nedan är de arabiska elementen angivna i kursiv text o
 
 ---- 
 
-- *2022-01-04* -- Man som diskuterar en företagsidé med en vän. Espresso House på Hansakompanet, Malmö.  
+- *2022-01-04* -- Man som diskuterar en företagsidé med en vän. Espresso House på Hansakompaniet, Malmö.  
 
   *fī* | *majāl* | *el-wāḥid* | *b-yaʿmal* | bolla | maʿ-ha
   finns | möjlighet | man | IND-3MS.gör | bolla | med-henne
 
-  | Finns det möjlighet att bolla [idéer] med henne? |
+  | Finns det möjlighet att få bolla [idéer] med henne? |
 
   Personen upprepade uttrycket flera gånger och tycks ha lånat och grammatisk omvandlat *bolla* från det svenska uttrycket *bolla idéer*.
 
