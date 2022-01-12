@@ -19,6 +19,15 @@ I de glosserade exemplen nedan är de arabiska elementen angivna i kursiv text o
 
 ---- 
 
+- *2022-01-11* -- Z., förklarar reglerna för ett brädspel.
+
+  *hōn* | *ʿand-ak* | *el*-mål-*s* 
+  här | hos-2MS | DEF-mål-PL 
+
+  | Här har du målen? |
+
+  Detta är det första exemplet jag hört på kodväxling i ett och samma ord som innefattar tre språk. I *el-mål-s* är den bestämda artikeln arabisk, ordstammen svensk, och pluralsuffixet engelskt.
+
 - *2022-01-04* -- Man som diskuterar en företagsidé med en vän. Espresso House på Hansakompaniet, Malmö.  
 
   *fī* | *majāl* | *el-wāḥid* | *b-yaʿmal* | bolla | maʿ-ha
