@@ -56,7 +56,8 @@ permalink: /documents/
 
 {{ publication.author }}
 ({{ publication.year }}). {{ publication.title }}
-({{ publication.type }}).
+{% if publication.translator %}({{ publication.translator }}, Trans.){% endif %}<!--
+-->{% if publication.type %}[{{ publication.type }}]{% endif %}.
 {{ publication.ref | markdownify | remove: '<p>' | remove: '</p>' }}
 <details style="margin-top: -.7em; margin-left: 1em">
 <summary>
