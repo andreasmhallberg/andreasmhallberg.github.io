@@ -11,7 +11,7 @@ tags:
   - teaching-materials
   - syrian-arabic
 updates:
-  - date: 2021-02-01
+  - date: 2022-02-01
     contents: Linenumbers have been added in margins.
   - date: 2021-10-22
     contents: Editing. The videos were recently taken down from www.alkitaabtextbook.com and are no longer freely available.
