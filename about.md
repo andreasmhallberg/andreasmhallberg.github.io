@@ -9,6 +9,4 @@ I am a senior lecturer in Arabic at the University of Gothenburg. This blog is a
 
 If you have found any material published here useful (in your teaching, studies, or something else entirely) I'd love to hear about it. [Drop me a mail.](<mailto:{{ site.footer-links.email }}>)
 
-My dissertation, *Case Endings in Spoken Standard Arabic* (Lund University, 2016), can be downloaded [here](https://lup.lub.lu.se/search/publication/530e5fe6-ec77-4e84-9a45-0935598e86a8), or [contact me](<mailto:{{ site.footer-links.email }}>) if you need a printed copy of the book for your research or your university library.
-
 This blog is hosted on [GitHub](http://www.github.com) and is built with [Jekyll](https://jekyllrb.com/) as a fork of [Jekyll Now](http://www.jekyllnow.com/).
