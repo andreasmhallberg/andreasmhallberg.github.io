@@ -18,34 +18,17 @@ permalink: /documents/
 {{ publication.author }}
 ({{ publication.year }}).
 {{ publication.title }}.
-{{ publication.ref }}<!--
--->{{% if publication.doi %}}
-  <a href="https://doi.org/{{ publication.doi }}">{{ publication.doi }}</a>
-{{% endif %}}
-<details style="margin-top: -.7em; margin-left: 1em">
-<summary>
+{{ publication.ref }} <!--
+-->{% if publication.doi %}
+  <a href="https://doi.org/{{ publication.doi }}">https://doi.org/{{ publication.doi }}</a>
+{% endif %}<!--
+-->{% if publication.pdf %} <a href="{{ publication.pdf }}" style="font-size: 80%">PDF</a>{% endif %}
 <!-- abstract --> {% if publication.abstract %}
- <a>abstract</a>
- {% else %}
- <span style="color: $gray"> abstract </span>
-{% endif %} |
-<!-- pdf -->
-{% if publication.pdf %}
- <a href="{{ publication.pdf }}">pdf</a>
-  {% else %} 
-  <span style="color: $gray">pdf</span>
-{% endif %} |
-<!-- link -->
-{% if publication.link %}
- <a href="{{ publication.link }}">link</a>
- {% else %}
- <span style="color: $gray">link</span>
-{% endif %}
-</summary>
-{% if publication.abstract %}
+<details style="margin-top: -.7em; margin-left: 1em">
+<summary>abstract</summary>
   <span class="date">{{ publication.abstract | markdownify }}</span>
-{% endif %}
 </details>
+{% endif %}
 
 {% endfor %}
 
@@ -58,31 +41,9 @@ permalink: /documents/
 ({{ publication.year }}). {{ publication.title }}
 {% if publication.translator %}({{ publication.translator }}, Trans.){% endif %}<!--
 -->{% if publication.type %}[{{ publication.type }}]{% endif %}.
-{{ publication.ref | markdownify | remove: '<p>' | remove: '</p>' }}
-<details style="margin-top: -.7em; margin-left: 1em">
-<summary>
-<!-- abstract --> {% if publication.abstract %}
- <a>abstract</a>
- {% else %}
- <span style="color: $gray"> abstract </span>
-{% endif %} |
-<!-- pdf -->
-{% if publication.pdf %}
- <a href="{{ publication.pdf }}">pdf</a>
-  {% else %} 
-  <span style="color: $gray">pdf</span>
-{% endif %} |
-<!-- link -->
-{% if publication.link %}
- <a href="{{ publication.link }}">link</a>
- {% else %}
- <span style="color: $gray">link</span>
-{% endif %}
-</summary>
-{% if publication.abstract %}
-  <span class="date">{{ publication.abstract | markdownify }}</span>
-{% endif %}
-</details>
+{{ publication.ref | markdownify | remove: '<p>' | remove: '</p>' }}<!--
+-->{% if publication.pdf %} <a href="{{ publication.pdf }}" style="font-size: 75%">PDF</a>{% endif %}
+
 {% endfor %}
 
 

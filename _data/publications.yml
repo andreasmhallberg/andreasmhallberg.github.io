@@ -1,3 +1,15 @@
+- title: A parallel text-based approach for teaching Standard and Vernacular Arabic
+  type: article
+  lang: en
+  author: Hallberg, A.
+  year: 'accepted'
+  ref: '<i>Orientalia Suecana.</i>'
+  doi:
+  pdf:
+  link:
+  oa: true
+
+
 - title: 'Principles of variation in the use of diacritics (<i>taškīl</i>) in Arabic books'
   type: article
   lang: en
@@ -7,7 +19,10 @@
   doi:
   pdf:
   link:
-  abstract:
+  oa: true
+  abstract: |
+    The Arabic script has a set of optional diacritics (<i>taškīl</i>) that primarily indicate short vowels. These diacritics are used to varying extents, giving a form of orthographic variation potentially affecting every word in a text and various aspects of the reading process. This study is the first empirical investigation into the variation in how Arabic diacritics are used. It employs quantitative corpus linguistic methods to explore diacritization in a 72-million-word corpus consisting of book-length texts of various genres. Children's literature and poetry were found to vary considerably in the number of diacritics used, while books of normal prose fall within a narrow range of limited use of diacritics. Furthermore, the different diacritics, subdivided by function, were found to follow a hierarchical order of priority that is largely consistent across genres. These findings call into question common descriptions of the Arabic writing system as binarily diacritized or undiacritized. Further lines of research based on these findings are suggested.
+
 
 - title: 'Variation in the use of diacritics in modern typeset Standard Arabic: a theoretical and descriptive framework'
   type: article
@@ -16,6 +31,7 @@
   year: 'in press'
   ref: '<i>Arabica.</i>'
   doi:
+  oa: true
   pdf:
   link:
   abstract: 'The extent to which the diacritic layer (<i>taškīl</i>) of the Arabic writing system is employed in modern typeset text differs considerably between genres and individual texts, with many in-between forms not aptly captured by the traditional binary categories of “vowelled” and “unvowelled” text. This article is the first to present a theoretical account of this variation applicable to modern typeset Standard Arabic. It is suggested that diacritics serve three basic functions: facilitation of reading comprehension; facilitation of prescriptively correct diction; and to evoke associations with other texts. Six modes of diacritization in modern typeset text are identified and related to data on rates of diacritization from a corpus of electronically published books. Further lines of research based on this framework are suggested.'
@@ -45,6 +61,7 @@
 - title: 'Parsing written language with non-standard grammar: an eye-tracking study of case marking in Arabic'
   type: article
   lang: en
+  oa: true
   author: Hallberg, A. & Niehorster, D.
   year: 2021
   ref: '<i>Reading and Writing: An Interdisciplinary Journal, 43</i>(1), 27&ndash;48.'
@@ -57,6 +74,7 @@
   type: chapter
   author: Hallberg, A.
   lang: sv
+  oa: true
   year: 2017
   pdf: /documents/Hallberg-2017-nagra-egenheter.pdf
   ref: 'In&nbsp;H. Rahm      (Ed.) <i>Vetenskapssocieteten i&nbsp;Lund. Årsbok 2017</i> (pp. 39&ndash;48). Vetenskapssocieteten i&nbsp;Lund.'
@@ -66,6 +84,7 @@
   type: dissertation
   author: Hallberg, A.
   lang: en
+  oa: true
   year: 2016
   pdf: http://lup.lub.lu.se/search/ws/files/3772169/8852155.pdf
   ref: Lund University.
