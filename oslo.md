@@ -17,15 +17,13 @@ abstract: In this talk I discuss problems that may arise when working with compl
   
 # Unicode 
 
-
 ## Principles
  
-- Replaces various extensions of ASCII (1963) for different languages
+- Standard since early 2000s
+- Replaced various extensions of ASCII (1963) for different languages
 
   ![](ascii.png)
 
-
-- Standard since early 2000s
 - In Unicode all scripts are equal
 - 1,114,112 available code points (137,929 encoded, v. 12, 2019)
 - Seeks to represent all written languages that have ever existed
@@ -37,37 +35,38 @@ abstract: In this talk I discuss problems that may arise when working with compl
 
 ## Encoding
  
-A Æ 我 𐎄  ﷺ  🤷 😼
+A Æ 我 𐎄  ﷺ  𓀍  🤷 😼 
 
 - For each character:
   - Code point, conveniently expressed in hexadecimal (0--F), e.g. U+00C6 Æ
   - Name, e.g. `LATIN CAPITAL LETTER AE`
   - Properties (writing direction, combining, etc.)
-- Explore
+- Explore character inventory
   - OS application
   - `:UnicodeTable` (unicode.vim)
-- Inspect and insert In Vim
-  - Inspect character with `ga`
-  - Insert with code-point `CTRL+V U [code point]`
-  -  `unicode.vim`-plugin 
-    - Insert with search `CTRL+X CTRL+Z` (unicode.vim)
+  - Insert
+    - Keyboard layouts
+    - with code-point `CTRL+V u [code point]`
+    - Insert with search `CTRL+X CTRL+Z` (unicode.vim plugin) egyp
+- Inspect character: `ga` (Vim)
 
 # (Bi-)Directionality
 
 - Digital text as list of characters (including line breaks, etc.)
 - Order of characters
   - *Logical order*: as digitally stored, as read by computers
-  - *Visual order*: as visually displayed, as read by humans
 
     `Hello, hello. اسمي اندرياس. Hello again.`
 
+  - *Visual order*: as visually displayed, as read by humans
+
+    - Direction properties
+      - RTL (Latin letters)
+      - LTR (Arabic letters)
+      - Neutral (Most punctuation, space)
+
   - Swap direction and keyboard in Vim.  
     <http://andreasmhallberg.github.io/typing-arabic-in-vim/>
-
-- Direction properties
-  - RTL (Latin letters)
-  - LTR (Arabic letters)
-  - Neutral (Most punctuation, space)
  
 - Control characters
   - ‪ U+200E LEFT-RIGHT EMBEDDING
@@ -75,7 +74,6 @@ A Æ 我 𐎄  ﷺ  🤷 😼
   - ‬ U+202C POP DIRECTIONAL FORMATTING
 
   As above with Arabic text enclosed in RTL embedding and POP:
-
 
   `Hello, hello. ‫اسمي اندرياس.‬ Hello again.`
 
@@ -94,7 +92,6 @@ A Æ 我 𐎄  ﷺ  🤷 😼
   - 2 x U+0323 COMBINING DOT BELOW
 
     ̿̿ ̿̿ ̿̿ ̿'̿'\̵͇̿̿\з= ( ▀ ͜͞ʖ▀) =ε/̵͇̿̿/’̿’̿ ̿ ̿̿ ̿̿ ̿̿)
-
 
 - Quranic orthography
 
