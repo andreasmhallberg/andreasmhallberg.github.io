@@ -44,9 +44,9 @@ A Æ 我 𐎄  ﷺ  𓀍  🤷 😼
 - Explore character inventory
   - OS application
   - `:UnicodeTable` (unicode.vim)
-  - Insert
+  - Inserting characters
     - Keyboard layouts
-    - with code-point `CTRL+V u [code point]`
+    - With code-point `CTRL+V u [code point]`
     - Insert with search `CTRL+X CTRL+Z` (unicode.vim plugin) egyp
 - Inspect character: `ga` (Vim)
 
@@ -56,9 +56,11 @@ A Æ 我 𐎄  ﷺ  𓀍  🤷 😼
 - Order of characters
   - *Logical order*: as digitally stored, as read by computers
 
-    `Hello, hello. اسمي اندرياس. Hello again.`
+    ‭`Hello, hello. اسمي اندرياس. Hello again.`
 
   - *Visual order*: as visually displayed, as read by humans
+
+    `Hello, hello. اسمي اندرياس. Hello again.`
 
     - Direction properties
       - RTL (Latin letters)
@@ -85,19 +87,21 @@ A Æ 我 𐎄  ﷺ  𓀍  🤷 😼
 
 - Takes no horizontal space
 - Added to preceding character 
-- E.g,. diacritics (ḥ, š), Arabic vowel signs
+- E.g, diacritics (ḥ, š) and Arabic vowel signs
 - No limit to combinations
-- ḍ̣͑ d with
-  - U+0351 COMBINING LEFT RING ABOVE 
-  - 2 x U+0323 COMBINING DOT BELOW
+- ḍ̣̣͑: d with U+0351 COMBINING LEFT RING ABOVE and 3 x U+0323 COMBINING DOT BELOW
+- بَََََََِِِِِِِ: baa with a bunch of fatḥas
 
-    ̿̿ ̿̿ ̿̿ ̿'̿'\̵͇̿̿\з= ( ▀ ͜͞ʖ▀) =ε/̵͇̿̿/’̿’̿ ̿ ̿̿ ̿̿ ̿̿)
+```
+ ̿̿ ̿̿ ̿̿ ̿'̿'\̵͇̿̿\з= ( ▀ ͜͞ʖ▀) =ε/̵͇̿̿/’̿’̿ ̿ ̿̿ ̿̿ ̿̿
+```
+
 
 - Quranic orthography
 
-  ![](quran.png)
+  ![](quran.png) <!-- quran.pdf -->
 
-- In plain text:
+  In plain text:
 
 ```
 أَنَّ ٱللهَ بَرِىٓءࣱ مِّنَ ٱلۡ‍مشۡرِكِينَ وَرَسُولُهُ
@@ -111,21 +115,40 @@ A Æ 我 𐎄  ﷺ  𓀍  🤷 😼
 
 # Searching with regular expressions
 
-Method for Hallberg (in press a, in press b).
+Method for Hallberg (in press).
 
 - Plain Unicode characters
 
-  ‭`rg -P "ُو[^ًٌٍَُِّْ]" 79729368.epub.html`
+```
+rg -P "في ب" 79729368.epub.html
+```
 
-  ‭`rg -oP "ُو[^ًٌٍَُِّْ]" 79729368.epub.html | wc -l`
+  Better in logical order:
+
+```
+‭`rg -P "في ال" 79729368.epub.html`
+```
+ 
+
+```
+‭`rg -P "ُو[^ًٌٍَُِّْ]" 79729368.epub.html`
+```
+
+```
+‭rg -oP "ُو[^ًٌٍَُِّْ]" 79729368.epub.html | wc -l
+```
 
 - Unicode code points
 
-  `rg -oP "\x{064f}و[^\x{064b}\x{064b}\x{064c}\x{064d}\x{064e}\x{064f}\x{0650}\x{0651}\x{0652}]" 79729368.epub.html | wc -l`
+```
+rg -oP "\x{064f}و[^\x{064b}\x{064b}\x{064c}\x{064d}\x{064e}\x{064f}\x{0650}\x{0651}\x{0652}]" 79729368.epub.html | wc -l
+```
 
 - Unicode code points with ranges
 
-  `rg -oP "\x{064f}و[^\x{064b}-\x{0652}]" 79729368.epub.html | wc -l`
+```
+rg -oP "\x{064f}و[^\x{064b}-\x{0652}]" 79729368.epub.html | wc -l
+```
 
 # Letter binding control
 
@@ -145,9 +168,7 @@ Method for Hallberg (in press a, in press b).
 
 # References
 
-Hallberg, A. (in press a). Variation in the use of diacritics in modern typeset Standard Arabic: A theoretical and descriptive framework. *Arabica*, *69*, 279–317.
-
-Hallberg, A. (in press b). Principles of variation in the use of diacritics (*taškīl*) in Arabic books. *Language Sciences*.
+Hallberg, A. (in press). Principles of variation in the use of diacritics (*taškīl*) in Arabic books. *Language Sciences*.
 
 Hallberg, A. (2016). *Case endings in Spoken Standard Arabic: Statistics, norms, and diversity in unscripted formal speech* \[Doctoral dissertation, Lund University\]. <https://lup.lub.lu.se/record/8524489>
 
