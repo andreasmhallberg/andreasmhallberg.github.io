@@ -58,6 +58,9 @@ A Æ 我 𐎄  ﷺ  𓀍  🤷 😼
 
     ‭`Hello, hello. اسمي اندرياس. Hello again.`
 
+    (Invisible RTL-OVERRIDE character added at start of line)
+
+
   - *Visual order*: as visually displayed, as read by humans
 
     `Hello, hello. اسمي اندرياس. Hello again.`
