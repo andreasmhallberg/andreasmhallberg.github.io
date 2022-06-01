@@ -8,6 +8,8 @@ tags:
 - vim
 thumbnail: /images/2017-06-22/rtl.png
 updates: 
+    - date: 2022-06-01
+      contents: Paragraph on terminal emulators in introduction expanded.
     - date: 2020-09-19
       contents: Removed superflous paragraph.
     - date: 2018-11-07
@@ -19,7 +21,7 @@ updates:
 
 I often write documents, such as exams and lecture notes, that contain both Latin and Arabic script, often on the same line of text. This can be challenging due to the complications of mixing of LTR (left-to-right) and RTL (right-to-left) scripts. This seems like an easy problem to solve for software developers, and it is, only not in software with graphical WYSIWYG interfaces, such as Word or OpenOffice. (I'm sure everyone who has tried writing mixed direction text in such software share my frustration with them, and I will therefore refrain from rants.) Since my shift to exclusively producing and editing text in plain text formats (.txt, .mkd, .tex, etc.) with the editor Vim, writing texts with mixed directionality has become a lot easier. This post is  an attempt to explain how.
 
-This post only deals with the Vim side of things. The correct rendering of Arabic text also depends on the terminal in which you are running Vim. Not all terminals can display Arabic text correctly. For example, I use a Mac, and the terminal it ships with (Terminal.app) cannot connect letters. I run Vim in either in [ITerm2](https://iterm2.com/) or [MacVim](https://macvim-dev.github.io/macvim/), both of which display the characters correctly.
+This post only deals with the Vim side of things. The correct rendering of Arabic text also depends on the terminal emulator in which you are running Vim. Some terminal emulators apply visual re-ordering (see below) of RTL characters (often described as the emulator having bidi support), and for these emulator the method described here does not work as expected. For example, I use a Mac, and the terminal it ships with (Terminal.app) does not connect Arabic letters properly and also applies visual re-ordering, messing up the method describe below. I use (Neo)Vim in [ITerm2](https://iterm2.com/) or [MacVim](https://macvim-dev.github.io/macvim/), none of which apply visual reordering. It is my understanding that the method described here also works in gVim for Windows and Linux systems, but I have not personally tested it. Basically, if you load up a file with Arabic or other RTL text in Vim, and it displays it visually correct as right to left, the method described below will not apply.
 
 ## Directionality and display
 
