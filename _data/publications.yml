@@ -1,14 +1,26 @@
+- title: 'Standard language ideology and prescriptivism in the Arabic-speaking world'
+  type: chapter
+  lang: en
+  author: Hallberg, A.
+  year: in press
+  ref: 'In J. Beal, M. Lukač & R. Straaijer (Eds.), <i>Routledge handbook of prescriptivism</i>. Routledge.'
+  doi:
+  pdf:
+  link:
+  abstract: This chapter describes Arabic prescriptivism by drawing on examples from a variety of sources. Arabic prescriptivism differs from that of many other modern languages in being conditioned by diglossia and a significant historical distance to the codification. The standard variety is often seen as essential to nationalist and religious identities and is portrayed as being under existential threat by non-standard varieties. Alternative forms within the standard variety are in prescriptive works evaluated for correctness exclusively on the basis of works from the classical heritage. The dominant Arabic language ideology and its associated prescriptivism have considerable effects, most importantly in education.
+
 - title: A parallel text-based approach for teaching Standard and Vernacular Arabic
   type: article
   lang: en
   author: Hallberg, A.
-  year: 'accepted'
+  year: 'in press'
   ref: '<i>Orientalia Suecana.</i>'
   doi:
   pdf:
   link:
   oa: true
-
+  abstract: |
+    'This article describes a novel approach for combining the teaching of Standard Arabic (SA) and Vernacular Arabic (VA) developed at the University of Gothenburg. This approach is characterized by two features: a)&nbsp;VA and SA are taught in separate parallel courses, and b)&nbsp;instruction in VA is based on transcribed dialogues. These features go against common recommendations in the literature, in particular those of the influential so-called <i>integrated approach</i>. Drawing on the concept of communicative competence, it is argued that both of these practices have significant pedagogical benefits that have been neglected in the literature. For example, the teaching SA in VA in separate courses provides for a structured way of exploiting the linguistic overlap between the two varieties and makes possible the allocation of specialized teacher resources. Basing the instruction of VA on transcribed dialogues facilitates classroom discussion of sociolinguistic and pragmatic features and makes linguistic features in VA more discoverable to students than is the case when they are only presented aurally. This approach may be an attractive alternative to the integrated approach for program developers seeking to add instruction in VA to an existing Arabic program.'
 
 - title: 'Principles of variation in the use of diacritics (<i>taškīl</i>) in Arabic books'
   type: article
@@ -28,24 +40,13 @@
   type: article
   lang: en
   author: Hallberg, A.
-  year: 'in press'
-  ref: '<i>Arabica.</i>'
-  doi:
+  year: in press
+  ref: '<i>Arabica, 69,</i> 279--317.'
+  doi: 10.1163/15700585-12341640
   oa: true
   pdf:
   link:
   abstract: 'The extent to which the diacritic layer (<i>taškīl</i>) of the Arabic writing system is employed in modern typeset text differs considerably between genres and individual texts, with many in-between forms not aptly captured by the traditional binary categories of “vowelled” and “unvowelled” text. This article is the first to present a theoretical account of this variation applicable to modern typeset Standard Arabic. It is suggested that diacritics serve three basic functions: facilitation of reading comprehension; facilitation of prescriptively correct diction; and to evoke associations with other texts. Six modes of diacritization in modern typeset text are identified and related to data on rates of diacritization from a corpus of electronically published books. Further lines of research based on this framework are suggested.'
-
-- title: 'Standard language ideology and prescriptivism in the Arabic-speaking world'
-  type: chapter
-  lang: en
-  author: Hallberg, A.
-  year: in press
-  ref: 'In J. Beal, M. Lukač & R. Straaijer (Eds.), <i>Routledge handbook of prescriptivism</i>. Routledge.'
-  doi:
-  pdf:
-  link:
-  abstract: This chapter describes Arabic prescriptivism by drawing on examples from a variety of sources. Arabic prescriptivism differs from that of many other modern languages in being conditioned by diglossia and a significant historical distance to the codification. The standard variety is often seen as essential to nationalist and religious identities and is portrayed as being under existential threat by non-standard varieties. Alternative forms within the standard variety are in prescriptive works evaluated for correctness exclusively on the basis of works from the classical heritage. The dominant Arabic language ideology and its associated prescriptivism have considerable effects, most importantly in education.
 
 - title: 'Case and mood inflection in Formal Spoken Arabic: a quantitative investigation'
   type: article
