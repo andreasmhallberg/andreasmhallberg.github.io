@@ -40,12 +40,12 @@
   type: article
   lang: en
   author: Hallberg, A.
-  year: in press
+  year: 2022
   ref: '<i>Arabica, 69,</i> 279--317.'
   doi: 10.1163/15700585-12341640
   oa: true
-  pdf:
-  link:
+  pdf: https://brill.com/downloadpdf/journals/arab/69/3/article-p279_3.pdf 
+  link: https://brill.com/view/journals/arab/69/3/article-p279_3.xml
   abstract: 'The extent to which the diacritic layer (<i>taškīl</i>) of the Arabic writing system is employed in modern typeset text differs considerably between genres and individual texts, with many in-between forms not aptly captured by the traditional binary categories of “vowelled” and “unvowelled” text. This article is the first to present a theoretical account of this variation applicable to modern typeset Standard Arabic. It is suggested that diacritics serve three basic functions: facilitation of reading comprehension; facilitation of prescriptively correct diction; and to evoke associations with other texts. Six modes of diacritization in modern typeset text are identified and related to data on rates of diacritization from a corpus of electronically published books. Further lines of research based on this framework are suggested.'
 
 - title: 'Case and mood inflection in Formal Spoken Arabic: a quantitative investigation'
