@@ -22,7 +22,7 @@ permalink: /documents/
 -->{% if publication.doi %}
   <a href="https://doi.org/{{ publication.doi }}">https://doi.org/{{ publication.doi }}</a>
 {% endif %}<!--
--->{% if publication.pdf %} <a href="{{ publication.pdf }}" style="font-size: 80%">PDF</a>{% endif %}
+-->{% if publication.pdf %} (<a href="{{ publication.pdf }}" style="font-size: 80%">PDF</a>){% endif %}
 <!-- abstract --> {% if publication.abstract %}
 <details style="margin-top: -.7em; margin-left: 1em">
 <summary>abstract</summary>
