@@ -1,5 +1,4 @@
 - title: 'Standard language ideology and prescriptivism in the Arabic-speaking world'
-  type: chapter
   lang: en
   author: Hallberg, A.
   year: in press
@@ -10,7 +9,6 @@
   abstract: This chapter describes Arabic prescriptivism by drawing on examples from a variety of sources. Arabic prescriptivism differs from that of many other modern languages in being conditioned by diglossia and a significant historical distance to the codification. The standard variety is often seen as essential to nationalist and religious identities and is portrayed as being under existential threat by non-standard varieties. Alternative forms within the standard variety are in prescriptive works evaluated for correctness exclusively on the basis of works from the classical heritage. The dominant Arabic language ideology and its associated prescriptivism have considerable effects, most importantly in education.
 
 - title: A parallel text-based approach for teaching Standard and Vernacular Arabic
-  type: article
   lang: en
   author: Hallberg, A.
   year: 'in press'
@@ -23,7 +21,6 @@
     'This article describes a novel approach for combining the teaching of Standard Arabic (SA) and Vernacular Arabic (VA) developed at the University of Gothenburg. This approach is characterized by two features: a)&nbsp;VA and SA are taught in separate parallel courses, and b)&nbsp;instruction in VA is based on transcribed dialogues. These features go against common recommendations in the literature, in particular those of the influential so-called <i>integrated approach</i>. Drawing on the concept of communicative competence, it is argued that both of these practices have significant pedagogical benefits that have been neglected in the literature. For example, the teaching SA in VA in separate courses provides for a structured way of exploiting the linguistic overlap between the two varieties and makes possible the allocation of specialized teacher resources. Basing the instruction of VA on transcribed dialogues facilitates classroom discussion of sociolinguistic and pragmatic features and makes linguistic features in VA more discoverable to students than is the case when they are only presented aurally. This approach may be an attractive alternative to the integrated approach for program developers seeking to add instruction in VA to an existing Arabic program.'
 
 - title: 'Principles of variation in the use of diacritics (<i>taškīl</i>) in Arabic books'
-  type: article
   lang: en
   author: Hallberg, A.
   year: 2022
@@ -37,7 +34,6 @@
 
 
 - title: 'Variation in the use of diacritics in modern typeset Standard Arabic: a theoretical and descriptive framework'
-  type: article
   lang: en
   author: Hallberg, A.
   year: 2022
@@ -49,7 +45,6 @@
   abstract: 'The extent to which the diacritic layer (<i>taškīl</i>) of the Arabic writing system is employed in modern typeset text differs considerably between genres and individual texts, with many in-between forms not aptly captured by the traditional binary categories of “vowelled” and “unvowelled” text. This article is the first to present a theoretical account of this variation applicable to modern typeset Standard Arabic. It is suggested that diacritics serve three basic functions: facilitation of reading comprehension; facilitation of prescriptively correct diction; and to evoke associations with other texts. Six modes of diacritization in modern typeset text are identified and related to data on rates of diacritization from a corpus of electronically published books. Further lines of research based on this framework are suggested.'
 
 - title: 'Case and mood inflection in Formal Spoken Arabic: a quantitative investigation'
-  type: article
   lang: en
   author: Hallberg, A.
   year: 2021
@@ -60,7 +55,6 @@
   abstract: This article presents results from a quantitative investigation of the use of case and mood inflection (CMI) in seventeen televised news-interviews (38,000 words) with Arab politicians and public figures with a variety of backgrounds. The speech of the interviewees was transcribed and annotated for realization of CMI and for relevant morphosyntactic parameters. Speakers were found to vary in the amount of CMI in their speech, but all perform far below the prescriptive ideal, with realizations of case inflection ranging from 0.2% to 42.3% (mean&nbsp;7.5%, median&nbsp;3.6%) and mood inflection from 0% to&nbsp;68.5% (mean&nbsp;9.9%, median&nbsp;2.5%). Furthermore, speakers show striking similarities in how the CMI that they do use is distributed in morphosyntactic contexts. First, CMI is for all speakers used at markedly higher rates on words with enclitic pronouns and on words where CMI is orthographically represented. Second, for words with definite article, CMI is almost completely absent. Implications of these results for Arabic language instruction are discussed.
 
 - title: 'Parsing written language with non-standard grammar: an eye-tracking study of case marking in Arabic'
-  type: article
   lang: en
   oa: true
   author: Hallberg, A. & Niehorster, D.
@@ -72,7 +66,6 @@
   abstract: Morphologically marked case is in Arabic a feature exclusive to the variety of Standard Arabic, with no parallel in the spoken varieties, and it is orthographically marked only on some word classes in specific grammatical situations. In this study we test the hypothesis that readers of Arabic do not parse sentences for case and that orthographically marked case can therefore be removed with no effect on reading. Twenty-nine participants read sentences in which one of the two most frequent types of orthographically marked case was either retained or omitted, while their eye-movements were monitored. The removal of case marking from subjects in the sound masculine plural declension (changing the suffix ‑ūn ـون to ‑īn ـين) had no negative effect on gaze duration, regressions out, or go-past time. The removal of case marking form direct objects in the triptote declension (omitting the suffix -an ـاً) did however resulted in an increase in these measures. These results indicate that only some forms of case marking are required in the grammar used by readers for parsing written text.
 
 - title: Några egenheter i arabisk standardspråksideologi 
-  type: chapter
   author: Hallberg, A.
   lang: sv
   oa: true
@@ -81,8 +74,8 @@
   ref: 'In&nbsp;H. Rahm      (Ed.) <i>Vetenskapssocieteten i&nbsp;Lund. Årsbok 2017</i> (pp. 39&ndash;48). Vetenskapssocieteten i&nbsp;Lund.'
   abstract: I den arabiska språksfären är det vanliga talspråket - dialekterna - mycket annorlunda än standardarabiska, den form av arabiska som används i skrift och som endast talas i mycket formella sammanhang. Ingen arabisktalande person har standardarabiska som sitt modersmål; det är ett utpräglat skrift- och bildningsspråk. Det finns en mycket stark uppfattning i den arabiska språksfären att dialekterna inte är ”riktig” arabiska, att de inte har någon grammatik, att de representerar ett moraliskt och intellektuellt förfall och att det inte går att tänka eller tala om avancerade ting på dialekterna. Detta att bara betrakta en form av ett språk som korrekt och riktig och att nedvärdera alla andra former finns i olika utsträckning i i stort sett alla moderna språkgemenskaper. Bland lingvister som intresserar sig för föreställningar och idéer om språk kallas detta ofta för standardspråksideologi. Jag kommer här att beskriva hur denna dominerande ideologi tar sig mycket explicita uttryck i den arabiska språksfären och hur detta är en effekt just av det stora avståndet mellan talspråket och skriftspråket.
 
-- title: <i>Case endings in Spoken Standard Arabic [Doctoral dissertation]</i>
-  type: dissertation
+- title: <i>Case endings in Spoken Standard Arabic</i>
+  type: Doctoral dissertation
   author: Hallberg, A.
   lang: en
   oa: true
