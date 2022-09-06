@@ -28,14 +28,14 @@ I de glosserade exemplen nedan är de arabiska elementen angivna i kursiv text o
 
   Detta är det första exemplet jag hört på kodväxling i ett och samma ord som innefattar tre språk. I *el-mål-s* är den bestämda artikeln arabisk, ordstammen svensk, och pluralsuffixet engelskt.
 
-- *2022-01-04* -- Man som diskuterar en företagsidé med en vän. Espresso House på Hansakompaniet, Malmö.  
+- *2022-01-04* -- Man som diskuterar en företagsidé med en vän. Överhörd på café, Malmö.  
 
-  *fī* | *majāl* | *el-wāḥid* | *b-yaʿmal* | bolla | maʿ-ha
+  *fī* | *majāl* | *el-wāḥid* | *b-yaʿmal* | bolla | *maʿ-ha*
   finns | möjlighet | man | IND-3MS.gör | bolla | med-henne
 
   | Finns det möjlighet att få bolla [idéer] med henne? |
 
-  Personen upprepade uttrycket flera gånger och tycks ha lånat och grammatisk omvandlat *bolla* från det svenska uttrycket *bolla idéer*.
+  Personen upprepade uttrycket flera gånger och tycks ha lånat och grammatisk omvandlat *bolla* från det svenska idiomatiska uttrycket *bolla idéer*.
 
 - *2021-12-23* -- Anställd och kund på shawarmarestaurang, Malmö.
 
@@ -51,7 +51,7 @@ I de glosserade exemplen nedan är de arabiska elementen angivna i kursiv text o
 
 - *2021-12-23* -- Man på shawarmarestaurang, Malmö.
 
-  rulle | *jāj* | *u*‑rulle | laḥme
+  rulle | *jāj* | *u*‑rulle | *laḥme*
   rulle | kyckling | och‑rulle | kött
 
   | En kycklingrulle och en och en köttrulle. |
@@ -123,7 +123,7 @@ I de glosserade exemplen nedan är de arabiska elementen angivna i kursiv text o
  
 - *2020* -- A.
 
-  *mā* | *tkattir.* | yimken | itnēn | *bt*-räcker
+  *mā* | *tkattir.* | *yimken* | *itnēn* | *bt*-räcker
   NEG | 2S.lägg.mycket | kanske | två | IND.2S-räcker
 
   | Lägg inte så mycket. Två räcker nog. |
