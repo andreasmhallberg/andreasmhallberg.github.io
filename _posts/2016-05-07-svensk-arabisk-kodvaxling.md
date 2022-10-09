@@ -19,6 +19,35 @@ I de glosserade exemplen nedan är de arabiska elementen angivna i kursiv text o
 
 ---- 
 
+
+- *22-10-07* -- Samtal mellan unga kvinnor på café. Centrala Göteborg.
+
+  *mū* | *inuu* | favorit-*u* 
+  inte | DP | favorit-2MS
+
+  | Alltså, det är inte hans favorit. |
+
+- *2022-09-13* -- A.
+
+  *al*-risk | *illi* | finns 
+  DEF-risk | som | finn 
+
+  | Risken som finns [...] |
+
+- *2022-09-12* -- A.
+
+  *shlōn* | *b-t*-fungera |
+  hur | IND-3FS-fungera | 
+
+  | Hur fungerar den? |
+
+- *22-06* --- R. Svar på anklagelse från hans son.
+
+  *ana* | *b-ākul* | godis | *bi-l*-helger | ā |
+  jag | IND-1S-äter | godis | PREP-DEF-helger | INT | 
+
+  | Äter jag godis på helgerna!? |
+
 - *2022-01-11* -- Z., förklarar reglerna för ett brädspel.
 
   *hōn* | *ʿand-ak* | *el*-mål-*s* 
@@ -271,9 +300,11 @@ I de glosserade exemplen nedan är de arabiska elementen angivna i kursiv text o
 | 3    | tredje person
 | ADJ  | adjektiv
 | BES  | bestämd artikel
+| DP | diskurspartikel
 | DUA  | dualis
 | F    | feminin
 | IND  | indikativ
+| INT  | interogativ
 | M    | maskulin
 | PART | particip
 | PASS | passiv
