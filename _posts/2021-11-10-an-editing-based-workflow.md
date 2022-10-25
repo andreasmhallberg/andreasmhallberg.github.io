@@ -8,13 +8,13 @@ tags:
   - misc
  # document: /documents/xx.pdf
  # documenttitle: 
-thumbnail: /images/editing-workflow.thumbnail.jpg
+thumbnail: /images/2021-11-10/editingex.jpg
 updates: 
  - date: 2022-08-01
    contents: editing
 ---
 
-In this post I describe my process for writing academic papers, more or less from start to finish, with examples from a chapter I recently finished for the forthcoming *Routledge Handbook of Prescriptivism*. This post is intended primarily for students as a hands-on example of how one might go about writing a paper or a thesis, of the steps involved, and of the amount of work one might expect to have to put into it. The post also demonstrates a way of thinking about editing as a core part of intellectual academic labor.
+In this post I describe my process for writing academic papers, more or less from start to finish, with examples from a chapter I recently finished for the forthcoming *Routledge Handbook of Prescriptivism*. This post is intended primarily for students as a hands-on example of how one might go about writing a paper or a thesis, of the steps involved, and of the amount of work one might expect to have to put into it. The post also demonstrates a way of thinking about editing as a core part of paper writing.
 
 Writing down advanced and complicated ideas is not simply a matter of putting your thoughts to text from start to finish; it entails carefully weighing and testing formulations, word choices, text structures, and what to cite and how. You rarely make the right choice the first time around, and you typically have to write it down to find out if it works. Choices you do also affect other parts of the paper; you don't want to repeat yourself unnecessarily or use inconsistent terminology, for example. And since you cannot hold the entire paper in your head at once, these things will pop up in later editing passes. Also, the logically exact, unambiguous formulations required by good scientific writing, where everything is made completely explicit, is in many ways a counterintuitive and unfamiliar way of using language that is quite different form every-day and literary modes of expression. For all these reasons, academic writing inevitably involves a lot of test-writing to see what works, and a lot of editing to make it work. This process is labor-intensive, but also highly rewarding and interesting.
 
@@ -80,7 +80,7 @@ For a paper of twenty or so pages, it takes the most port of a working-day to do
 
 The image below shows a typical example of a page of text after one pass of editing.
 
-![Editiing example](/images/2021-11-10/editingex.png)
+![Editiing example](/images/2021-11-10/editingex.jpg)
 
 
 On the surface, this editing is a process of improving the language and style of the paper. While this is certainly part of it, it is also a method for thinking deeper about the material. Organizing the text, even at the clause or word-level, or choosing the right wording to express an idea as exactly and unambiguously as possible, all part of editing, require deep and intense thought about the material. In my experience, editing is therefore deeply intertwined with and an inescapable part of systematic thought, and a core part of the intellectual labor of any research project.
