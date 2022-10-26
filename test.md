@@ -152,13 +152,13 @@ You can control these neutral characters with the invisible characters
 The first two introduce an embedded segment that is to be displayed in LTR or RTL and the latter ends this segment, going back to whatever directionality is the main directionality of the paragraph. The following is the same line as above but with RIGHT-LEFT EMBEDDING just before the first Arabic word اسم POP DIRECTIONAL FORMATTING right after the second dot:
 
 
-Hello, hello. ‫اسمي اندرياس.‬ Hello again.
+> Hello, hello. ‫اسمي اندرياس.‬ Hello again.
 
 
 Note how the dot now conforms to the Arabic visual ordering. This is how it looks in the logical order with the invisible characters explicitly shown:
 
 
-‭Hello, hello. <202b>اسمي اندرياس.<202c> Hello again.
+> ‭Hello, hello. <202b>اسمي اندرياس.<202c> Hello again.
 
 
 It is useful to have an editor that actually displays the invisible control characters so that you can see where they are and edit them.
@@ -179,15 +179,18 @@ The combining characters that are used in modern typography (*taškīl*, vowel d
 
 Another nice, if somewhat obscure, feature in the Arabic Unicode are the characters used for traditional Arabic typesetting of end of *aya*<!---->s, page numbers, years, etc. These characters are classified in Unicode as *enclosing combining marks* and encase an Arabic number that follow them in the logical order of characters in the file. In other words, enter the one of these characters
 
-- <font face="Amiri">؁</font>&nbsp;U+0601 ARABIC SIGN SANA
-- <font face="Amiri">۝</font>&nbsp;U+06DD ARABIC END OF AYAH
+<!-- - <font face="Amiri">؁</font>&nbsp;U+0601 ARABIC SIGN SANA -->
+<!-- - <font face="Amiri">۝</font>&nbsp;U+06DD ARABIC END OF AYAH -->
+
+- ؁&nbsp;U+0601 ARABIC SIGN SANA
+- ۝&nbsp;U+06DD ARABIC END OF AYAH
 
 and then type Arabic numerals, and they will be enclosed:
  
-<font face="Amiri">
+
 ؁ ٢٠٢٢ ۝ ٣٤٥  
 ؁٢٠٢٢ ۝٣٤٥  
-</font>
+
 
 ## Quranic orthography
 
@@ -201,7 +204,7 @@ Consider the following two examples:[^hallbergquran]
  
 > <font face="Amiri">‮إِنَّمَا يَخۡشَى ٱللهَ مِنۡ عِبَادِهِ ٱلۡعُلَمَـٰۤؤُاْ</font>
 
-Note how the *sukūn* does not not have the normal circular form of modern typography but the open form used in the Quran, how the double *ḍamma* in <font face="Amiri">بَرِىٓءࣱ</font> the first quote is two visually separated signs, there is a small *alif* on top of a letter *mīm* and a *madda* on top of that in the word <font face="Amiri">ٱلۡعُلَمَـٰۤؤُاْ</font>. All of these are spare characters in the Unicode inventory that can be inserted via their code points.
+Note how the *sukūn* does not not have the normal circular form of modern typography but the open form used in the Quran, how the double *ḍamma* in بَرِىٓءࣱ the first quote is two visually separated signs, there is a small *alif* on top of a letter *mīm* and a *madda* on top of that in the word ٱلۡعُلَمَـٰۤؤُاْ. All of these are spare characters in the Unicode inventory that can be inserted via their code points.
 
 These lines may not display nicely in the browser. Copy them to a word processor and set the typeface that has all the relevant characters, such as [Amiri](https://www.amirifont.org/), and it should display beautifully.
 
