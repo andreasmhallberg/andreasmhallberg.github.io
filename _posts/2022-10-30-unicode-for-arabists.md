@@ -7,7 +7,7 @@ tags:
   - typography
 layout: post
 permalink: /unicode-for-arabists/
-excerpt: This post is a practically oriented introduction to Unicode for people regularity writing in or about Arabic. In Arabic digital text, a lot of work is done under the hood to rearrange and connect letters for correct display. Quite often, however, this system produces undesired results, such as punctuation jumping around or words appearing in the incorrect order. Understanding these problems, and solving them, requires some basic understanding of Unicode to engage with the text on the level of digital encoding, rather than in the level of visual display. My aim with this post is to provide some if this basic understanding---and to convey some of my fascination with the scope of the Unicode project.
+excerpt: This post is a practically oriented introduction to Unicode for people regularity writing in or about Arabic. In Arabic digital text, a lot of work is done under the hood to rearrange and connect letters for correct display. Quite often, however, this system produces undesired results, such as punctuation jumping around or words appearing in the incorrect order. Understanding these problems, and solving them, requires some basic understanding of Unicode to engage with the text on the level of digital encoding, rather than in the level of visual display. My aim with this post is to provide some if this basic understanding, and to convey some of my fascination with the Unicode project.
 ---
 
 *This post is based on a presentation gave in the [Digital Area Studies seminar](https://ikos-dighum.github.io/) at University of Oslo, Department of Culture Studies and Oriental Languages, May 30, 2022.*
