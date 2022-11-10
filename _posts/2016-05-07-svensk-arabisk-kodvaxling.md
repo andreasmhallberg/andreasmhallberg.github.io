@@ -22,7 +22,7 @@ I de glosserade exemplen nedan är de arabiska elementen angivna i kursiv text o
 
 - *22-10-07* -- Samtal mellan unga kvinnor på café. Centrala Göteborg.
 
-  *mū* | *inuu* | favorit-*u* 
+  *mū* | *innu* | favorit-*u* 
   inte | DP | favorit-3MS
 
   | Alltså, det är inte hans favorit. |
