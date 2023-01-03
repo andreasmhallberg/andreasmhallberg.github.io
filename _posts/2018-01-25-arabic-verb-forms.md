@@ -10,7 +10,7 @@ document: /documents/verb-forms/verb-forms.tex.pdf
 documenttitle: Verb forms I-X
 thumbnail: /images/verb-forms.thumbnail.png
 minidoc: /images/verb-forms.mindoc.png
-uprates:
+updates:
   - date: 2023-01-03
     contents: Passive participles added in transcription part. Latter spacing adjusted.
   - date: 2018-04-06
