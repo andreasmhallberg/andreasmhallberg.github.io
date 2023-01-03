@@ -5,11 +5,12 @@
 \usepackage{xcolor}
 \usepackage{newunicodechar}
 \usepackage{calc}
-\usepackage{booktabs}
+\usepackage{booktabs }
 \usepackage{tabularx}
 \usepackage{threeparttable}
 \usepackage{array}
-\usepackage{\string ~/mylatexstuff/ccbyandreas}
+\usepackage{\string ~/dotfiles/mylatexstuff/ccbyandreas}
+\renewcommand{\ccyear}{2018}
 \usepackage{polyglossia}
 \setmainlanguage{english}
 \setotherlanguage{arabic}
@@ -18,7 +19,7 @@
 {Lateef}
 % {DejaVu Sans Mono}
 % {Amiri}
-\setmainfont{Source Sans Pro}
+\setmainfont[LetterSpace=-4]{Source Sans Pro}
 
 \setlength\parindent{0pt}
 \pagestyle{empty}
@@ -105,17 +106,18 @@
 
 \vfill
 
+\newcommand{\is}{\nobreak\hspace{.5pt}\nobreak}
 
 \begin{threeparttable}
-  \begin{tabularx}{\linewidth}{lcYYYYYYYYY}
+  \begin{tabularx}{\linewidth}{l@{}YYYYYYYYYY}
 
-                    & I                    & II                     & III                   & IV                 & V                        & VI                   & VII                & VIII               & (IX)                                       & X\\
+                          & I                       & II                       & III                   & IV                   & V                          & VI                      & VII                   & VIII                  & (IX)                                          & X\\
 \midrule
-{Past}              & \itshape  _a_a/u/i_a & \itshape  _a\dou a_a   & \itshape  _aa_a_a      & \itshape  ʾa__a_a & \itshape  ta_a\dou a_a   & \itshape  ta_aa_a_a  & \itshape  in_a_a_a & \itshape  i_ta_a_a & \itshape  i__a\dou a                       & \itshape  ista__a_a \\
-{Present}           & \itshape  ya__a/u/i_ & \itshape  yu_a\dou i_  & \itshape  yu_aa_i_    & \itshape  yu__i_   & \itshape  yata_a\dou a_  & \itshape  yata_aa_a_ & \itshape  yan_a_i_ & \itshape  ya_ta_i_ & \itshape  ya__a\dou                        & \itshape  yasta__i_\\
-\textit{maSdar}     & Irregular*           & \itshape  ta__ii_      & \itshape  mu_aa_a_a** & \itshape  ʾi__aa_  & \itshape  ta_a\dou u_    & \itshape  ta_aa_u_   & \itshape  in_i_aa_ & \itshape  i_ta_aa_ & \itshape  i__i\underline{_}aa\underline{_} & \itshape  isti__aa_\\
-{Active part.}      & \itshape  _aa_i_     & \itshape  mu_a\dou i _ & \itshape  mu_aa_i_    & \itshape  mu__i_   & \itshape  muta_a\dou i_ & \itshape  muta_aa_i_ & \itshape  mun_a_i_ & \itshape  mu_ta_i_ & \itshape  mu__a\dou                        & \itshape  musta__i_\\
-% {Passive part.}   & \itshape  ma__uu_    & \itshape  mu_a\dou a _ & \itshape  mu_aa\dou _ & \itshape  mu__a_   & \itshape  muta_a_a _     & \itshape  muta_aa_a_ & \itshape  mun_a_a_ & \itshape  mu_ta_a_ & \itshape                                   & \itshape  musta__a_\\
+{Past}                    & \itshape  _a_a/u/i\is_a & \itshape  _a\dou a_a     & \itshape  _aa_a_a     & \itshape  ʾa__a_a    & \itshape  ta_a\dou a_a     & \itshape  ta_aa_a_a     & \itshape  in_a_a_a    & \itshape  i\is_ta_a_a & \itshape  i\is__a\dou a                       & \itshape  ista__a_a \\
+{Present}                 & \itshape  ya__a/u/i\is_ & \itshape  yu_a\dou i\is_ & \itshape  yu_aa_i\is_ & \itshape  yu__i\is_  & \itshape  yata_a\dou a_    & \itshape  yata_aa_a_    & \itshape  yan_a_i\is_ & \itshape  ya_ta_i\is_ & \itshape  ya__a\dou                           & \itshape  yasta__i\is_\\
+\textit{maSdar}           & Irregular*              & \itshape  ta__ii\is_     & \itshape  mu_aa_a_a** & \itshape  ʾi\is__aa_ & \itshape  ta_a\dou u_      & \itshape  ta_aa_u_      & \itshape  in_i\is_aa_ & \itshape  i\is_ta_aa_ & \itshape  i\is__i\underline{_}aa\underline{_} & \itshape  isti\is__aa_\\
+{Active part.}            & \itshape  _aa_i\is_     & \itshape  mu_a\dou i\is_ & \itshape  mu_aa_i\is_ & \itshape  mu__i\is_  & \itshape  muta_a\dou i\is_ & \itshape  muta_aa_i\is_ & \itshape  mun_a_i\is_ & \itshape  mu_ta_i\is_ & \itshape  mu__a\dou                           & \itshape  musta__i\is_\\
+{Passive part.}           & \itshape  ma__uu_       & \itshape  mu_a\dou a_    & \itshape  mu_aa_a_    & \itshape  mu__a_     & \itshape  muta_a\dou a_    & \itshape  muta_aa_a_    & \itshape  mun_a_a_    & \itshape  mu_ta_a_    & \itshape                                      & \itshape  musta__a_\\
 
 \midrule
   \end{tabularx}
@@ -125,8 +127,8 @@
   \item[] \dou{} signifies a doubled letter.
     \smallskip
 
-    \item[*] Common forms include~~\textit{_i_aa_a}~,~~\textit{_a__}~~and~~\textit{_u_uu_} . 
-    \item[**] For verbs denoting conflict, alternatively~~\textit{_i_aa_} .
+    \item[*] Common forms include~~\textit{_i\is_aa_a}~,~~\textit{_a__}~~and~~\textit{_u_uu_} . 
+    \item[**] For verbs denoting conflict, alternatively~~\textit{_i\is_aa_} .
   \end{tablenotes}
 \end{threeparttable}
 
