@@ -7,8 +7,6 @@ length: medium
 tags: 
 - latex
 updates:
- - date: 2022-02-12
-   contents: Editing. Recommendation not to edit bib-file manually removed.
  - date: 2021-12-28
    contents: Editing. Recommendation not to edit bib-file manually removed.
  - date: 2019-02-26
@@ -20,7 +18,7 @@ This is a quick introduction on how to use citations in LaTeX with the [`biblate
 
 ## Gathering your references
 
-In LaTeX, references are stored in a file with the `.bib` extension. Let's call ours `refs.bib`. Each entry in the file starts with `@` followed by the reference type; `article`, `book`, `incollection` (i.e. book chapter), etc. Then within curly braces comes the data for the reference. The first piece of data is a unique citation key for the reference. This key is used whenever you want to cite this reference in your text. It is useful to have a consistent and predictable form for citation keys. I use 
+In LaTeX, references are stored in a file with the `.bib` extension. Let's call ours `refs.bib`. Each entry in the file starts with `@` followed by the reference type; `article`, `book`, `incollection` (i.e. book chapter), etc. Then within curly braces are the data for the reference. The first piece of data is a unique citation key for the reference. This key is used whenever you want to cite this reference in your text. It is useful to have a consistent and predictable form for citation keys. I use 
 
 ```
 〈first author〉_〈first noun in title〉_〈year〉
@@ -45,7 +43,9 @@ For our example, let's say we want to cite two sources in our paper. We have a f
 
 @book{rayner_psychology_2012,
   title={Psychology of reading},
-  author={Rayner, Keith and Pollatsek, Alexander and Ashby, Jane and Clifton Jr, Charles},
+  author={Rayner, Keith and Pollatsek,
+    Alexander and Ashby, Jane and Clifton
+    Jr, Charles},
   year={2012},
   publisher={Psychology Press}
 }
@@ -71,10 +71,9 @@ The `\addbibresource` command specifies in which file to look for the references
 So with this in the preamble we can start adding citations in the running text:
 
 ```tex
-In his seminal article, \textcite[330]{ferguson_diglossia_1959}
-stated that ``bla bla bla''. Also cognitive aspects of reading
-are quite interesting \parencite{rayner_psychology_2012}.
-
+In his seminal article, \textcite[330]{ferguson_diglossia_1959} stated that
+``bla bla bla''. Also cognitive aspects of reading are quite interesting
+\parencite{rayner_psychology_2012}.
 \printbibliography
 ```
 
@@ -98,7 +97,7 @@ This is because you need to run another program, `biber`, on the file to match t
 biber article
 ```
 
-Then you compile the `.tex` file as normal again and all the citations and the bibliography should be render properly. If you use a GUI LaTeX editor like TeXShop to compile the document, you have to set the BibTeX engine to `biber` in the preferences.
+Then you compile the `.tex` file as normal again then all the citations and the bibliography should be render properly. If you use a GUI LaTeX editor like TeXShop to compile the document, you have to set the BibTeX engine to `biber` in the preferences.
 
 
 ![Pdf post-biber](/images/2019-02-16/post-biber.png)
