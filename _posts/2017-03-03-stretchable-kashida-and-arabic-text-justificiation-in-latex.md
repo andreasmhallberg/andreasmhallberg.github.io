@@ -10,8 +10,6 @@ tags:
 updates: 
     - date: 2021-02-20
       contents: Editing and typo fixes.
-    - date: 2018-12-11
-      contents: Commands to disable kashida added.
     - date: 2020-09-23
       contents: Editing and readability improvements.
     - date: 2018-12-11
