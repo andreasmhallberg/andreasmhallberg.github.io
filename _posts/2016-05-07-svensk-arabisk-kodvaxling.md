@@ -22,45 +22,45 @@ I de glosserade exemplen nedan är de arabiska elementen angivna i kursiv text o
 
 - *22-10-07* -- Samtal mellan unga kvinnor på café. Centrala Göteborg.
 
-  *mū* | *innu* | favorit-*u* 
-  inte | DP | favorit-3MS
+  *mū* | *innu* | favorit‑*u* 
+  inte | DP | favorit‑3MS
 
   | Alltså, det är inte hans favorit. |
 
 - *2022-09-13* -- A.
 
-  *al*-risk | *illi* | finns 
-  DEF-risk | som | finn 
+  *al*‑risk | *illi* | finns 
+  BES‑risk | som | finns 
 
   | Risken som finns [...] |
 
 - *2022-09-12* -- A.
 
-  *shlōn* | *b-t*-fungera |
-  hur | IND-3FS-fungera | 
+  *shlōn* | *b‑t*‑fungera |
+  hur | IND-3FS‑fungera | 
 
   | Hur fungerar den? |
 
 - *22-06* --- R. Svar på anklagelse från hans son.
 
-  *ana* | *b-ākul* | godis | *bi-l*-helger | ā |
-  jag | IND-1S-äter | godis | PREP-DEF-helger | INT | 
+  *ana* | *b‑ākul* | godis | *bi‑l*‑helger | ā |
+  jag | IND‑1S‑äter | godis | PREP‑BES‑helger | INT | 
 
   | Äter jag godis på helgerna!? |
 
 - *2022-01-11* -- Z., förklarar reglerna för ett brädspel.
 
-  *hōn* | *ʿand-ak* | *el*-mål-*s* 
-  här | hos-2MS | DEF-mål-PL 
+  *hōn* | *ʿand‑ak* | *el*‑mål‑*s* 
+  här | hos‑2MS | BES‑mål‑PL 
 
   | Här har du målen? |
 
-  Detta är det första exemplet jag hört på kodväxling i ett och samma ord som innefattar tre språk. I *el-mål-s* är den bestämda artikeln arabisk, ordstammen svensk, och pluralsuffixet engelskt.
+  Detta är det första exemplet jag hört på kodväxling i ett och samma ord som innefattar tre språk. I *el‑mål‑s* är den bestämda artikeln arabisk, ordstammen svensk, och pluralsuffixet engelskt.
 
 - *2022-01-04* -- Man som diskuterar en företagsidé med en vän. Överhörd på café, Malmö.  
 
-  *fī* | *majāl* | *el-wāḥid* | *b-yaʿmal* | bolla | *maʿ-ha*
-  finns | möjlighet | man | IND-3MS.gör | bolla | med-henne
+  *fī* | *majāl* | *el‑wāḥid* | *b‑yaʿmal* | bolla | *maʿ‑ha*
+  finns | möjlighet | man | IND‑3MS.gör | bolla | med‑henne
 
   | Finns det möjlighet att få bolla [idéer] med henne? |
 
@@ -68,8 +68,8 @@ I de glosserade exemplen nedan är de arabiska elementen angivna i kursiv text o
 
 - *2021-12-23* -- Anställd och kund på shawarmarestaurang, Malmö.
 
-  *bidd-ak* | *maʿ-hun* | dricka
-  vilja-din | med-dem | dricka
+  *bidd‑ak* | *maʿ‑hun* | dricka
+  vilja‑din | med‑dem | dricka
 
   | Vill du ha dricka med dem? |
 
@@ -99,11 +99,11 @@ I de glosserade exemplen nedan är de arabiska elementen angivna i kursiv text o
 - *2021-06-06* -- D.
 
   *mū* | *marra* | *šuft*‑*u* | *bi*‑*s*‑skola
-  NEG | en.gång | sett.1SG‑3MS | i‑DEF‑skola
+  NEG | en.gång | sett.1SG‑3MS | i‑BES‑skola
 
   | Såg jag inte honom en gång på skolan? |
 
-  Assimilation av arabisk bestämd artikel *l-* vid "solbokstav" i svenskt ord. Jfr. [exempel nedan](#solbokstav).
+  Assimilation av arabisk bestämd artikel *l‑* vid "solbokstav" i svenskt ord. Jfr. [exempel nedan](#solbokstav).
 
 - *2021-06* -- M.
 
@@ -112,17 +112,17 @@ I de glosserade exemplen nedan är de arabiska elementen angivna i kursiv text o
 
   | De beställd Playstation 5. |
 
-  Svenska infinitiv använda som *dummy*-verb tar direkt objekt med prepositionen *li-*.
+  Svenska infinitiv använda som *dummy*-verb tar direkt objekt med prepositionen *li‑*.
 
 
 - *2021-05* -- H.<a id=solbokstav></a>
 
    *fakkart* | *eza* | *kent* | *bi*‑*s*‑stan
-   tänkte.1SG | om | var.2MS | i‑DEF‑stan
+   tänkte.1SG | om | var.2MS | i‑BES‑stan
 
    | Jag tänkte ifall du var på stan. |
 
-   Assimilation av arabisk bestämd artikel *l-* vid "solbokstav" i svenskt ord.
+   Assimilation av arabisk bestämd artikel *l‑* vid "solbokstav" i svenskt ord.
 
 - *2021-05* -- H.
 
@@ -133,12 +133,12 @@ I de glosserade exemplen nedan är de arabiska elementen angivna i kursiv text o
 
 - *2021-01* -- A.
 
-  Hämta | *al*-stol
-  Hämta | DEF-stol
+  Hämta | *al*‑stol
+  Hämta | BES‑stol
 
   | Hämta stolen. |
 
-   Talare som inte assimilation arabisk bestämd artikel *l-* vid "solbokstav" i svenskt ord, till skillnad från [andra talare](#solbokstav). Oklart om detta är en lexikal eller individuell variation.
+   Talare som inte assimilation arabisk bestämd artikel *l‑* vid "solbokstav" i svenskt ord, till skillnad från [andra talare](#solbokstav). Oklart om detta är en lexikal eller individuell variation.
 
 
 - *2020* -- A.
@@ -152,8 +152,8 @@ I de glosserade exemplen nedan är de arabiska elementen angivna i kursiv text o
  
 - *2020* -- A.
 
-  *mā* | *tkattir.* | *yimken* | *itnēn* | *bt*-räcker
-  NEG | 2S.lägg.mycket | kanske | två | IND.2S-räcker
+  *mā* | *tkattir.* | *yimken* | *itnēn* | *bt*‑räcker
+  NEG | 2S.lägg.mycket | kanske | två | IND.2S‑räcker
 
   | Lägg inte så mycket. Två räcker nog. |
 
@@ -167,7 +167,7 @@ I de glosserade exemplen nedan är de arabiska elementen angivna i kursiv text o
 - *2019-08* -- A.
 
   *aʿṭā‑ni* | *min* | *il‑kəbāb* | *il*‑äcklig |
-  gav.3M-mig | av | BES-kebab | BES-äcklig |
+  gav.3M‑mig | av | BES‑kebab | BES‑äcklig |
 
   | Han gav mig av den äckliga kebaben. |
 
@@ -189,7 +189,7 @@ I de glosserade exemplen nedan är de arabiska elementen angivna i kursiv text o
 
 - *2018-02-09* -- A.
 
-  det | finns | som | du | kan | *tištarī-hun* | av | *minn‑i*
+  det | finns | som | du | kan | *tištarī‑hun* | av | *minn‑i*
   det | finns | som | du | kan | *2MS.köpa‑dem* | av | *från‑mig*
 
   | Det finns [några] som du kan köpa av mig. |
