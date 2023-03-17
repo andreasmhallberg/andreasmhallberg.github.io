@@ -1,7 +1,8 @@
 \documentclass[oneside]{article}
 % \usepackage[all, placement=bottom, scale=1, color=black, opacity=1, vshift=1cm]{background}
 \usepackage{/Users/xhalaa/dotfiles/mylatexstuff/ccbyandreas}
-\renewcommand{\ccyear}{2017}
+\renewcommand{\ccyear}{2017, 2023}
+\renewcommand\UrlFont\itshape
 \usepackage{array}
 \usepackage[
   left=2.3cm
@@ -23,7 +24,7 @@
 % Mark single cells
 \newcommand\mc{\cellcolor{black!10}}
 \usepackage{polyglossia}
-\setmainfont[Numbers=OldStyle]{Linux Libertine O}
+\setmainfont[Numbers=OldStyle]{Linux Libertine}
 \setmainlanguage{english}
 \setotherlanguage{arabic}
 \usepackage{multirow}
@@ -85,8 +86,11 @@
 }
 
 
-{\fontspec{Linux Libertine O}\huge\itshape The Arabic writing system}%
-\marginnote{This chart was designed as a complement to the \textup{Alif Baa} Arabic textbook (George\-town University Press, 1995) and follows the transcription system used therein.}[-1cm]
+{\fontspec{Linux Libertine}\huge\itshape The Arabic writing system}%
+\marginnote{This chart was designed as a complement to the \textup{Alif Baa} Arabic textbook (George\-town University Press, 1995) and follows the transcription system used therein.
+
+\smallskip
+For versions with other transcription systems, see \url{http://andreasmhallberg.github.io}.}[-1cm]
 \\{\small\itshape\today}
 
 \vfill
@@ -116,7 +120,7 @@ raaʾ         & r    & \mc\br{\textarabic{ر}}& \mc\br{\textarabic{ـر}} & \mc\
 zaay         & z    & \mc\br{\textarabic{ز}}& \mc\br{\textarabic{ـز}} & \mc\br{\textarabic{ـز}} & \mc\br{\textarabic{ز}} \\
 siin         & s    & \br{\textarabic{س}}   & \br{\textarabic{ـس}}    & \textarabic{ـسـ}      & \textarabic{سـ}      \\
 shiin        & sh   & \br{\textarabic{ش}}   & \br{\textarabic{ـش}}    & \textarabic{ـشـ}      & \textarabic{شـ}      \\
-\marginnote{\textarabic{ص}, \textarabic{ض}, \textarabic{ط} and \textarabic{ظ} are so called emphatic letters and affect the quality of nearby vowels.}[-1ex]%
+\marginnote{\textarabic{ص}, \textarabic{ض}, \textarabic{ط} and \textarabic{ظ} are the so called emphatic letters and affect the quality of nearby vowels.}[-1ex]%
 Saad         & S    & \br{\textarabic{ص}}   & \br{\textarabic{ـص}}    & \textarabic{ـصـ}      & \textarabic{صـ} \rlap{\color{gray}\hspace{1em}\ldelim]{4}{3mm}}     \\
 Daad         & D    & \br{\textarabic{ض}}   & \br{\textarabic{ـض}}    & \textarabic{ـضـ}      & \textarabic{ضـ}      \\
 Taaʾ         & T    & \textarabic{ط}      & \textarabic{ـط}       & \textarabic{ـطـ}      & \textarabic{طـ}      \\

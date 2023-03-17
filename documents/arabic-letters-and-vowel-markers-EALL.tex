@@ -1,0 +1,222 @@
+\documentclass[oneside]{article}
+% \usepackage[all, placement=bottom, scale=1, color=black, opacity=1, vshift=1cm]{background}
+\usepackage{/Users/xhalaa/dotfiles/mylatexstuff/ccbyandreas}
+\renewcommand{\ccyear}{2017,2023}
+\PassOptionsToPackage{hidelinks}{hyperref}
+\renewcommand\UrlFont\itshape
+\usepackage{array}
+\usepackage[
+  left=2.3cm
+  , right=6cm
+  , marginparwidth=4cm
+  , vmargin={3cm}
+% , showframe
+]{geometry}
+\usepackage[compact, sc]{titlesec}
+\titlelabel{\thetitle.\ }
+\usepackage{booktabs}
+\usepackage{microtype}
+\usepackage{bigdelim}
+\usepackage{tabularx}
+\usepackage{calc}
+\usepackage{xcolor}
+\usepackage{marginnote}
+\usepackage{colortbl} % To highlight cells in tables. See \mc command.
+% Mark single cells
+\newcommand\mc{\cellcolor{black!10}}
+\usepackage{polyglossia}
+\setmainfont[Numbers=OldStyle]{Linux Libertine}
+\setmainlanguage{english}
+\setotherlanguage{arabic}
+\usepackage{multirow}
+
+\renewcommand*{\marginfont}{\normalsize\itshape\sloppy}
+\renewcommand*{\raggedleftmarginnote}{}
+\renewcommand*{\raggedrightmarginnote}{}
+
+\setlength\parindent{0pt}
+
+% command to raise letters yā in table for better viual palance and to avoid clashing
+\newcommand{\raiseyā}[1]{\raisebox{2pt}{#1}}
+
+\newfontfamily\arabicfont[Script=Arabic,Scale=1.5]{Scheherazade}
+\newfontfamily\arabicfontsf[Script=Arabic]{Amiri} % use sf for ligautres
+
+\newcommand\ligaturetable{%
+\renewcommand\arraystretch{1.2}%
+    \upshape
+    \framebox{%
+\begin{tabularx}{\linewidth}{
+    >{\sf}r@{~\color{gray}$\rightarrow$~}
+    >{\sf}r
+    >{\sf}r@
+    {~~}>{\itshape}X@{}}
+    \multicolumn{4}{l}{\textbf{Common ligatures}}\\
+    \addlinespace
+    \textarabic{لـ\char"200D ا}     & \textarabic{لا}\rlap{*\ }    & \textarabic{سلام}     & salām   \\  
+    \textarabic{لـمـ}                  & \textarabic{لمـ}  & \textarabic{المسلم} & \mbox{al-muslim} \\ 
+  \textarabic{فـي}                 & \textarabic{في}   &                     & fī \\           
+\textarabic{يـحـ}                  & \textarabic{يحـ}  & \textarabic{يحيا}   & yaḥyā  \\   
+\textarabic{تـجـ}                  & \textarabic{تجـ}  & \textarabic{تجارة}  & tijāra \\   
+\textarabic{مـحـ}                  & \textarabic{محـ}  & \textarabic{محل}    & maḥall\\     
+\textarabic{مـمـ}                  & \textarabic{ممـ}  & \textarabic{ممل}    & mumill\\     
+\textarabic{الـلـه}                & \textarabic{الله} &                     & allāh \\           
+\addlinespace
+\multicolumn{4}{l}{* Non-optional}\\
+
+
+
+\end{tabularx}%
+}}
+
+\pagestyle{empty}
+
+\frenchspacing
+
+\begin{document}
+\Large
+
+% columnwidth
+    \newlength\alphcolw
+    \setlength\alphcolw{3em}
+
+% baselinerule
+    \newcommand{\br}[1]{%
+    % \rlap{\hspace{-.3em}\color{red}\rule{.5\alphcolw}{.1pt}}%
+        \rlap{\color{red}\hspace{-3pt}\rule{\widthof{#1}+8pt}{.2pt}}#1%
+}
+
+
+{\fontspec{Linux Libertine}\huge\itshape The Arabic writing system}%
+\marginnote{This chart uses the transcription system of \href{https://referenceworks.brillonline.com/browse/encyclopedia-of-arabic-language-and-linguistics}{\textit{Encyclopedia of Arabic Language and Linguistics}} (Brill, 2006-2009).
+For version with other transcription systems, see \url{http://andreasmhallberg.github.io}.}[-1cm]
+\\{\small\itshape\today}
+
+\vfill
+
+\section{The Alphabet}
+
+\bigskip
+
+\begin{tabular}{>{\strut\itshape}l>{\itshape}cccccc} 
+   % \toprule
+   \multicolumn{1}{l}{%
+   \makebox[\alphcolw][l]{Name}} & \multicolumn{1}{l}{\makebox[\alphcolw][c]{Trans.}}  & \makebox[\alphcolw][c]{Isolated}& \makebox[\alphcolw][c]{Final} & \makebox[\alphcolw][c]{Medial} & \makebox[\alphcolw][c]{Initial}   \\
+\midrule
+
+       \marginnote{Gray \colorbox{black!10}{background} marks letters that do not connect forward. A following letter takes the initial or isolated form.}%
+alif                                                                                                                                                              & ā   & \mc\textarabic{ا}      & \mc\textarabic{ـا}      & \mc\textarabic{ـا }     & \mc\textarabic{ا}    \\
+bāʾ                                                                                                                                                              & b    & \textarabic{ب}         & \textarabic{ـب}         & \textarabic{ـبـ}        & \textarabic{بـ}      \\
+tāʾ                                                                                                                                                              & t    & \textarabic{ت}         & \textarabic{ـت}         & \textarabic{ـتـ}        & \textarabic{تـ}      \\
+thāʾ                                                                                                                                                             & th   & \textarabic{ث}         & \textarabic{ـث}         & \textarabic{ـثـ}        & \textarabic{ثـ}      \\
+\marginnote{The baseline is marked with a \br{red line} on descending letter forms.}%
+jīm                                                                                                                                                              & j    & \br{\textarabic{ج}}    & \br{\textarabic{ـج}}    & \textarabic{ـجـ}        & \textarabic{جـ}      \\
+ḥāʾ                                                                                                                                                              & ḥ    & \br{\textarabic{ح}}    & \br{\textarabic{ـح}}    & \textarabic{ـحـ}        & \textarabic{حـ}      \\
+xāʾ                                                                                                                                                             & x   & \br{\textarabic{خ}}    & \br{\textarabic{ـخ}}    & \textarabic{ـخـ}        & \textarabic{خـ}      \\
+dāl                                                                                                                                                              & d    & \mc\textarabic{د}      & \mc\textarabic{ـد}      & \mc\textarabic{ـد}      & \mc\textarabic{د}    \\
+ḏāl                                                                                                                                                             & ḏ   & \mc\textarabic{ذ}      & \mc\textarabic{ـذ}      & \mc\textarabic{ـذ}      & \mc\textarabic{ذ}    \\
+rāʾ                                                                                                                                                              & r    & \mc\br{\textarabic{ر}} & \mc\br{\textarabic{ـر}} & \mc\br{\textarabic{ـر}} & \mc\br{\textarabic{ر}} \\
+zāy                                                                                                                                                              & z    & \mc\br{\textarabic{ز}} & \mc\br{\textarabic{ـز}} & \mc\br{\textarabic{ـز}} & \mc\br{\textarabic{ز}} \\
+sīn                                                                                                                                                              & s    & \br{\textarabic{س}}    & \br{\textarabic{ـس}}    & \textarabic{ـسـ}        & \textarabic{سـ}      \\
+šīn                                                                                                                                                             & š   & \br{\textarabic{ش}}    & \br{\textarabic{ـش}}    & \textarabic{ـشـ}        & \textarabic{شـ}      \\
+\marginnote{\textarabic{ص}, \textarabic{ض}, \textarabic{ط} and \textarabic{ظ} are the so called emphatic letters and affect the quality of nearby vowels.}[-1ex]%
+ṣād                                                                                                                                                              & ṣ    & \br{\textarabic{ص}}    & \br{\textarabic{ـص}}    & \textarabic{ـصـ}        & \textarabic{صـ} \rlap{\color{gray}\hspace{1em}\ldelim]{4}{3mm}}     \\
+ḍād                                                                                                                                                              & ḍ    & \br{\textarabic{ض}}    & \br{\textarabic{ـض}}    & \textarabic{ـضـ}        & \textarabic{ضـ}      \\
+ṭāʾ                                                                                                                                                              & ṭ    & \textarabic{ط}         & \textarabic{ـط}         & \textarabic{ـطـ}        & \textarabic{طـ}      \\
+\marginnote{\small\ligaturetable}%
+ ẓāʾ                                                                                                                                                            & ẓ   & \textarabic{ظ}         & \textarabic{ـظ}         & \textarabic{ـظـ}        & \textarabic{ظـ}      \\
+ \llap{ʿ}ayn                                                                                                                                                      & ʿ    & \br{\textarabic{ع}}    & \br{\textarabic{ـع}}    & \textarabic{ـعـ}        & \textarabic{عـ}      \\
+ġayn                                                                                                                                                             & ġ   & \br{\textarabic{غ}}    & \br{\textarabic{ـغ}}    & \textarabic{ـغـ}        & \textarabic{غـ}      \\
+fāʾ                                                                                                                                                              & f    & \textarabic{ف}         & \textarabic{ـف}         & \textarabic{ـفـ}        & \textarabic{فـ}      \\
+qāf                                                                                                                                                              & q    & \br{\textarabic{ق}}    & \br{\textarabic{ـق}}    & \textarabic{ـقـ}        & \textarabic{قـ}      \\
+kāf                                                                                                                                                              & k    & \textarabic{ك}         & \textarabic{ـك}         & \textarabic{ـكـ}        & \textarabic{كـ}      \\
+lām                                                                                                                                                              & l    & \br{\textarabic{ل}}    & \br{\textarabic{ـل}}    & \textarabic{ـلـ}        & \textarabic{لـ}      \\
+mīm                                                                                                                                                              & m    & \br{\textarabic{م}}    & \br{\textarabic{ـم}}    & \textarabic{ـمـ}        & \textarabic{مـ}      \\
+nūn                                                                                                                                                              & n    & \br{\textarabic{ن}}    & \br{\textarabic{ـن}}    & \textarabic{ـنـ}        & \textarabic{نـ}      \\
+hāʾ                                                                                                                                                              & h    & \textarabic{ه}         & \textarabic{ـه}         & \br{\textarabic{ـهـ}}   & \textarabic{هـ}      \\
+\marginnote{The letters \textarabic{و} and \textarabic{ي} represent either a consonant or a long vowel and are transcribed accordingly.}%
+wāw                                                                                                                                                              & w/ū & \mc\br{\textarabic{و}} & \mc\br{\textarabic{ـو}} & \mc\br{\textarabic{ـو}} & \mc\br{\textarabic{و}} \\
+yāʾ                                                                                                                                                              & y/ī & \br{\textarabic{ي}}    & \br{\textarabic{ـي}}    & \textarabic{ـيـ}        & \textarabic{يـ}      \\
+
+   % \bottomrule
+\end{tabular}
+
+
+
+\section{Other Letters}
+
+\bigskip
+
+   \begin{tabular}{>{\itshape}l>{\itshape}cccccc} 
+   % \toprule
+   \multicolumn{1}{l}{\makebox[\alphcolw][l]{Name}} & \multicolumn{1}{l}{\makebox[\alphcolw][c]{Trans.}}   & \makebox[\alphcolw][c]{Isolated} & \makebox[\alphcolw][c]{Final} & \makebox[\alphcolw][c]{Medial} & \makebox[\alphcolw][c]{Initial}  \\
+\midrule
+
+\marginnote{Hamza is written with different "chairs" depending on surrounding vowels and its position in the word.}%
+\multirow{5}*{hamza}                                                                                                                  & \multirow{5}*{ʾ} \rlap{\quad\rdelim\{{5}{3mm}} & \mc\textarabic{أ}                          & \mc\textarabic{ـأ}                                                              & \mc\textarabic{ـأ }     & \mc\textarabic{أ} \\
+                                                                                                                                      &                                                & \mc\br{\textarabic{إ}}                          & \mc                                                                             & \mc                     & \mc\br{\textarabic{إ}} \\
+                                                                                                                                      &                                                & \mc\br{\textarabic{ؤ}}                     & \mc\br{\textarabic{ـؤ}}                                                         & \mc\br{\textarabic{ـؤ}} & \mc\br{\textarabic{ؤ}} \\
+                                                                                                                                      &                                                & \br{\textarabic{ئ}}                        & \br{\textarabic{ـئ}}                                                            & \textarabic{ـئـ}        & \textarabic{ئـ}\\
+\marginnote{Hamza in the form of \textarabic{ء} does not connect to surrounding letters.}%
+                                                                                                                                      &                                                & \mc\textarabic{ء}\vphantom{\textarabic{و}} & \mc\textarabic{ء}                                                               & \mc\textarabic{ء}       & \mc\textarabic{ء}\\
+madda                                                                                                                                 & ʾā                                            & \mc\textarabic{آ}                          & \mc\textarabic{ـآ}                                                              & \mc\textarabic{ـآ}      & \mc\textarabic{آ} \\
+tāʾ marbūṭa                                                                                                                         & a/at                                           & \textarabic{ة}                             & \textarabic{ـة}                                                                 &                         & \\
+\marginnote{The letters \textarabic{ة} and \textarabic{ى} only occur in word-final position. In words with possessive pronouns they transform to \textarabic{ـتـ} and~\textarabic{ـا} respectively.}%
+alif maqṣūra                                                                                                                         & ā                                             & \raiseyā{\br{\textarabic{ى}}}             & \raiseyā{\br{\textarabic{ـى}}}                                              \\
+% \marginnote{\textarabic{لا} is the only compulsory ligature.}%
+% \textarabic{[ل+ا]}                                                                                                                  & lā                                            & \mc\textarabic{لا}                          & \mc\textarabic{ـلا}                                                              & \mc\textarabic{ـلا}      & \mc\textarabic{لا}   \\
+% \bottomrule
+\end{tabular}
+
+\vfill
+
+\section{Vowels}
+
+\bigskip
+
+\begin{tabular}{
+  >{\strut\itshape}l
+  >{\hspace{2mm}\itshape}c@{~~}c@{\hspace{2em}}
+  >{\hspace{2mm}\itshape}c@{~}c@{\hspace{2em}}
+  >{\hspace{2mm}\itshape}cl
+} 
+
+  \multicolumn{1}{l}{Name} & 
+  \multicolumn{2}{l}{Short}&
+  \multicolumn{2}{l}{Long} &
+  \multicolumn{2}{l}{Nunation}\\
+
+  \midrule
+
+  \marginnote{The \textarabic{ـا} in~\textarabic{ـًا} is silent.}%
+
+  fatḥa & a & \textarabic{ــَ} & ā & \textarabic{ـَا} & an & \textarabic{ــً}\rlap{\,/\,\textarabic{ـًا}}\\
+  ḍamma & u & \textarabic{ــُ} & ū & \textarabic{ـُو} & un & \textarabic{ــٌ}                           \\
+  kasra & i & \textarabic{ــِ} & ī & \textarabic{ـِي} & in & \textarabic{ــٍ}                           \\
+
+  \addlinespace[1ex]
+
+  
+  \multicolumn{3}{l}{\itshape alif xanjariyya\marginnote{Alif xanjariyya is only used in the words {\fontspec[Script=Arabic]{Amiri}\upshape\textarabic{اللّٰه}}, \textarabic{لٰكِن}, \textarabic{هٰذا}, \textarabic{هٰذِهِ} and \textarabic{ذٰلِك}. Usually not printed even in voweled text.}}%
+    & ā & \textarabic{ـٰ}\\
+
+\end{tabular}
+
+\vfill
+
+\section{Miscellaneous}
+
+\bigskip
+
+\begin{tabular}{>{\strut\itshape}l>{\itshape}c>{\raggedright\normalsize\arraybackslash}p{10cm}} 
+sukūn &    \textarabic{ــْ}& \begin{minipage}{\linewidth}\marginnote{Sukūn and šadda are only printed in voweled text.}%
+Marks the absence of a vowel after a consonant. Not transcribed (\textarabic{دَرْس}~\textit{dars}).\end{minipage}\\
+\addlinespace
+\addlinespace
+šadda &    \textarabic{ــّ}& \begin{minipage}{\linewidth}Marks doubling of a consonant. Vowel markers are written above or below \textit{šadda} rather than above or below the letter (\,\,\textarabic{ــَّ ــُّ ــِّ}\,). Transcribed as double consonant (\textarabic{مُدَرِّس}~\textit{mudarris}).\end{minipage} \\
+% \bottomrule
+\end{tabular}
+
+\vfill\null
+
+\end{document}
