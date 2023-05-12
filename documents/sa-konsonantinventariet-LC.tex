@@ -1,0 +1,129 @@
+\documentclass{article}
+
+\usepackage{hyperref}
+\renewcommand\UrlFont{\itshape}
+\usepackage[table]{xcolor}
+    \usepackage{rotating}
+    \usepackage{ccicons}
+    \usepackage{array}
+    \usepackage{multirow}
+    \usepackage{graphicx}
+    \usepackage{polyglossia}
+    \usepackage[hmargin=2cm, vmargin=2cm, landscape]{geometry}
+    \setmainlanguage{swedish}
+    \setotherlanguage{arabic}
+    \setmainfont{Linux Libertine}
+    \newfontfamily\arabicfont[Script=Arabic]{Amiri}
+    \usepackage{booktabs}
+
+    \newcommand{\fon}[4][.5em]{\makebox[#1]{#4}~\textarabic{#3}}
+
+    \setlength\parindent{0pt}
+    \pagestyle{empty}
+
+    \newcolumntype{F}{>{\hspace{1em}}l}
+
+    % Nästa sida/\null
+    \newcommand{\rodref}{ på nästa sida}
+
+\newcommand{\artimage}[1]{\includegraphics[width=1.75cm]{articulation-images/articulation-op-#1.png}}
+
+\newcommand\dothetable{
+    \raggedright
+
+        \textit{\huge Det standardarabiska konsonatinventariet}\\
+
+      \bigskip
+
+       \normalsize
+    \begin{minipage}{\linewidth}
+
+    \textit{Senast uppdaterad \today.}
+       \smallskip
+
+      \raggedright
+      Beskrivningen är något förenklad till förmån för tydlig och pedagogiska framställning. Transkription enligt \textit{Library of Congress}/Språkrådet.
+       \textcolor{red}{Röda tecken}\rodref{} anger det svenska konsonantinventariet.
+   \end{minipage}
+
+\vfill
+
+
+\LARGE
+    \centering
+    \begin{tabular}{@{}lFFFF@{\,}FF@{\,}FFFFFFF@{}}
+
+      &
+        \multicolumn{1}{c}{\artimage{labial}}     &
+\multicolumn{2}{c}{\artimage{dentalalveolar}} &
+\multicolumn{1}{c}{\artimage{palatal}}      &
+    \multicolumn{1}{c}{\artimage{velar}}       &
+    \multicolumn{1}{c}{\artimage{uvular}}&
+\multicolumn{1}{c}{\artimage{faryngal}}    &
+\multicolumn{1}{c}{\artimage{glottal}}\\
+
+
+                                &
+        \multicolumn{1}{c}{\scshape labial}     &
+\multicolumn{2}{c}{\scshape dental/alveolar} &
+\multicolumn{1}{c}{\scshape palatal}      &
+    \multicolumn{1}{c}{\scshape velar}       &
+    \multicolumn{1}{c}{\scshape uvular}&
+\multicolumn{1}{c}{\scshape faryngal}    &
+\multicolumn{1}{c}{\scshape glottal}\\
+             &
+\multicolumn{1}{c}{} &
+    \multicolumn{1}{c}{\itshape--emf.}   &
+    \multicolumn{1}{c}{\itshape+emf.}  
+\\
+
+
+        \rowcolor{gray!25}
+        Frikativ                  &               &                     &                    &               &               &                     &              & \\
+        \rowcolor{gray!25}
+        ~~---\textit{tonande}     & \fon{v}{}{}   & \fon[.7em]{}{ذ}{dh} & \fon[1em]{}{ظ}{ẓ} &               &               & \fon[.7em]{}{غ}{gh} & \fon{}{ع}{ʿ} & \\
+        \rowcolor{gray!25}
+                                  &               & \fon{}{ز}{z}        &                    &               &               &                     &              & \\
+        \rowcolor{gray!25}
+        ~~---\textit{tonlös}      & \fon{f}{ف}{f} & \fon{}{ث}{th}       &                    &               &               & \fon[.7em]{}{خ}{kh} & \fon{}{ح}{ḥ} & \fon{h}{ه}{h}\\
+        \rowcolor{gray!25}
+                                  &               & \fon{s}{س}{s}       & \fon{}{ص}{ṣ}       &\fon{sj}{ش}{sh}&               &                     &              & \\
+        Klusil                    &               &                     &                    &               &               &                     &              & \\
+        ~~---\textit{tonande}     & \fon{b}{ب}{b} & \fon{d}{د}{d}       & \fon{}{ض}{ḍ}       &               & \fon{g}{}{}   &                     &              & \\
+        ~~---\textit{tonlös}      & \fon{p}{}{}   & \fon[.4em]{t}{ت}{t} & \fon{}{ط}{ṭ}       &               & \fon{k}{ك}{k} & \fon{}{ق}{q}        &              & \fon{}{ء}{ʾ} \\
+        \rowcolor{gray!25}
+        Affrikata                 &               &                     &                    & \fon{}{ج}{j}  &               &                     &              & \\
+        Lateral                   &               & \fon{l}{ل}{l}       &                    &               &               &                     &              & \\
+        \rowcolor{gray!25}
+        Vibrant                   &               & \fon{r}{ر}{r}       &                    &               &               &                     &              & \\
+        Nasal                     & \fon{m}{م}{m} & \fon{n}{ن}{n}       &                    & \fon{ng}{}{}  &               &                     &              & \\
+        \rowcolor{gray!25}
+        Halvvokal                 & \fon{}{و}{w}  &                     &                    & \fon{j}{ي}{y} &               &                     &              & \\
+
+\end{tabular}
+
+
+\vfill\vfill\null
+\center
+\center
+\small
+Andreas Hallberg \ccby{} 2017, 2021, 2023. Dokumentet finns tillgängligt på \url{http://andreasmhallberg.github.io/}.
+Artikulationsbilder (modifierade) från Wikimedia Commons.
+\vspace{-1cm}
+}
+
+    \begin{document}
+
+\dothetable
+
+
+\clearpage
+    % show swe
+\renewcommand{\fon}[4][.5em]{\textcolor{red}{\llap{\rlap{#2}\hspace{1em}}}\makebox[#1]{#4}~\textarabic{#3}}
+    % ta bort "på nästa sida" 
+\renewcommand{\rodref}{}
+
+
+\dothetable
+
+    \end{document}
