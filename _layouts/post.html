@@ -12,13 +12,13 @@ layout: default
     {% if page.lang == 'en' %}
     {{ page.date | date: "%B %e, %Y" }}<br>
     {% if page.modified %}Last modified: {{ page.modified | date: "%B %e, %Y" }}  {% endif %}
-    Tags: {% for tag in tags %} -{{tag}}{% endfor %}<br>
+    Tags: {% for tag in tags %} <a href="/tags#{{ tag }}-ref">{{tag}}</a>{% endfor %}<br>
     Length: {{ page.length }}<br>
     {% endif %}
 
     {% if page.lang == 'sv' %}
     {{ page.date | date: "%Y-%m-%d" }}<br>
-    Taggar: {% for tag in tags %} -{{tag}}{% endfor %}<br>
+    Taggar: {% for tag in tags %} <a href="/tags#{{ tag }}-ref">{{tag}}</a>{% endfor %}<br>
     Längd:
     {% if page.length == 'long' %}
     lång
@@ -32,7 +32,7 @@ layout: default
 
     {% if page.lang == 'ar' %}
     {{ page.date | date: "%Y/%m/%d" }}<br>
-    تصنيف: {% for tag in tags %} {{tag}}{% endfor %}<br>
+    تصنيف: {% for tag in tags %} <a href="/tags#{{ tag }}-ref">{{tag}}</a>{% endfor %}<br>
     &#x202b;طول: 
       {% if page.length == 'long' %}
       &#x202b;طويل 
