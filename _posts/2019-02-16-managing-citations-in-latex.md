@@ -14,11 +14,11 @@ updates:
 ---
 
 
-This is a quick introduction on how to use citations in LaTeX with the [`biblatex`](https://www.ctan.org/pkg/biblatex) package. It is intended for people who are new LaTeX and to provide the bare minimum to get you up and running with automatically generated citations and bibliography. I assume that you have some basic understanding of LaTeX, the commandline interface, and have a [standard distribution of LaTeX](https://www.latex-project.org/get/) installed.
+This is a quick introduction on how to use citations in LaTeX with the [`biblatex`](https://www.ctan.org/pkg/biblatex) package. It is intended for people who are new to LaTeX and to provide the bare minimum to get you up and running with automatically generated citations and bibliography. I assume that you have some basic understanding of LaTeX, the command line interface, and have a [standard distribution of LaTeX](https://www.latex-project.org/get/) installed.
 
 ## Gathering your references
 
-In LaTeX, references are stored in a file with the `.bib` extension. Let's call ours `refs.bib`. Each entry in the file starts with `@` followed by the reference type; `article`, `book`, `incollection` (i.e. book chapter), etc. Then within curly braces are the data for the reference. The first piece of data is a unique citation key for the reference. This key is used whenever you want to cite this reference in your text. It is useful to have a consistent and predictable form for citation keys. I use 
+In LaTeX, references are stored in a file with the `.bib` extension. Let's call ours `refs.bib`. Each entry in the file starts with `@` followed by the reference type; `article`, `book`, `incollection` (i.e. book chapter), etc. Thereafter, within curly braces, are the data for the reference. The first piece of data is a unique citation key for the reference. This key is used whenever you want to cite this reference in your text. It is useful to have a consistent and predictable form for citation keys. I use 
 
 ```
 〈first author〉_〈first noun in title〉_〈year〉
@@ -26,9 +26,9 @@ In LaTeX, references are stored in a file with the `.bib` extension. Let's call 
 
 e.g. `ferguson_diglossia_1959`. This makes the keys easy to remember.
 
-Then follows key-value pairs giving meta data used to generate citations and the bibliography item. Depending on the reference type, different keys should be set. For example, for the `article` type you need a `journaltitle`, which you don't need for the `book` type.
+Then follows key-value pairs giving meta data used to generate citations and the bibliography item. Depending on the reference type, different keys should be set. For the `article` type, for example, you need a `journaltitle`, which you don't need for the `book` type.
 
-For our example, let's say we want to cite two sources in our paper. We have a file `refs.bib` containing the following, one article and one book:
+As an example, let's say we want to cite two sources in our paper. We have a file, `refs.bib`, containing the following, one article and one book:
 
 ```
 @article{ferguson_diglossia_1959,
@@ -63,10 +63,9 @@ Now, when you have a bunch of references in `refs.bib`, you place this file in t
 \addbibresource{refs.bib}
 ```
 
-The first line loads the BibLaTeX package that we use to handle references. With this package we set one basic option, `style=authordate`, which tells BibLaTeX to use parenthesis-type citations. The default, `numeric`, produces numbered citations in the running text, as is common in the sciences. There are a whole bunch of styles to choose from, listed on p.67ff in the [`biblatex` manual](http://mirrors.ctan.org/macros/latex/contrib/biblatex/doc/biblatex.pdf), and you can get other ones as well. 
+The first line loads the BibLaTeX package that we use to handle references. With this package we set one basic option, `style=authordate`, which tells BibLaTeX to use parenthesis type citations. The default, `numeric`, produces numbered citations in the running text, as is common in the sciences. There are a whole bunch of styles to choose from, listed on p. 67ff in the [`biblatex` manual](http://mirrors.ctan.org/macros/latex/contrib/biblatex/doc/biblatex.pdf). You can get other ones as well. 
 
-
-The `\addbibresource` command specifies in which file to look for the references. In our case we have the references in the file `refs.bib` as described above. This can also be a path to a file anywhere on your machine. This is useful because it allows you to have one `.bib` file with all references you might ever want to cite in any paper, all gathered in one place, which call from different `.tex` files for different project.
+The `\addbibresource` command specifies in which file to look for the references. In our case we have the references in the file `refs.bib` as described above. This can also be a path to a file anywhere on your machine. This is useful because it allows you to have one `.bib` file with all references you might ever want to cite in any paper, all gathered in one place, which can be called from different `.tex` files for different project.
 
 So with this in the preamble we can start adding citations in the running text:
 

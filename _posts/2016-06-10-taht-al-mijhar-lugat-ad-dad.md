@@ -6,9 +6,14 @@ lang: en
 length: long
 tags:
 - misc
+excerpt: |
+    <p>December 4, 2014, AlJazeera aired the documentary <a href="http://www.aljazeera.net/programs/infocus/2013/12/4/لسان-الضاد-يجمعنا"><em>Lisān aḍ-ḍād yajmaʿunā</em></a> [The language of <em>ḍād</em> unites us] as part of the <em>Taḥt al-mijhar</em> series of documentaries, produced in-house by AlJazeera. The program is interesting in that it so clearly illustrates the Arabic language ideology in action, being in effect and inventory of mainstream concerns about the current state of Arabic. This post presents a fairly thorough presentation of the views aired in the documentary.</p>
 ---
 
+*UPDATE: May 2023.  The key points in this post have been published in my chapter [Standard language ideology and prescriptivism in the Arabic-speaking world](http://www.doi.org/10.4324/9781003095125-20) in The Routledge Handbook of Linguistic Prescriptivism (2023).*
+
 December 4, 2014, AlJazeera aired the documentary [*Lisān aḍ-ḍād yajmaʿunā*](http://www.aljazeera.net/programs/infocus/2013/12/4/لسان-الضاد-يجمعنا) [The language of *ḍād* unites us] as part of the *Taḥt al-mijhar* series of documentaries, produced in-house by AlJazeera. The program is interesting in that it so clearly illustrates the Arabic language ideology in action, being in effect and inventory of mainstream concerns about the current state of Arabic. This post presents a fairly thorough presentation of the views aired in the documentary.
+
 
 Many of the concerns discussed in the program, though not all, are---from the point of view of modern linguistics---ill-founded and based on highly dubious ideas about what languages are, how they change, and what "good" language is. These concerns are presented by speakers appearing either as experts---academics, teachers, and other intellectuals---as well as by "ordinary people" sharing their experiences with Arabic. The role of these ordinary people in the documentary is largely limited to illustrating the shortcomings described by the experts, such speaking English with one's children or using the dialect where one shouldn't.  No opposing critical views to the dominant discourse are heard. Even statements that are highly dubious, uttered by scholars of language, are left uncommented. It is for example said that the dialects have no grammar and that a speaker who mixes Arabic with other languages is using a "disfigured" (*mušawwaha*) language and is thereby himself a disfigured person.
 
