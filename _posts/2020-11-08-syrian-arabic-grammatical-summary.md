@@ -19,7 +19,7 @@ tags:
   - syrian-arabic
 updates: 
   - date: 2023-08-27
-    contents: Schanged transcription to Library of Congress.
+    contents: Changed transcription system to Library of Congress.
   - date: 2021-10-24
     contents: Dual section added.
   - date: 2021-05-20
