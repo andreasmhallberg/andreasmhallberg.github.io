@@ -1,8 +1,12 @@
-\documentclass[a4paper,landscape]{article}
+% Search for SET to find things that need to be changed to to make another timeline out of this. 
+
+\documentclass[
+	a4paper % SET
+	,landscape]{article}
+
 
 \usepackage[dvipsnames]{xcolor}
-\usepackage{/Users/xhalaa/dotfiles/mylatexstuff/ccbyandreas}
-\renewcommand{\ccyear}{2016, 2017, 2020}
+\usepackage{/Users/xhalaa/dotfiles/mylatexstuff/ccbyandreas} \renewcommand{\ccyear}{2016, 2017, 2020} % SET. This calls some local macros on my computer to print the rights bit at the bottom. Remove this line unless you are on my computer.
 \usepackage[top=2cm, bottom=2cm, left=2cm, right=2cm]{geometry}
 \usepackage{etoolbox}
 \usepackage{graphicx}
@@ -21,33 +25,34 @@
 \setmainlanguage{english}
 \setotherlanguage{arabic}
 
+% Fonts must be installed on your system. Called by name.
 \usepackage{fontspec}
-\setmainfont[Numbers=OldStyle]{Linux Libertine O}
-\setsansfont[Numbers=OldStyle]{Source Sans Pro ExtraLight}
+\setmainfont[Numbers=OldStyle]{Linux Libertine} % https://fontlibrary.org/en/font/linux-libertine
+\setsansfont[Numbers=OldStyle]{Source Sans Pro ExtraLight} % https://github.com/adobe-fonts/source-sans
 
 % Constants
-\def\startce{600}
-\def\fince{1550}
+\def\startce{600} % SET: start year
+\def\fince{1550} % SET: en year
 
 % Color to mix in with dynasty. 70%
 \def\mixcolor{gray!60!white}
 
 \frenchspacing
 	
-% Vertical position of beginning of name
+% Vertical position of beginning (leftmost edge) of name
 \newlength\nameh
 \setlength\nameh{6.1cm}
 
 \newlength\dynastyheight
-\setlength\dynastyheight{.4cm}
+\setlength\dynastyheight{.4cm} % Thickness of dynasty bar
 \newlength\dynastyvshift
-\setlength\dynastyvshift{.55cm}
+\setlength\dynastyvshift{.55cm} % vertical shift of dynasty bar. How far the dynasty bar is shifted up from the main timeline
 
 \newlength\dynwidth
 
 % \grammarian[horizontal offset][east]{<name>}{<yod c.e.>}{<opus magnus>}
 \newcommand\person[4][0]{
-    % Name and yod on top
+    % Name and yod on foreground
   \begin{pgfonlayer}{foreground}
     \path [draw] (#3,\nameh) ++ (#1,0) node [rotate=-90, anchor=west] (name) [fill=white, inner sep=0pt] {\makebox[2.5em][l]{#3}#2~\strut};
   \end{pgfonlayer}
@@ -77,8 +82,8 @@
 }
 
 
-% phases
-% \phase{<name>}{<begin>}{<end>}
+% Command to mark areas on top of graph. The lines are slightly shortened (by the equivalent of y years) to leave a slight gap bet
+% \phase{<name>}{<begin year>}{<end year>}
 \newcommand{\phase}[3]{
     \draw [thin] (#2+2, \nameh+2mm) -- (#2+2, \nameh+4mm) -- (#3-2, \nameh+4mm) node [midway, above, align=center, font=\sffamily] {#1} -- (#3-2, \nameh+2mm);
 }
@@ -89,35 +94,44 @@
 \begin{document}
 \thispagestyle{empty}
 
-\begin{minipage}[t]{.4\textwidth}
-{\LARGE Timeline of Arab grammarians\\and their major works}\\[\medskipamount]
-\textit{v.1.6.1\\\today}
+\begin{minipage}[t]{.4\textwidth} % SET: Width of textbox for title.
+{\LARGE Timeline of Arab grammarians\\and their major works}\\ % SET: title. Add `\\` for manual line breaks.
+	[\medskipamount] 
+\textit{%
+	v.1.6.1\\ % SET: version number. Can be removed.
+	\today % SET: prints date of compilation. Type out a date manually if you want a fixed date.
+	}
 \end{minipage}
 \hfill
-\begin{minipage}[t]{7cm}
+\begin{minipage}[t]{7cm} % SET: Width and text box in upper right
   \setlength{\parfillskip}{0pt}
-This timeline is based primarily on \textit{The Arabic Linguistic Tradition} by G. Bohas, \mbox{J.-P.} Guillaume, and D. Kouloughli (Georgetown University Press, 2006) and lists grammarians mentioned therein.
+This timeline is based primarily on \textit{The Arabic Linguistic Tradition} by G. Bohas, \mbox{J.-P.} Guillaume, and D. Kouloughli (Georgetown University Press, 2006) and lists grammarians mentioned therein. % SET: Content of infobox
 \end{minipage}
 
 
 \vfill
 
-\begin{tikzpicture}[x=\textwidth/(\fince-\startce)]
+\begin{tikzpicture}[x=\textwidth/(\fince-\startce)] % 1 step on x-axis defined as the text width divided total number of years from star year to en year as set above foe `\startce` (common era) to `\fince`.
 
-    \node at (650,\nameh-1ex) [anchor=north] {\textsc{yod}};
+\node at (650,\nameh-1ex) [anchor=north] {\textsc{yod}}; % SET: make year of death label. Can be removed and `yod` label changed
 
 % Sort the list below with `sort n /{/`
 
-% Phases
-% Data collection, formation, theroeticlaelaboration, consolidiation, degeneration
-% \phase{Pre-theoretical\\grammar}{650}{780}
-    \phase{Precursors}{660}{770}
+		% SET. CANNOT OVERLAP!
+		% Phases
+		% Data collection, formation, theroeticlaelaboration, consolidiation, degeneration
+		% \phase{<name>}{<begin year>}{<end year>}
+    \phase{Precursors}{660}{770} 
     \phase{Early grammar}{770}{920} % p.8
     \phase{Codification\\and systematization}{920}{1100}
     \phase{Elaboration of forms\\of presentation}{1100}{1520}
 
 
-    % \dynasty{Muḥammad}{622}{632}
+    % SET
+		% Dynasties
+		% \dynasty{<color>}{<name>}{<startyear c.e.>}{<endyear c.e.>}{<graphical level}
+		% Name color from the xcolor package.  Will be mixed with white and gray
+		% Last argument is father 1 or 2. Set to choose height level to prevent overlap.
     \dynasty    {OliveGreen}   {Ummayads}      {661}    {750}      {1}
     %\dynasty   {blue}    {ar-Rāšhidun}   {632}    {661}      {1}
     \dynasty    {red}     {\hspace{4em}Abbasids}      {750}    {1258}     {1}
@@ -125,7 +139,10 @@ This timeline is based primarily on \textit{The Arabic Linguistic Tradition} by 
     \dynasty    {blue}     {Ottomans}      {1299}   {\fince}   {1}
     \dynasty    {brown}    {\hspace{2em}Mamluks}       {1250}   {1517}     {2}
 
-% List of grammarians
+		% SET
+		% \person[horizontal offset][east]{<name>}{<yod c.e.>}{<opus magnus>}
+    % Name and year and major work.
+		% Optional argue met is a horizontal shift (negative or positive) manually inserted to prevent overlap. This will great a horizons line leading down to the main timeline to lead the eye. Takes a fair bit of manual tweaking to get nice results if you have many names close together.
     \person{Abū l-Aswad ad-Duʾalī}{688}{}
     \person{\llap{ʿ}Abd Allāh ibn Abī Isḥāq}{734}{} % p.1
     % \person[-1.7ex]{al-Xalil}{786}{Kitāb al-ʿAyn}
@@ -160,7 +177,10 @@ This timeline is based primarily on \textit{The Arabic Linguistic Tradition} by 
     \person{as-Suyūṭī}{1505}{al-Muzhir} % IE
     
 
+	% SET
   % Special arrow for Ottomans
+  % One off thingie for the arrow continuing to the right.
+	% Remove this paragraph if you do not want this arrow.
   \begin{pgfonlayer}{background}
       % bar
       \draw [ultra thin,yshift=\dynastyvshift, 
@@ -172,34 +192,42 @@ This timeline is based primarily on \textit{The Arabic Linguistic Tradition} by 
   \end{pgfonlayer}
 
 
+		% SET: this paragraph adds calculates and adds Hija years to the timeline. Remove the whole thing if you don't like it.
+		\begin{pgfonlayer}{background}
+		% hijri ticks
+			\foreach \x in {0,100,...,900} 
+				{\draw [red!70!gray] (.97*\x+622, 0) -- ++ (0, +.2) node [font=\bfseries,inner sep=0pt,anchor=south, color=red!70!gray] {\x\strut} ;}
+			% hijri ticks on 50s
+			\foreach \x in {50,150,...,900} 
+			{\draw [red!70!gray] (.97*\x+622, 0) -- ++ (0, +.1);}
+		\end{pgfonlayer}
 
-        \begin{pgfonlayer}{background}
-        % hijri ticks
-          \foreach \x in {0,100,...,900} 
-            {\draw [red!70!gray] (.97*\x+622, 0) -- ++ (0, +.2) node [font=\bfseries,inner sep=0pt,anchor=south, color=red!70!gray] {\x\strut} ;}
-
-          % hijri ticks on 50s
-          \foreach \x in {50,150,...,900} 
-            {\draw [red!70!gray] (.97*\x+622, 0) -- ++ (0, +.1);}
-        \end{pgfonlayer}
-
-	% Axis
+	% Axis 
 	\draw [->, very thick] (\startce,0) -- (\fince,0);
 
-	% Axis ticks
-	\foreach \x in {700,800,...,\fince} 
+	% Axis ticks 
+	\foreach \x in {
+		              700% SET: first year for which you want a numbered tick. Be careful here, there cannot be any spaces in the foreach-list
+									,800% SET: second year for which you want a numbered tick.
+									,...% 
+									,\fince % SET: Last year for which you want numbered tick. Can be a number or, as here, `\fince`, the end of the timelein as set above. All ticks in between will be generated by the `\foreach`-command.
+								} 
 	    {\draw (\x, 0) -- (\x,-.2) node [anchor=north, font=\bfseries,inner sep=0pt] {\x\strut};}
 
-	% Axis tick on 50s
-	\foreach \x in {650,700,...,1525} 
+			% Secondary axis tick on 50s. (unlabeled)
+	\foreach \x in {650% SET: first year for which you want a secondary tick.
+								,700% SET: second year for which you want a numbered tick.
+								,...%
+								,1525% SET: Last year for which you want a secondary tick.
+								}
 	    {\draw (\x, 0) -- (\x,-.1);}
 
-	% Hijra
-	\draw [very thick] (622, 0) -- (622, -.5) 
-	  node [rotate=-90, anchor=west] {\textbf{\textit{al-Hijra}}~(622)};
-
-
-
+  % SET
+	% Label for star of timeline.
+	% Delete this paragraph to remove start label.
+	\draw [very thick] (622, 0) -- (622, -.5) % 622 here (in two places) is to specify the position of the star label.
+	  node [rotate=-90, anchor=west] 
+		{\textbf{\textit{al-Hijra}}~(622)}; % Text label for start
 
 \end{tikzpicture}
 
