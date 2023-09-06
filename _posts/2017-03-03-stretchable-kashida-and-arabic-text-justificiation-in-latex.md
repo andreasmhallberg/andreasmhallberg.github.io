@@ -194,5 +194,5 @@ The way it has been applied here comes with a few caveats:
 - vowel signs and similar negate the stretchable kashida
 - your may not be able to resist the urge to decorate your office wall with your new beautiful Arabic text columns 
 
-[^microtype]: There is also a third method: to stretch or squeeze letters by a measure that is too small to be noticeable on individual letters but that have an accumulated effect that provides a variability used for justifying the text. See the documentation for the [`mycrotype` package](https://www.ctan.org/pkg/microtype?lang=en) for a discussion and implementation in LaTeX.
+[^microtype]: There is also a third method: to stretch or squeeze letters by a measure that is too small to be noticeable on individual letters but that have an accumulated effect that provides a variability used for justifying the text. See the documentation for the [`microtype` package](https://www.ctan.org/pkg/microtype?lang=en) for a discussion and implementation in LaTeX.
 [^utopia]: أحمد خالد توفيق، ٢٠١٤. *يوتوبيا*، دير ميريت، القاهرة. 
