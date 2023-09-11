@@ -12,7 +12,6 @@ thumbnail: /images/2021-11-10/editingex.jpg
 updates: 
  - date: 2023-09-11
    contents: Light editing.
-updates: 
  - date: 2022-08-01
    contents: Editing.
 ---
