@@ -10,6 +10,8 @@ length: short
 tags:
   - teaching-materials
   - syrian-arabic
+excerpt: |
+    <p>I am currently teaching a course in Syrian Arabic using material from the <em>Al-Kitaab</em> textbook, 3d edition, by Brustad, Al-Batal, Mahmoud, and al-Tunsi. The course runs parallel with a course covering the Standard Arabic part of the same material. The dialectal material in this book is excellent. It is carefully designed to rely on vocabulary and grammar from the chapter at hand while still having an authentic feel to it and being slightly challenging. The material is, however, only available as videos. In my view, having these dialogues as text facilitates classroom discussion of the dialogues. I have therefore transcribed most the Syrian Arabic material, namely the longer dialect dialogue found in each chapter. The transcripts can be found <a href="https://github.com/andreasmhallberg/al-kitaab-dialecttexts">here</a>.</p>
 updates:
   - date: 2023-04-21
     contents: All 3ms possive pronouns now consistently ـه instead of ـو.
