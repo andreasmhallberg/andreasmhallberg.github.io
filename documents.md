@@ -5,46 +5,55 @@ permalink: /documents/
 ---
 
 
-[Publications](#publications) --- [Misc. publications](#misc-publications) --- [Teaching materials](#teaching-materials)
+[Books](#books)
+--- [Articles](#articles)
+--- [Book chapters](#book-chapters)
+--- [Misc.](#misc)
+--- [Teaching materials](#teaching-materials)
 
 [CV-en](/documents/hallberg-cv-en.pdf)
 [CV-sv](/documents/hallberg-cv-sv.pdf)
 
 
-## Publications
+## Books
 
-{% for publication in site.data.publications  %}
+Hallberg, A. (2023). *Om arabiska: En kort språkvetenskaplig introduktion*. Göteborgs universitet. <https://gupea.ub.gu.se/handle/2077/76851>
+|&nbsp;<span class="publink">[pdf](https://gupea.ub.gu.se/bitstream/handle/2077/76851/om-arabiska.pdf)</span>
 
-{{ publication.author }}
-({{ publication.year }}).
-{{ publication.title }}<!--
--->{% if publication.type %} [{{publication.type}}]{% endif %}.
-{{ publication.ref }}<!--
--->{% if publication.pdf %} <a href="{{ publication.pdf }}" style="font-size: 80%">PDF</a>{% endif %}
-{% if publication.doi %}<br><a href="http://www.doi.org/{{ publication.doi }}">http://www.doi.org/{{publication.doi}}<a>{% endif %}
-{% if publication.abstract %}
-<details style="margin-top: -.7em; margin-left: 1em">
-<summary>abstract</summary>
-  <span class="date">{{ publication.abstract | markdownify }}</span>
-</details>
-{% endif %}
+Hallberg, A. (2016). *Case endings in Spoken Standard Arabic: Statistics, norms, and diversity in unscripted formal speech* \[Dissertation, Lund University\]. <https://lup.lub.lu.se/record/8524489>
+|&nbsp;<span class="publink">[pdf](http://lup.lub.lu.se/luur/download?func=downloadFile&recordOId=8524489&fileOId=8852155)</span>
 
-{% endfor %}
+## Articles
 
-## Misc. publications
+Hallberg, A. (2022). Principles of variation in the use of diacritics (*taškı̄l*) in Arabic books. *Language Sciences*, *93*, 1–15. <https://doi.org/10.1016/j.langsci.2022.101482>
+|&nbsp;<span class="publink">[pdf](https://www.sciencedirect.com/science/article/pii/S0388000122000225/pdfft?isDTMRedir=true&download=true)</span>
 
-{% for publication in site.data.publicationsmisc  %}
+Hallberg, A. (2022). Variation in the use of diacritics in modern typeset Standard Arabic: A theoretical and descriptive framework. *Arabica*, *69*(3), 279–317. <https://doi.org/10.1163/15700585-12341640>
+|&nbsp;<span class="publink">[pdf](https://brill.com/downloadpdf/journals/arab/69/3/article-p279_3.pdf)</span>
+
+Hallberg, A. (2022). A parallel text-based approach for teaching Standard and vernacular Arabic. *Orientalia Suecana*, *71*, 24–37. <https://doi.org/10.33063/diva-484185>
+|&nbsp;<span class="publink">[pdf](https://uu.diva-portal.org/smash/get/diva2:1693971/FULLTEXT01.pdf)</span>
+
+Hallberg, A. (2021). Case and mood inflection in Formal Spoken Arabic: A quantitative investigation. *Zeitschrift für Arabische Linguistik*, *74*, 61–86. <https://doi.org/10.13173/zeitarabling.74.0061>
+
+Hallberg, A., & Niehorster, D. C. (2021). Parsing written language with non-standard grammar: An eye-tracking study of case marking in Arabic. *Reading and Writing*, *34*(1), 27–48. <https://doi.org/10.1007/s11145-020-10040-6>
+|&nbsp;<span class="publink">[pdf](https://link.springer.com/content/pdf/10.1007/s11145-020-10040-6.pdf)</span>
+
+## Book chapters
+
+Hallberg, A. (2023). Standard language ideology and prescriptivism in the Arabic-speaking world. In J. C. Beal, M. Lukač, & R. Straaijer (Eds.), *Routledge handbook of linguistic prescriptivism* (pp. 287–303). Routledge. <https://doi.org/10.4324/9781003095125-20>
+
+Hallberg, A. (2017). Några egenheter i arabisk standardspråksideologi. In H. Rahm (Ed.), *Vetenskapssocieteten i Lund. <span class="nocase">Årsbok</span> 2017* (pp. 39–48). Vetenskapssocieteten i Lund.
+|&nbsp;<span class="publink">[pdf](/documents/Hallberg-2017-nagra-egenheter.pdf)
 
 
-{{ publication.author }}
-({{ publication.year }}). {{ publication.title }}
-{% if publication.translator %}({{ publication.translator }}, Trans.){% endif %}<!--
--->{% if publication.type %}[{{ publication.type }}]{% endif %}.
-{{ publication.ref | markdownify | remove: '<p>' | remove: '</p>' }}<!--
--->{% if publication.pdf %} <a href="{{ publication.pdf }}" style="font-size: 75%">PDF</a>{% endif %}
+## Misc.
 
-{% endfor %}
+Hallberg, A. (2017). Zeittafel. Graphical timeline. In F. Weigelt, *Einführung in die arabische Grammatiktradition* (pp. 247–249). Harrassowitz.
 
+Kurayyim, M. (2017). Tawfiq basha och den nya musiken (A. Hallberg, Trans.). *Glänta*, *17*(2-3), 153–159.
+
+Ḥamūd, M. (2017). Skammen (A. Hallberg, Trans.). *Glänta*, *17*(2-3), 32–38.
 
 ## Teaching materials
 
@@ -75,3 +84,4 @@ These documents are subject to continuous tinkering. The latest version can alwa
 
 {% endif %}
 {% endfor %}
+
