@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Ny bok: <i>Om arabiska</i>'
+title: 'Ny bok: Om arabiska'
 permalink: /om-arabiska/
 lang: sv
 length: medium
