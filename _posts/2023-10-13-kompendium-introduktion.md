@@ -1,0 +1,28 @@
+---
+layout: post
+title: 'Introduktion till arabiska: kompendium med övningar'
+permalink: /kompendium-introduktion/
+lang: sv
+length: short
+tags:
+  - teaching-materials
+  - tafl
+document: /documents/kompendium-introduktion.pdf
+documenttitle: 'Introduktion till arabiska: kompendium med övningar'
+thumbnail: /images/kompendium.thumbnail.png
+minidoc: /images/introduktion-kompendium.minidoc.png
+# updates: 
+#  - date:
+#    contents:
+---
+
+Jag har nyligen färdigställt ett kompendium om ca. 50 sidor som nu används på introduktionskursen i arabiska vid Göteborgs universitet. Kompendiet går igenom hur man skriver och uttalar arabiska och innehåller en mängd övningar med tillhörande facit. Många övningar har tillhörande ljud- eller videomaterial som är länkat i pdf:en. Det finns också övningar i att transkriberar arabiska till latinska bokstäver enligt det system som rekommenderas av Språkrådet (*Library of Congress* systemet, *ḍ, kh, ā*.). Kompendiet är uppdelat i två delar. Första delen går igenom alfabetet och uttal och den andra dalen presenterar ett vardagsnära ordförråd om ca. 100 ord, användbara vardagliga fraser och några grundläggande grammatiska strukturer. Fokus ligger på standardarabiska, med några exempel på levantiska talspråksformer i gloslistorna. Dokumentet kan laddas ner [här](/documents/kompendium-introduktion.pdf).
+
+Det följande är ett exempel på en sida ur kompendiet:
+
+<!-- [![Dokumentbild](/images/introduktion-kompendium.minidoc.png)](/documents/kompendium-introduktion.pdf) -->
+
+
+[![Ducument image]({{ page.minidoc }})]({{ page.document }})
+
+Kompendiet har nu använts för introduktionskursen i arabiska på GU en vända, och en del småfel och otydligheter har korrigerats och hamrats ut. Jag kommer kontinuerligt uppdatera och förbättra materialet allteftersom det används i framtida kurser. Den närmaste planen är att lägga till fler övningar. Jag tar också gärna emot feedback från eventuella andra läsare.

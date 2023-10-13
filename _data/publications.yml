@@ -1,3 +1,11 @@
+- title: '<i>Om arabiska: en kort språkvetenskaplig introduktion</i>'
+  lang: sv
+  author: Hallberg, A.
+  year: 2023
+  pdf: https://gupea.ub.gu.se/handle/2077/76851
+  oa: true
+  ref: Göteborgs universitet.
+
 - title: 'Standard language ideology and prescriptivism in the Arabic-speaking world'
   lang: en
   author: Hallberg, A.
@@ -31,7 +39,6 @@
   oa: true
   abstract: |
     The Arabic script has a set of optional diacritics (<i>taškīl</i>) that primarily indicate short vowels. These diacritics are used to varying extents, giving a form of orthographic variation potentially affecting every word in a text and various aspects of the reading process. This study is the first empirical investigation into the variation in how Arabic diacritics are used. It employs quantitative corpus linguistic methods to explore diacritization in a 72-million-word corpus consisting of book-length texts of various genres. Children's literature and poetry were found to vary considerably in the number of diacritics used, while books of normal prose fall within a narrow range of limited use of diacritics. Furthermore, the different diacritics, subdivided by function, were found to follow a hierarchical order of priority that is largely consistent across genres. These findings call into question common descriptions of the Arabic writing system as binarily diacritized or undiacritized. Further lines of research based on these findings are suggested.
-
 
 - title: 'Variation in the use of diacritics in modern typeset Standard Arabic: a theoretical and descriptive framework'
   lang: en
