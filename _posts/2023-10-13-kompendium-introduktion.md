@@ -16,7 +16,7 @@ minidoc: /images/introduktion-kompendium.minidoc.png
 #    contents:
 ---
 
-Jag har nyligen färdigställt ett kompendium om ca. 50 sidor som nu används på introduktionskursen i arabiska vid Göteborgs universitet. Kompendiet går igenom hur man skriver och uttalar arabiska och innehåller en mängd övningar med tillhörande facit. Många övningar har tillhörande ljud- eller videomaterial som är länkat i pdf:en. Det finns också övningar i att transkriberar arabiska till latinska bokstäver enligt det system som rekommenderas av Språkrådet (*Library of Congress* systemet, *ḍ, kh, ā*.). Kompendiet är uppdelat i två delar. Första delen går igenom alfabetet och uttal och den andra dalen presenterar ett vardagsnära ordförråd om ca. 100 ord, användbara vardagliga fraser och några grundläggande grammatiska strukturer. Fokus ligger på standardarabiska, med några exempel på levantiska talspråksformer i gloslistorna. Dokumentet kan laddas ner [här](/documents/kompendium-introduktion.pdf).
+Jag har nyligen färdigställt ett kompendium om ca. 50 sidor som nu används på introduktionskursen i arabiska vid Göteborgs universitet. Kompendiet går igenom hur man skriver och uttalar arabiska och innehåller en mängd övningar med tillhörande facit. Många övningar har ljud- eller videomaterial som är länkat i pdf:en. Det finns också övningar i att transkriberar arabiska till latinska bokstäver enligt det system som rekommenderas av Språkrådet (*Library of Congress* systemet, *ḍ, kh, ā*). Kompendiet är uppdelat i två delar. Första delen går igenom alfabetet och uttal och den andra dalen presenterar ett vardagsnära ordförråd om ca. 100 ord, användbara vardagliga fraser och några grundläggande grammatiska strukturer. Fokus ligger på standardarabiska, men det finns några exempel på levantiska talspråksformer i gloslistorna. Kompendiet kan laddas ner [här](/documents/kompendium-introduktion.pdf).
 
 Det följande är ett exempel på en sida ur kompendiet:
 
@@ -25,4 +25,4 @@ Det följande är ett exempel på en sida ur kompendiet:
 
 [![Ducument image]({{ page.minidoc }})]({{ page.document }})
 
-Kompendiet har nu använts för introduktionskursen i arabiska på GU en vända, och en del småfel och otydligheter har korrigerats och hamrats ut. Jag kommer kontinuerligt uppdatera och förbättra materialet allteftersom det används i framtida kurser. Den närmaste planen är att lägga till fler övningar. Jag tar också gärna emot feedback från eventuella andra läsare.
+Kompendiet har nu använts en vända i introduktionskursen i arabiska på GU och en del småfel och otydligheter har korrigerats och hamrats ut. Jag kommer kontinuerligt att uppdatera och förbättra materialet allteftersom det används i framtida kurser. Den närmaste planen är att lägga till fler övningar. Jag tar gärna emot feedback från eventuella andra läsare.
