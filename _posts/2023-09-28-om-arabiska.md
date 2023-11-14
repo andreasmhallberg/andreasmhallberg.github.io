@@ -5,7 +5,7 @@ permalink: /om-arabiska/
 lang: sv
 length: medium
 tags:
-  - tafl
+  - teaching-materials
 thumbnail: /images/om-arabiska.thumbnail.png
 # updates: 
 #  - date:

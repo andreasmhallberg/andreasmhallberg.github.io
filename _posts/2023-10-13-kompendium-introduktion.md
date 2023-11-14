@@ -6,7 +6,6 @@ lang: sv
 length: short
 tags:
   - teaching-materials
-  - tafl
 document: /documents/kompendium-introduktion.pdf
 documenttitle: 'Introduktion till arabiska: kompendium med övningar'
 thumbnail: /images/kompendium.thumbnail.png
