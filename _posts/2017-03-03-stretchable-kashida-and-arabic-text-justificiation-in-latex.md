@@ -8,15 +8,36 @@ tags:
 - latex
 - typography
 updates: 
+    - date: 2023-11-14
+      contents: Update notice on texnegar added.
     - date: 2021-02-20
       contents: Editing and typo fixes.
     - date: 2020-09-23
       contents: Editing and readability improvements.
     - date: 2018-12-11
       contents: Commands to disable kashida added.
+excerpt: This post describes how to make stretchable pseudo-<it>kashidas</it> to lengthen words (كلمة طويـــــــلة) and how to automatically insert these at letter connections in order to justify Arabic text, that is, to make it have even right and left margins. The problem, solution, and the result is first presented in a non-technical way. Thereafter the implementation of the stretchable kashida in LaTeX is described.
 ---
 
-This post describes how to make stretchable pseudo-*kashidas* to lengthen words (كلمة طويـــــــلة) and how to automatically insert these at letter connections in order to justify Arabic text, that is, to make it have even right and left margins. The problem, solution, and the result is first presented in a non-technical way. Thereafter the implementation of the stretchable kashida in LaTeX is described.
+*UPDATE 2023-11-14*
+
+*After this blog post was published, [`texnegar`](https://www.ctan.org/pkg/texnegar) by Hossein Movahhedian has been made available, a package that implements the functionality described here. It builds on and improves the kashida implementation of [`XePersian`](https://www.ctan.org/pkg/xepersian) and, according to my testing, works well with Arabic. `texnegar` is the recommended way of implementing stretchable kashida.*
+
+*To get the functionality described below with XeLaTex, call `texnegar` as follows before `bidi` or any package that evokes it, such as `polyglossia`, is invoked:*
+
+``` latex
+\usepackage[
+    Minimal=On
+   ,Kashida=leaders+hrule
+   ,ligatures=default
+]{texnegar}
+```
+
+*The package disables the kashida in ligatures, but this is still experimental. To switch kashida on and off, for example to protect ligatures, use `\KashidaOn` and `\KashidaOff`.*
+
+---
+
+This post describes how to make stretchable pseudo-*kashidas* to lengthen words (كلمة&nbsp;طويـــــــلة) and how to automatically insert these at letter connections in order to justify Arabic text, that is, to make it have even right and left margins. The problem, solution, and the result is first presented in a non-technical way. Thereafter the implementation of the stretchable kashida in LaTeX is described.
 
 <!--
 \newenvironment{nokashida}{\renewcommand{\kashida}{\relax}}{}
