@@ -11,6 +11,8 @@ documenttitle: Hollow/Defective Verb Form I-X
 thumbnail: /images/verb-forms.thumbnail.png
 minidoc: /images/hollow-and-defective-verbs.minidoc.png
 updates: 
+  - date: 2024-01-29
+    contents: Modified presentation of hollow I 1s past.
   - date: 2023-12-28
     contents: Corrected defective present tense IV and II.
   - date: 2023-10-26
