@@ -21,7 +21,13 @@ Hallberg, A. (2023). *Om arabiska: En kort språkvetenskaplig introduktion*. Gö
 ([PDF](https://hdl.handle.net/2077/76851))
 
 Hallberg, A. (2016). *Case endings in Spoken Standard Arabic: Statistics, norms, and diversity in unscripted formal speech* \[Dissertation, Lund University\]. <https://lup.lub.lu.se/record/8524489>
-([PDF](http://lup.lub.lu.se/luur/download?func=downloadFile&recordOId=8524489&fileOId=8852155))
+([PDF](http://lup.lub.lu.se/luur/download?func=downloadFile&recordOId=8524489&fileOId=8852155))  
+
+<span class="indent">
+Reviews: <a href="http://www.jstor.org/stable/26578121">2018</a>, <a
+href="https://www.geschkult.fu-berlin.de/e/semiarab/semitistik/zal/ausgaben/70/index.html">2019</a>
+</span>
+
 
 ## Articles
 
