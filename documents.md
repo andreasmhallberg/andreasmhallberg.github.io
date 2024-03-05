@@ -57,7 +57,7 @@ Hallberg, A. (2017). Några egenheter i arabisk standardspråksideologi. In H. R
 Hallberg, A. (2017). Zeittafel. Graphical timeline. In F. Weigelt, *Einführung in die arabische Grammatiktradition* (pp. 247–249). Harrassowitz.
 ([PDF](/documents/weigelt-2017-zeittafel.pdf))
 
-Kurayyim, M. (2017). Tawfiq basha och den nya musiken (A. Hallberg, Trans.). *Glänta*, *17*(2-3), 153–159.
+Kurayyim, M. (2017). Tawfiq Basha och den nya musiken (A. Hallberg, Trans.). *Glänta*, *17*(2-3), 153–159.
 
 Ḥamūd, M. (2017). Skammen (A. Hallberg, Trans.). *Glänta*, *17*(2-3), 32–38.
 
