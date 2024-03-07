@@ -14,7 +14,7 @@ tags:
  #    contents:
 ---
 
-Jag fick nyligen en fråga från en journalist om hur länge det funnits en arabisktalande minoritet i Sverige. Detta fick mig att börja fundera på vad det finns för information kring detta. Sverige för inge statistik över medborgarnas språk (Parkvall, 2009 för diskussion). Däremot har [Statistikmyndigheten](https://www.scb.se/) statistik över antalet utlandsfödda personer och deras ursprungsland. Dessa siffror kan ge en indirekt men ända talande bild av antalet arabisktalande i Sverige, hur länge det funnits en arabisktalande minoritet i Sverige, samt vilka arabiska dialekter de talar.
+Jag fick nyligen en fråga från en journalist om hur länge det funnits en arabisktalande minoritet i Sverige. Detta fick mig att börja fundera på vad det finns för information kring detta. Sverige för inge statistik över medborgarnas språk (se Parkvall, 2009 för diskussion). Däremot har [Statistikmyndigheten](https://www.scb.se/) statistik över antalet utlandsfödda personer och deras ursprungsland. Dessa siffror kan ge en indirekt men ända talande bild av antalet arabisktalande i Sverige, hur länge det funnits en arabisktalande minoritet i Sverige, samt vilka arabiska dialekter de talar.
 
 <img src="/documents/antalet-arabisktalande/fodelse.png"
 alt="Antalet utrikesfödda, arabisktalande länder" style="max-width:100%;">
