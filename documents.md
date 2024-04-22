@@ -8,8 +8,9 @@ permalink: /documents/
 [Books](#books)
 --- [Articles](#articles)
 --- [Book chapters](#book-chapters)
---- [Miscellaneous](#miscellaneous)
 --- [Teaching materials](#teaching-materials)
+--- [Media appearances](#media-appearances)
+--- [Miscellaneous](#miscellaneous)
 
 [CV-en](/documents/hallberg-cv-en.pdf)
 [CV-sv](/documents/hallberg-cv-sv.pdf)
@@ -23,10 +24,9 @@ Hallberg, A. (2023). *Om arabiska: En kort språkvetenskaplig introduktion*. Gö
 Hallberg, A. (2016). *Case endings in Spoken Standard Arabic: Statistics, norms, and diversity in unscripted formal speech* \[Dissertation, Lund University\]. <https://lup.lub.lu.se/record/8524489>
 ([PDF](http://lup.lub.lu.se/luur/download?func=downloadFile&recordOId=8524489&fileOId=8852155))  
 
-<span class="indent">
+
 Reviews: <a href="http://www.jstor.org/stable/26578121">2018</a>, <a
 href="https://www.geschkult.fu-berlin.de/e/semiarab/semitistik/zal/ausgaben/70/index.html">2019</a>
-</span>
 
 
 ## Articles
@@ -51,15 +51,6 @@ Hallberg, A. (2023). Standard language ideology and prescriptivism in the Arabic
 
 Hallberg, A. (2017). Några egenheter i arabisk standardspråksideologi. In H. Rahm (Ed.), *Vetenskapssocieteten i Lund. <span class="nocase">Årsbok</span> 2017* (pp. 39–48). Vetenskapssocieteten i Lund.
 ([PDF](/documents/Hallberg-2017-nagra-egenheter.pdf))
-
-## Miscellaneous
-
-Hallberg, A. (2017). Zeittafel. Graphical timeline. In F. Weigelt, *Einführung in die arabische Grammatiktradition* (pp. 247–249). Harrassowitz.
-([PDF](/documents/weigelt-2017-zeittafel.pdf))
-
-Kurayyim, M. (2017). Tawfiq Basha och den nya musiken (A. Hallberg, Trans.). *Glänta*, *17*(2-3), 153–159.
-
-Ḥamūd, M. (2017). Skammen (A. Hallberg, Trans.). *Glänta*, *17*(2-3), 32–38.
 
 ## Teaching materials
 
@@ -90,4 +81,34 @@ These documents are subject to continuous tinkering. The latest version can alwa
 
 {% endif %}
 {% endfor %}
+
+## Media appearances
+
+
+Bergh, E. (2024). Alkompis varnar för desinformation: “De vill att parallellsamhället ska bli starkt.” *Läget*. <https://sites.jmk.su.se/laget/alkompis-varnar-for-desinformation-de-vill-att-parallellsamhallet-ska-bli-starkt/7910>
+
+
+Walden, A., & Amiri, P. (2024). *Helvetet med Walden & Parisa* (No. 13). Munck Studios AB. <https://shows.acast.com/helvetet/episodes/13-adhd-medicinerad-mot-mensvark>
+
+
+Alpman, M. (2024). Vad vet du om sveriges näst största språk? *Forskning Och Framsteg*, *2*, 16. <https://fof.se/artikel/vad-vet-du-om-sveriges-nast-storsta-sprak/>
+
+
+Rasper, E. (2023). *Språket: Allt du vill veta om arabiska*. Sveriges Radio P1. <https://sverigesradio.se/avsnitt/allt-du-vill-veta-om-arabiska>
+
+Abd Allāh, N. (2023). *كتاب جديد يهدف الى تعريف السويديين باللغة العربية*. Radio Sweden Arabic. <https://sverigesradio.se/artikel/كتاب-جديد-يهدف-الى-تعريف-السويديين-باللغة-العربية>
+
+
+Etezaz, Y. (2023). Experten imponerad av Åkessons tal på arabiska. *Göteborgsposten*. <http://www.gp.se/1.114823207>
+
+Jakobsson, H. (2023). Segregation blev rasism när S kampanjar på arabiska. *Dagens Nyheter*. <https://www.dn.se/sverige/segregation-blev-rasism-nar-s-kampanjar-pa-arabiska/>
+
+## Miscellaneous
+
+Hallberg, A. (2017). Zeittafel. Graphical timeline. In F. Weigelt, *Einführung in die arabische Grammatiktradition* (pp. 247–249). Harrassowitz.
+([PDF](/documents/weigelt-2017-zeittafel.pdf))
+
+Kurayyim, M. (2017). Tawfiq Basha och den nya musiken (A. Hallberg, Trans.). *Glänta*, *17*(2-3), 153–159.
+
+Ḥamūd, M. (2017). Skammen (A. Hallberg, Trans.). *Glänta*, *17*(2-3), 32–38.
 
