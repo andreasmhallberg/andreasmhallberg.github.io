@@ -21,12 +21,14 @@ permalink: /documents/
 Hallberg, A. (2023). *Om arabiska: En kort språkvetenskaplig introduktion*. Göteborgs universitet. <https://gupea.ub.gu.se/handle/2077/76851>
 ([PDF](https://hdl.handle.net/2077/76851))
 
+&nbsp;&nbsp;&nbsp;Reviews: *Språktidningen* ([2024](https://spraktidningen.se/issues/2024-3/))
+
 Hallberg, A. (2016). *Case endings in Spoken Standard Arabic: Statistics, norms, and diversity in unscripted formal speech* \[Dissertation, Lund University\]. <https://lup.lub.lu.se/record/8524489>
 ([PDF](http://lup.lub.lu.se/luur/download?func=downloadFile&recordOId=8524489&fileOId=8852155))  
 
-
-Reviews: <a href="http://www.jstor.org/stable/26578121">2018</a>, <a
-href="https://www.geschkult.fu-berlin.de/e/semiarab/semitistik/zal/ausgaben/70/index.html">2019</a>
+&nbsp;&nbsp;&nbsp;Reviews:
+*Al-ʿArabiyya* ([2018](http://www.jstor.org/stable/26578121));
+*ZAL* ([2019](https://www.geschkult.fu-berlin.de/e/semiarab/semitistik/zal/ausgaben/70/index.html"))
 
 
 ## Articles
@@ -88,13 +90,13 @@ These documents are subject to continuous tinkering. The latest version can alwa
 Bergh, E. (2024). Alkompis varnar för desinformation: “De vill att parallellsamhället ska bli starkt.” *Läget*. <https://sites.jmk.su.se/laget/alkompis-varnar-for-desinformation-de-vill-att-parallellsamhallet-ska-bli-starkt/7910>
 
 
-Walden, A., & Amiri, P. (2024). *Helvetet med Walden & Parisa* (No. 13). Munck Studios AB. <https://shows.acast.com/helvetet/episodes/13-adhd-medicinerad-mot-mensvark>
+Walden, A., & Amiri, P. (2024). *Helvetet med Walden & Parisa* (Avsn.&nbsp;13). Munck Studios AB. <https://shows.acast.com/helvetet/episodes/13-adhd-medicinerad-mot-mensvark>
 
 
-Alpman, M. (2024). Vad vet du om sveriges näst största språk? *Forskning Och Framsteg*, *2*, 16. <https://fof.se/artikel/vad-vet-du-om-sveriges-nast-storsta-sprak/>
+Alpman, M. (2024). Vad vet du om sveriges näst största språk? *Forskning och Framsteg*, *2*, 16. <https://fof.se/artikel/vad-vet-du-om-sveriges-nast-storsta-sprak/>
 
 
-Rasper, E. (2023). *Språket: Allt du vill veta om arabiska*. Sveriges Radio P1. <https://sverigesradio.se/avsnitt/allt-du-vill-veta-om-arabiska>
+Rasper, E. (2023). *Språket.* Sveriges Radio P1. <https://sverigesradio.se/avsnitt/allt-du-vill-veta-om-arabiska>
 
 Abd Allāh, N. (2023). *كتاب جديد يهدف الى تعريف السويديين باللغة العربية*. Radio Sweden Arabic. <https://sverigesradio.se/artikel/كتاب-جديد-يهدف-الى-تعريف-السويديين-باللغة-العربية>
 
