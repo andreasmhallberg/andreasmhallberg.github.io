@@ -87,23 +87,44 @@ These documents are subject to continuous tinkering. The latest version can alwa
 ## Media appearances
 
 
-Bergh, E. (2024). Alkompis varnar för desinformation: “De vill att parallellsamhället ska bli starkt.” *Läget*. <https://sites.jmk.su.se/laget/alkompis-varnar-for-desinformation-de-vill-att-parallellsamhallet-ska-bli-starkt/7910>
+Bergh, E. ([2024](https://sites.jmk.su.se/laget/alkompis-varnar-for-desinformation-de-vill-att-parallellsamhallet-ska-bli-starkt/7910)).
+Alkompis varnar för desinformation: “De vill att parallellsamhället ska bli starkt.”
+*Läget*.
 
 
-Walden, A., & Amiri, P. (2024). *Helvetet med Walden & Parisa* (Avsn.&nbsp;13). Munck Studios AB. <https://shows.acast.com/helvetet/episodes/13-adhd-medicinerad-mot-mensvark>
+
+Walden, A., & Amiri, P. ([2024](https://shows.acast.com/helvetet/episodes/13-adhd-medicinerad-mot-mensvark)).
+*Helvetet med Walden & Parisa*
+(Avs.&nbsp;13).
+Munck Studios AB.
 
 
-Alpman, M. (2024). Vad vet du om sveriges näst största språk? *Forskning och Framsteg*, *2*, 16. <https://fof.se/artikel/vad-vet-du-om-sveriges-nast-storsta-sprak/>
+
+Alpman, M. ([2024](https://fof.se/artikel/vad-vet-du-om-sveriges-nast-storsta-sprak/)).
+Vad vet du om sveriges näst största språk?
+*Forskning och Framsteg*, *2*, 16.
 
 
-Rasper, E. (2023). *Språket.* Sveriges Radio P1. <https://sverigesradio.se/avsnitt/allt-du-vill-veta-om-arabiska>
 
-Abd Allāh, N. (2023). *كتاب جديد يهدف الى تعريف السويديين باللغة العربية*. Radio Sweden Arabic. <https://sverigesradio.se/artikel/كتاب-جديد-يهدف-الى-تعريف-السويديين-باللغة-العربية>
+Rasper, E. ([2023](https://sverigesradio.se/avsnitt/allt-du-vill-veta-om-arabiska)).
+*Språket.* Sveriges Radio P1.
 
 
-Etezaz, Y. (2023). Experten imponerad av Åkessons tal på arabiska. *Göteborgsposten*. <http://www.gp.se/1.114823207>
+Abd Allāh, N. ([2023](https://sverigesradio.se/artikel/كتاب-جديد-يهدف-الى-تعريف-السويديين-باللغة-العربية)).
+*كتاب جديد يهدف الى تعريف السويديين باللغة العربية*.
+Radio Sweden Arabic.
 
-Jakobsson, H. (2023). Segregation blev rasism när S kampanjar på arabiska. *Dagens Nyheter*. <https://www.dn.se/sverige/segregation-blev-rasism-nar-s-kampanjar-pa-arabiska/>
+
+
+Etezaz, Y. ([2023](http://www.gp.se/1.114823207)).
+Experten imponerad av Åkessons tal på arabiska.
+*Göteborgsposten*.
+
+
+Jakobsson, H. ([2023](https://www.dn.se/sverige/segregation-blev-rasism-nar-s-kampanjar-pa-arabiska/)).
+Segregation blev rasism när S kampanjar på arabiska.
+*Dagens Nyheter*.
+
 
 ## Miscellaneous
 
