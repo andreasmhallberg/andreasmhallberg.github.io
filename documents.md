@@ -22,14 +22,14 @@ Hallberg, A. (2023). *Om arabiska: En kort språkvetenskaplig introduktion*. Gö
 ([PDF](https://hdl.handle.net/2077/76851))
 
 &nbsp;&nbsp;&nbsp;Reviews:
-*Språktidningen* ([2024](https://spraktidningen.se/lasvart/bakgrund-till-sveriges-nast-storsta-sprak/));
+*Språktidningen* ([2024](https://spraktidningen.se/lasvart/bakgrund-till-sveriges-nast-storsta-sprak/)).
 
 Hallberg, A. (2016). *Case endings in Spoken Standard Arabic: Statistics, norms, and diversity in unscripted formal speech* \[Dissertation, Lund University\]. <https://lup.lub.lu.se/record/8524489>
-([PDF](http://lup.lub.lu.se/luur/download?func=downloadFile&recordOId=8524489&fileOId=8852155))  
+([PDF](http://lup.lub.lu.se/luur/download?func=downloadFile&recordOId=8524489&fileOId=8852155))
 
 &nbsp;&nbsp;&nbsp;Reviews:
 *Al-ʿArabiyya* ([2018](http://www.jstor.org/stable/26578121));
-*ZAL* ([2019](https://www.geschkult.fu-berlin.de/e/semiarab/semitistik/zal/ausgaben/70/index.html"))
+*ZAL* ([2019](https://www.geschkult.fu-berlin.de/e/semiarab/semitistik/zal/ausgaben/70/index.html")).
 
 
 ## Articles
