@@ -26,16 +26,16 @@ I de glosserade exemplen nedan är de arabiska elementen angivna i kursiv text o
 
   | Du vill inte att jag ska tunna ut, va? |
 
-  Första exemplet jag hört på ett svenskt infinitiv ("tunna", som i att tunna ut håret) används används i en arabisk mening som ett verbalnomen (*maṣdar*), antagligen i stället för *taxfīf* 'uttunning/att tunna ut'. Notera hur det här ordet därmed byter ordklass, från verb i svenska till att bli ett substantiv när det lånas in i arabiska.
+  Detta är det första exemplet jag hört på hur ett svenskt infinitiv ("tunna", som i "att tunna ut håret") används i en arabisk mening som ett verbalnomen (*maṣdar*), antagligen i stället för *taxfīf* 'uttunning/att tunna ut'. Notera hur det här ordet därmed byter ordklass, från verb i svenska till att bli ett substantiv när det lånas in i arabiska.
 
-- *2024-09-02* -- A. Vid åsynen av av ett par strumpor med vattenmelonmotiv.
+- *2024-08-19* -- A. Vid åsynen av av ett par strumpor med vattenmelonmotiv.
 
   | När | har | du | köpt | *battīx* | *jrābāt*? |
   | När | har | du | köpt | vattenmelon | strumpor |
 
   | När har du köpt vattenmelonstrumpor.| 
 
-  Växling till arabiska med med två substantiv. Bytet sker endast i lexikon, inte i syntax, i det att de arabiska orden är en ordagrann klarering ett svenskt (nybildat) sammansatt ord, det underliggande *vattenmelonstrumpor*. Arabisk syntax hade krävt en genitivkonstruktion (*iḍāfa*) med ordföljden *jrābāt battīx*, 'strumpor av vattenmelon'.
+  Växling till arabiska med med två substantiv. Bytet sker endast i lexikon, inte i syntax, i det att de arabiska orden är en ordagrann kalkering av ett svenskt (nybildat) sammansatt ord, underliggande *vattenmelonstrumpor*. Arabisk syntax hade krävt en genitivkonstruktion (*iḍāfa*) med ordföljden *jrābāt battīx*, 'strumpor av vattenmelon'.
 
 - *22-10-07* -- Samtal mellan unga kvinnor på café. Centrala Göteborg.
 
