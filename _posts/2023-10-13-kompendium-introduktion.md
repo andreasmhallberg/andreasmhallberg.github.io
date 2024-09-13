@@ -11,6 +11,8 @@ documenttitle: 'Introduktion till arabiska: kompendium med övningar'
 thumbnail: /images/kompendium.thumbnail.png
 minidoc: /images/introduktion-kompendium.minidoc.png
 updates: 
+  - date: 2024-09-13
+    contents: Korrigering av tryckfel. 
   - date: 2024-01-11
     contents: Korrektion i alfabetstabellen. 
   - date: 2023-10-16
