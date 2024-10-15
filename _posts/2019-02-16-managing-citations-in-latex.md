@@ -65,7 +65,7 @@ Now, when you have a bunch of references in `refs.bib`, you place this file in t
 
 The first line loads the BibLaTeX package that we use to handle references. With this package we set one basic option, `style=authordate`, which tells BibLaTeX to use parenthesis type citations. The default, `numeric`, produces numbered citations in the running text, as is common in the sciences. There are a whole bunch of styles to choose from, listed on p. 67ff in the [`biblatex` manual](http://mirrors.ctan.org/macros/latex/contrib/biblatex/doc/biblatex.pdf). You can get other ones as well. 
 
-The `\addbibresource` command specifies in which file to look for the references. In our case we have the references in the file `refs.bib` as described above. This can also be a path to a file anywhere on your machine. This is useful because it allows you to have one `.bib` file with all references you might ever want to cite in any paper, all gathered in one place, which can be called from different `.tex` files for different project.
+The `\addbibresource` command specifies in which file to look for the references. In our case we have the references in the file `refs.bib` as described above. This can also be a path to a file anywhere on your machine. This is useful because it allows you to have one `.bib` file with all references you might ever want to cite in any paper, all gathered in one place, which can be called from different `.tex` files for different projects.
 
 So with this in the preamble we can start adding citations in the running text:
 
@@ -96,7 +96,7 @@ This is because you need to run another program, `biber`, on the file to match t
 biber article
 ```
 
-Then you compile the `.tex` file as normal again then all the citations and the bibliography should be render properly. If you use a GUI LaTeX editor like TeXShop to compile the document, you have to set the BibTeX engine to `biber` in the preferences.
+Then when you compile the `.tex` file as normal again all the citations and the bibliography should be render properly. If you use a GUI LaTeX editor like TeXShop to compile the document, you have to set the BibTeX engine to `biber` in the preferences.
 
 
 ![Pdf post-biber](/images/2019-02-16/post-biber.png)
