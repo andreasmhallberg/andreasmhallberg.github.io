@@ -8,7 +8,7 @@ tags:
 - misc
 updates:
 - date: 2019-02-08
-  contents: Exempel nu i omvänd kronologisk ordning med senaster först.
+  contents: Exempel nu i omvänd kronologisk ordning.
 ---
 
 Det följande är intressanta och/eller lustiga exempel på spontan svenska-arabisk kodväxling som jag noterat i min omgivning. Listan utvidgas kontinuerligt i och med att ny data tillkommer.
