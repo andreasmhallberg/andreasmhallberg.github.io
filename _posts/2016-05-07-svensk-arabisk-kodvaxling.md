@@ -30,7 +30,7 @@ I de glosserade exemplen nedan är de arabiska elementen angivna i kursiv text o
 
 - *2024-08-19* -- A. Vid åsynen av av ett par strumpor med vattenmelonmotiv.
 
-  | När | har | du | köpt | *battīx* | *jrābāt*? |
+  | När | har | du | köpt | *baṭṭīx* | *jrābāt*? |
   | När | har | du | köpt | vattenmelon | strumpor |
 
   | När har du köpt vattenmelonstrumpor.| 
