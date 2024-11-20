@@ -7,7 +7,7 @@ tags:
   - typography
 layout: post
 permalink: /unicode-for-arabists/
-excerpt: This post is a practically oriented introduction to Unicode for people regularly writing in or about Arabic. In Arabic digital text, a lot of work is done under the hood to rearrange and connect letters for correct display. Quite often, however, this system produces undesired results, such as punctuation jumping around or words appearing in the incorrect order. Understanding these problems, and solving them, requires some basic understanding of Unicode in order to engage with the text on the level of digital encoding, rather than on the level of visual display.
+excerpt: This post is a practically oriented introduction to Unicode for people regularly writing in or about Arabic. In Arabic digital text, a lot of work is done under the hood to rearrange and connect letters for correct display. Quite often, however, this system produces undesired results, such as punctuation jumping around or words appearing in the incorrect order. Understanding these problems, and solving them, requires some basic understanding of Unicode in order to engage with the text at the level of digital encoding, rather than at the level of visual display.
 ---
 
 *This post is based on a presentation gave in the [Digital Area Studies seminar](https://ikos-dighum.github.io/) at University of Oslo, Department of Culture Studies and Oriental Languages, May 30, 2022.*
@@ -15,7 +15,7 @@ excerpt: This post is a practically oriented introduction to Unicode for people 
 This post is a practically oriented introduction to Unicode for people regularly writing in or about Arabic. In Arabic digital text, a lot of work is done under the hood to rearrange and connect letters for correct display. Quite often, however, this system produces undesired results, such as punctuation jumping around or words appearing in the incorrect order. Understanding these problems, and solving them, often requires some basic understanding of Unicode in order to engage with the text on the level of digital encoding, rather than on the level of visual display.
 
 {:.box}
-*Vim: Throughout this post I have included boxes with tips on how to do things in [Vim](https://www.vim.org/)/[Neovim](https://neovim.io/), my editor of choice. If you are not a Vim user, these boxes can be ignored, and I hope they are not too distracting.*
+*Vim: Throughout this post, I have included boxes with tips on how to do things in [Vim](https://www.vim.org/)/[Neovim](https://neovim.io/), my editor of choice. If you are not a Vim user, these boxes can be ignored, and I hope they will not be too distracting.*
 
 *Contents*
 
@@ -24,7 +24,7 @@ This post is a practically oriented introduction to Unicode for people regularly
 
 ## Unicode basics
 
-Unicode has been the standard for digital text encoding since the early 2000s. It provides one coherent system for encoding virtually all forms of written language in current us (as well as those not in use) and replaces the plethora of different encoding system that were used previously. If you are typing letters other than those in the English alphabet, or non-English text on screen, the text is almost guaranteed to be encoded in Unicode.
+Unicode has been the standard for digital text encoding since the early 2000s. It provides one coherent system for encoding virtually all forms of written language in current use (as well as those not in use) and replaces the plethora of different encoding system that were used previously. If you are typing letters other than those in the English alphabet, the text is almost guaranteed to be encoded in Unicode.
 
 For a more detailed yet accessible explanation of Unicode, see [*What Every Programmer Absolutely, Positively Needs To Know About Encodings And Character Sets To Work With Text*](https://kunststube.net/encoding/). I also highly recommended having a look at *The Unicode Standard* ([2019](http://www.unicode.org/versions/Unicode12.0.0/UnicodeStandard-12.0.pdf)), the official documentation. It is a highly readable and accessible document, even for a non-specialist. I recommend reading or skimming sections 1&nbsp;*Introduction* and 2&nbsp;*General structure* (around 70 pages), which give a good general understanding of the system on a conceptual level, and then reading the section on the specific language you are interested in.
 
@@ -32,7 +32,7 @@ For a more detailed yet accessible explanation of Unicode, see [*What Every Prog
 
 The Unicode standard for text encoding replaced the various extensions of ASCII (American Standard Code for Information Interchange) that had been used since its creation in 1963. ASCII encodes 128 characters: the upper- and lowercase Latin letters used in English, digits, basic punctuation, various non-printable control characters (that for our purposes can be ignored), as well as some mathematical and other symbols. These 128 characters have come to form the backbone of computer text. Programming languages only use these characters, for example
 
-On the most basic level, computers store information in binary form as ones and zeroes. Any ASCII character can be expressed as a series of seven ones and zeroes, seven bits. In the table, below, the three bits on the top row shows the first three bits of character and the bits in the leftmost column show the first four. The first three bits can more conveniently be expressed as the digits 0-7 and the last four. These four bits can combine in 16 different ways. Rather than labeling these combinations as numbers 1--16, we label them with hexadecimals, from  0--F (like the normal decimal system of 0--9 but extended with A-F to get a total of sixteen, A=11, B=12, etc.). This hexadecimal system will be important later. 
+On the most basic level, computers store information in binary form as ones and zeroes. Any ASCII character can be expressed as a series of seven ones and zeroes, seven bits. In the table, below, the three bits on the top row shows the first three bits of character and the bits in the leftmost column show the last four. The first three bits can more conveniently be expressed as the digits 0-7 and the last four. These four bits can combine in 16 different ways. Rather than labeling these combinations as numbers 1--16, we label them with hexadecimals, from  0--F (like the normal decimal system of 0--9 but extended with A-F to get a total of sixteen, A=11, B=12, etc.). This hexadecimal system will be important later. 
 
 |          |     | **000** | **001** | **010** | **011** | **100** | **101** | **110** | **111** |
 |          |     | *0*     | *1*     | *2*     | *3*     | *4*     | *5*     | *6*     | *7*     |
@@ -55,11 +55,11 @@ On the most basic level, computers store information in binary form as ones and 
 
 ASCII, as the name implies, was developed as an American system. It  is a very efficient way to store text digitally---if you only need to write text in English. To be able to write non-English letters, people started to device extensions of ASCII to allow for more characters to be included. Most of these extensions used an additional eighth bit, doubling the amount of code points to 256. Imagine the table above twice next to one another. The old ASCII characters were typically retained in positions 0--128, as above, with the new positions 129-256 being used for new characters. For example, [The Multinational Character Set](https://en.wikipedia.org/wiki/Multinational_Character_Set) extends ASCII to include letters required in many European languages, and [ISCII](https://en.wikipedia.org/wiki/Indian_Script_Code_for_Information_Interchange) extends ASCII to write various Indic languages.
 
-The problem with these extensions was that there as soon a number of different standards floating around, and you needed to know when opening a file in what standard it was encoded, otherwise the characters would be jumbled and incomprehensible. If a text was written in the Indian ISCII and decoded with the Multinational Character Set, the bit sequence 1111010 would be displayed as § rather than the indented उ, and similar things would happen to all characters in the file.  Opening text files with all characters jumbled used to be quite a common experience. And, of course, writing in several languages in the same text was quite complicated. Overall, multilingual digital text was a bit of a mess.
+The problem with these extensions was that there was soon a number of different standards floating around, and you needed to know when opening a file in what standard it was encoded, otherwise the characters would be jumbled and incomprehensible. If a text was written in the Indian ISCII and decoded with the Multinational Character Set, the bit sequence 1111010 would be displayed as § rather than the indented उ, and similar things would happen to all characters in the file.  Opening text files with all characters jumbled used to be quite a common experience. And, of course, writing in several languages in the same text was quite complicated. Overall, multilingual digital text was a bit of a mess.
 
-Enter Unicode. The idea behind Unicode is to create a scheme for character encoding in which all languages are represented on an even keel in one and the same scheme. The ASCII inventory is neat in that it is has a very small and carefully selected inventory of 128 code points, expressed in a mere seven bits, giving 2⁷ (128) code points. In Unicode, by contrast, each code points is at least sixteen bits, giving 2¹⁶ (65,536) code points, but they have variable length and can be up to 32 bits. In total Unicode has 1,114,112 code points, that is, over a million different characters can be encoded. This is a lot. It is more than enough space to encode all characters from all written languages that have ever been in use. As of 2021 (Unicode v.14), 144,697 of these code points are actually assigned to characters. The biggest chunk of the, 92,865 code points, are assigned to Chinese characters. And there is lots of space to spare for future expansions. Crucially, Unicode incorporates ASCII in that the first 128 code points of Unicode are identical to ASCII, so that any text written in ASCII is also readable with Unicode encoding
+Enter Unicode. The idea behind Unicode is to create a scheme for character encoding in which all languages are represented on an even keel in one and the same scheme. The ASCII inventory is neat in that it is has a very small and carefully selected inventory of 128 code points, expressed in a mere seven bits, giving 2⁷ (128) code points. In Unicode, by contrast, each code points is at least sixteen bits, giving 2¹⁶ (65,536) code points, but they have variable length and can be up to 32 bits. In total Unicode has 1,114,112 code points, that is, over a million different characters can be encoded. This is a lot. It is more than enough space to encode all characters from all written languages that have ever been in use. As of 2021 (Unicode v.14), 144,697 of these code points are actually assigned to characters. The biggest chunk of these, 92,865 code points, are assigned to Chinese characters. And there is lots of space to spare for future expansions. Crucially, Unicode incorporates ASCII in that the first 128 code points of Unicode are identical to ASCII, so that any text written in ASCII is also readable with Unicode encoding
 
-Unicode currently encodes 159 scripts. Note that scripts are not the same as languages. For example, Swedish and English both use the same Latin script, and Arabic and Farsi use the same Arabic script, or slightly different sets of characters from the same script. The number of languages fully represented in Unicode is therefor far higher than the number of scripts. Indeed, I dare you to find a language that cannot be written in Unicode. In additions to languages of the normal sort, a large number of other sign systems are covered; forms of musical notion, emojis, astrological and alchemical symbols, typographical ornaments, and what have. Here is a small tasting, just to give some a sense of the breadth of things covered:
+Unicode currently encodes 159 scripts. Note that scripts are not the same as languages. For example, Swedish and English both use the same Latin script, and Arabic and Farsi use the same Arabic script, or slightly different sets of characters from the same script. The number of languages fully represented in Unicode is therefor far higher than the number of scripts. Indeed, I dare you to find a language that cannot be written in Unicode. In addition to languages of the normal sort, a large number of other sign-systems are covered: forms of musical notion, emojis, astrological and alchemical symbols, typographical ornaments, and what have you. Here is a small tasting, just to give some sense of the breadth of things covered:
 
 - A
 - Æ
@@ -74,18 +74,18 @@ Unicode currently encodes 159 scripts. Note that scripts are not the same as lan
 - ᭷&nbsp;(Balinese musical symbol, right-hand closed *tak*)
 - ༗&nbsp;(Tibetan astrological sign *sgra gcan*)
 
-To familiarize yourself with the Unicode world, and to get some sense of its vastness, it is a nice little exercise to casually explore the Unicode inventory. [This](https://unicode-table.com/en/blocks/) is a good place to start. On Mac, if you have enabled *Show keyboard and emoji viewers in menu bar* in the keyboard settings, you can do this with brows the symbols in *Show Emoji & Symbols* from that menu. On Windows, you can find a similar functionality under *System Tools/Symbol Table.*
+To familiarize yourself with the Unicode world, and to get some sense of its vastness, it is a useful to try an casually explore the Unicode inventory. [This](https://unicode-table.com/en/blocks/) is a good place to start. On Mac, if you have enabled *Show keyboard and emoji viewers in menu bar* in the keyboard settings, you can brows the symbols in *Show Emoji & Symbols* in that menu. On Windows, you can find a similar functionality under *System Tools/Symbol Table.*
+
+{:.box}
+*Vim: With the excellent [unicode.vim plugin](https://github.com/chrisbra/unicode.vim) you can do :UnicodeTable to open the entire Unicode inventory as a massive table in plain text to browse through at your convenience.*
 
 ### Unicode design principles
 
 As explained above, any given character from any script has a unique code point, essentially its binary sequence. Most characters consist of 16 bits (16 ones and zeroes), and every set of four bits can be expressed with one hexadecimal number. A code point in Unicode, which references a character, can therefore be express by four hexadecimals. For example, the letter Æ has the code point 00C6. This is preceded by U+ to indicate that this number is referring to a Unicode code point: U+00C6. The Arabic letter ج has the code point U+0626. Having access to these code points comes in handy, as we will see below.
 
-{:.box}
-*Vim: With the excellent [unicode.vim plugin](https://github.com/chrisbra/unicode.vim) you can do :UnicodeTable to open the entire Unicode inventory as a massive table in plain text to browse through at your convenience.*
-
 Unicode thus provides a framework to digitally encode text from any given language. A Unicode text (as well as text in other coding scheme) is thus a series of numbers, normally expressed in hexadecimals, that each reference a character. When the computer reads this in order to display it on screen, it looks up matches to those numbers in the font you are using and displays these matches as human readable text. Naturally, no font has has all these 1,114,112 characters represented. If the file contains a character that is not represented in the font you are using, the computer will instead show a replacement character, often&nbsp;�. Some software will look for the character in other fonts available in the system, and, if found, display that one character in this other font. MS Word does this, for example. While this does show the character, the result is often note very pleasing.
 
-In Unicode, each character (each code point) is associated with a set of properties that determine, among other things, how the character interact with other characters. These properties are not stored in the file itself, which is just a list of numbers, but is references in a separate database. The most important of these properties for our purposes are:
+In Unicode, each character (each code point) is associated with a set of properties that determine, among other things, how the character interact with other characters. These properties are not stored in the file itself (which is just a list of ones and zeroes representing letters) but is references in a separate database. The most important of these properties for our purposes are:
 
 - *Name*, an English descriptive name that is unique to that character, typically including the name of the script. This name is by convention in all ASCII uppercase letters. The name of Æ, for example, is LATIN CAPITAL LETTER AE.
 - *Category.* Whether the character is punctuation, letter, digit, upper or lower case, a control character, etc.
@@ -102,11 +102,11 @@ We well return to these properties below.
 
 The true power of Unicode is that it gives you access to some 100,000 characters in one unified framework. However, no (practically useful) keyboard has 100,000 keys, and you only ever need a very small subset of all these characters, even in complex multilingual text.
 
-There are three basic ways to access these characters in order to type or otherwise inciter them in a file:
+There are three basic ways to access these characters in order to type or otherwise insert them in a file:
 
-1. *With the keyboard.* This is, of course, the most basic and everyday way to inter characters into a file. Every key on the keyboard is assigned a Unicode code point associated with a character. Which character is assigned to which key is essentially arbitrary, allowing for different keyboard layouts to be used for different language and purposes on the same physical keyboard. When using a Swedish layout, some keys will produce different characters then when using an American layout. This method, however, only provides access to a small set of characters (those that can fit on the keyboard) and typically only from one language at the time. Often this is all you need.
+1. *With the keyboard.* This is, of course, the most basic and everyday way to enter characters into a file. Every key on the keyboard is assigned a Unicode code point associated with a character. Which character is assigned to which key is essentially arbitrary, allowing for different keyboard layouts to be used for different language and purposes on the same physical keyboard. When using a Swedish layout, some keys will produce different characters then when using an American layout. This method, however, only provides access to a small set of characters (those that can fit on the keyboard) and typically only from one language at the time. Often this is all you need.
 
-2. *Manual selection.* There are many programs that allow you to browse through or search the Unicode inventory for a character that you can then copy or otherwise insert into a document. Most operating systems ships with applications that do this (see above). A simple, low-tech way to do this is to do an internet search for *Unicode* and the name of the character you are looking for and then copy and paste the character from the browser.
+2. *Manual selection.* There are many programs that allow you to browse through or search the Unicode inventory for a character that you can then copy or otherwise insert into a document. Most operating systems ship with applications that do this (see above). A simple, low-tech way to do this is to do an internet search for *Unicode* and the name of the character you are looking for and then copy and paste the character from the browser.
 
    {:.box}
    *Vim: With the [unicode.vim plugin](https://github.com/chrisbra/unicode.vim), you can type part of the name of Unicode character and while still in insert mode do <kbd>Ctrl</kbd>+<kbd>x</kbd> <kbd>Ctrl</kbd>+<kbd>z</kbd> to get a list of characters with a name that match that string. One of these can then be selected and inserted.*
@@ -137,9 +137,9 @@ or right-to-left
 
 > ‮Hello, hello. اسمي اندرياس. Hello again.
 
-This is, clearly, not how the text is intended to be read by humans. Either the Arabic or the English is incorrectly displayed. Nevertheless, displaying text in this way often makes editing it much more convenient.
+This is, clearly, not how the text is intended to be read by humans. Either the Arabic or the English is incorrectly displayed. Nevertheless, displaying text in this way often makes editing much more convenient.
 
-Most software displaying bidirectional text will instead rearrange letters to display them it in the *visual order*, that is, how it is intended to be read by humans. Here, the computer uses the directionality property for each character specified in Unicode to try to rearrange the characters for human consumption. The exact way this is done is quite complex as it tries to to account for punctuation, word boundaries, etc. The exact way this is done is specified in the [*Unicode Bidirectional Algorithm*](https://www.unicode.org/reports/tr9/) (which I have tired, and failed, to fully understand). The same line as above rearranged with this algorithm looks like this:
+Most software displaying bidirectional text will instead rearrange letters to display them it in the *visual order*, that is, how it is intended to be read by humans. Here, the computer uses the directionality property for each character specified in Unicode to try to rearrange the characters for human consumption. The exact way this is done is quite complex as it tries to account for punctuation, word boundaries, etc., as explained in the [*Unicode Bidirectional Algorithm*](https://www.unicode.org/reports/tr9/) (which I have tired, and failed, to fully understand). The same line as above rearranged with this algorithm looks like this:
 
 > Hello, hello. اسمي اندرياس. Hello again.
 
@@ -158,7 +158,7 @@ The first two introduce an embedded segment that is to be displayed in LTR or RT
 
 > Hello, hello. ‫اسمي اندرياس.‬ Hello again.
 
-Note how your browser now places dot in accordance with the Arabic visual ordering. If this same line displayed in an editor that shows control characters and displays the line in logical order, it looks something like this:
+Note how your browser now places the period in accordance with the Arabic visual ordering. If this same line displayed in an editor that shows control characters and displays the line in logical order, it looks something like this:
 
 
 > ‭Hello, hello. <202b>اسمي اندرياس.<202c> Hello again.
@@ -171,9 +171,15 @@ Displaying text like this is very helpful when editing bidirectional text in tha
 
 ## Arabic combining characters
 
-A class of Unicode characters that are of particular importance for Arabists is the *combining characters*. These are characters that a)&nbsp;take up no horizontal space and b)&nbsp;modify or adds to the preceding character. Arabic vowel signs (*fatḥa*, *ḍamma*, *kasra*, etc.) and letter diacritics used in linguistic transcription (*ḥ*, *š*, etc.) are of this class. Combining characters essentially stack on the preceding character.
+A class of Unicode characters that are of particular importance for Arabists is the *combining characters*. These are characters that
 
-Unicode has no restrictions on how combining character can be combined with one another or with non-combining characters (typically a letter) from any script. This means that you can do silly things such as ḍ̣̣͑͑͑, a *d* with three COMBINING LEFT RING ABOVE and three COMBINING DOT BELOW, have an Arabic letter with a bunch of *fatḥa*<!---->s and *kasra*<!---->s تََََََِِِِِِِ, or do something more creative: ( ▀ ͜͞ʖ▀). Since the combining characters are encoded as separate characters, even though they do not appear as such, hitting <kbd>Backspace</kbd> with the cursor after a letter with a diacritic will only remove the diacritic, the last character before the cursor in the logical order.
+a) take up no horizontal space, and
+
+b) modify or adds to the preceding character.
+
+Arabic vowel signs (*fatḥa*, *ḍamma*, *kasra*, etc.) and letter diacritics used in linguistic transcription (*ḥ*, *š*, etc.) are of this class. Combining characters essentially stack on the preceding character.
+
+Unicode has no restrictions on how combining character can be combined with one another or with non-combining characters (typically a letter) from any script. This means that you can do silly things such as ḍ̣̣͑͑͑, a *d* with three COMBINING LEFT RING ABOVE and three COMBINING DOT BELOW, have an Arabic letter with a bunch of *fatḥa*<!---->s and *kasra*<!---->s تََََََِِِِِِِ, or do something more creative: ( ▀ ͜͞ʖ▀). Since the combining characters are encoded as separate characters, even though they do not appear as such, hitting <kbd>Backspace</kbd> with the cursor after a letter with a diacritic will only remove the diacritic, the last character before the cursor in the logical order. (Although this may differ between applications.)
 
 Combining characters, by their nature, are not meant to be displayed in isolation without a letter to serve as their base. If you need show them isolation for purposes of demonstration the convention is to use ◌ DOTTED CIRCLE (U+25CC) as a place holder letter. A lone *fatḥa* is thus displayed  like this:&nbsp;◌َ. (Personally, I don't like the look of this for Arabic vowel diacritics and often prefer to use the Arabic *taṭwīl* character as a placeholder letter:&nbsp;ـَ, ـِ, ـّ, etc.)
 
@@ -190,15 +196,17 @@ The combining characters that are used in modern typography (*taškīl*, vowel d
 - ◌ّ U+0651 ARABIC SHADDA
 - ◌ْ U+0652 ARABIC SUKUN
 
-So, for example, ب directly followed by ◌َ will show up as بَ, both occupying the same horizontal space. An effect of this is that you cannot place the cursors between the letter and the diacritic and hit <kbd>Backspace</kbd> to erase only the letter, nor can you highlight the diacritic without also highlighting the letter, and vice versa. Editing vowel diacritic thus takes some getting used to. Furthermore, the letter and the diacritic must be directly adjacent to show up correctly. This is way you cannot, for example, show a letter and its diacritic in different colors. The (typically invisible) code that ends the color marking segment for the letter would have to be placed between the letter (ب) and the following diacritic (◌َ), breaking this sequence. Such effects, having different font features of for a letter and its diacritic, can only be achieved in very complex and roundabout ways.
+So, for example, ب directly followed by ◌َ will show up as بَ, both occupying the same horizontal space. An effect of this is that you cannot place the cursors between the letter and the diacritic and hit <kbd>Backspace</kbd> to erase only the letter, nor can you highlight the diacritic without also highlighting the letter, and vice versa. Editing vowel diacritic thus takes some getting used to. Furthermore, the letter and the diacritic must be directly adjacent to show up correctly. This is way you cannot, for example, show a letter and its diacritic in different colors. The (typically invisible) code that ends the color marking segment for the letter would have to be placed between the letter (ب) and the following diacritic (◌َ), breaking this sequence. Such effects, having different font features of for a letter and its diacritic, can therefore only be achieved in very complex and roundabout ways and is beyond the capabilities of most software.
 
 ### Dotted letters
 
-Arabic vowel diacritics should not be confused with the dots used to separate letters (*ʾiʿjām*), and the two are treated very differently in Unicode. The Arabic dotted letters are, of course, its own characters (ت U+062A, etc.), not combinations of characters, as are letters with vowel diacritics. However,  Unicode does provide dotless forms of dotted letter shapes, e.g., ٮ (ARABIC LETTER DOTLESS BEH U+066E). This is useful for transcribing historical texts where letter dots are used inconsistently or not at all as well as for pedagogical purposes. These dotless characters make it possible to show, for example, how the word فبقى 'and he stayed' is written before dots or added: ڡٮٯى. There are also characters for writing the letter-dots in isolation, e.g., ﮴ (ARABIC SYMBOL TWO DOTS ABOVE U+FBB4). These are, however, not combining characters and cannot be used to with the dotless forms "reconstruct" the dotted letter.
+Arabic vowel diacritics should not be confused with the dots used to separate letters (*ʾiʿjām*), and the two are treated very differently in Unicode. The Arabic dotted letters are, of course, its own characters (ت U+062A, etc.), not combinations of two characters, as are letters with vowel diacritics.
+
+However,  Unicode does provide dotless forms of dotted letter shapes, e.g., ٮ (ARABIC LETTER DOTLESS BEH U+066E). This is useful for transcribing historical texts where letter dots are used inconsistently or not at all. It is also useful for pedagogical purposes. These dotless characters make it possible to show, for example, how the word فبقى 'and he stayed' is written before dots or added: ڡٮٯى. There are also characters for writing the letter-dots in isolation, e.g., ﮴ (ARABIC SYMBOL TWO DOTS ABOVE U+FBB4). These are, however, not combining characters and cannot be used to with the dotless forms "reconstruct" the dotted letter.
 
 ### Enclosing marks
 
-A nice, if somewhat obscure, feature in the Arabic Unicode is the characters used for traditional Arabic typesetting of end of *aya*<!---->s, page numbers, years, etc. These are *enclosing combining marks*; they enclose any Arabic digits directly following them. There are five of these characters:
+A nice, if somewhat obscure, feature in the Arabic Unicode is the characters used for traditional Arabic typesetting *aya* numbers, page numbers, years, etc. These are *enclosing combining marks*: they enclose any Arabic digits directly following them. There are five of these:
 
 - ؀ U+0600 ARABIC NUMBER SIGN
 - ؁ U+0601 ARABIC SIGN SANAH
@@ -219,7 +227,7 @@ Below they are written with and without a space between the enclosing mark and t
 
 > <font face="Amiri">۝٣٤ ۝ ٣٤</font>
 
-(This enclosing may not show up properly in your browser, depending on your font setup. This page tries to show these examples, as well as the Quranic examples ones below, in the [Amiri](https://www.amirifont.org/) font. If this is unsuccessful, some characters may not appear in their intended shape. As a last resort, you could always copy lines form this page to a word processor and play around with different Arabic fonts until you find one that can display them properly.)
+(This enclosing may not show up properly in your browser, depending on your font setup. This page tries to show these examples, as well as the Quranic examples below, in the [Amiri](https://www.amirifont.org/) font. If this is unsuccessful, some characters may not appear in their intended shape. As a last resort, you could always copy lines form this page to a word processor and play around with different Arabic fonts until you find one that can display them properly.)
 
 ## Quranic orthography
 
@@ -237,7 +245,13 @@ Consider the following two examples:
 (For a real-life use of these examples, see [Hallberg 2016](https://lup.lub.lu.se/record/8524489): 73.)
 
 
-Note how the *sukūn* does not have the normal circular form of modern typography but the open form used in the Quran; how the double *ḍamma* in <font face="Amiri">بَرِىٓءࣱ</font> is two visually separated signs; how there is a small *alif* with *madda* on top of a letter *mīm* in <font face="Amiri">ٱلۡعُلَمَـٰۤؤُاْ</font>. All of specialized characters are can be inserted with reference to their code points or by manual lookup. There are a whole bunch of such Quran-specific characters Unicode. Unfortunately, they are a bit spread out on the space and do not have names that explicitly mentions the Quran, so it is a bit difficult to locate them all. These are the ones I have identified:
+Note how
+
+- the *sukūn* does not have the normal circular form of modern typography but the open form used in the Quran
+- the double *ḍamma* in <font face="Amiri">بَرِىٓءࣱ</font> is two visually separated signs
+- there is a small *alif* with *madda* on top of a letter *mīm* in <font face="Amiri">ٱلۡعُلَمَـٰۤؤُاْ</font>
+
+All these specialized characters can be inserted with reference to their code points or by manual lookup. There is a whole bunch of such Quran-specific characters Unicode. Unfortunately, they are a bit spread out in the inventory and do not have names that explicitly mentions the Quran, so it is a bit difficult to locate them all. These are the ones I have identified:
 
 |<font face="Amiri">◌ࣰ|U+08F0|ARABIC OPEN FATHATAN|
 |<font face="Amiri">◌ࣱ|U+08F1|ARABIC OPEN DAMMATAN|
@@ -276,11 +290,11 @@ The last two also appear in modern non-Quranic Arabic orthography, but only as p
 
 In digital Arabic typesetting, letters change form automatically to correctly bind with adjacent letter. Typing م then ا will produce ما. If you want to show bound forms in isolation, such as ‍ه‍, you need to be able to manipulate this behavior. This is useful, for example, in pedagogical contexts and in descriptions of Arabic typography or the Arabic writing system.
 
-Unicode features number of control characters to manipulate letter-binding. The most useful is  ZERO WIDTH JOINER (U+200D). As its name implies, it takes no space but causes adjacent letter to bind with it. With careful placement of this character, you can show all fours forms a letter they way they are typically displayed in Arabic textbooks:
+Unicode has number of control characters to manipulate letter-binding. The most useful is  ZERO WIDTH JOINER (U+200D). As its name implies, it takes no space but causes adjacent letter to bind with it. With careful placement of this character, you can show all fours forms a letter they way they are typically displayed in Arabic textbooks:
 
 > ه ه‍ ‍ه‍ ‍ه 
 
-This line displayed in logical with control characters visible shows as
+This line displayed in logical order with control characters visible shows as
 
 ```
 ‭ ه ه<200d> <200d>ه<200d> <200d>ه 
@@ -290,7 +304,7 @@ A similar effect can be achieved by the *taṭwil/kašīda* character ـ (ARABIC
 
 The ZERO WIDTH JOINER can also be used to disable unwanted ligatures introduced by the typeface. Depending on the typeface, ligatures kick in when two or more specific letters are used next to one another in a given sequence. ZERO WIDTH JOINER between these letters breaks the sequence, negating the ligature, yet allows the letters to connect. To be precise, both letters connect to the intervening ZERO WIDTH JOINER, but visually they will connect to one another. Here are a few examples with words to the right having a ZERO WIDTH JOINER to negate ligatures:
 
-(These are indented to be displayed in the Amiri font, which has a large number of ligatures. If they are displayed in another font with fewer ligatures, the left and right-hand side may for some words be identical.)
+(These are indented to be displayed in the Amiri font, which has a large number of ligatures. If they are displayed in another font with fewer ligatures, the left and right-hand side be identical for some words.)
 
 |                                    |                                                |
 | -:                                 | -:                                             |
@@ -308,7 +322,7 @@ There is also a somewhat less useful (for Arabic) ZERO WIDTH NON-JOINER (U+200C)
 
 Specialized characters are also needed for Latinate transcription of Arabic. This is primarily done with diacritics that are added to letters from the Latin alphabet: *ḥ, ā, š,* etc. These are handled in one of two ways in Unicode. The first is the same way as the Arabic vowel diacritics, with *combining characters*, independent characters that do not take up any horizontal space but add to the preceding letter. Thus, an *a* directly followed by ◌̄ (COMBINING MACRON U+0304) is displayed as *ā*. This *ā* is two separate characters displayed on one and the same letter position. If you place the cursor after this character and hit <kbd>Backspace</kbd>, it will only delete the last character in the sequence, i.e., the macron, leaving a lone&nbsp;*a*. 
 
-These are the combining character you should need for the system of Arabic transcription most commonly used in Arabic linguistics:
+These are the combining character you need for the system of Arabic transcription most commonly used in Arabic linguistics:
 
 - ◌̄ U+0304 COMBINING MACRON
 - ◌̱ U+0331 COMBINING MACRON BELOW
@@ -318,32 +332,34 @@ These are the combining character you should need for the system of Arabic trans
 
 As mentioned above, combining characters can be freely combined, to produce, for example, the&nbsp;*ḏ̣* used in some transcription systems.
 
-Note that all these characters also have "MODIFIER LETTER" versions that are identical in shape but that are not combining characters. They take up their on horizontal space like normal letters (e.g., ˉ MODIFIER LETTER MACRON U+02C9), *aˉ*.
+Note that all these characters also have "MODIFIER LETTER" versions that are identical in shape but that are not combining characters. They take up their on horizontal space like normal letters. For example, *a* followed by ˉ MODIFIER LETTER MACRON U+02C9 is displayed as *aˉ*.
 
-The second way this type of diacritic is handled in Unicode is in *recombined characters*. Continuing with our example, there is a precombined *ā* (LATIN SMALL A WITH MACRON U+0101). Since this is one single character, hitting <kbd>Backspace</kbd> after this character deletes the whole thing.
+The second way this type of diacritic is handled in Unicode is in *precombined characters*. Continuing with our example, there is a precombined *ā* (LATIN SMALL A WITH MACRON U+0101). Since this is one single character, hitting <kbd>Backspace</kbd> after this character deletes the whole thing.
 
-Then you only need
+Finally, you also need
 
 - ʾ U+02BE MODIFIER LETTER RIGHT HALF RING
 - ʿ U+02BF MODIFIER LETTER LEFT HALF RING
 
-for *ʿayn* and *hamza* and you're set.
+for *ʿayn* and *hamza*, and you're set.
 
-Now, if you type a lot of transcribed text, inserting these characters one by one with manual look-up, copying and pasting, or by typing character codes is tedious. For typing Arabic transcription, *Mamlūk Studies Review* provides the [Alt-Latin](http://mamluk.uchicago.edu/unicode.html) keyboard layout. This layout extends the American QUARTY-layout to include these extra characters with key-combinations. It comes highly recommended. In short it uses
+Now, if you type a lot of transcribed text, inserting these characters one by one with manual look-up, copying and pasting, or by typing character codes, is tedious. For typing Arabic transcription, *Mamlūk Studies Review* provides the [Alt-Latin](http://mamluk.uchicago.edu/unicode.html) keyboard layout. This layout extends the American QUARTY-layout to include these extra characters with key-combinations. It comes highly recommended. In short it uses
 
 - <kbd>Alt</kbd>+<kbd>a</kbd> [letter] for letter with macron
 - <kbd>Alt</kbd>+<kbd>.</kbd> [letter] for letter with dot below
 - <kbd>Alt</kbd>+<kbd>v</kbd> [letter] for letter with caron
 - <kbd>Alt</kbd>+<kbd>w</kbd> [letter] for letter with dot above
+- <kbd>Alt</kbd>+<kbd>p</kbd> for ʿ
+- <kbd>Alt</kbd>+<kbd>SHIFT</kbd>+<kbd>p</kbd> for ʾ
 
 The system is neatly and clearly explained on the webpage. The layout can be downloaded for Mac or Windows and is easy to install. It can then be accessed with the operating system's keyboard switching functionality. The characters produced by the Alt-Latin layout are the recombined versions of these letters, i.e., they are not an underlying letter and combining character together. 
 
 {:.box}
-*Vim: See [this previous post](/emulating-alt-latin-in-vim/) on how to implement the same functionality internally in Vim.*
+*Vim: See [this previous post](/emulating-alt-latin-in-vim/) on how to implement the same functionality internally in Vim, and [this post](/ergonomic-arabic-transcription/) for a more economic variant.*
 
 ### Hyphen in Arabic transcription
 
-A final (mildly pedantic) comment on Arabic transcription is on the use of the hyphen to delineate the definite article *al-* and other morphemes. The hyphen in transcription is functionally different from the hyphen used in normal text. The normal hyphen (HYPHEN MINUS U+002D) allows for line-breaks and is used for compound words or inserted to break up long words at the end of a line in justified text (text with a straight right-hand margin). It is entered by pressing the <kbd>-</kbd>-key on the keyboard. Using this normal hyphen in transcription may produce line-breaks within transcribed Arabic words. The problem with this is that the hyphen reads as being inserted for line-breaking rather than as part of the word. The following two examples (from Versteegh 1983: 140 and Suleiman 2011: 20) illustrate this:
+My final (mildly pedantic) comment on Arabic transcription is on the use of the hyphen to delineate the definite article *al-* and other morphemes. The hyphen in transcription is functionally different from the hyphen used in normal text. The normal hyphen (HYPHEN MINUS U+002D) allows for line-breaks and is used for compound words or inserted to break up long words at the end of a line in justified text (text with a straight right-hand margin). It is entered by pressing the <kbd>-</kbd>-key on the keyboard. Using this normal hyphen in transcription may produce line-breaks within transcribed Arabic words. The problem with this is that the hyphen reads as being inserted for line-breaking rather than as part of the word. The following two examples (from Versteegh 1983: 140 and Suleiman 2011: 20) illustrate this:
 
 
 ![Line break in transcribed Arabic text](/images/2022-10-30/versteegh1983-hyphenation.png)
@@ -355,7 +371,7 @@ To avoid this, you can instead use ‑ (NON-BREAKING - U+2011). This character i
 
 ## Conclusion
 
-Unicode, its pretty awesome.
+Unicode: it's pretty awesome.
 
 
 ## References
