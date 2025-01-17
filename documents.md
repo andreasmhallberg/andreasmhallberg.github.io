@@ -87,40 +87,31 @@ These documents are subject to continuous tinkering. The latest version can alwa
 
 ## Media appearances
 
+Fares, E. ([2025](https://www.etc.se/kultur-noje/foerlusten-av-arabiskan-aer-det-skamligaste-i-mitt-liv)). Att förlora arabiskan är det skamligaste i mitt liv. *Dagens ETC*.
 
 Bergh, E. ([2024](https://sites.jmk.su.se/laget/alkompis-varnar-for-desinformation-de-vill-att-parallellsamhallet-ska-bli-starkt/7910)).
 Alkompis varnar för desinformation: “De vill att parallellsamhället ska bli starkt.”
 *Läget*.
-
-
 
 Walden, A., & Amiri, P. ([2024](https://shows.acast.com/helvetet/episodes/13-adhd-medicinerad-mot-mensvark)).
 *Helvetet med Walden & Parisa*
 (Avs.&nbsp;13).
 Munck Studios AB.
 
-
-
 Alpman, M. ([2024](https://fof.se/artikel/vad-vet-du-om-sveriges-nast-storsta-sprak/)).
 Vad vet du om sveriges näst största språk?
 *Forskning och Framsteg*, *2*, 16.
 
-
-
 Rasper, E. ([2023](https://sverigesradio.se/avsnitt/allt-du-vill-veta-om-arabiska)).
 *Språket.* Sveriges Radio P1.
-
 
 Abd Allāh, N. ([2023](https://sverigesradio.se/artikel/كتاب-جديد-يهدف-الى-تعريف-السويديين-باللغة-العربية)).
 *كتاب جديد يهدف الى تعريف السويديين باللغة العربية*.
 Radio Sweden Arabic.
 
-
-
 Etezaz, Y. ([2023](http://www.gp.se/1.114823207)).
 Experten imponerad av Åkessons tal på arabiska.
 *Göteborgsposten*.
-
 
 Jakobsson, H. ([2023](https://www.dn.se/sverige/segregation-blev-rasism-nar-s-kampanjar-pa-arabiska/)).
 Segregation blev rasism när S kampanjar på arabiska.
