@@ -5,7 +5,8 @@ author: Andreas Hallberg
 permalink: /syrian-arabic-grammatical-summary/
 document: /documents/2020-11-08-syrian-arabic-grammatical-summary.md.pdf
 documenttitle: Syrian Arabic grammatical summary
-mainfont: Linux Libertine O
+numbersections: true
+mainfont: Linux Libertine
 geometry:
     - a4paper
 lang: en
@@ -38,15 +39,16 @@ updates:
     contents: Corrected spelling in Arabic script for numerals 11-19. Added subheading for auxiliary verbs. 
 header-includes:
     - \usepackage[bottom]{footmisc} 
-    - \newfontfamily\arabicfont[Script=Arabic]{Lateef}
-    - \newfontfamily\arabicfontsf[Script=Arabic]{Lateef}
-    - \newfontfamily\arabicfontit[Script=Arabic]{Lateef}
+  # - \newfontfamily\arabicfont[Script=Arabic]{Lateef}
+  # - \newfontfamily\arabicfontsf[Script=Arabic]{Lateef}
+  #[2] - \newfontfamily\arabicfontit[Script=Arabic]{Lateef}
+    - \babelfont[arabic]{rm}{Lateef}
     - \frenchspacing
     - \let\oldlongtable\longtable
     - \let\oldendlongtable\endlongtable
     - \renewenvironment{longtable}{\begin{minipage}{\textwidth}\oldlongtable}{\oldendlongtable\end{minipage}}
-    - \renewcommand{\toprule}{\null}
-    - \renewcommand{\bottomrule}{\null}
+    - \renewcommand{\toprule}[2]{\null}
+    - \renewcommand{\bottomrule}[2]{\null}
     - \usepackage{ccicons}
     - \usepackage{titleps}
     - \newpagestyle{mystyle}{\sethead{\itshape\today}{}{\thepage}\setfoot{\raisebox{-3cm}{\footnotesize Andreas Hallberg \ccby{} 2020, 2021. This document is available for download at \href{http://andreasmhallberg.github.io}{\textit{http://andreasmhallberg.github.io}}.}}{}{}}
@@ -59,8 +61,8 @@ mv 2020-11-08-syrian-arabic-grammatical-summary.md.pdf ../documents/
 
 *A pdf of this post for pretty printing can be found [here](/documents/2020-11-08-syrian-arabic-grammatical-summary.md.pdf).*
 
-- TOC
-{:toc}
+<!-- - TOC -->
+<!-- {:toc} -->
 
 ```
 This grammar is under construction. The
@@ -97,11 +99,11 @@ IPA symbols in square brackets are hyper-linked to [sound samples from Wikipedia
 ## Consonants
 
 Compared to Standard Arabic, several consonants are missing in Syrian Arabic, namely the dentals
-*th*&nbsp;<span lang="ar" dir="rtl">ث</span>,
-*dh*&nbsp;<span lang="ar" dir="rtl">ذ</span>, and
-*ẓ*&nbsp;<span lang="ar" dir="rtl">ظ</span>; as well as
-*q*&nbsp;<span lang="ar" dir="rtl">ق</span>.
-Furthermore, *j*&nbsp;<span lang="ar" dir="rtl">ج</span> is in Syrian Arabic pronounced&nbsp;[[ʒ]](https://upload.wikimedia.org/wikipedia/commons/3/30/Voiced_palato-alveolar_sibilant.ogg), as opposed to the Standard Arabic affricate&nbsp;[[ʤ]](https://upload.wikimedia.org/wikipedia/commons/e/e6/Voiced_palato-alveolar_affricate.ogg).
+*th*&nbsp;<span lang="ar">ث</span>,
+*dh*&nbsp;<span lang="ar">ذ</span>, and
+*ẓ*&nbsp;<span lang="ar">ظ</span>; as well as
+*q*&nbsp;<span lang="ar">ق</span>.
+Furthermore, *j*&nbsp;<span lang="ar">ج</span> is in Syrian Arabic pronounced&nbsp;[[ʒ]](https://upload.wikimedia.org/wikipedia/commons/3/30/Voiced_palato-alveolar_sibilant.ogg), as opposed to the Standard Arabic affricate&nbsp;[[ʤ]](https://upload.wikimedia.org/wikipedia/commons/e/e6/Voiced_palato-alveolar_affricate.ogg).
 
 ### Place and manner of articulation[^imageattr-art]
 
@@ -157,17 +159,17 @@ All consonants have a short and a long variant. The long variant is transcribed 
 
 For plosives (*ʾ, b, d, ḍ, t, ṭ, k*) the long variant is produced by briefly holding the air pressure before releasing it and producing the sound.
 
-Consonant length is not indicated in the Arabic script. Only very rarely is it marked with the diacritic&nbsp;<span lang="ar" dir="rtl">ـّ</span> (*shadda*).
+Consonant length is not indicated in the Arabic script. Only very rarely is it marked with the diacritic&nbsp;<span lang="ar">ـّ</span> (*shadda*).
 
 ## Vowels
 
 | Short |         | Long |                                                                                                 |                                    |
 | :-:   | :-      | :-:  | :-                                                                                              | -:                                 |
-| *i*   | [i]     | *ī* | [[iː]](https://upload.wikimedia.org/wikipedia/commons/9/91/Close_front_unrounded_vowel.ogg)     | <span lang="ar" dir="rtl">ي</span> |
-| *e*   | [e]/[ə] | *ē* | [[eː]](https://upload.wikimedia.org/wikipedia/commons/6/6c/Close-mid_front_unrounded_vowel.ogg) | <span lang="ar" dir="rtl">ي</span> |
-| *u*   | [u]     | *ū* | [[uː]](https://upload.wikimedia.org/wikipedia/commons/5/5d/Close_back_rounded_vowel.ogg)        | <span lang="ar" dir="rtl">و</span> |
-| *o*   | [o]     | *ō* | [[oː]](https://upload.wikimedia.org/wikipedia/commons/0/0e/PR-open_front_unrounded_vowel.ogg)   | <span lang="ar" dir="rtl">و</span> |
-| *a*   | [a]/[ɑ] | *ā* | [[æː]](https://upload.wikimedia.org/wikipedia/commons/c/c9/Near-open_front_unrounded_vowel.ogg)/[[ɑː]](https://upload.wikimedia.org/wikipedia/commons/e/e5/open_back_unrounded_vowel.ogg) | <span lang="ar" dir="rtl">ا</span> |
+| *i*   | [i]     | *ī* | [[iː]](https://upload.wikimedia.org/wikipedia/commons/9/91/Close_front_unrounded_vowel.ogg)     | <span lang="ar">ي</span> |
+| *e*   | [e]/[ə] | *ē* | [[eː]](https://upload.wikimedia.org/wikipedia/commons/6/6c/Close-mid_front_unrounded_vowel.ogg) | <span lang="ar">ي</span> |
+| *u*   | [u]     | *ū* | [[uː]](https://upload.wikimedia.org/wikipedia/commons/5/5d/Close_back_rounded_vowel.ogg)        | <span lang="ar">و</span> |
+| *o*   | [o]     | *ō* | [[oː]](https://upload.wikimedia.org/wikipedia/commons/0/0e/PR-open_front_unrounded_vowel.ogg)   | <span lang="ar">و</span> |
+| *a*   | [a]/[ɑ] | *ā* | [[æː]](https://upload.wikimedia.org/wikipedia/commons/c/c9/Near-open_front_unrounded_vowel.ogg)/[[ɑː]](https://upload.wikimedia.org/wikipedia/commons/e/e5/open_back_unrounded_vowel.ogg) | <span lang="ar">ا</span> |
 
 Note:
 
@@ -197,44 +199,44 @@ Word stress in Syrian Arabic is largely predictable and corresponds with the rul
 
 |      |    |       |         |                  |    |                 |         |              |                                             |
 | :-   | :- | :-    | :------ | :-               | :- | :-              | :------ | :-           | :-                                          |
-| *aw* | →  | *ō*  |         | *yawm*           | →  | *yōm*          |         | day          | <span lang="ar" dir="rtl">يوم</span>        |
-|      |    |       |         | *ṣawt*           |    | *ṣōt*          |         | sound/voice        | <span lang="ar" dir="rtl">صوت</span>        |
-| *ay* | →  | *ē*  |         | *bayn*           | →  | *bēn*          |         | between      | <span lang="ar" dir="rtl">بين</span>        |
-|      |    |       |         | *ṣabāḥ* al-khayr |    | *ṣbāḥ el-khēr* |         | Good morning | <span lang="ar" dir="rtl">صباح الخير</span> |
-| *q*  | →  | *ʾ*   |         | *daqīqa*        | →  | *daʾīʾa*       |         | minute       | <span lang="ar" dir="rtl">دقيقة</span>      |
-|      |    |       |         | *qalb*           |    | *ʾalb*          |         | heart        | <span lang="ar" dir="rtl">قلب</span>        |
-|      |    |       |         | *ṭāriq*         |    | *ṭāreʾ*        |         | Tariq (name) | <span lang="ar" dir="rtl">طارق</span>       |
-| *ẓ* | →  | *ḍ*   |         | *ẓuhr*          | →  | *ḍuhr*          |         | noon         | <span lang="ar" dir="rtl">ضهر</span>        |
-| *ʾ*  | →  | *ø*   |         | *masāʾ*         | →  | *masa*          |         | eavening     | <span lang="ar" dir="rtl">مسا</span>        |
-| *th* | →  | *t*   |         | *thalātha*      | →  | *tlāte*        |         | three        | <span lang="ar" dir="rtl">تلاتة</span>       |
-|      |    | *(s)* |         | *mathalan*       | →  | *masalan*       |         | for example  | <span lang="ar" dir="rtl">مثلا</span>        |
-| *dh* | →  | *d*   |         | *dhahab*         | →  | *dahab*         |         | gold         | <span lang="ar" dir="rtl">دهب</span>        |
-|      |    | *(z)* |         | *idha*           | →  | *iza*           |         | if           | <span lang="ar" dir="rtl">اذا</span>        |
+| *aw* | →  | *ō*  |         | *yawm*           | →  | *yōm*          |         | day          | <span lang="ar">يوم</span>        |
+|      |    |       |         | *ṣawt*           |    | *ṣōt*          |         | sound/voice        | <span lang="ar">صوت</span>        |
+| *ay* | →  | *ē*  |         | *bayn*           | →  | *bēn*          |         | between      | <span lang="ar">بين</span>        |
+|      |    |       |         | *ṣabāḥ* al-khayr |    | *ṣbāḥ el-khēr* |         | Good morning | <span lang="ar">صباح الخير</span> |
+| *q*  | →  | *ʾ*   |         | *daqīqa*        | →  | *daʾīʾa*       |         | minute       | <span lang="ar">دقيقة</span>      |
+|      |    |       |         | *qalb*           |    | *ʾalb*          |         | heart        | <span lang="ar">قلب</span>        |
+|      |    |       |         | *ṭāriq*         |    | *ṭāreʾ*        |         | Tariq (name) | <span lang="ar">طارق</span>       |
+| *ẓ* | →  | *ḍ*   |         | *ẓuhr*          | →  | *ḍuhr*          |         | noon         | <span lang="ar">ضهر</span>        |
+| *ʾ*  | →  | *ø*   |         | *masāʾ*         | →  | *masa*          |         | eavening     | <span lang="ar">مسا</span>        |
+| *th* | →  | *t*   |         | *thalātha*      | →  | *tlāte*        |         | three        | <span lang="ar">تلاتة</span>       |
+|      |    | *(s)* |         | *mathalan*       | →  | *masalan*       |         | for example  | <span lang="ar">مثلا</span>        |
+| *dh* | →  | *d*   |         | *dhahab*         | →  | *dahab*         |         | gold         | <span lang="ar">دهب</span>        |
+|      |    | *(z)* |         | *idha*           | →  | *iza*           |         | if           | <span lang="ar">اذا</span>        |
 
 Loans from Standard Arabic, including foreign Arabic place names, often retain the Standard Arabic pronunciation. In such words, *th* and *dh* are pronounced *s* and&nbsp;*z* respectively. Some examples are:
 
 | Syrian Arabic   | Standard Arabic  |           |                                            |
 | :-              | :-              | :-        | -:                                         |
-| *saqāfe*       | *thaqāfa*      | culture   | <span lang="ar" dir="rtl">ثقافة</span>     |
-| *ustāz*        | *ustādh*       | teacher   | <span lang="ar" dir="rtl">أستاذ</span>     |
-| *demuqrāṭiyye* | *dimuqrāṭiyya* | democracy | <span lang="ar" dir="rtl">ديمقراطية</span> |
-| *el-qurʾān*    | *al-qurʾān*    | the Quran | <span lang="ar" dir="rtl">القرآن</span>    |
-| *el-qāhira*    | *al-qāhira*    | Cairo     | <span lang="ar" dir="rtl">القاهرة</span>   |
+| *saqāfe*       | *thaqāfa*      | culture   | <span lang="ar">ثقافة</span>     |
+| *ustāz*        | *ustādh*       | teacher   | <span lang="ar">أستاذ</span>     |
+| *demuqrāṭiyye* | *dimuqrāṭiyya* | democracy | <span lang="ar">ديمقراطية</span> |
+| *el-qurʾān*    | *al-qurʾān*    | the Quran | <span lang="ar">القرآن</span>    |
+| *el-qāhira*    | *al-qāhira*    | Cairo     | <span lang="ar">القاهرة</span>   |
 
 # Pronouns 
 
 ## Personal pronouns {#personal-pronouns}
 
-|            | Independent | Attached |          |                                        | <span lang="ar" dir="rtl">متصل</span> | <span lang="ar" dir="rtl">منفصل</span> |
+|            | Independent | Attached |          |                                        | <span lang="ar">متصل</span> | <span lang="ar">منفصل</span> |
 | :-         | :-          | :-       | :-       | -:                                     | -:                                    | -:                                     |
-| I          | *ana*       | *‑i*     | *(‑ya)*  |                                        | <span lang="ar" dir="rtl">ـي</span>   | <span lang="ar" dir="rtl">انا</span>   |
-| you (m.s.) | *enta*      | *‑ak*    | *(‑k)*   |                                        | <span lang="ar" dir="rtl">ـك</span>   | <span lang="ar" dir="rtl">انت</span>   |
-| you (f.s.) | *enti*      | *‑ik*    | *(‑ki)*  | <span lang="ar" dir="rtl">(ـكي)</span> | <span lang="ar" dir="rtl">ـك</span>   | <span lang="ar" dir="rtl">انتي</span>  |
-| he         | *huwwe*     | *‑o*     | *(‑h)*   | <span lang="ar" dir="rtl">(ـه)</span>  | <span lang="ar" dir="rtl">ـو</span>   | <span lang="ar" dir="rtl">هو</span>    |
-| she        | *hiyye*     | *‑a*     | *(‑ha)*  |                                        | <span lang="ar" dir="rtl">ـها</span>  | <span lang="ar" dir="rtl">هي</span>    |
-| we         | *neḥna*     | *‑na*    |          |                                        | <span lang="ar" dir="rtl">ـنا</span>  | <span lang="ar" dir="rtl">نحنا</span>  |
-| you (pl.)  | *intu*      | *‑kon*   |          |                                        | <span lang="ar" dir="rtl">ـكن</span>  | <span lang="ar" dir="rtl">انتو</span>  |
-| they       | *honnen*    | *‑on*    | *(‑hon)* | <span lang="ar" dir="rtl">(ـهن)</span> | <span lang="ar" dir="rtl">ـن</span>   | <span lang="ar" dir="rtl">هنن</span>   |
+| I          | *ana*       | *‑i*     | *(‑ya)*  |                                        | <span lang="ar">ـي</span>   | <span lang="ar">انا</span>   |
+| you (m.s.) | *enta*      | *‑ak*    | *(‑k)*   |                                        | <span lang="ar">ـك</span>   | <span lang="ar">انت</span>   |
+| you (f.s.) | *enti*      | *‑ik*    | *(‑ki)*  | <span lang="ar">(ـكي)</span> | <span lang="ar">ـك</span>   | <span lang="ar">انتي</span>  |
+| he         | *huwwe*     | *‑o*     | *(‑h)*   | <span lang="ar">(ـه)</span>  | <span lang="ar">ـو</span>   | <span lang="ar">هو</span>    |
+| she        | *hiyye*     | *‑a*     | *(‑ha)*  |                                        | <span lang="ar">ـها</span>  | <span lang="ar">هي</span>    |
+| we         | *neḥna*     | *‑na*    |          |                                        | <span lang="ar">ـنا</span>  | <span lang="ar">نحنا</span>  |
+| you (pl.)  | *intu*      | *‑kon*   |          |                                        | <span lang="ar">ـكن</span>  | <span lang="ar">انتو</span>  |
+| they       | *honnen*    | *‑on*    | *(‑hon)* | <span lang="ar">(ـهن)</span> | <span lang="ar">ـن</span>   | <span lang="ar">هنن</span>   |
 
 
 Forms in parenthesis are used with words with final vowel: *aʿṭā-ki* ‘he gave you&nbsp;(f.)’.
@@ -243,20 +245,20 @@ Attached pronouns are used for:
 
 |                           |              |                 |                                         |
 | :-                        | :-           | :-              | -:                                      |
-| possession                | *ktāb‑o*    | his book        | <span lang="ar" dir="rtl">كتابو</span>  |
-| prepositional complements | *maʿ‑o*      | with‑him        | <span lang="ar" dir="rtl">معو</span>    |
-| direct objects            | *katabt‑o*   | I wrote it      | <span lang="ar" dir="rtl">كتبتو</span>  |
-| indirect objects          | *katabt‑l‑o* | I wrote for him | <span lang="ar" dir="rtl">كتبتلو</span> |
+| possession                | *ktāb‑o*    | his book        | <span lang="ar">كتابو</span>  |
+| prepositional complements | *maʿ‑o*      | with‑him        | <span lang="ar">معو</span>    |
+| direct objects            | *katabt‑o*   | I wrote it      | <span lang="ar">كتبتو</span>  |
+| indirect objects          | *katabt‑l‑o* | I wrote for him | <span lang="ar">كتبتلو</span> |
 
 The connective *-l-* ‘for’ for indirect objects may take the form *-el-* to prevent consonant clusters: *katabt‑el‑kon* ‘I wrote for you&nbsp;(pl.)’. A direct object may then be added with the word *yā-:* *katabt-l-ak yā-ha* ‘I wrote it&nbsp;(fem.) for you’.
 
 ## Demonstrative pronouns
 
-|      | Close       | Distant      | <span lang="ar" dir="rtl">بعيد</span>   | <span lang="ar" dir="rtl">قريب</span> |
+|      | Close       | Distant      | <span lang="ar">بعيد</span>   | <span lang="ar">قريب</span> |
 | :-   | :-          | :-           | -:                                      | -:                                    |
-| m.s. | *hāda*     | *hadāk(e)*  | <span lang="ar" dir="rtl">هداك</span>   | <span lang="ar" dir="rtl">هادا</span> |
-| f.s  | *hāy*      | *hadīk(e)*  | <span lang="ar" dir="rtl">هديك</span>   | <span lang="ar" dir="rtl">هاي</span>  |
-| pl.  | *hadōl(e)* | *hādōlīk* | <span lang="ar" dir="rtl">هدوليك</span> | <span lang="ar" dir="rtl">هدول</span> |
+| m.s. | *hāda*     | *hadāk(e)*  | <span lang="ar">هداك</span>   | <span lang="ar">هادا</span> |
+| f.s  | *hāy*      | *hadīk(e)*  | <span lang="ar">هديك</span>   | <span lang="ar">هاي</span>  |
+| pl.  | *hadōl(e)* | *hādōlīk* | <span lang="ar">هدوليك</span> | <span lang="ar">هدول</span> |
 
 Note:
 
@@ -270,8 +272,8 @@ Note:
 
 |        |                    |                                      |
 | :-     | :-                 | -:                                   |
-| *ḥada* | someone/anyone     | <span lang="ar" dir="rtl">حدا</span> |
-| *shi*  | something/anything | <span lang="ar" dir="rtl">شي</span>  |
+| *ḥada* | someone/anyone     | <span lang="ar">حدا</span> |
+| *shi*  | something/anything | <span lang="ar">شي</span>  |
 
 # Nouns
 
@@ -281,12 +283,12 @@ Nouns are inflected for number and definiteness, and most animate nouns (referri
 
 There are four ways to form plural: *irregular*, *regular masculine*, *regular feminine*, and *general human*:
 
-|                   |           | Singular  | Plural       |        | <span lang="ar" dir="rtl">جمع</span>    | <span lang="ar" dir="rtl">مفرد</span>  |
+|                   |           | Singular  | Plural       |        | <span lang="ar">جمع</span>    | <span lang="ar">مفرد</span>  |
 | :-                | :-        | :-        | :-           | :-     | -:                                      | -:                                     |
-| Irrergula         |           | *bēt*    | *buyūt*     | house  | <span lang="ar" dir="rtl">بيوت</span>   | <span lang="ar" dir="rtl">بيت</span>   |
-| Regular masculine | *‑īn*    | *muslem*  | *muslemīn*  | muslim | <span lang="ar" dir="rtl">مسلمين</span> | <span lang="ar" dir="rtl">مسلم</span>  |
-| Regular feminine  | *‑āt*    | *sheghle* | *sheghlāt*  | thing  | <span lang="ar" dir="rtl">شغلات</span>  | <span lang="ar" dir="rtl">شغلة</span>  |
-| General human     | *‑(iyy)e* | *ʿerāqi* | *ʿerāqiyye* | Iraqi  | <span lang="ar" dir="rtl">عراقية</span> | <span lang="ar" dir="rtl">عراقي</span> |
+| Irrergula         |           | *bēt*    | *buyūt*     | house  | <span lang="ar">بيوت</span>   | <span lang="ar">بيت</span>   |
+| Regular masculine | *‑īn*    | *muslem*  | *muslemīn*  | muslim | <span lang="ar">مسلمين</span> | <span lang="ar">مسلم</span>  |
+| Regular feminine  | *‑āt*    | *sheghle* | *sheghlāt*  | thing  | <span lang="ar">شغلات</span>  | <span lang="ar">شغلة</span>  |
+| General human     | *‑(iyy)e* | *ʿerāqi* | *ʿerāqiyye* | Iraqi  | <span lang="ar">عراقية</span> | <span lang="ar">عراقي</span> |
 
 ## Dual
 
@@ -294,10 +296,10 @@ There are four ways to form plural: *irregular*, *regular masculine*, *regular f
 
 The noun has three forms of number inflection: singular, plural, and dual. (The adjective, [verb](#verbs), and [pronoun](#pronouns) have no dual forms.) The dual form is used to indicate specifically two of something. It is formed by adding the ending *-ēn* to the singular (*-tēn* for feminine formed with *-e/-a*).
 
-|           |         | Singular | Dual        |      | <span lang="ar" dir="rtl">المثنى</span> | <span lang="ar" dir="rtl">مفرد</span> |
+|           |         | Singular | Dual        |      | <span lang="ar">المثنى</span> | <span lang="ar">مفرد</span> |
 | :-        | :-      | :-       | :-          | :-   | -:                                      | -:                                    |
-| Masculine | *‑ēn*  | *walad*  | *waladēn*  | boy  | <span lang="ar" dir="rtl">ولدين</span>  | <span lang="ar" dir="rtl">ولد</span>  |
-| Feminine  | *‑tēn* | *sāʿa*  | *sāʿatēn* | hour | <span lang="ar" dir="rtl">ساعتين</span> | <span lang="ar" dir="rtl">ساعة</span> |
+| Masculine | *‑ēn*  | *walad*  | *waladēn*  | boy  | <span lang="ar">ولدين</span>  | <span lang="ar">ولد</span>  |
+| Feminine  | *‑tēn* | *sāʿa*  | *sāʿatēn* | hour | <span lang="ar">ساعتين</span> | <span lang="ar">ساعة</span> |
 
 The dual is used only in contexts where the precise number is important:
 
@@ -317,9 +319,9 @@ The dual is avoided on nouns with attached pronouns, except for pairwise occurri
 
 |                        |                 |                                                 |
 | :-                     | :-              | :-                                              |
-| *akhwāt-i l-itnēn*   | my two sisters  | <span lang="ar" dir="rtl">اخواتي الاتنين</span>  |
-| *sayārāt-u l-itnēn* | his two cars    | <span lang="ar" dir="rtl">سياراتو الاتنين</span> |
-| *ghassili īdē-ki*    | wash your hands | <span lang="ar" dir="rtl">غسل ايديكي</span>     |
+| *akhwāt-i l-itnēn*   | my two sisters  | <span lang="ar">اخواتي الاتنين</span>  |
+| *sayārāt-u l-itnēn* | his two cars    | <span lang="ar">سياراتو الاتنين</span> |
+| *ghassili īdē-ki*    | wash your hands | <span lang="ar">غسل ايديكي</span>     |
 
 Note:
 
@@ -333,23 +335,23 @@ Note:
 
 |                 |                 |                                             |
 | :-              | :-              | -:                                          |
-| *ʿa-/ʿalē-*    | to (place)      | <span lang="ar" dir="rtl">ع/عليـ</span>     |
-| *ʿala/ʿalē‑*   | on              | <span lang="ar" dir="rtl">على/عليـ</span>   |
-| *ʿand*          | with, at        | <span lang="ar" dir="rtl">عند</span>        |
-| *barrāt*       | outside         | <span lang="ar" dir="rtl">برات</span>       |
-| *bēn*          | between         | <span lang="ar" dir="rtl">بين</span>        |
-| *bēn/bēnāt‑* | among           | <span lang="ar" dir="rtl">بين/بيناتـ</span> |
-| *bi‑/fī‑*      | in, at          | <span lang="ar" dir="rtl">بـ/فيـ</span>     |
-| *fōʾ*          | above           | <span lang="ar" dir="rtl">فوق</span>        |
-| *ḥadd*          | next to         | <span lang="ar" dir="rtl">حد</span>         |
-| *juwwāt*       | inside          | <span lang="ar" dir="rtl">جوات</span>       |
-| *la‑/el‑*       | for (ownership) | <span lang="ar" dir="rtl">لـ/الـ</span>     |
-| *leʿand*        | to (person)     | <span lang="ar" dir="rtl">لعند</span>       |
-| *maʿ*           | with            | <span lang="ar" dir="rtl">مع</span>         |
-| *men/menn-*     | from            | <span lang="ar" dir="rtl">من/منـ</span>     |
-| *taḥt*          | below           | <span lang="ar" dir="rtl">تحت</span>        |
-| *ʾuddām*       | in front of     | <span lang="ar" dir="rtl">قدام</span>       |
-| *wara*          | behind          | <span lang="ar" dir="rtl">ورا</span>        |
+| *ʿa-/ʿalē-*    | to (place)      | <span lang="ar">ع/عليـ</span>     |
+| *ʿala/ʿalē‑*   | on              | <span lang="ar">على/عليـ</span>   |
+| *ʿand*          | with, at        | <span lang="ar">عند</span>        |
+| *barrāt*       | outside         | <span lang="ar">برات</span>       |
+| *bēn*          | between         | <span lang="ar">بين</span>        |
+| *bēn/bēnāt‑* | among           | <span lang="ar">بين/بيناتـ</span> |
+| *bi‑/fī‑*      | in, at          | <span lang="ar">بـ/فيـ</span>     |
+| *fōʾ*          | above           | <span lang="ar">فوق</span>        |
+| *ḥadd*          | next to         | <span lang="ar">حد</span>         |
+| *juwwāt*       | inside          | <span lang="ar">جوات</span>       |
+| *la‑/el‑*       | for (ownership) | <span lang="ar">لـ/الـ</span>     |
+| *leʿand*        | to (person)     | <span lang="ar">لعند</span>       |
+| *maʿ*           | with            | <span lang="ar">مع</span>         |
+| *men/menn-*     | from            | <span lang="ar">من/منـ</span>     |
+| *taḥt*          | below           | <span lang="ar">تحت</span>        |
+| *ʾuddām*       | in front of     | <span lang="ar">قدام</span>       |
+| *wara*          | behind          | <span lang="ar">ورا</span>        |
 
 Note:
 
@@ -357,23 +359,23 @@ Note:
 
   |             |              |                                         |
   | :-          | :-           | -:                                      |
-  | *bi‑l‑bēt* | in the house | <span lang="ar" dir="rtl">بالبيت</span> |
-  | *fī‑h*     | in it        | <span lang="ar" dir="rtl">فيه</span>    |
+  | *bi‑l‑bēt* | in the house | <span lang="ar">بالبيت</span> |
+  | *fī‑h*     | in it        | <span lang="ar">فيه</span>    |
 
 # Verbs
 
 ## Inflection
 
-|           | Non-past      | Past       | <span lang="ar" dir="rtl">المضارع</span> | <span lang="ar" dir="rtl">الماضي</span> |
+|           | Non-past      | Past       | <span lang="ar">المضارع</span> | <span lang="ar">الماضي</span> |
 | :-        | :-            | :-         | -:                                       | -:                                      |
-| I         | *e‑ktob*      | *katab‑t*  | <span lang="ar" dir="rtl">اكتب</span>    | <span lang="ar" dir="rtl">كتبت</span>   |
-| you (ms.) | *t(e)‑ktob*   | *katab‑t*  | <span lang="ar" dir="rtl">تكتب</span>    | <span lang="ar" dir="rtl">كتبت</span>   |
-| you (fs.) | *t(e)‑ktob‑i* | *katab‑ti* | <span lang="ar" dir="rtl">تكتبي</span>   | <span lang="ar" dir="rtl">كتبتي</span>  |
-| he        | *ye‑ktob*     | *katab*    | <span lang="ar" dir="rtl">يكتب</span>    | <span lang="ar" dir="rtl">كتب</span>    |
-| she       | *t(e)‑ktob*   | *katab‑et* | <span lang="ar" dir="rtl">تكتب</span>    | <span lang="ar" dir="rtl">كتبت</span>   |
-| we        | *n(e)‑ktob*   | *katab‑na* | <span lang="ar" dir="rtl">نكتب</span>    | <span lang="ar" dir="rtl">كتبنا</span>  |
-| you (pl.) | *t(e)‑ktob‑u* | *katab‑tu* | <span lang="ar" dir="rtl">تكتبو</span>   | <span lang="ar" dir="rtl">كتبتو</span>  |
-| they      | *ye‑ktob‑u*   | *katab‑u*  | <span lang="ar" dir="rtl">يكتبو</span>   | <span lang="ar" dir="rtl">كتبو</span>   |
+| I         | *e‑ktob*      | *katab‑t*  | <span lang="ar">اكتب</span>    | <span lang="ar">كتبت</span>   |
+| you (ms.) | *t(e)‑ktob*   | *katab‑t*  | <span lang="ar">تكتب</span>    | <span lang="ar">كتبت</span>   |
+| you (fs.) | *t(e)‑ktob‑i* | *katab‑ti* | <span lang="ar">تكتبي</span>   | <span lang="ar">كتبتي</span>  |
+| he        | *ye‑ktob*     | *katab*    | <span lang="ar">يكتب</span>    | <span lang="ar">كتب</span>    |
+| she       | *t(e)‑ktob*   | *katab‑et* | <span lang="ar">تكتب</span>    | <span lang="ar">كتبت</span>   |
+| we        | *n(e)‑ktob*   | *katab‑na* | <span lang="ar">نكتب</span>    | <span lang="ar">كتبنا</span>  |
+| you (pl.) | *t(e)‑ktob‑u* | *katab‑tu* | <span lang="ar">تكتبو</span>   | <span lang="ar">كتبتو</span>  |
+| they      | *ye‑ktob‑u*   | *katab‑u*  | <span lang="ar">يكتبو</span>   | <span lang="ar">كتبو</span>   |
 
 The pronoun is often omitted. The *e* in parenthesis is omitted on stems beginning with a single consonant *t-shūf-i* ‘you&nbsp;(fs.) see’.
 
@@ -381,17 +383,17 @@ The non-past verb form is preceded by one of the following:
 
 |                                    |                        |                                        |
 | :-                                 | :-                     | -:                                     |
-| *b‑*                               | habitual, generalities | <span lang="ar" dir="rtl">بـ</span>    |
-| *ʿam*                              | ongoing (progressive)  | <span lang="ar" dir="rtl">عم</span>    |
-| *ḥa‑/raḥ*                          | future                 | <span lang="ar" dir="rtl">حـ/رح</span> |
-| *lāzim*                           | ‘have to’              | <span lang="ar" dir="rtl">لازم</span>   |
+| *b‑*                               | habitual, generalities | <span lang="ar">بـ</span>    |
+| *ʿam*                              | ongoing (progressive)  | <span lang="ar">عم</span>    |
+| *ḥa‑/raḥ*                          | future                 | <span lang="ar">حـ/رح</span> |
+| *lāzim*                           | ‘have to’              | <span lang="ar">لازم</span>   |
 | [auxiliary verb](#auxiliary-verbs) |                        |                                        |
 
 Note:
 
-- For 1s, the initial letter *alif*&nbsp;<span lang="ar" dir="rtl">ا</span> is normally omitted when preceded by *b­*: *bektob* <span lang="ar" dir="rtl">بكتب</span>.
+- For 1s, the initial letter *alif*&nbsp;<span lang="ar">ا</span> is normally omitted when preceded by *b­*: *bektob* <span lang="ar">بكتب</span>.
 
-- For 1pl. the *b-* prefix is partially assimilated and pronounced as *m:* *mnektob*. This is often reflected in orthography: <span lang="ar" dir="rtl">منكتب</span>.
+- For 1pl. the *b-* prefix is partially assimilated and pronounced as *m:* *mnektob*. This is often reflected in orthography: <span lang="ar">منكتب</span>.
 
 - Some speakers combine *b-* and *ʿam*: *ʿam b-yektob*.
 
@@ -401,16 +403,16 @@ Hollow verbs have a long vowel in the middle of the stem. They are of three type
 
 1. Middle *ū* (*rāḥ* 'went'):
 
-    |           | Non-Past    | Past      | <span lang="ar" dir="rtl">المضارع</span> | <span lang="ar" dir="rtl">الماضي</span> |
+    |           | Non-Past    | Past      | <span lang="ar">المضارع</span> | <span lang="ar">الماضي</span> |
     | :-        | :-          | :-        | -:                                       | -:                                      |
-    | I         | *e‑rūḥ*    | *reḥ‑t*    | <span lang="ar" dir="rtl">اروح</span>    | <span lang="ar" dir="rtl">رحت</span>    |
-    | you (ms.) | *t‑rūḥ*    | *reḥ‑t*    | <span lang="ar" dir="rtl">تروح</span>    | <span lang="ar" dir="rtl">رحت</span>    |
-    | you (fs.) | *t‑rūḥ‑i*  | *reḥ‑ti*  | <span lang="ar" dir="rtl">تروحي</span>   | <span lang="ar" dir="rtl">رحتي</span>   |
-    | he        | *ye‑rūḥ*   | *rāḥ*    | <span lang="ar" dir="rtl">يروح</span>    | <span lang="ar" dir="rtl">راح</span>    |
-    | she       | *t‑rūḥ*    | *rāḥ‑et* | <span lang="ar" dir="rtl">تروح</span>    | <span lang="ar" dir="rtl">راحت</span>   |
-    | we        | *n‑rūḥ*    | *reḥ‑na*  | <span lang="ar" dir="rtl">نروح</span>    | <span lang="ar" dir="rtl">رحنا</span>    |
-    | you (pl.) | *t‑rūḥ‑u*  | *reḥ‑tu*  | <span lang="ar" dir="rtl">تروحو</span>   | <span lang="ar" dir="rtl">رحتو</span>   |
-    | they      | *ye‑rūḥ‑u* | *rāḥ‑u*  | <span lang="ar" dir="rtl">يروحو</span>   | <span lang="ar" dir="rtl">راحو</span>   |
+    | I         | *e‑rūḥ*    | *reḥ‑t*    | <span lang="ar">اروح</span>    | <span lang="ar">رحت</span>    |
+    | you (ms.) | *t‑rūḥ*    | *reḥ‑t*    | <span lang="ar">تروح</span>    | <span lang="ar">رحت</span>    |
+    | you (fs.) | *t‑rūḥ‑i*  | *reḥ‑ti*  | <span lang="ar">تروحي</span>   | <span lang="ar">رحتي</span>   |
+    | he        | *ye‑rūḥ*   | *rāḥ*    | <span lang="ar">يروح</span>    | <span lang="ar">راح</span>    |
+    | she       | *t‑rūḥ*    | *rāḥ‑et* | <span lang="ar">تروح</span>    | <span lang="ar">راحت</span>   |
+    | we        | *n‑rūḥ*    | *reḥ‑na*  | <span lang="ar">نروح</span>    | <span lang="ar">رحنا</span>    |
+    | you (pl.) | *t‑rūḥ‑u*  | *reḥ‑tu*  | <span lang="ar">تروحو</span>   | <span lang="ar">رحتو</span>   |
+    | they      | *ye‑rūḥ‑u* | *rāḥ‑u*  | <span lang="ar">يروحو</span>   | <span lang="ar">راحو</span>   |
 
     Some other frequent verbs of this type are 
     *kān* 'was',
@@ -423,16 +425,16 @@ Hollow verbs have a long vowel in the middle of the stem. They are of three type
 
 1. Middle *ī* (*ṣār* 'became'):
 
-    |           | Non-Past    | Past      | <span lang="ar" dir="rtl">المضارع</span> | <span lang="ar" dir="rtl">الماضي</span> |
+    |           | Non-Past    | Past      | <span lang="ar">المضارع</span> | <span lang="ar">الماضي</span> |
     | :-        | :-          | :-        | -:                                       | -:                                      |
-    | I         | *e‑ṣīr*    | *ṣert*    | <span lang="ar" dir="rtl">اصير</span>    | <span lang="ar" dir="rtl">صرت</span>    |
-    | you (ms.) | *t‑ṣīr*    | *ṣert*    | <span lang="ar" dir="rtl">تصير</span>    | <span lang="ar" dir="rtl">صرت</span>    |
-    | you (fs.) | *t‑ṣīr‑i*  | *ṣert‑i*  | <span lang="ar" dir="rtl">تصيري</span>   | <span lang="ar" dir="rtl">صرتي</span>   |
-    | he        | *ye‑ṣīr*   | *ṣār*    | <span lang="ar" dir="rtl">يصير</span>    | <span lang="ar" dir="rtl">صار</span>    |
-    | she       | *t‑ṣīr*    | *ṣār‑et* | <span lang="ar" dir="rtl">تصير</span>    | <span lang="ar" dir="rtl">صارت</span>   |
-    | we        | *n‑ṣīr*    | *ṣer‑na*  | <span lang="ar" dir="rtl">نصير</span>    | <span lang="ar" dir="rtl">صرنا</span>    |
-    | you (pl.) | *t‑ṣīr‑u*  | *ṣer‑tu*  | <span lang="ar" dir="rtl">تصيرو</span>   | <span lang="ar" dir="rtl">صرتو</span>   |
-    | they      | *ye‑ṣīr‑u* | *ṣār‑u*  | <span lang="ar" dir="rtl">يصيرو</span>   | <span lang="ar" dir="rtl">صارو</span>   |
+    | I         | *e‑ṣīr*    | *ṣert*    | <span lang="ar">اصير</span>    | <span lang="ar">صرت</span>    |
+    | you (ms.) | *t‑ṣīr*    | *ṣert*    | <span lang="ar">تصير</span>    | <span lang="ar">صرت</span>    |
+    | you (fs.) | *t‑ṣīr‑i*  | *ṣert‑i*  | <span lang="ar">تصيري</span>   | <span lang="ar">صرتي</span>   |
+    | he        | *ye‑ṣīr*   | *ṣār*    | <span lang="ar">يصير</span>    | <span lang="ar">صار</span>    |
+    | she       | *t‑ṣīr*    | *ṣār‑et* | <span lang="ar">تصير</span>    | <span lang="ar">صارت</span>   |
+    | we        | *n‑ṣīr*    | *ṣer‑na*  | <span lang="ar">نصير</span>    | <span lang="ar">صرنا</span>    |
+    | you (pl.) | *t‑ṣīr‑u*  | *ṣer‑tu*  | <span lang="ar">تصيرو</span>   | <span lang="ar">صرتو</span>   |
+    | they      | *ye‑ṣīr‑u* | *ṣār‑u*  | <span lang="ar">يصيرو</span>   | <span lang="ar">صارو</span>   |
 
     Some other frequent verbs of this type are 
     *ʿāsh* 'lived',
@@ -443,16 +445,16 @@ Hollow verbs have a long vowel in the middle of the stem. They are of three type
 
 1. Middle *ā* (*nām* 'slept'):
 
-    |           | Non-Past    | Past      | <span lang="ar" dir="rtl">المضارع</span> | <span lang="ar" dir="rtl">الماضي</span> |
+    |           | Non-Past    | Past      | <span lang="ar">المضارع</span> | <span lang="ar">الماضي</span> |
     | :-        | :-          | :-        | -:                                       | -:                                      |
-    | I         | *e‑nām*    | *nem‑t*   | <span lang="ar" dir="rtl">انام</span>    | <span lang="ar" dir="rtl">نمت</span>    |
-    | you (ms.) | *t‑nām*    | *nem‑t*   | <span lang="ar" dir="rtl">تنام</span>    | <span lang="ar" dir="rtl">نمت</span>    |
-    | you (fs.) | *t‑nām‑i*  | *nemt‑i*  | <span lang="ar" dir="rtl">تنامي</span>   | <span lang="ar" dir="rtl">نمتي</span>   |
-    | he        | *ye‑nām*   | *nām*    | <span lang="ar" dir="rtl">ينام</span>    | <span lang="ar" dir="rtl">نام</span>    |
-    | she       | *t‑nām*    | *nām‑et* | <span lang="ar" dir="rtl">تنام</span>    | <span lang="ar" dir="rtl">نامت</span>   |
-    | we        | *n‑nām*    | *nem‑na*  | <span lang="ar" dir="rtl">ننام</span>    | <span lang="ar" dir="rtl">نمنا</span>    |
-    | you (pl.) | *t‑nām‑u*  | *nem‑tu*  | <span lang="ar" dir="rtl">تنامو</span>   | <span lang="ar" dir="rtl">نمتو</span>   |
-    | they      | *ye‑nām‑u* | *nām‑u*  | <span lang="ar" dir="rtl">ينامو</span>   | <span lang="ar" dir="rtl">نامو</span>   |
+    | I         | *e‑nām*    | *nem‑t*   | <span lang="ar">انام</span>    | <span lang="ar">نمت</span>    |
+    | you (ms.) | *t‑nām*    | *nem‑t*   | <span lang="ar">تنام</span>    | <span lang="ar">نمت</span>    |
+    | you (fs.) | *t‑nām‑i*  | *nemt‑i*  | <span lang="ar">تنامي</span>   | <span lang="ar">نمتي</span>   |
+    | he        | *ye‑nām*   | *nām*    | <span lang="ar">ينام</span>    | <span lang="ar">نام</span>    |
+    | she       | *t‑nām*    | *nām‑et* | <span lang="ar">تنام</span>    | <span lang="ar">نامت</span>   |
+    | we        | *n‑nām*    | *nem‑na*  | <span lang="ar">ننام</span>    | <span lang="ar">نمنا</span>    |
+    | you (pl.) | *t‑nām‑u*  | *nem‑tu*  | <span lang="ar">تنامو</span>   | <span lang="ar">نمتو</span>   |
+    | they      | *ye‑nām‑u* | *nām‑u*  | <span lang="ar">ينامو</span>   | <span lang="ar">نامو</span>   |
 
     Some other frequent verbs of this type are 
     *khāf* 'was frightened' and
@@ -465,16 +467,16 @@ Defective verbs have a stem ending in a vowel *i* in non-past tense and *a*/*ē*
 
 *Ḥaka* 'talked':
 
-|           | Non-Past  | Past       | <span lang="ar" dir="rtl">المضارع</span> | <span lang="ar" dir="rtl">الماضي</span> |
+|           | Non-Past  | Past       | <span lang="ar">المضارع</span> | <span lang="ar">الماضي</span> |
 | :-        | :-        | :-         | -:                                       | -:                                      |
-| I         | *e‑ḥki*   | *ḥakē‑t*  | <span lang="ar" dir="rtl">احكي</span>    | <span lang="ar" dir="rtl">حكيت</span>   |
-| you (ms.) | *te‑ḥki*  | *ḥakē‑t*  | <span lang="ar" dir="rtl">تحكي</span>    | <span lang="ar" dir="rtl">حكيت</span>   |
-| you (fs.) | *te‑ḥki*  | *ḥakē‑ti* | <span lang="ar" dir="rtl">تحكي</span>    | <span lang="ar" dir="rtl">حكيتي</span>  |
-| he        | *ye‑ḥki*  | *ḥaka*     | <span lang="ar" dir="rtl">يحكي</span>    | <span lang="ar" dir="rtl">حكى</span>    |
-| she       | *te‑ḥki*  | *ḥak‑et*   | <span lang="ar" dir="rtl">تحكي</span>    | <span lang="ar" dir="rtl">حكت</span>    |
-| we        | *ne‑ḥki*  | *ḥakē‑na* | <span lang="ar" dir="rtl">نحكي</span>    | <span lang="ar" dir="rtl">حكينا</span>  |
-| you (pl.) | *te‑ḥk‑u* | *ḥakē‑tu* | <span lang="ar" dir="rtl">تحكو</span>    | <span lang="ar" dir="rtl">حكيتو</span>  |
-| they      | *ye‑ḥk‑u* | *ḥak‑u*    | <span lang="ar" dir="rtl">يحكو</span>    | <span lang="ar" dir="rtl">حكو</span>    |
+| I         | *e‑ḥki*   | *ḥakē‑t*  | <span lang="ar">احكي</span>    | <span lang="ar">حكيت</span>   |
+| you (ms.) | *te‑ḥki*  | *ḥakē‑t*  | <span lang="ar">تحكي</span>    | <span lang="ar">حكيت</span>   |
+| you (fs.) | *te‑ḥki*  | *ḥakē‑ti* | <span lang="ar">تحكي</span>    | <span lang="ar">حكيتي</span>  |
+| he        | *ye‑ḥki*  | *ḥaka*     | <span lang="ar">يحكي</span>    | <span lang="ar">حكى</span>    |
+| she       | *te‑ḥki*  | *ḥak‑et*   | <span lang="ar">تحكي</span>    | <span lang="ar">حكت</span>    |
+| we        | *ne‑ḥki*  | *ḥakē‑na* | <span lang="ar">نحكي</span>    | <span lang="ar">حكينا</span>  |
+| you (pl.) | *te‑ḥk‑u* | *ḥakē‑tu* | <span lang="ar">تحكو</span>    | <span lang="ar">حكيتو</span>  |
+| they      | *ye‑ḥk‑u* | *ḥak‑u*    | <span lang="ar">يحكو</span>    | <span lang="ar">حكو</span>    |
 
 Some other frequent verbs of this type are:
 *masha* 'walked',
@@ -489,16 +491,16 @@ Doubled verbs have a stem ending in a lengthened (doubled) consonant. In past te
 
 *Ḥass* 'felt':
 
-|           | Non-Past    | Past        | <span lang="ar" dir="rtl">المضارع</span> | <span lang="ar" dir="rtl">الماضي</span> |
+|           | Non-Past    | Past        | <span lang="ar">المضارع</span> | <span lang="ar">الماضي</span> |
 | :-        | :-          | :-          | -:                                       | -:                                      |
-| I         | *e‑ḥess*    | *ḥassē‑t*  | <span lang="ar" dir="rtl">احس</span>     | <span lang="ar" dir="rtl">حسيت</span>   |
-| you (ms.) | *t‑ḥess*    | *ḥassē‑t*  | <span lang="ar" dir="rtl">تحسي</span>    | <span lang="ar" dir="rtl">حسيت</span>   |
-| you (fs.) | *t‑ḥess‑i*  | *ḥassē‑ti* | <span lang="ar" dir="rtl">تحس</span>     | <span lang="ar" dir="rtl">حسيتي</span>  |
-| he        | *y‑ḥess*    | *ḥass*      | <span lang="ar" dir="rtl">يحس</span>     | <span lang="ar" dir="rtl">حس</span>     |
-| she       | *t‑ḥess*    | *ḥass‑et*   | <span lang="ar" dir="rtl">تحس</span>     | <span lang="ar" dir="rtl">حست</span>    |
-| we        | *n‑ḥess*    | *ḥassē‑na* | <span lang="ar" dir="rtl">نحس</span>     | <span lang="ar" dir="rtl">حسينا</span>  |
-| you (pl.) | *t‑ḥess‑u*  | *ḥassē‑tu* | <span lang="ar" dir="rtl">تحسو</span>    | <span lang="ar" dir="rtl">حسيتو</span>  |
-| they      | *ye‑ḥess‑u* | *ḥass‑u*    | <span lang="ar" dir="rtl">يحسو</span>     | <span lang="ar" dir="rtl">حسو</span>    |
+| I         | *e‑ḥess*    | *ḥassē‑t*  | <span lang="ar">احس</span>     | <span lang="ar">حسيت</span>   |
+| you (ms.) | *t‑ḥess*    | *ḥassē‑t*  | <span lang="ar">تحسي</span>    | <span lang="ar">حسيت</span>   |
+| you (fs.) | *t‑ḥess‑i*  | *ḥassē‑ti* | <span lang="ar">تحس</span>     | <span lang="ar">حسيتي</span>  |
+| he        | *y‑ḥess*    | *ḥass*      | <span lang="ar">يحس</span>     | <span lang="ar">حس</span>     |
+| she       | *t‑ḥess*    | *ḥass‑et*   | <span lang="ar">تحس</span>     | <span lang="ar">حست</span>    |
+| we        | *n‑ḥess*    | *ḥassē‑na* | <span lang="ar">نحس</span>     | <span lang="ar">حسينا</span>  |
+| you (pl.) | *t‑ḥess‑u*  | *ḥassē‑tu* | <span lang="ar">تحسو</span>    | <span lang="ar">حسيتو</span>  |
+| they      | *ye‑ḥess‑u* | *ḥass‑u*    | <span lang="ar">يحسو</span>     | <span lang="ar">حسو</span>    |
 
 Some other frequent verbs of this type are
 *radd* 'answered' and
@@ -510,10 +512,10 @@ The main verb may be preceded by an auxiliary verb. Both the auxiliary and the m
 
 |                  |                     |                                            |
 | :-               | :-                  | -:                                         |
-| *beddo yektob*   | ‘he wants to write’ | <span lang="ar" dir="rtl">بدو يكتب</span>  |
-| *byeḥebb yektob* | ‘he likes to write’ | <span lang="ar" dir="rtl">بيحب يكتب</span> |
-| *kān yektob*    | ‘he was writing’    | <span lang="ar" dir="rtl">كان يكتب</span>  |
-| *ṣār yektob*    | ‘he began to write’ | <span lang="ar" dir="rtl">صار يكتب</span>  |
+| *beddo yektob*   | ‘he wants to write’ | <span lang="ar">بدو يكتب</span>  |
+| *byeḥebb yektob* | ‘he likes to write’ | <span lang="ar">بيحب يكتب</span> |
+| *kān yektob*    | ‘he was writing’    | <span lang="ar">كان يكتب</span>  |
+| *ṣār yektob*    | ‘he began to write’ | <span lang="ar">صار يكتب</span>  |
 
 ## *kān* 'was'
 
@@ -534,16 +536,16 @@ The verb *kān* 'was' is used
 
 It is a [hollow verb with middle *ū*](#hollow-verbs) in non-past tense:
 
-|           | Non-past    | Past      | <span lang="ar" dir="rtl">المضارع</span> | <span lang="ar" dir="rtl">الماضي</span> |
+|           | Non-past    | Past      | <span lang="ar">المضارع</span> | <span lang="ar">الماضي</span> |
 | :-        | :-          | :-        | -:                                       | -:                                      |
-| I         | *e‑kūn*    | *ken‑t*   | <span lang="ar" dir="rtl">اكون</span>    | <span lang="ar" dir="rtl">كنت</span>    |
-| you (ms.) | *t‑kūn*    | *ken‑t*   | <span lang="ar" dir="rtl">تكون</span>    | <span lang="ar" dir="rtl">كنت</span>    |
-| you (fs.) | *t‑kūn‑i*  | *kent‑i*  | <span lang="ar" dir="rtl">تكوني</span>   | <span lang="ar" dir="rtl">كنتي</span>   |
-| he        | *ye‑kūn*   | *kān*    | <span lang="ar" dir="rtl">يكون</span>    | <span lang="ar" dir="rtl">كان</span>    |
-| she       | *t‑kūn*    | *kān‑et* | <span lang="ar" dir="rtl">تكون</span>    | <span lang="ar" dir="rtl">كانت</span>   |
-| we        | *n‑kūn*    | *ken‑na*  | <span lang="ar" dir="rtl">نكون</span>    | <span lang="ar" dir="rtl">كنا</span>    |
-| you (pl.) | *t‑kūn‑u*  | *ken‑tu*  | <span lang="ar" dir="rtl">تكونو</span>   | <span lang="ar" dir="rtl">كنتو</span>   |
-| they      | *ye‑kūn‑u* | *kān‑u*  | <span lang="ar" dir="rtl">يكونو</span>   | <span lang="ar" dir="rtl">كانو</span>   |
+| I         | *e‑kūn*    | *ken‑t*   | <span lang="ar">اكون</span>    | <span lang="ar">كنت</span>    |
+| you (ms.) | *t‑kūn*    | *ken‑t*   | <span lang="ar">تكون</span>    | <span lang="ar">كنت</span>    |
+| you (fs.) | *t‑kūn‑i*  | *kent‑i*  | <span lang="ar">تكوني</span>   | <span lang="ar">كنتي</span>   |
+| he        | *ye‑kūn*   | *kān*    | <span lang="ar">يكون</span>    | <span lang="ar">كان</span>    |
+| she       | *t‑kūn*    | *kān‑et* | <span lang="ar">تكون</span>    | <span lang="ar">كانت</span>   |
+| we        | *n‑kūn*    | *ken‑na*  | <span lang="ar">نكون</span>    | <span lang="ar">كنا</span>    |
+| you (pl.) | *t‑kūn‑u*  | *ken‑tu*  | <span lang="ar">تكونو</span>   | <span lang="ar">كنتو</span>   |
+| they      | *ye‑kūn‑u* | *kān‑u*  | <span lang="ar">يكونو</span>   | <span lang="ar">كانو</span>   |
 
 
 
@@ -552,55 +554,55 @@ It is a [hollow verb with middle *ū*](#hollow-verbs) in non-past tense:
 
 |         |          |                                      |
 | :-      | :-       | -:                                   |
-| *bedd‑* | want     | <span lang="ar" dir="rtl">بد</span>  |
-| *ʿand‑* | has      | <span lang="ar" dir="rtl">عند</span> |
-| *fī*   | there is | <span lang="ar" dir="rtl">في</span>  |
+| *bedd‑* | want     | <span lang="ar">بد</span>  |
+| *ʿand‑* | has      | <span lang="ar">عند</span> |
+| *fī*   | there is | <span lang="ar">في</span>  |
 
 
 The pseudo-verbs are negated as verbs with *mā* (see [Negation](#negation)) but do not follow verbal person and tense inflection. *bedd‑* and *ʿand-* are inflected for person with attached pronouns, like nouns, while *fī* is not inflected:
 
 |                |                                        |                                             |
 | :-             | :-                                     | :-                                          |
-| *bedd-a ktāb* | she wants a book  [her wish is a book] | <span lang="ar" dir="rtl">بدها كتاب</span>  |
-| *ʿand-a ktāb* | she has a book [with her is a book]    | <span lang="ar" dir="rtl">عندها كتاب</span> |
-| *fī ktāb*    | there is a book                        | <span lang="ar" dir="rtl">في كتاب</span>    |
+| *bedd-a ktāb* | she wants a book  [her wish is a book] | <span lang="ar">بدها كتاب</span>  |
+| *ʿand-a ktāb* | she has a book [with her is a book]    | <span lang="ar">عندها كتاب</span> |
+| *fī ktāb*    | there is a book                        | <span lang="ar">في كتاب</span>    |
 
 Pseudo-verbs are inflected for tense with an auxiliary *kān*:
 
 |                          |                          |                                                  |
 | :-                       |  :-                      |:-                                                |
-| *kān ʿand-a ktāb*      |  She had a book.       |<span lang="ar" dir="rtl">كان عندها كتاب</span>   |
-| *ḥa-yekūn ʿand-a ktāb* |  She will have a book. |<span lang="ar" dir="rtl">حيكون عندها كتاب</span> |
+| *kān ʿand-a ktāb*      |  She had a book.       |<span lang="ar">كان عندها كتاب</span>   |
+| *ḥa-yekūn ʿand-a ktāb* |  She will have a book. |<span lang="ar">حيكون عندها كتاب</span> |
 
 
 # Question words
 
 |               |            |                                           |
 | :-            | :-         | -:                                        |
-| *shū*        | what       | <span lang="ar" dir="rtl">شو</span>       |
-| *mīn*        | who        | <span lang="ar" dir="rtl">مين</span>      |
-| *ēmta*       | when       | <span lang="ar" dir="rtl">ايمتى</span>    |
-| *kīf/shlōn* | how        | <span lang="ar" dir="rtl">كيف/شلون</span> |
-| *wēn*        | where      | <span lang="ar" dir="rtl">وين</span>      |
-| *minnen*      | from where | <span lang="ar" dir="rtl">منين</span>     |
-| *lawēn*      | whereto    | <span lang="ar" dir="rtl">لوين</span>     |
-| *lēsh*       | why        | <span lang="ar" dir="rtl">ليش</span>      |
-| *addēsh*     | how much   | <span lang="ar" dir="rtl">قديش</span>     |
-| *kam*         | how many   | <span lang="ar" dir="rtl">كم</span>       |
-| *ayyi/anu*    | which      | <span lang="ar" dir="rtl">اي/انو</span>   |
+| *shū*        | what       | <span lang="ar">شو</span>       |
+| *mīn*        | who        | <span lang="ar">مين</span>      |
+| *ēmta*       | when       | <span lang="ar">ايمتى</span>    |
+| *kīf/shlōn* | how        | <span lang="ar">كيف/شلون</span> |
+| *wēn*        | where      | <span lang="ar">وين</span>      |
+| *minnen*      | from where | <span lang="ar">منين</span>     |
+| *lawēn*      | whereto    | <span lang="ar">لوين</span>     |
+| *lēsh*       | why        | <span lang="ar">ليش</span>      |
+| *addēsh*     | how much   | <span lang="ar">قديش</span>     |
+| *kam*         | how many   | <span lang="ar">كم</span>       |
+| *ayyi/anu*    | which      | <span lang="ar">اي/انو</span>   |
   
 Question words are normally clause-inital, and may be preceded by a preposition:
 
 |                       |                           |                                                  |
 | :-                    | :-                        | -:                                               |
-| *maʿ mīn ʿam teḥki?* | ‘Who are you talking to?’ | <span lang="ar" dir="rtl">مع مين عم تحكي؟</span> |
+| *maʿ mīn ʿam teḥki?* | ‘Who are you talking to?’ | <span lang="ar">مع مين عم تحكي؟</span> |
 
 *Wēn* and *kīf* may take attached pronouns:
 
 |            |                |                                        |
 | :-         | :-             | -:                                     |
-| *wēn-ak?* | Where are you? | <span lang="ar" dir="rtl">وينك؟</span> |
-| *kīf-ak?* | How are you?   | <span lang="ar" dir="rtl">كيفك؟</span> |
+| *wēn-ak?* | Where are you? | <span lang="ar">وينك؟</span> |
+| *kīf-ak?* | How are you?   | <span lang="ar">كيفك؟</span> |
 
 Yes/no-question are formed with rising intonation. The Standard Arabic particle *hal* is in Syrian only used for rhetoric questions.
 
@@ -610,9 +612,9 @@ Syrian Arabic has three main forms of negation:
 
 |       |                                     |                    |
 | :-    | -:                                  | :-                 |
-| *mā* | <span lang="ar" dir="rtl">ما</span> | verbs              |
-| *mū* | <span lang="ar" dir="rtl">مو</span> | non-verbal clauses |
-| *lā* | <span lang="ar" dir="rtl">لا</span>  | imperative         |
+| *mā* | <span lang="ar">ما</span> | verbs              |
+| *mū* | <span lang="ar">مو</span> | non-verbal clauses |
+| *lā* | <span lang="ar">لا</span>  | imperative         |
 
 For declarative clauses, in effect, *mū* is only used to negate a verbless clauses in
 present tense, otherwise the *mā* is used:
@@ -621,11 +623,11 @@ present tense, otherwise the *mā* is used:
 | :-      | :-                                                  | :-                                                       |
 |         | Ahmed is studying.                                  | Ahmed is a student.                                      |
 | Past    | *aḥmad* ***mā*** *daras*                           | *aḥmad* ***mā*** *kān ṭāleb*                          |
-|         | <span lang="ar" dir="rtl">أحمد ما درس</span>        | <span lang="ar" dir="rtl">أحمد ما كان طالب</span>        |
+|         | <span lang="ar">أحمد ما درس</span>        | <span lang="ar">أحمد ما كان طالب</span>        |
 | Present | *aḥmad* ***mā*** *byedrus*                         | *aḥmad* ***mū*** *ṭāleb*                               |
-|         | <span lang="ar" dir="rtl">أحمد ما بيدرس</span>      | <span lang="ar" dir="rtl">أحمد مو طالب</span>            |
+|         | <span lang="ar">أحمد ما بيدرس</span>      | <span lang="ar">أحمد مو طالب</span>            |
 | Future  | *aḥmad* ***mā*** *ḥa‑/raḥ* *yedrus*                | *aḥmad* ***mā*** *ḥa‑/raḥ yekūn ṭāleb*                |
-|         | <span lang="ar" dir="rtl">أحمد ما حـ/رح يدرس</span> | <span lang="ar" dir="rtl">أحمد ما حـ/رح يكين طالب</span> |
+|         | <span lang="ar">أحمد ما حـ/رح يدرس</span> | <span lang="ar">أحمد ما حـ/رح يكين طالب</span> |
 
 ## *mā-n-*
 
@@ -633,7 +635,7 @@ present tense, otherwise the *mā* is used:
 
 |                  |                 |                                             |
 | :-               | :-              | -:                                          |
-| *mā‑n‑i juʿān* | I am not hungry | <span lang="ar" dir="rtl">ماني جوعان</span> |
+| *mā‑n‑i juʿān* | I am not hungry | <span lang="ar">ماني جوعان</span> |
 
 can be used to answer someone saying that you are hungry, asking whether you are hungry, or urging you to eat.
 
@@ -642,40 +644,40 @@ can be used to answer someone saying that you are hungry, asking whether you are
 
 The independent form of the numeral in the table below is used when the numeral stands by itself and is not followed by a noun, and the counting-form is used when the numeral is followed by counted a noun: *tlāte* 'three', but *tlatt ewlād* ‘three boys.’
 
-|     | Independent                  | Counting       | <span lang="ar" dir="rtl">مضاف</span>     | <span lang="ar" dir="rtl">غير مضاف</span>    |
+|     | Independent                  | Counting       | <span lang="ar">مضاف</span>     | <span lang="ar">غير مضاف</span>    |
 | :-  | :-                           | :-             | -:                                        | -:                                           |
-| 1   | *wāḥed* (m.)/*waḥde* (f.)   |                |                                           | <span lang="ar" dir="rtl">واحد/وحدة</span>   |
-| 2   | *etnēn* (m.)/*tentēn* (f.) |                |                                           | <span lang="ar" dir="rtl">اتنين/تنتين</span> |
+| 1   | *wāḥed* (m.)/*waḥde* (f.)   |                |                                           | <span lang="ar">واحد/وحدة</span>   |
+| 2   | *etnēn* (m.)/*tentēn* (f.) |                |                                           | <span lang="ar">اتنين/تنتين</span> |
 |     |                              |                |                                           |                                              |
-| 3   | *tlāte*                     | *tlatt*        | <span lang="ar" dir="rtl">تلات</span>      | <span lang="ar" dir="rtl">تلاتة</span>        |
-| 4   | *arbaʿa*                     | *arbaʿ*        | <span lang="ar" dir="rtl">أربع</span>     | <span lang="ar" dir="rtl">أربعة</span>       |
-| 5   | *khamse*                     | *khams*        | <span lang="ar" dir="rtl">خمس</span>      | <span lang="ar" dir="rtl">خمسة</span>        |
-| 6   | *sette*                      | *sett*         | <span lang="ar" dir="rtl">ست</span>       | <span lang="ar" dir="rtl">ستة</span>         |
-| 7   | *sabʿa*                      | *sabʿ*         | <span lang="ar" dir="rtl">سبع</span>      | <span lang="ar" dir="rtl">سبعة</span>        |
-| 8   | *tmāne*                     | *tman*         | <span lang="ar" dir="rtl">تمان</span>     | <span lang="ar" dir="rtl">تمانة</span>       |
-| 9   | *tesʿa*                      | *tesʿ*         | <span lang="ar" dir="rtl">تسع</span>      | <span lang="ar" dir="rtl">تسعة</span>        |
-| 10  | *ʿashara*                    | *ʿashar*       | <span lang="ar" dir="rtl">عشر</span>      | <span lang="ar" dir="rtl">عشرة</span>        |
+| 3   | *tlāte*                     | *tlatt*        | <span lang="ar">تلات</span>      | <span lang="ar">تلاتة</span>        |
+| 4   | *arbaʿa*                     | *arbaʿ*        | <span lang="ar">أربع</span>     | <span lang="ar">أربعة</span>       |
+| 5   | *khamse*                     | *khams*        | <span lang="ar">خمس</span>      | <span lang="ar">خمسة</span>        |
+| 6   | *sette*                      | *sett*         | <span lang="ar">ست</span>       | <span lang="ar">ستة</span>         |
+| 7   | *sabʿa*                      | *sabʿ*         | <span lang="ar">سبع</span>      | <span lang="ar">سبعة</span>        |
+| 8   | *tmāne*                     | *tman*         | <span lang="ar">تمان</span>     | <span lang="ar">تمانة</span>       |
+| 9   | *tesʿa*                      | *tesʿ*         | <span lang="ar">تسع</span>      | <span lang="ar">تسعة</span>        |
+| 10  | *ʿashara*                    | *ʿashar*       | <span lang="ar">عشر</span>      | <span lang="ar">عشرة</span>        |
 |     |                              |                |                                           |                                              |
-| 11  | *eddaʿsh*                    | *eddaʿshar*    | <span lang="ar" dir="rtl">ادعشر</span>    | <span lang="ar" dir="rtl">ادعش</span>        |
-| 12  | *eṭnaʿsh*                    | *eṭnaʿshar*    | <span lang="ar" dir="rtl">اطنعشر</span>   | <span lang="ar" dir="rtl">اطنعش</span>       |
-| 13  | *tlaṭaʿsh*                   | *tlaṭaʿshar*   | <span lang="ar" dir="rtl">تلاطعشر</span>   | <span lang="ar" dir="rtl">تلاطعش</span>       |
-| 14  | *arbaʿṭaʿsh*                 | *arbaʿṭaʿshar* | <span lang="ar" dir="rtl">اربعطعشر</span> | <span lang="ar" dir="rtl">اربعطعش</span>     |
-| 15  | *khamasṭaʿsh*                | *khamsṭaʿshar* | <span lang="ar" dir="rtl">خمسطعشر</span>  | <span lang="ar" dir="rtl">خمسطعش</span>      |
-| 16  | *seṭṭaʿsh*                   | *seṭṭaʿshar*   | <span lang="ar" dir="rtl">سطعشر</span>    | <span lang="ar" dir="rtl">سطعش</span>        |
-| 17  | *sabʿaṭaʿsh*                 | *sabʿaṭaʿshar* | <span lang="ar" dir="rtl">سبعطعشر</span>  | <span lang="ar" dir="rtl">سبعطعش</span>      |
-| 18  | *tmanṭaʿsh*                  | *tmanṭaʿshar*  | <span lang="ar" dir="rtl">تمانطعشر</span>  | <span lang="ar" dir="rtl">تمانطعش</span>      |
-| 19  | *tesʿaṭaʿsh*                 | *tesʿaṭaʿshar* | <span lang="ar" dir="rtl">تسعطعشر</span>  | <span lang="ar" dir="rtl">تسعطعش</span>      |
+| 11  | *eddaʿsh*                    | *eddaʿshar*    | <span lang="ar">ادعشر</span>    | <span lang="ar">ادعش</span>        |
+| 12  | *eṭnaʿsh*                    | *eṭnaʿshar*    | <span lang="ar">اطنعشر</span>   | <span lang="ar">اطنعش</span>       |
+| 13  | *tlaṭaʿsh*                   | *tlaṭaʿshar*   | <span lang="ar">تلاطعشر</span>   | <span lang="ar">تلاطعش</span>       |
+| 14  | *arbaʿṭaʿsh*                 | *arbaʿṭaʿshar* | <span lang="ar">اربعطعشر</span> | <span lang="ar">اربعطعش</span>     |
+| 15  | *khamasṭaʿsh*                | *khamsṭaʿshar* | <span lang="ar">خمسطعشر</span>  | <span lang="ar">خمسطعش</span>      |
+| 16  | *seṭṭaʿsh*                   | *seṭṭaʿshar*   | <span lang="ar">سطعشر</span>    | <span lang="ar">سطعش</span>        |
+| 17  | *sabʿaṭaʿsh*                 | *sabʿaṭaʿshar* | <span lang="ar">سبعطعشر</span>  | <span lang="ar">سبعطعش</span>      |
+| 18  | *tmanṭaʿsh*                  | *tmanṭaʿshar*  | <span lang="ar">تمانطعشر</span>  | <span lang="ar">تمانطعش</span>      |
+| 19  | *tesʿaṭaʿsh*                 | *tesʿaṭaʿshar* | <span lang="ar">تسعطعشر</span>  | <span lang="ar">تسعطعش</span>      |
 |     |                              |                |                                           |                                              |
-| 20  | *ʿeshrīn*                   |                |                                           | <span lang="ar" dir="rtl">عشرين</span>       |
-| 30  | *tlātīn*                   |                |                                           | <span lang="ar" dir="rtl">تلاتين</span>       |
-| 40  | *arbaʿīn*                   |                |                                           | <span lang="ar" dir="rtl">اربعين</span>      |
-| 50  | *khamsīn*                   |                |                                           | <span lang="ar" dir="rtl">خمسين</span>       |
-| 60  | *settīn*                    |                |                                           | <span lang="ar" dir="rtl">ستين</span>        |
-| 70  | *sabʿīn*                    |                |                                           | <span lang="ar" dir="rtl">سبعين</span>       |
-| 80  | *tmānīn*                   |                |                                           | <span lang="ar" dir="rtl">تمانين</span>      |
-| 90  | *tesʿīn*                    |                |                                           | <span lang="ar" dir="rtl">تسعين</span>       |
+| 20  | *ʿeshrīn*                   |                |                                           | <span lang="ar">عشرين</span>       |
+| 30  | *tlātīn*                   |                |                                           | <span lang="ar">تلاتين</span>       |
+| 40  | *arbaʿīn*                   |                |                                           | <span lang="ar">اربعين</span>      |
+| 50  | *khamsīn*                   |                |                                           | <span lang="ar">خمسين</span>       |
+| 60  | *settīn*                    |                |                                           | <span lang="ar">ستين</span>        |
+| 70  | *sabʿīn*                    |                |                                           | <span lang="ar">سبعين</span>       |
+| 80  | *tmānīn*                   |                |                                           | <span lang="ar">تمانين</span>      |
+| 90  | *tesʿīn*                    |                |                                           | <span lang="ar">تسعين</span>       |
 |     |                              |                |                                           |                                              |
-| 100 | *miyye*                      | *mīt*         |                                           | <span lang="ar" dir="rtl">مية</span>         |
+| 100 | *miyye*                      | *mīt*         |                                           | <span lang="ar">مية</span>         |
 
 
 
