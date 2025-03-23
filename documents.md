@@ -34,6 +34,10 @@ Hallberg, A. (2016). *Case endings in Spoken Standard Arabic: Statistics, norms,
 
 ## Articles
 
+
+Hallberg, A. (2025). *An 81-million-word multi-genre corpus of Arabic books*. *60*, 111456. <https://doi.org/10.1016/j.dib.2025.111456>
+([PDF](https://www.sciencedirect.com/science/article/pii/S235234092500188X/pdfft?md5=33a32ba53716ca6659707343b42b16a1&pid=1-s2.0-S235234092500188X-main.pdf))
+
 Hallberg, A. (2022). Principles of variation in the use of diacritics (*taškı̄l*) in Arabic books. *Language Sciences*, *93*, 1–15. <https://doi.org/10.1016/j.langsci.2022.101482>
 ([PDF](https://www.sciencedirect.com/science/article/pii/S0388000122000225/pdfft?isDTMRedir=true&download=true))
 
