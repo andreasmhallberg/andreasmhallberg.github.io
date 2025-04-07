@@ -19,6 +19,28 @@ I de glosserade exemplen nedan är de arabiska elementen angivna i kursiv text o
 
 ---- 
 
+- *2025-08-03* M.Q.
+
+  *bidd-a* | *sana* | till
+  bill-3FS | år | till
+
+  |Det behåvs ett år till.|
+
+
+- *2025-08-03* R.
+
+  *ʿind-ak* | krok? | *bidd-i* | *rakkib* | släp
+  hos-2MS | krok? | vill-1S | 1S.monterar | släp
+
+  | Har du en krok? Jag vill montera ett släp. |
+
+- *2025-08-03* M.
+
+  *ʾaddēsh* | *b-tadfaʿ* | *bi-l*-månad?
+  hur-mycket | IND-2MS.betalar | i-DEF-månad
+
+  | Hur mycket betalar du i månaden? |
+
 - *2024-09-02* -- X. (frisör)
 
   *mā* | *btḥibb* | *at*‑tunna | *mū*?
