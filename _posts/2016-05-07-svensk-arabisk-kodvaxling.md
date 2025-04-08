@@ -22,7 +22,7 @@ I de glosserade exemplen nedan är de arabiska elementen angivna i kursiv text o
 - *2025-08-03* M.Q.
 
   *bidd-a* | *sana* | till
-  bill-3FS | år | till
+  vill-3FS | år | till
 
   |Det behåvs ett år till.|
 
