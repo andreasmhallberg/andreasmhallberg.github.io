@@ -114,8 +114,8 @@ Abd Allāh, N. ([2023](https://sverigesradio.se/artikel/كتاب-جديد-يهد
 *كتاب جديد يهدف الى تعريف السويديين باللغة العربية*.
 Radio Sweden Arabic.
 
-Etezaz, Y. ([2023](http://www.gp.se/1.114823207)).
-Experten imponerad av Åkessons tal på arabiska.
+Etezaz, Y. ([2023](https://www.gp.se/politik/experten-imponerad-av-akessons-tal-pa-arabiska.ecb70f63-52f8-4061-8983-7e635f3d1bc9)).
+Experten om Åkessons arabiska.
 *Göteborgsposten*.
 
 Jakobsson, H. ([2023](https://www.dn.se/sverige/segregation-blev-rasism-nar-s-kampanjar-pa-arabiska/)).
