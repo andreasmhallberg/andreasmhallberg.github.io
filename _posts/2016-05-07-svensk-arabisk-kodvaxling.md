@@ -19,17 +19,26 @@ I de glosserade exemplen nedan är de arabiska elementen angivna i kursiv text o
 
 ---- 
 
+- *2025-09-03* Kassörska i livsmedelsaffär, till kollega på telefon.
+
+  maskin | *el*‑pant | full
+  maskin | DEF‑pant | full
+
+  |Pantmaskinen är full.|
+
+  En mening som består helt av svenska ord och av helt arabisk syntax. Arabiska har inga sammansättningar, så *pantmaskin* måste brytas upp en genitivkonstruktion (*maskin al‑pant*, 'pantens maskin'), och i enlighet med arabisk syntax finns det ingen kopula ("är") eftersom detta är en så kallad nominalsats.
+
 - *2025-08-03* M.Q.
 
-  *bidd-a* | *sana* | till
-  vill-3FS | år | till
+  *bidd‑a* | *sana* | till
+  vill‑3FS | år | till
 
   |Det behåvs ett år till.|
 
 
 - *2025-08-03* R.
 
-  *ʿind-ak* | krok? | *bidd-i* | *rakkib* | släp
+  *ʿind‑ak* | krok? | *bidd‑i* | *rakkib* | släp
   hos-2MS | krok? | vill-1S | 1S.monterar | släp
 
   | Har du en krok? Jag vill montera ett släp. |
