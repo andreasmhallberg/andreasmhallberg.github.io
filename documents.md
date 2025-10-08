@@ -34,7 +34,7 @@ Hallberg, A. (2016). *Case endings in Spoken Standard Arabic: Statistics, norms,
 
 ## Articles
 
-Hallberg, A., & Wennerholm, M. (2025, forthcoming). Morphological optionality in Arabic informal reading aloud. *Written Language and Literacy*, *24*. 
+Hallberg, A., & Wennerholm, M. (in press). Morphological optionality in Arabic informal reading aloud. *Written Language and Literacy*, *24*, 127–151. <https://benjamins.com/catalog/wll.00086.hal>
 
 Hallberg, A. (2025). *An 81-million-word multi-genre corpus of Arabic books*. *60*, 111456. <https://doi.org/10.1016/j.dib.2025.111456>
 ([PDF](https://www.sciencedirect.com/science/article/pii/S235234092500188X/pdfft?md5=33a32ba53716ca6659707343b42b16a1&pid=1-s2.0-S235234092500188X-main.pdf))
