@@ -22,7 +22,7 @@ I de glosserade exemplen nedan är de arabiska elementen angivna i kursiv text o
 - *2025-09-03* Kassörska i livsmedelsaffär, till kollega på telefon.
 
   maskin | *el*‑pant | full
-  maskin | DEF‑pant | full
+  maskin | BES‑pant | full
 
   |Pantmaskinen är full.|
 
