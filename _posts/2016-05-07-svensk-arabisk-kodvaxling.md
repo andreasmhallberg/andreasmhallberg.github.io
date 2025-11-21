@@ -19,6 +19,13 @@ I de glosserade exemplen nedan är de arabiska elementen angivna i kursiv text o
 
 ---- 
 
+- *2025-10* A.
+  
+  *taʿraf* | *kīf* | *al*‑org | *illi* | *li‑l*‑barn | *b‑t*‑låter
+  vet.2MS | hur | DEF‑synth | som | till‑DEF‑barn | IND‑2MS‑låter
+
+  |Vet du hur en synth som är för barn låter?|
+
 - *2025-09-03* Kassörska i livsmedelsaffär, till kollega på telefon.
 
   maskin | *el*‑pant | full
