@@ -93,6 +93,10 @@ These documents are subject to continuous tinkering. The latest version can alwa
 
 ## Media appearances
 
+Junblat, F. (2026)[https://www.sverigesradio.se/avsnitt/نظرة-أقرب-لغات-الاقليات-ومكانة-اللغة-العربية-في-السويد]. 
+نظرة أقرب - لغات الأقليات ومكانة اللغة العربية في السويد
+*Sveriges Radio.* 
+
 Fares, E. ([2025](https://www.etc.se/kultur-noje/foerlusten-av-arabiskan-aer-det-skamligaste-i-mitt-liv)). Att förlora arabiskan är det skamligaste i mitt liv. *Dagens ETC*.
 
 Bergh, E. ([2024](https://sites.jmk.su.se/laget/alkompis-varnar-for-desinformation-de-vill-att-parallellsamhallet-ska-bli-starkt/7910)).
@@ -113,7 +117,7 @@ Rasper, E. ([2023](https://sverigesradio.se/avsnitt/allt-du-vill-veta-om-arabisk
 
 Abd Allāh, N. ([2023](https://sverigesradio.se/artikel/كتاب-جديد-يهدف-الى-تعريف-السويديين-باللغة-العربية)).
 *كتاب جديد يهدف الى تعريف السويديين باللغة العربية*.
-Radio Sweden Arabic.
+Sveriges Radio.
 
 Etezaz, Y. ([2023](https://www.gp.se/politik/experten-imponerad-av-akessons-tal-pa-arabiska.ecb70f63-52f8-4061-8983-7e635f3d1bc9)).
 Experten om Åkessons arabiska.
