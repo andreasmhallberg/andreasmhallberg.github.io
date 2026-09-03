@@ -36,7 +36,7 @@ Hallberg, A. (2016). *Case endings in Spoken Standard Arabic: Statistics, norms,
 ## Articles
 
 Hallberg, A. (2026). Arabiska för SFI-lärare. *Lisetten*, *2*, 22–23.
-([PDF](~/blog/documents/hallber-2026-sfi.pdf))
+([PDF](/documents/hallberg-2026-sfi.pdf))
 
 Hallberg, A., & Wennerholm, M. (2024/2026). Morphological optionality in Arabic informal reading aloud. *Written Language and Literacy*, *24*, 127–151. <https://doi.org/10.1075/wll.00086.hal>
 ([PDF](https://www.jbe-platform.com/deliver/fulltext/wll.00086.hal.pdf?itemId=%2Fcontent%2Fjournals%2F10.1075%2Fwll.00086.hal&mimeType=pdf&containerItemId=content/journals/15706001))
