@@ -97,6 +97,8 @@ These documents are subject to continuous tinkering. The latest version can alwa
 
 ## Media appearances
 
+Löfstedth, M. (2026). Arabiska på schemat. *Språktidningen,* (6), 66--71.
+
 Junblat, F. ([2026](https://www.sverigesradio.se/avsnitt/نظرة-أقرب-لغات-الاقليات-ومكانة-اللغة-العربية-في-السويد)). 
 نظرة أقرب - لغات الأقليات ومكانة اللغة العربية في السويد
 *Sveriges Radio.* 
